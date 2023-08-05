@@ -161,7 +161,7 @@
         "Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;",
         "stopTraining",
         "manual",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -3925,7 +3925,7 @@
 
     move-result v2
 
-    const v5, 0x7f0801ab
+    const v5, 0x7f0801ad
 
     const v6, 0x7f07024c
 

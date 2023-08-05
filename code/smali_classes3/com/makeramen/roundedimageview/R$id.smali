@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final clamp:I = 0x7f0a0104
+.field public static final clamp:I = 0x7f0a0105
 
-.field public static final mirror:I = 0x7f0a02ed
+.field public static final mirror:I = 0x7f0a02ee
 
-.field public static final repeat:I = 0x7f0a03ab
+.field public static final repeat:I = 0x7f0a03ac
 
 
 # direct methods

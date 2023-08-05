@@ -345,7 +345,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0803b2
+    const v4, 0x7f0803b5
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -509,7 +509,7 @@
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0161
+    const p1, 0x7f0a0162
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->elvWorkouts:Landroid/widget/ExpandableListView;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -531,7 +531,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0498
+    const p1, 0x7f0a0499
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txv1:Landroid/widget/TextView;
 
-    const p1, 0x7f0a01ff
+    const p1, 0x7f0a0200
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -553,7 +553,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->img1:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0244
+    const p1, 0x7f0a0245
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -564,7 +564,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04a0
+    const p1, 0x7f0a04a1
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -575,7 +575,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvAiComment:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b6
+    const p1, 0x7f0a04b7
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;

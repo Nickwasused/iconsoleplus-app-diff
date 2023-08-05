@@ -5,12 +5,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLogoUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LogoUtil.kt\ncom/changyow/iconsole4th/util/LogoUtil\n+ 2 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,289:1\n7#2:290\n*S KotlinDebug\n*F\n+ 1 LogoUtil.kt\ncom/changyow/iconsole4th/util/LogoUtil\n*L\n254#1:290\n*E\n"
+    value = "SMAP\nLogoUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LogoUtil.kt\ncom/changyow/iconsole4th/util/LogoUtil\n+ 2 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,292:1\n7#2:293\n*S KotlinDebug\n*F\n+ 1 LogoUtil.kt\ncom/changyow/iconsole4th/util/LogoUtil\n*L\n257#1:293\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0007\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0018\u0010\u0012\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u00152\u0006\u0010\u0016\u001a\u00020\u0004H\u0002J\u0010\u0010\u0017\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u0018\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u0019\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u001a\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u001b\u001a\u00020\u00132\u0006\u0010\u001c\u001a\u00020\u001dH\u0007J\u0010\u0010\u001e\u001a\u00020\u00132\u0006\u0010\u001c\u001a\u00020\u001dH\u0003J\u0010\u0010\u001f\u001a\u00020\u00132\u0006\u0010\r\u001a\u00020\u0004H\u0002J\n\u0010 \u001a\u0004\u0018\u00010\u0004H\u0007J\u0008\u0010!\u001a\u00020\u0004H\u0007J\u0008\u0010\"\u001a\u00020\u0004H\u0007J\u0008\u0010#\u001a\u00020\u0004H\u0007J\u0012\u0010$\u001a\u00020\u00132\u0008\u0010%\u001a\u0004\u0018\u00010&H\u0002J\u0006\u0010\'\u001a\u00020(J\u0006\u0010)\u001a\u00020(J\u0008\u0010*\u001a\u00020\u0013H\u0007J\u0018\u0010+\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000e2\u0006\u0010-\u001a\u00020\u0004H\u0002J\u000e\u0010.\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000eJ\u0016\u0010.\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000e2\u0006\u0010-\u001a\u00020\u0004R\u0014\u0010\u0003\u001a\u00020\u0004X\u0086D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006R\u001e\u0010\u0007\u001a\u0004\u0018\u00010\u00088FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\t\u0010\n\"\u0004\u0008\u000b\u0010\u000cR\u001c\u0010\r\u001a\u0004\u0018\u00010\u000e8FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000f\u0010\u0002\u001a\u0004\u0008\u0010\u0010\u0011\u00a8\u0006/"
+        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0007\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0018\u0010\u0012\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u00152\u0006\u0010\u0016\u001a\u00020\u0004H\u0002J\u0010\u0010\u0017\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0012\u0010\u0018\u001a\u00020\u00132\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u0015H\u0007J\u0010\u0010\u0019\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u001a\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0015H\u0007J\u0010\u0010\u001b\u001a\u00020\u00132\u0006\u0010\u001c\u001a\u00020\u001dH\u0007J\u0010\u0010\u001e\u001a\u00020\u00132\u0006\u0010\u001c\u001a\u00020\u001dH\u0003J\u0010\u0010\u001f\u001a\u00020\u00132\u0006\u0010\r\u001a\u00020\u0004H\u0002J\n\u0010 \u001a\u0004\u0018\u00010\u0004H\u0007J\u0008\u0010!\u001a\u00020\u0004H\u0007J\u0008\u0010\"\u001a\u00020\u0004H\u0007J\u0008\u0010#\u001a\u00020\u0004H\u0007J\u0012\u0010$\u001a\u00020\u00132\u0008\u0010%\u001a\u0004\u0018\u00010&H\u0002J\u0006\u0010\'\u001a\u00020(J\u0006\u0010)\u001a\u00020(J\u0008\u0010*\u001a\u00020\u0013H\u0007J\u0018\u0010+\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000e2\u0006\u0010-\u001a\u00020\u0004H\u0002J\u000e\u0010.\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000eJ\u0016\u0010.\u001a\u00020\u00132\u0006\u0010,\u001a\u00020\u000e2\u0006\u0010-\u001a\u00020\u0004R\u0014\u0010\u0003\u001a\u00020\u0004X\u0086D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006R\u001e\u0010\u0007\u001a\u0004\u0018\u00010\u00088FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\t\u0010\n\"\u0004\u0008\u000b\u0010\u000cR\u001c\u0010\r\u001a\u0004\u0018\u00010\u000e8FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000f\u0010\u0002\u001a\u0004\u0008\u0010\u0010\u0011\u00a8\u0006/"
     }
     d2 = {
         "Lcom/changyow/iconsole4th/util/LogoUtil;",
@@ -60,7 +60,7 @@
         "bmp",
         "filename",
         "saveLogo",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -329,18 +329,22 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string/jumbo v0, "view"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 128
-    instance-of v0, p0, Landroid/widget/TextView;
-
-    if-nez v0, :cond_0
+    if-nez p0, :cond_0
 
     return-void
 
+    .line 129
     :cond_0
+    instance-of v0, p0, Landroid/widget/TextView;
+
+    if-nez v0, :cond_1
+
+    return-void
+
+    .line 131
+    :cond_1
+    check-cast p0, Landroid/widget/TextView;
+
     const/4 v0, 0x2
 
     new-array v1, v0, [[I
@@ -367,7 +371,7 @@
 
     new-array v3, v0, [I
 
-    .line 132
+    .line 135
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
 
     move-result-object v4
@@ -378,7 +382,7 @@
 
     aput v4, v3, v5
 
-    .line 133
+    .line 136
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
 
     move-result-object v4
@@ -389,17 +393,17 @@
 
     aput v4, v3, v2
 
-    .line 135
+    .line 138
     new-instance v4, Landroid/content/res/ColorStateList;
 
     invoke-direct {v4, v1, v3}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
-    .line 136
-    invoke-virtual {p0, v4}, Landroid/view/View;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+    .line 139
+    invoke-virtual {p0, v4}, Landroid/widget/TextView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
     new-array v0, v0, [I
 
-    .line 139
+    .line 142
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
 
     move-result-object v3
@@ -410,7 +414,7 @@
 
     aput v3, v0, v5
 
-    .line 140
+    .line 143
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
 
     move-result-object v3
@@ -421,17 +425,15 @@
 
     aput v3, v0, v2
 
-    .line 142
+    .line 145
     new-instance v2, Landroid/content/res/ColorStateList;
 
     invoke-direct {v2, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
-    .line 143
-    check-cast p0, Landroid/widget/TextView;
-
+    .line 146
     invoke-virtual {p0, v2}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
-    .line 144
+    .line 147
     invoke-static {p0, v2}, Landroidx/core/widget/TextViewCompat;->setCompoundDrawableTintList(Landroid/widget/TextView;Landroid/content/res/ColorStateList;)V
 
     return-void
@@ -490,7 +492,7 @@
 
     move p0, v0
 
-    .line 161
+    .line 164
     :cond_0
     sget-object v1, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
@@ -500,20 +502,20 @@
 
     if-eqz v1, :cond_1
 
-    .line 162
+    .line 165
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getClientid()I
 
     move-result v1
 
     if-eq v1, p0, :cond_2
 
-    .line 164
+    .line 167
     :cond_1
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 165
+    .line 168
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v2
@@ -528,21 +530,21 @@
 
     move-result-object v0
 
-    .line 166
+    .line 169
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
     const-string v1, "ClientID"
 
-    .line 167
+    .line 170
     invoke-interface {v0, v1, p0}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 168
+    .line 171
     invoke-static {p0}, Lcom/changyow/iconsole4th/util/LogoUtil;->fetchBrandingInfo(I)V
 
     :cond_2
@@ -554,7 +556,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    .line 185
+    .line 188
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->TAG:Ljava/lang/String;
 
     sget-object v1, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
@@ -587,7 +589,7 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 186
+    .line 189
     sget-object v0, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     new-array v0, v1, [Ljava/lang/Object;
@@ -610,7 +612,7 @@
 
     invoke-static {p0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 187
+    .line 190
     new-instance v0, Lcom/changyow/iconsole4th/util/LogoUtil$fetchBrandingInfo$1;
 
     invoke-direct {v0}, Lcom/changyow/iconsole4th/util/LogoUtil$fetchBrandingInfo$1;-><init>()V
@@ -625,7 +627,7 @@
 .method private final fetchLogoFromUrl(Ljava/lang/String;)V
     .locals 1
 
-    .line 225
+    .line 228
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -652,7 +654,7 @@
 .method public static final getLogo()Landroid/graphics/Bitmap;
     .locals 4
 
-    .line 248
+    .line 251
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -685,7 +687,7 @@
 
     return-object v1
 
-    .line 252
+    .line 255
     :cond_0
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
@@ -695,14 +697,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 253
+    .line 256
     sget-object v1, Lcom/changyow/iconsole4th/models/ImageDownloaded;->LOGO:Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getImageBitmap(Lcom/changyow/iconsole4th/models/ImageDownloaded;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 252
+    .line 255
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
     move-object v3, v1
@@ -719,7 +721,7 @@
     :goto_0
     if-nez v1, :cond_2
 
-    .line 255
+    .line 258
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -728,24 +730,24 @@
 
     move-result-object v0
 
-    .line 256
+    .line 259
     new-instance v1, Ljava/io/File;
 
     const-string v2, "clientLogo.jpg"
 
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 257
+    .line 260
     new-instance v0, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 258
+    .line 261
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v2, v0, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 259
+    .line 262
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
@@ -754,20 +756,20 @@
 
     move-result-object v0
 
-    .line 260
+    .line 263
     sget-object v1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
     :cond_2
     if-nez v0, :cond_3
 
-    .line 262
+    .line 265
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->TAG:Ljava/lang/String;
 
     const-string v1, "Use Defalut LOGO"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 263
+    .line 266
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -776,7 +778,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0801f2
+    const v1, 0x7f0801f4
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -935,14 +937,14 @@
 
     if-eqz p1, :cond_3
 
-    .line 199
+    .line 202
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->isJsonObject()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 200
+    .line 203
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -951,7 +953,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 201
+    .line 204
     move-object v0, p1
 
     check-cast v0, Ljava/lang/CharSequence;
@@ -981,7 +983,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 206
+    .line 209
     :try_start_0
     sget-object v3, Lcom/changyow/iconsole4th/models/BrandingInfo;->Companion:Lcom/changyow/iconsole4th/models/BrandingInfo$Companion;
 
@@ -993,7 +995,7 @@
 
     goto :goto_1
 
-    .line 208
+    .line 211
     :catch_0
     sget-object v3, Lcom/changyow/iconsole4th/util/LogoUtil;->TAG:Ljava/lang/String;
 
@@ -1006,13 +1008,13 @@
 
     return-void
 
-    .line 214
+    .line 217
     :cond_2
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v3
 
-    .line 215
+    .line 218
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v4
@@ -1027,24 +1029,24 @@
 
     move-result-object v2
 
-    .line 216
+    .line 219
     invoke-interface {v2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
 
     const-string v3, "BrandingInfo"
 
-    .line 217
+    .line 220
     invoke-interface {v2, v3, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object p1
 
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 218
+    .line 221
     sput-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->brandingInfo:Lcom/changyow/iconsole4th/models/BrandingInfo;
 
-    .line 219
+    .line 222
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
 
     move-result-object p1
@@ -1053,7 +1055,7 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->prepareImages()V
 
-    .line 220
+    .line 223
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -1073,7 +1075,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    .line 174
+    .line 177
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
@@ -1082,12 +1084,12 @@
 
     if-nez v0, :cond_0
 
-    .line 176
+    .line 179
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 177
+    .line 180
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1106,12 +1108,12 @@
 
     const-string v1, "ClientID"
 
-    .line 178
+    .line 181
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 179
+    .line 182
     invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->fetchBrandingInfo(I)V
 
     :cond_0
@@ -1121,7 +1123,7 @@
 .method private final saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V
     .locals 3
 
-    .line 277
+    .line 280
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1130,18 +1132,18 @@
 
     move-result-object v0
 
-    .line 278
+    .line 281
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v0, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 281
+    .line 284
     :try_start_0
     new-instance p2, Ljava/io/FileOutputStream;
 
     invoke-direct {p2, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 282
+    .line 285
     sget-object v0, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v1, 0x64
@@ -1152,7 +1154,7 @@
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 283
+    .line 286
     invoke-virtual {p2}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1162,10 +1164,10 @@
     :catch_0
     move-exception p1
 
-    .line 285
+    .line 288
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 287
+    .line 290
     :goto_0
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -1205,7 +1207,7 @@
 .method public final isBrandingInfoValid()Z
     .locals 1
 
-    .line 148
+    .line 151
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
 
     move-result-object v0
@@ -1226,7 +1228,7 @@
 .method public final isStyleValid()Z
     .locals 1
 
-    .line 152
+    .line 155
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
 
     move-result-object v0
@@ -1265,7 +1267,7 @@
 
     const-string v0, "clientLogo.jpg"
 
-    .line 269
+    .line 272
     invoke-direct {p0, p1, v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-void
@@ -1282,7 +1284,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 273
+    .line 276
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/LogoUtil;->saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-void

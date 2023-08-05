@@ -254,7 +254,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d011c
+    const v3, 0x7f0d011d
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -274,7 +274,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d011d
+    const v3, 0x7f0d011e
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -294,7 +294,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d011e
+    const v3, 0x7f0d011f
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -314,7 +314,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d011f
+    const v3, 0x7f0d0120
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -334,7 +334,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d0120
+    const v3, 0x7f0d0121
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -352,7 +352,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d0121
+    const v3, 0x7f0d0122
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -371,7 +371,7 @@
 
     if-ne p2, v0, :cond_6
 
-    const p2, 0x7f0a0498
+    const p2, 0x7f0a0499
 
     .line 54
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object p2, v1, Lcom/changyow/iconsole4th/adapter/tutorial/StartupTutorAdapter$ViewHolder;->txv1:Landroid/widget/TextView;
 
-    const p2, 0x7f0a049b
+    const p2, 0x7f0a049c
 
     .line 55
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

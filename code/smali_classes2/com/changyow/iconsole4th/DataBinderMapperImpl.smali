@@ -33,14 +33,14 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d00a3
+    const v2, 0x7f0d00a4
 
     const/4 v3, 0x1
 
     .line 33
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0d00a6
+    const v2, 0x7f0d00a7
 
     .line 34
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V
@@ -225,7 +225,7 @@
     throw p1
 
     :cond_4
-    const-string p3, "layout-sw960dp-port/fragment_get_started_0"
+    const-string p3, "layout/fragment_get_started_0"
 
     .line 47
     invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -235,14 +235,14 @@
     if-eqz p3, :cond_5
 
     .line 48
-    new-instance p3, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpPortImpl;
+    new-instance p3, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingImpl;
 
-    invoke-direct {p3, p1, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpPortImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {p3, p1, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
     :cond_5
-    const-string p3, "layout/fragment_get_started_0"
+    const-string p3, "layout-sw960dp-port/fragment_get_started_0"
 
     .line 50
     invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -252,9 +252,9 @@
     if-eqz p3, :cond_6
 
     .line 51
-    new-instance p3, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingImpl;
+    new-instance p3, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpPortImpl;
 
-    invoke-direct {p3, p1, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {p3, p1, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpPortImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 

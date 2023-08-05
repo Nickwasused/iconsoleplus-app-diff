@@ -103,7 +103,7 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a03d6
+    const v0, 0x7f0a03d7
 
     .line 98
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
@@ -178,7 +178,7 @@
     .line 80
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 82
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
     .line 83
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
     .line 84
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
     .line 85
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
     .line 88
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08018a
+    const v0, 0x7f08018c
 
     .line 89
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V

@@ -16,9 +16,9 @@
 
 .field public static final FLAVOR_mode:Ljava/lang/String; = "cn"
 
-.field public static final VERSION_CODE:I = 0x110
+.field public static final VERSION_CODE:I = 0x112
 
-.field public static final VERSION_NAME:Ljava/lang/String; = "1.8.52"
+.field public static final VERSION_NAME:Ljava/lang/String; = "1.8.54"
 
 
 # direct methods

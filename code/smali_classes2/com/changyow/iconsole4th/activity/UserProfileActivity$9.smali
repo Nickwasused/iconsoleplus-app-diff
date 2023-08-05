@@ -1,11 +1,11 @@
 .class Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;
-.super Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;
+.super Lcom/changyow/iconsole4th/interfaces/OnDoublePickerPickListener;
 .source "UserProfileActivity.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showWeightPicker()V
+    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showHeightPicker()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,39 +30,51 @@
         }
     .end annotation
 
-    .line 772
+    .line 775
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;-><init>()V
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnDoublePickerPickListener;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onNumberPicked(ILjava/lang/Number;)V
-    .locals 2
+.method public OnDoublePickerPicked(ILjava/lang/String;ILjava/lang/String;)V
+    .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
+            0x0,
+            0x0,
             0x0,
             0x0
         }
         names = {
-            "index",
-            "item"
+            "opt1Index",
+            "opt1Item",
+            "opt2Index",
+            "opt2Item"
         }
     .end annotation
 
-    .line 776
+    .line 779
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    add-int/lit8 p1, p1, 0x28
+    add-int/lit8 p1, p1, 0x3
 
-    int-to-double v0, p1
+    mul-int/lit8 p1, p1, 0xc
 
-    iput-wide v0, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
+    add-int/2addr p1, p3
 
-    .line 777
+    int-to-double p3, p1
+
+    invoke-static {p3, p4}, Lcom/changyow/iconsole4th/util/UnitUtil;->inch2cm(D)D
+
+    move-result-wide p3
+
+    iput-wide p3, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
+
+    .line 780
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V

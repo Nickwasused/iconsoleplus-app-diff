@@ -641,7 +641,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->btnDone:Landroid/widget/Button;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 58
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -652,7 +652,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0247
+    const p1, 0x7f0a0248
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -663,7 +663,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->layout3:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a02c9
+    const p1, 0x7f0a02ca
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -674,7 +674,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->lvHRCE:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0498
+    const p1, 0x7f0a0499
 
     .line 61
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -685,7 +685,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->txv1:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04bb
+    const p1, 0x7f0a04bc
 
     .line 62
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -696,7 +696,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->txvConnectedHRCE:Landroid/widget/TextView;
 
-    const p1, 0x7f0a023d
+    const p1, 0x7f0a023e
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -707,7 +707,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->lavHRAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
-    const p1, 0x7f0a0244
+    const p1, 0x7f0a0245
 
     .line 64
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -718,7 +718,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04aa
+    const p1, 0x7f0a04ab
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;
@@ -729,7 +729,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->txvBPM:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04e1
+    const p1, 0x7f0a04e2
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BLEBeltConnectActivity;->findViewById(I)Landroid/view/View;

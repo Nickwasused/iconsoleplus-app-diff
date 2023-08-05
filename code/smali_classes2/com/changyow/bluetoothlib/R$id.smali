@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final row_description:I = 0x7f0a03c7
+.field public static final row_description:I = 0x7f0a03c8
 
-.field public static final row_title:I = 0x7f0a03ca
+.field public static final row_title:I = 0x7f0a03cb
 
 
 # direct methods

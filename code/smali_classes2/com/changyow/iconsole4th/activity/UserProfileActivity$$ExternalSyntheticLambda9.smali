@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda9;->f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$showChooseGenderDialog$14$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$onCreate$1$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

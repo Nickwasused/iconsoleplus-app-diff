@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00ac
+    const p3, 0x7f0d00ad
 
     const/4 v0, 0x0
 

@@ -27,7 +27,7 @@
         "onSuccess",
         "jsonElement",
         "Lcom/google/gson/JsonElement;",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -43,7 +43,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 187
+    .line 190
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
 
     return-void
@@ -58,7 +58,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 193
+    .line 196
     sget-object p1, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/util/LogoUtil;->getTAG()Ljava/lang/String;
@@ -79,7 +79,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 189
+    .line 192
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-static {v0, p1}, Lcom/changyow/iconsole4th/util/LogoUtil;->access$handleBrandingInfo(Lcom/changyow/iconsole4th/util/LogoUtil;Lcom/google/gson/JsonElement;)V

@@ -40,18 +40,18 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/DataBinderMapperImpl$InnerLayoutIdLookup;->sKeys:Ljava/util/HashMap;
 
-    const v1, 0x7f0d00a3
+    const v1, 0x7f0d00a4
 
     .line 128
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    const-string v2, "layout-sw960dp-port/fragment_get_started_0"
+    const-string v2, "layout/fragment_get_started_0"
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v2, "layout/fragment_get_started_0"
+    const-string v2, "layout-sw960dp-port/fragment_get_started_0"
 
     .line 129
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -61,7 +61,7 @@
     .line 130
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0d00a6
+    const v1, 0x7f0d00a7
 
     .line 131
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

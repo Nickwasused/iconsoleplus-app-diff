@@ -98,19 +98,19 @@
         }
     .end annotation
 
-    .line 235
+    .line 238
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
-    .line 236
+    .line 239
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->permissionsAndroid12WithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 238
+    .line 241
     :cond_0
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->permissionsAndroid11AndBelowWithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;Landroid/view/View;)V
 
@@ -129,89 +129,89 @@
         }
     .end annotation
 
-    .line 284
+    .line 287
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlQuickstart:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_0
 
-    .line 285
+    .line 288
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlQuickstartPressed()V
 
     goto :goto_0
 
-    .line 286
+    .line 289
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_1
 
-    .line 287
+    .line 290
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlIntervalPressed()V
 
     goto :goto_0
 
-    .line 288
+    .line 291
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_2
 
-    .line 289
+    .line 292
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPowerPressed()V
 
     goto :goto_0
 
-    .line 290
+    .line 293
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_3
 
-    .line 291
+    .line 294
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlProgramsPressed()V
 
     goto :goto_0
 
-    .line 292
+    .line 295
     :cond_3
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_4
 
-    .line 293
+    .line 296
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTrainingPressed()V
 
     goto :goto_0
 
-    .line 294
+    .line 297
     :cond_4
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_5
 
-    .line 295
+    .line 298
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreamingPressed()V
 
     goto :goto_0
 
-    .line 296
+    .line 299
     :cond_5
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_6
 
-    .line 297
+    .line 300
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercisePressed()V
 
     goto :goto_0
 
-    .line 298
+    .line 301
     :cond_6
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
     if-ne p1, v0, :cond_7
 
-    .line 299
+    .line 302
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravityPressed()V
 
     :cond_7
@@ -250,7 +250,7 @@
         }
     .end annotation
 
-    .line 217
+    .line 220
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/EnabledMode;->getBgImage()Ljava/lang/String;
 
     move-result-object v0
@@ -267,7 +267,7 @@
 
     if-nez v0, :cond_0
 
-    .line 218
+    .line 221
     sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
@@ -283,7 +283,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 222
+    .line 225
     :goto_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -504,20 +504,29 @@
     .line 171
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;
 
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_1
+
+    iget-object v1, v1, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;->llGetStarted:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_1
+
+    .line 173
+    iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;
+
     iget-object v1, v1, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;->llGetStarted:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->getChildCount()I
 
     move-result v1
 
-    const/4 v2, 0x0
-
     move v3, v2
 
     :goto_1
     if-ge v3, v1, :cond_1
 
-    .line 173
+    .line 175
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;
 
     iget-object v4, v4, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;->llGetStarted:Landroid/widget/LinearLayout;
@@ -532,7 +541,7 @@
 
     goto :goto_1
 
-    .line 175
+    .line 178
     :cond_1
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -544,7 +553,7 @@
 
     invoke-virtual {v1, v3}, Landroidx/fragment/app/FragmentActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 176
+    .line 179
     sget-object v1, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
@@ -580,7 +589,7 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/models/EnabledMode;
 
-    .line 178
+    .line 181
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/models/EnabledMode;->getMode()Ljava/lang/String;
 
     move-result-object v4
@@ -744,7 +753,7 @@
 
     goto/16 :goto_2
 
-    .line 202
+    .line 205
     :pswitch_0
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
@@ -752,7 +761,7 @@
 
     goto/16 :goto_2
 
-    .line 181
+    .line 184
     :pswitch_1
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlQuickstart:Landroid/widget/RelativeLayout;
 
@@ -760,7 +769,7 @@
 
     goto/16 :goto_2
 
-    .line 184
+    .line 187
     :pswitch_2
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
@@ -768,7 +777,7 @@
 
     goto/16 :goto_2
 
-    .line 205
+    .line 208
     :pswitch_3
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
@@ -776,7 +785,7 @@
 
     goto/16 :goto_2
 
-    .line 190
+    .line 193
     :pswitch_4
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
@@ -784,7 +793,7 @@
 
     goto/16 :goto_2
 
-    .line 187
+    .line 190
     :pswitch_5
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoute:Landroid/widget/RelativeLayout;
 
@@ -792,7 +801,7 @@
 
     goto/16 :goto_2
 
-    .line 196
+    .line 199
     :pswitch_6
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
@@ -800,7 +809,7 @@
 
     goto/16 :goto_2
 
-    .line 193
+    .line 196
     :pswitch_7
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
@@ -808,7 +817,7 @@
 
     goto/16 :goto_2
 
-    .line 199
+    .line 202
     :pswitch_8
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
@@ -816,7 +825,7 @@
 
     goto/16 :goto_2
 
-    .line 210
+    .line 213
     :cond_b
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
@@ -855,7 +864,7 @@
 .method synthetic lambda$initCustomTheme$9$com-changyow-iconsole4th-fragment-GetStartedFragment()V
     .locals 1
 
-    .line 175
+    .line 178
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;->llGetStarted:Landroid/widget/LinearLayout;
@@ -967,7 +976,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 224
+    .line 227
     new-instance v0, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getResources()Landroid/content/res/Resources;
@@ -981,7 +990,7 @@
     :cond_0
     const-string/jumbo p1, "title"
 
-    .line 225
+    .line 228
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v0
@@ -990,7 +999,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 226
+    .line 229
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object p1
@@ -1010,7 +1019,7 @@
     :cond_1
     const-string p1, "desc"
 
-    .line 227
+    .line 230
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v0
@@ -1019,7 +1028,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 228
+    .line 231
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object p1
@@ -1036,7 +1045,7 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 229
+    .line 232
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBinding;
 
@@ -1050,7 +1059,7 @@
 .method synthetic lambda$showNeverAskAgainForBluetooth$14$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 466
+    .line 469
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.settings.APPLICATION_DETAILS_SETTINGS"
@@ -1059,20 +1068,20 @@
 
     const/high16 p2, 0x10000000
 
-    .line 467
+    .line 470
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x40000000    # 2.0f
 
-    .line 468
+    .line 471
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x800000
 
-    .line 469
+    .line 472
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 470
+    .line 473
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p2
@@ -1089,10 +1098,10 @@
 
     move-result-object p2
 
-    .line 471
+    .line 474
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 472
+    .line 475
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1101,7 +1110,7 @@
 .method synthetic lambda$showNeverAskAgainForLocation$15$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 485
+    .line 488
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.settings.APPLICATION_DETAILS_SETTINGS"
@@ -1110,20 +1119,20 @@
 
     const/high16 p2, 0x10000000
 
-    .line 486
+    .line 489
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x40000000    # 2.0f
 
-    .line 487
+    .line 490
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x800000
 
-    .line 488
+    .line 491
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 489
+    .line 492
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p2
@@ -1140,10 +1149,10 @@
 
     move-result-object p2
 
-    .line 490
+    .line 493
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 491
+    .line 494
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1202,7 +1211,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03b6
+    const p2, 0x7f0a03b7
 
     .line 108
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1213,7 +1222,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bf
+    const p2, 0x7f0a03c0
 
     .line 109
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1224,7 +1233,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c0
+    const p2, 0x7f0a03c1
 
     .line 110
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1235,7 +1244,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b3
+    const p2, 0x7f0a03b4
 
     .line 111
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1246,7 +1255,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bb
+    const p2, 0x7f0a03bc
 
     .line 112
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1257,7 +1266,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b4
+    const p2, 0x7f0a03b5
 
     .line 113
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1268,7 +1277,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bd
+    const p2, 0x7f0a03be
 
     .line 114
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1279,7 +1288,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoute:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b7
+    const p2, 0x7f0a03b8
 
     .line 115
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1290,7 +1299,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bc
+    const p2, 0x7f0a03bd
 
     .line 116
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1455,10 +1464,10 @@
         }
     .end annotation
 
-    .line 501
+    .line 504
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
-    .line 503
+    .line 506
     invoke-static {p0, p1, p3}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->onRequestPermissionsResult(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;I[I)V
 
     return-void
@@ -1479,7 +1488,7 @@
 .method public permissionForRouteAndroid11AndBelow()V
     .locals 2
 
-    .line 265
+    .line 268
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/util/BleUtil;->requestGPSEnabled(Landroid/content/Context;)Z
@@ -1490,7 +1499,7 @@
 
     const-string v0, "cn"
 
-    .line 266
+    .line 269
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v1
@@ -1501,12 +1510,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 267
+    .line 270
     invoke-static {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->rlRoutePressedWithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
     goto :goto_0
 
-    .line 269
+    .line 272
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoutePressed()V
 
@@ -1520,7 +1529,7 @@
 
     const-string v0, "cn"
 
-    .line 276
+    .line 279
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v1
@@ -1531,12 +1540,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 277
+    .line 280
     invoke-static {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->rlRoutePressedWithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
     goto :goto_0
 
-    .line 279
+    .line 282
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoutePressed()V
 
@@ -1555,7 +1564,7 @@
         }
     .end annotation
 
-    .line 244
+    .line 247
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/util/BleUtil;->requestGPSEnabled(Landroid/content/Context;)Z
@@ -1564,7 +1573,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 245
+    .line 248
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->invokePageByView(Landroid/view/View;)V
 
     :cond_0
@@ -1582,7 +1591,7 @@
         }
     .end annotation
 
-    .line 251
+    .line 254
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->invokePageByView(Landroid/view/View;)V
 
     return-void
@@ -1591,19 +1600,19 @@
 .method public permissionsForRoute()V
     .locals 2
 
-    .line 256
+    .line 259
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
-    .line 257
+    .line 260
     invoke-static {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->permissionForRouteAndroid12WithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
     goto :goto_0
 
-    .line 259
+    .line 262
     :cond_0
     invoke-static {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->permissionForRouteAndroid11AndBelowWithPermissionCheck(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
@@ -1614,7 +1623,7 @@
 .method public rlAiTrainingPressed()V
     .locals 3
 
-    .line 379
+    .line 382
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1625,24 +1634,24 @@
 
     if-eqz v0, :cond_3
 
-    .line 383
+    .line 386
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBAIEquipment;->getAll()Ljava/util/List;
 
     move-result-object v0
 
-    .line 384
+    .line 387
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getAll()Ljava/util/List;
 
     move-result-object v1
 
-    .line 385
+    .line 388
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 386
+    .line 389
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1655,7 +1664,7 @@
 
     goto :goto_0
 
-    .line 387
+    .line 390
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->getAITrainingTarget()Ljava/lang/String;
 
@@ -1663,7 +1672,7 @@
 
     if-nez v0, :cond_1
 
-    .line 388
+    .line 391
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1676,7 +1685,7 @@
 
     goto :goto_0
 
-    .line 389
+    .line 392
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -1684,7 +1693,7 @@
 
     if-nez v0, :cond_2
 
-    .line 390
+    .line 393
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1697,7 +1706,7 @@
 
     goto :goto_0
 
-    .line 392
+    .line 395
     :cond_2
     new-instance v0, Landroid/content/Intent;
 
@@ -1709,7 +1718,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 394
+    .line 397
     :goto_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -1719,7 +1728,7 @@
 
     goto :goto_1
 
-    .line 398
+    .line 401
     :cond_3
     new-instance v0, Landroid/content/Intent;
 
@@ -1731,10 +1740,10 @@
 
     const v1, 0x10008000
 
-    .line 399
+    .line 402
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 400
+    .line 403
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     :goto_1
@@ -1744,7 +1753,7 @@
 .method public rlConstantPowerPressed()V
     .locals 3
 
-    .line 359
+    .line 362
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const-class v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
@@ -1761,7 +1770,7 @@
 
     if-nez v0, :cond_0
 
-    .line 361
+    .line 364
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1772,7 +1781,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 362
+    .line 365
     const-class v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1783,7 +1792,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 363
+    .line 366
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1797,7 +1806,7 @@
 .method public rlEGravityPressed()V
     .locals 3
 
-    .line 348
+    .line 351
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1812,17 +1821,17 @@
 
     const/4 v2, 0x1
 
-    .line 349
+    .line 352
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     const-string v1, "EXTRA_SERVICE_FILTER"
 
     const-string v2, "00001000-0000-4008-82E9-8C6A5BC29794"
 
-    .line 350
+    .line 353
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 352
+    .line 355
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1835,7 +1844,7 @@
 .method public rlIntervalPressed()V
     .locals 3
 
-    .line 314
+    .line 317
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const-class v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
@@ -1852,7 +1861,7 @@
 
     if-nez v0, :cond_0
 
-    .line 316
+    .line 319
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1863,7 +1872,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 317
+    .line 320
     const-class v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1874,7 +1883,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 318
+    .line 321
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1888,7 +1897,7 @@
 .method public rlProgramsPressed()V
     .locals 3
 
-    .line 369
+    .line 372
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const-class v1, Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity;
@@ -1905,7 +1914,7 @@
 
     if-nez v0, :cond_0
 
-    .line 371
+    .line 374
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1916,7 +1925,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 372
+    .line 375
     const-class v1, Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1927,7 +1936,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 373
+    .line 376
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1941,7 +1950,7 @@
 .method public rlQuickstartPressed()V
     .locals 3
 
-    .line 304
+    .line 307
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const-class v1, Lcom/changyow/iconsole4th/activity/QuickStartActivity;
@@ -1958,7 +1967,7 @@
 
     if-nez v0, :cond_0
 
-    .line 306
+    .line 309
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1969,7 +1978,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 307
+    .line 310
     const-class v1, Lcom/changyow/iconsole4th/activity/QuickStartActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1980,7 +1989,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 308
+    .line 311
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1994,7 +2003,7 @@
 .method public rlRoutePressed()V
     .locals 3
 
-    .line 325
+    .line 328
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const/16 v1, 0x8
@@ -2007,7 +2016,7 @@
 
     if-nez v0, :cond_0
 
-    .line 327
+    .line 330
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -2018,14 +2027,14 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 328
+    .line 331
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Landroidx/fragment/app/FragmentActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 330
+    .line 333
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
@@ -2053,14 +2062,14 @@
 
     move-result v0
 
-    .line 331
+    .line 334
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
-    .line 333
+    .line 336
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2073,7 +2082,7 @@
 
     if-nez v0, :cond_1
 
-    .line 335
+    .line 338
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2082,7 +2091,7 @@
 
     const v1, 0x7f120365
 
-    .line 336
+    .line 339
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2095,17 +2104,17 @@
 
     sget-object v2, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;
 
-    .line 337
+    .line 340
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 339
+    .line 342
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 340
+    .line 343
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     :cond_1
@@ -2115,7 +2124,7 @@
 .method public rlSmartExercisePressed()V
     .locals 3
 
-    .line 422
+    .line 425
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2126,7 +2135,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 424
+    .line 427
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
 
     const/16 v1, 0x40
@@ -2139,7 +2148,7 @@
 
     if-nez v0, :cond_1
 
-    .line 426
+    .line 429
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -2150,7 +2159,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 427
+    .line 430
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -2159,7 +2168,7 @@
 
     goto :goto_0
 
-    .line 432
+    .line 435
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -2171,10 +2180,10 @@
 
     const v1, 0x10008000
 
-    .line 433
+    .line 436
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 434
+    .line 437
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     :cond_1
@@ -2185,7 +2194,7 @@
 .method public rlStreamingPressed()V
     .locals 3
 
-    .line 406
+    .line 409
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2196,7 +2205,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 408
+    .line 411
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -2207,14 +2216,14 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 409
+    .line 412
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Landroidx/fragment/app/FragmentActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 410
+    .line 413
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
@@ -2223,7 +2232,7 @@
 
     goto :goto_0
 
-    .line 414
+    .line 417
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -2235,10 +2244,10 @@
 
     const v1, 0x10008000
 
-    .line 415
+    .line 418
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 416
+    .line 419
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
@@ -2248,7 +2257,7 @@
 .method showDeniedForLocation()V
     .locals 3
 
-    .line 452
+    .line 455
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2257,7 +2266,7 @@
 
     const-string v1, "Needs LOCATION permission to scan Bluetooth devices."
 
-    .line 453
+    .line 456
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2266,17 +2275,17 @@
 
     const v2, 0x7f120277
 
-    .line 454
+    .line 457
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 456
+    .line 459
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 457
+    .line 460
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -2285,7 +2294,7 @@
 .method showDenyForBluetooth()V
     .locals 3
 
-    .line 441
+    .line 444
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2294,7 +2303,7 @@
 
     const-string v1, "Needs Blutooth permission to scan Bluetooth devices."
 
-    .line 442
+    .line 445
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2303,17 +2312,17 @@
 
     const v2, 0x7f120277
 
-    .line 443
+    .line 446
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 445
+    .line 448
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 446
+    .line 449
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -2322,7 +2331,7 @@
 .method showNeverAskAgainForBluetooth()V
     .locals 3
 
-    .line 463
+    .line 466
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2331,7 +2340,7 @@
 
     const-string v1, "Needs Blutooth permission to scan Bluetooth devices."
 
-    .line 464
+    .line 467
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2342,17 +2351,17 @@
 
     const v2, 0x7f120277
 
-    .line 465
+    .line 468
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 475
+    .line 478
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 476
+    .line 479
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -2361,7 +2370,7 @@
 .method showNeverAskAgainForLocation()V
     .locals 3
 
-    .line 482
+    .line 485
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2370,7 +2379,7 @@
 
     const-string v1, "Needs LOCATION permission to scan Bluetooth devices."
 
-    .line 483
+    .line 486
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2381,17 +2390,17 @@
 
     const v2, 0x7f120277
 
-    .line 484
+    .line 487
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 494
+    .line 497
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 495
+    .line 498
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void

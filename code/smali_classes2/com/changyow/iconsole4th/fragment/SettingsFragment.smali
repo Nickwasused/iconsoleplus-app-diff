@@ -543,7 +543,7 @@
 
     invoke-virtual {p3, v0}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->with(Lorg/matomo/sdk/Tracker;)V
 
-    const p3, 0x7f0d00a7
+    const p3, 0x7f0d00a8
 
     const/4 v0, 0x0
 
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a02cc
+    const p2, 0x7f0a02cd
 
     .line 76
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -563,7 +563,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->lvSettingList:Landroid/widget/ListView;
 
-    const p2, 0x7f0a01a8
+    const p2, 0x7f0a01a9
 
     .line 77
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a0562
+    const p2, 0x7f0a0563
 
     .line 78
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

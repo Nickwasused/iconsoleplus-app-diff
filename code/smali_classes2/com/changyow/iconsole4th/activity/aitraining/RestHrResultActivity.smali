@@ -59,7 +59,7 @@
     .line 26
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->setContentView(I)V
 
-    const p1, 0x7f0a03b8
+    const p1, 0x7f0a03b9
 
     .line 27
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04f3
+    const p1, 0x7f0a04f4
 
     .line 28
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->txvLearnMore:Landroid/widget/TextView;
 
-    const p1, 0x7f0a052f
+    const p1, 0x7f0a0530
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;

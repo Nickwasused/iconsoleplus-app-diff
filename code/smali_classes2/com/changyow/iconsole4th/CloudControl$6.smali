@@ -30,7 +30,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 990
+    .line 1052
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .line 995
+    .line 1057
     invoke-virtual {p1}, Ljava/lang/Double;->doubleValue()D
 
     move-result-wide p1
@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    .line 996
+    .line 1058
     new-instance p2, Lcom/google/gson/JsonPrimitive;
 
     invoke-direct {p2, p1}, Lcom/google/gson/JsonPrimitive;-><init>(Ljava/lang/Number;)V
@@ -91,7 +91,7 @@
         }
     .end annotation
 
-    .line 990
+    .line 1052
     check-cast p1, Ljava/lang/Double;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/CloudControl$6;->serialize(Ljava/lang/Double;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

@@ -117,7 +117,7 @@
 .method private initView()V
     .locals 2
 
-    const v0, 0x7f0a0553
+    const v0, 0x7f0a0554
 
     .line 90
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMetsTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0552
+    const v0, 0x7f0a0553
 
     .line 91
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMets:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0524
+    const v0, 0x7f0a0525
 
     .line 92
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0528
+    const v0, 0x7f0a0529
 
     .line 93
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
-    const v0, 0x7f0a055c
+    const v0, 0x7f0a055d
 
     .line 94
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->btnSave:Landroid/widget/Button;
 
-    const v0, 0x7f0a0529
+    const v0, 0x7f0a052a
 
     .line 96
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
@@ -556,7 +556,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
@@ -573,7 +573,7 @@
     .line 72
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 74
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -582,7 +582,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
     .line 75
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -591,7 +591,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
     .line 76
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
     .line 77
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -617,7 +617,7 @@
     .line 80
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08018a
+    const v0, 0x7f08018c
 
     .line 81
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V

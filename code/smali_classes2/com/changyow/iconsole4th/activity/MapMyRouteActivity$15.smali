@@ -83,12 +83,12 @@
 
     if-ne v0, v2, :cond_1
 
-    const v0, 0x7f0801fb
+    const v0, 0x7f0801fd
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0801fd
+    const v0, 0x7f0801ff
 
     .line 752
     :goto_0
@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0801f8
+    const v1, 0x7f0801fa
 
     .line 764
     invoke-static {v1}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromResource(I)Lcom/google/android/gms/maps/model/BitmapDescriptor;

@@ -78,7 +78,7 @@
         "trainingMode",
         "ItemViewHolder",
         "SetListAdapter",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -1754,7 +1754,7 @@
     .line 410
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080365
+    const v2, 0x7f080368
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 

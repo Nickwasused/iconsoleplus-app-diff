@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b7
+    const v2, 0x7f0d00b8
 
     const/4 v3, 0x0
 
@@ -254,7 +254,7 @@
     .line 72
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 74
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01e9
+    const v2, 0x7f0a01ea
 
     .line 75
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01ec
 
     .line 76
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 77
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
     .line 79
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080365
+    const v0, 0x7f080368
 
     .line 80
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -472,7 +472,7 @@
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->setContentView(I)V
 
-    const p1, 0x7f0a024b
+    const p1, 0x7f0a024c
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -483,7 +483,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutBaiYourLife:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0217
+    const p1, 0x7f0a0218
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover4:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0270
+    const p1, 0x7f0a0271
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutGetFit:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0216
+    const p1, 0x7f0a0217
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -516,7 +516,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover3:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0268
+    const p1, 0x7f0a0269
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -527,7 +527,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutExplosivenese:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0215
+    const p1, 0x7f0a0216
 
     .line 48
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -538,7 +538,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover2:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a027f
+    const p1, 0x7f0a0280
 
     .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
@@ -549,7 +549,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutMarathon:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0214
+    const p1, 0x7f0a0215
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;

@@ -590,7 +590,7 @@
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     :goto_0
-    const p1, 0x7f0a03d1
+    const p1, 0x7f0a03d2
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->findViewById(I)Landroid/view/View;

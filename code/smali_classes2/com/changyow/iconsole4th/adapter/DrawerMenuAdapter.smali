@@ -138,7 +138,7 @@
 
     check-cast p2, Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0d00d9
+    const p3, 0x7f0d00da
 
     const/4 v0, 0x0
 
@@ -167,7 +167,7 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setSelected(Z)V
 
     :goto_0
-    const p3, 0x7f0a021e
+    const p3, 0x7f0a021f
 
     .line 83
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 84
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

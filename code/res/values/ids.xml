@@ -169,6 +169,7 @@
     <item type="id" name="btnVideoList" />
     <item type="id" name="btnVideoProfile" />
     <item type="id" name="btnVomax2" />
+    <item type="id" name="btnWahoo" />
     <item type="id" name="btnWechat" />
     <item type="id" name="btn_usb_cast" />
     <item type="id" name="btn_wifi_cast" />

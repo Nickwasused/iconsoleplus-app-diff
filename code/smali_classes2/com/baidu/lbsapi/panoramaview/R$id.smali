@@ -16,15 +16,15 @@
 # static fields
 .field public static final banner_view:I = 0x7f0a006e
 
-.field public static final error:I = 0x7f0a0167
+.field public static final error:I = 0x7f0a0168
 
-.field public static final shader_view:I = 0x7f0a0400
+.field public static final shader_view:I = 0x7f0a0401
 
-.field public static final toast_image:I = 0x7f0a047d
+.field public static final toast_image:I = 0x7f0a047e
 
-.field public static final toast_layout:I = 0x7f0a047e
+.field public static final toast_layout:I = 0x7f0a047f
 
-.field public static final toast_view:I = 0x7f0a0480
+.field public static final toast_view:I = 0x7f0a0481
 
 
 # direct methods

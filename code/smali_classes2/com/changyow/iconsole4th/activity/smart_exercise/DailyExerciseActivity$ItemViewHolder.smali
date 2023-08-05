@@ -49,7 +49,7 @@
     .line 840
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a028c
+    const v0, 0x7f0a028d
 
     .line 842
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
-    const v0, 0x7f0a05a6
+    const v0, 0x7f0a05a7
 
     .line 843
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->vCompletedHint:Landroid/view/View;
 
-    const v0, 0x7f0a04fe
+    const v0, 0x7f0a04ff
 
     .line 844
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvMachineType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04cc
+    const v0, 0x7f0a04cd
 
     .line 845
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvDuration:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0558
 
     .line 846
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeedTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0551
+    const v0, 0x7f0a0552
 
     .line 847
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoadTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0556
+    const v0, 0x7f0a0557
 
     .line 848
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0550
+    const v0, 0x7f0a0551
 
     .line 849
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoad:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0505
+    const v0, 0x7f0a0506
 
     .line 850
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

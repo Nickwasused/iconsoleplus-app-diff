@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 119
+    .line 122
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 123
+    .line 126
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     const/4 v0, 0x1
 
     iput-boolean v0, p1, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bEditAvatarFlag:Z
 
-    .line 124
+    .line 127
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->access$000(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V

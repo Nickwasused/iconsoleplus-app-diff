@@ -10,11 +10,11 @@
 
 .field private static final PERMISSION_STARTBARCODEACTIVITY:[Ljava/lang/String;
 
-.field private static final REQUEST_SHOWCAMERA:I = 0x6
+.field private static final REQUEST_SHOWCAMERA:I = 0xb
 
-.field private static final REQUEST_SHWOGALLERY:I = 0x7
+.field private static final REQUEST_SHWOGALLERY:I = 0xc
 
-.field private static final REQUEST_STARTBARCODEACTIVITY:I = 0x8
+.field private static final REQUEST_STARTBARCODEACTIVITY:I = 0xd
 
 
 # direct methods
@@ -59,7 +59,7 @@
 .end method
 
 .method static onRequestPermissionsResult(Lcom/changyow/iconsole4th/activity/UserProfileActivity;I[I)V
-    .locals 1
+    .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0,
@@ -73,27 +73,17 @@
         }
     .end annotation
 
-    const/4 v0, 0x6
-
-    if-eq p1, v0, :cond_2
-
-    const/4 v0, 0x7
-
-    if-eq p1, v0, :cond_1
-
-    const/16 v0, 0x8
-
-    if-eq p1, v0, :cond_0
+    packed-switch p1, :pswitch_data_0
 
     goto :goto_0
 
     .line 53
-    :cond_0
+    :pswitch_0
     invoke-static {p2}, Lpermissions/dispatcher/PermissionUtils;->verifyPermissions([I)Z
 
     move-result p1
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_0
 
     .line 54
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startBarcodeActivity()V
@@ -101,12 +91,12 @@
     goto :goto_0
 
     .line 63
-    :cond_1
+    :pswitch_1
     invoke-static {p2}, Lpermissions/dispatcher/PermissionUtils;->verifyPermissions([I)Z
 
     move-result p1
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_0
 
     .line 64
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->shwoGallery()V
@@ -114,19 +104,26 @@
     goto :goto_0
 
     .line 58
-    :cond_2
+    :pswitch_2
     invoke-static {p2}, Lpermissions/dispatcher/PermissionUtils;->verifyPermissions([I)Z
 
     move-result p1
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_0
 
     .line 59
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showCamera()V
 
-    :cond_3
+    :cond_0
     :goto_0
     return-void
+
+    :pswitch_data_0
+    .packed-switch 0xb
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
 .end method
 
 .method static showCameraWithPermissionCheck(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
@@ -155,7 +152,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v1, 0x6
+    const/16 v1, 0xb
 
     .line 37
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
@@ -190,7 +187,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v1, 0x7
+    const/16 v1, 0xc
 
     .line 45
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
@@ -225,7 +222,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v1, 0x8
+    const/16 v1, 0xd
 
     .line 29
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V

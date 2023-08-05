@@ -67,7 +67,7 @@
     .line 439
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a0233
+    const v0, 0x7f0a0234
 
     .line 441
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->ivWorkoutModeIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0597
+    const v0, 0x7f0a0598
 
     .line 442
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvWorkoutMode:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0228
+    const v0, 0x7f0a0229
 
     .line 443
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->ivRPEIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0521
+    const v0, 0x7f0a0522
 
     .line 444
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f0a021a
+    const v0, 0x7f0a021b
 
     .line 445
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->ivDurationIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a04cc
+    const v0, 0x7f0a04cd
 
     .line 446
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvDuration:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0218
+    const v0, 0x7f0a0219
 
     .line 447
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->ivDistanceIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a04cb
+    const v0, 0x7f0a04cc
 
     .line 448
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -155,7 +155,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvDistance:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0211
+    const v0, 0x7f0a0212
 
     .line 449
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->ivCaloriesIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a04af
+    const v0, 0x7f0a04b0
 
     .line 450
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -177,7 +177,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvCalories:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0599
+    const v0, 0x7f0a059a
 
     .line 451
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvWorkoutType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04c7
+    const v0, 0x7f0a04c8
 
     .line 452
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->btnSelect:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a0446
+    const v0, 0x7f0a0447
 
     .line 457
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->swipeLayout:Lcom/daimajia/swipe/SwipeLayout;
 
-    const v0, 0x7f0a04cf
+    const v0, 0x7f0a04d0
 
     .line 459
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvDurationValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04b1
+    const v0, 0x7f0a04b2
 
     .line 460
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvCaloriesValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a059a
+    const v0, 0x7f0a059b
 
     .line 461
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

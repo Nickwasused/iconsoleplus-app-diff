@@ -157,7 +157,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0d00bc
+    const v0, 0x7f0d00bd
 
     const/4 v1, 0x0
 

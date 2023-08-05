@@ -61,7 +61,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a022d
+    const v0, 0x7f0a022e
 
     const/4 v1, 0x1
 

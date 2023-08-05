@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 128
+    .line 131
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 132
+    .line 135
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showEnterNameDialog()V

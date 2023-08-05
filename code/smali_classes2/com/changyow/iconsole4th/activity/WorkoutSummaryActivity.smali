@@ -638,7 +638,7 @@
     .line 579
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f080191
+    const v6, 0x7f080193
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -683,7 +683,7 @@
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029d
+    const v6, 0x7f08029f
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -727,7 +727,7 @@
     .line 590
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029c
+    const v6, 0x7f08029e
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -779,7 +779,7 @@
     .line 595
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029b
+    const v6, 0x7f08029d
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1482,7 +1482,7 @@
     .line 1085
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f080191
+    const v7, 0x7f080193
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1527,7 +1527,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029d
+    const v7, 0x7f08029f
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1571,7 +1571,7 @@
     .line 1096
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029c
+    const v7, 0x7f08029e
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1623,7 +1623,7 @@
     .line 1101
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029b
+    const v7, 0x7f08029d
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2305,7 +2305,7 @@
     .line 972
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f080191
+    const v6, 0x7f080193
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2350,7 +2350,7 @@
     :cond_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029d
+    const v6, 0x7f08029f
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2394,7 +2394,7 @@
     .line 983
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029c
+    const v6, 0x7f08029e
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2446,7 +2446,7 @@
     .line 988
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029b
+    const v6, 0x7f08029d
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3147,7 +3147,7 @@
     .line 915
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080191
+    const v5, 0x7f080193
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3192,7 +3192,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f08029f
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3265,7 +3265,7 @@
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029c
+    const v7, 0x7f08029e
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3305,7 +3305,7 @@
     .line 935
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029b
+    const v4, 0x7f08029d
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3583,7 +3583,7 @@
     .line 805
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080191
+    const v5, 0x7f080193
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3628,7 +3628,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f08029f
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3672,7 +3672,7 @@
     .line 816
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029c
+    const v5, 0x7f08029e
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3724,7 +3724,7 @@
     .line 821
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029b
+    const v5, 0x7f08029d
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4429,7 +4429,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0803b2
+    const v4, 0x7f0803b5
 
     invoke-static {v2, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -4687,7 +4687,7 @@
     .line 1333
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f0802df
+    const v4, 0x7f0802e1
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4731,7 +4731,7 @@
     .line 1338
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029d
+    const v4, 0x7f08029f
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4775,7 +4775,7 @@
     .line 1343
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029c
+    const v4, 0x7f08029e
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4827,7 +4827,7 @@
     .line 1348
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029b
+    const v4, 0x7f08029d
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5176,7 +5176,7 @@
     .line 1264
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f0802df
+    const v5, 0x7f0802e1
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5220,7 +5220,7 @@
     .line 1269
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f08029f
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5264,7 +5264,7 @@
     .line 1274
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029c
+    const v5, 0x7f08029e
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5316,7 +5316,7 @@
     .line 1279
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029b
+    const v5, 0x7f08029d
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5751,7 +5751,7 @@
     .line 1206
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f0802df
+    const v5, 0x7f0802e1
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5795,7 +5795,7 @@
     .line 1211
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f08029f
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5839,7 +5839,7 @@
     .line 1216
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029c
+    const v4, 0x7f08029e
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5891,7 +5891,7 @@
     .line 1221
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029b
+    const v4, 0x7f08029d
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6245,7 +6245,7 @@
     .line 697
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080191
+    const v5, 0x7f080193
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6290,7 +6290,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f08029f
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6334,7 +6334,7 @@
     .line 708
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029c
+    const v5, 0x7f08029e
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6386,7 +6386,7 @@
     .line 713
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029b
+    const v5, 0x7f08029d
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -7029,7 +7029,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
@@ -7046,7 +7046,7 @@
     .line 275
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 277
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7055,7 +7055,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
     .line 278
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7064,7 +7064,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
     .line 279
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7073,7 +7073,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
     .line 280
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7092,17 +7092,17 @@
     .line 284
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080199
+    const v0, 0x7f08019b
 
     .line 285
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0801a9
+    const v0, 0x7f0801ab
 
     .line 286
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0802a5
+    const v0, 0x7f0802a7
 
     .line 287
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -7115,7 +7115,7 @@
     .line 291
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080365
+    const v0, 0x7f080368
 
     .line 292
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -7242,7 +7242,7 @@
     .line 99
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0068
+    const p1, 0x7f0d0069
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->setContentView(I)V
@@ -7262,7 +7262,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mMapProvider:I
 
-    const p1, 0x7f0a0224
+    const p1, 0x7f0a0225
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7273,7 +7273,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->ivMap:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a02b8
+    const p1, 0x7f0a02b9
 
     .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7284,7 +7284,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->listReports:Landroid/widget/ListView;
 
-    const p1, 0x7f0a024d
+    const p1, 0x7f0a024e
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7295,7 +7295,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->layoutBottomPane:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0168
+    const p1, 0x7f0a0169
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7361,7 +7361,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE1:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0521
+    const p1, 0x7f0a0522
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7381,7 +7381,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f0a027c
+    const p1, 0x7f0a027d
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7392,7 +7392,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->layoutIntervalProflie:Landroid/widget/FrameLayout;
 
-    const p1, 0x7f0a04f0
+    const p1, 0x7f0a04f1
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7414,7 +7414,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnSaveIntervalProflie:Landroid/widget/Button;
 
-    const p1, 0x7f0a04c7
+    const p1, 0x7f0a04c8
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;

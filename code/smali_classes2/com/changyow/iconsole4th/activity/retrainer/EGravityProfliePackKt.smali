@@ -13,7 +13,7 @@
         "Lcom/beust/klaxon/Klaxon;",
         "getSharedKlaxonInstance",
         "()Lcom/beust/klaxon/Klaxon;",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x2
     mv = {

@@ -2280,7 +2280,11 @@
 
 .field public static final v7_preference_on:I = 0x7f12046c
 
-.field public static final with_response:I = 0x7f12046d
+.field public static final wahoo_auth_url:I = 0x7f12046d
+
+.field public static final wahoo_token_url:I = 0x7f12046e
+
+.field public static final with_response:I = 0x7f12046f
 
 
 # direct methods

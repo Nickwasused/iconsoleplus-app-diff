@@ -35,7 +35,7 @@
         "toString",
         "",
         "Companion",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {

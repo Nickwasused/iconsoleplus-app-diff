@@ -98,6 +98,8 @@
 
 .field private static final WA_USER_UUID:Ljava/lang/String;
 
+.field private static final WA_WAHOO:Ljava/lang/String;
+
 .field private static final WA_WORKOUT_LIST:Ljava/lang/String;
 
 .field private static final WA_WORKOUT_MULTIPLE:Ljava/lang/String;
@@ -596,7 +598,24 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_FITBIT:Ljava/lang/String;
 
-    .line 121
+    .line 120
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string/jumbo v3, "user/wahoo"
+
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_WAHOO:Ljava/lang/String;
+
+    .line 122
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -613,7 +632,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_SUGGESTIONS:Ljava/lang/String;
 
-    .line 122
+    .line 123
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -630,7 +649,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_SAVE_SCHEDULE:Ljava/lang/String;
 
-    .line 123
+    .line 124
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -647,7 +666,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_SAVE_SCHEDULES:Ljava/lang/String;
 
-    .line 124
+    .line 125
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -664,7 +683,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_GET_SCHEDULE:Ljava/lang/String;
 
-    .line 125
+    .line 126
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -681,7 +700,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_EDIT_SCHEDULE:Ljava/lang/String;
 
-    .line 126
+    .line 127
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -698,7 +717,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_DELETE_SCHEDULE:Ljava/lang/String;
 
-    .line 129
+    .line 130
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -715,7 +734,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_GROUPS:Ljava/lang/String;
 
-    .line 130
+    .line 131
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -732,7 +751,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_VIDEO_TAGS:Ljava/lang/String;
 
-    .line 131
+    .line 132
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -749,7 +768,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_VIDEO_SEARCH:Ljava/lang/String;
 
-    .line 133
+    .line 134
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -766,7 +785,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE:Ljava/lang/String;
 
-    .line 134
+    .line 135
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -783,7 +802,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_NEW:Ljava/lang/String;
 
-    .line 135
+    .line 136
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -800,7 +819,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_LIST:Ljava/lang/String;
 
-    .line 136
+    .line 137
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -817,7 +836,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_DELETE:Ljava/lang/String;
 
-    .line 137
+    .line 138
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -834,7 +853,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_UPDATE:Ljava/lang/String;
 
-    .line 139
+    .line 140
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -851,7 +870,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_DFU_FIRMWARE_INFO:Ljava/lang/String;
 
-    .line 140
+    .line 141
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -868,7 +887,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_DFU_FIRMWARE_DOWNLOAD:Ljava/lang/String;
 
-    .line 143
+    .line 144
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -885,7 +904,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_PROFILES:Ljava/lang/String;
 
-    .line 144
+    .line 145
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -902,7 +921,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_PROFILE:Ljava/lang/String;
 
-    .line 145
+    .line 146
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -919,7 +938,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_EXERCISE_LIST:Ljava/lang/String;
 
-    .line 148
+    .line 149
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -936,7 +955,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_PICTURE:Ljava/lang/String;
 
-    .line 149
+    .line 150
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -951,7 +970,7 @@
 
     sput-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_QR_PICTURE:Ljava/lang/String;
 
-    .line 151
+    .line 152
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -970,14 +989,14 @@
 
     const-string v0, "application/json; charset=utf-8"
 
-    .line 153
+    .line 154
     invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v0
 
     sput-object v0, Lcom/changyow/iconsole4th/CloudControl;->JSON:Lokhttp3/MediaType;
 
-    .line 154
+    .line 155
     new-instance v0, Lcom/google/gson/Gson;
 
     invoke-direct {v0}, Lcom/google/gson/Gson;-><init>()V
@@ -986,7 +1005,7 @@
 
     const/4 v0, 0x0
 
-    .line 156
+    .line 157
     sput-object v0, Lcom/changyow/iconsole4th/CloudControl;->httpClient:Lokhttp3/OkHttpClient;
 
     return-void
@@ -1044,7 +1063,7 @@
         }
     .end annotation
 
-    .line 437
+    .line 438
     invoke-static {p0}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p0
@@ -1053,7 +1072,7 @@
 
     move-result-object p0
 
-    .line 439
+    .line 440
     invoke-virtual {p1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -1075,7 +1094,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 441
+    .line 442
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1086,13 +1105,13 @@
 
     goto :goto_0
 
-    .line 444
+    .line 445
     :cond_0
     invoke-virtual {p0}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p0
 
-    .line 445
+    .line 446
     invoke-virtual {p0}, Lokhttp3/HttpUrl;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1115,7 +1134,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 265
+    .line 266
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->SHARED_HANDLER:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/CloudControl$3;
@@ -1143,7 +1162,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 278
+    .line 279
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->SHARED_HANDLER:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/CloudControl$4;
@@ -1167,7 +1186,7 @@
         }
     .end annotation
 
-    .line 1358
+    .line 1420
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1180,7 +1199,7 @@
 
     return-void
 
-    .line 1362
+    .line 1424
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1196,7 +1215,7 @@
 
     move-result-object v0
 
-    .line 1363
+    .line 1425
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1223,15 +1242,15 @@
 
     const-string v2, "Authorization"
 
-    .line 1364
+    .line 1426
     invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1366
+    .line 1428
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1367
+    .line 1429
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1250,7 +1269,7 @@
         }
     .end annotation
 
-    .line 1439
+    .line 1501
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1263,7 +1282,7 @@
 
     return-void
 
-    .line 1443
+    .line 1505
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1279,7 +1298,7 @@
 
     move-result-object v0
 
-    .line 1445
+    .line 1507
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1308,15 +1327,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1446
+    .line 1508
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1448
+    .line 1510
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1449
+    .line 1511
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1335,7 +1354,7 @@
         }
     .end annotation
 
-    .line 1386
+    .line 1448
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1348,7 +1367,7 @@
 
     return-void
 
-    .line 1390
+    .line 1452
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1364,7 +1383,7 @@
 
     move-result-object v0
 
-    .line 1392
+    .line 1454
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1393,15 +1412,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1393
+    .line 1455
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1395
+    .line 1457
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1396
+    .line 1458
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1420,7 +1439,7 @@
         }
     .end annotation
 
-    .line 953
+    .line 954
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1435,7 +1454,7 @@
 
     move-result-object p0
 
-    .line 955
+    .line 956
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_FITBIT:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->DELETE:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -1448,15 +1467,15 @@
 
     const-string v1, "Authorization"
 
-    .line 956
+    .line 957
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 958
+    .line 959
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 959
+    .line 960
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1475,7 +1494,7 @@
         }
     .end annotation
 
-    .line 1298
+    .line 1360
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1488,7 +1507,7 @@
 
     return-void
 
-    .line 1302
+    .line 1364
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1504,7 +1523,7 @@
 
     move-result-object v0
 
-    .line 1304
+    .line 1366
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1533,15 +1552,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1305
+    .line 1367
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1307
+    .line 1369
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1308
+    .line 1370
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1560,7 +1579,7 @@
         }
     .end annotation
 
-    .line 1214
+    .line 1276
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1573,7 +1592,7 @@
 
     return-void
 
-    .line 1218
+    .line 1280
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1589,7 +1608,7 @@
 
     move-result-object v0
 
-    .line 1220
+    .line 1282
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1618,15 +1637,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1221
+    .line 1283
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1223
+    .line 1285
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1224
+    .line 1286
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1645,7 +1664,7 @@
         }
     .end annotation
 
-    .line 894
+    .line 895
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1660,7 +1679,7 @@
 
     move-result-object p0
 
-    .line 896
+    .line 897
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STRAVA:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->DELETE:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -1673,16 +1692,83 @@
 
     const-string v1, "Authorization"
 
-    .line 897
+    .line 898
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 899
+    .line 900
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 900
+    .line 901
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
+    return-void
+.end method
+
+.method public static deleteWahooRefreshToken(Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "bsCB"
+        }
+    .end annotation
+
+    .line 1012
+    invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getBsToekn()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 1015
+    :cond_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Bearer "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 1017
+    sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_WAHOO:Ljava/lang/String;
+
+    sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->DELETE:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Lcom/changyow/iconsole4th/CloudControl;->getRequestBuilder(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/RESTMethod;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+
+    move-result-object v1
+
+    const-string v2, "Authorization"
+
+    .line 1018
+    invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    .line 1020
+    invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+
+    move-result-object v0
+
+    .line 1021
+    invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
 .end method
@@ -1702,7 +1788,7 @@
         }
     .end annotation
 
-    .line 749
+    .line 750
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1717,7 +1803,7 @@
 
     move-result-object p0
 
-    .line 751
+    .line 752
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1746,15 +1832,15 @@
 
     const-string v0, "Authorization"
 
-    .line 752
+    .line 753
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 754
+    .line 755
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 755
+    .line 756
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -1773,17 +1859,17 @@
         }
     .end annotation
 
-    .line 290
+    .line 291
     invoke-static {}, Lcom/changyow/iconsole4th/CloudControl;->getHttpClient()Lokhttp3/OkHttpClient;
 
     move-result-object v0
 
-    .line 291
+    .line 292
     invoke-virtual {v0, p0}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p0
 
-    .line 293
+    .line 294
     new-instance v0, Lcom/changyow/iconsole4th/CloudControl$5;
 
     invoke-direct {v0, p1}, Lcom/changyow/iconsole4th/CloudControl$5;-><init>(Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
@@ -1810,7 +1896,7 @@
         }
     .end annotation
 
-    .line 1054
+    .line 1116
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1827,7 +1913,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 1056
+    .line 1118
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1839,7 +1925,7 @@
     :cond_0
     if-eqz p2, :cond_2
 
-    .line 1058
+    .line 1120
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1848,7 +1934,7 @@
 
     goto :goto_0
 
-    .line 1061
+    .line 1123
     :cond_1
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
@@ -1856,31 +1942,31 @@
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1062
+    .line 1124
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "appname"
 
-    .line 1063
+    .line 1125
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     const-string v0, "rights"
 
-    .line 1064
+    .line 1126
     invoke-virtual {p1, v0, p2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1065
+    .line 1127
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1067
+    .line 1129
     sget-object p2, Lcom/changyow/iconsole4th/CloudControl;->WA_3P_TOKEN:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -1891,15 +1977,15 @@
 
     const-string p2, "Authorization"
 
-    .line 1068
+    .line 1130
     invoke-virtual {p1, p2, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1070
+    .line 1132
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1071
+    .line 1133
     invoke-static {p0, p3}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     :cond_2
@@ -1922,7 +2008,7 @@
         }
     .end annotation
 
-    .line 760
+    .line 761
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1937,7 +2023,7 @@
 
     move-result-object p0
 
-    .line 762
+    .line 763
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
@@ -1948,12 +2034,12 @@
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 763
+    .line 764
     invoke-virtual {v0, p1}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 765
+    .line 766
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1982,15 +2068,15 @@
 
     const-string v0, "Authorization"
 
-    .line 766
+    .line 767
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 768
+    .line 769
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 769
+    .line 770
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2011,7 +2097,7 @@
         }
     .end annotation
 
-    .line 774
+    .line 775
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2026,15 +2112,15 @@
 
     move-result-object p0
 
-    .line 776
+    .line 777
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 777
+    .line 778
     invoke-virtual {v0, p1}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
 
-    .line 779
+    .line 780
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
@@ -2045,12 +2131,12 @@
 
     invoke-direct {v1, v3, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 780
+    .line 781
     invoke-virtual {v1, p1}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 782
+    .line 783
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
@@ -2071,7 +2157,7 @@
 
     const-string v3, "from_date"
 
-    .line 783
+    .line 784
     invoke-virtual {v1, v3, v2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v1
@@ -2084,7 +2170,7 @@
 
     const/4 p1, 0x5
 
-    .line 784
+    .line 785
     invoke-virtual {v0, p1}, Ljava/util/Calendar;->getActualMaximum(I)I
 
     move-result p1
@@ -2103,17 +2189,17 @@
 
     sget-object v0, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 785
+    .line 786
     invoke-virtual {p1, v0}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 787
+    .line 788
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 789
+    .line 790
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_AI_GROUP_MULTIPLE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2124,15 +2210,15 @@
 
     const-string v0, "Authorization"
 
-    .line 790
+    .line 791
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 792
+    .line 793
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 793
+    .line 794
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2151,7 +2237,7 @@
         }
     .end annotation
 
-    .line 798
+    .line 799
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2178,12 +2264,12 @@
 
     move-result-object p0
 
-    .line 800
+    .line 801
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 801
+    .line 802
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2200,7 +2286,7 @@
         }
     .end annotation
 
-    .line 1424
+    .line 1486
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2213,7 +2299,7 @@
 
     return-void
 
-    .line 1428
+    .line 1490
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2229,7 +2315,7 @@
 
     move-result-object v0
 
-    .line 1430
+    .line 1492
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_EXERCISE_LIST:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2242,15 +2328,15 @@
 
     const-string v2, "Authorization"
 
-    .line 1431
+    .line 1493
     invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1433
+    .line 1495
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1434
+    .line 1496
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2267,7 +2353,7 @@
         }
     .end annotation
 
-    .line 1372
+    .line 1434
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2280,7 +2366,7 @@
 
     return-void
 
-    .line 1376
+    .line 1438
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2296,7 +2382,7 @@
 
     move-result-object v0
 
-    .line 1377
+    .line 1439
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_PROFILES:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2309,15 +2395,15 @@
 
     const-string v2, "Authorization"
 
-    .line 1378
+    .line 1440
     invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1380
+    .line 1442
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1381
+    .line 1443
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2336,7 +2422,7 @@
         }
     .end annotation
 
-    .line 926
+    .line 927
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2351,7 +2437,7 @@
 
     move-result-object p0
 
-    .line 928
+    .line 929
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_FITBIT:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2364,15 +2450,15 @@
 
     const-string v1, "Authorization"
 
-    .line 929
+    .line 930
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 931
+    .line 932
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 932
+    .line 933
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2381,10 +2467,10 @@
 .method private static getHttpClient()Lokhttp3/OkHttpClient;
     .locals 1
 
-    .line 217
+    .line 218
     invoke-static {}, Lcom/changyow/iconsole4th/CloudControl;->initHttpClient()V
 
-    .line 218
+    .line 219
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->httpClient:Lokhttp3/OkHttpClient;
 
     return-object v0
@@ -2403,7 +2489,7 @@
         }
     .end annotation
 
-    .line 1328
+    .line 1390
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2416,7 +2502,7 @@
 
     return-void
 
-    .line 1332
+    .line 1394
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2432,7 +2518,7 @@
 
     move-result-object v0
 
-    .line 1334
+    .line 1396
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2461,15 +2547,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1335
+    .line 1397
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1337
+    .line 1399
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1338
+    .line 1400
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2486,7 +2572,7 @@
         }
     .end annotation
 
-    .line 1313
+    .line 1375
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2499,7 +2585,7 @@
 
     return-void
 
-    .line 1317
+    .line 1379
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2515,7 +2601,7 @@
 
     move-result-object v0
 
-    .line 1319
+    .line 1381
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_LIST:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2528,15 +2614,15 @@
 
     const-string v2, "Authorization"
 
-    .line 1320
+    .line 1382
     invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1322
+    .line 1384
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1323
+    .line 1385
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2559,7 +2645,7 @@
 
     return-void
 
-    .line 1080
+    .line 1142
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2575,7 +2661,7 @@
 
     move-result-object p0
 
-    .line 1082
+    .line 1144
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_SETTINGS_METS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2588,15 +2674,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1083
+    .line 1145
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1085
+    .line 1147
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1086
+    .line 1148
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2613,7 +2699,7 @@
         }
     .end annotation
 
-    .line 1046
+    .line 1108
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
 
     const-string v1, "https://api.iconsole.plus/v2/video/new_group_id"
@@ -2624,12 +2710,12 @@
 
     move-result-object v0
 
-    .line 1048
+    .line 1110
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1049
+    .line 1111
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2650,15 +2736,15 @@
         }
     .end annotation
 
-    .line 225
+    .line 226
     new-instance v0, Lokhttp3/Request$Builder;
 
     invoke-direct {v0}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 226
+    .line 227
     invoke-virtual {v0, p0}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 227
+    .line 228
     sget-object p0, Lcom/changyow/iconsole4th/CloudControl$7;->$SwitchMap$com$changyow$iconsole4th$interfaces$RESTMethod:[I
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->ordinal()I
@@ -2688,12 +2774,12 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 250
+    .line 251
     invoke-virtual {v0, p2}, Lokhttp3/Request$Builder;->delete(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     goto :goto_0
 
-    .line 254
+    .line 255
     :cond_1
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->delete()Lokhttp3/Request$Builder;
 
@@ -2702,7 +2788,7 @@
     :cond_2
     if-eqz p2, :cond_5
 
-    .line 243
+    .line 244
     invoke-virtual {v0, p2}, Lokhttp3/Request$Builder;->patch(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     goto :goto_0
@@ -2710,12 +2796,12 @@
     :cond_3
     if-eqz p2, :cond_5
 
-    .line 236
+    .line 237
     invoke-virtual {v0, p2}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     goto :goto_0
 
-    .line 230
+    .line 231
     :cond_4
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
@@ -2739,7 +2825,7 @@
         }
     .end annotation
 
-    .line 1162
+    .line 1224
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2784,7 +2870,7 @@
 
     return-void
 
-    .line 1174
+    .line 1236
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2800,38 +2886,38 @@
 
     move-result-object p0
 
-    .line 1176
+    .line 1238
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v1, "date_from"
 
-    .line 1177
+    .line 1239
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     const-string v0, "date_to"
 
-    .line 1178
+    .line 1240
     invoke-virtual {p1, v0, p2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     sget-object p2, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1179
+    .line 1241
     invoke-virtual {p1, p2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1181
+    .line 1243
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1183
+    .line 1245
     sget-object p2, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_GET_SCHEDULE:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2842,15 +2928,15 @@
 
     const-string p2, "Authorization"
 
-    .line 1184
+    .line 1246
     invoke-virtual {p1, p2, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1186
+    .line 1248
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1187
+    .line 1249
     invoke-static {p0, p3}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2869,7 +2955,7 @@
         }
     .end annotation
 
-    .line 867
+    .line 868
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2884,7 +2970,7 @@
 
     move-result-object p0
 
-    .line 869
+    .line 870
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STRAVA:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2897,15 +2983,15 @@
 
     const-string v1, "Authorization"
 
-    .line 870
+    .line 871
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 872
+    .line 873
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 873
+    .line 874
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -2922,7 +3008,7 @@
         }
     .end annotation
 
-    .line 1116
+    .line 1178
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2953,7 +3039,7 @@
 
     return-void
 
-    .line 1124
+    .line 1186
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2969,7 +3055,7 @@
 
     move-result-object p0
 
-    .line 1126
+    .line 1188
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_SUGGESTIONS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -2982,15 +3068,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1127
+    .line 1189
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1129
+    .line 1191
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1130
+    .line 1192
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3011,7 +3097,7 @@
         }
     .end annotation
 
-    .line 596
+    .line 597
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3038,12 +3124,12 @@
 
     move-result-object p0
 
-    .line 598
+    .line 599
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 599
+    .line 600
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3062,7 +3148,7 @@
         }
     .end annotation
 
-    .line 540
+    .line 541
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3077,7 +3163,7 @@
 
     move-result-object p0
 
-    .line 542
+    .line 543
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_PROFILE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3090,15 +3176,15 @@
 
     const-string v1, "Authorization"
 
-    .line 543
+    .line 544
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 545
+    .line 546
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 546
+    .line 547
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3117,7 +3203,7 @@
         }
     .end annotation
 
-    .line 604
+    .line 605
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3132,7 +3218,7 @@
 
     move-result-object p0
 
-    .line 606
+    .line 607
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_SETTINGS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3145,15 +3231,15 @@
 
     const-string v1, "Authorization"
 
-    .line 607
+    .line 608
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 609
+    .line 610
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 610
+    .line 611
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3170,7 +3256,7 @@
         }
     .end annotation
 
-    .line 1343
+    .line 1405
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -3183,7 +3269,7 @@
 
     return-void
 
-    .line 1347
+    .line 1409
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3199,7 +3285,7 @@
 
     move-result-object v0
 
-    .line 1349
+    .line 1411
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_UUID:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3212,15 +3298,15 @@
 
     const-string v2, "Authorization"
 
-    .line 1350
+    .line 1412
     invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1352
+    .line 1414
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 1353
+    .line 1415
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3241,7 +3327,7 @@
         }
     .end annotation
 
-    .line 1192
+    .line 1254
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -3254,7 +3340,7 @@
 
     return-void
 
-    .line 1196
+    .line 1258
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3270,7 +3356,7 @@
 
     move-result-object v0
 
-    .line 1198
+    .line 1260
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
@@ -3291,7 +3377,7 @@
 
     const-string p1, "from"
 
-    .line 1199
+    .line 1261
     invoke-virtual {v1, p1, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
@@ -3310,24 +3396,24 @@
 
     const-string/jumbo p2, "to"
 
-    .line 1200
+    .line 1262
     invoke-virtual {p0, p2, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object p1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1201
+    .line 1263
     invoke-virtual {p0, p1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1203
+    .line 1265
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1205
+    .line 1267
     sget-object p1, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_METS:Ljava/lang/String;
 
     sget-object p2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3338,15 +3424,15 @@
 
     const-string p1, "Authorization"
 
-    .line 1206
+    .line 1268
     invoke-virtual {p0, p1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1208
+    .line 1270
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1209
+    .line 1271
     invoke-static {p0, p4}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3367,7 +3453,7 @@
         }
     .end annotation
 
-    .line 1027
+    .line 1089
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3384,7 +3470,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1029
+    .line 1091
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -3393,7 +3479,7 @@
 
     goto :goto_0
 
-    .line 1032
+    .line 1094
     :cond_0
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
@@ -3401,24 +3487,24 @@
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1033
+    .line 1095
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "search"
 
-    .line 1034
+    .line 1096
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1035
+    .line 1097
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1037
+    .line 1099
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_VIDEO_SEARCH:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3429,15 +3515,15 @@
 
     const-string v0, "Authorization"
 
-    .line 1038
+    .line 1100
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1040
+    .line 1102
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1041
+    .line 1103
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     :cond_1
@@ -3473,7 +3559,7 @@
         }
     .end annotation
 
-    .line 986
+    .line 1048
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3488,12 +3574,12 @@
 
     move-result-object p0
 
-    .line 988
+    .line 1050
     new-instance v0, Lcom/google/gson/GsonBuilder;
 
     invoke-direct {v0}, Lcom/google/gson/GsonBuilder;-><init>()V
 
-    .line 989
+    .line 1051
     const-class v1, Ljava/lang/Double;
 
     new-instance v2, Lcom/changyow/iconsole4th/CloudControl$6;
@@ -3502,12 +3588,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/gson/GsonBuilder;->registerTypeAdapter(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;
 
-    .line 1000
+    .line 1062
     invoke-virtual {v0}, Lcom/google/gson/GsonBuilder;->create()Lcom/google/gson/Gson;
 
     move-result-object v0
 
-    .line 1004
+    .line 1066
     :try_start_0
     invoke-virtual {v0, p1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3520,7 +3606,7 @@
     :catch_0
     move-exception p1
 
-    .line 1008
+    .line 1070
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
@@ -3530,7 +3616,7 @@
 
     return-void
 
-    .line 1013
+    .line 1075
     :cond_0
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
@@ -3538,24 +3624,24 @@
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1014
+    .line 1076
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string/jumbo v1, "tags"
 
-    .line 1015
+    .line 1077
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1016
+    .line 1078
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1018
+    .line 1080
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_VIDEO_TAGS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3566,15 +3652,15 @@
 
     const-string v0, "Authorization"
 
-    .line 1019
+    .line 1081
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1021
+    .line 1083
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1022
+    .line 1084
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3593,7 +3679,7 @@
         }
     .end annotation
 
-    .line 964
+    .line 1026
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3608,7 +3694,7 @@
 
     move-result-object p0
 
-    .line 966
+    .line 1028
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_GROUPS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3621,15 +3707,15 @@
 
     const-string v1, "Authorization"
 
-    .line 967
+    .line 1029
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 969
+    .line 1031
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 970
+    .line 1032
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3648,7 +3734,7 @@
         }
     .end annotation
 
-    .line 975
+    .line 1037
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3663,7 +3749,7 @@
 
     move-result-object p0
 
-    .line 977
+    .line 1039
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STREAM_VIDEO_TAGS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3676,16 +3762,83 @@
 
     const-string v1, "Authorization"
 
-    .line 978
+    .line 1040
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 980
+    .line 1042
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 981
+    .line 1043
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
+    return-void
+.end method
+
+.method public static getWahooRefreshToken(Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "bsCB"
+        }
+    .end annotation
+
+    .line 979
+    invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getBsToekn()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 982
+    :cond_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Bearer "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 984
+    sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_WAHOO:Ljava/lang/String;
+
+    sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Lcom/changyow/iconsole4th/CloudControl;->getRequestBuilder(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/RESTMethod;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+
+    move-result-object v1
+
+    const-string v2, "Authorization"
+
+    .line 985
+    invoke-virtual {v1, v2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    .line 987
+    invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+
+    move-result-object v0
+
+    .line 988
+    invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
 .end method
@@ -3705,7 +3858,7 @@
         }
     .end annotation
 
-    .line 683
+    .line 684
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3720,7 +3873,7 @@
 
     move-result-object p0
 
-    .line 685
+    .line 686
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3749,15 +3902,15 @@
 
     const-string v0, "Authorization"
 
-    .line 686
+    .line 687
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 688
+    .line 689
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 689
+    .line 690
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3776,7 +3929,7 @@
         }
     .end annotation
 
-    .line 655
+    .line 656
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3791,7 +3944,7 @@
 
     move-result-object p0
 
-    .line 657
+    .line 658
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_WORKOUT_LIST:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3804,15 +3957,15 @@
 
     const-string v1, "Authorization"
 
-    .line 658
+    .line 659
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 660
+    .line 661
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 661
+    .line 662
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3835,7 +3988,7 @@
         }
     .end annotation
 
-    .line 666
+    .line 667
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3850,38 +4003,38 @@
 
     move-result-object p0
 
-    .line 668
+    .line 669
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 669
+    .line 670
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "from"
 
-    .line 670
+    .line 671
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     const-string/jumbo v0, "to"
 
-    .line 671
+    .line 672
     invoke-virtual {p1, v0, p2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 672
+    .line 673
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 674
+    .line 675
     sget-object p2, Lcom/changyow/iconsole4th/CloudControl;->WA_WORKOUT_LIST:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3892,15 +4045,15 @@
 
     const-string p2, "Authorization"
 
-    .line 675
+    .line 676
     invoke-virtual {p1, p2, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 677
+    .line 678
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 678
+    .line 679
     invoke-static {p0, p3}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -3921,7 +4074,7 @@
         }
     .end annotation
 
-    .line 694
+    .line 695
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3936,29 +4089,29 @@
 
     move-result-object p0
 
-    .line 696
+    .line 697
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 697
+    .line 698
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string/jumbo v1, "workoutlist"
 
-    .line 699
+    .line 700
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
-    .line 701
+    .line 702
     invoke-virtual {v0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 703
+    .line 704
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_WORKOUT_MULTIPLE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -3969,15 +4122,15 @@
 
     const-string v0, "Authorization"
 
-    .line 704
+    .line 705
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 706
+    .line 707
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 707
+    .line 708
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4005,12 +4158,12 @@
         }
     .end annotation
 
-    .line 406
+    .line 407
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 411
+    .line 412
     :try_start_0
     invoke-virtual {p0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -4033,35 +4186,35 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 413
+    .line 414
     invoke-virtual {p0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 414
+    .line 415
     instance-of v4, v3, Ljava/util/List;
 
     if-eqz v4, :cond_0
 
-    .line 416
+    .line 417
     new-instance v4, Lorg/json/JSONArray;
 
     check-cast v3, Ljava/util/List;
 
     invoke-direct {v4, v3}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
 
-    .line 417
+    .line 418
     invoke-virtual {v0, v2, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_0
 
-    .line 421
+    .line 422
     :cond_0
     invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_0
 
-    .line 425
+    .line 426
     :cond_1
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -4074,7 +4227,7 @@
     :catch_0
     move-exception p0
 
-    .line 429
+    .line 430
     invoke-virtual {p0}, Lorg/json/JSONException;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -4085,7 +4238,7 @@
 .method private static initHttpClient()V
     .locals 6
 
-    .line 160
+    .line 161
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->httpClient:Lokhttp3/OkHttpClient;
 
     if-nez v0, :cond_0
@@ -4097,7 +4250,7 @@
 
     const/4 v1, 0x0
 
-    .line 165
+    .line 166
     new-instance v2, Lcom/changyow/iconsole4th/CloudControl$1;
 
     invoke-direct {v2}, Lcom/changyow/iconsole4th/CloudControl$1;-><init>()V
@@ -4106,31 +4259,31 @@
 
     const-string v1, "SSL"
 
-    .line 185
+    .line 186
     invoke-static {v1}, Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 186
+    .line 187
     new-instance v3, Ljava/security/SecureRandom;
 
     invoke-direct {v3}, Ljava/security/SecureRandom;-><init>()V
 
     invoke-virtual {v1, v2, v0, v3}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
 
-    .line 188
+    .line 189
     invoke-virtual {v1}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
 
     move-result-object v0
 
-    .line 190
+    .line 191
     new-instance v1, Lcom/changyow/iconsole4th/CloudControl$2;
 
     invoke-direct {v1}, Lcom/changyow/iconsole4th/CloudControl$2;-><init>()V
 
-    .line 199
+    .line 200
     new-instance v2, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v2}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -4139,36 +4292,36 @@
 
     const-wide/16 v4, 0xa
 
-    .line 200
+    .line 201
     invoke-virtual {v2, v4, v5, v3}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v2
 
     sget-object v3, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 201
+    .line 202
     invoke-virtual {v2, v4, v5, v3}, Lokhttp3/OkHttpClient$Builder;->writeTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v2
 
     sget-object v3, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 202
+    .line 203
     invoke-virtual {v2, v4, v5, v3}, Lokhttp3/OkHttpClient$Builder;->readTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v2
 
-    .line 203
+    .line 204
     invoke-virtual {v2, v0}, Lokhttp3/OkHttpClient$Builder;->sslSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
 
-    .line 204
+    .line 205
     invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->hostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
 
-    .line 205
+    .line 206
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
@@ -4182,7 +4335,7 @@
     :catch_0
     move-exception v0
 
-    .line 210
+    .line 211
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -4203,7 +4356,7 @@
         }
     .end annotation
 
-    .line 473
+    .line 474
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_LOGIN:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4216,15 +4369,15 @@
 
     const-string v1, "Authorization"
 
-    .line 474
+    .line 475
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 476
+    .line 477
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 477
+    .line 478
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4245,14 +4398,14 @@
         }
     .end annotation
 
-    .line 462
+    .line 463
     sget-object v0, Lokhttp3/internal/Util;->UTF_8:Ljava/nio/charset/Charset;
 
     invoke-static {p0, p1, v0}, Lokhttp3/Credentials;->basic(Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 464
+    .line 465
     sget-object p1, Lcom/changyow/iconsole4th/CloudControl;->WA_LOGIN:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4265,15 +4418,15 @@
 
     const-string v0, "Authorization"
 
-    .line 465
+    .line 466
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 467
+    .line 468
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 468
+    .line 469
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4292,7 +4445,7 @@
         }
     .end annotation
 
-    .line 500
+    .line 501
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4307,7 +4460,7 @@
 
     move-result-object p0
 
-    .line 501
+    .line 502
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->login(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4326,7 +4479,7 @@
         }
     .end annotation
 
-    .line 494
+    .line 495
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4341,7 +4494,7 @@
 
     move-result-object p0
 
-    .line 495
+    .line 496
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->login(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4364,7 +4517,7 @@
         }
     .end annotation
 
-    .line 482
+    .line 483
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4379,7 +4532,7 @@
 
     move-result-object p0
 
-    .line 483
+    .line 484
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_LOGIN:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4392,25 +4545,25 @@
 
     const-string v1, "Authorization"
 
-    .line 484
+    .line 485
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     const-string p0, "Openid"
 
-    .line 485
+    .line 486
     invoke-virtual {v0, p0, p1}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     const-string p0, "Unionid"
 
-    .line 486
+    .line 487
     invoke-virtual {v0, p0, p2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 488
+    .line 489
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 489
+    .line 490
     invoke-static {p0, p3}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4429,7 +4582,7 @@
         }
     .end annotation
 
-    .line 518
+    .line 519
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4444,7 +4597,7 @@
 
     move-result-object p0
 
-    .line 520
+    .line 521
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_LOGOUT:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4457,15 +4610,15 @@
 
     const-string v1, "Authorization"
 
-    .line 521
+    .line 522
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 523
+    .line 524
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 524
+    .line 525
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4484,7 +4637,7 @@
         }
     .end annotation
 
-    .line 819
+    .line 820
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4511,12 +4664,12 @@
 
     move-result-object p0
 
-    .line 821
+    .line 822
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 822
+    .line 823
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4533,7 +4686,7 @@
         }
     .end annotation
 
-    .line 814
+    .line 815
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4566,7 +4719,7 @@
         }
     .end annotation
 
-    .line 806
+    .line 807
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_QRCODE_INIT:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4577,12 +4730,12 @@
 
     move-result-object v0
 
-    .line 808
+    .line 809
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 809
+    .line 810
     invoke-static {v0, p0}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4603,7 +4756,7 @@
         }
     .end annotation
 
-    .line 827
+    .line 828
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4618,7 +4771,7 @@
 
     move-result-object p0
 
-    .line 829
+    .line 830
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4647,15 +4800,15 @@
 
     const-string v0, "Authorization"
 
-    .line 830
+    .line 831
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 832
+    .line 833
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 833
+    .line 834
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4674,7 +4827,7 @@
         }
     .end annotation
 
-    .line 529
+    .line 530
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4689,7 +4842,7 @@
 
     move-result-object p0
 
-    .line 531
+    .line 532
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_REFRESH_TOKEN:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4702,15 +4855,15 @@
 
     const-string v1, "Authorization"
 
-    .line 532
+    .line 533
     invoke-virtual {v0, v1, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 534
+    .line 535
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 535
+    .line 536
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -4731,7 +4884,7 @@
 
     if-eqz p0, :cond_1
 
-    .line 905
+    .line 906
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -4740,7 +4893,7 @@
 
     goto :goto_0
 
-    .line 908
+    .line 909
     :cond_0
     new-instance v0, Lokhttp3/FormBody$Builder;
 
@@ -4750,14 +4903,14 @@
 
     const-string v2, "22BKTX"
 
-    .line 909
+    .line 910
     invoke-virtual {v0, v1, v2}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
     move-result-object v0
 
     const-string v1, "code"
 
-    .line 910
+    .line 911
     invoke-virtual {v0, v1, p0}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
     move-result-object p0
@@ -4766,7 +4919,7 @@
 
     const-string v1, "authorization_code"
 
-    .line 911
+    .line 912
     invoke-virtual {p0, v0, v1}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
     move-result-object p0
@@ -4775,7 +4928,7 @@
 
     const-string v1, "iconsoleplusfitbitauth://iconsoleplus.com"
 
-    .line 912
+    .line 913
     invoke-virtual {p0, v0, v1}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
     move-result-object p0
@@ -4784,17 +4937,17 @@
 
     const-string v1, ""
 
-    .line 913
+    .line 914
     invoke-virtual {p0, v0, v1}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
     move-result-object p0
 
-    .line 914
+    .line 915
     invoke-virtual {p0}, Lokhttp3/FormBody$Builder;->build()Lokhttp3/FormBody;
 
     move-result-object p0
 
-    .line 916
+    .line 917
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
 
     const-string v1, "https://api.fitbit.com/oauth2/token"
@@ -4807,7 +4960,7 @@
 
     const-string v1, "Basic MjJCS1RYOmI5OGE4MDZhNWNkZDY4OTUxM2ZmNTUwYmIwZGJjNTBi"
 
-    .line 917
+    .line 918
     invoke-virtual {p0, v0, v1}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v0
@@ -4816,15 +4969,15 @@
 
     const-string v2, "application/x-www-form-urlencoded"
 
-    .line 918
+    .line 919
     invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 920
+    .line 921
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 921
+    .line 922
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     :cond_1
@@ -4847,7 +5000,7 @@
 
     if-eqz p0, :cond_1
 
-    .line 848
+    .line 849
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -4856,7 +5009,7 @@
 
     goto :goto_0
 
-    .line 851
+    .line 852
     :cond_0
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
@@ -4864,7 +5017,7 @@
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 852
+    .line 853
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
@@ -4873,7 +5026,7 @@
 
     const-string v2, "35806"
 
-    .line 853
+    .line 854
     invoke-virtual {v0, v1, v2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
@@ -4882,14 +5035,14 @@
 
     const-string v2, "e26bd4b61112261ab6e679f3b2fd4c67c65339f6"
 
-    .line 854
+    .line 855
     invoke-virtual {v0, v1, v2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "code"
 
-    .line 855
+    .line 856
     invoke-virtual {v0, v1, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
@@ -4898,17 +5051,17 @@
 
     const-string v1, "authorization_code"
 
-    .line 856
+    .line 857
     invoke-virtual {p0, v0, v1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 857
+    .line 858
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 859
+    .line 860
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
 
     const-string v1, "https://www.strava.com/oauth/token"
@@ -4917,16 +5070,78 @@
 
     move-result-object p0
 
-    .line 861
+    .line 862
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 862
+    .line 863
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     :cond_1
     :goto_0
+    return-void
+.end method
+
+.method public static requestWahooRefreshToken(Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "url",
+            "code",
+            "bsCB"
+        }
+    .end annotation
+
+    if-nez p0, :cond_0
+
+    return-void
+
+    .line 968
+    :cond_0
+    new-instance v0, Lokhttp3/MultipartBody$Builder;
+
+    invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
+
+    sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
+
+    .line 969
+    invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
+
+    move-result-object v0
+
+    const-string v1, "code"
+
+    .line 970
+    invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
+
+    move-result-object p1
+
+    .line 971
+    invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
+
+    move-result-object p1
+
+    .line 972
+    sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
+
+    invoke-static {p0, v0, p1}, Lcom/changyow/iconsole4th/CloudControl;->getRequestBuilder(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/RESTMethod;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+
+    move-result-object p0
+
+    .line 973
+    invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+
+    move-result-object p0
+
+    .line 974
+    invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
     return-void
 .end method
 
@@ -4945,14 +5160,14 @@
         }
     .end annotation
 
-    .line 506
+    .line 507
     sget-object v0, Lokhttp3/internal/Util;->UTF_8:Ljava/nio/charset/Charset;
 
     invoke-static {p0, p1, v0}, Lokhttp3/Credentials;->basic(Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 508
+    .line 509
     sget-object p1, Lcom/changyow/iconsole4th/CloudControl;->WA_RESET_PW:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -4965,7 +5180,7 @@
 
     const-string v0, "Authorization"
 
-    .line 509
+    .line 510
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p0
@@ -4974,15 +5189,15 @@
 
     const-string v1, "Secret"
 
-    .line 510
+    .line 511
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 512
+    .line 513
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 513
+    .line 514
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5001,7 +5216,7 @@
         }
     .end annotation
 
-    .line 634
+    .line 635
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -5014,7 +5229,7 @@
 
     return-void
 
-    .line 638
+    .line 639
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5030,14 +5245,14 @@
 
     move-result-object v0
 
-    .line 640
+    .line 641
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v2, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 641
+    .line 642
     invoke-virtual {v1, v2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v1
@@ -5048,7 +5263,7 @@
 
     const/4 v3, 0x0
 
-    .line 642
+    .line 643
     invoke-static {p0, p1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p0
@@ -5067,12 +5282,12 @@
 
     move-result-object p0
 
-    .line 643
+    .line 644
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 645
+    .line 646
     sget-object p1, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_SETTINGS:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5083,7 +5298,7 @@
 
     const-string p1, "Authorization"
 
-    .line 646
+    .line 647
     invoke-virtual {p0, p1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -5092,15 +5307,15 @@
 
     const-string v1, "Secret"
 
-    .line 647
+    .line 648
     invoke-virtual {p1, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 649
+    .line 650
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 650
+    .line 651
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5119,7 +5334,7 @@
         }
     .end annotation
 
-    .line 1454
+    .line 1516
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -5137,7 +5352,7 @@
 
     return-void
 
-    .line 1460
+    .line 1522
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5153,31 +5368,31 @@
 
     move-result-object v0
 
-    .line 1462
+    .line 1524
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v2, "exercise"
 
-    .line 1463
+    .line 1525
     invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1464
+    .line 1526
     invoke-virtual {p0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1466
+    .line 1528
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1468
+    .line 1530
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_EXERCISE_LIST:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5188,15 +5403,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1469
+    .line 1531
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1471
+    .line 1533
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1472
+    .line 1534
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5215,7 +5430,7 @@
         }
     .end annotation
 
-    .line 1401
+    .line 1463
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -5233,7 +5448,7 @@
 
     return-void
 
-    .line 1407
+    .line 1469
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5249,31 +5464,31 @@
 
     move-result-object v0
 
-    .line 1409
+    .line 1471
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v2, "data"
 
-    .line 1410
+    .line 1472
     invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1411
+    .line 1473
     invoke-virtual {p0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1413
+    .line 1475
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1415
+    .line 1477
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_EGRAVITY_PROFILE:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5284,15 +5499,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1416
+    .line 1478
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1418
+    .line 1480
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1419
+    .line 1481
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5313,7 +5528,7 @@
         }
     .end annotation
 
-    .line 937
+    .line 938
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -5328,31 +5543,31 @@
 
     move-result-object p0
 
-    .line 939
+    .line 940
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 940
+    .line 941
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "fitbit_refresh_token"
 
-    .line 941
+    .line 942
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 942
+    .line 943
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 944
+    .line 945
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_FITBIT:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5363,15 +5578,15 @@
 
     const-string v0, "Authorization"
 
-    .line 945
+    .line 946
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 947
+    .line 948
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 948
+    .line 949
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5390,7 +5605,7 @@
         }
     .end annotation
 
-    .line 1252
+    .line 1314
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -5408,7 +5623,7 @@
 
     return-void
 
-    .line 1258
+    .line 1320
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5424,31 +5639,31 @@
 
     move-result-object v0
 
-    .line 1260
+    .line 1322
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v2, "data"
 
-    .line 1261
+    .line 1323
     invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1262
+    .line 1324
     invoke-virtual {p0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1264
+    .line 1326
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1266
+    .line 1328
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_NEW:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5459,15 +5674,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1267
+    .line 1329
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1269
+    .line 1331
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1270
+    .line 1332
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5488,7 +5703,7 @@
         }
     .end annotation
 
-    .line 878
+    .line 879
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -5503,31 +5718,31 @@
 
     move-result-object p0
 
-    .line 880
+    .line 881
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 881
+    .line 882
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string/jumbo v1, "strava_refresh_token"
 
-    .line 882
+    .line 883
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 883
+    .line 884
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 885
+    .line 886
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_STRAVA:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5538,15 +5753,15 @@
 
     const-string v0, "Authorization"
 
-    .line 886
+    .line 887
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 888
+    .line 889
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 889
+    .line 890
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5565,7 +5780,7 @@
         }
     .end annotation
 
-    .line 1135
+    .line 1197
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -5603,7 +5818,7 @@
 
     return-void
 
-    .line 1145
+    .line 1207
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -5619,31 +5834,31 @@
 
     move-result-object p0
 
-    .line 1147
+    .line 1209
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v1, "data"
 
-    .line 1148
+    .line 1210
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     sget-object v0, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1149
+    .line 1211
     invoke-virtual {p1, v0}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1151
+    .line 1213
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1153
+    .line 1215
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_SAVE_SCHEDULES:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5654,15 +5869,15 @@
 
     const-string v0, "Authorization"
 
-    .line 1154
+    .line 1216
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1156
+    .line 1218
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1157
+    .line 1219
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5683,7 +5898,7 @@
         }
     .end annotation
 
-    .line 576
+    .line 577
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -5698,12 +5913,12 @@
 
     move-result-object p0
 
-    .line 578
+    .line 579
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 579
+    .line 580
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v2, 0x64
@@ -5712,7 +5927,7 @@
 
     const-string p1, "image/jpeg"
 
-    .line 580
+    .line 581
     invoke-static {p1}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object p1
@@ -5725,14 +5940,14 @@
 
     move-result-object p1
 
-    .line 582
+    .line 583
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 583
+    .line 584
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
@@ -5741,17 +5956,17 @@
 
     const-string v2, "image.jpg"
 
-    .line 584
+    .line 585
     invoke-virtual {v0, v1, v2, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 585
+    .line 586
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 587
+    .line 588
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_PICTURE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5762,15 +5977,15 @@
 
     const-string v0, "Authorization"
 
-    .line 588
+    .line 589
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 590
+    .line 591
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 591
+    .line 592
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5804,7 +6019,7 @@
         }
     .end annotation
 
-    .line 557
+    .line 558
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -5819,19 +6034,19 @@
 
     move-result-object p0
 
-    .line 559
+    .line 560
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 560
+    .line 561
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
-    .line 561
+    .line 562
     invoke-virtual {p1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -5853,7 +6068,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 562
+    .line 563
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -5876,13 +6091,13 @@
 
     goto :goto_0
 
-    .line 565
+    .line 566
     :cond_0
     invoke-virtual {v0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 567
+    .line 568
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_PROFILE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5893,15 +6108,15 @@
 
     const-string v0, "Authorization"
 
-    .line 568
+    .line 569
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 570
+    .line 571
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 571
+    .line 572
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -5926,7 +6141,7 @@
         }
     .end annotation
 
-    .line 615
+    .line 616
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -5941,45 +6156,45 @@
 
     move-result-object p0
 
-    .line 617
+    .line 618
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 618
+    .line 619
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string/jumbo v1, "target"
 
-    .line 619
+    .line 620
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     const-string/jumbo v0, "workout_timeslots"
 
-    .line 620
+    .line 621
     invoke-virtual {p1, v0, p2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     const-string p2, "equipment"
 
-    .line 621
+    .line 622
     invoke-virtual {p1, p2, p3}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 622
+    .line 623
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 624
+    .line 625
     sget-object p2, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_SETTINGS:Ljava/lang/String;
 
     sget-object p3, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -5990,7 +6205,7 @@
 
     const-string p2, "Authorization"
 
-    .line 625
+    .line 626
     invoke-virtual {p1, p2, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p0
@@ -5999,16 +6214,107 @@
 
     const-string p3, "Secret"
 
-    .line 626
+    .line 627
     invoke-virtual {p0, p3, p2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 628
+    .line 629
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 629
+    .line 630
     invoke-static {p0, p4}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
+    return-void
+.end method
+
+.method public static saveWahooRefreshToken(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "strava_refresh_token",
+            "bsCB"
+        }
+    .end annotation
+
+    .line 993
+    invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getBsToekn()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 996
+    :cond_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Bearer "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 998
+    new-instance v1, Lokhttp3/MultipartBody$Builder;
+
+    invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
+
+    sget-object v2, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
+
+    .line 999
+    invoke-virtual {v1, v2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "wahoo_refresh_token"
+
+    .line 1000
+    invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
+
+    move-result-object p0
+
+    .line 1001
+    invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
+
+    move-result-object p0
+
+    .line 1003
+    sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_WAHOO:Ljava/lang/String;
+
+    sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
+
+    invoke-static {v1, v2, p0}, Lcom/changyow/iconsole4th/CloudControl;->getRequestBuilder(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/RESTMethod;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+
+    move-result-object p0
+
+    const-string v1, "Authorization"
+
+    .line 1004
+    invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    .line 1006
+    invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+
+    move-result-object p0
+
+    .line 1007
+    invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
 .end method
@@ -6028,7 +6334,7 @@
         }
     .end annotation
 
-    .line 712
+    .line 713
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6043,31 +6349,31 @@
 
     move-result-object p0
 
-    .line 714
+    .line 715
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 715
+    .line 716
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
     const-string v1, "data"
 
-    .line 716
+    .line 717
     invoke-virtual {v0, v1, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 717
+    .line 718
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 719
+    .line 720
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_WORKOUT_SINGLE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6078,7 +6384,7 @@
 
     const-string v0, "Authorization"
 
-    .line 720
+    .line 721
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p0
@@ -6087,15 +6393,15 @@
 
     const-string v1, "Secret"
 
-    .line 721
+    .line 722
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 723
+    .line 724
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 724
+    .line 725
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6128,7 +6434,7 @@
         }
     .end annotation
 
-    .line 729
+    .line 730
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6143,19 +6449,19 @@
 
     move-result-object p0
 
-    .line 731
+    .line 732
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 732
+    .line 733
     invoke-virtual {v0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
 
-    .line 734
+    .line 735
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -6173,7 +6479,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 735
+    .line 736
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -6196,13 +6502,13 @@
 
     goto :goto_0
 
-    .line 737
+    .line 738
     :cond_0
     invoke-virtual {v0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 739
+    .line 740
     sget-object v0, Lcom/changyow/iconsole4th/CloudControl;->WA_WORKOUT_MULTIPLE:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6213,7 +6519,7 @@
 
     const-string v0, "Authorization"
 
-    .line 740
+    .line 741
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p0
@@ -6222,15 +6528,15 @@
 
     const-string v1, "Secret"
 
-    .line 741
+    .line 742
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 743
+    .line 744
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 744
+    .line 745
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6267,7 +6573,7 @@
 
     return-void
 
-    .line 1098
+    .line 1160
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -6283,38 +6589,38 @@
 
     move-result-object p0
 
-    .line 1100
+    .line 1162
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v1, "equipment"
 
-    .line 1101
+    .line 1163
     invoke-virtual {v0, v1, p2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p2
 
     const-string v0, "mets_goals"
 
-    .line 1102
+    .line 1164
     invoke-virtual {p2, v0, p1}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
     sget-object p2, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1103
+    .line 1165
     invoke-virtual {p1, p2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p1
 
-    .line 1105
+    .line 1167
     invoke-virtual {p1}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p1
 
-    .line 1107
+    .line 1169
     sget-object p2, Lcom/changyow/iconsole4th/CloudControl;->WA_USER_SETTINGS_METS:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6325,15 +6631,15 @@
 
     const-string p2, "Authorization"
 
-    .line 1108
+    .line 1170
     invoke-virtual {p1, p2, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1110
+    .line 1172
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1111
+    .line 1173
     invoke-static {p0, p3}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6354,14 +6660,14 @@
         }
     .end annotation
 
-    .line 450
+    .line 451
     sget-object v0, Lokhttp3/internal/Util;->UTF_8:Ljava/nio/charset/Charset;
 
     invoke-static {p0, p1, v0}, Lokhttp3/Credentials;->basic(Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 452
+    .line 453
     sget-object p1, Lcom/changyow/iconsole4th/CloudControl;->WA_REGISTER:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6374,7 +6680,7 @@
 
     const-string v0, "Authorization"
 
-    .line 453
+    .line 454
     invoke-virtual {p1, v0, p0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p0
@@ -6383,15 +6689,15 @@
 
     const-string v1, "Secret"
 
-    .line 454
+    .line 455
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 456
+    .line 457
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 457
+    .line 458
     invoke-static {p0, p2}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6410,7 +6716,7 @@
         }
     .end annotation
 
-    .line 840
+    .line 841
     sget-object p0, Lcom/changyow/iconsole4th/CloudControl;->WA_TIME_SYNC:Ljava/lang/String;
 
     sget-object v0, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->GET:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6421,12 +6727,12 @@
 
     move-result-object p0
 
-    .line 842
+    .line 843
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 843
+    .line 844
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6445,7 +6751,7 @@
         }
     .end annotation
 
-    .line 1275
+    .line 1337
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -6463,7 +6769,7 @@
 
     return-void
 
-    .line 1281
+    .line 1343
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -6479,31 +6785,31 @@
 
     move-result-object v0
 
-    .line 1283
+    .line 1345
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v2, "data"
 
-    .line 1284
+    .line 1346
     invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1285
+    .line 1347
     invoke-virtual {p0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1287
+    .line 1349
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1289
+    .line 1351
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_INTERVAL_PROFILE_UPDATE:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6514,15 +6820,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1290
+    .line 1352
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1292
+    .line 1354
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1293
+    .line 1355
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void
@@ -6541,7 +6847,7 @@
         }
     .end annotation
 
-    .line 1229
+    .line 1291
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -6559,7 +6865,7 @@
 
     return-void
 
-    .line 1235
+    .line 1297
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -6575,31 +6881,31 @@
 
     move-result-object v0
 
-    .line 1237
+    .line 1299
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v2, "data"
 
-    .line 1238
+    .line 1300
     invoke-virtual {v1, v2, p0}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
     sget-object v1, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
-    .line 1239
+    .line 1301
     invoke-virtual {p0, v1}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     move-result-object p0
 
-    .line 1241
+    .line 1303
     invoke-virtual {p0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p0
 
-    .line 1243
+    .line 1305
     sget-object v1, Lcom/changyow/iconsole4th/CloudControl;->WA_METS_EDIT_SCHEDULE:Ljava/lang/String;
 
     sget-object v2, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->POST:Lcom/changyow/iconsole4th/interfaces/RESTMethod;
@@ -6610,15 +6916,15 @@
 
     const-string v1, "Authorization"
 
-    .line 1244
+    .line 1306
     invoke-virtual {p0, v1, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 1246
+    .line 1308
     invoke-virtual {p0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p0
 
-    .line 1247
+    .line 1309
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/CloudControl;->enqueueRequest(Lokhttp3/Request;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     return-void

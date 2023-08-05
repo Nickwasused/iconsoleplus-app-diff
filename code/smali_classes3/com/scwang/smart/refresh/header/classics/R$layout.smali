@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final srl_classics_footer:I = 0x7f0d0188
+.field public static final srl_classics_footer:I = 0x7f0d0189
 
-.field public static final srl_classics_header:I = 0x7f0d0189
+.field public static final srl_classics_header:I = 0x7f0d018a
 
 
 # direct methods

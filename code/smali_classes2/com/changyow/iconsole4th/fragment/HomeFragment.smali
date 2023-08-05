@@ -347,7 +347,7 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00a4
+    const p3, 0x7f0d00a5
 
     const/4 v0, 0x0
 
@@ -356,7 +356,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a0223
+    const p2, 0x7f0a0224
 
     .line 60
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ivLogo:Landroid/widget/ImageView;
 
-    const p2, 0x7f0a01a8
+    const p2, 0x7f0a01a9
 
     .line 61
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMenu:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a05c8
+    const p2, 0x7f0a05c9
 
     .line 64
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->vpContent:Landroidx/viewpager/widget/ViewPager;
 
-    const p2, 0x7f0a035d
+    const p2, 0x7f0a035e
 
     .line 65
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

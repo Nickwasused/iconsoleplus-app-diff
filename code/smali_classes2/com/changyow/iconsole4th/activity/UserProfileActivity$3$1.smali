@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 180
+    .line 183
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -43,7 +43,7 @@
 .method synthetic lambda$onSuccess$0$com-changyow-iconsole4th-activity-UserProfileActivity$3$1()V
     .locals 1
 
-    .line 193
+    .line 196
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
@@ -56,7 +56,7 @@
 .method synthetic lambda$onSuccess$1$com-changyow-iconsole4th-activity-UserProfileActivity$3$1(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 193
+    .line 196
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
@@ -81,7 +81,7 @@
         }
     .end annotation
 
-    .line 202
+    .line 205
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
@@ -102,7 +102,7 @@
         }
     .end annotation
 
-    .line 184
+    .line 187
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -111,27 +111,27 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/UserProfile;->setBsToekn(Ljava/lang/String;)V
 
-    .line 185
+    .line 188
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/UserProfile;->setBsRenewToken(Ljava/lang/String;)V
 
-    .line 186
+    .line 189
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 187
+    .line 190
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->invalidateSharedProfile()V
 
-    .line 188
+    .line 191
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBDatabase;->clearDatabase()V
 
-    .line 190
+    .line 193
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
@@ -142,7 +142,7 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 191
+    .line 194
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3$1;->this$1:Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
@@ -163,17 +163,17 @@
 
     const v1, 0x7f120277
 
-    .line 192
+    .line 195
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 195
+    .line 198
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 196
+    .line 199
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void

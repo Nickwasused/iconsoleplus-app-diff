@@ -1,11 +1,11 @@
 .class Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;
-.super Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;
+.super Lcom/changyow/iconsole4th/interfaces/BSCallback;
 .source "UserProfileActivity.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showRegionPicker()V
+    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onResume()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,61 +17,79 @@
 # instance fields
 .field final synthetic this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-.field final synthetic val$country_codes:[Ljava/lang/String;
-
 
 # direct methods
-.method constructor <init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/String;)V
+.method constructor <init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
     .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
-            0x8010,
-            0x1010
+            0x8010
         }
         names = {
-            "this$0",
-            "val$country_codes"
+            "this$0"
         }
     .end annotation
 
-    .line 683
+    .line 356
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    iput-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->val$country_codes:[Ljava/lang/String;
-
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;-><init>()V
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onOptionPicked(ILjava/lang/String;)V
-    .locals 1
+.method public onError(Ljava/lang/String;)V
+    .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
-            0x0,
             0x0
         }
         names = {
-            "index",
-            "item"
+            "error"
         }
     .end annotation
 
-    .line 687
-    iget-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
+    return-void
+.end method
 
-    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->val$country_codes:[Ljava/lang/String;
+.method public onSuccess(Lcom/google/gson/JsonElement;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "jsonElement"
+        }
+    .end annotation
 
-    aget-object p1, v0, p1
+    .line 360
+    invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
-    iput-object p1, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
+    move-result-object p1
 
-    .line 688
+    const-string/jumbo v0, "wahoo_refresh_token"
+
+    .line 361
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 362
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
+    invoke-static {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->access$500(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;
 
+    move-result-object p1
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Landroid/widget/Button;->setSelected(Z)V
+
+    :cond_0
     return-void
 .end method

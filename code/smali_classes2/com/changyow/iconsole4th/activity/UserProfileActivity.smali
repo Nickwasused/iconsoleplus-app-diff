@@ -20,6 +20,8 @@
 
 .field private btnStrava:Landroid/widget/Button;
 
+.field private btnWahoo:Landroid/widget/Button;
+
 .field private items:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -67,33 +69,33 @@
 .method public constructor <init>()V
     .locals 5
 
-    .line 72
+    .line 73
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 84
+    .line 85
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mListAdapter:Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;
 
-    .line 85
+    .line 86
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    .line 87
+    .line 88
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
     const-string v1, ""
 
-    .line 88
+    .line 89
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
-    .line 89
+    .line 90
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mEmail:Ljava/lang/String;
 
-    .line 90
+    .line 91
     new-instance v2, Ljava/util/Date;
 
     invoke-direct {v2}, Ljava/util/Date;-><init>()V
@@ -102,30 +104,30 @@
 
     const/4 v2, 0x0
 
-    .line 91
+    .line 92
     iput v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
     const-wide/16 v3, 0x0
 
-    .line 92
+    .line 93
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
-    .line 93
+    .line 94
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
-    .line 94
+    .line 95
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
 
-    .line 95
+    .line 96
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
-    .line 96
+    .line 97
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bEditAvatarFlag:Z
 
-    .line 97
+    .line 98
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
-    .line 98
+    .line 99
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bAllFieldsFilled:Z
 
     return-void
@@ -134,7 +136,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
     .locals 0
 
-    .line 72
+    .line 73
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->selectImage()V
 
     return-void
@@ -143,7 +145,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Ljava/util/List;
     .locals 0
 
-    .line 72
+    .line 73
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
     return-object p0
@@ -152,7 +154,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
     .locals 0
 
-    .line 72
+    .line 73
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->doLogout()V
 
     return-void
@@ -161,7 +163,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 72
+    .line 73
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnStrava:Landroid/widget/Button;
 
     return-object p0
@@ -170,16 +172,25 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 72
+    .line 73
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnFitbit:Landroid/widget/Button;
 
     return-object p0
 .end method
 
-.method static synthetic access$500(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+.method static synthetic access$500(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 72
+    .line 73
+    iget-object p0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnWahoo:Landroid/widget/Button;
+
+    return-object p0
+.end method
+
+.method static synthetic access$600(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    .locals 0
+
+    .line 73
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->cropImage()V
 
     return-void
@@ -188,7 +199,7 @@
 .method private cropImage()V
     .locals 3
 
-    .line 909
+    .line 940
     new-instance v0, Ljava/io/File;
 
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
@@ -199,26 +210,26 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 910
+    .line 941
     invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object v0
 
-    .line 911
+    .line 942
     invoke-static {v0}, Lcom/canhub/cropper/CropImage;->activity(Landroid/net/Uri;)Lcom/canhub/cropper/CropImage$ActivityBuilder;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 912
+    .line 943
     invoke-virtual {v0, v1}, Lcom/canhub/cropper/CropImage$ActivityBuilder;->setFixAspectRatio(Z)Lcom/canhub/cropper/CropImage$ActivityBuilder;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    .line 913
+    .line 944
     invoke-virtual {v0, v1}, Lcom/canhub/cropper/CropImage$ActivityBuilder;->start(Landroid/app/Activity;)V
 
     return-void
@@ -227,7 +238,7 @@
 .method private doLogout()V
     .locals 4
 
-    .line 380
+    .line 411
     invoke-static {}, Lorg/matomo/sdk/extra/TrackHelper;->track()Lorg/matomo/sdk/extra/TrackHelper;
 
     move-result-object v0
@@ -246,7 +257,7 @@
 
     invoke-virtual {v0, v1}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->with(Lorg/matomo/sdk/Tracker;)V
 
-    .line 381
+    .line 412
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -255,47 +266,47 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/UserProfile;->setBsToekn(Ljava/lang/String;)V
 
-    .line 382
+    .line 413
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/UserProfile;->setBsRenewToken(Ljava/lang/String;)V
 
-    .line 383
+    .line 414
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 384
+    .line 415
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->invalidateSharedProfile()V
 
-    .line 385
+    .line 416
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBDatabase;->clearDatabase()V
 
-    .line 386
+    .line 417
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->renewInstance()V
 
-    .line 388
+    .line 419
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getFilesDir()Ljava/io/File;
 
     move-result-object v0
 
-    .line 389
+    .line 420
     new-instance v1, Ljava/io/File;
 
     const-string/jumbo v2, "userAvatar.jpg"
 
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 390
+    .line 421
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
     const v0, 0x7f120024
 
-    .line 392
+    .line 423
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -318,7 +329,7 @@
 
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 393
+    .line 424
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -341,21 +352,21 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 395
+    .line 426
     invoke-static {}, Lcom/facebook/AccessToken;->getCurrentAccessToken()Lcom/facebook/AccessToken;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 396
+    .line 427
     invoke-static {}, Lcom/facebook/login/LoginManager;->getInstance()Lcom/facebook/login/LoginManager;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/facebook/login/LoginManager;->logOut()V
 
-    .line 398
+    .line 429
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -367,19 +378,19 @@
 
     const v1, 0x10008000
 
-    .line 399
+    .line 430
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 400
+    .line 431
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 401
+    .line 432
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->finish()V
 
     return-void
 .end method
 
-.method static synthetic lambda$onBackPressed$6(Landroid/content/DialogInterface;I)V
+.method static synthetic lambda$onBackPressed$7(Landroid/content/DialogInterface;I)V
     .locals 0
 
     return-void
@@ -391,19 +402,19 @@
     return-void
 .end method
 
-.method static synthetic lambda$showChooseGenderDialog$15(Landroid/content/DialogInterface;I)V
+.method static synthetic lambda$showChooseGenderDialog$16(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 664
+    .line 695
     invoke-interface {p0}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
 .end method
 
-.method static synthetic lambda$showEnterNameDialog$12(Landroid/content/DialogInterface;I)V
+.method static synthetic lambda$showEnterNameDialog$13(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 622
+    .line 653
     invoke-interface {p0}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -412,29 +423,29 @@
 .method private loadValues()V
     .locals 3
 
-    .line 466
+    .line 497
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getFilesDir()Ljava/io/File;
 
     move-result-object v0
 
-    .line 467
+    .line 498
     new-instance v1, Ljava/io/File;
 
     const-string/jumbo v2, "userAvatar.jpg"
 
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 468
+    .line 499
     new-instance v0, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 469
+    .line 500
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v2, v0, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 470
+    .line 501
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
@@ -445,28 +456,28 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
-    .line 472
+    .line 503
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 474
+    .line 505
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
-    .line 475
+    .line 506
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
-    .line 476
+    .line 507
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getEmail()Ljava/lang/String;
@@ -475,7 +486,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mEmail:Ljava/lang/String;
 
-    .line 477
+    .line 508
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getBirthday()Ljava/util/Date;
@@ -484,7 +495,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
-    .line 478
+    .line 509
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getGender()I
@@ -493,7 +504,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
-    .line 479
+    .line 510
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getHeight()D
@@ -502,7 +513,7 @@
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
-    .line 480
+    .line 511
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getWeight()D
@@ -511,7 +522,7 @@
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
-    .line 481
+    .line 512
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->getRegion()Ljava/lang/String;
@@ -522,7 +533,7 @@
 
     goto :goto_0
 
-    .line 484
+    .line 515
     :cond_0
     new-instance v0, Lcom/changyow/iconsole4th/db/UserProfile;
 
@@ -562,12 +573,12 @@
         }
     .end annotation
 
-    .line 443
+    .line 474
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 444
+    .line 475
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -578,12 +589,12 @@
 
     const-string p1, "Title"
 
-    .line 445
+    .line 476
     invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "Value"
 
-    .line 446
+    .line 477
     invoke-virtual {v0, p1, p3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object v0
@@ -600,7 +611,7 @@
         }
     .end annotation
 
-    .line 874
+    .line 905
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     move-result-object p1
@@ -613,19 +624,19 @@
 
     check-cast p1, Landroid/graphics/Bitmap;
 
-    .line 875
+    .line 906
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 876
+    .line 907
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v2, 0x63
 
     invoke-virtual {p1, v1, v2, v0}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 878
+    .line 909
     new-instance p1, Ljava/io/File;
 
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
@@ -636,23 +647,23 @@
 
     invoke-direct {p1, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 883
+    .line 914
     :try_start_0
     invoke-virtual {p1}, Ljava/io/File;->createNewFile()Z
 
-    .line 884
+    .line 915
     new-instance v1, Ljava/io/FileOutputStream;
 
     invoke-direct {v1, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 885
+    .line 916
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 886
+    .line 917
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
@@ -663,7 +674,7 @@
     :catch_0
     move-exception p1
 
-    .line 894
+    .line 925
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -671,10 +682,10 @@
     :catch_1
     move-exception p1
 
-    .line 890
+    .line 921
     invoke-virtual {p1}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
-    .line 897
+    .line 928
     :goto_0
     new-instance p1, Landroid/os/Handler;
 
@@ -684,9 +695,9 @@
 
     invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$12;
 
-    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$12;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     const-wide/16 v1, 0x3e8
 
@@ -706,7 +717,7 @@
         }
     .end annotation
 
-    .line 922
+    .line 953
     :try_start_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -724,7 +735,7 @@
     :catch_0
     move-exception p1
 
-    .line 930
+    .line 961
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -732,17 +743,17 @@
     :catch_1
     move-exception p1
 
-    .line 926
+    .line 957
     invoke-virtual {p1}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
     :goto_0
     const/4 p1, 0x0
 
-    .line 933
+    .line 964
     :goto_1
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
-    .line 934
+    .line 965
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
 
     return-void
@@ -761,7 +772,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 844
+    .line 875
     new-instance v0, Ljava/io/File;
 
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
@@ -772,7 +783,7 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 849
+    .line 880
     :try_start_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getApplicationContext()Landroid/content/Context;
 
@@ -790,34 +801,34 @@
 
     move-result-object p1
 
-    .line 850
+    .line 881
     new-instance v1, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 851
+    .line 882
     sget-object v2, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v3, 0x5a
 
     invoke-virtual {p1, v2, v3, v1}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 853
+    .line 884
     invoke-virtual {v0}, Ljava/io/File;->createNewFile()Z
 
-    .line 854
+    .line 885
     new-instance p1, Ljava/io/FileOutputStream;
 
     invoke-direct {p1, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 855
+    .line 886
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 856
+    .line 887
     invoke-virtual {p1}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
@@ -828,7 +839,7 @@
     :catch_0
     move-exception p1
 
-    .line 865
+    .line 896
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -836,10 +847,10 @@
     :catch_1
     move-exception p1
 
-    .line 861
+    .line 892
     invoke-virtual {p1}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
-    .line 869
+    .line 900
     :cond_0
     :goto_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->cropImage()V
@@ -850,24 +861,24 @@
 .method private refreshList()V
     .locals 7
 
-    .line 413
+    .line 444
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 415
+    .line 446
     invoke-static {}, Ljava/text/SimpleDateFormat;->getDateInstance()Ljava/text/DateFormat;
 
     move-result-object v0
 
-    .line 417
+    .line 448
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
     const-string v2, ""
 
     if-eqz v1, :cond_0
 
-    .line 418
+    .line 449
     invoke-virtual {v0, v1}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v0
@@ -877,20 +888,20 @@
     :cond_0
     move-object v0, v2
 
-    .line 419
+    .line 450
     :goto_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 420
+    .line 451
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 421
+    .line 452
     :cond_1
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getResources()Landroid/content/res/Resources;
 
@@ -906,11 +917,11 @@
 
     move-result-object v1
 
-    .line 423
+    .line 454
     :cond_2
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    const v4, 0x7f080194
+    const v4, 0x7f080196
 
     const v5, 0x7f12031c
 
@@ -924,10 +935,10 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 424
+    .line 455
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    const v3, 0x7f0801da
+    const v3, 0x7f0801dc
 
     const v4, 0x7f120367
 
@@ -947,10 +958,10 @@
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 425
+    .line 456
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    const v3, 0x7f0802d5
+    const v3, 0x7f0802d7
 
     const v4, 0x7f120455
 
@@ -970,10 +981,10 @@
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 426
+    .line 457
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    const v3, 0x7f0801b4
+    const v3, 0x7f0801b6
 
     const v4, 0x7f12035e
 
@@ -993,10 +1004,10 @@
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 427
+    .line 458
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
-    const v3, 0x7f080297
+    const v3, 0x7f080299
 
     const v4, 0x7f12039c
 
@@ -1010,7 +1021,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 428
+    .line 459
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
     const v1, 0x7f120389
@@ -1055,31 +1066,31 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 431
+    .line 462
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mListAdapter:Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->items:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;->setItems(Ljava/util/List;)V
 
-    .line 432
+    .line 463
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mListAdapter:Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;->notifyDataSetChanged()V
 
-    .line 434
+    .line 465
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
     const/4 v1, 0x1
 
     if-eqz v0, :cond_3
 
-    .line 435
+    .line 466
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->ivPrivacyAgreementMark:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setSelected(Z)V
 
-    .line 437
+    .line 468
     :cond_3
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
@@ -1103,7 +1114,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 438
+    .line 469
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bAllFieldsFilled:Z
 
     :cond_4
@@ -1113,7 +1124,7 @@
 .method private saveValues()V
     .locals 9
 
-    .line 489
+    .line 520
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
     const-string/jumbo v1, "userAvatar.jpg"
@@ -1124,23 +1135,23 @@
 
     if-eqz v0, :cond_0
 
-    .line 493
+    .line 524
     :try_start_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getFilesDir()Ljava/io/File;
 
     move-result-object v0
 
-    .line 494
+    .line 525
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 495
+    .line 526
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, v2}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 496
+    .line 527
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
     sget-object v3, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
@@ -1149,7 +1160,7 @@
 
     invoke-virtual {v2, v3, v4, v0}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 497
+    .line 528
     invoke-virtual {v0}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -1159,69 +1170,69 @@
     :catch_0
     move-exception v0
 
-    .line 501
+    .line 532
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 505
+    .line 536
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     if-eqz v0, :cond_1
 
-    .line 507
+    .line 538
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/UserProfile;->setName(Ljava/lang/String;)V
 
-    .line 508
+    .line 539
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mEmail:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/UserProfile;->setEmail(Ljava/lang/String;)V
 
-    .line 509
+    .line 540
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/UserProfile;->setBirthday(Ljava/util/Date;)V
 
-    .line 510
+    .line 541
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/UserProfile;->setGender(I)V
 
-    .line 511
+    .line 542
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
     invoke-virtual {v0, v2, v3}, Lcom/changyow/iconsole4th/db/UserProfile;->setHeight(D)V
 
-    .line 512
+    .line 543
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
     invoke-virtual {v0, v2, v3}, Lcom/changyow/iconsole4th/db/UserProfile;->setWeight(D)V
 
-    .line 513
+    .line 544
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/UserProfile;->setRegion(Ljava/lang/String;)V
 
-    .line 515
+    .line 546
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mUserProfile:Lcom/changyow/iconsole4th/db/UserProfile;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 518
+    .line 549
     :cond_1
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
@@ -1231,7 +1242,7 @@
 
     move-result-object v0
 
-    .line 519
+    .line 550
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -1244,14 +1255,14 @@
 
     invoke-virtual {v2}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
-    .line 521
+    .line 552
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
     const-string v3, ""
 
     if-eqz v2, :cond_2
 
-    .line 522
+    .line 553
     new-instance v2, Ljava/text/SimpleDateFormat;
 
     const-string/jumbo v4, "yyyy-MM-dd"
@@ -1269,13 +1280,13 @@
     :cond_2
     move-object v2, v3
 
-    .line 523
+    .line 554
     :goto_1
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
-    .line 524
+    .line 555
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
     const-string v6, "name"
@@ -1284,10 +1295,10 @@
 
     const-string v5, "birthday"
 
-    .line 525
+    .line 556
     invoke-virtual {v4, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 526
+    .line 557
     iget v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1298,14 +1309,14 @@
 
     invoke-virtual {v4, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 527
+    .line 558
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
 
     const-string v5, "country_code"
 
     invoke-virtual {v4, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 528
+    .line 559
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1326,7 +1337,7 @@
 
     invoke-virtual {v4, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 529
+    .line 560
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1351,7 +1362,7 @@
 
     invoke-virtual {v4, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 530
+    .line 561
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v2
@@ -1370,10 +1381,10 @@
 
     const/4 v2, 0x0
 
-    .line 531
+    .line 562
     invoke-static {v0, v4, v2}, Lcom/changyow/iconsole4th/CloudControl;->saveUserProfile(Ljava/lang/String;Ljava/util/HashMap;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
-    .line 533
+    .line 564
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
     if-eqz v3, :cond_3
@@ -1382,7 +1393,7 @@
 
     if-eqz v3, :cond_3
 
-    .line 535
+    .line 566
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v3
@@ -1391,22 +1402,22 @@
 
     move-result-object v3
 
-    .line 536
+    .line 567
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v3, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 537
+    .line 568
     new-instance v1, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 538
+    .line 569
     sget-object v3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v3, v1, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 539
+    .line 570
     invoke-virtual {v4}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v3
@@ -1415,7 +1426,7 @@
 
     move-result-object v1
 
-    .line 540
+    .line 571
     invoke-static {v0, v1, v2}, Lcom/changyow/iconsole4th/CloudControl;->saveUserPicture(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
     :cond_3
@@ -1431,7 +1442,7 @@
 
     const v1, 0x7f120297
 
-    .line 570
+    .line 601
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1460,7 +1471,7 @@
 
     aput-object v1, v0, v2
 
-    .line 572
+    .line 603
     new-instance v1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1469,17 +1480,17 @@
 
     const v2, 0x7f12022e
 
-    .line 573
+    .line 604
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 574
-    new-instance v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda11;
+    .line 605
+    new-instance v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda12;
 
-    invoke-direct {v2, p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda11;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/CharSequence;)V
+    invoke-direct {v2, p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda12;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/CharSequence;)V
 
     invoke-virtual {v1, v0, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setItems([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 588
+    .line 619
     invoke-virtual {v1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -1488,71 +1499,71 @@
 .method private setupInitActionbar()V
     .locals 6
 
-    .line 343
+    .line 374
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 344
+    .line 375
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 345
+    .line 376
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 347
+    .line 378
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
-    .line 348
+    .line 379
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    .line 350
+    .line 381
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v3, 0x1
 
-    .line 351
+    .line 382
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
-    .line 353
+    .line 384
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
-    .line 354
+    .line 385
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
-    .line 355
+    .line 386
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
-    .line 356
+    .line 387
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -1561,32 +1572,32 @@
 
     const v5, 0x7f12027e
 
-    .line 358
+    .line 389
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080365
+    const v0, 0x7f080368
 
-    .line 359
+    .line 390
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0801f3
+    const v0, 0x7f0801f5
 
-    .line 360
+    .line 391
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f080290
+    const v0, 0x7f080292
 
-    .line 361
+    .line 392
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 363
-    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda4;
+    .line 394
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda6;
 
-    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda6;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 365
+    .line 396
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1599,18 +1610,18 @@
 
     if-nez v0, :cond_0
 
-    .line 366
+    .line 397
     invoke-virtual {v4, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 367
+    .line 398
     :cond_0
-    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda5;
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda7;
 
-    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda5;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda7;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 371
+    .line 402
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1621,20 +1632,20 @@
 
     if-nez v0, :cond_1
 
-    .line 372
+    .line 403
     invoke-virtual {v4, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 374
+    .line 405
     :cond_1
     invoke-virtual {v2, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 375
+    .line 406
     :goto_0
-    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda6;
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda5;
 
-    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda6;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda5;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1646,7 +1657,7 @@
 .method synthetic lambda$onCreate$0$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
     .locals 1
 
-    .line 238
+    .line 241
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "https://web.iconsole.plus/privacy_policy.html"
@@ -1659,7 +1670,7 @@
 
     invoke-direct {p1, v0, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 239
+    .line 242
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1670,20 +1681,20 @@
 
     const/4 p1, 0x1
 
-    .line 242
+    .line 245
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
-    .line 244
+    .line 247
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p2
 
     invoke-virtual {p2, p1}, Lcom/changyow/iconsole4th/db/UserProfile;->setPrivacy_policy(I)V
 
-    .line 245
+    .line 248
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->saveValues()V
 
-    .line 246
+    .line 249
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->refreshList()V
 
     return-void
@@ -1692,12 +1703,12 @@
 .method synthetic lambda$onCreate$3$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 228
+    .line 231
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
     if-eqz p1, :cond_0
 
-    .line 230
+    .line 233
     new-instance p1, Landroid/content/Intent;
 
     const-string v0, "https://web.iconsole.plus/privacy_policy.html"
@@ -1710,12 +1721,12 @@
 
     invoke-direct {p1, v1, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 231
+    .line 234
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 
-    .line 235
+    .line 238
     :cond_0
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -1725,48 +1736,48 @@
 
     const v0, 0x7f1201bc
 
-    .line 236
+    .line 239
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
     const v0, 0x7f12038d
 
-    new-instance v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda7;
+    new-instance v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda8;
 
-    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda7;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda8;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
-    .line 237
+    .line 240
     invoke-virtual {p1, v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
     const v0, 0x7f1202ab
 
-    new-instance v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda8;
+    new-instance v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda9;
 
-    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda8;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda9;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
-    .line 241
+    .line 244
     invoke-virtual {p1, v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
     const v0, 0x7f120273
 
-    sget-object v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;
+    sget-object v1, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda14;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda14;
 
-    .line 248
+    .line 251
     invoke-virtual {p1, v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 251
+    .line 254
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 252
+    .line 255
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -1775,7 +1786,7 @@
 .method synthetic lambda$onCreate$4$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 256
+    .line 259
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnStrava:Landroid/widget/Button;
 
     invoke-virtual {p1}, Landroid/widget/Button;->isSelected()Z
@@ -1784,14 +1795,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 258
+    .line 261
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnStrava:Landroid/widget/Button;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setSelected(Z)V
 
-    .line 259
+    .line 262
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -1806,7 +1817,7 @@
 
     goto :goto_0
 
-    .line 263
+    .line 266
     :cond_0
     new-instance p1, Landroid/content/Intent;
 
@@ -1816,7 +1827,7 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 264
+    .line 267
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
@@ -1826,7 +1837,7 @@
 .method synthetic lambda$onCreate$5$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 269
+    .line 272
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnFitbit:Landroid/widget/Button;
 
     invoke-virtual {p1}, Landroid/widget/Button;->isSelected()Z
@@ -1835,14 +1846,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 271
+    .line 274
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnFitbit:Landroid/widget/Button;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setSelected(Z)V
 
-    .line 272
+    .line 275
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -1857,7 +1868,7 @@
 
     goto :goto_0
 
-    .line 276
+    .line 279
     :cond_0
     new-instance p1, Landroid/content/Intent;
 
@@ -1867,17 +1878,60 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 277
+    .line 280
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
     return-void
 .end method
 
-.method synthetic lambda$selectImage$10$com-changyow-iconsole4th-activity-UserProfileActivity([Ljava/lang/CharSequence;Landroid/content/DialogInterface;I)V
+.method synthetic lambda$onCreate$6$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 575
+    .line 285
+    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnWahoo:Landroid/widget/Button;
+
+    invoke-virtual {p1}, Landroid/widget/Button;->isSelected()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 287
+    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnWahoo:Landroid/widget/Button;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/widget/Button;->setSelected(Z)V
+
+    const/4 p1, 0x0
+
+    .line 288
+    invoke-static {p1}, Lcom/changyow/iconsole4th/CloudControl;->deleteWahooRefreshToken(Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
+    goto :goto_0
+
+    .line 292
+    :cond_0
+    new-instance p1, Landroid/content/Intent;
+
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
+
+    const-class v1, Lcom/changyow/iconsole4th/activity/third_party_auth/WahooAuthActivity;
+
+    invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .line 293
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivity(Landroid/content/Intent;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method synthetic lambda$selectImage$11$com-changyow-iconsole4th-activity-UserProfileActivity([Ljava/lang/CharSequence;Landroid/content/DialogInterface;I)V
+    .locals 2
+
+    .line 606
     aget-object v0, p1, p3
 
     const v1, 0x7f120297
@@ -1892,12 +1946,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 577
+    .line 608
     invoke-static {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivityPermissionsDispatcher;->showCameraWithPermissionCheck(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     goto :goto_0
 
-    .line 579
+    .line 610
     :cond_0
     aget-object v0, p1, p3
 
@@ -1913,12 +1967,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 581
+    .line 612
     invoke-static {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivityPermissionsDispatcher;->shwoGalleryWithPermissionCheck(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     goto :goto_0
 
-    .line 583
+    .line 614
     :cond_1
     aget-object p1, p1, p3
 
@@ -1934,7 +1988,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 585
+    .line 616
     invoke-interface {p2}, Landroid/content/DialogInterface;->dismiss()V
 
     :cond_2
@@ -1942,11 +1996,11 @@
     return-void
 .end method
 
-.method synthetic lambda$setupInitActionbar$7$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
+.method synthetic lambda$setupInitActionbar$10$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 363
-    invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onBackPressed()V
+    .line 406
+    invoke-static {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivityPermissionsDispatcher;->startBarcodeActivityWithPermissionCheck(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     return-void
 .end method
@@ -1954,8 +2008,8 @@
 .method synthetic lambda$setupInitActionbar$8$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 368
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->doLogout()V
+    .line 394
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onBackPressed()V
 
     return-void
 .end method
@@ -1963,61 +2017,61 @@
 .method synthetic lambda$setupInitActionbar$9$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 375
-    invoke-static {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivityPermissionsDispatcher;->startBarcodeActivityWithPermissionCheck(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    .line 399
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->doLogout()V
 
     return-void
 .end method
 
-.method synthetic lambda$showBirthdayPicker$13$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/widget/DatePicker;III)V
+.method synthetic lambda$showBirthdayPicker$14$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/widget/DatePicker;III)V
     .locals 0
 
-    .line 642
+    .line 673
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object p1
 
-    .line 643
+    .line 674
     invoke-virtual {p1, p2, p3, p4}, Ljava/util/Calendar;->set(III)V
 
-    .line 644
+    .line 675
     invoke-virtual {p1}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
-    .line 645
+    .line 676
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
 
     return-void
 .end method
 
-.method synthetic lambda$showChooseGenderDialog$14$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
+.method synthetic lambda$showChooseGenderDialog$15$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 661
+    .line 692
     iput p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
-    .line 662
+    .line 693
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
 
     return-void
 .end method
 
-.method synthetic lambda$showEnterNameDialog$11$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/widget/EditText;Landroid/content/DialogInterface;I)V
+.method synthetic lambda$showEnterNameDialog$12$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/widget/EditText;Landroid/content/DialogInterface;I)V
     .locals 0
 
     if-eqz p1, :cond_0
 
-    .line 618
+    .line 649
     invoke-virtual {p1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 619
+    .line 650
     invoke-virtual {p1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object p1
@@ -2028,7 +2082,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
-    .line 620
+    .line 651
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
 
@@ -2050,7 +2104,7 @@
         }
     .end annotation
 
-    .line 811
+    .line 842
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     const/4 v0, -0x1
@@ -2061,7 +2115,7 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 815
+    .line 846
     invoke-direct {p0, p3}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onSelectFromGalleryResult(Landroid/content/Intent;)V
 
     goto :goto_0
@@ -2071,7 +2125,7 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 817
+    .line 848
     invoke-direct {p0, p3}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onCaptureImageResult(Landroid/content/Intent;)V
 
     :cond_1
@@ -2080,7 +2134,7 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 822
+    .line 853
     invoke-static {p3}, Lcom/canhub/cropper/CropImage;->getActivityResult(Landroid/content/Intent;)Lcom/canhub/cropper/CropImage$ActivityResult;
 
     move-result-object p1
@@ -2089,12 +2143,12 @@
 
     if-ne p2, v0, :cond_2
 
-    .line 827
+    .line 858
     invoke-virtual {p1}, Lcom/canhub/cropper/CropImage$ActivityResult;->getUriContent()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 828
+    .line 859
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->onCropped(Landroid/net/Uri;)V
 
     goto :goto_1
@@ -2104,7 +2158,7 @@
 
     if-ne p2, p3, :cond_3
 
-    .line 832
+    .line 863
     invoke-virtual {p1}, Lcom/canhub/cropper/CropImage$ActivityResult;->getError()Ljava/lang/Exception;
 
     :cond_3
@@ -2115,12 +2169,12 @@
 .method public onBackPressed()V
     .locals 3
 
-    .line 289
+    .line 305
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bAllFieldsFilled:Z
 
     if-nez v0, :cond_0
 
-    .line 291
+    .line 307
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2129,31 +2183,31 @@
 
     const v1, 0x7f1201bd
 
-    .line 292
+    .line 308
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const v1, 0x7f1202ab
 
-    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda12;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda12;
+    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;
 
-    .line 293
+    .line 309
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 295
+    .line 311
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 296
+    .line 312
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
 
-    .line 299
+    .line 315
     :cond_0
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onBackPressed()V
 
@@ -2171,15 +2225,15 @@
         }
     .end annotation
 
-    .line 105
+    .line 107
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0065
 
-    .line 106
+    .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setContentView(I)V
 
-    .line 108
+    .line 110
     invoke-static {}, Lorg/matomo/sdk/extra/TrackHelper;->track()Lorg/matomo/sdk/extra/TrackHelper;
 
     move-result-object p1
@@ -2204,9 +2258,9 @@
 
     invoke-virtual {p1, v0}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->with(Lorg/matomo/sdk/Tracker;)V
 
-    const p1, 0x7f0a02ca
+    const p1, 0x7f0a02cb
 
-    .line 110
+    .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2215,9 +2269,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lvProfileList:Landroid/widget/ListView;
 
-    const p1, 0x7f0a057f
+    const p1, 0x7f0a0580
 
-    .line 111
+    .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2226,9 +2280,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->txvUsername:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0210
+    const p1, 0x7f0a0211
 
-    .line 112
+    .line 114
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2237,9 +2291,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->ivAvatar:Lcom/makeramen/roundedimageview/RoundedImageView;
 
-    const p1, 0x7f0a0226
+    const p1, 0x7f0a0227
 
-    .line 113
+    .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2248,9 +2302,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->ivPrivacyAgreementMark:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a026f
+    const p1, 0x7f0a0270
 
-    .line 114
+    .line 116
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2261,7 +2315,7 @@
 
     const p1, 0x7f0a00d8
 
-    .line 115
+    .line 117
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2272,7 +2326,7 @@
 
     const p1, 0x7f0a00a7
 
-    .line 116
+    .line 118
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2281,7 +2335,18 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnFitbit:Landroid/widget/Button;
 
-    .line 118
+    const p1, 0x7f0a00e0
+
+    .line 119
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/Button;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnWahoo:Landroid/widget/Button;
+
+    .line 121
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->ivAvatar:Lcom/makeramen/roundedimageview/RoundedImageView;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$1;
@@ -2290,7 +2355,7 @@
 
     invoke-virtual {p1, v0}, Lcom/makeramen/roundedimageview/RoundedImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 127
+    .line 130
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->txvUsername:Landroid/widget/TextView;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$2;
@@ -2299,7 +2364,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 136
+    .line 139
     new-instance p1, Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2308,12 +2373,12 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mListAdapter:Lcom/changyow/iconsole4th/adapter/UserProfileListAdapter;
 
-    .line 137
+    .line 140
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lvProfileList:Landroid/widget/ListView;
 
     invoke-virtual {v0, p1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 138
+    .line 141
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lvProfileList:Landroid/widget/ListView;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;
@@ -2322,7 +2387,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    .line 225
+    .line 228
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -2343,7 +2408,7 @@
     :goto_0
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->bPrivacyAgreed:Z
 
-    .line 227
+    .line 230
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->layoutGDPR:Landroid/view/ViewGroup;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda1;
@@ -2352,7 +2417,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 255
+    .line 258
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnStrava:Landroid/widget/Button;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda2;
@@ -2361,7 +2426,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 268
+    .line 271
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnFitbit:Landroid/widget/Button;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda3;
@@ -2370,13 +2435,22 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 281
+    .line 284
+    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->btnWahoo:Landroid/widget/Button;
+
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda4;
+
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+
+    invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 297
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->loadValues()V
 
-    .line 282
+    .line 298
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V
 
-    .line 283
+    .line 299
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setupInitActionbar()V
 
     return-void
@@ -2397,10 +2471,10 @@
         }
     .end annotation
 
-    .line 940
+    .line 971
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
-    .line 941
+    .line 972
     invoke-static {p0, p1, p3}, Lcom/changyow/iconsole4th/activity/UserProfileActivityPermissionsDispatcher;->onRequestPermissionsResult(Lcom/changyow/iconsole4th/activity/UserProfileActivity;I[I)V
 
     return-void
@@ -2409,10 +2483,10 @@
 .method public onResume()V
     .locals 2
 
-    .line 305
+    .line 321
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onResume()V
 
-    .line 307
+    .line 323
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2427,7 +2501,7 @@
 
     invoke-static {v0, v1}, Lcom/changyow/iconsole4th/CloudControl;->getStravaRefreshToken(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
-    .line 323
+    .line 339
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2442,23 +2516,30 @@
 
     invoke-static {v0, v1}, Lcom/changyow/iconsole4th/CloudControl;->getFitbitRefreshToken(Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
+    .line 355
+    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;
+
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/CloudControl;->getWahooRefreshToken(Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
+
     return-void
 .end method
 
 .method protected setValues()V
     .locals 2
 
-    .line 453
+    .line 484
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mAvatar:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_0
 
-    .line 454
+    .line 485
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->ivAvatar:Lcom/makeramen/roundedimageview/RoundedImageView;
 
     invoke-virtual {v1, v0}, Lcom/makeramen/roundedimageview/RoundedImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 456
+    .line 487
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
@@ -2466,10 +2547,10 @@
 
     const-string v0, "Name"
 
-    .line 457
+    .line 488
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mName:Ljava/lang/String;
 
-    .line 458
+    .line 489
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->txvUsername:Landroid/widget/TextView;
 
@@ -2477,10 +2558,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 460
+    .line 491
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->refreshList()V
 
-    .line 461
+    .line 492
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->saveValues()V
 
     return-void
@@ -2489,14 +2570,14 @@
 .method protected showBirthdayPicker()V
     .locals 11
 
-    .line 629
+    .line 660
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 630
+    .line 661
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
@@ -2505,17 +2586,17 @@
 
     sub-int/2addr v2, v3
 
-    .line 632
+    .line 663
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mBirth:Ljava/util/Date;
 
     if-eqz v4, :cond_0
 
-    .line 633
+    .line 664
     invoke-virtual {v0, v4}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
 
     goto :goto_0
 
-    .line 635
+    .line 666
     :cond_0
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
 
@@ -2525,7 +2606,7 @@
 
     invoke-virtual {v0, v1, v4}, Ljava/util/Calendar;->set(II)V
 
-    .line 637
+    .line 668
     :goto_0
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
 
@@ -2533,17 +2614,17 @@
 
     const/4 v4, 0x2
 
-    .line 638
+    .line 669
     invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v9
 
-    .line 639
+    .line 670
     invoke-virtual {v0, v3}, Ljava/util/Calendar;->get(I)I
 
     move-result v10
 
-    .line 641
+    .line 672
     new-instance v3, Landroid/app/DatePickerDialog;
 
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2556,10 +2637,10 @@
 
     invoke-direct/range {v5 .. v10}, Landroid/app/DatePickerDialog;-><init>(Landroid/content/Context;Landroid/app/DatePickerDialog$OnDateSetListener;III)V
 
-    .line 648
+    .line 679
     invoke-virtual {v0, v1, v2}, Ljava/util/Calendar;->set(II)V
 
-    .line 649
+    .line 680
     invoke-virtual {v3}, Landroid/app/DatePickerDialog;->getDatePicker()Landroid/widget/DatePicker;
 
     move-result-object v1
@@ -2570,7 +2651,7 @@
 
     invoke-virtual {v1, v4, v5}, Landroid/widget/DatePicker;->setMaxDate(J)V
 
-    .line 650
+    .line 681
     invoke-virtual {v3}, Landroid/app/DatePickerDialog;->show()V
 
     return-void
@@ -2579,7 +2660,7 @@
 .method showCamera()V
     .locals 2
 
-    .line 594
+    .line 625
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.media.action.IMAGE_CAPTURE"
@@ -2588,7 +2669,7 @@
 
     const/16 v1, 0x2711
 
-    .line 595
+    .line 626
     invoke-virtual {p0, v0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void
@@ -2603,7 +2684,7 @@
 
     const v1, 0x7f120254
 
-    .line 655
+    .line 686
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2622,7 +2703,7 @@
 
     aput-object v1, v0, v2
 
-    .line 657
+    .line 688
     new-instance v1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2631,30 +2712,30 @@
 
     const v2, 0x7f1201a2
 
-    .line 658
+    .line 689
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 659
+    .line 690
     iget v2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mGender:I
 
-    new-instance v3, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda9;
+    new-instance v3, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda10;
 
-    invoke-direct {v3, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda9;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v3, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda10;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     invoke-virtual {v1, v0, v2, v3}, Landroidx/appcompat/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     const v0, 0x7f120277
 
-    .line 664
+    .line 695
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda14;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda14;
+    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda15;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda15;
 
     invoke-virtual {v1, v0, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 666
+    .line 697
     invoke-virtual {v1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -2663,32 +2744,32 @@
 .method protected showEnterNameDialog()V
     .locals 4
 
-    .line 610
+    .line 641
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 611
+    .line 642
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00c0
+    const v2, 0x7f0d00c1
 
     const/4 v3, 0x0
 
-    .line 612
+    .line 643
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0a015f
+    const v2, 0x7f0a0160
 
-    .line 613
+    .line 644
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -2697,38 +2778,38 @@
 
     const v3, 0x7f1201a8
 
-    .line 615
+    .line 646
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 616
+    .line 647
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    new-instance v3, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda10;
+    new-instance v3, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda11;
 
-    invoke-direct {v3, p0, v2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda10;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;Landroid/widget/EditText;)V
+    invoke-direct {v3, p0, v2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda11;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;Landroid/widget/EditText;)V
 
     const v2, 0x7f120277
 
-    .line 617
+    .line 648
     invoke-virtual {v1, v2, v3}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda15;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda15;
+    sget-object v2, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda16;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda16;
 
     const v3, 0x7f12023c
 
-    .line 622
+    .line 653
     invoke-virtual {v1, v3, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 623
+    .line 654
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 624
+    .line 655
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -2739,7 +2820,7 @@
 
     move-object/from16 v8, p0
 
-    .line 711
+    .line 742
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -2752,7 +2833,7 @@
 
     if-nez v0, :cond_2
 
-    .line 713
+    .line 744
     iget-wide v2, v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
     const-wide/high16 v4, 0x4059000000000000L    # 100.0
@@ -2774,7 +2855,7 @@
 
     move-wide v2, v6
 
-    .line 724
+    .line 755
     :cond_1
     :goto_0
     invoke-virtual {v8, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
@@ -2811,9 +2892,9 @@
 
     double-to-int v11, v2
 
-    new-instance v12, Lcom/changyow/iconsole4th/activity/UserProfileActivity$7;
+    new-instance v12, Lcom/changyow/iconsole4th/activity/UserProfileActivity$8;
 
-    invoke-direct {v12, v8}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$7;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v12, v8}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$8;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     move-object/from16 v0, p0
 
@@ -2846,7 +2927,7 @@
 
     const-string v18, "8\'"
 
-    .line 736
+    .line 767
     filled-new-array/range {v13 .. v18}, [Ljava/lang/String;
 
     move-result-object v3
@@ -2875,12 +2956,12 @@
 
     const-string v20, "11\""
 
-    .line 737
+    .line 768
     filled-new-array/range {v9 .. v20}, [Ljava/lang/String;
 
     move-result-object v5
 
-    .line 739
+    .line 770
     iget-wide v6, v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/UnitUtil;->cm2inch(D)D
@@ -2889,13 +2970,13 @@
 
     double-to-int v0, v6
 
-    .line 740
+    .line 771
     div-int/lit8 v2, v0, 0xc
 
-    .line 741
+    .line 772
     rem-int/lit8 v6, v0, 0xc
 
-    .line 743
+    .line 774
     invoke-virtual {v8, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2904,9 +2985,9 @@
 
     add-int/lit8 v7, v2, -0x3
 
-    new-instance v9, Lcom/changyow/iconsole4th/activity/UserProfileActivity$8;
+    new-instance v9, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;
 
-    invoke-direct {v9, v8}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$8;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v9, v8}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     move-object/from16 v0, p0
 
@@ -2925,7 +3006,7 @@
 .method protected showRegionPicker()V
     .locals 5
 
-    .line 671
+    .line 702
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -2936,7 +3017,7 @@
 
     move-result-object v0
 
-    .line 672
+    .line 703
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -2949,16 +3030,16 @@
 
     const/4 v2, 0x0
 
-    .line 675
+    .line 706
     :goto_0
     array-length v3, v1
 
     if-ge v2, v3, :cond_1
 
-    .line 677
+    .line 708
     aget-object v3, v1, v2
 
-    .line 678
+    .line 709
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mRegion:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2978,14 +3059,14 @@
     :goto_1
     const v3, 0x7f1203c2
 
-    .line 682
+    .line 713
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    new-instance v4, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;
+    new-instance v4, Lcom/changyow/iconsole4th/activity/UserProfileActivity$7;
 
-    invoke-direct {v4, p0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/String;)V
+    invoke-direct {v4, p0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$7;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/String;)V
 
     invoke-virtual {p0, v3, v0, v2, v4}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->showOptionsPicker(Ljava/lang/String;[Ljava/lang/String;ILcom/changyow/iconsole4th/interfaces/OnOptionPickListener;)V
 
@@ -2995,7 +3076,7 @@
 .method protected showWeightPicker()V
     .locals 12
 
-    .line 757
+    .line 788
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -3014,7 +3095,7 @@
 
     if-nez v0, :cond_2
 
-    .line 759
+    .line 790
     iget-wide v5, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
     const-wide/high16 v8, 0x4044000000000000L    # 40.0
@@ -3036,7 +3117,7 @@
 
     move-wide v5, v10
 
-    .line 771
+    .line 802
     :cond_1
     :goto_0
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
@@ -3067,9 +3148,9 @@
 
     double-to-int v6, v5
 
-    new-instance v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;
+    new-instance v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity$10;
 
-    invoke-direct {v8, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v8, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$10;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     move-object v0, p0
 
@@ -3085,7 +3166,7 @@
 
     goto :goto_2
 
-    .line 783
+    .line 814
     :cond_2
     iget-wide v5, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
@@ -3110,7 +3191,7 @@
 
     move v0, v5
 
-    .line 795
+    .line 826
     :cond_4
     :goto_1
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
@@ -3139,9 +3220,9 @@
 
     add-int/lit8 v6, v0, -0x57
 
-    new-instance v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity$10;
+    new-instance v8, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;
 
-    invoke-direct {v8, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$10;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
+    invoke-direct {v8, p0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;-><init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)V
 
     move-object v0, p0
 
@@ -3162,24 +3243,24 @@
 .method shwoGallery()V
     .locals 2
 
-    .line 601
+    .line 632
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     const-string v1, "image/*"
 
-    .line 602
+    .line 633
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v1, "android.intent.action.GET_CONTENT"
 
-    .line 603
+    .line 634
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const v1, 0x7f120253
 
-    .line 604
+    .line 635
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -3198,7 +3279,7 @@
 .method public startBarcodeActivity()V
     .locals 3
 
-    .line 407
+    .line 438
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -3207,7 +3288,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 408
+    .line 439
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->startActivity(Landroid/content/Intent;)V

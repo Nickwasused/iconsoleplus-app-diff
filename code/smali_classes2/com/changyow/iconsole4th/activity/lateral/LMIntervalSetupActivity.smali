@@ -437,7 +437,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b7
+    const v2, 0x7f0d00b8
 
     const/4 v3, 0x0
 
@@ -454,7 +454,7 @@
     .line 105
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 107
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01e9
+    const v2, 0x7f0a01ea
 
     .line 108
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -472,7 +472,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01ec
 
     .line 109
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -481,7 +481,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 110
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -495,12 +495,12 @@
     .line 112
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080365
+    const v0, 0x7f080368
 
     .line 113
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0802b5
+    const v0, 0x7f0802b7
 
     .line 114
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -548,7 +548,7 @@
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0543
+    const p1, 0x7f0a0544
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -559,7 +559,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvStage:Landroid/widget/TextView;
 
-    const p1, 0x7f0a012a
+    const p1, 0x7f0a012b
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
-    const p1, 0x7f0a055f
+    const p1, 0x7f0a0560
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -581,7 +581,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvTimer:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0560
+    const p1, 0x7f0a0561
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -592,7 +592,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvTimerTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a056c
+    const p1, 0x7f0a056d
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -603,7 +603,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a056b
+    const p1, 0x7f0a056c
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -614,7 +614,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvTotalTime:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0258
+    const p1, 0x7f0a0259
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -625,7 +625,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04c6
+    const p1, 0x7f0a04c7
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -636,7 +636,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvCycles:Landroid/widget/TextView;
 
-    const p1, 0x7f0a025b
+    const p1, 0x7f0a025c
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -647,7 +647,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04f7
+    const p1, 0x7f0a04f8
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -658,7 +658,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvLevelTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f5
+    const p1, 0x7f0a04f6
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -669,7 +669,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->txvLevel:Landroid/widget/TextView;
 
-    const p1, 0x7f0a027d
+    const p1, 0x7f0a027e
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0244
+    const p1, 0x7f0a0245
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -691,7 +691,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a02cd
+    const p1, 0x7f0a02ce
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -713,7 +713,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->btnGo:Landroid/widget/Button;
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a0294
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;
@@ -724,7 +724,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->layoutSettingPane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a028c
+    const p1, 0x7f0a028d
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->findViewById(I)Landroid/view/View;

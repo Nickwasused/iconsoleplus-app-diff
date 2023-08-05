@@ -104,7 +104,7 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00a5
+    const p3, 0x7f0d00a6
 
     const/4 v0, 0x0
 
@@ -124,7 +124,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->btnMenu:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a0562
+    const p2, 0x7f0a0563
 
     .line 37
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a01a8
+    const p2, 0x7f0a01a9
 
     .line 38
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a05ca
+    const p2, 0x7f0a05cb
 
     .line 39
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

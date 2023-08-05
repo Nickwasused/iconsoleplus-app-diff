@@ -114,7 +114,7 @@
     .line 30
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;->setContentView(I)V
 
-    const p1, 0x7f0a05ca
+    const p1, 0x7f0a05cb
 
     .line 31
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;->findViewById(I)Landroid/view/View;

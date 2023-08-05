@@ -296,7 +296,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b7
+    const v2, 0x7f0d00b8
 
     const/4 v3, 0x0
 
@@ -313,7 +313,7 @@
     .line 132
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 134
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01e9
+    const v2, 0x7f0a01ea
 
     .line 135
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -331,7 +331,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01ec
 
     .line 136
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 137
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1106,7 +1106,7 @@
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->setContentView(I)V
 
-    const p1, 0x7f0a028c
+    const p1, 0x7f0a028d
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1117,7 +1117,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a027a
+    const p1, 0x7f0a027b
 
     .line 67
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1139,7 +1139,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0202
+    const p1, 0x7f0a0203
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1150,7 +1150,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03ce
+    const p1, 0x7f0a03cf
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1161,7 +1161,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a0244
+    const p1, 0x7f0a0245
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1172,7 +1172,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a027d
+    const p1, 0x7f0a027e
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1183,7 +1183,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04f5
+    const p1, 0x7f0a04f6
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1194,7 +1194,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->txvLevel:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f7
+    const p1, 0x7f0a04f8
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1205,7 +1205,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->txvLevelTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0297
+    const p1, 0x7f0a0298
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1216,7 +1216,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->layoutSpeedInCircle:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a053e
+    const p1, 0x7f0a053f
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1227,7 +1227,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->txvSpeedInCircle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0258
+    const p1, 0x7f0a0259
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1238,7 +1238,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a057c
+    const p1, 0x7f0a057d
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1249,7 +1249,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->txvUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0568
+    const p1, 0x7f0a0569
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1260,7 +1260,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->txvTotalDistance:Landroid/widget/TextView;
 
-    const p1, 0x7f0a012a
+    const p1, 0x7f0a012b
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -1271,7 +1271,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
-    const p1, 0x7f0a04f2
+    const p1, 0x7f0a04f3
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/QuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -2081,7 +2081,7 @@
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    const v7, 0x7f0803ec
+    const v7, 0x7f0803ef
 
     .line 298
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2111,7 +2111,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0801e7
+    const v8, 0x7f0801e9
 
     .line 300
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2130,7 +2130,7 @@
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0801a8
+    const v7, 0x7f0801aa
 
     .line 301
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2186,7 +2186,7 @@
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0801e3
+    const v7, 0x7f0801e5
 
     .line 303
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2219,7 +2219,7 @@
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0802a7
+    const v7, 0x7f0802a9
 
     .line 304
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2261,13 +2261,13 @@
 
     const v8, 0x7f120232
 
-    const v9, 0x7f080190
+    const v9, 0x7f080192
 
     const-wide v10, 0x3f847ae147ae147bL    # 0.01
 
     const v14, 0x7f120362
 
-    const v15, 0x7f0802d2
+    const v15, 0x7f0802d4
 
     if-eqz v7, :cond_2
 
@@ -2421,7 +2421,7 @@
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f080196
+    const v0, 0x7f080198
 
     .line 326
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2482,7 +2482,7 @@
 
     :cond_5
     :goto_2
-    const v0, 0x7f080191
+    const v0, 0x7f080193
 
     .line 331
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2688,7 +2688,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0803ec
+    const v7, 0x7f0803ef
 
     .line 364
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2713,7 +2713,7 @@
 
     invoke-virtual {v5, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0801a8
+    const v7, 0x7f0801aa
 
     .line 365
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2744,7 +2744,7 @@
 
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f0801e3
+    const v2, 0x7f0801e5
 
     .line 366
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2802,7 +2802,7 @@
 
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f0801e7
+    const v2, 0x7f0801e9
 
     .line 368
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2821,7 +2821,7 @@
 
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f080196
+    const v2, 0x7f080198
 
     .line 369
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2844,7 +2844,7 @@
 
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f080182
+    const v2, 0x7f080184
 
     .line 370
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2867,7 +2867,7 @@
 
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f080191
+    const v2, 0x7f080193
 
     .line 371
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2917,7 +2917,7 @@
 
     if-nez v2, :cond_1
 
-    const v2, 0x7f0803e9
+    const v2, 0x7f0803ec
 
     .line 373
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2941,7 +2941,7 @@
     invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_1
-    const v2, 0x7f0802d2
+    const v2, 0x7f0802d4
 
     .line 374
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;

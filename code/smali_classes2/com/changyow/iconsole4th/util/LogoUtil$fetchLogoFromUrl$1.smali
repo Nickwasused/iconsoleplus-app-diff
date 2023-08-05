@@ -34,7 +34,7 @@
         "Lcom/squareup/picasso/Picasso$LoadedFrom;",
         "onPrepareLoad",
         "placeHolderDrawable",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -50,7 +50,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 225
+    .line 228
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +65,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 235
+    .line 238
     sget-object p1, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/util/LogoUtil;->getTAG()Ljava/lang/String;
@@ -90,7 +90,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 228
+    .line 231
     sget-object p2, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/LogoUtil;->getTAG()Ljava/lang/String;
@@ -101,7 +101,7 @@
 
     invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 229
+    .line 232
     sget-object p2, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
 
     invoke-virtual {p2, p1}, Lcom/changyow/iconsole4th/util/LogoUtil;->saveLogo(Landroid/graphics/Bitmap;)V

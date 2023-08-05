@@ -267,7 +267,7 @@
     return p1
 
     :cond_0
-    const p1, 0x7f0a0446
+    const p1, 0x7f0a0447
 
     return p1
 .end method
@@ -508,7 +508,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0d00b3
+    const v0, 0x7f0d00b4
 
     const/4 v1, 0x0
 

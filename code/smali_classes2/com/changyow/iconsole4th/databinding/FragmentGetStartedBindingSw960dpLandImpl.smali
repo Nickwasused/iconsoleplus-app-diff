@@ -26,46 +26,53 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03bc
+    const v1, 0x7f0a02be
 
     const/4 v2, 0x1
 
     .line 17
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b7
+    const v1, 0x7f0a03bd
 
     const/4 v2, 0x2
 
     .line 18
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03bd
+    const v1, 0x7f0a03b8
 
     const/4 v2, 0x3
 
     .line 19
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b4
+    const v1, 0x7f0a03be
 
     const/4 v2, 0x4
 
     .line 20
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03bb
+    const v1, 0x7f0a03b5
 
     const/4 v2, 0x5
 
     .line 21
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b3
+    const v1, 0x7f0a03bc
 
     const/4 v2, 0x6
 
     .line 22
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
+
+    const v1, 0x7f0a03b4
+
+    const/4 v2, 0x7
+
+    .line 23
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     return-void
@@ -84,12 +91,12 @@
         }
     .end annotation
 
-    .line 33
+    .line 34
     sget-object v0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->sIncludes:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
     sget-object v1, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const/4 v2, 0x7
+    const/16 v2, 0x8
 
     invoke-static {p1, p2, v2, v0, v1}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mapBindings(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILandroidx/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
@@ -123,16 +130,24 @@
 
     move-object/from16 v2, p2
 
-    const/4 v3, 0x6
+    const/4 v3, 0x1
 
-    .line 36
+    .line 37
+    aget-object v3, p3, v3
+
+    move-object v4, v3
+
+    check-cast v4, Landroid/widget/LinearLayout;
+
+    const/4 v3, 0x7
+
     aget-object v3, p3, v3
 
     move-object v5, v3
 
     check-cast v5, Landroid/widget/RelativeLayout;
 
-    const/4 v3, 0x4
+    const/4 v3, 0x5
 
     aget-object v3, p3, v3
 
@@ -140,7 +155,7 @@
 
     check-cast v6, Landroid/widget/RelativeLayout;
 
-    const/4 v3, 0x2
+    const/4 v3, 0x3
 
     aget-object v3, p3, v3
 
@@ -148,7 +163,7 @@
 
     check-cast v8, Landroid/widget/RelativeLayout;
 
-    const/4 v3, 0x5
+    const/4 v3, 0x6
 
     aget-object v3, p3, v3
 
@@ -156,7 +171,7 @@
 
     check-cast v9, Landroid/widget/RelativeLayout;
 
-    const/4 v3, 0x1
+    const/4 v3, 0x2
 
     aget-object v3, p3, v3
 
@@ -164,7 +179,7 @@
 
     check-cast v10, Landroid/widget/RelativeLayout;
 
-    const/4 v3, 0x3
+    const/4 v3, 0x4
 
     aget-object v3, p3, v3
 
@@ -173,8 +188,6 @@
     check-cast v11, Landroid/widget/RelativeLayout;
 
     const/4 v3, 0x0
-
-    const/4 v4, 0x0
 
     const/4 v7, 0x0
 
@@ -224,12 +237,12 @@
 
     move-object/from16 v2, p0
 
-    .line 132
+    .line 133
     iput-wide v0, v2, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mDirtyFlags:J
 
     const/4 v0, 0x0
 
-    .line 66
+    .line 67
     aget-object v0, p3, v0
 
     check-cast v0, Landroid/widget/ScrollView;
@@ -238,15 +251,15 @@
 
     const/4 v1, 0x0
 
-    .line 67
+    .line 68
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->setTag(Ljava/lang/Object;)V
 
     move-object/from16 v0, p2
 
-    .line 68
+    .line 69
     invoke-virtual {v2, v0}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->setRootTag(Landroid/view/View;)V
 
-    .line 70
+    .line 71
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->invalidateAll()V
 
     return-void
@@ -257,16 +270,16 @@
 .method protected executeBindings()V
     .locals 2
 
-    .line 123
+    .line 124
     monitor-enter p0
 
     const-wide/16 v0, 0x0
 
-    .line 125
+    .line 126
     :try_start_0
     iput-wide v0, p0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mDirtyFlags:J
 
-    .line 126
+    .line 127
     monitor-exit p0
 
     return-void
@@ -284,10 +297,10 @@
 .method public hasPendingBindings()Z
     .locals 4
 
-    .line 83
+    .line 84
     monitor-enter p0
 
-    .line 84
+    .line 85
     :try_start_0
     iget-wide v0, p0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mDirtyFlags:J
 
@@ -299,12 +312,12 @@
 
     const/4 v0, 0x1
 
-    .line 85
+    .line 86
     monitor-exit p0
 
     return v0
 
-    .line 87
+    .line 88
     :cond_0
     monitor-exit p0
 
@@ -325,21 +338,21 @@
 .method public invalidateAll()V
     .locals 2
 
-    .line 75
+    .line 76
     monitor-enter p0
 
     const-wide/16 v0, 0x4
 
-    .line 76
+    .line 77
     :try_start_0
     iput-wide v0, p0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mDirtyFlags:J
 
-    .line 77
+    .line 78
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 78
+    .line 79
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->requestRebind()V
 
     return-void
@@ -347,7 +360,7 @@
     :catchall_0
     move-exception v0
 
-    .line 77
+    .line 78
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -387,7 +400,7 @@
         }
     .end annotation
 
-    .line 107
+    .line 108
     iput-object p1, p0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mSubTextColorCode:Ljava/lang/String;
 
     return-void
@@ -404,7 +417,7 @@
         }
     .end annotation
 
-    .line 110
+    .line 111
     iput-object p1, p0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->mTextColorCode:Ljava/lang/String;
 
     return-void
@@ -427,7 +440,7 @@
 
     if-ne v0, p1, :cond_0
 
-    .line 95
+    .line 96
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->setSubTextColorCode(Ljava/lang/String;)V
@@ -439,7 +452,7 @@
 
     if-ne v1, p1, :cond_1
 
-    .line 98
+    .line 99
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p2}, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingSw960dpLandImpl;->setTextColorCode(Ljava/lang/String;)V

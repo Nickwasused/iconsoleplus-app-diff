@@ -122,7 +122,7 @@
 
     if-eqz v0, :cond_0
 
-    const v4, 0x7f0a022b
+    const v4, 0x7f0a022c
 
     .line 151
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/SplashActivity;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
     invoke-virtual {v0, v4, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     :cond_0
-    const v0, 0x7f0a028c
+    const v0, 0x7f0a028d
 
     .line 158
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/SplashActivity;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
     .line 39
     invoke-static {p1}, Landroidx/appcompat/app/AppCompatDelegate;->setDefaultNightMode(I)V
 
-    const p1, 0x7f0a0241
+    const p1, 0x7f0a0242
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/SplashActivity;->findViewById(I)Landroid/view/View;

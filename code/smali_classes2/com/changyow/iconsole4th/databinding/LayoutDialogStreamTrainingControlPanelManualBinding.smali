@@ -121,7 +121,7 @@
 
     check-cast v7, Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a0545
+    const v0, 0x7f0a0546
 
     .line 99
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -207,7 +207,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0d00ca
+    const v0, 0x7f0d00cb
 
     const/4 v1, 0x0
 

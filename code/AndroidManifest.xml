@@ -35,6 +35,9 @@
             <action android:name="android.media.browse.MediaBrowserService"/>
         </intent>
     </queries>
+    <queries>
+        <package android:name="com.tencent.mm"/>
+    </queries>
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
@@ -164,6 +167,7 @@
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AISummaryActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.FullScreen"/>
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AIConnectDeviceActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AIWorkoutActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.third_party_auth.WahooAuthActivity"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravitySummaryReviewActivity"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravityWorkoutSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.training.EGravityTrainingActivity"/>

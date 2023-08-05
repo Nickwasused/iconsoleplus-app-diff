@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final pano_sdk_helper_view:I = 0x7f0d0172
+.field public static final pano_sdk_helper_view:I = 0x7f0d0173
 
 
 # direct methods

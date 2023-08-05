@@ -105,7 +105,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnGo:Landroid/widget/Button;
 
-    const p1, 0x7f0a0244
+    const p1, 0x7f0a0245
 
     .line 28
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;

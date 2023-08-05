@@ -117,7 +117,7 @@
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->setContentView(I)V
 
-    const p1, 0x7f0a03d1
+    const p1, 0x7f0a03d2
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->rvPager:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p1, 0x7f0a0202
+    const p1, 0x7f0a0203
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a01e8
+    const p1, 0x7f0a01e9
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->findViewById(I)Landroid/view/View;

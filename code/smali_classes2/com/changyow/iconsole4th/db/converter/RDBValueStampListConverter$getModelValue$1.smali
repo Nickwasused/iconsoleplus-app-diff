@@ -32,7 +32,7 @@
         "Ljava/util/ArrayList;",
         "Lcom/changyow/iconsole4th/db/model/ValueStamp;",
         "Lkotlin/collections/ArrayList;",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {

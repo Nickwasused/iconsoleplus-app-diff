@@ -149,7 +149,7 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a04d5
+    const v0, 0x7f0a04d6
 
     .line 134
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04d6
+    const v0, 0x7f0a04d7
 
     .line 135
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04fc
+    const v0, 0x7f0a04fd
 
     .line 136
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04fa
+    const v0, 0x7f0a04fb
 
     .line 137
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMax:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04fb
+    const v0, 0x7f0a04fc
 
     .line 138
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMin:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0578
+    const v0, 0x7f0a0579
 
     .line 139
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLoadType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a057b
+    const v0, 0x7f0a057c
 
     .line 140
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0579
+    const v0, 0x7f0a057a
 
     .line 141
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -237,7 +237,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a057a
+    const v0, 0x7f0a057b
 
     .line 142
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0573
+    const v0, 0x7f0a0574
 
     .line 143
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0278
+    const v0, 0x7f0a0279
 
     .line 144
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->layoutInclinePanel:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a04ea
+    const v0, 0x7f0a04eb
 
     .line 145
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04e8
+    const v0, 0x7f0a04e9
 
     .line 146
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMax:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04e9
+    const v0, 0x7f0a04ea
 
     .line 147
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -303,7 +303,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMin:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0577
+    const v0, 0x7f0a0578
 
     .line 148
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a056e
+    const v0, 0x7f0a056f
 
     .line 149
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingInclineZoneWarmUp:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0575
+    const v0, 0x7f0a0576
 
     .line 150
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineLowIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0576
+    const v0, 0x7f0a0577
 
     .line 151
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineMidIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0574
+    const v0, 0x7f0a0575
 
     .line 152
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -982,7 +982,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
@@ -999,7 +999,7 @@
     .line 116
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 118
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1008,7 +1008,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
     .line 119
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1017,7 +1017,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
     .line 120
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1026,7 +1026,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
     .line 121
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1043,7 +1043,7 @@
     .line 124
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08018a
+    const v0, 0x7f08018c
 
     .line 125
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V

@@ -1114,7 +1114,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b7
+    const v3, 0x7f0d00b8
 
     const/4 v4, 0x0
 
@@ -1131,7 +1131,7 @@
     .line 243
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
     .line 245
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1140,7 +1140,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ea
 
     .line 246
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1149,7 +1149,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01eb
+    const v4, 0x7f0a01ec
 
     .line 247
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1163,12 +1163,12 @@
     .line 249
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080199
+    const v0, 0x7f08019b
 
     .line 250
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f08036c
+    const v0, 0x7f08036f
 
     .line 251
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -1442,7 +1442,7 @@
     .line 451
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->ivStatus:Landroid/widget/ImageView;
 
-    const v0, 0x7f0801ae
+    const v0, 0x7f0801b0
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1665,7 +1665,7 @@
     .line 496
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->ivStatus:Landroid/widget/ImageView;
 
-    const v2, 0x7f0801a3
+    const v2, 0x7f0801a5
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2222,7 +2222,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    const p1, 0x7f0a02c7
+    const p1, 0x7f0a02c8
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2233,7 +2233,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->lvDevices:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0504
+    const p1, 0x7f0a0505
 
     .line 98
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2244,7 +2244,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->txvMessage:Landroid/widget/TextView;
 
-    const p1, 0x7f0a022c
+    const p1, 0x7f0a022d
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2255,7 +2255,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->ivStatus:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a03a0
+    const p1, 0x7f0a03a1
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2266,7 +2266,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->rbFromEq:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0a039e
+    const p1, 0x7f0a039f
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2367,7 +2367,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0a0275
+    const p1, 0x7f0a0276
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -2379,7 +2379,7 @@
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const p1, 0x7f0a03a8
+    const p1, 0x7f0a03a9
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->findViewById(I)Landroid/view/View;

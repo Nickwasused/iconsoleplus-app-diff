@@ -221,7 +221,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0249
+    const v1, 0x7f0a024a
 
     .line 277
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
     const/high16 v1, -0x1000000
 
     :goto_0
-    const v2, 0x7f0a05be
+    const v2, 0x7f0a05bf
 
     .line 280
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -286,7 +286,7 @@
     invoke-virtual {v2, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
     :cond_2
-    const v1, 0x7f0a04ed
+    const v1, 0x7f0a04ee
 
     .line 282
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
     .line 71
     invoke-static {}, Lcom/changyow/iconsole4th/App;->initBMap()V
 
-    const v0, 0x7f0a0158
+    const v0, 0x7f0a0159
 
     .line 73
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
 
-    const v1, 0x7f0a0210
+    const v1, 0x7f0a0211
 
     .line 74
     invoke-virtual {v0, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
     .line 75
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
 
-    const v1, 0x7f0a04ed
+    const v1, 0x7f0a04ee
 
     invoke-virtual {v0, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->findViewById(I)Landroid/view/View;
 
@@ -512,7 +512,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerMenuAdapter:Lcom/changyow/iconsole4th/adapter/DrawerMenuAdapter;
 
-    const v0, 0x7f0a02aa
+    const v0, 0x7f0a02ab
 
     .line 105
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -1031,7 +1031,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0a01c0
+    const v3, 0x7f0a01c1
 
     invoke-virtual {v0, v3, v2}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 

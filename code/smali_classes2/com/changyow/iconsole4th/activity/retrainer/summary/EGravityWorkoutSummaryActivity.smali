@@ -51,7 +51,7 @@
         "DataItem",
         "DataItemViewHolder",
         "VolumeItemViewHolder",
-        "icp4th-1.8.52_icpCnRelease"
+        "icp4th-1.8.54_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -1377,7 +1377,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f0802bb
+    const v0, 0x7f0802bd
 
     invoke-virtual {p1, v2, v2, v0, v2}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
@@ -1400,7 +1400,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f0802b9
+    const v0, 0x7f0802bb
 
     invoke-virtual {p1, v2, v2, v0, v2}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
@@ -1616,21 +1616,21 @@
     .line 85
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080199
+    const v2, 0x7f08019b
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 86
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
-    const v2, 0x7f0801a9
+    const v2, 0x7f0801ab
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 87
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight2:Landroid/widget/ImageButton;
 
-    const v2, 0x7f0802a5
+    const v2, 0x7f0802a7
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 

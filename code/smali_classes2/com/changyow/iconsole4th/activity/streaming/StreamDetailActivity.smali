@@ -340,7 +340,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0d0124
+    const v8, 0x7f0d0125
 
     const/4 v9, 0x0
 
@@ -348,7 +348,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0a0562
+    const v8, 0x7f0a0563
 
     .line 107
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -357,7 +357,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0a0580
+    const v9, 0x7f0a0581
 
     .line 108
     invoke-virtual {v7, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0230
+    const p1, 0x7f0a0231
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -609,7 +609,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->ivVideoPreview:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0565
+    const p1, 0x7f0a0566
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->txvTotalCal:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f4
+    const p1, 0x7f0a04f5
 
     .line 48
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->txvLengthInMin:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04d4
+    const p1, 0x7f0a04d5
 
     .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->txvEquipment:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b4
+    const p1, 0x7f0a04b5
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->txvCoach:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04ed
+    const p1, 0x7f0a04ee
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;
@@ -664,7 +664,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->txvInfo:Landroid/widget/TextView;
 
-    const p1, 0x7f0a029d
+    const p1, 0x7f0a029e
 
     .line 52
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamDetailActivity;->findViewById(I)Landroid/view/View;

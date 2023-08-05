@@ -35,7 +35,7 @@
         }
     .end annotation
 
-    .line 104
+    .line 107
     iget v0, p1, Landroid/content/res/Configuration;->fontScale:F
 
     float-to-double v0, v0
@@ -48,10 +48,10 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 108
+    .line 111
     iput v0, p1, Landroid/content/res/Configuration;->fontScale:F
 
-    .line 109
+    .line 112
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    .line 110
+    .line 113
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -73,14 +73,14 @@
 
     check-cast v1, Landroid/view/WindowManager;
 
-    .line 111
+    .line 114
     invoke-interface {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 112
+    .line 115
     iget v1, p1, Landroid/content/res/Configuration;->fontScale:F
 
     iget v2, v0, Landroid/util/DisplayMetrics;->density:F
@@ -89,7 +89,7 @@
 
     iput v1, v0, Landroid/util/DisplayMetrics;->scaledDensity:F
 
-    .line 113
+    .line 116
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -119,7 +119,7 @@
         }
     .end annotation
 
-    .line 99
+    .line 102
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
 
     move-result-object v0
@@ -216,16 +216,18 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a01a8
+    if-eqz v2, :cond_5
 
-    .line 80
+    const v3, 0x7f0a01a9
+
+    .line 82
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 81
+    .line 83
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -235,14 +237,14 @@
     :cond_0
     const v0, 0x7f0a00b1
 
-    .line 82
+    .line 84
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 83
+    .line 85
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -254,14 +256,14 @@
     :cond_1
     const v0, 0x7f0a00b2
 
-    .line 84
+    .line 86
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 85
+    .line 87
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -271,16 +273,16 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_2
-    const v0, 0x7f0a0562
+    const v0, 0x7f0a0563
 
-    .line 86
+    .line 88
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     if-eqz v3, :cond_3
 
-    .line 87
+    .line 89
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -292,14 +294,14 @@
     :cond_3
     const v0, 0x7f0a00a6
 
-    .line 88
+    .line 90
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     if-eqz v3, :cond_4
 
-    .line 89
+    .line 91
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -311,14 +313,14 @@
     :cond_4
     const v0, 0x7f0a009e
 
-    .line 90
+    .line 92
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     if-eqz v3, :cond_5
 
-    .line 91
+    .line 93
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0

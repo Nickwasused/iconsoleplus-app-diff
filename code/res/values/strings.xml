@@ -1149,5 +1149,7 @@ Let’s go."</string>
     <string name="title_srv">Service</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
+    <string name="wahoo_auth_url">https://api.wahooligan.com/oauth/authorize?client_id=a7YtjpT6Lravg0uuWivdnyST80kgVogp62XfGom8f0E&amp;redirect_uri=iconsolepluswahooauth://iconsoleplus.com&amp;response_type=code&amp;scope=workouts_read+workouts_write+user_read</string>
+    <string name="wahoo_token_url">https://api.wahooligan.com/oauth/token?client_secret=R1h53iTT0VlobABM7lteEW1p0B8k30WSk3B9GVKmgdQ&amp;code=c_o_d_e&amp;redirect_uri=iconsolepluswahooauth://iconsoleplus.com&amp;grant_type=authorization_code&amp;client_id=a7YtjpT6Lravg0uuWivdnyST80kgVogp62XfGom8f0E</string>
     <string name="with_response">Write with Response</string>
 </resources>
