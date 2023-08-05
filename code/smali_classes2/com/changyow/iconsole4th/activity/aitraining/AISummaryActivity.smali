@@ -345,7 +345,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0803b5
+    const v4, 0x7f0803bc
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -509,7 +509,7 @@
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0162
+    const p1, 0x7f0a0163
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->elvWorkouts:Landroid/widget/ExpandableListView;
 
-    const p1, 0x7f0a0246
+    const p1, 0x7f0a0247
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -531,7 +531,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0499
+    const p1, 0x7f0a049a
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txv1:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0200
+    const p1, 0x7f0a0201
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -553,7 +553,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->img1:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -564,7 +564,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04a1
+    const p1, 0x7f0a04a2
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -575,7 +575,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvAiComment:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b7
+    const p1, 0x7f0a04b8
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -586,7 +586,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvCompletedPercent:Landroid/widget/TextView;
 
-    const p1, 0x7f0a00d0
+    const p1, 0x7f0a00d1
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->findViewById(I)Landroid/view/View;
@@ -750,7 +750,7 @@
     .line 105
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvAiComment:Landroid/widget/TextView;
 
-    const v0, 0x7f1202d8
+    const v0, 0x7f1202da
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -766,7 +766,7 @@
     .line 107
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvAiComment:Landroid/widget/TextView;
 
-    const v0, 0x7f1202d4
+    const v0, 0x7f1202d6
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -778,7 +778,7 @@
     .line 109
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->txvAiComment:Landroid/widget/TextView;
 
-    const v0, 0x7f1202d7
+    const v0, 0x7f1202d9
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -858,7 +858,7 @@
     .line 154
     invoke-virtual {v7, v8}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v8, 0x7f120418
+    const v8, 0x7f12041a
 
     .line 157
     invoke-virtual {v0, v8}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;->getString(I)Ljava/lang/String;

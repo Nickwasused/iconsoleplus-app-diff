@@ -74,7 +74,7 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1202e3
+    const v0, 0x7f1202e5
 
     .line 393
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -85,7 +85,7 @@
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8;)V
 
-    const v1, 0x7f1202ab
+    const v1, 0x7f1202ad
 
     .line 394
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -96,7 +96,7 @@
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8$1;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8;)V
 
-    const v1, 0x7f120273
+    const v1, 0x7f120275
 
     .line 401
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;

@@ -108,7 +108,7 @@
     .line 242
     iget-object p1, p0, Lcom/changyow/iconsole4th/adapter/SettingListAdapter$3;->val$txvStatus:Landroid/widget/TextView;
 
-    const p2, 0x7f120256
+    const p2, 0x7f120258
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -118,7 +118,7 @@
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/adapter/SettingListAdapter$3;->val$txvStatus:Landroid/widget/TextView;
 
-    const p2, 0x7f12023d
+    const p2, 0x7f12023f
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

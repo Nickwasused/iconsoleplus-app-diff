@@ -66,7 +66,7 @@
     .line 523
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$NoWorkoutDecorator;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v1, 0x7f08039a
+    const v1, 0x7f0803a1
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

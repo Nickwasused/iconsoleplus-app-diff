@@ -194,7 +194,7 @@
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity$WebViewClient;->this$0:Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;
 
-    const v0, 0x7f1203ec
+    const v0, 0x7f1203ee
 
     .line 99
     invoke-virtual {p2, v0}, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;->getString(I)Ljava/lang/String;
@@ -205,7 +205,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120277
+    const p2, 0x7f120279
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity$WebViewClient$2;
 

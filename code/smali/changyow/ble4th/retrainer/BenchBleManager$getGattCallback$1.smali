@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBenchBleManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BenchBleManager.kt\nchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,352:1\n1549#2:353\n1620#2,3:354\n*S KotlinDebug\n*F\n+ 1 BenchBleManager.kt\nchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1\n*L\n104#1:353\n104#1:354,3\n*E\n"
+    value = "SMAP\nBenchBleManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BenchBleManager.kt\nchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,344:1\n1549#2:345\n1620#2,3:346\n*S KotlinDebug\n*F\n+ 1 BenchBleManager.kt\nchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1\n*L\n103#1:345\n103#1:346,3\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 35
+    .line 34
     invoke-direct {p0}, Lno/nordicsemi/android/ble/BleManager$BleManagerGattCallback;-><init>()V
 
     return-void
@@ -112,17 +112,17 @@
 .method private final checkServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
     .locals 6
 
-    .line 98
+    .line 97
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->checkDeviceInfoSupport(Landroid/bluetooth/BluetoothGatt;)V
 
-    .line 99
+    .line 98
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->checkCyModelInfoSupport(Landroid/bluetooth/BluetoothGatt;)V
 
-    .line 101
+    .line 100
     iget-object p1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     const-string v0, "00001000"
@@ -135,15 +135,15 @@
 
     move-result-object p1
 
-    if-eqz p1, :cond_a
+    if-eqz p1, :cond_9
 
-    .line 102
+    .line 101
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 103
+    .line 102
     invoke-virtual {v0, p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMService(Landroid/bluetooth/BluetoothGattService;)V
 
-    .line 104
+    .line 103
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v1
@@ -154,7 +154,7 @@
 
     check-cast v1, Ljava/lang/Iterable;
 
-    .line 353
+    .line 345
     new-instance v2, Ljava/util/ArrayList;
 
     const/16 v3, 0xa
@@ -167,7 +167,7 @@
 
     check-cast v2, Ljava/util/Collection;
 
-    .line 354
+    .line 346
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -177,16 +177,16 @@
 
     move-result v3
 
-    if-eqz v3, :cond_9
+    if-eqz v3, :cond_8
 
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 355
+    .line 347
     check-cast v3, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 105
+    .line 104
     invoke-virtual {v3}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v4
@@ -211,14 +211,14 @@
 
     const-string v5, "00001001-0000-4008-82E9-8C6A5BC29794"
 
-    .line 106
+    .line 105
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 107
+    .line 106
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMFeatureChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -226,14 +226,14 @@
     :cond_0
     const-string v5, "00001002-0000-4008-82E9-8C6A5BC29794"
 
-    .line 108
+    .line 107
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 109
+    .line 108
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMWeightLimitChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -241,14 +241,14 @@
     :cond_1
     const-string v5, "00001003-0000-4008-82E9-8C6A5BC29794"
 
-    .line 110
+    .line 109
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 111
+    .line 110
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMMeasurmentChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -256,14 +256,14 @@
     :cond_2
     const-string v5, "00001004-0000-4008-82E9-8C6A5BC29794"
 
-    .line 112
+    .line 111
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_3
 
-    .line 113
+    .line 112
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMControlPointChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -271,14 +271,14 @@
     :cond_3
     const-string v5, "00001005-0000-4008-82E9-8C6A5BC29794"
 
-    .line 114
+    .line 113
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_4
 
-    .line 115
+    .line 114
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMTrainingStatusChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -286,14 +286,14 @@
     :cond_4
     const-string v5, "00001006-0000-4008-82E9-8C6A5BC29794"
 
-    .line 116
+    .line 115
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_5
 
-    .line 117
+    .line 116
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMMotorStatusChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
@@ -301,48 +301,33 @@
     :cond_5
     const-string v5, "00001007-0000-4008-82E9-8C6A5BC29794"
 
-    .line 118
+    .line 117
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_6
 
-    .line 119
+    .line 118
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMActionStatusChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
     goto :goto_1
 
     :cond_6
-    const-string v5, "00001008-0000-4008-82E9-8C6A5BC29794"
-
-    .line 120
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_7
-
-    .line 121
-    invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMEquipmentChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
-
-    goto :goto_1
-
-    :cond_7
     const-string v5, "00001009-0000-4008-82E9-8C6A5BC29794"
 
-    .line 122
+    .line 119
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
-    if-eqz v4, :cond_8
+    if-eqz v4, :cond_7
 
-    .line 123
+    .line 120
     invoke-virtual {v0, v3}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMMotorMotionChar(Landroid/bluetooth/BluetoothGattCharacteristic;)V
 
-    .line 124
-    :cond_8
+    .line 121
+    :cond_7
     :goto_1
     sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
@@ -350,18 +335,18 @@
 
     goto/16 :goto_0
 
-    .line 356
-    :cond_9
+    .line 348
+    :cond_8
     check-cast v2, Ljava/util/List;
 
-    :cond_a
-    if-nez p1, :cond_b
+    :cond_9
+    if-nez p1, :cond_a
 
     const/4 p1, 0x0
 
     return p1
 
-    :cond_b
+    :cond_a
     const/4 p1, 0x1
 
     return p1
@@ -382,7 +367,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 56
+    .line 55
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleMeasurmentData(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -403,7 +388,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 91
+    .line 90
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleMotorMotion(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -424,7 +409,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 63
+    .line 62
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleControlPointIndication(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -445,7 +430,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 70
+    .line 69
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleTrainingStatus(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -466,7 +451,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 77
+    .line 76
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleMotorStatus(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -487,7 +472,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 84
+    .line 83
     invoke-virtual {p0, p2}, Lchangyow/ble4th/retrainer/BenchBleManager;->handleActionStatus(Lno/nordicsemi/android/ble/data/Data;)V
 
     return-void
@@ -498,27 +483,27 @@
 .method protected initialize()V
     .locals 3
 
-    .line 47
+    .line 46
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->initDeviceInfo()V
 
-    .line 48
+    .line 47
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->initCyModelInfo()V
 
-    .line 50
+    .line 49
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->getFeatures()V
 
-    .line 51
+    .line 50
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->getLimits()V
 
-    .line 53
+    .line 52
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->getMMeasurmentChar()Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -529,14 +514,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 54
+    .line 53
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableNotifications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 55
+    .line 54
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setNotificationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -547,7 +532,7 @@
 
     invoke-virtual {v0, v2}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 60
+    .line 59
     :cond_0
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
@@ -559,14 +544,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 61
+    .line 60
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableIndications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 62
+    .line 61
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setIndicationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -577,7 +562,7 @@
 
     invoke-virtual {v0, v2}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 67
+    .line 66
     :cond_1
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
@@ -589,14 +574,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 68
+    .line 67
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableNotifications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 69
+    .line 68
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setNotificationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -607,7 +592,7 @@
 
     invoke-virtual {v0, v2}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 74
+    .line 73
     :cond_2
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
@@ -619,14 +604,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 75
+    .line 74
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableNotifications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 76
+    .line 75
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setNotificationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -637,7 +622,7 @@
 
     invoke-virtual {v0, v2}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 81
+    .line 80
     :cond_3
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
@@ -649,14 +634,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 82
+    .line 81
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableNotifications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 83
+    .line 82
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setNotificationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -667,7 +652,7 @@
 
     invoke-virtual {v0, v2}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 88
+    .line 87
     :cond_4
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
@@ -679,14 +664,14 @@
 
     iget-object v1, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
-    .line 89
+    .line 88
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$enableNotifications(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 90
+    .line 89
     invoke-static {v1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->access$setNotificationCallback(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object v0
@@ -708,7 +693,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 43
+    .line 42
     invoke-super {p0, p1}, Lno/nordicsemi/android/ble/BleManager$BleManagerGattCallback;->isOptionalServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
 
     move-result p1
@@ -723,12 +708,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 38
+    .line 37
     iget-object v0, p0, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->this$0:Lchangyow/ble4th/retrainer/BenchBleManager;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->setMBluetoothGatt(Landroid/bluetooth/BluetoothGatt;)V
 
-    .line 39
+    .line 38
     invoke-direct {p0, p1}, Lchangyow/ble4th/retrainer/BenchBleManager$getGattCallback$1;->checkServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
 
     move-result p1

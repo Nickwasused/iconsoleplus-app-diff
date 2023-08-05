@@ -198,7 +198,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const v1, 0x7f0d00f5
+    const v1, 0x7f0d00f6
 
     .line 98
     invoke-virtual {p2, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -208,7 +208,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0d00f4
+    const v1, 0x7f0d00f5
 
     .line 100
     invoke-virtual {p2, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -216,7 +216,7 @@
     move-result-object p2
 
     :goto_0
-    const v1, 0x7f0a0445
+    const v1, 0x7f0a0446
 
     .line 103
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     check-cast v1, Lcom/suke/widget/SwitchButton;
 
-    const v2, 0x7f0a0563
+    const v2, 0x7f0a0564
 
     .line 104
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a0545
+    const v3, 0x7f0a0546
 
     .line 105
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a04bd
+    const v4, 0x7f0a04be
 
     .line 106
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
     goto/16 :goto_4
 
     :pswitch_0
-    const p1, 0x7f1203c5
+    const p1, 0x7f1203c7
 
     .line 258
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -277,7 +277,7 @@
     goto/16 :goto_4
 
     :pswitch_1
-    const p1, 0x7f1201f2
+    const p1, 0x7f1201f4
 
     .line 251
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -291,7 +291,7 @@
     goto/16 :goto_4
 
     :pswitch_2
-    const p1, 0x7f12026d
+    const p1, 0x7f12026f
 
     .line 190
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -301,7 +301,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f0801e3
+    const v4, 0x7f0801e9
 
     invoke-virtual {p1, v4}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -406,7 +406,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f120256
+    const p1, 0x7f120258
 
     .line 220
     invoke-virtual {v3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -414,7 +414,7 @@
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f12023d
+    const p1, 0x7f12023f
 
     .line 222
     invoke-virtual {v3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -430,7 +430,7 @@
     goto/16 :goto_4
 
     :pswitch_3
-    const p1, 0x7f1202fe
+    const p1, 0x7f120300
 
     .line 183
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -468,7 +468,7 @@
     goto/16 :goto_4
 
     :pswitch_4
-    const p1, 0x7f1202a1
+    const p1, 0x7f1202a3
 
     .line 153
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -482,7 +482,7 @@
     goto/16 :goto_4
 
     :pswitch_5
-    const p1, 0x7f120264
+    const p1, 0x7f120266
 
     .line 142
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -514,7 +514,7 @@
     goto :goto_4
 
     :pswitch_6
-    const p1, 0x7f120258
+    const p1, 0x7f12025a
 
     .line 131
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -555,7 +555,7 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f12036e
+    const p1, 0x7f120370
 
     .line 135
     invoke-virtual {v4, p1}, Landroid/widget/TextView;->setText(I)V
@@ -563,7 +563,7 @@
     goto :goto_4
 
     :cond_5
-    const p1, 0x7f12036f
+    const p1, 0x7f120371
 
     .line 137
     invoke-virtual {v4, p1}, Landroid/widget/TextView;->setText(I)V
@@ -571,7 +571,7 @@
     goto :goto_4
 
     :pswitch_7
-    const p1, 0x7f120242
+    const p1, 0x7f120244
 
     .line 112
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V

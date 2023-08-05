@@ -57,7 +57,7 @@
     .line 269
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
-    const p1, 0x7f120298
+    const p1, 0x7f12029a
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getString(I)Ljava/lang/String;
 

@@ -18,7 +18,7 @@
 .method public getHeartRateIconRes()I
     .locals 1
 
-    const v0, 0x7f0801e8
+    const v0, 0x7f0801ee
 
     return v0
 .end method

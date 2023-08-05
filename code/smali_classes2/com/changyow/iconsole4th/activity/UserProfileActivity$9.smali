@@ -1,5 +1,5 @@
 .class Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;
-.super Lcom/changyow/iconsole4th/interfaces/OnDoublePickerPickListener;
+.super Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;
 .source "UserProfileActivity.java"
 
 
@@ -30,51 +30,39 @@
         }
     .end annotation
 
-    .line 775
+    .line 790
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnDoublePickerPickListener;-><init>()V
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public OnDoublePickerPicked(ILjava/lang/String;ILjava/lang/String;)V
-    .locals 0
+.method public onNumberPicked(ILjava/lang/Number;)V
+    .locals 2
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
-            0x0,
-            0x0,
             0x0,
             0x0
         }
         names = {
-            "opt1Index",
-            "opt1Item",
-            "opt2Index",
-            "opt2Item"
+            "index",
+            "item"
         }
     .end annotation
 
-    .line 779
+    .line 794
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    add-int/lit8 p1, p1, 0x3
+    add-int/lit8 p1, p1, 0x64
 
-    mul-int/lit8 p1, p1, 0xc
+    int-to-double v0, p1
 
-    add-int/2addr p1, p3
+    iput-wide v0, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
 
-    int-to-double p3, p1
-
-    invoke-static {p3, p4}, Lcom/changyow/iconsole4th/util/UnitUtil;->inch2cm(D)D
-
-    move-result-wide p3
-
-    iput-wide p3, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mHeight:D
-
-    .line 780
+    .line 795
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V

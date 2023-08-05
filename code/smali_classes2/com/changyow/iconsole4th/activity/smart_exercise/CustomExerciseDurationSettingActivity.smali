@@ -40,7 +40,7 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 89
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->txvTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04ce
+    const v0, 0x7f0a04cf
 
     .line 90
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -161,7 +161,7 @@
     .line 64
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 66
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 67
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 68
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ed
+    const v5, 0x7f0a01ee
 
     .line 69
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v5, 0x7f12027c
+    const v5, 0x7f12027e
 
     .line 71
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -205,7 +205,7 @@
     .line 72
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08018c
+    const v0, 0x7f080192
 
     .line 73
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V

@@ -185,7 +185,7 @@
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e9
+    const p2, 0x7f1202eb
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 
@@ -297,7 +297,7 @@
     .line 904
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e5
+    const p2, 0x7f1202e7
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 
@@ -318,7 +318,7 @@
     :cond_6
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e7
+    const p2, 0x7f1202e9
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 
@@ -408,7 +408,7 @@
     :cond_9
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e8
+    const p2, 0x7f1202ea
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 
@@ -520,7 +520,7 @@
     .line 931
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e4
+    const p2, 0x7f1202e6
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 
@@ -541,7 +541,7 @@
     :cond_d
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    const p2, 0x7f1202e6
+    const p2, 0x7f1202e8
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->getString(I)Ljava/lang/String;
 

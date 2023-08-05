@@ -210,7 +210,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f120368
+    const v5, 0x7f12036a
 
     invoke-virtual {v2, v5}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 
@@ -228,7 +228,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f120417
+    const v5, 0x7f120419
 
     invoke-virtual {v2, v5}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 

@@ -3,7 +3,7 @@
 .source "D8$$SyntheticClass"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnClickListener;
+.implements Landroid/view/View$OnClickListener;
 
 
 # instance fields
@@ -23,12 +23,12 @@
 
 
 # virtual methods
-.method public final onClick(Landroid/content/DialogInterface;I)V
+.method public final onClick(Landroid/view/View;)V
     .locals 1
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda8;->f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$onCreate$0$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$setupInitActionbar$9$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
 
     return-void
 .end method

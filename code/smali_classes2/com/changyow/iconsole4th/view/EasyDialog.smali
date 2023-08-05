@@ -430,7 +430,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d00c0
+    const v1, 0x7f0d00c1
 
     const/4 v2, 0x0
 
@@ -451,7 +451,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    const v1, 0x7f0a03ba
+    const v1, 0x7f0a03bb
 
     .line 122
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
     .line 123
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setTouchOutsideDismiss(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
-    const v1, 0x7f0a0230
+    const v1, 0x7f0a0231
 
     .line 124
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v1, 0x7f0a02bd
+    const v1, 0x7f0a02be
 
     .line 125
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1126,7 +1126,7 @@
     .line 537
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03bb
+    const v1, 0x7f0a03bc
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1209,7 +1209,7 @@
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03bb
+    const v1, 0x7f0a03bc
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1292,7 +1292,7 @@
     .line 447
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03bb
+    const v1, 0x7f0a03bc
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1455,7 +1455,7 @@
 
     check-cast v0, Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a0402
+    const v1, 0x7f0a0403
 
     .line 373
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/LayerDrawable;->findDrawableByLayerId(I)Landroid/graphics/drawable/Drawable;
@@ -1591,7 +1591,7 @@
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v0, 0x7f0803c3
+    const v0, 0x7f0803ca
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -1601,7 +1601,7 @@
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v0, 0x7f0803c2
+    const v0, 0x7f0803c9
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -1611,7 +1611,7 @@
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v0, 0x7f0803c1
+    const v0, 0x7f0803c8
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -1621,7 +1621,7 @@
     :cond_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v0, 0x7f0803c4
+    const v0, 0x7f0803cb
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -2085,7 +2085,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08033d
+    const v1, 0x7f080343
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

@@ -68,7 +68,7 @@
 
 .field public static final dfu_unknown_name:I = 0x7f1200da
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022b
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
 
 
 # direct methods

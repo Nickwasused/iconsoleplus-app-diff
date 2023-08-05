@@ -14,19 +14,19 @@
 
 
 # static fields
-.field public static final srl_footer_failed:I = 0x7f12021b
+.field public static final srl_footer_failed:I = 0x7f12021d
 
-.field public static final srl_footer_finish:I = 0x7f12021c
+.field public static final srl_footer_finish:I = 0x7f12021e
 
-.field public static final srl_footer_loading:I = 0x7f12021d
+.field public static final srl_footer_loading:I = 0x7f12021f
 
-.field public static final srl_footer_nothing:I = 0x7f12021e
+.field public static final srl_footer_nothing:I = 0x7f120220
 
-.field public static final srl_footer_pulling:I = 0x7f12021f
+.field public static final srl_footer_pulling:I = 0x7f120221
 
-.field public static final srl_footer_refreshing:I = 0x7f120220
+.field public static final srl_footer_refreshing:I = 0x7f120222
 
-.field public static final srl_footer_release:I = 0x7f120221
+.field public static final srl_footer_release:I = 0x7f120223
 
 
 # direct methods

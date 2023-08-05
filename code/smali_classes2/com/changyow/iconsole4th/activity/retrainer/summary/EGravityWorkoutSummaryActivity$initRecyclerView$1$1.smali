@@ -40,7 +40,7 @@
         "parent",
         "Landroid/view/ViewGroup;",
         "viewType",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -227,11 +227,11 @@
 
     const/4 v11, 0x2
 
-    const v12, 0x7f120349
+    const v12, 0x7f12034b
 
     const/4 v13, 0x0
 
-    const v14, 0x7f120348
+    const v14, 0x7f12034a
 
     const/4 v15, 0x1
 

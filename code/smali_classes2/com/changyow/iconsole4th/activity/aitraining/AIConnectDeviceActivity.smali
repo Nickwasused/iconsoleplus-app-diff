@@ -775,7 +775,7 @@
     :catch_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f1201ab
+    const v1, 0x7f1201ad
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -828,7 +828,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -845,7 +845,7 @@
     .line 199
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 201
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -854,7 +854,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 202
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -863,7 +863,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 203
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -872,17 +872,17 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v4, 0x7f1201f0
+    const v4, 0x7f1201f2
 
     .line 205
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 206
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f08036f
+    const v0, 0x7f080376
 
     .line 207
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -1356,7 +1356,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    const p1, 0x7f0a02c8
+    const p1, 0x7f0a02c9
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1367,7 +1367,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->lvDevices:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0505
+    const p1, 0x7f0a0506
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1378,7 +1378,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->txvMessage:Landroid/widget/TextView;
 
-    const p1, 0x7f0a022d
+    const p1, 0x7f0a022e
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1389,7 +1389,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->ivStatus:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a03a1
+    const p1, 0x7f0a03a2
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1400,7 +1400,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->rbFromEq:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0a039f
+    const p1, 0x7f0a03a0
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1435,7 +1435,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->mNextActivity:Ljava/lang/String;
 
-    const p1, 0x7f0a03a9
+    const p1, 0x7f0a03aa
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;->findViewById(I)Landroid/view/View;

@@ -90,7 +90,7 @@
 
     move-result v0
 
-    const v1, 0x7f0803af
+    const v1, 0x7f0803b6
 
     .line 47
     invoke-static {p1, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;

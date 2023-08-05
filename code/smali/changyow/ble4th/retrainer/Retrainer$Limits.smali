@@ -66,22 +66,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 121
+    .line 111
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->data:Lno/nordicsemi/android/ble/data/Data;
 
     const-wide/high16 v0, 0x4034000000000000L    # 20.0
 
-    .line 125
+    .line 115
     iput-wide v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MaxWeight:D
 
     const-wide v0, 0x3fb999999999999aL    # 0.1
 
-    .line 127
+    .line 117
     iput-wide v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->Step:D
 
-    .line 131
+    .line 121
     invoke-virtual {p1}, Lno/nordicsemi/android/ble/data/Data;->size()I
 
     move-result v2
@@ -94,7 +94,7 @@
 
     const/16 v3, 0x12
 
-    .line 132
+    .line 122
     invoke-virtual {p1, v3, v2}, Lno/nordicsemi/android/ble/data/Data;->getIntValue(II)Ljava/lang/Integer;
 
     move-result-object v2
@@ -111,7 +111,7 @@
 
     const/4 v2, 0x2
 
-    .line 133
+    .line 123
     invoke-virtual {p1, v3, v2}, Lno/nordicsemi/android/ble/data/Data;->getIntValue(II)Ljava/lang/Integer;
 
     move-result-object v2
@@ -128,7 +128,7 @@
 
     const/4 v2, 0x4
 
-    .line 134
+    .line 124
     invoke-virtual {p1, v3, v2}, Lno/nordicsemi/android/ble/data/Data;->getIntValue(II)Ljava/lang/Integer;
 
     move-result-object p1
@@ -143,13 +143,13 @@
 
     mul-double/2addr v2, v0
 
-    .line 136
+    .line 126
     iput-wide v4, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MinWeight:D
 
-    .line 137
+    .line 127
     iput-wide v6, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MaxWeight:D
 
-    .line 138
+    .line 128
     iput-wide v2, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->Step:D
 
     :cond_0
@@ -161,7 +161,7 @@
 .method public final getData()Lno/nordicsemi/android/ble/data/Data;
     .locals 1
 
-    .line 121
+    .line 111
     iget-object v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->data:Lno/nordicsemi/android/ble/data/Data;
 
     return-object v0
@@ -170,7 +170,7 @@
 .method public final getMaxWeight()D
     .locals 2
 
-    .line 125
+    .line 115
     iget-wide v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MaxWeight:D
 
     return-wide v0
@@ -179,7 +179,7 @@
 .method public final getMinWeight()D
     .locals 2
 
-    .line 123
+    .line 113
     iget-wide v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MinWeight:D
 
     return-wide v0
@@ -188,7 +188,7 @@
 .method public final getStep()D
     .locals 2
 
-    .line 127
+    .line 117
     iget-wide v0, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->Step:D
 
     return-wide v0
@@ -197,14 +197,14 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 143
+    .line 133
     sget-object v0, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     const/4 v0, 0x3
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 145
+    .line 135
     iget-wide v2, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MinWeight:D
 
     invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -215,7 +215,7 @@
 
     aput-object v2, v1, v3
 
-    .line 146
+    .line 136
     iget-wide v2, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->MaxWeight:D
 
     invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -226,7 +226,7 @@
 
     aput-object v2, v1, v3
 
-    .line 147
+    .line 137
     iget-wide v2, p0, Lchangyow/ble4th/retrainer/Retrainer$Limits;->Step:D
 
     invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -237,7 +237,7 @@
 
     aput-object v2, v1, v3
 
-    .line 143
+    .line 133
     invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v0

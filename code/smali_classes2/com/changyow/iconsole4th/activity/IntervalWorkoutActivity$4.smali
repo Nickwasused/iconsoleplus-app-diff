@@ -78,7 +78,7 @@
     .line 426
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
-    const p1, 0x7f120318
+    const p1, 0x7f12031a
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getString(I)Ljava/lang/String;
 

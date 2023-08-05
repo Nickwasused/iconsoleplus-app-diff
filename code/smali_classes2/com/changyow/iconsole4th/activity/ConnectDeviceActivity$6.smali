@@ -191,7 +191,7 @@
     .line 814
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;
 
-    const v1, 0x7f120273
+    const v1, 0x7f120275
 
     .line 817
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->getString(I)Ljava/lang/String;
@@ -493,7 +493,7 @@
     .line 811
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;
 
-    const v0, 0x7f1201f2
+    const v0, 0x7f1201f4
 
     invoke-virtual {p2, v0}, Lcom/changyow/iconsole4th/activity/ConnectDeviceActivity;->getString(I)Ljava/lang/String;
 

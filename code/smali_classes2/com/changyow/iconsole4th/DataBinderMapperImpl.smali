@@ -33,14 +33,14 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d00a4
+    const v2, 0x7f0d00a5
 
     const/4 v3, 0x1
 
     .line 33
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0d00a7
+    const v2, 0x7f0d00a8
 
     .line 34
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V

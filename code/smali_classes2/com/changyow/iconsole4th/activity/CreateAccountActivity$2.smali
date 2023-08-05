@@ -209,7 +209,7 @@
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201bf
+    const v1, 0x7f1201c1
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -243,7 +243,7 @@
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201b4
+    const v1, 0x7f1201b6
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -256,7 +256,7 @@
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201be
+    const v1, 0x7f1201c0
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -269,7 +269,7 @@
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201bb
+    const v1, 0x7f1201bd
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

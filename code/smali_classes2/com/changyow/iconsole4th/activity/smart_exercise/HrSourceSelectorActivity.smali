@@ -91,7 +91,7 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a029d
+    const v0, 0x7f0a029e
 
     .line 94
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->layoutTop:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a04dc
+    const v0, 0x7f0a04dd
 
     .line 95
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->txvHeartRateSource:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04e6
+    const v0, 0x7f0a04e7
 
     .line 96
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->txvHrmName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a028e
+    const v0, 0x7f0a028f
 
     .line 97
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->layoutScanHrm:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a03d1
+    const v0, 0x7f0a03d2
 
     .line 98
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->rvHrmList:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0a00c7
+    const v0, 0x7f0a00c8
 
     .line 99
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->btnSave:Landroid/widget/Button;
 
-    const v0, 0x7f0a052e
+    const v0, 0x7f0a052f
 
     .line 100
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0a03a9
+    const v0, 0x7f0a03aa
 
     .line 142
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -428,7 +428,7 @@
     .line 76
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 78
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 79
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -446,7 +446,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 80
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ed
+    const v5, 0x7f0a01ee
 
     .line 81
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v5, 0x7f120284
+    const v5, 0x7f120286
 
     .line 83
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -472,7 +472,7 @@
     .line 84
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08018c
+    const v0, 0x7f080192
 
     .line 85
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -878,7 +878,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1202ab
+    const v0, 0x7f1202ad
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$$ExternalSyntheticLambda0;
 
@@ -889,7 +889,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120361
+    const v0, 0x7f120363
 
     sget-object v1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$$ExternalSyntheticLambda1;
 

@@ -78,7 +78,7 @@
         "trainingMode",
         "ItemViewHolder",
         "SetListAdapter",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -748,7 +748,7 @@
 
     :cond_f
     :goto_5
-    const v0, 0x7f120347
+    const v0, 0x7f120349
 
     .line 379
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
@@ -792,7 +792,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f120391
+    const p1, 0x7f120393
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
@@ -986,7 +986,7 @@
     move-object p1, v0
 
     :goto_1
-    const v1, 0x7f120346
+    const v1, 0x7f120348
 
     .line 168
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
@@ -1020,7 +1020,7 @@
 
     invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    const v0, 0x7f120343
+    const v0, 0x7f120345
 
     .line 177
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
@@ -1097,7 +1097,7 @@
     .line 185
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const p2, 0x7f120343
+    const p2, 0x7f120345
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 
@@ -1741,7 +1741,7 @@
     .line 409
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->txvTitle:Landroid/widget/TextView;
 
-    const v2, 0x7f1203aa
+    const v2, 0x7f1203ac
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
 
@@ -1754,7 +1754,7 @@
     .line 410
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080368
+    const v2, 0x7f08036f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -1810,7 +1810,7 @@
     .line 370
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnGo:Landroid/widget/Button;
 
-    const v2, 0x7f120252
+    const v2, 0x7f120254
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 

@@ -224,7 +224,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$EquipmentListAdapter$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$EquipmentListAdapter;Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;)V
 
-    const p1, 0x7f1202ab
+    const p1, 0x7f1202ad
 
     .line 149
     invoke-virtual {p2, p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -233,7 +233,7 @@
 
     sget-object p2, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$EquipmentListAdapter$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$EquipmentListAdapter$$ExternalSyntheticLambda1;
 
-    const v0, 0x7f120361
+    const v0, 0x7f120363
 
     .line 159
     invoke-virtual {p1, v0, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -465,7 +465,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00f7
+    const v1, 0x7f0d00f8
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -488,7 +488,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00f8
+    const v1, 0x7f0d00f9
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

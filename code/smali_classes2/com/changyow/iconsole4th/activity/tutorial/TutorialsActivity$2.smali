@@ -84,7 +84,7 @@
     .line 195
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;
 
-    const v1, 0x7f12041c
+    const v1, 0x7f12041e
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;
 
-    const v1, 0x7f12041b
+    const v1, 0x7f12041d
 
     .line 196
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->getString(I)Ljava/lang/String;
@@ -113,7 +113,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;
 
-    const v1, 0x7f12042b
+    const v1, 0x7f12042d
 
     .line 206
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->getString(I)Ljava/lang/String;

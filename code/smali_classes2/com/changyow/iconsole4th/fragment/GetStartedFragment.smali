@@ -1211,7 +1211,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03b7
+    const p2, 0x7f0a03b8
 
     .line 108
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1222,7 +1222,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c0
+    const p2, 0x7f0a03c1
 
     .line 109
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1233,7 +1233,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c1
+    const p2, 0x7f0a03c2
 
     .line 110
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1244,7 +1244,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b4
+    const p2, 0x7f0a03b5
 
     .line 111
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1255,7 +1255,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bc
+    const p2, 0x7f0a03bd
 
     .line 112
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1266,7 +1266,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b5
+    const p2, 0x7f0a03b6
 
     .line 113
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1277,7 +1277,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03be
+    const p2, 0x7f0a03bf
 
     .line 114
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1288,7 +1288,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoute:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b8
+    const p2, 0x7f0a03b9
 
     .line 115
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1299,7 +1299,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bd
+    const p2, 0x7f0a03be
 
     .line 116
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2089,7 +2089,7 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120365
+    const v1, 0x7f120367
 
     .line 339
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getString(I)Ljava/lang/String;
@@ -2100,7 +2100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120277
+    const v1, 0x7f120279
 
     sget-object v2, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;
 
@@ -2273,7 +2273,7 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda9;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda9;
 
-    const v2, 0x7f120277
+    const v2, 0x7f120279
 
     .line 457
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -2310,7 +2310,7 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda10;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda10;
 
-    const v2, 0x7f120277
+    const v2, 0x7f120279
 
     .line 446
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -2349,7 +2349,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
-    const v2, 0x7f120277
+    const v2, 0x7f120279
 
     .line 468
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -2388,7 +2388,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;-><init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
-    const v2, 0x7f120277
+    const v2, 0x7f120279
 
     .line 487
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;

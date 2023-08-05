@@ -40,7 +40,7 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/DataBinderMapperImpl$InnerLayoutIdLookup;->sKeys:Ljava/util/HashMap;
 
-    const v1, 0x7f0d00a4
+    const v1, 0x7f0d00a5
 
     .line 128
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -61,7 +61,7 @@
     .line 130
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0d00a7
+    const v1, 0x7f0d00a8
 
     .line 131
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

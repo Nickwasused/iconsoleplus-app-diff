@@ -79,7 +79,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -96,7 +96,7 @@
     .line 86
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 88
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 89
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 90
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01ee
 
     .line 91
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,12 +132,12 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v4, 0x7f1203f1
+    const v4, 0x7f1203f3
 
     .line 93
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 94
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -405,12 +405,12 @@
     .line 39
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0060
+    const p1, 0x7f0d0061
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->setContentView(I)V
 
-    const p1, 0x7f0a00dc
+    const p1, 0x7f0a00dd
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->findViewById(I)Landroid/view/View;
@@ -421,7 +421,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->btnVideoHome:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00dd
+    const p1, 0x7f0a00de
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->findViewById(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->VideoCommunity:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00de
+    const p1, 0x7f0a00df
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamHomeActivity;->findViewById(I)Landroid/view/View;
@@ -522,7 +522,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0a01c1
+    const v1, 0x7f0a01c2
 
     invoke-virtual {p1, v1, v0}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 

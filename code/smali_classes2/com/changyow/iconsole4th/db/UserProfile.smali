@@ -143,7 +143,7 @@
         "toString",
         "toggleUnit",
         "Companion",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -1983,7 +1983,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0802c0
+    const v1, 0x7f0802c6
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

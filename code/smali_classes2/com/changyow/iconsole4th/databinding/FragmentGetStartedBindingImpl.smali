@@ -26,70 +26,70 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/databinding/FragmentGetStartedBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a02be
+    const v1, 0x7f0a02bf
 
     const/16 v2, 0x13
 
     .line 17
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03bd
+    const v1, 0x7f0a03be
 
     const/16 v2, 0x14
 
     .line 18
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b8
+    const v1, 0x7f0a03b9
 
     const/16 v2, 0x15
 
     .line 19
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03be
+    const v1, 0x7f0a03bf
 
     const/16 v2, 0x16
 
     .line 20
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b7
+    const v1, 0x7f0a03b8
 
     const/16 v2, 0x17
 
     .line 21
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b5
+    const v1, 0x7f0a03b6
 
     const/16 v2, 0x18
 
     .line 22
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03bc
+    const v1, 0x7f0a03bd
 
     const/16 v2, 0x19
 
     .line 23
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03b4
+    const v1, 0x7f0a03b5
 
     const/16 v2, 0x1a
 
     .line 24
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03c1
+    const v1, 0x7f0a03c2
 
     const/16 v2, 0x1b
 
     .line 25
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a03c0
+    const v1, 0x7f0a03c1
 
     const/16 v2, 0x1c
 

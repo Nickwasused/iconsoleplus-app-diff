@@ -116,7 +116,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -133,7 +133,7 @@
     .line 91
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 93
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 94
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 95
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -160,17 +160,17 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f120281
+    const v3, 0x7f120283
 
     .line 97
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 98
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f08036f
+    const v0, 0x7f080376
 
     .line 99
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -244,7 +244,7 @@
     .line 40
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->setContentView(I)V
 
-    const p1, 0x7f0a00c4
+    const p1, 0x7f0a00c5
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->btnRecognize:Landroid/widget/Button;
 
-    const p1, 0x7f0a0220
+    const p1, 0x7f0a0221
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->findViewById(I)Landroid/view/View;
@@ -399,7 +399,7 @@
 
     if-nez p1, :cond_3
 
-    const p1, 0x7f120454
+    const p1, 0x7f120456
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->getString(I)Ljava/lang/String;

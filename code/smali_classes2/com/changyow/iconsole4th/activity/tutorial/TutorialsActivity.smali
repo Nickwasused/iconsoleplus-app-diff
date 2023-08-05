@@ -413,7 +413,7 @@
     .line 101
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0064
+    const p1, 0x7f0d0065
 
     .line 102
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->setContentView(I)V
@@ -590,7 +590,7 @@
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     :goto_0
-    const p1, 0x7f0a03d2
+    const p1, 0x7f0a03d3
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->findViewById(I)Landroid/view/View;
@@ -601,7 +601,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->rvPager:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0a00d2
+    const v0, 0x7f0a00d3
 
     .line 137
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialsActivity;->findViewById(I)Landroid/view/View;

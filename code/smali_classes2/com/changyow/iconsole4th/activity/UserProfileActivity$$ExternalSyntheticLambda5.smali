@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda5;->f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
-    invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$setupInitActionbar$10$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$onCreate$7$com-changyow-iconsole4th-activity-UserProfileActivity(Landroid/view/View;)V
 
     return-void
 .end method

@@ -391,7 +391,7 @@
 
     invoke-direct {p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1203c4
+    const v1, 0x7f1203c6
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -408,7 +408,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120277
+    const v1, 0x7f120279
 
     new-instance v2, Lcom/changyow/iconsole4th/fragment/SettingsFragment$2;
 
@@ -472,7 +472,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a00b1
+    const v1, 0x7f0a00b2
 
     if-eq v0, v1, :cond_0
 
@@ -543,7 +543,7 @@
 
     invoke-virtual {p3, v0}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->with(Lorg/matomo/sdk/Tracker;)V
 
-    const p3, 0x7f0d00a8
+    const p3, 0x7f0d00a9
 
     const/4 v0, 0x0
 
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a02cd
+    const p2, 0x7f0a02ce
 
     .line 76
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -563,7 +563,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->lvSettingList:Landroid/widget/ListView;
 
-    const p2, 0x7f0a01a9
+    const p2, 0x7f0a01aa
 
     .line 77
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a0563
+    const p2, 0x7f0a0564
 
     .line 78
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -585,7 +585,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a00b1
+    const p2, 0x7f0a00b2
 
     .line 79
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
     .line 81
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p3, 0x7f12029b
+    const p3, 0x7f12029d
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 

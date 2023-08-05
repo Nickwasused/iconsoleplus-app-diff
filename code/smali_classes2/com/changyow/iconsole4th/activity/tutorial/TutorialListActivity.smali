@@ -38,7 +38,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -55,7 +55,7 @@
     .line 42
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 44
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 45
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,12 +73,12 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v2, 0x7f1202a1
+    const v2, 0x7f1202a3
 
     .line 47
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080368
+    const v0, 0x7f08036f
 
     .line 48
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -100,7 +100,7 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const v1, 0x7f1203d7
+    const v1, 0x7f1203d9
 
     .line 54
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
@@ -111,7 +111,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f12039a
+    const v1, 0x7f12039c
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f12037d
+    const v1, 0x7f12037f
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f12038b
+    const v1, 0x7f12038d
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f12027b
+    const v1, 0x7f12027d
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f120398
+    const v1, 0x7f12039a
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -161,7 +161,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f1203c8
+    const v1, 0x7f1203ca
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->getString(I)Ljava/lang/String;
 
@@ -176,9 +176,9 @@
 
     new-instance v2, Landroid/widget/ArrayAdapter;
 
-    const v3, 0x7f0d00b9
+    const v3, 0x7f0d00ba
 
-    const v4, 0x7f0a0563
+    const v4, 0x7f0a0564
 
     invoke-direct {v2, p0, v3, v4, v0}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
 
@@ -313,12 +313,12 @@
     .line 24
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0063
+    const p1, 0x7f0d0064
 
     .line 25
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02ba
+    const p1, 0x7f0a02bb
 
     .line 26
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->findViewById(I)Landroid/view/View;

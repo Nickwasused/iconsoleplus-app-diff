@@ -235,7 +235,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoHomeListAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f12044f
+    const v3, 0x7f120451
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -420,7 +420,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0d0104
+    const v0, 0x7f0d0105
 
     const/4 v1, 0x0
 

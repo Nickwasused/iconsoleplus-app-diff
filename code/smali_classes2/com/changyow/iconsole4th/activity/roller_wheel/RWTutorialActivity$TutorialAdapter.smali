@@ -186,7 +186,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00f0
+    const v3, 0x7f0d00f1
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -206,7 +206,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00f1
+    const v3, 0x7f0d00f2
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -226,7 +226,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00f2
+    const v3, 0x7f0d00f3
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -244,7 +244,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00f3
+    const v3, 0x7f0d00f4
 
     invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -263,7 +263,7 @@
 
     if-ne p2, v0, :cond_4
 
-    const p2, 0x7f0a00f2
+    const p2, 0x7f0a00f3
 
     .line 120
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     iput-object p2, v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->cbDontShowAgain:Landroid/widget/CheckBox;
 
-    const p2, 0x7f0a00bc
+    const p2, 0x7f0a00bd
 
     .line 121
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -180,7 +180,7 @@
     .line 36
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02c9
+    const p1, 0x7f0a02ca
 
     .line 37
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->btnDone:Landroid/widget/Button;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 39
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0499
+    const p1, 0x7f0a049a
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->findViewById(I)Landroid/view/View;

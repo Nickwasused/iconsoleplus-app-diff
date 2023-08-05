@@ -388,7 +388,7 @@
     :catch_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f1201ab
+    const v1, 0x7f1201ad
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -441,7 +441,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -458,7 +458,7 @@
     .line 164
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 166
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 167
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 168
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,17 +485,17 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v4, 0x7f1201f0
+    const v4, 0x7f1201f2
 
     .line 170
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 171
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f08036f
+    const v0, 0x7f080376
 
     .line 172
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -533,7 +533,7 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1201b2
+    const v1, 0x7f1201b4
 
     .line 192
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -544,7 +544,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;)V
 
-    const v2, 0x7f1202af
+    const v2, 0x7f1202b1
 
     .line 193
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -553,7 +553,7 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity$$ExternalSyntheticLambda1;
 
-    const v2, 0x7f12023c
+    const v2, 0x7f12023e
 
     .line 194
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -564,7 +564,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;)V
 
-    const v2, 0x7f12028d
+    const v2, 0x7f12028f
 
     .line 195
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -1181,7 +1181,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    const p1, 0x7f0a02c8
+    const p1, 0x7f0a02c9
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1192,7 +1192,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->lvDevices:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0505
+    const p1, 0x7f0a0506
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1203,7 +1203,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->txvMessage:Landroid/widget/TextView;
 
-    const p1, 0x7f0a022d
+    const p1, 0x7f0a022e
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1214,7 +1214,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->ivStatus:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a03a1
+    const p1, 0x7f0a03a2
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1225,7 +1225,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->rbFromEq:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0a039f
+    const p1, 0x7f0a03a0
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;
@@ -1247,7 +1247,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->btnBleHrmActivate:Landroid/widget/Button;
 
-    const p1, 0x7f0a03a9
+    const p1, 0x7f0a03aa
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamConnectDeviceActivity;->findViewById(I)Landroid/view/View;

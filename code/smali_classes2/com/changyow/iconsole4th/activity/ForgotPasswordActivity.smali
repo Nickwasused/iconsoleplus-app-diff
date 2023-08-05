@@ -95,7 +95,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->btnForgotPassword:Landroid/widget/Button;
 
-    const p1, 0x7f0a02b5
+    const p1, 0x7f0a02b6
 
     .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->linearLayout4:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016c
+    const p1, 0x7f0a016d
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->etPassword:Landroid/widget/EditText;
 
-    const p1, 0x7f0a049c
+    const p1, 0x7f0a049d
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->txv2:Landroid/widget/TextView;
 
-    const p1, 0x7f0a02b4
+    const p1, 0x7f0a02b5
 
     .line 52
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->linearLayout3:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016b
+    const p1, 0x7f0a016c
 
     .line 53
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->etEmail:Landroid/widget/EditText;
 
-    const p1, 0x7f0a0499
+    const p1, 0x7f0a049a
 
     .line 54
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->txv1:Landroid/widget/TextView;
 
-    const p1, 0x7f0a02b3
+    const p1, 0x7f0a02b4
 
     .line 55
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->linearLayout2:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a027a
+    const p1, 0x7f0a027b
 
     .line 56
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->layoutInfo:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a04ee
+    const p1, 0x7f0a04ef
 
     .line 57
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->txvInfo:Landroid/widget/TextView;
 
-    const p1, 0x7f0a029c
+    const p1, 0x7f0a029d
 
     .line 58
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->layoutTitle:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0563
+    const p1, 0x7f0a0564
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->txvTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a01fd
+    const p1, 0x7f0a01fe
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ForgotPasswordActivity;->findViewById(I)Landroid/view/View;

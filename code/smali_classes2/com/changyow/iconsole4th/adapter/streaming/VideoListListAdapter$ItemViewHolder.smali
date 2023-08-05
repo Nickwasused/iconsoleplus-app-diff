@@ -41,7 +41,7 @@
     .line 112
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a028d
+    const v0, 0x7f0a028e
 
     .line 114
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
-    const v0, 0x7f0a0231
+    const v0, 0x7f0a0232
 
     .line 115
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter$ItemViewHolder;->ivVideoPreview:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0586
+    const v0, 0x7f0a0587
 
     .line 116
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter$ItemViewHolder;->txvVideoTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04f5
+    const v0, 0x7f0a04f6
 
     .line 117
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter$ItemViewHolder;->txvLengthInMin:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0585
+    const v0, 0x7f0a0586
 
     .line 118
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -47,7 +47,7 @@
         "onStop",
         "startWorkout",
         "stopBench",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -673,7 +673,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f120340
+    const v0, 0x7f120342
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->getString(I)Ljava/lang/String;
 
@@ -711,7 +711,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f12033d
+    const v0, 0x7f12033f
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->getString(I)Ljava/lang/String;
 

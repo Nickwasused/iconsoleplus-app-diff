@@ -26,7 +26,7 @@
         "getUserProfile",
         "invalidateSharedProfile",
         "",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {

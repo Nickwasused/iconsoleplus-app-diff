@@ -585,7 +585,7 @@
     return p1
 
     :cond_0
-    const p1, 0x7f0a0447
+    const p1, 0x7f0a0448
 
     return p1
 .end method
@@ -888,7 +888,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f12041a
+    const v3, 0x7f12041c
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -911,7 +911,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f1203ac
+    const v3, 0x7f1203ae
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -934,7 +934,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f120382
+    const v3, 0x7f120384
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -957,7 +957,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f1203b0
+    const v3, 0x7f1203b2
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -980,7 +980,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f12039b
+    const v3, 0x7f12039d
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1003,7 +1003,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f12038a
+    const v3, 0x7f12038c
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1052,7 +1052,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f120303
+    const v3, 0x7f120305
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1087,7 +1087,7 @@
 
     move-result p2
 
-    const v2, 0x7f080377
+    const v2, 0x7f08037e
 
     if-eq p2, v0, :cond_f
 
@@ -1125,7 +1125,7 @@
     .line 265
     iget-object p2, p1, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f120290
+    const v0, 0x7f120292
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1153,7 +1153,7 @@
     .line 270
     iget-object p2, p1, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f120291
+    const v0, 0x7f120293
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1181,7 +1181,7 @@
     .line 275
     iget-object p2, p1, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f120257
+    const v0, 0x7f120259
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1209,7 +1209,7 @@
     .line 280
     iget-object p2, p1, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f12024f
+    const v0, 0x7f120251
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1225,7 +1225,7 @@
     .line 260
     iget-object p2, p1, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter$ItemViewHolder;->txvRPE:Landroid/widget/TextView;
 
-    const v0, 0x7f12024d
+    const v0, 0x7f12024f
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1334,7 +1334,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d0126
+    const v1, 0x7f0d0127
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1352,7 +1352,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d0127
+    const v1, 0x7f0d0128
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

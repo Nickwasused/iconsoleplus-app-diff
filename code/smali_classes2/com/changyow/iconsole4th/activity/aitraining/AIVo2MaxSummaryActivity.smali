@@ -81,7 +81,7 @@
     .line 36
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->setContentView(I)V
 
-    const p1, 0x7f0a03b9
+    const p1, 0x7f0a03ba
 
     .line 37
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04f4
+    const p1, 0x7f0a04f5
 
     .line 38
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvLearnMore:Landroid/widget/TextView;
 
-    const p1, 0x7f0a00bb
+    const p1, 0x7f0a00bc
 
     .line 39
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->btnOK:Landroid/widget/Button;
 
-    const p1, 0x7f0a03bf
+    const p1, 0x7f0a03c0
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlScore:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0587
+    const p1, 0x7f0a0588
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvVo2MaxScore:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0530
+    const p1, 0x7f0a0531
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvScoreInText:Landroid/widget/TextView;
 
-    const p1, 0x7f0a03c3
+    const p1, 0x7f0a03c4
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;

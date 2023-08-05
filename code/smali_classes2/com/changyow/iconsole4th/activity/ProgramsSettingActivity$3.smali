@@ -57,7 +57,7 @@
     .line 134
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity;
 
-    const p1, 0x7f120311
+    const p1, 0x7f120313
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity;->getString(I)Ljava/lang/String;
 

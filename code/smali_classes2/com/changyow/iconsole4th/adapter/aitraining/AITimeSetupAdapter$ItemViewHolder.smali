@@ -39,7 +39,7 @@
     .line 184
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 186
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter$ItemViewHolder;->txvTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0581
+    const v0, 0x7f0a0582
 
     .line 187
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter$ItemViewHolder;->btnDelete:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0447
+    const v0, 0x7f0a0448
 
     .line 190
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

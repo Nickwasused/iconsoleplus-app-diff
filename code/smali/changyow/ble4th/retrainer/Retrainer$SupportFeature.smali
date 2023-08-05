@@ -15,7 +15,7 @@
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\r\n\u0002\u0010\u0008\n\u0002\u0008\u001d\n\u0002\u0010\u000e\n\u0000\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u0006\u00100\u001a\u00020\u0006J\u0008\u00101\u001a\u000202H\u0016R\u001e\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0008\u0010\tR\u001e\u0010\n\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000b\u0010\tR\u001e\u0010\u000c\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\tR\u001e\u0010\u000e\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\tR\u001e\u0010\u0010\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0011\u0010\tR\u001e\u0010\u0012\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0013\u0010\tR\u001e\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0005\u001a\u00020\u0014@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0016\u0010\u0017R\u001e\u0010\u0018\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0019\u0010\tR\u001e\u0010\u001a\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001b\u0010\tR\u001e\u0010\u001c\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001d\u0010\tR\u001e\u0010\u001e\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001f\u0010\tR\u001e\u0010 \u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008!\u0010\tR\u001e\u0010\"\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008#\u0010\tR\u001e\u0010$\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008%\u0010\tR\u001e\u0010&\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\'\u0010\tR\u001e\u0010(\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008)\u0010\tR\u001e\u0010*\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008+\u0010\tR\u001e\u0010,\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008-\u0010\tR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008.\u0010/\u00a8\u00063"
+        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u000b\n\u0002\u0010\u0008\n\u0002\u0008\u0019\n\u0002\u0010\u000e\n\u0000\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u0006\u0010*\u001a\u00020\u0006J\u0008\u0010+\u001a\u00020,H\u0016R\u001e\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0008\u0010\tR\u001e\u0010\n\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000b\u0010\tR\u001e\u0010\u000c\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\tR\u001e\u0010\u000e\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\tR\u001e\u0010\u0010\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0011\u0010\tR\u001e\u0010\u0013\u001a\u00020\u00122\u0006\u0010\u0005\u001a\u00020\u0012@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0014\u0010\u0015R\u001e\u0010\u0016\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0017\u0010\tR\u001e\u0010\u0018\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0019\u0010\tR\u001e\u0010\u001a\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001b\u0010\tR\u001e\u0010\u001c\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001d\u0010\tR\u001e\u0010\u001e\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001f\u0010\tR\u001e\u0010 \u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008!\u0010\tR\u001e\u0010\"\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008#\u0010\tR\u001e\u0010$\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008%\u0010\tR\u001e\u0010&\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0006@BX\u0086\u000e\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\'\u0010\tR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008(\u0010)\u00a8\u0006-"
     }
     d2 = {
         "Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;",
@@ -34,8 +34,6 @@
         "getCentricModeSupported",
         "DurationDataSupported",
         "getDurationDataSupported",
-        "DurationTargetSupported",
-        "getDurationTargetSupported",
         "EccentricModeSupported",
         "getEccentricModeSupported",
         "",
@@ -48,12 +46,8 @@
         "getPowerTargetSupported",
         "ProcessDistanceDataSupported",
         "getProcessDistanceDataSupported",
-        "ProgressDistanceTargetSupported",
-        "getProgressDistanceTargetSupported",
         "RepetitionCountDataSupported",
         "getRepetitionCountDataSupported",
-        "RepetitionCountTargetSupported",
-        "getRepetitionCountTargetSupported",
         "RepetitionRateDataSupported",
         "getRepetitionRateDataSupported",
         "RepetitionRateTargetSupported",
@@ -90,8 +84,6 @@
 
 .field private DurationDataSupported:Z
 
-.field private DurationTargetSupported:Z
-
 .field private EccentricModeSupported:Z
 
 .field private NumberOfMoters:I
@@ -102,11 +94,7 @@
 
 .field private ProcessDistanceDataSupported:Z
 
-.field private ProgressDistanceTargetSupported:Z
-
 .field private RepetitionCountDataSupported:Z
-
-.field private RepetitionCountTargetSupported:Z
 
 .field private RepetitionRateDataSupported:Z
 
@@ -123,29 +111,29 @@
 
 # direct methods
 .method public constructor <init>(Lno/nordicsemi/android/ble/data/Data;)V
-    .locals 11
+    .locals 9
 
     const-string v0, "data"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 32
+    .line 31
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->data:Lno/nordicsemi/android/ble/data/Data;
 
-    .line 75
+    .line 68
     invoke-virtual {p1}, Lno/nordicsemi/android/ble/data/Data;->size()I
 
     move-result v0
 
     const/16 v1, 0x8
 
-    if-ne v0, v1, :cond_11
+    if-ne v0, v1, :cond_e
 
     const/4 v0, 0x0
 
-    .line 76
+    .line 69
     invoke-virtual {p1, v0}, Lno/nordicsemi/android/ble/data/Data;->getByte(I)Ljava/lang/Byte;
 
     move-result-object v2
@@ -164,7 +152,7 @@
 
     int-to-byte v2, v2
 
-    .line 78
+    .line 71
     invoke-static {v2}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v2
@@ -179,7 +167,7 @@
 
     const/4 v2, 0x2
 
-    .line 81
+    .line 74
     invoke-virtual {p1, v2}, Lno/nordicsemi/android/ble/data/Data;->getByte(I)Ljava/lang/Byte;
 
     move-result-object v4
@@ -196,7 +184,7 @@
 
     int-to-byte v5, v3
 
-    .line 83
+    .line 76
     invoke-static {v5}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v6
@@ -233,7 +221,7 @@
 
     int-to-byte v2, v2
 
-    .line 84
+    .line 77
     invoke-static {v2}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v6
@@ -270,7 +258,7 @@
 
     const/4 v4, 0x4
 
-    .line 87
+    .line 80
     invoke-virtual {p1, v4}, Lno/nordicsemi/android/ble/data/Data;->getByte(I)Ljava/lang/Byte;
 
     move-result-object v6
@@ -285,7 +273,7 @@
 
     move-result v6
 
-    .line 89
+    .line 82
     invoke-static {v5}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v7
@@ -320,7 +308,7 @@
     :goto_2
     iput-boolean v7, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->CadenceDataSupported:Z
 
-    .line 90
+    .line 83
     invoke-static {v2}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v7
@@ -357,7 +345,7 @@
 
     int-to-byte v4, v4
 
-    .line 91
+    .line 84
     invoke-static {v4}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v7
@@ -394,7 +382,7 @@
 
     int-to-byte v1, v1
 
-    .line 92
+    .line 85
     invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v7
@@ -433,7 +421,7 @@
 
     int-to-byte v7, v7
 
-    .line 93
+    .line 86
     invoke-static {v7}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v8
@@ -472,51 +460,51 @@
 
     int-to-byte v8, v8
 
-    .line 94
+    .line 87
     invoke-static {v8}, Lkotlin/UByte;->constructor-impl(B)B
 
-    move-result v9
+    move-result v8
 
-    and-int/2addr v9, v6
+    and-int/2addr v8, v6
 
-    int-to-byte v9, v9
+    int-to-byte v8, v8
 
-    invoke-static {v9}, Lkotlin/UByte;->constructor-impl(B)B
+    invoke-static {v8}, Lkotlin/UByte;->constructor-impl(B)B
 
-    move-result v9
+    move-result v8
 
-    and-int/lit16 v9, v9, 0xff
+    and-int/lit16 v8, v8, 0xff
 
-    invoke-static {v9}, Lkotlin/UInt;->constructor-impl(I)I
+    invoke-static {v8}, Lkotlin/UInt;->constructor-impl(I)I
 
-    move-result v9
+    move-result v8
 
-    invoke-static {v9, v0}, Lkotlin/UnsignedKt;->uintCompare(II)I
+    invoke-static {v8, v0}, Lkotlin/UnsignedKt;->uintCompare(II)I
 
-    move-result v9
+    move-result v8
 
-    if-lez v9, :cond_7
+    if-lez v8, :cond_7
 
-    move v9, v3
+    move v8, v3
 
     goto :goto_7
 
     :cond_7
-    move v9, v0
+    move v8, v0
 
     :goto_7
-    iput-boolean v9, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->ProcessDistanceDataSupported:Z
+    iput-boolean v8, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->ProcessDistanceDataSupported:Z
 
-    const/16 v9, 0x40
+    const/16 v8, 0x40
 
-    int-to-byte v9, v9
+    int-to-byte v8, v8
 
-    .line 95
-    invoke-static {v9}, Lkotlin/UByte;->constructor-impl(B)B
+    .line 88
+    invoke-static {v8}, Lkotlin/UByte;->constructor-impl(B)B
 
-    move-result v10
+    move-result v8
 
-    and-int/2addr v6, v10
+    and-int/2addr v6, v8
 
     int-to-byte v6, v6
 
@@ -548,7 +536,7 @@
 
     const/4 v6, 0x6
 
-    .line 98
+    .line 91
     invoke-virtual {p1, v6}, Lno/nordicsemi/android/ble/data/Data;->getByte(I)Ljava/lang/Byte;
 
     move-result-object p1
@@ -563,7 +551,7 @@
 
     move-result p1
 
-    .line 100
+    .line 93
     invoke-static {v5}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v5
@@ -598,7 +586,7 @@
     :goto_9
     iput-boolean v5, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->WeightTargetSupported:Z
 
-    .line 101
+    .line 94
     invoke-static {v2}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v2
@@ -633,7 +621,7 @@
     :goto_a
     iput-boolean v2, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->CadenceTargetSupported:Z
 
-    .line 102
+    .line 95
     invoke-static {v4}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v2
@@ -668,7 +656,7 @@
     :goto_b
     iput-boolean v2, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->PowerTargetSupported:Z
 
-    .line 103
+    .line 96
     invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v1
@@ -703,117 +691,8 @@
     :goto_c
     iput-boolean v1, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->TorqueTargetSupported:Z
 
-    .line 104
+    .line 97
     invoke-static {v7}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/2addr v1, p1
-
-    int-to-byte v1, v1
-
-    invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/lit16 v1, v1, 0xff
-
-    invoke-static {v1}, Lkotlin/UInt;->constructor-impl(I)I
-
-    move-result v1
-
-    invoke-static {v1, v0}, Lkotlin/UnsignedKt;->uintCompare(II)I
-
-    move-result v1
-
-    if-lez v1, :cond_d
-
-    move v1, v3
-
-    goto :goto_d
-
-    :cond_d
-    move v1, v0
-
-    :goto_d
-    iput-boolean v1, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionCountTargetSupported:Z
-
-    .line 105
-    invoke-static {v8}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/2addr v1, p1
-
-    int-to-byte v1, v1
-
-    invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/lit16 v1, v1, 0xff
-
-    invoke-static {v1}, Lkotlin/UInt;->constructor-impl(I)I
-
-    move-result v1
-
-    invoke-static {v1, v0}, Lkotlin/UnsignedKt;->uintCompare(II)I
-
-    move-result v1
-
-    if-lez v1, :cond_e
-
-    move v1, v3
-
-    goto :goto_e
-
-    :cond_e
-    move v1, v0
-
-    :goto_e
-    iput-boolean v1, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionRateTargetSupported:Z
-
-    .line 106
-    invoke-static {v9}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/2addr v1, p1
-
-    int-to-byte v1, v1
-
-    invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
-
-    move-result v1
-
-    and-int/lit16 v1, v1, 0xff
-
-    invoke-static {v1}, Lkotlin/UInt;->constructor-impl(I)I
-
-    move-result v1
-
-    invoke-static {v1, v0}, Lkotlin/UnsignedKt;->uintCompare(II)I
-
-    move-result v1
-
-    if-lez v1, :cond_f
-
-    move v1, v3
-
-    goto :goto_f
-
-    :cond_f
-    move v1, v0
-
-    :goto_f
-    iput-boolean v1, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->ProgressDistanceTargetSupported:Z
-
-    const/16 v1, 0x80
-
-    int-to-byte v1, v1
-
-    .line 107
-    invoke-static {v1}, Lkotlin/UByte;->constructor-impl(B)B
 
     move-result v1
 
@@ -835,14 +714,14 @@
 
     move-result p1
 
-    if-lez p1, :cond_10
+    if-lez p1, :cond_d
 
     move v0, v3
 
-    :cond_10
-    iput-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->DurationTargetSupported:Z
+    :cond_d
+    iput-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionRateTargetSupported:Z
 
-    :cond_11
+    :cond_e
     return-void
 .end method
 
@@ -851,7 +730,7 @@
 .method public final getCadenceDataSupported()Z
     .locals 1
 
-    .line 42
+    .line 41
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->CadenceDataSupported:Z
 
     return v0
@@ -860,7 +739,7 @@
 .method public final getCadenceTargetSupported()Z
     .locals 1
 
-    .line 59
+    .line 58
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->CadenceTargetSupported:Z
 
     return v0
@@ -869,7 +748,7 @@
 .method public final getCentricModeSupported()Z
     .locals 1
 
-    .line 37
+    .line 36
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->CentricModeSupported:Z
 
     return v0
@@ -878,7 +757,7 @@
 .method public final getData()Lno/nordicsemi/android/ble/data/Data;
     .locals 1
 
-    .line 32
+    .line 31
     iget-object v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->data:Lno/nordicsemi/android/ble/data/Data;
 
     return-object v0
@@ -887,17 +766,8 @@
 .method public final getDurationDataSupported()Z
     .locals 1
 
-    .line 54
+    .line 53
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->DurationDataSupported:Z
-
-    return v0
-.end method
-
-.method public final getDurationTargetSupported()Z
-    .locals 1
-
-    .line 71
-    iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->DurationTargetSupported:Z
 
     return v0
 .end method
@@ -905,7 +775,7 @@
 .method public final getEccentricModeSupported()Z
     .locals 1
 
-    .line 39
+    .line 38
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->EccentricModeSupported:Z
 
     return v0
@@ -914,7 +784,7 @@
 .method public final getNumberOfMoters()I
     .locals 1
 
-    .line 33
+    .line 32
     iget v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->NumberOfMoters:I
 
     return v0
@@ -923,7 +793,7 @@
 .method public final getPowerDataSupported()Z
     .locals 1
 
-    .line 44
+    .line 43
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->PowerDataSupported:Z
 
     return v0
@@ -932,7 +802,7 @@
 .method public final getPowerTargetSupported()Z
     .locals 1
 
-    .line 61
+    .line 60
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->PowerTargetSupported:Z
 
     return v0
@@ -941,17 +811,8 @@
 .method public final getProcessDistanceDataSupported()Z
     .locals 1
 
-    .line 52
+    .line 51
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->ProcessDistanceDataSupported:Z
-
-    return v0
-.end method
-
-.method public final getProgressDistanceTargetSupported()Z
-    .locals 1
-
-    .line 69
-    iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->ProgressDistanceTargetSupported:Z
 
     return v0
 .end method
@@ -959,17 +820,8 @@
 .method public final getRepetitionCountDataSupported()Z
     .locals 1
 
-    .line 48
+    .line 47
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionCountDataSupported:Z
-
-    return v0
-.end method
-
-.method public final getRepetitionCountTargetSupported()Z
-    .locals 1
-
-    .line 65
-    iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionCountTargetSupported:Z
 
     return v0
 .end method
@@ -977,7 +829,7 @@
 .method public final getRepetitionRateDataSupported()Z
     .locals 1
 
-    .line 50
+    .line 49
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionRateDataSupported:Z
 
     return v0
@@ -986,7 +838,7 @@
 .method public final getRepetitionRateTargetSupported()Z
     .locals 1
 
-    .line 67
+    .line 64
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->RepetitionRateTargetSupported:Z
 
     return v0
@@ -995,7 +847,7 @@
 .method public final getTorqueDataSupported()Z
     .locals 1
 
-    .line 46
+    .line 45
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->TorqueDataSupported:Z
 
     return v0
@@ -1004,7 +856,7 @@
 .method public final getTorqueTargetSupported()Z
     .locals 1
 
-    .line 63
+    .line 62
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->TorqueTargetSupported:Z
 
     return v0
@@ -1013,7 +865,7 @@
 .method public final getWeightTargetSupported()Z
     .locals 1
 
-    .line 57
+    .line 56
     iget-boolean v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->WeightTargetSupported:Z
 
     return v0
@@ -1022,7 +874,7 @@
 .method public final isSingleMotor()Z
     .locals 2
 
-    .line 117
+    .line 107
     iget v0, p0, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->NumberOfMoters:I
 
     const/4 v1, 0x1
@@ -1041,7 +893,7 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 113
+    .line 103
     sget-object v0, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     const/4 v0, 0x1

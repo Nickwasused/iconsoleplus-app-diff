@@ -158,7 +158,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -175,7 +175,7 @@
     .line 119
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 121
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 122
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 123
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01ee
 
     .line 124
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -211,12 +211,12 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v4, 0x7f1203a4
+    const v4, 0x7f1203a6
 
     .line 126
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080368
+    const v0, 0x7f08036f
 
     .line 127
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -258,12 +258,12 @@
     .line 38
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0056
+    const p1, 0x7f0d0057
 
     .line 39
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->setContentView(I)V
 
-    const p1, 0x7f0a04c1
+    const p1, 0x7f0a04c2
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->txvCountdonwBelow:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04c2
+    const p1, 0x7f0a04c3
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->txvCountdonwTop:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04c0
+    const p1, 0x7f0a04c1
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->txvCountdonw:Landroid/widget/TextView;
 
-    const p1, 0x7f0a03b6
+    const p1, 0x7f0a03b7
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->findViewById(I)Landroid/view/View;
@@ -307,7 +307,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->rlCountdownLayout:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a00d6
+    const p1, 0x7f0a00d7
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrTestingActivity;->findViewById(I)Landroid/view/View;

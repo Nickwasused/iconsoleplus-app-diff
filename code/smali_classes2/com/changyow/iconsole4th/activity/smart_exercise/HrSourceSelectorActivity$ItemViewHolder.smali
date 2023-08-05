@@ -37,7 +37,7 @@
     .line 323
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a028d
+    const v0, 0x7f0a028e
 
     .line 325
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
-    const v0, 0x7f0a050c
+    const v0, 0x7f0a050d
 
     .line 326
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->txvName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0213
+    const v0, 0x7f0a0214
 
     .line 327
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

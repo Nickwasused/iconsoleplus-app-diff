@@ -256,7 +256,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f12044f
+    const v3, 0x7f120451
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -544,7 +544,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -561,7 +561,7 @@
     .line 156
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 158
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 159
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 160
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01ee
 
     .line 161
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v4, 0x7f120280
+    const v4, 0x7f120282
 
     .line 163
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
@@ -1235,12 +1235,12 @@
     .line 67
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0051
+    const p1, 0x7f0d0052
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->setContentView(I)V
 
-    const p1, 0x7f0a027e
+    const p1, 0x7f0a027f
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1251,7 +1251,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0278
+    const p1, 0x7f0a0279
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1262,7 +1262,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutIncline:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04ed
+    const p1, 0x7f0a04ee
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1273,7 +1273,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvInclineValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0297
+    const p1, 0x7f0a0298
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1284,7 +1284,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutSpeed:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0542
+    const p1, 0x7f0a0543
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1295,7 +1295,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvSpeedUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0543
+    const p1, 0x7f0a0544
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1306,7 +1306,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvSpeedValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f8
+    const p1, 0x7f0a04f9
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1317,7 +1317,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvLevelTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04fa
+    const p1, 0x7f0a04fb
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1328,7 +1328,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvLevelValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a055e
+    const p1, 0x7f0a055f
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvTimeUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a055f
+    const p1, 0x7f0a0560
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1350,7 +1350,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvTimeValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0246
+    const p1, 0x7f0a0247
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a05a6
+    const p1, 0x7f0a05a7
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1372,7 +1372,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->vChartView:Lcom/changyow/iconsole4th/view/ProgramChart;
 
-    const p1, 0x7f0a028d
+    const p1, 0x7f0a028e
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1383,7 +1383,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0203
+    const p1, 0x7f0a0204
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1394,7 +1394,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03cf
+    const p1, 0x7f0a03d0
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1405,7 +1405,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a00bd
+    const p1, 0x7f0a00be
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1523,7 +1523,7 @@
     .line 250
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a00ad
+    const v1, 0x7f0a00ae
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1534,7 +1534,7 @@
     .line 251
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00ae
+    const v2, 0x7f0a00af
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2409,14 +2409,14 @@
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    const v7, 0x7f0803ef
+    const v7, 0x7f0803f6
 
     .line 425
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v7
 
-    const v8, 0x7f120298
+    const v8, 0x7f12029a
 
     invoke-virtual {p0, v8}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2434,14 +2434,14 @@
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0801aa
+    const v7, 0x7f0801b0
 
     .line 426
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v7
 
-    const v8, 0x7f12023f
+    const v8, 0x7f120241
 
     invoke-virtual {p0, v8}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2465,14 +2465,14 @@
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v7, 0x7f0802a9
+    const v7, 0x7f0802af
 
     .line 427
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v7
 
-    const v8, 0x7f120292
+    const v8, 0x7f120294
 
     invoke-virtual {p0, v8}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2496,14 +2496,14 @@
 
     invoke-virtual {v6, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v3, 0x7f0801e5
+    const v3, 0x7f0801eb
 
     .line 428
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f12023a
+    const v4, 0x7f12023c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2517,7 +2517,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f120239
+    const v8, 0x7f12023b
 
     invoke-virtual {p0, v8}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2534,14 +2534,14 @@
 
     move-result-object v3
 
-    const v4, 0x7f0801e9
+    const v4, 0x7f0801ef
 
     .line 431
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v7, 0x7f12025a
+    const v7, 0x7f12025c
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2562,7 +2562,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120259
+    const v4, 0x7f12025b
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2589,14 +2589,14 @@
 
     if-nez v3, :cond_0
 
-    const v0, 0x7f080198
+    const v0, 0x7f08019e
 
     .line 436
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v3, 0x7f120360
+    const v3, 0x7f120362
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2606,7 +2606,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f12028c
+    const v7, 0x7f12028e
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2629,14 +2629,14 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f0802d4
+    const v0, 0x7f0802da
 
     .line 438
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v3, 0x7f1202a8
+    const v3, 0x7f1202aa
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2684,14 +2684,14 @@
     div-double/2addr v3, v7
 
     :cond_1
-    const v0, 0x7f080192
+    const v0, 0x7f080198
 
     .line 446
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v7, 0x7f120232
+    const v7, 0x7f120234
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2715,14 +2715,14 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f080193
+    const v0, 0x7f080199
 
     .line 449
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v3, 0x7f120300
+    const v3, 0x7f120302
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2869,14 +2869,14 @@
 
     move-result-object v6
 
-    const v7, 0x7f0803ef
+    const v7, 0x7f0803f6
 
     .line 477
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v7
 
-    const v8, 0x7f120298
+    const v8, 0x7f12029a
 
     invoke-virtual {p0, v8}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2894,14 +2894,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f0801aa
+    const v4, 0x7f0801b0
 
     .line 478
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v7, 0x7f12023f
+    const v7, 0x7f120241
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2925,14 +2925,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f0801e5
+    const v4, 0x7f0801eb
 
     .line 479
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v7, 0x7f12023a
+    const v7, 0x7f12023c
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2946,7 +2946,7 @@
 
     move-result-object v8
 
-    const v10, 0x7f120239
+    const v10, 0x7f12023b
 
     invoke-virtual {p0, v10}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2967,7 +2967,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f120259
+    const v7, 0x7f12025b
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -2983,14 +2983,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f0801e9
+    const v4, 0x7f0801ef
 
     .line 481
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v7, 0x7f12025a
+    const v7, 0x7f12025c
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -3002,14 +3002,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f080198
+    const v4, 0x7f08019e
 
     .line 482
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f120293
+    const v6, 0x7f120295
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -3025,14 +3025,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f080184
+    const v4, 0x7f08018a
 
     .line 483
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f1202ad
+    const v6, 0x7f1202af
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -3048,14 +3048,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v4, 0x7f080193
+    const v4, 0x7f080199
 
     .line 484
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f120300
+    const v6, 0x7f120302
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -3098,14 +3098,14 @@
 
     if-nez v4, :cond_0
 
-    const v4, 0x7f0803ec
+    const v4, 0x7f0803f3
 
     .line 486
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f120266
+    const v6, 0x7f120268
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 
@@ -3122,14 +3122,14 @@
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
-    const v4, 0x7f0802d4
+    const v4, 0x7f0802da
 
     .line 487
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f1202a8
+    const v5, 0x7f1202aa
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->getString(I)Ljava/lang/String;
 

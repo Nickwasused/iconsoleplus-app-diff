@@ -14,15 +14,15 @@
 
 
 # static fields
-.field public static final hybrid:I = 0x7f0a01e8
+.field public static final hybrid:I = 0x7f0a01e9
 
-.field public static final none:I = 0x7f0a0357
+.field public static final none:I = 0x7f0a0358
 
-.field public static final normal:I = 0x7f0a0358
+.field public static final normal:I = 0x7f0a0359
 
-.field public static final satellite:I = 0x7f0a03da
+.field public static final satellite:I = 0x7f0a03db
 
-.field public static final terrain:I = 0x7f0a0459
+.field public static final terrain:I = 0x7f0a045a
 
 
 # direct methods

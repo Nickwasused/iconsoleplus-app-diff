@@ -105,7 +105,7 @@
     .line 27
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/FitbitAuthActivity;->setContentView(I)V
 
-    const p1, 0x7f0a05cb
+    const p1, 0x7f0a05cc
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/FitbitAuthActivity;->findViewById(I)Landroid/view/View;

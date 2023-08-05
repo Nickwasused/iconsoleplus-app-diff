@@ -56,7 +56,7 @@
         "sel",
         "listener",
         "Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -908,7 +908,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12034e
+    const v1, 0x7f120350
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1175,7 +1175,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f120391
+    const p1, 0x7f120393
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getString(I)Ljava/lang/String;
@@ -1395,7 +1395,7 @@
     .line 210
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->txvTitle:Landroid/widget/TextView;
 
-    const v2, 0x7f1203aa
+    const v2, 0x7f1203ac
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getString(I)Ljava/lang/String;
 
@@ -1408,7 +1408,7 @@
     .line 211
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080368
+    const v2, 0x7f08036f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 

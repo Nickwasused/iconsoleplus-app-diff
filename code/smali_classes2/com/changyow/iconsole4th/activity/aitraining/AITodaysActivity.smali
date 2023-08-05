@@ -261,14 +261,14 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1201b3
+    const v0, 0x7f1201b5
 
     .line 266
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const v0, 0x7f120277
+    const v0, 0x7f120279
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$7;
 
@@ -279,7 +279,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12023c
+    const v0, 0x7f12023e
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$6;
 
@@ -412,7 +412,7 @@
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v0, 0x7f0d00bb
+    const v0, 0x7f0d00bc
 
     .line 188
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setContentView(I)V
@@ -437,14 +437,14 @@
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
 
-    const v0, 0x7f0a028d
+    const v0, 0x7f0a028e
 
     .line 192
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a00ce
+    const v1, 0x7f0a00cf
 
     .line 193
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0512
+    const p1, 0x7f0a0513
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -589,7 +589,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvNoWorkout:Landroid/widget/TextView;
 
-    const p1, 0x7f0a00df
+    const p1, 0x7f0a00e0
 
     .line 67
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->btnVomax2:Landroid/widget/Button;
 
-    const p1, 0x7f0a02cc
+    const p1, 0x7f0a02cd
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->lvReceipt:Landroid/widget/ListView;
 
-    const p1, 0x7f0a052f
+    const p1, 0x7f0a0530
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvScheduled:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0499
+    const p1, 0x7f0a049a
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txv1:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0246
+    const p1, 0x7f0a0247
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -666,7 +666,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->btnChangeTime:Landroid/widget/Button;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -688,7 +688,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->btnCalendar:Landroid/widget/Button;
 
-    const p1, 0x7f0a00cf
+    const p1, 0x7f0a00d0
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -710,7 +710,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->btnBack:Landroid/widget/Button;
 
-    const p1, 0x7f0a03c2
+    const p1, 0x7f0a03c3
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->rlTarget:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a04c6
+    const p1, 0x7f0a04c7
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -732,7 +732,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvCurrentTarget:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0596
+    const p1, 0x7f0a0597
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->findViewById(I)Landroid/view/View;
@@ -752,7 +752,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1202c7
+    const v0, 0x7f1202c9
 
     if-eqz p1, :cond_0
 
@@ -843,7 +843,7 @@
     .line 100
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvCurrentTarget:Landroid/widget/TextView;
 
-    const v1, 0x7f1202dc
+    const v1, 0x7f1202de
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -862,7 +862,7 @@
     .line 102
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvCurrentTarget:Landroid/widget/TextView;
 
-    const v1, 0x7f1202da
+    const v1, 0x7f1202dc
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -881,7 +881,7 @@
     .line 104
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvCurrentTarget:Landroid/widget/TextView;
 
-    const v1, 0x7f1202db
+    const v1, 0x7f1202dd
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -900,7 +900,7 @@
     .line 106
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->txvCurrentTarget:Landroid/widget/TextView;
 
-    const v1, 0x7f1202de
+    const v1, 0x7f1202e0
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

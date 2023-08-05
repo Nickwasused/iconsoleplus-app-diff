@@ -70,9 +70,9 @@
 
 .field public static final androidx_camera_default_config_provider:I = 0x7f120022
 
-.field public static final search_menu_title:I = 0x7f120216
+.field public static final search_menu_title:I = 0x7f120218
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022b
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
 
 
 # direct methods

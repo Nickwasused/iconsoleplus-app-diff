@@ -65,7 +65,7 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1201b2
+    const v0, 0x7f1201b4
 
     .line 215
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -76,7 +76,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5;)V
 
-    const v2, 0x7f1202af
+    const v2, 0x7f1202b1
 
     .line 216
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -87,7 +87,7 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5$1;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5;)V
 
-    const v2, 0x7f12023c
+    const v2, 0x7f12023e
 
     .line 224
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -101,7 +101,7 @@
 
     if-lez v0, :cond_0
 
-    const v0, 0x7f12028d
+    const v0, 0x7f12028f
 
     .line 234
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5$3;
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12022d
+    const v0, 0x7f12022f
 
     .line 242
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$5$4;

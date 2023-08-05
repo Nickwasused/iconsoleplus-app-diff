@@ -1244,12 +1244,12 @@
     .line 73
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0049
+    const p1, 0x7f0d004a
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->setContentView(I)V
 
-    const p1, 0x7f0a028d
+    const p1, 0x7f0a028e
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1260,7 +1260,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a012b
+    const p1, 0x7f0a012c
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1271,7 +1271,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
-    const p1, 0x7f0a0294
+    const p1, 0x7f0a0295
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1293,7 +1293,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnCancel:Landroid/widget/Button;
 
-    const p1, 0x7f0a00c7
+    const p1, 0x7f0a00c8
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1304,7 +1304,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
 
-    const p1, 0x7f0a02ce
+    const p1, 0x7f0a02cf
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1315,7 +1315,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->lvSettings:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0298
+    const p1, 0x7f0a0299
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1326,7 +1326,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04c7
+    const p1, 0x7f0a04c8
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1337,7 +1337,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0259
+    const p1, 0x7f0a025a
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1348,7 +1348,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a056c
+    const p1, 0x7f0a056d
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1359,7 +1359,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTime:Landroid/widget/TextView;
 
-    const p1, 0x7f0a056d
+    const p1, 0x7f0a056e
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1370,7 +1370,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0561
+    const p1, 0x7f0a0562
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1381,7 +1381,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimerTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0560
+    const p1, 0x7f0a0561
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1392,7 +1392,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0544
+    const p1, 0x7f0a0545
 
     .line 88
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;

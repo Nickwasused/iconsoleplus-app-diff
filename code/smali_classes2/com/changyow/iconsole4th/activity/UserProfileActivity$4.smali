@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 324
+    .line 341
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -65,21 +65,21 @@
         }
     .end annotation
 
-    .line 328
+    .line 345
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string/jumbo v0, "strava_refresh_token"
 
-    .line 329
+    .line 346
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 330
+    .line 347
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->access$300(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;

@@ -344,6 +344,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="huawei_auth_url">https://oauth-login.cloud.huawei.com/oauth2/v3/authorize?response_type=code&amp;state=state_parameter_passthrough_value&amp;client_id=108524569&amp;redirect_uri=com.huawei.apps.108524569:/oauth2redirect&amp;scope=openid+https://www.huawei.com/healthkit/activity.write+https://www.huawei.com/healthkit/activity.read&amp;access_type=offline&amp;display=touch</string>
+    <string name="huawei_token_url">https://oauth-login.cloud.huawei.com/oauth2/v3/token?grant_type=authorization_code&amp;code=c_o_d_e&amp;client_id=108524569&amp;client_secret=700a57cbad6ac1520114f69e8b236b94182b755220abddb2df95f67842c066fe&amp;redirect_uri=com.huawei.apps.108524569:/oauth2redirect</string>
     <string name="ic_flip_24">Flip</string>
     <string name="ic_flip_24_horizontally">Flip horizontally</string>
     <string name="ic_flip_24_vertically">Flip vertically</string>

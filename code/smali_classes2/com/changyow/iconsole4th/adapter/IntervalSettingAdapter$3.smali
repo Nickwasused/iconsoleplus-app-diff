@@ -63,7 +63,7 @@
 
     const-string v1, " "
 
-    const v2, 0x7f120368
+    const v2, 0x7f12036a
 
     const-string v3, "Value1"
 
@@ -112,7 +112,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120386
+    const v6, 0x7f120388
 
     invoke-virtual {v5, v6}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f120388
+    const v7, 0x7f12038a
 
     invoke-virtual {v6, v7}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 

@@ -96,7 +96,7 @@
 
     invoke-direct {p1, p2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f1203c6
+    const p2, 0x7f1203c8
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -106,7 +106,7 @@
 
     invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/fragment/SettingsFragment$2$1;-><init>(Lcom/changyow/iconsole4th/fragment/SettingsFragment$2;)V
 
-    const v0, 0x7f120277
+    const v0, 0x7f120279
 
     invoke-virtual {p1, v0, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 

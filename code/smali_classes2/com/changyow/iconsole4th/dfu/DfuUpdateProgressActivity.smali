@@ -316,7 +316,7 @@
 .method private initView()V
     .locals 1
 
-    const v0, 0x7f0a021f
+    const v0, 0x7f0a0220
 
     .line 120
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0505
+    const v0, 0x7f0a0506
 
     .line 121
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0584
+    const v0, 0x7f0a0585
 
     .line 122
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvVersionInfo:Landroid/widget/TextView;
 
-    const v0, 0x7f0a058b
+    const v0, 0x7f0a058c
 
     .line 123
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
 
-    const v0, 0x7f0a0394
+    const v0, 0x7f0a0395
 
     .line 125
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0a0462
+    const v0, 0x7f0a0463
 
     .line 126
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -505,7 +505,7 @@
     .line 139
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 141
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -514,7 +514,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 142
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -523,7 +523,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 143
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -532,12 +532,12 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f1201f2
+    const v3, 0x7f1201f4
 
     .line 145
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 146
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -659,14 +659,14 @@
     .line 644
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f0801b4
+    const v1, 0x7f0801ba
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 645
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f12032a
+    const v1, 0x7f12032c
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -807,7 +807,7 @@
     .line 709
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f080195
+    const v0, 0x7f08019b
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -828,7 +828,7 @@
     .line 712
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v0, 0x7f120333
+    const v0, 0x7f120335
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1013,14 +1013,14 @@
     .line 746
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0801b4
+    const v0, 0x7f0801ba
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 747
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v0, 0x7f12032a
+    const v0, 0x7f12032c
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1152,7 +1152,7 @@
     .line 338
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f120330
+    const v1, 0x7f120332
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1195,7 +1195,7 @@
     .line 333
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f120332
+    const v1, 0x7f120334
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1418,7 +1418,7 @@
     .line 260
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f0801b3
+    const v1, 0x7f0801b9
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1435,7 +1435,7 @@
     .line 263
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v1, 0x7f120331
+    const v1, 0x7f120333
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1653,21 +1653,21 @@
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0801b4
+    const v0, 0x7f0801ba
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 541
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
-    const v0, 0x7f12032f
+    const v0, 0x7f120331
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 542
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v0, 0x7f12032a
+    const v0, 0x7f12032c
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

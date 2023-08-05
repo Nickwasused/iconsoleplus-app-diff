@@ -557,7 +557,7 @@
     return-void
 
     :cond_1
-    const v0, 0x7f120395
+    const v0, 0x7f120397
 
     .line 232
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/LoginActivity;->getString(I)Ljava/lang/String;
@@ -619,7 +619,7 @@
 
     invoke-direct {v0, v2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f120396
+    const v2, 0x7f120398
 
     .line 257
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -685,14 +685,14 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1201c1
+    const v1, 0x7f1201c3
 
     .line 522
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f120277
+    const v1, 0x7f120279
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/LoginActivity$11;
 
@@ -868,7 +868,7 @@
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201be
+    const v1, 0x7f1201c0
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -879,7 +879,7 @@
     :goto_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201bb
+    const v1, 0x7f1201bd
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1091,12 +1091,12 @@
     .line 101
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d004e
+    const p1, 0x7f0d004f
 
     .line 102
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->setContentView(I)V
 
-    const p1, 0x7f0a053a
+    const p1, 0x7f0a053b
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1107,7 +1107,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->txvSignup:Landroid/widget/TextView;
 
-    const p1, 0x7f0a00b0
+    const p1, 0x7f0a00b1
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1118,7 +1118,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->btnLogin:Landroid/widget/Button;
 
-    const p1, 0x7f0a04d9
+    const p1, 0x7f0a04da
 
     .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1129,7 +1129,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->txvForgotPassword:Landroid/widget/TextView;
 
-    const p1, 0x7f0a016c
+    const p1, 0x7f0a016d
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1140,7 +1140,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->etPassword:Landroid/widget/EditText;
 
-    const p1, 0x7f0a016b
+    const p1, 0x7f0a016c
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1151,7 +1151,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->etEmail:Landroid/widget/EditText;
 
-    const p1, 0x7f0a00e1
+    const p1, 0x7f0a00e2
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1184,7 +1184,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->btnFacebook:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a027a
+    const p1, 0x7f0a027b
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1195,7 +1195,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->layoutInfo:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a04ee
+    const p1, 0x7f0a04ef
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1206,7 +1206,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->txvInfo:Landroid/widget/TextView;
 
-    const p1, 0x7f0a01fd
+    const p1, 0x7f0a01fe
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;
@@ -1228,7 +1228,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/LoginActivity;->btnBack:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a041c
+    const p1, 0x7f0a041d
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/LoginActivity;->findViewById(I)Landroid/view/View;

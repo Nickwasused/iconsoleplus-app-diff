@@ -70,23 +70,23 @@
 
 .field public static final app_name:I = 0x7f120024
 
-.field public static final rating_dialog_cancel:I = 0x7f120209
+.field public static final rating_dialog_cancel:I = 0x7f12020b
 
-.field public static final rating_dialog_experience:I = 0x7f12020a
+.field public static final rating_dialog_experience:I = 0x7f12020c
 
-.field public static final rating_dialog_feedback_title:I = 0x7f12020b
+.field public static final rating_dialog_feedback_title:I = 0x7f12020d
 
-.field public static final rating_dialog_maybe_later:I = 0x7f12020c
+.field public static final rating_dialog_maybe_later:I = 0x7f12020e
 
-.field public static final rating_dialog_never:I = 0x7f12020d
+.field public static final rating_dialog_never:I = 0x7f12020f
 
-.field public static final rating_dialog_submit:I = 0x7f12020e
+.field public static final rating_dialog_submit:I = 0x7f120210
 
-.field public static final rating_dialog_suggestions:I = 0x7f12020f
+.field public static final rating_dialog_suggestions:I = 0x7f120211
 
-.field public static final search_menu_title:I = 0x7f120216
+.field public static final search_menu_title:I = 0x7f120218
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022b
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
 
 
 # direct methods

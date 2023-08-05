@@ -105,7 +105,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnGo:Landroid/widget/Button;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0246
 
     .line 28
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->layout1:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a00b4
+    const p1, 0x7f0a00b5
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMiles:Landroid/widget/Button;
 
-    const p1, 0x7f0a00b5
+    const p1, 0x7f0a00b6
 
     .line 30
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;

@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -124,7 +124,7 @@
     .line 130
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 132
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 133
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 134
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,17 +151,17 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f120283
+    const v3, 0x7f120285
 
     .line 136
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 137
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f08036f
+    const v0, 0x7f080376
 
     .line 138
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d00b6
+    const v1, 0x7f0d00b7
 
     const/4 v2, 0x0
 
@@ -205,7 +205,7 @@
 
     invoke-direct {v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0a0228
+    const v2, 0x7f0a0229
 
     .line 73
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -384,7 +384,7 @@
     .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->setContentView(I)V
 
-    const p1, 0x7f0a00eb
+    const p1, 0x7f0a00ec
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->findViewById(I)Landroid/view/View;
@@ -395,7 +395,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->cameraView:Landroid/view/SurfaceView;
 
-    const p1, 0x7f0a00d1
+    const p1, 0x7f0a00d2
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->findViewById(I)Landroid/view/View;
@@ -406,7 +406,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->btnShowMyCode:Landroid/widget/Button;
 
-    const p1, 0x7f0a022a
+    const p1, 0x7f0a022b
 
     .line 53
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->findViewById(I)Landroid/view/View;

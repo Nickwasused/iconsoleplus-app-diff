@@ -457,7 +457,7 @@
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v2, 0x7f1203c9
+    const v2, 0x7f1203cb
 
     invoke-virtual {v1, v2}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getString(I)Ljava/lang/String;
 
@@ -533,7 +533,7 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v6, 0x7f120292
+    const v6, 0x7f120294
 
     invoke-virtual {v5, v6}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getString(I)Ljava/lang/String;
 
@@ -561,7 +561,7 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v6, 0x7f12025c
+    const v6, 0x7f12025e
 
     invoke-virtual {v5, v6}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
     :cond_6
     const/16 v5, 0xb
 
-    const v6, 0x7f120266
+    const v6, 0x7f120268
 
     if-ne v0, v5, :cond_7
 
@@ -598,7 +598,7 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v7, 0x7f120293
+    const v7, 0x7f120295
 
     invoke-virtual {v5, v7}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getString(I)Ljava/lang/String;
 
@@ -651,7 +651,7 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
-    const v7, 0x7f12028c
+    const v7, 0x7f12028e
 
     invoke-virtual {v5, v7}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getString(I)Ljava/lang/String;
 
@@ -814,7 +814,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00fb
+    const v1, 0x7f0d00fc
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -837,7 +837,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00fc
+    const v1, 0x7f0d00fd
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

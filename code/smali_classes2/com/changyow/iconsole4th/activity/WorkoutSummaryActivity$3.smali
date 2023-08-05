@@ -70,14 +70,14 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1201a7
+    const v0, 0x7f1201a9
 
     .line 306
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const v0, 0x7f120277
+    const v0, 0x7f120279
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity$3$2;
 
@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12023c
+    const v0, 0x7f12023e
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity$3$1;
 

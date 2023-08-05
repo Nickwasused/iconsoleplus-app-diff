@@ -19,7 +19,7 @@
         "savedInstanceState",
         "Landroid/os/Bundle;",
         "setupInitActionbar",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -145,7 +145,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120353
+    const v1, 0x7f120355
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -370,7 +370,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravitySettingsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v3, 0x7f120354
+    const v3, 0x7f120356
 
     invoke-virtual {v2, v3}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 
@@ -383,7 +383,7 @@
     .line 64
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080368
+    const v2, 0x7f08036f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 

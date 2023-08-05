@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120458
+    const v1, 0x7f12045a
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -109,12 +109,12 @@
     .line 29
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d005d
+    const p1, 0x7f0d005e
 
     .line 30
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;->setContentView(I)V
 
-    const p1, 0x7f0a05cb
+    const p1, 0x7f0a05cc
 
     .line 31
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/StravaAuthActivity;->findViewById(I)Landroid/view/View;

@@ -78,7 +78,7 @@
     .line 173
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;
 
-    const p1, 0x7f120318
+    const p1, 0x7f12031a
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalSetupActivity;->getString(I)Ljava/lang/String;
 

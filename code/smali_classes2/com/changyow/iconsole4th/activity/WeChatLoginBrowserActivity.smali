@@ -41,12 +41,12 @@
     .line 20
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0067
+    const p1, 0x7f0d0068
 
     .line 21
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WeChatLoginBrowserActivity;->setContentView(I)V
 
-    const p1, 0x7f0a05cb
+    const p1, 0x7f0a05cc
 
     .line 22
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WeChatLoginBrowserActivity;->findViewById(I)Landroid/view/View;

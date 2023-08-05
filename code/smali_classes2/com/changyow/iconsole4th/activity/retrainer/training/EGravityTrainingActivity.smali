@@ -161,7 +161,7 @@
         "Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;",
         "stopTraining",
         "manual",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -723,28 +723,28 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p1, 0x7f120357
+    const p1, 0x7f120359
 
     .line 215
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const p1, 0x7f120356
+    const p1, 0x7f120358
 
     .line 216
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const p1, 0x7f120277
+    const p1, 0x7f120279
 
     .line 217
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const p1, 0x7f12023c
+    const p1, 0x7f12023e
 
     .line 218
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
@@ -772,7 +772,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f120277
+    const v0, 0x7f120279
 
     .line 221
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
@@ -3925,7 +3925,7 @@
 
     move-result v2
 
-    const v5, 0x7f0801ad
+    const v5, 0x7f0801b3
 
     const v6, 0x7f07024c
 

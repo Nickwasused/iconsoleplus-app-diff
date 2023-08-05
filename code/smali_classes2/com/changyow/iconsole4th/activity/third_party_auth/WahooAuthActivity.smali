@@ -29,7 +29,7 @@
         "savedInstanceState",
         "Landroid/os/Bundle;",
         "WebViewClient",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12046d
+    const v1, 0x7f12046f
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

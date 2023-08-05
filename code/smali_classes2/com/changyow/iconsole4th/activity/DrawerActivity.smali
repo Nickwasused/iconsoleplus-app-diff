@@ -221,7 +221,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a024a
+    const v1, 0x7f0a024b
 
     .line 277
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
     const/high16 v1, -0x1000000
 
     :goto_0
-    const v2, 0x7f0a05bf
+    const v2, 0x7f0a05c0
 
     .line 280
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -286,7 +286,7 @@
     invoke-virtual {v2, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
     :cond_2
-    const v1, 0x7f0a04ee
+    const v1, 0x7f0a04ef
 
     .line 282
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v3, 0x7f1202ac
+    const v3, 0x7f1202ae
 
     invoke-virtual {v2, v3}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 
@@ -370,14 +370,14 @@
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/changyow/iconsole4th/activity/DrawerActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/DrawerActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f12035f
+    const p1, 0x7f120361
 
     .line 175
     invoke-virtual {v0, p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const p2, 0x7f120361
+    const p2, 0x7f120363
 
     const/4 p3, 0x0
 
@@ -441,7 +441,7 @@
     .line 71
     invoke-static {}, Lcom/changyow/iconsole4th/App;->initBMap()V
 
-    const v0, 0x7f0a0159
+    const v0, 0x7f0a015a
 
     .line 73
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
 
-    const v1, 0x7f0a0211
+    const v1, 0x7f0a0212
 
     .line 74
     invoke-virtual {v0, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
     .line 75
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
 
-    const v1, 0x7f0a04ee
+    const v1, 0x7f0a04ef
 
     invoke-virtual {v0, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->findViewById(I)Landroid/view/View;
 
@@ -512,7 +512,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity;->mDrawerMenuAdapter:Lcom/changyow/iconsole4th/adapter/DrawerMenuAdapter;
 
-    const v0, 0x7f0a02ab
+    const v0, 0x7f0a02ac
 
     .line 105
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->findViewById(I)Landroid/view/View;
@@ -1031,7 +1031,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0a01c1
+    const v3, 0x7f0a01c2
 
     invoke-virtual {v0, v3, v2}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 

@@ -34,7 +34,7 @@
         "",
         "request",
         "Landroid/webkit/WebResourceRequest;",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -163,7 +163,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12046e
+    const v1, 0x7f120470
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

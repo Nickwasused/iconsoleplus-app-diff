@@ -332,7 +332,7 @@
     .line 202
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesUnit:Landroid/widget/TextView;
 
-    const v0, 0x7f120239
+    const v0, 0x7f12023b
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->getString(I)Ljava/lang/String;
 
@@ -563,7 +563,7 @@
 
     invoke-direct {p1, p2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f12020f
+    const p2, 0x7f120211
 
     .line 105
     invoke-virtual {p1, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -574,7 +574,7 @@
 
     invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;)V
 
-    const p3, 0x7f120277
+    const p3, 0x7f120279
 
     invoke-virtual {p1, p3, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -582,7 +582,7 @@
 
     sget-object p2, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda1;
 
-    const p3, 0x7f120273
+    const p3, 0x7f120275
 
     .line 115
     invoke-virtual {p1, p3, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -710,7 +710,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a0599
+    const p2, 0x7f0a059a
 
     .line 67
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvWorkoutSessions:Landroid/widget/TextView;
 
-    const p2, 0x7f0a0567
+    const p2, 0x7f0a0568
 
     .line 68
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -732,7 +732,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a0568
+    const p2, 0x7f0a0569
 
     .line 69
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -743,7 +743,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a056e
+    const p2, 0x7f0a056f
 
     .line 70
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -754,7 +754,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalTimeValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a056a
+    const p2, 0x7f0a056b
 
     .line 71
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -765,7 +765,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a056b
+    const p2, 0x7f0a056c
 
     .line 72
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -776,7 +776,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04a4
+    const p2, 0x7f0a04a5
 
     .line 73
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -787,7 +787,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04a5
+    const p2, 0x7f0a04a6
 
     .line 74
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -798,7 +798,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04a6
+    const p2, 0x7f0a04a7
 
     .line 75
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgDistanceUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04a7
+    const p2, 0x7f0a04a8
 
     .line 76
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

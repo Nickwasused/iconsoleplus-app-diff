@@ -106,55 +106,55 @@
 
 .field public static final hello_world:I = 0x7f120155
 
-.field public static final main_scan_desc:I = 0x7f12016e
+.field public static final main_scan_desc:I = 0x7f120170
 
-.field public static final main_scan_title:I = 0x7f12016f
+.field public static final main_scan_title:I = 0x7f120171
 
-.field public static final main_weight_desc:I = 0x7f120170
+.field public static final main_weight_desc:I = 0x7f120172
 
-.field public static final main_weight_title:I = 0x7f120171
+.field public static final main_weight_title:I = 0x7f120173
 
-.field public static final menu_settings:I = 0x7f120186
+.field public static final menu_settings:I = 0x7f120188
 
-.field public static final more:I = 0x7f120187
+.field public static final more:I = 0x7f120189
 
-.field public static final off:I = 0x7f1201eb
+.field public static final off:I = 0x7f1201ed
 
-.field public static final ok:I = 0x7f1201ec
+.field public static final ok:I = 0x7f1201ee
 
-.field public static final on:I = 0x7f1201ed
+.field public static final on:I = 0x7f1201ef
 
-.field public static final red:I = 0x7f120212
+.field public static final red:I = 0x7f120214
 
-.field public static final running_automation:I = 0x7f120213
+.field public static final running_automation:I = 0x7f120215
 
-.field public static final scan:I = 0x7f120214
+.field public static final scan:I = 0x7f120216
 
-.field public static final scanning:I = 0x7f120215
+.field public static final scanning:I = 0x7f120217
 
-.field public static final send:I = 0x7f120217
+.field public static final send:I = 0x7f120219
 
-.field public static final start:I = 0x7f12022a
+.field public static final start:I = 0x7f12022c
 
-.field public static final stop_scan:I = 0x7f12022c
+.field public static final stop_scan:I = 0x7f12022e
 
-.field public static final target:I = 0x7f12045f
+.field public static final target:I = 0x7f120461
 
-.field public static final timer_delta:I = 0x7f120460
+.field public static final timer_delta:I = 0x7f120462
 
-.field public static final timer_repeat:I = 0x7f120461
+.field public static final timer_repeat:I = 0x7f120463
 
-.field public static final timer_size:I = 0x7f120462
+.field public static final timer_size:I = 0x7f120464
 
-.field public static final title_activity_admain:I = 0x7f120463
+.field public static final title_activity_admain:I = 0x7f120465
 
-.field public static final title_chr:I = 0x7f120467
+.field public static final title_chr:I = 0x7f120469
 
-.field public static final title_dsc:I = 0x7f120468
+.field public static final title_dsc:I = 0x7f12046a
 
-.field public static final title_srv:I = 0x7f12046a
+.field public static final title_srv:I = 0x7f12046c
 
-.field public static final with_response:I = 0x7f12046f
+.field public static final with_response:I = 0x7f120471
 
 
 # direct methods

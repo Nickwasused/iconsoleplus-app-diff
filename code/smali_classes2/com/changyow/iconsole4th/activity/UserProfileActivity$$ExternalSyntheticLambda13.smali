@@ -6,27 +6,21 @@
 .implements Landroid/content/DialogInterface$OnClickListener;
 
 
-# static fields
-.field public static final synthetic INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;
+# instance fields
+.field public final synthetic f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
+
+.field public final synthetic f$1:[Ljava/lang/CharSequence;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;
-
-    invoke-direct {v0}, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;-><init>()V
-
-    sput-object v0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->INSTANCE:Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/changyow/iconsole4th/activity/UserProfileActivity;[Ljava/lang/CharSequence;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
+
+    iput-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->f$1:[Ljava/lang/CharSequence;
 
     return-void
 .end method
@@ -34,9 +28,13 @@
 
 # virtual methods
 .method public final onClick(Landroid/content/DialogInterface;I)V
-    .locals 0
+    .locals 2
 
-    invoke-static {p1, p2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$onBackPressed$7(Landroid/content/DialogInterface;I)V
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->f$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
+
+    iget-object v1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$$ExternalSyntheticLambda13;->f$1:[Ljava/lang/CharSequence;
+
+    invoke-virtual {v0, v1, p1, p2}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->lambda$selectImage$12$com-changyow-iconsole4th-activity-UserProfileActivity([Ljava/lang/CharSequence;Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

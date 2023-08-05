@@ -51,7 +51,7 @@
         "DataItem",
         "DataItemViewHolder",
         "VolumeItemViewHolder",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -374,7 +374,7 @@
     .line 196
     new-instance v6, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v7, 0x7f12024c
+    const v7, 0x7f12024e
 
     .line 197
     invoke-virtual {v0, v7}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -398,7 +398,7 @@
 
     invoke-static {v8, v9}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v9, 0x7f120336
+    const v9, 0x7f120338
 
     .line 200
     invoke-virtual {v0, v9}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -472,7 +472,7 @@
     .line 205
     new-instance v15, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v6, 0x7f12033a
+    const v6, 0x7f12033c
 
     .line 206
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -510,7 +510,7 @@
     :cond_7
     move-object v8, v6
 
-    const v6, 0x7f120231
+    const v6, 0x7f120233
 
     .line 209
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -530,7 +530,7 @@
 
     move-result-object v11
 
-    const v14, 0x7f120238
+    const v14, 0x7f12023a
 
     .line 211
     invoke-virtual {v0, v14}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -575,7 +575,7 @@
     .line 215
     new-instance v15, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v5, 0x7f1203fd
+    const v5, 0x7f1203ff
 
     .line 216
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -595,7 +595,7 @@
 
     move-result-object v7
 
-    const v5, 0x7f120238
+    const v5, 0x7f12023a
 
     .line 218
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -639,7 +639,7 @@
 
     const-string v11, "getString(R.string.str_egravity__total_reps)"
 
-    const v12, 0x7f120339
+    const v12, 0x7f12033b
 
     const-string v13, "getString(R.string.str_egravity__reps_minute)"
 
@@ -704,7 +704,7 @@
     .line 231
     new-instance v7, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v10, 0x7f120338
+    const v10, 0x7f12033a
 
     .line 232
     invoke-virtual {v0, v10}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -759,7 +759,7 @@
     .line 238
     new-instance v3, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v7, 0x7f12033c
+    const v7, 0x7f12033e
 
     .line 239
     invoke-virtual {v0, v7}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -783,7 +783,7 @@
 
     invoke-static {v6, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v5, 0x7f12038e
+    const v5, 0x7f120390
 
     .line 241
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -812,7 +812,7 @@
     .line 245
     new-instance v3, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v5, 0x7f120233
+    const v5, 0x7f120235
 
     .line 246
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -836,7 +836,7 @@
 
     invoke-static {v4, v6}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v6, 0x7f1202a8
+    const v6, 0x7f1202aa
 
     .line 248
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -871,7 +871,7 @@
     .line 252
     new-instance v14, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v3, 0x7f120335
+    const v3, 0x7f120337
 
     .line 253
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -895,7 +895,7 @@
 
     invoke-static {v5, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f120337
+    const v1, 0x7f120339
 
     .line 255
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -990,7 +990,7 @@
     .line 272
     new-instance v7, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v10, 0x7f120338
+    const v10, 0x7f12033a
 
     .line 273
     invoke-virtual {v0, v10}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1073,7 +1073,7 @@
     .line 282
     new-instance v3, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v7, 0x7f12033c
+    const v7, 0x7f12033e
 
     .line 283
     invoke-virtual {v0, v7}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1097,7 +1097,7 @@
 
     invoke-static {v6, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v5, 0x7f12038e
+    const v5, 0x7f120390
 
     .line 285
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1156,7 +1156,7 @@
     .line 293
     new-instance v3, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v5, 0x7f120233
+    const v5, 0x7f120235
 
     .line 294
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1180,7 +1180,7 @@
 
     invoke-static {v7, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v5, 0x7f1202a8
+    const v5, 0x7f1202aa
 
     .line 296
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1231,7 +1231,7 @@
     .line 303
     new-instance v13, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    const v3, 0x7f120335
+    const v3, 0x7f120337
 
     .line 304
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1255,7 +1255,7 @@
 
     invoke-static {v5, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f120337
+    const v3, 0x7f120339
 
     .line 306
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -1377,7 +1377,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f0802bd
+    const v0, 0x7f0802c3
 
     invoke-virtual {p1, v2, v2, v0, v2}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
@@ -1400,7 +1400,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f0802bb
+    const v0, 0x7f0802c1
 
     invoke-virtual {p1, v2, v2, v0, v2}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
@@ -1483,7 +1483,7 @@
 
     iget-object p0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f12024d
+    const p1, 0x7f12024f
 
     :goto_0
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(I)V
@@ -1501,7 +1501,7 @@
 
     iget-object p0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f120290
+    const p1, 0x7f120292
 
     goto :goto_0
 
@@ -1516,7 +1516,7 @@
 
     iget-object p0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f120291
+    const p1, 0x7f120293
 
     goto :goto_0
 
@@ -1532,7 +1532,7 @@
 
     iget-object p0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f120257
+    const p1, 0x7f120259
 
     :goto_1
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(I)V
@@ -1550,7 +1550,7 @@
 
     iget-object p0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f12024f
+    const p1, 0x7f120251
 
     goto :goto_1
 
@@ -1616,21 +1616,21 @@
     .line 85
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f08019b
+    const v2, 0x7f0801a1
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 86
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
-    const v2, 0x7f0801ab
+    const v2, 0x7f0801b1
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 87
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight2:Landroid/widget/ImageButton;
 
-    const v2, 0x7f0802a7
+    const v2, 0x7f0802ad
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -1678,7 +1678,7 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1201a7
+    const v0, 0x7f1201a9
 
     .line 91
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -1690,7 +1690,7 @@
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;)V
 
-    const p0, 0x7f120277
+    const p0, 0x7f120279
 
     invoke-virtual {p1, p0, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -1699,7 +1699,7 @@
     .line 93
     sget-object p1, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$$ExternalSyntheticLambda1;
 
-    const v0, 0x7f12023c
+    const v0, 0x7f12023e
 
     invoke-virtual {p0, v0, p1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 

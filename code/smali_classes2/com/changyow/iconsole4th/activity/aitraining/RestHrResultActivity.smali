@@ -54,12 +54,12 @@
     .line 25
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0055
+    const p1, 0x7f0d0056
 
     .line 26
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->setContentView(I)V
 
-    const p1, 0x7f0a03b9
+    const p1, 0x7f0a03ba
 
     .line 27
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04f4
+    const p1, 0x7f0a04f5
 
     .line 28
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->txvLearnMore:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0530
+    const p1, 0x7f0a0531
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f0a00bb
+    const v0, 0x7f0a00bc
 
     .line 30
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->findViewById(I)Landroid/view/View;

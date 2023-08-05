@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 827
+    .line 837
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;-><init>()V
@@ -53,20 +53,16 @@
         }
     .end annotation
 
-    add-int/lit8 p1, p1, 0x57
-
-    .line 832
+    .line 841
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
+
+    add-int/lit8 p1, p1, 0x28
 
     int-to-double v0, p1
 
-    invoke-static {v0, v1}, Lcom/changyow/iconsole4th/util/UnitUtil;->lbs2kg(D)D
-
-    move-result-wide v0
-
     iput-wide v0, p2, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->mWeight:D
 
-    .line 833
+    .line 842
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->setValues()V

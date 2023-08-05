@@ -135,9 +135,9 @@
 
     move-result-object p4
 
-    const p5, 0x7f0d00f6
+    const p5, 0x7f0d00f7
 
-    const v0, 0x7f0a045f
+    const v0, 0x7f0a0460
 
     invoke-direct {p3, p4, p5, v0, p1}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
 

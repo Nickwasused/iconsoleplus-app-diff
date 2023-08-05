@@ -103,7 +103,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0d00d6
+    const v0, 0x7f0d00d7
 
     const/4 v1, 0x0
 

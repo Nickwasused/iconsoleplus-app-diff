@@ -502,7 +502,7 @@
     .line 565
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     new-array v6, v5, [Ljava/lang/Object;
 
-    const v7, 0x7f12038a
+    const v7, 0x7f12038c
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -550,7 +550,7 @@
 
     new-array v6, v4, [Ljava/lang/Object;
 
-    const v7, 0x7f120303
+    const v7, 0x7f120305
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -558,7 +558,7 @@
 
     aput-object v7, v6, v2
 
-    const v2, 0x7f120358
+    const v2, 0x7f12035a
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -590,7 +590,7 @@
     .line 573
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f1202a0
+    const v6, 0x7f1202a2
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -638,7 +638,7 @@
     .line 579
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f080193
+    const v6, 0x7f080199
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -649,7 +649,7 @@
     .line 580
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120300
+    const v6, 0x7f120302
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -683,7 +683,7 @@
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029f
+    const v6, 0x7f0802a5
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -694,7 +694,7 @@
     .line 586
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f12024c
+    const v6, 0x7f12024e
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -727,7 +727,7 @@
     .line 590
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029e
+    const v6, 0x7f0802a4
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -738,7 +738,7 @@
     .line 591
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120243
+    const v6, 0x7f120245
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -779,7 +779,7 @@
     .line 595
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029d
+    const v6, 0x7f0802a3
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -790,7 +790,7 @@
     .line 596
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f12023a
+    const v6, 0x7f12023c
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -818,7 +818,7 @@
     .line 598
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v6, 0x7f120239
+    const v6, 0x7f12023b
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -834,7 +834,7 @@
     .line 601
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120231
+    const v6, 0x7f120233
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -862,7 +862,7 @@
     .line 603
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v6, 0x7f120238
+    const v6, 0x7f12023a
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -878,7 +878,7 @@
     .line 606
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120235
+    const v6, 0x7f120237
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -924,7 +924,7 @@
     .line 619
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120234
+    const v6, 0x7f120236
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -962,7 +962,7 @@
     .line 624
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120236
+    const v6, 0x7f120238
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1040,7 +1040,7 @@
     .line 634
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12026f
+    const v3, 0x7f120271
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1090,7 +1090,7 @@
     .line 641
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120318
+    const v4, 0x7f12031a
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1128,7 +1128,7 @@
     .line 646
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12036d
+    const v4, 0x7f12036f
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1166,7 +1166,7 @@
     .line 651
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120369
+    const v4, 0x7f12036b
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1204,7 +1204,7 @@
     .line 656
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12036b
+    const v4, 0x7f12036d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1242,7 +1242,7 @@
     .line 661
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f1203a9
+    const v4, 0x7f1203ab
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1280,7 +1280,7 @@
     .line 666
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12039f
+    const v4, 0x7f1203a1
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1318,7 +1318,7 @@
     .line 671
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f1203a6
+    const v3, 0x7f1203a8
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1388,7 +1388,7 @@
     .line 1074
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1403,7 +1403,7 @@
 
     new-array v5, v4, [Ljava/lang/Object;
 
-    const v6, 0x7f12039b
+    const v6, 0x7f12039d
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1434,7 +1434,7 @@
     .line 1079
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f1202a0
+    const v7, 0x7f1202a2
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1482,7 +1482,7 @@
     .line 1085
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f080193
+    const v7, 0x7f080199
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1493,7 +1493,7 @@
     .line 1086
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f120300
+    const v7, 0x7f120302
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1527,7 +1527,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029f
+    const v7, 0x7f0802a5
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1538,7 +1538,7 @@
     .line 1092
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f12024c
+    const v7, 0x7f12024e
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1571,7 +1571,7 @@
     .line 1096
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029e
+    const v7, 0x7f0802a4
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1582,7 +1582,7 @@
     .line 1097
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f120243
+    const v7, 0x7f120245
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1623,7 +1623,7 @@
     .line 1101
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029d
+    const v7, 0x7f0802a3
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1634,7 +1634,7 @@
     .line 1102
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f12023a
+    const v7, 0x7f12023c
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1662,7 +1662,7 @@
     .line 1104
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v7, 0x7f120239
+    const v7, 0x7f12023b
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1678,7 +1678,7 @@
     .line 1107
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f120231
+    const v7, 0x7f120233
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1706,7 +1706,7 @@
     .line 1109
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v7, 0x7f120238
+    const v7, 0x7f12023a
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1722,7 +1722,7 @@
     .line 1112
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f120232
+    const v7, 0x7f120234
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1819,7 +1819,7 @@
     .line 1120
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120235
+    const v2, 0x7f120237
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1865,7 +1865,7 @@
     .line 1130
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120236
+    const v2, 0x7f120238
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1943,7 +1943,7 @@
     .line 1140
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12026f
+    const v3, 0x7f120271
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -1991,7 +1991,7 @@
     .line 1147
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120318
+    const v2, 0x7f12031a
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2029,7 +2029,7 @@
     .line 1152
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036d
+    const v2, 0x7f12036f
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2067,7 +2067,7 @@
     .line 1157
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036c
+    const v2, 0x7f12036e
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2105,7 +2105,7 @@
     .line 1167
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a9
+    const v2, 0x7f1203ab
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2143,7 +2143,7 @@
     .line 1172
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a7
+    const v2, 0x7f1203a9
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2223,7 +2223,7 @@
     .line 961
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12026b
+    const v5, 0x7f12026d
 
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2234,7 +2234,7 @@
     .line 962
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mValues:Ljava/util/List;
 
-    const v5, 0x7f1203c0
+    const v5, 0x7f1203c2
 
     invoke-virtual {v0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2257,7 +2257,7 @@
     .line 966
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f1202a0
+    const v6, 0x7f1202a2
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2305,7 +2305,7 @@
     .line 972
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f080193
+    const v6, 0x7f080199
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2316,7 +2316,7 @@
     .line 973
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120300
+    const v6, 0x7f120302
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2350,7 +2350,7 @@
     :cond_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029f
+    const v6, 0x7f0802a5
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2361,7 +2361,7 @@
     .line 979
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f12024c
+    const v6, 0x7f12024e
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2394,7 +2394,7 @@
     .line 983
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029e
+    const v6, 0x7f0802a4
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2405,7 +2405,7 @@
     .line 984
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120243
+    const v6, 0x7f120245
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2446,7 +2446,7 @@
     .line 988
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v6, 0x7f08029d
+    const v6, 0x7f0802a3
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2457,7 +2457,7 @@
     .line 989
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f12023a
+    const v6, 0x7f12023c
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2485,7 +2485,7 @@
     .line 991
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v6, 0x7f120239
+    const v6, 0x7f12023b
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2652,7 +2652,7 @@
     .line 1020
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f120334
+    const v6, 0x7f120336
 
     invoke-virtual {v0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2684,7 +2684,7 @@
     .line 1022
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v3, 0x7f120392
+    const v3, 0x7f120394
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2700,7 +2700,7 @@
     .line 1025
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120234
+    const v3, 0x7f120236
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2738,7 +2738,7 @@
     .line 1030
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120235
+    const v3, 0x7f120237
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2784,7 +2784,7 @@
     .line 1036
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120231
+    const v3, 0x7f120233
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2812,7 +2812,7 @@
     .line 1038
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v3, 0x7f120238
+    const v3, 0x7f12023a
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2841,7 +2841,7 @@
     .line 1043
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120318
+    const v3, 0x7f12031a
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2879,7 +2879,7 @@
     .line 1048
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12036d
+    const v3, 0x7f12036f
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2917,7 +2917,7 @@
     .line 1053
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120369
+    const v3, 0x7f12036b
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2955,7 +2955,7 @@
     .line 1058
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f1203a9
+    const v3, 0x7f1203ab
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -2993,7 +2993,7 @@
     .line 1063
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12039f
+    const v3, 0x7f1203a1
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3053,7 +3053,7 @@
     .line 904
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3068,7 +3068,7 @@
 
     new-array v5, v4, [Ljava/lang/Object;
 
-    const v6, 0x7f1203b0
+    const v6, 0x7f1203b2
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3099,7 +3099,7 @@
     .line 909
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202a0
+    const v5, 0x7f1202a2
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3147,7 +3147,7 @@
     .line 915
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080193
+    const v5, 0x7f080199
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3158,7 +3158,7 @@
     .line 916
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120300
+    const v5, 0x7f120302
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3192,7 +3192,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029f
+    const v5, 0x7f0802a5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3203,7 +3203,7 @@
     .line 922
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12024c
+    const v5, 0x7f12024e
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3265,7 +3265,7 @@
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v7, 0x7f08029e
+    const v7, 0x7f0802a4
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3276,7 +3276,7 @@
     .line 931
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v7, 0x7f120243
+    const v7, 0x7f120245
 
     invoke-virtual {p0, v7}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3305,7 +3305,7 @@
     .line 935
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029d
+    const v4, 0x7f0802a3
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3316,7 +3316,7 @@
     .line 936
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12023a
+    const v4, 0x7f12023c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3344,7 +3344,7 @@
     .line 938
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v4, 0x7f120239
+    const v4, 0x7f12023b
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3360,7 +3360,7 @@
     .line 941
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f1203af
+    const v4, 0x7f1203b1
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3398,7 +3398,7 @@
     .line 946
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120234
+    const v4, 0x7f120236
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3436,7 +3436,7 @@
     .line 951
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120231
+    const v2, 0x7f120233
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3464,7 +3464,7 @@
     .line 953
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v1, 0x7f120238
+    const v1, 0x7f12023a
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3501,7 +3501,7 @@
     .line 794
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3512,7 +3512,7 @@
     .line 795
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mValues:Ljava/util/List;
 
-    const v4, 0x7f1203ac
+    const v4, 0x7f1203ae
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3535,7 +3535,7 @@
     .line 799
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202a0
+    const v5, 0x7f1202a2
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3583,7 +3583,7 @@
     .line 805
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080193
+    const v5, 0x7f080199
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3594,7 +3594,7 @@
     .line 806
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120300
+    const v5, 0x7f120302
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3628,7 +3628,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029f
+    const v5, 0x7f0802a5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3639,7 +3639,7 @@
     .line 812
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12024c
+    const v5, 0x7f12024e
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3672,7 +3672,7 @@
     .line 816
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029e
+    const v5, 0x7f0802a4
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3683,7 +3683,7 @@
     .line 817
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120243
+    const v5, 0x7f120245
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3724,7 +3724,7 @@
     .line 821
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f0802a3
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3735,7 +3735,7 @@
     .line 822
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12023a
+    const v5, 0x7f12023c
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3763,7 +3763,7 @@
     .line 824
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120239
+    const v5, 0x7f12023b
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3779,7 +3779,7 @@
     .line 827
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120231
+    const v5, 0x7f120233
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3807,7 +3807,7 @@
     .line 829
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120238
+    const v5, 0x7f12023a
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3823,7 +3823,7 @@
     .line 832
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202ff
+    const v5, 0x7f120301
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3861,7 +3861,7 @@
     .line 837
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120236
+    const v5, 0x7f120238
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -3926,7 +3926,7 @@
     .line 843
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v6, 0x7f12038f
+    const v6, 0x7f120391
 
     invoke-virtual {p0, v6}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4001,7 +4001,7 @@
     .line 852
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120296
+    const v5, 0x7f120298
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4044,7 +4044,7 @@
     .line 859
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120318
+    const v2, 0x7f12031a
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4082,7 +4082,7 @@
     .line 864
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036d
+    const v2, 0x7f12036f
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4120,7 +4120,7 @@
     .line 869
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120369
+    const v2, 0x7f12036b
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4158,7 +4158,7 @@
     .line 874
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036b
+    const v2, 0x7f12036d
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4196,7 +4196,7 @@
     .line 879
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a9
+    const v2, 0x7f1203ab
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4234,7 +4234,7 @@
     .line 884
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12039f
+    const v2, 0x7f1203a1
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4272,7 +4272,7 @@
     .line 889
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a6
+    const v2, 0x7f1203a8
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4429,7 +4429,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0803b5
+    const v4, 0x7f0803bc
 
     invoke-static {v2, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -4574,7 +4574,7 @@
     .line 1319
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12026b
+    const v3, 0x7f12026d
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4614,7 +4614,7 @@
     .line 1324
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f1202a0
+    const v4, 0x7f1202a2
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4652,7 +4652,7 @@
     .line 1329
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f1203c9
+    const v4, 0x7f1203cb
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4687,7 +4687,7 @@
     .line 1333
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f0802e1
+    const v4, 0x7f0802e7
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4698,7 +4698,7 @@
     .line 1334
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120412
+    const v4, 0x7f120414
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4731,7 +4731,7 @@
     .line 1338
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029f
+    const v4, 0x7f0802a5
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4742,7 +4742,7 @@
     .line 1339
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12024c
+    const v4, 0x7f12024e
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4775,7 +4775,7 @@
     .line 1343
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029e
+    const v4, 0x7f0802a4
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4786,7 +4786,7 @@
     .line 1344
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120243
+    const v4, 0x7f120245
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4827,7 +4827,7 @@
     .line 1348
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029d
+    const v4, 0x7f0802a3
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4838,7 +4838,7 @@
     .line 1349
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12023a
+    const v4, 0x7f12023c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4866,7 +4866,7 @@
     .line 1351
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v4, 0x7f120239
+    const v4, 0x7f12023b
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4882,7 +4882,7 @@
     .line 1354
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120231
+    const v4, 0x7f120233
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4910,7 +4910,7 @@
     .line 1356
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v4, 0x7f120238
+    const v4, 0x7f12023a
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4926,7 +4926,7 @@
     .line 1359
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120235
+    const v4, 0x7f120237
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -4972,7 +4972,7 @@
     .line 1364
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120234
+    const v4, 0x7f120236
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5010,7 +5010,7 @@
     .line 1369
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120236
+    const v2, 0x7f120238
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5069,7 +5069,7 @@
     .line 1250
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5080,7 +5080,7 @@
     .line 1251
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mValues:Ljava/util/List;
 
-    const v4, 0x7f1203ac
+    const v4, 0x7f1203ae
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5103,7 +5103,7 @@
     .line 1255
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202a0
+    const v5, 0x7f1202a2
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5141,7 +5141,7 @@
     .line 1260
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1203c9
+    const v5, 0x7f1203cb
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5176,7 +5176,7 @@
     .line 1264
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f0802e1
+    const v5, 0x7f0802e7
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5187,7 +5187,7 @@
     .line 1265
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120412
+    const v5, 0x7f120414
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5220,7 +5220,7 @@
     .line 1269
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029f
+    const v5, 0x7f0802a5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5231,7 +5231,7 @@
     .line 1270
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12024c
+    const v5, 0x7f12024e
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5264,7 +5264,7 @@
     .line 1274
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029e
+    const v5, 0x7f0802a4
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5275,7 +5275,7 @@
     .line 1275
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120243
+    const v5, 0x7f120245
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5316,7 +5316,7 @@
     .line 1279
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f0802a3
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5327,7 +5327,7 @@
     .line 1280
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12023a
+    const v5, 0x7f12023c
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5355,7 +5355,7 @@
     .line 1282
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120239
+    const v5, 0x7f12023b
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5371,7 +5371,7 @@
     .line 1285
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120231
+    const v5, 0x7f120233
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5399,7 +5399,7 @@
     .line 1287
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120238
+    const v5, 0x7f12023a
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5460,7 +5460,7 @@
     .line 1293
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120296
+    const v5, 0x7f120298
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5490,7 +5490,7 @@
     .line 1298
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1202ff
+    const v2, 0x7f120301
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5555,7 +5555,7 @@
     .line 1304
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12038f
+    const v5, 0x7f120391
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5585,7 +5585,7 @@
     .line 1309
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120236
+    const v2, 0x7f120238
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5644,7 +5644,7 @@
     .line 1192
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5655,7 +5655,7 @@
     .line 1193
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mValues:Ljava/util/List;
 
-    const v4, 0x7f12041a
+    const v4, 0x7f12041c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5678,7 +5678,7 @@
     .line 1197
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202a0
+    const v5, 0x7f1202a2
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5716,7 +5716,7 @@
     .line 1202
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1203c9
+    const v5, 0x7f1203cb
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5751,7 +5751,7 @@
     .line 1206
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f0802e1
+    const v5, 0x7f0802e7
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5762,7 +5762,7 @@
     .line 1207
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120412
+    const v5, 0x7f120414
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5795,7 +5795,7 @@
     .line 1211
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029f
+    const v5, 0x7f0802a5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5806,7 +5806,7 @@
     .line 1212
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12024c
+    const v5, 0x7f12024e
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5839,7 +5839,7 @@
     .line 1216
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029e
+    const v4, 0x7f0802a4
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5850,7 +5850,7 @@
     .line 1217
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120243
+    const v4, 0x7f120245
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5891,7 +5891,7 @@
     .line 1221
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v4, 0x7f08029d
+    const v4, 0x7f0802a3
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5902,7 +5902,7 @@
     .line 1222
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12023a
+    const v4, 0x7f12023c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5930,7 +5930,7 @@
     .line 1224
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v4, 0x7f120239
+    const v4, 0x7f12023b
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5946,7 +5946,7 @@
     .line 1227
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120231
+    const v4, 0x7f120233
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5974,7 +5974,7 @@
     .line 1229
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v4, 0x7f120238
+    const v4, 0x7f12023a
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -5990,7 +5990,7 @@
     .line 1232
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f120235
+    const v4, 0x7f120237
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6036,7 +6036,7 @@
     .line 1237
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f120232
+    const v3, 0x7f120234
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6163,7 +6163,7 @@
     .line 686
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f12026b
+    const v4, 0x7f12026d
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6174,7 +6174,7 @@
     .line 687
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mValues:Ljava/util/List;
 
-    const v4, 0x7f12041a
+    const v4, 0x7f12041c
 
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6197,7 +6197,7 @@
     .line 691
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f1202a0
+    const v5, 0x7f1202a2
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6245,7 +6245,7 @@
     .line 697
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f080193
+    const v5, 0x7f080199
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6256,7 +6256,7 @@
     .line 698
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120300
+    const v5, 0x7f120302
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6290,7 +6290,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029f
+    const v5, 0x7f0802a5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6301,7 +6301,7 @@
     .line 704
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12024c
+    const v5, 0x7f12024e
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6334,7 +6334,7 @@
     .line 708
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029e
+    const v5, 0x7f0802a4
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6345,7 +6345,7 @@
     .line 709
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120243
+    const v5, 0x7f120245
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6386,7 +6386,7 @@
     .line 713
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mIcons:Ljava/util/List;
 
-    const v5, 0x7f08029d
+    const v5, 0x7f0802a3
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6397,7 +6397,7 @@
     .line 714
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f12023a
+    const v5, 0x7f12023c
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6425,7 +6425,7 @@
     .line 716
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120239
+    const v5, 0x7f12023b
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6441,7 +6441,7 @@
     .line 719
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120231
+    const v5, 0x7f120233
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6469,7 +6469,7 @@
     .line 721
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mUnits:Ljava/util/List;
 
-    const v5, 0x7f120238
+    const v5, 0x7f12023a
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6485,7 +6485,7 @@
     .line 724
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v5, 0x7f120232
+    const v5, 0x7f120234
 
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6586,7 +6586,7 @@
     .line 732
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120235
+    const v2, 0x7f120237
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6672,7 +6672,7 @@
     .line 742
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v3, 0x7f12026f
+    const v3, 0x7f120271
 
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6720,7 +6720,7 @@
     .line 749
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f120318
+    const v2, 0x7f12031a
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6758,7 +6758,7 @@
     .line 754
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036d
+    const v2, 0x7f12036f
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6796,7 +6796,7 @@
     .line 759
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036c
+    const v2, 0x7f12036e
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6842,7 +6842,7 @@
     .line 764
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f12036a
+    const v2, 0x7f12036c
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6880,7 +6880,7 @@
     .line 769
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a9
+    const v2, 0x7f1203ab
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6918,7 +6918,7 @@
     .line 774
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a7
+    const v2, 0x7f1203a9
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -6964,7 +6964,7 @@
     .line 779
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mTitles:Ljava/util/List;
 
-    const v2, 0x7f1203a5
+    const v2, 0x7f1203a7
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
 
@@ -7029,7 +7029,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -7046,7 +7046,7 @@
     .line 275
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 277
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7055,7 +7055,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 278
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7064,7 +7064,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 279
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7073,7 +7073,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ed
+    const v5, 0x7f0a01ee
 
     .line 280
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7087,22 +7087,22 @@
 
     if-nez v5, :cond_0
 
-    const v1, 0x7f1201ee
+    const v1, 0x7f1201f0
 
     .line 284
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 285
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0801ab
+    const v0, 0x7f0801b1
 
     .line 286
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0802a7
+    const v0, 0x7f0802ad
 
     .line 287
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -7110,12 +7110,12 @@
     goto :goto_0
 
     :cond_0
-    const v5, 0x7f1201ef
+    const v5, 0x7f1201f1
 
     .line 291
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080368
+    const v0, 0x7f08036f
 
     .line 292
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -7210,7 +7210,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const p2, 0x7f120381
+    const p2, 0x7f120383
 
     .line 152
     invoke-virtual {p0, p2}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;
@@ -7242,7 +7242,7 @@
     .line 99
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0069
+    const p1, 0x7f0d006a
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->setContentView(I)V
@@ -7262,7 +7262,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->mMapProvider:I
 
-    const p1, 0x7f0a0225
+    const p1, 0x7f0a0226
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7273,7 +7273,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->ivMap:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a02b9
+    const p1, 0x7f0a02ba
 
     .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7284,7 +7284,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->listReports:Landroid/widget/ListView;
 
-    const p1, 0x7f0a024e
+    const p1, 0x7f0a024f
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7295,7 +7295,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->layoutBottomPane:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0169
+    const p1, 0x7f0a016a
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7306,7 +7306,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->etComment:Landroid/widget/EditText;
 
-    const p1, 0x7f0a00c2
+    const p1, 0x7f0a00c3
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7317,7 +7317,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE5:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00c1
+    const p1, 0x7f0a00c2
 
     .line 109
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7328,7 +7328,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE4:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00c0
+    const p1, 0x7f0a00c1
 
     .line 110
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7339,7 +7339,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE3:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00bf
+    const p1, 0x7f0a00c0
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7350,7 +7350,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE2:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a00bf
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7361,7 +7361,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnRPE1:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0522
+    const p1, 0x7f0a0523
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7381,7 +7381,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f0a027d
+    const p1, 0x7f0a027e
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7392,7 +7392,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->layoutIntervalProflie:Landroid/widget/FrameLayout;
 
-    const p1, 0x7f0a04f1
+    const p1, 0x7f0a04f2
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7403,7 +7403,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->txvIntervalProflie:Landroid/widget/TextView;
 
-    const p1, 0x7f0a00c9
+    const p1, 0x7f0a00ca
 
     .line 117
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7414,7 +7414,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->btnSaveIntervalProflie:Landroid/widget/Button;
 
-    const p1, 0x7f0a04c8
+    const p1, 0x7f0a04c9
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -7857,7 +7857,7 @@
     .line 376
     invoke-virtual {v7, v8}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v8, 0x7f120418
+    const v8, 0x7f12041a
 
     .line 379
     invoke-virtual {v0, v8}, Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->getString(I)Ljava/lang/String;

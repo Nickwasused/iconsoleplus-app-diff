@@ -222,7 +222,7 @@
 
     check-cast v4, Lcom/changyow/iconsole4th/db/PresetProgram;
 
-    const v5, 0x7f0a05a5
+    const v5, 0x7f0a05a6
 
     .line 88
     invoke-virtual {v2, v5}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     check-cast v5, Lcom/changyow/iconsole4th/view/ProgramChart;
 
-    const v6, 0x7f0a0563
+    const v6, 0x7f0a0564
 
     .line 89
     invoke-virtual {v2, v6}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0a0222
+    const v7, 0x7f0a0223
 
     .line 90
     invoke-virtual {v2, v7}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    const v8, 0x7f0a022b
+    const v8, 0x7f0a022c
 
     .line 91
     invoke-virtual {v2, v8}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0d00ea
+    const v0, 0x7f0d00eb
 
     const/4 v1, 0x0
 
@@ -407,7 +407,7 @@
 
     invoke-direct {p2, p0, p1}, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;-><init>(Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter;Landroid/view/View;)V
 
-    const v0, 0x7f0a0384
+    const v0, 0x7f0a0385
 
     .line 56
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -418,7 +418,7 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;->piece1:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a0386
+    const v0, 0x7f0a0387
 
     .line 57
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -429,7 +429,7 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;->piece2:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a0387
+    const v0, 0x7f0a0388
 
     .line 58
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -440,7 +440,7 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;->piece3:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a0388
+    const v0, 0x7f0a0389
 
     .line 59
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -451,7 +451,7 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;->piece4:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a0389
+    const v0, 0x7f0a038a
 
     .line 60
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -462,7 +462,7 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$ViewHolder;->piece5:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a038a
+    const v0, 0x7f0a038b
 
     .line 61
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

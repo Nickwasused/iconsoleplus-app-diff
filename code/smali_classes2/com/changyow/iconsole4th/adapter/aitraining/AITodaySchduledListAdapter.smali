@@ -120,7 +120,7 @@
 
     check-cast p2, Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0d00b5
+    const p3, 0x7f0d00b6
 
     const/4 v0, 0x0
 
@@ -139,7 +139,7 @@
 
     check-cast p3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
-    const v0, 0x7f0a021f
+    const v0, 0x7f0a0220
 
     .line 67
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0a0563
+    const v1, 0x7f0a0564
 
     .line 68
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a0581
+    const v2, 0x7f0a0582
 
     .line 69
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a0214
+    const v3, 0x7f0a0215
 
     .line 70
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,14 +175,14 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0a05b2
+    const v4, 0x7f0a05b3
 
     .line 71
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0a05a9
+    const v5, 0x7f0a05aa
 
     .line 72
     invoke-virtual {p2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     if-nez p1, :cond_3
 
-    const p1, 0x7f080388
+    const p1, 0x7f08038f
 
     .line 83
     invoke-virtual {v3, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -241,7 +241,7 @@
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f08011d
+    const p1, 0x7f080123
 
     .line 85
     invoke-virtual {v3, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -322,7 +322,7 @@
 
     iget-object p3, p0, Lcom/changyow/iconsole4th/adapter/aitraining/AITodaySchduledListAdapter;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f12044f
+    const v0, 0x7f120451
 
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

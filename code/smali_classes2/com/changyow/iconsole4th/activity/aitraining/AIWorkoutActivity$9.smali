@@ -105,7 +105,7 @@
     .line 637
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$txvRPEDesc:Landroid/widget/TextView;
 
-    const v0, 0x7f12035b
+    const v0, 0x7f12035d
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

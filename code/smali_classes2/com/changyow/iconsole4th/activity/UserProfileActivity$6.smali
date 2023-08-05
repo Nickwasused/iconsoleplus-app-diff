@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 356
+    .line 373
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -65,21 +65,21 @@
         }
     .end annotation
 
-    .line 360
+    .line 377
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string/jumbo v0, "wahoo_refresh_token"
 
-    .line 361
+    .line 378
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 362
+    .line 379
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/UserProfileActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/UserProfileActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/UserProfileActivity;->access$500(Lcom/changyow/iconsole4th/activity/UserProfileActivity;)Landroid/widget/Button;

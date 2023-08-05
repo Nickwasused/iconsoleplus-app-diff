@@ -117,6 +117,7 @@
     <item type="id" name="btnGo" />
     <item type="id" name="btnGoogle" />
     <item type="id" name="btnHeartRateSourceSetting" />
+    <item type="id" name="btnHuawei" />
     <item type="id" name="btnInputDescription" />
     <item type="id" name="btnLevelDown" />
     <item type="id" name="btnLevelUp" />

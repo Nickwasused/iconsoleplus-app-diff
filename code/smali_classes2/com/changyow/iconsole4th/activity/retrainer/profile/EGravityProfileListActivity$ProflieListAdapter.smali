@@ -45,7 +45,7 @@
         "parent",
         "Landroid/view/ViewGroup;",
         "viewType",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -150,7 +150,7 @@
 
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f12034b
+    const p3, 0x7f12034d
 
     .line 114
     invoke-virtual {p0, p3}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;->getString(I)Ljava/lang/String;
@@ -162,7 +162,7 @@
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v0, 0x7f12034c
+    const v0, 0x7f12034e
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;->getString(I)Ljava/lang/String;
 
@@ -184,7 +184,7 @@
 
     move-result-object v2
 
-    const p3, 0x7f1202ab
+    const p3, 0x7f1202ad
 
     .line 116
     invoke-virtual {p0, p3}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;->getString(I)Ljava/lang/String;
@@ -225,7 +225,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f1202ab
+    const v0, 0x7f1202ad
 
     .line 120
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;->getString(I)Ljava/lang/String;

@@ -82,7 +82,7 @@
     .line 229
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
-    const v0, 0x7f1203b6
+    const v0, 0x7f1203b8
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getString(I)Ljava/lang/String;
 

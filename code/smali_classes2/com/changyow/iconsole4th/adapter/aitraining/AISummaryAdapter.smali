@@ -150,7 +150,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0d00b3
+    const v0, 0x7f0d00b4
 
     invoke-virtual {p4, v0, p5, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -163,7 +163,7 @@
 
     invoke-direct {p5, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;-><init>(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$1;)V
 
-    const v0, 0x7f0a05b2
+    const v0, 0x7f0a05b3
 
     .line 174
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     invoke-static {p5, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;->access$702(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;Landroid/view/View;)Landroid/view/View;
 
-    const v0, 0x7f0a05a9
+    const v0, 0x7f0a05aa
 
     .line 175
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     invoke-static {p5, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;->access$802(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;Landroid/view/View;)Landroid/view/View;
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 176
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     invoke-static {p5, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;->access$902(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v0, 0x7f0a0581
+    const v0, 0x7f0a0582
 
     .line 177
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     invoke-static {p5, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;->access$1002(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderItem;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v0, 0x7f0a057d
+    const v0, 0x7f0a057e
 
     .line 178
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -493,7 +493,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f0d00b2
+    const v2, 0x7f0d00b3
 
     invoke-virtual {p3, v2, p4, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -504,7 +504,7 @@
 
     invoke-direct {p4, v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;-><init>(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$1;)V
 
-    const v2, 0x7f0a0563
+    const v2, 0x7f0a0564
 
     .line 95
     invoke-virtual {p3, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -515,7 +515,7 @@
 
     invoke-static {p4, v2}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;->access$102(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v2, 0x7f0a058a
+    const v2, 0x7f0a058b
 
     .line 96
     invoke-virtual {p3, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -526,7 +526,7 @@
 
     invoke-static {p4, v2}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;->access$202(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v2, 0x7f0a0223
+    const v2, 0x7f0a0224
 
     .line 97
     invoke-virtual {p3, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -537,7 +537,7 @@
 
     invoke-static {p4, v2}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;->access$302(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;Landroid/widget/ImageView;)Landroid/widget/ImageView;
 
-    const v2, 0x7f0a05a8
+    const v2, 0x7f0a05a9
 
     .line 98
     invoke-virtual {p3, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -546,7 +546,7 @@
 
     invoke-static {p4, v2}, Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;->access$402(Lcom/changyow/iconsole4th/adapter/aitraining/AISummaryAdapter$ViewHolderGroup;Landroid/view/View;)Landroid/view/View;
 
-    const v2, 0x7f0a05a4
+    const v2, 0x7f0a05a5
 
     .line 99
     invoke-virtual {p3, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

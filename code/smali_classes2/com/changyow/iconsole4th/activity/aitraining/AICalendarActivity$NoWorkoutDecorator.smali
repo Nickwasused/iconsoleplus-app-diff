@@ -66,7 +66,7 @@
     .line 417
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AICalendarActivity$NoWorkoutDecorator;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AICalendarActivity;
 
-    const v1, 0x7f08039a
+    const v1, 0x7f0803a1
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/aitraining/AICalendarActivity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

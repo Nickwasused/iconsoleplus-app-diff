@@ -194,7 +194,7 @@
 
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
-    const v4, 0x7f1202c8
+    const v4, 0x7f1202ca
 
     invoke-virtual {v3, v4}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->getString(I)Ljava/lang/String;
 

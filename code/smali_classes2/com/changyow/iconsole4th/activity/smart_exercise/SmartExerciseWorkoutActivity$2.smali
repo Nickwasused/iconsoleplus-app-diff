@@ -85,14 +85,14 @@
 
     invoke-direct {v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f120359
+    const v2, 0x7f12035b
 
     .line 733
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f1202ab
+    const v2, 0x7f1202ad
 
     new-instance v3, Lcom/changyow/iconsole4th/activity/smart_exercise/SmartExerciseWorkoutActivity$2$$ExternalSyntheticLambda0;
 
@@ -103,7 +103,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120273
+    const v2, 0x7f120275
 
     new-instance v3, Lcom/changyow/iconsole4th/activity/smart_exercise/SmartExerciseWorkoutActivity$2$$ExternalSyntheticLambda1;
 

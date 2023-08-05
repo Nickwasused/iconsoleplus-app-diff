@@ -46,7 +46,7 @@
         "setupInitActionbar",
         "ItemViewHolder",
         "ProflieListAdapter",
-        "icp4th-1.8.54_icpCnRelease"
+        "icp4th-1.8.57_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -309,7 +309,7 @@
     .line 51
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->txvTitle:Landroid/widget/TextView;
 
-    const v2, 0x7f12034d
+    const v2, 0x7f12034f
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;->getString(I)Ljava/lang/String;
 
@@ -322,14 +322,14 @@
     .line 52
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080368
+    const v2, 0x7f08036f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 53
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
-    const v2, 0x7f080186
+    const v2, 0x7f08018c
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 

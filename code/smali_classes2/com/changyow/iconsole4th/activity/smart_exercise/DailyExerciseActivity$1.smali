@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1$2;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;)V
 
-    const v1, 0x7f120277
+    const v1, 0x7f120279
 
     .line 222
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120277
+    const v1, 0x7f120279
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1$1;
 

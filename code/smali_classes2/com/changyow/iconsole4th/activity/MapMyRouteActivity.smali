@@ -1054,7 +1054,7 @@
 .method private prepareUI()V
     .locals 4
 
-    const v0, 0x7f0a053b
+    const v0, 0x7f0a053c
 
     .line 533
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1065,7 +1065,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvSlideToStartTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00c5
+    const v0, 0x7f0a00c6
 
     .line 534
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1076,7 +1076,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnReset:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a00bd
+    const v0, 0x7f0a00be
 
     .line 535
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a040f
+    const v0, 0x7f0a0410
 
     .line 536
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1098,7 +1098,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
-    const v0, 0x7f0a027b
+    const v0, 0x7f0a027c
 
     .line 537
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1109,7 +1109,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a04f6
+    const v0, 0x7f0a04f7
 
     .line 538
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1120,7 +1120,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0203
+    const v0, 0x7f0a0204
 
     .line 539
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1131,7 +1131,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const v0, 0x7f0a03ce
+    const v0, 0x7f0a03cf
 
     .line 540
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1142,7 +1142,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const v0, 0x7f0a028f
+    const v0, 0x7f0a0290
 
     .line 541
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1153,7 +1153,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a00ca
+    const v0, 0x7f0a00cb
 
     .line 542
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1164,7 +1164,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnSearch:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a016e
+    const v0, 0x7f0a016f
 
     .line 543
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1175,7 +1175,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->etSearchBox:Landroid/widget/EditText;
 
-    const v0, 0x7f0a0296
+    const v0, 0x7f0a0297
 
     .line 544
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1208,7 +1208,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->baiduPanorama:Lcom/baidu/lbsapi/panoramaview/PanoramaView;
 
-    const v0, 0x7f0a024d
+    const v0, 0x7f0a024e
 
     .line 547
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1219,7 +1219,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutBaiduPanorama:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0a05ad
+    const v0, 0x7f0a05ae
 
     .line 548
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1228,7 +1228,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->vPanoramaBlock:Landroid/view/View;
 
-    const v0, 0x7f0a05ae
+    const v0, 0x7f0a05af
 
     .line 549
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -1399,7 +1399,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a01d0
+    const v1, 0x7f0a01d1
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -1495,7 +1495,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0801fd
+    const v4, 0x7f080203
 
     .line 1242
     invoke-static {v4}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
@@ -1568,7 +1568,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801ff
+    const v2, 0x7f080205
 
     .line 1246
     invoke-static {v2}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
@@ -1907,7 +1907,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0801fd
+    const v4, 0x7f080203
 
     .line 1211
     invoke-static {v4}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromResource(I)Lcom/google/android/gms/maps/model/BitmapDescriptor;
@@ -1960,7 +1960,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0801ff
+    const v3, 0x7f080205
 
     .line 1215
     invoke-static {v3}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromResource(I)Lcom/google/android/gms/maps/model/BitmapDescriptor;
@@ -2211,7 +2211,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f0a022e
+    const v0, 0x7f0a022f
 
     .line 1662
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
@@ -2398,7 +2398,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -2415,7 +2415,7 @@
     .line 365
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 367
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2424,7 +2424,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 368
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2433,7 +2433,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 369
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2442,7 +2442,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01ee
 
     .line 370
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2451,17 +2451,17 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v1, 0x7f1201f1
+    const v1, 0x7f1201f3
 
     .line 372
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080368
+    const v0, 0x7f08036f
 
     .line 373
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0801a6
+    const v0, 0x7f0801ac
 
     .line 376
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -2613,7 +2613,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00b8
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -2630,7 +2630,7 @@
     .line 455
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 457
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2639,7 +2639,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01ea
+    const v2, 0x7f0a01eb
 
     .line 458
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2648,7 +2648,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ec
+    const v3, 0x7f0a01ed
 
     .line 459
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2657,17 +2657,17 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f1201f1
+    const v3, 0x7f1201f3
 
     .line 461
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0802ad
+    const v0, 0x7f0802b3
 
     .line 462
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v0, 0x7f0801fe
+    const v0, 0x7f080204
 
     .line 463
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -2705,7 +2705,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a01ed
+    const v1, 0x7f0a01ee
 
     .line 1406
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2719,7 +2719,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00be
+    const v2, 0x7f0d00bf
 
     const/4 v3, 0x0
 
@@ -2809,7 +2809,7 @@
 
     move-result-object v8
 
-    const v2, 0x7f0a02c7
+    const v2, 0x7f0a02c8
 
     .line 1428
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2823,9 +2823,9 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v6, 0x7f0d00b9
+    const v6, 0x7f0d00ba
 
-    const v7, 0x7f0a0563
+    const v7, 0x7f0a0564
 
     move-object v3, v2
 
@@ -3128,7 +3128,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0a05bc
+    const v1, 0x7f0a05bd
 
     .line 1464
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3288,7 +3288,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a01d0
+    const v1, 0x7f0a01d1
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -3417,7 +3417,7 @@
     .line 151
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const v0, 0x7f0d004f
+    const v0, 0x7f0d0050
 
     .line 152
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setContentView(I)V
@@ -3754,7 +3754,7 @@
 
     move-result v0
 
-    const v1, 0x7f0d00d0
+    const v1, 0x7f0d00d1
 
     if-eqz v0, :cond_0
 
@@ -3780,7 +3780,7 @@
     .line 1288
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d6
+    const v1, 0x7f0d00d7
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
@@ -3825,7 +3825,7 @@
     .line 1296
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d1
+    const v1, 0x7f0d00d2
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
@@ -3844,7 +3844,7 @@
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d2
+    const v1, 0x7f0d00d3
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
@@ -3876,7 +3876,7 @@
     .line 1305
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    const v1, 0x7f0a0246
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3887,7 +3887,7 @@
     .line 1306
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00ad
+    const v2, 0x7f0a00ae
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3898,7 +3898,7 @@
     .line 1307
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00ae
+    const v3, 0x7f0a00af
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3961,7 +3961,7 @@
     .line 1346
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00d7
+    const v2, 0x7f0a00d8
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3972,7 +3972,7 @@
     .line 1347
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00d5
+    const v3, 0x7f0a00d6
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -4091,7 +4091,7 @@
     .line 1849
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v1, 0x7f1201a9
+    const v1, 0x7f1201ab
 
     const/4 v2, 0x1
 
@@ -4990,7 +4990,7 @@
 
     new-array v10, v7, [Ljava/lang/Object;
 
-    const v11, 0x7f120266
+    const v11, 0x7f120268
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5025,14 +5025,14 @@
 
     move-result-object v3
 
-    const v10, 0x7f0803ef
+    const v10, 0x7f0803f6
 
     .line 1580
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f120298
+    const v11, 0x7f12029a
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5050,14 +5050,14 @@
 
     invoke-virtual {v1, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v10, 0x7f0801aa
+    const v10, 0x7f0801b0
 
     .line 1581
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f12023f
+    const v11, 0x7f120241
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5081,14 +5081,14 @@
 
     invoke-virtual {v1, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v10, 0x7f0802a9
+    const v10, 0x7f0802af
 
     .line 1582
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f120292
+    const v11, 0x7f120294
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5112,14 +5112,14 @@
 
     invoke-virtual {v1, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v10, 0x7f0801e5
+    const v10, 0x7f0801eb
 
     .line 1583
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f12023a
+    const v11, 0x7f12023c
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5133,7 +5133,7 @@
 
     move-result-object v12
 
-    const v14, 0x7f120239
+    const v14, 0x7f12023b
 
     invoke-virtual {v0, v14}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5145,14 +5145,14 @@
 
     invoke-virtual {v1, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v10, 0x7f0801e9
+    const v10, 0x7f0801ef
 
     .line 1584
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f12025a
+    const v11, 0x7f12025c
 
     invoke-virtual {v0, v11}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5175,15 +5175,15 @@
 
     move-result v3
 
-    const v11, 0x7f080192
+    const v11, 0x7f080198
 
     const-wide v14, 0x3f847ae147ae147bL    # 0.01
 
     const-wide/16 v16, 0x0
 
-    const v18, 0x7f080193
+    const v18, 0x7f080199
 
-    const v10, 0x7f120259
+    const v10, 0x7f12025b
 
     if-eqz v3, :cond_5
 
@@ -5216,7 +5216,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    const v9, 0x7f12025c
+    const v9, 0x7f12025e
 
     invoke-virtual {v0, v9}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5298,7 +5298,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f120232
+    const v7, 0x7f120234
 
     invoke-virtual {v0, v7}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5325,7 +5325,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120300
+    const v4, 0x7f120302
 
     invoke-virtual {v0, v4}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5369,9 +5369,9 @@
 
     move-result v3
 
-    const v4, 0x7f1202a8
+    const v4, 0x7f1202aa
 
-    const v6, 0x7f0802d4
+    const v6, 0x7f0802da
 
     if-eqz v3, :cond_7
 
@@ -5427,7 +5427,7 @@
 
     move-result-object v3
 
-    const v9, 0x7f120232
+    const v9, 0x7f120234
 
     invoke-virtual {v0, v9}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5494,14 +5494,14 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v3, 0x7f080198
+    const v3, 0x7f08019e
 
     .line 1611
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v7, 0x7f120360
+    const v7, 0x7f120362
 
     invoke-virtual {v0, v7}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5511,7 +5511,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f12028c
+    const v9, 0x7f12028e
 
     invoke-virtual {v0, v9}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5575,7 +5575,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120300
+    const v4, 0x7f120302
 
     invoke-virtual {v0, v4}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5627,7 +5627,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120300
+    const v4, 0x7f120302
 
     invoke-virtual {v0, v4}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5778,14 +5778,14 @@
     .line 1532
     invoke-virtual {v12, v14}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v13, 0x7f0803ef
+    const v13, 0x7f0803f6
 
     .line 1535
     invoke-static {v13}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v13
 
-    const v14, 0x7f120298
+    const v14, 0x7f12029a
 
     invoke-virtual {v1, v14}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5803,14 +5803,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f0801aa
+    const v2, 0x7f0801b0
 
     .line 1536
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v13, 0x7f12023f
+    const v13, 0x7f120241
 
     invoke-virtual {v1, v13}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5834,14 +5834,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f0802a9
+    const v2, 0x7f0802af
 
     .line 1537
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v13, 0x7f120292
+    const v13, 0x7f120294
 
     invoke-virtual {v1, v13}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5865,14 +5865,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f0801e5
+    const v2, 0x7f0801eb
 
     .line 1538
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v5, 0x7f12023a
+    const v5, 0x7f12023c
 
     invoke-virtual {v1, v5}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5884,7 +5884,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f120239
+    const v7, 0x7f12023b
 
     invoke-virtual {v1, v7}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5901,14 +5901,14 @@
 
     move-result-object v2
 
-    const v5, 0x7f0801e9
+    const v5, 0x7f0801ef
 
     .line 1541
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f12025a
+    const v6, 0x7f12025c
 
     invoke-virtual {v1, v6}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5929,7 +5929,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f120259
+    const v5, 0x7f12025b
 
     invoke-virtual {v1, v5}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5947,14 +5947,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f080198
+    const v2, 0x7f08019e
 
     .line 1543
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v5, 0x7f12028c
+    const v5, 0x7f12028e
 
     invoke-virtual {v1, v5}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 
@@ -5974,14 +5974,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v2, 0x7f080193
+    const v2, 0x7f080199
 
     .line 1545
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v5, 0x7f120300
+    const v5, 0x7f120302
 
     invoke-virtual {v1, v5}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getString(I)Ljava/lang/String;
 

@@ -23,7 +23,7 @@
 .method private initView()V
     .locals 1
 
-    const v0, 0x7f0a00d3
+    const v0, 0x7f0a00d4
 
     .line 105
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrActivity;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -80,7 +80,7 @@
     .line 64
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 66
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v4, 0x7f0a01ea
+    const v4, 0x7f0a01eb
 
     .line 67
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ec
+    const v5, 0x7f0a01ed
 
     .line 68
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     check-cast v5, Landroid/widget/ImageButton;
 
-    const v6, 0x7f0a01ed
+    const v6, 0x7f0a01ee
 
     .line 69
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,12 +116,12 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v6, 0x7f1203a4
+    const v6, 0x7f1203a6
 
     .line 71
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080368
+    const v0, 0x7f08036f
 
     .line 72
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -137,7 +137,7 @@
     .line 75
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f0801ae
+    const v0, 0x7f0801b4
 
     .line 76
     invoke-virtual {v5, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -332,7 +332,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a00d3
+    const v0, 0x7f0a00d4
 
     if-eq p1, v0, :cond_0
 
@@ -360,7 +360,7 @@
     .line 40
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0054
+    const p1, 0x7f0d0055
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrActivity;->setContentView(I)V

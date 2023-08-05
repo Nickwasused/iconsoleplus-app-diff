@@ -881,7 +881,7 @@
 
     move-result v0
 
-    const v1, 0x7f0d00d0
+    const v1, 0x7f0d00d1
 
     if-eqz v0, :cond_0
 
@@ -907,7 +907,7 @@
     .line 267
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d6
+    const v1, 0x7f0d00d7
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
@@ -923,7 +923,7 @@
 
     move-result v0
 
-    const v2, 0x7f0d00d2
+    const v2, 0x7f0d00d3
 
     if-nez v0, :cond_9
 
@@ -997,7 +997,7 @@
     .line 284
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d1
+    const v1, 0x7f0d00d2
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
@@ -1093,7 +1093,7 @@
     .line 302
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    const v1, 0x7f0a0246
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1104,7 +1104,7 @@
     .line 303
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00ad
+    const v2, 0x7f0a00ae
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1115,7 +1115,7 @@
     .line 304
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00ae
+    const v3, 0x7f0a00af
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1178,7 +1178,7 @@
     .line 335
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a00d7
+    const v1, 0x7f0a00d8
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1189,7 +1189,7 @@
     .line 336
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00d5
+    const v2, 0x7f0a00d6
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1227,7 +1227,7 @@
     :cond_e
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a04e8
+    const v3, 0x7f0a04e9
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1238,7 +1238,7 @@
     .line 383
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v4, 0x7f0a04ec
+    const v4, 0x7f0a04ed
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1290,7 +1290,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00c5
+    const v1, 0x7f0d00c6
 
     .line 206
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
@@ -1516,7 +1516,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d7
+    const v1, 0x7f0d00d8
 
     .line 154
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
@@ -1548,7 +1548,7 @@
     .line 159
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0563
+    const v1, 0x7f0a0564
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1582,7 +1582,7 @@
     .line 162
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v3, 0x7f0a0102
+    const v3, 0x7f0a0103
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1642,7 +1642,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mPressStartDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d8
+    const v1, 0x7f0d00d9
 
     .line 129
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
@@ -1674,7 +1674,7 @@
     .line 133
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mPressStartDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0a02c4
+    const v1, 0x7f0a02c5
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1966,7 +1966,7 @@
 
     check-cast v4, Ljava/util/Map;
 
-    const v5, 0x7f0a0384
+    const v5, 0x7f0a0385
 
     invoke-virtual {p0, v4, v5, v1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->updateData(Ljava/util/Map;ILandroid/view/ViewGroup;)V
 
@@ -1982,7 +1982,7 @@
 
     check-cast v4, Ljava/util/Map;
 
-    const v5, 0x7f0a0386
+    const v5, 0x7f0a0387
 
     invoke-virtual {p0, v4, v5, v1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->updateData(Ljava/util/Map;ILandroid/view/ViewGroup;)V
 
@@ -1998,7 +1998,7 @@
 
     check-cast v4, Ljava/util/Map;
 
-    const v5, 0x7f0a0387
+    const v5, 0x7f0a0388
 
     invoke-virtual {p0, v4, v5, v1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->updateData(Ljava/util/Map;ILandroid/view/ViewGroup;)V
 
@@ -2014,7 +2014,7 @@
 
     check-cast v2, Ljava/util/Map;
 
-    const v3, 0x7f0a0388
+    const v3, 0x7f0a0389
 
     invoke-virtual {p0, v2, v3, v1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->updateData(Ljava/util/Map;ILandroid/view/ViewGroup;)V
 
@@ -2064,7 +2064,7 @@
     return-void
 
     :cond_0
-    const p3, 0x7f0a0563
+    const p3, 0x7f0a0564
 
     .line 460
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2073,7 +2073,7 @@
 
     check-cast p3, Landroid/widget/TextView;
 
-    const v0, 0x7f0a0581
+    const v0, 0x7f0a0582
 
     .line 461
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2082,7 +2082,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0a057d
+    const v1, 0x7f0a057e
 
     .line 462
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

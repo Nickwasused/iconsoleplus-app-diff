@@ -41,7 +41,7 @@
         }
     .end annotation
 
-    const v0, 0x7f120254
+    const v0, 0x7f120256
 
     if-eqz p0, :cond_1
 
@@ -66,7 +66,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f120255
+    const v0, 0x7f120257
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

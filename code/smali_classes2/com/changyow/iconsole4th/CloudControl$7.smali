@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 228
+    .line 229
     invoke-static {}, Lcom/changyow/iconsole4th/interfaces/RESTMethod;->values()[Lcom/changyow/iconsole4th/interfaces/RESTMethod;
 
     move-result-object v0

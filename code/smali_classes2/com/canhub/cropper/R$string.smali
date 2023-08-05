@@ -74,21 +74,21 @@
 
 .field public static final crop_image_menu_crop:I = 0x7f12009e
 
-.field public static final ic_flip_24:I = 0x7f120157
+.field public static final ic_flip_24:I = 0x7f120159
 
-.field public static final ic_flip_24_horizontally:I = 0x7f120158
+.field public static final ic_flip_24_horizontally:I = 0x7f12015a
 
-.field public static final ic_flip_24_vertically:I = 0x7f120159
+.field public static final ic_flip_24_vertically:I = 0x7f12015b
 
-.field public static final ic_rotate_left_24:I = 0x7f12015a
+.field public static final ic_rotate_left_24:I = 0x7f12015c
 
-.field public static final ic_rotate_right_24:I = 0x7f12015b
+.field public static final ic_rotate_right_24:I = 0x7f12015d
 
-.field public static final pick_image_intent_chooser_title:I = 0x7f120205
+.field public static final pick_image_intent_chooser_title:I = 0x7f120207
 
-.field public static final search_menu_title:I = 0x7f120216
+.field public static final search_menu_title:I = 0x7f120218
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022b
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
 
 
 # direct methods

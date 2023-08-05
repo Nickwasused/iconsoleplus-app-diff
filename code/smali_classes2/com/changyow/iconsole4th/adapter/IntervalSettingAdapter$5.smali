@@ -101,7 +101,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120368
+    const v3, 0x7f12036a
 
     invoke-virtual {v2, v3}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
 

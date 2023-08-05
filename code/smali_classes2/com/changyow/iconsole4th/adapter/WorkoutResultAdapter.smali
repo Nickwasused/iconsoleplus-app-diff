@@ -157,7 +157,7 @@
 .method public getLayoutResourdeID()I
     .locals 1
 
-    const v0, 0x7f0d0129
+    const v0, 0x7f0d012a
 
     return v0
 .end method
@@ -202,7 +202,7 @@
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0a021f
+    const p3, 0x7f0a0220
 
     .line 64
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 65
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0a0581
+    const v1, 0x7f0a0582
 
     .line 66
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a057d
+    const v2, 0x7f0a057e
 
     .line 67
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

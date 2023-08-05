@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202ab
+    const v1, 0x7f1202ad
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda0;
 
@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120361
+    const v0, 0x7f120363
 
     sget-object v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda1;
 

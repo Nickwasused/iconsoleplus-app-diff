@@ -51,7 +51,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ActivePasswrodActivity;->btnDone:Landroid/widget/Button;
 
-    const p1, 0x7f0a0221
+    const p1, 0x7f0a0222
 
     .line 23
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ActivePasswrodActivity;->findViewById(I)Landroid/view/View;

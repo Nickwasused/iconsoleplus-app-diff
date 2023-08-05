@@ -383,7 +383,7 @@
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v0, 0x7f0d00c8
+    const v0, 0x7f0d00c9
 
     .line 238
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setContentView(I)V
@@ -408,14 +408,14 @@
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
 
-    const v0, 0x7f0a028d
+    const v0, 0x7f0a028e
 
     .line 242
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a00b3
+    const v1, 0x7f0a00b4
 
     .line 243
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -433,7 +433,7 @@
 
     check-cast v2, Landroid/widget/Button;
 
-    const v3, 0x7f0a00db
+    const v3, 0x7f0a00dc
 
     .line 245
     invoke-virtual {p1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -451,7 +451,7 @@
 
     check-cast v4, Landroid/widget/Button;
 
-    const v5, 0x7f0a00c6
+    const v5, 0x7f0a00c7
 
     .line 247
     invoke-virtual {p1, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -865,7 +865,7 @@
 .method private initView()V
     .locals 1
 
-    const v0, 0x7f0a0252
+    const v0, 0x7f0a0253
 
     .line 117
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -876,7 +876,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->layoutCalendar:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0a0531
+    const v0, 0x7f0a0532
 
     .line 118
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -887,7 +887,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00ea
+    const v0, 0x7f0a00eb
 
     .line 119
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -898,7 +898,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
-    const v0, 0x7f0a02a3
+    const v0, 0x7f0a02a4
 
     .line 120
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -909,7 +909,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->layoutWorkoutTargets:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a04b8
+    const v0, 0x7f0a04b9
 
     .line 121
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -920,7 +920,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04ba
+    const v0, 0x7f0a04bb
 
     .line 122
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -931,7 +931,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04b9
+    const v0, 0x7f0a04ba
 
     .line 123
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -942,7 +942,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingUnit:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0549
+    const v0, 0x7f0a054a
 
     .line 124
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -953,7 +953,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a054b
+    const v0, 0x7f0a054c
 
     .line 125
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -964,7 +964,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a054a
+    const v0, 0x7f0a054b
 
     .line 126
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -975,7 +975,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingUnit:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04b4
+    const v0, 0x7f0a04b5
 
     .line 127
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -986,7 +986,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvClickToAddSuggestedTraining:Landroid/widget/TextView;
 
-    const v0, 0x7f0a03d7
+    const v0, 0x7f0a03d8
 
     .line 128
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -1407,7 +1407,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00b8
+    const v3, 0x7f0d00b9
 
     const/4 v4, 0x0
 
@@ -1424,7 +1424,7 @@
     .line 145
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a0564
 
     .line 147
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1433,7 +1433,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01ea
+    const v3, 0x7f0a01eb
 
     .line 148
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1442,7 +1442,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ec
+    const v4, 0x7f0a01ed
 
     .line 149
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1451,7 +1451,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ed
+    const v5, 0x7f0a01ee
 
     .line 150
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1468,7 +1468,7 @@
     .line 153
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v0, 0x7f08019b
+    const v0, 0x7f0801a1
 
     .line 154
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -1536,7 +1536,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d00c7
+    const v1, 0x7f0d00c8
 
     const/4 v2, 0x0
 
@@ -1545,7 +1545,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a0499
+    const v1, 0x7f0a049a
 
     .line 302
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1554,7 +1554,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a049c
+    const v2, 0x7f0a049d
 
     .line 303
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1563,7 +1563,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a049f
+    const v3, 0x7f0a04a0
 
     .line 304
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1572,7 +1572,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a04a0
+    const v4, 0x7f0a04a1
 
     .line 305
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1593,7 +1593,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f12045d
+    const v5, 0x7f12045f
 
     .line 309
     invoke-virtual {v0, v5}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;

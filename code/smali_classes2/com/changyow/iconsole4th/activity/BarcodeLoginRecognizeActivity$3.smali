@@ -86,7 +86,7 @@
     .line 142
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;
 
-    const v0, 0x7f120244
+    const v0, 0x7f120246
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/BarcodeLoginRecognizeActivity;->getString(I)Ljava/lang/String;
 

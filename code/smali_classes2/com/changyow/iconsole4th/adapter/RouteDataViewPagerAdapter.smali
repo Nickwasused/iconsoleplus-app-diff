@@ -274,7 +274,7 @@
 
     const-string v1, "ALTITUDE_VIEW"
 
-    const v2, 0x7f0d00ed
+    const v2, 0x7f0d00ee
 
     const/4 v3, 0x0
 
@@ -308,7 +308,7 @@
     :cond_1
     const/4 v4, 0x2
 
-    const v5, 0x7f0d00ee
+    const v5, 0x7f0d00ef
 
     if-ne p2, v4, :cond_5
 
