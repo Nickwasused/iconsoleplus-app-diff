@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 647
+    .line 659
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$10;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method public onCallback()V
     .locals 4
 
-    .line 651
+    .line 663
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -59,7 +59,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/FlowControl;->saveAnduploadActivity(Lcom/changyow/iconsole4th/db/ActivityRecord;)Lcom/changyow/iconsole4th/FlowControl;
 
-    .line 652
+    .line 664
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$10;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$1100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/os/Handler;

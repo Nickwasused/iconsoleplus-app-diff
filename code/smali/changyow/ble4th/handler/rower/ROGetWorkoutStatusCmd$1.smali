@@ -40,6 +40,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/rower/ROGetWorkoutStatusCmd;Lchangyow/ble4th/BLEPeripheralListener;IIIDIII)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 88
     iput-object p1, p0, Lchangyow/ble4th/handler/rower/ROGetWorkoutStatusCmd$1;->this$0:Lchangyow/ble4th/handler/rower/ROGetWorkoutStatusCmd;

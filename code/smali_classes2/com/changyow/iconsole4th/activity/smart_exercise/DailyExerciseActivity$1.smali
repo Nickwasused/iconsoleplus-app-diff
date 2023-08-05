@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 195
+    .line 197
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 219
+    .line 221
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -75,17 +75,17 @@
 
     const v1, 0x7f120277
 
-    .line 220
+    .line 222
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 227
+    .line 229
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 228
+    .line 230
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -104,7 +104,7 @@
 
     if-nez p1, :cond_0
 
-    .line 201
+    .line 203
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -127,26 +127,26 @@
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1$1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;)V
 
-    .line 202
+    .line 204
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 209
+    .line 211
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 210
+    .line 212
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
-    .line 212
+    .line 214
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iput-object p1, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
-    .line 213
+    .line 215
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->access$600(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V

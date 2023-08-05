@@ -45,7 +45,13 @@
         }
     .end annotation
 
-    .line 1141
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1150
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$24;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$24;->val$start:Lcom/google/android/gms/maps/model/LatLng;
@@ -64,7 +70,7 @@
 .method public run()V
     .locals 5
 
-    .line 1145
+    .line 1154
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$24;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;

@@ -37,6 +37,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 266
     iput-object p1, p0, Lcom/changyow/iconsole4th/CloudControl$3;->val$bsCB:Lcom/changyow/iconsole4th/interfaces/BSCallback;
 

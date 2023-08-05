@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 591
+    .line 618
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -142,7 +142,7 @@
         }
     .end annotation
 
-    .line 623
+    .line 650
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$100(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -173,7 +173,7 @@
 
     invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 625
+    .line 652
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$200(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
@@ -214,7 +214,7 @@
 
     goto :goto_0
 
-    .line 611
+    .line 638
     :cond_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -224,7 +224,7 @@
 
     goto :goto_0
 
-    .line 607
+    .line 634
     :cond_1
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -242,7 +242,7 @@
     :cond_3
     const-string p2, "ExoPlayer.STATE_IDLE      -"
 
-    .line 617
+    .line 644
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 

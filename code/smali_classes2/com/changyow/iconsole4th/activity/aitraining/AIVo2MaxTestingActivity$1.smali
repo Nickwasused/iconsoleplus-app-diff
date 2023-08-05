@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 159
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 161
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->val$txvTitle:Landroid/widget/TextView;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 168
+    .line 170
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iget v0, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
@@ -71,19 +77,19 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
 
-    .line 169
+    .line 171
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 170
+    .line 172
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iput-boolean v1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCountdownFinished:Z
 
-    .line 173
+    .line 175
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -112,7 +118,7 @@
         }
     .end annotation
 
-    .line 183
+    .line 185
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iget v0, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
@@ -123,7 +129,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
 
-    .line 184
+    .line 186
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;->val$txvTitle:Landroid/widget/TextView;
 
     new-array v0, v1, [Ljava/lang/Object;

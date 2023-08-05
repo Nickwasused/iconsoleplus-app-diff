@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 95
+    .line 96
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/HomeFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,14 +46,14 @@
 .method public onCallback()V
     .locals 2
 
-    .line 99
+    .line 100
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->getUserSettings()V
 
-    .line 100
+    .line 101
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -62,14 +62,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/FlowControl;->requestMetsSettings(Lcom/changyow/iconsole4th/interfaces/FetchMetsSettingsCallback;)V
 
-    .line 101
+    .line 102
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->fetchActivityRecord()V
 
-    .line 102
+    .line 103
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0

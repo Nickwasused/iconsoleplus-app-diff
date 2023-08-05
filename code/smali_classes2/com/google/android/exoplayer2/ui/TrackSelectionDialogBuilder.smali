@@ -292,7 +292,7 @@
 
     invoke-virtual {v8, v3, v9}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v4, "setPositiveButton"
+    const-string/jumbo v4, "setPositiveButton"
 
     new-array v8, v2, [Ljava/lang/Class;
 
@@ -325,7 +325,7 @@
 
     invoke-virtual {v4, v3, v8}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v4, "setNegativeButton"
+    const-string/jumbo v4, "setNegativeButton"
 
     new-array v7, v2, [Ljava/lang/Class;
 

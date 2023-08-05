@@ -37,17 +37,17 @@
         }
     .end annotation
 
-    .line 374
+    .line 377
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 400
+    .line 403
     iput p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->pauseCheck:I
 
-    .line 473
+    .line 476
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->bShow:Z
 
     return-void
@@ -84,24 +84,24 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 460
+    .line 463
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iget-boolean p1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCanceled:Z
 
     if-nez p1, :cond_0
 
-    .line 462
+    .line 465
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$200(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
     const/4 p1, 0x0
 
-    .line 463
+    .line 466
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->bShow:Z
 
-    .line 464
+    .line 467
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$600(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
@@ -249,7 +249,7 @@
 
     if-nez v1, :cond_2
 
-    .line 405
+    .line 408
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -262,7 +262,7 @@
 
     if-eq v4, v5, :cond_2
 
-    .line 407
+    .line 410
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -281,10 +281,10 @@
 
     if-ge v4, v6, :cond_0
 
-    .line 408
+    .line 411
     iput v3, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->pauseCheck:I
 
-    .line 409
+    .line 412
     :cond_0
     iget v4, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->pauseCheck:I
 
@@ -292,12 +292,12 @@
 
     add-int/2addr v4, v2
 
-    .line 410
+    .line 413
     iput v4, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->pauseCheck:I
 
     goto :goto_0
 
-    .line 412
+    .line 415
     :cond_1
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
@@ -305,11 +305,11 @@
 
     goto :goto_0
 
-    .line 415
+    .line 418
     :cond_2
     iput v3, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->pauseCheck:I
 
-    .line 417
+    .line 420
     :goto_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -329,22 +329,22 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 419
+    .line 422
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$200(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
-    .line 420
+    .line 423
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     iput v3, v2, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
 
-    .line 421
+    .line 424
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$300(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
-    .line 423
+    .line 426
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -370,12 +370,12 @@
 
     if-nez v1, :cond_4
 
-    .line 424
+    .line 427
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->stopWorkout()V
 
-    .line 426
+    .line 429
     :cond_4
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
@@ -391,7 +391,7 @@
 
     if-lt v15, v1, :cond_6
 
-    .line 429
+    .line 432
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->stopWorkout()V
@@ -407,12 +407,12 @@
 
     if-ltz v1, :cond_6
 
-    .line 434
+    .line 437
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->stopWorkout()V
 
-    .line 437
+    .line 440
     :cond_6
     :goto_1
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
@@ -425,7 +425,7 @@
 
     move-result v1
 
-    .line 438
+    .line 441
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     move/from16 v3, p1
@@ -446,7 +446,7 @@
 
     invoke-static/range {v2 .. v14}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$500(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;IDIDDIDI)V
 
-    .line 439
+    .line 442
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v2
@@ -493,7 +493,7 @@
 .method public onWaitForStart()V
     .locals 1
 
-    .line 478
+    .line 481
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$700(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)Z
@@ -508,7 +508,7 @@
 
     if-nez v0, :cond_1
 
-    .line 480
+    .line 483
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->bShow:Z
 
     if-eqz v0, :cond_0
@@ -518,15 +518,15 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 482
+    .line 485
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->bShow:Z
 
-    .line 483
+    .line 486
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$800(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
-    .line 484
+    .line 487
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$900(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V

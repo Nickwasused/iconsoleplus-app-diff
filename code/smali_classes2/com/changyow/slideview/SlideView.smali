@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d018e
+    const v1, 0x7f0d018b
 
     invoke-static {v0, v1, p0}, Lcom/changyow/slideview/SlideView;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -212,7 +212,7 @@
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
-    const v0, 0x7f0a0415
+    const v0, 0x7f0a040d
 
     .line 67
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object v0, p0, Lcom/changyow/slideview/SlideView;->slideTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0417
+    const v0, 0x7f0a040f
 
     .line 68
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     iput-object v0, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a00e7
+    const v1, 0x7f0a00e4
 
     .line 72
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/LayerDrawable;->findDrawableByLayerId(I)Landroid/graphics/drawable/Drawable;
@@ -610,7 +610,7 @@
     .line 143
     iget-object v0, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a00e8
+    const v1, 0x7f0a00e5
 
     invoke-virtual {v0, v1, p1}, Landroid/graphics/drawable/LayerDrawable;->setDrawableByLayerId(ILandroid/graphics/drawable/Drawable;)Z
 
@@ -675,7 +675,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v2, 0x7f0a00e8
+    const v2, 0x7f0a00e5
 
     if-eqz p1, :cond_1
 

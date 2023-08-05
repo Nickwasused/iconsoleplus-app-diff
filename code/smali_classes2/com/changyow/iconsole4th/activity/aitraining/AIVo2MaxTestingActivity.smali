@@ -90,33 +90,33 @@
     .line 118
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
-    .line 140
+    .line 141
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    .line 141
+    .line 142
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCountdownFinished:Z
 
-    .line 192
+    .line 194
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
-    .line 237
+    .line 240
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCheckSafetyKeyDialog:Ljava/lang/Runnable;
 
-    .line 299
+    .line 302
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCanceled:Z
 
-    .line 350
+    .line 353
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$3;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bleManagerListener:Lchangyow/ble4th/BLEManagerListener;
 
-    .line 373
+    .line 376
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V
@@ -239,18 +239,18 @@
 .method private dismissPressStartDialog()V
     .locals 1
 
-    .line 135
+    .line 136
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
 
-    .line 136
+    .line 137
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 137
+    .line 138
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
     return-void
@@ -259,14 +259,14 @@
 .method private dismissSafetyKeyDialog()V
     .locals 2
 
-    .line 215
+    .line 218
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 218
+    .line 221
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mHandler:Landroid/os/Handler;
 
@@ -274,12 +274,12 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 219
+    .line 222
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
     monitor-enter v0
 
-    .line 223
+    .line 226
     :try_start_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
@@ -287,7 +287,7 @@
 
     const/4 v1, 0x0
 
-    .line 224
+    .line 227
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -300,7 +300,7 @@
 
     goto :goto_2
 
-    .line 230
+    .line 233
     :catch_0
     :goto_0
     :try_start_1
@@ -322,21 +322,21 @@
 
     if-lez v1, :cond_1
 
-    .line 231
+    .line 234
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->stopWorkout()V
 
     goto :goto_1
 
-    .line 232
+    .line 235
     :cond_1
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bTrainingStarted:Z
 
     if-eqz v1, :cond_2
 
-    .line 233
+    .line 236
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->startWorkout()V
 
-    .line 234
+    .line 237
     :cond_2
     :goto_1
     monitor-exit v0
@@ -354,7 +354,7 @@
 .method private prepareSafetyKeyDialog()V
     .locals 3
 
-    .line 196
+    .line 198
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -365,12 +365,21 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00c7
+    const v1, 0x7f0d00c4
 
-    .line 197
+    .line 199
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 198
+    .line 200
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 201
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
     const/4 v1, 0x0
@@ -383,7 +392,7 @@
 .method private showCountdownDialog()V
     .locals 6
 
-    .line 145
+    .line 146
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -394,12 +403,12 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d9
-
-    .line 146
-    invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
+    const v1, 0x7f0d00d6
 
     .line 147
+    invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
+
+    .line 148
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
@@ -414,10 +423,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 150
+    .line 149
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0557
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 152
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
+
+    const v1, 0x7f0a0562
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +447,7 @@
 
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 151
+    .line 153
     iget v4, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdown:I
 
     rsub-int/lit8 v4, v4, 0x3
@@ -448,10 +466,10 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 153
+    .line 155
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
-    const v3, 0x7f0a0104
+    const v3, 0x7f0a0101
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -459,7 +477,7 @@
 
     check-cast v2, Lcom/changyow/iconsole4th/view/CircleView;
 
-    .line 154
+    .line 156
     new-instance v3, Lcom/changyow/iconsole4th/view/CircleAnimation;
 
     const/16 v4, 0x168
@@ -468,30 +486,30 @@
 
     const-wide/16 v4, 0x3e8
 
-    .line 155
+    .line 157
     invoke-virtual {v3, v4, v5}, Lcom/changyow/iconsole4th/view/CircleAnimation;->setDuration(J)V
 
     const/4 v4, 0x2
 
-    .line 156
+    .line 158
     invoke-virtual {v3, v4}, Lcom/changyow/iconsole4th/view/CircleAnimation;->setRepeatCount(I)V
 
-    .line 157
+    .line 159
     invoke-virtual {v3, v1}, Lcom/changyow/iconsole4th/view/CircleAnimation;->setRepeatMode(I)V
 
-    .line 158
+    .line 160
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;
 
     invoke-direct {v1, p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;Landroid/widget/TextView;)V
 
     invoke-virtual {v3, v1}, Lcom/changyow/iconsole4th/view/CircleAnimation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
-    .line 188
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCountdownDialog:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 189
+    .line 191
     invoke-virtual {v2, v3}, Lcom/changyow/iconsole4th/view/CircleView;->startAnimation(Landroid/view/animation/Animation;)V
 
     return-void
@@ -511,7 +529,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00da
+    const v1, 0x7f0d00d7
 
     .line 123
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
@@ -531,10 +549,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 126
+    .line 125
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
-    const v1, 0x7f0a02cd
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 127
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
+
+    const v1, 0x7f0a02c3
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -542,15 +569,15 @@
 
     check-cast v0, Lcom/airbnb/lottie/LottieAnimationView;
 
-    .line 127
+    .line 128
     invoke-virtual {v0}, Lcom/airbnb/lottie/LottieAnimationView;->playAnimation()V
 
-    .line 129
+    .line 130
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 130
+    .line 131
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mPressStartDialog:Landroid/app/Dialog;
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->setCancelable(Z)V
@@ -561,15 +588,15 @@
 .method private showSafetyKeyDialog()V
     .locals 4
 
-    .line 203
+    .line 206
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
     if-nez v0, :cond_0
 
-    .line 204
+    .line 207
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->prepareSafetyKeyDialog()V
 
-    .line 206
+    .line 209
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
@@ -579,12 +606,12 @@
 
     if-nez v0, :cond_1
 
-    .line 207
+    .line 210
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mSafetyKeyDialog:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 209
+    .line 212
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mHandler:Landroid/os/Handler;
 
@@ -592,7 +619,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 210
+    .line 213
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mCheckSafetyKeyDialog:Ljava/lang/Runnable;
@@ -636,10 +663,10 @@
 
     const/4 v0, 0x1
 
-    .line 272
+    .line 275
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bTrainingStarted:Z
 
-    .line 275
+    .line 278
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -666,10 +693,10 @@
 
     move-object v2, p0
 
-    .line 277
+    .line 280
     invoke-direct/range {v2 .. v14}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->updateData(IDIDDIDI)V
 
-    .line 279
+    .line 282
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -694,7 +721,7 @@
 
     invoke-virtual {v1, v2}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 280
+    .line 283
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -719,14 +746,14 @@
 
     invoke-virtual {v1, v2}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 281
+    .line 284
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 283
+    .line 286
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -735,7 +762,7 @@
 
     invoke-virtual {v1, v2}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 284
+    .line 287
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -744,7 +771,7 @@
 
     invoke-virtual {v1, v2}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 285
+    .line 288
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -753,7 +780,7 @@
 
     invoke-virtual {v1, v2}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 286
+    .line 289
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -762,7 +789,7 @@
 
     invoke-virtual {v1, v2}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 290
+    .line 293
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -774,7 +801,7 @@
 
     invoke-virtual {v1, v2}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 291
+    .line 294
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v1
@@ -795,7 +822,7 @@
 
     invoke-virtual/range {v2 .. v9}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 292
+    .line 295
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v1
@@ -837,12 +864,12 @@
         }
     .end annotation
 
-    .line 248
+    .line 251
     iget p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mMode:I
 
     if-nez p2, :cond_0
 
-    .line 250
+    .line 253
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetValue:Landroid/widget/TextView;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/util/UnitUtil;->timeString(I)Ljava/lang/String;
@@ -851,7 +878,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 251
+    .line 254
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetUnit:Landroid/widget/TextView;
 
     const p2, 0x7f1202f5
@@ -860,7 +887,7 @@
 
     goto :goto_0
 
-    .line 255
+    .line 258
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetValue:Landroid/widget/TextView;
 
@@ -874,7 +901,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 256
+    .line 259
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetUnit:Landroid/widget/TextView;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -908,7 +935,7 @@
     :goto_0
     const-wide/16 p1, 0x0
 
-    .line 260
+    .line 263
     iget-object p3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {p3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getSpeed()Ljava/util/ArrayList;
@@ -929,7 +956,7 @@
 
     if-lez p3, :cond_2
 
-    .line 262
+    .line 265
     iget-object p3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {p3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getSpeed()Ljava/util/ArrayList;
@@ -953,7 +980,7 @@
 
     check-cast p4, Lcom/changyow/iconsole4th/db/model/ValueStamp;
 
-    .line 263
+    .line 266
     invoke-virtual {p4}, Lcom/changyow/iconsole4th/db/model/ValueStamp;->getValue()D
 
     move-result-wide p4
@@ -962,7 +989,7 @@
 
     goto :goto_1
 
-    .line 264
+    .line 267
     :cond_1
     iget-object p3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -978,7 +1005,7 @@
 
     div-double/2addr p1, p3
 
-    .line 266
+    .line 269
     :cond_2
     iget-object p3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvSpeed:Landroid/widget/TextView;
 
@@ -992,7 +1019,7 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 267
+    .line 270
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvSpeedUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getSpeedUnit()Ljava/lang/String;
@@ -1040,7 +1067,7 @@
     .line 60
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02c8
+    const p1, 0x7f0a02be
 
     .line 61
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1051,7 +1078,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->llSpeed:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0538
+    const p1, 0x7f0a0541
 
     .line 62
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1062,7 +1089,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvSpeedUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0534
+    const p1, 0x7f0a053d
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1073,7 +1100,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvSpeed:Landroid/widget/TextView;
 
-    const p1, 0x7f0a02c9
+    const p1, 0x7f0a02bf
 
     .line 64
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1084,7 +1111,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->llTarget:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a054d
+    const p1, 0x7f0a0558
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1095,7 +1122,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a054e
+    const p1, 0x7f0a0559
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1106,7 +1133,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvTargetValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a05ac
+    const p1, 0x7f0a05b8
 
     .line 67
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1115,7 +1142,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->view1:Landroid/view/View;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0244
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1126,7 +1153,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0519
+    const p1, 0x7f0a051c
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1137,7 +1164,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->txvPrevVo2Max:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0557
+    const p1, 0x7f0a0562
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->findViewById(I)Landroid/view/View;
@@ -1321,7 +1348,7 @@
 .method public stopWorkout()V
     .locals 3
 
-    .line 303
+    .line 306
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1332,13 +1359,13 @@
 
     monitor-enter v0
 
-    .line 305
+    .line 308
     :try_start_0
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCanceled:Z
 
     if-eqz v1, :cond_0
 
-    .line 306
+    .line 309
     monitor-exit v0
 
     return-void
@@ -1346,18 +1373,18 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 307
+    .line 310
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->bCanceled:Z
 
-    .line 308
+    .line 311
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 309
+    .line 312
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->cancelRefreshUITimer()V
 
-    .line 310
+    .line 313
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1366,7 +1393,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 313
+    .line 316
     :try_start_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1378,7 +1405,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 314
+    .line 317
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1389,7 +1416,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 315
+    .line 318
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1402,7 +1429,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 316
+    .line 319
     :cond_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1416,7 +1443,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 317
+    .line 320
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1430,10 +1457,10 @@
     :catch_0
     move-exception v0
 
-    .line 321
+    .line 324
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 324
+    .line 327
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1441,12 +1468,12 @@
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 325
+    .line 328
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 327
+    .line 330
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1457,15 +1484,15 @@
 
     const-string v1, "Mode"
 
-    .line 328
+    .line 331
     iget v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->mMode:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 329
+    .line 332
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 331
+    .line 334
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->finish()V
 
     return-void
@@ -1473,7 +1500,7 @@
     :catchall_0
     move-exception v1
 
-    .line 308
+    .line 311
     :try_start_2
     monitor-exit v0
     :try_end_2

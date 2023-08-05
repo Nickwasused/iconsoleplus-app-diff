@@ -39,20 +39,20 @@
         }
     .end annotation
 
-    .line 731
+    .line 743
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 766
+    .line 778
     iput p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
-    .line 864
+    .line 876
     iput p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->prevTick:I
 
-    .line 966
+    .line 978
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->bShow:Z
 
     return-void
@@ -61,7 +61,7 @@
 .method static synthetic access$2300(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;IDIIDI)V
     .locals 0
 
-    .line 731
+    .line 743
     invoke-direct/range {p0 .. p8}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->aiControl(IDIIDI)V
 
     return-void
@@ -88,7 +88,7 @@
         }
     .end annotation
 
-    .line 868
+    .line 880
     iget p6, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->prevTick:I
 
     sub-int p6, p1, p6
@@ -99,11 +99,11 @@
 
     return-void
 
-    .line 871
+    .line 883
     :cond_0
     iput p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->prevTick:I
 
-    .line 873
+    .line 885
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -114,7 +114,7 @@
 
     invoke-virtual {p1, p6}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 874
+    .line 886
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -125,7 +125,7 @@
 
     const/4 p1, 0x0
 
-    .line 877
+    .line 889
     iget-object p6, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p6}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
@@ -140,7 +140,7 @@
 
     if-ge p5, p6, :cond_7
 
-    .line 879
+    .line 891
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p5
@@ -170,7 +170,7 @@
     :cond_1
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    .line 880
+    .line 892
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
     move-result-object p2
@@ -181,7 +181,7 @@
 
     if-ge p4, p2, :cond_3
 
-    .line 882
+    .line 894
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -191,7 +191,7 @@
 
     move-result-object p1
 
-    .line 883
+    .line 895
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -200,7 +200,7 @@
 
     invoke-virtual {p2, p7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 884
+    .line 896
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -211,7 +211,7 @@
 
     goto/16 :goto_0
 
-    .line 886
+    .line 898
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -250,7 +250,7 @@
     :cond_4
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    .line 887
+    .line 899
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
     move-result-object p2
@@ -273,7 +273,7 @@
 
     if-ge p8, p2, :cond_e
 
-    .line 889
+    .line 901
     :cond_5
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -283,7 +283,7 @@
 
     invoke-virtual {p1, p7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 890
+    .line 902
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -294,7 +294,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 892
+    .line 904
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     const p2, 0x7f1202e5
@@ -303,7 +303,7 @@
 
     move-result-object p1
 
-    .line 893
+    .line 905
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -314,7 +314,7 @@
 
     goto/16 :goto_0
 
-    .line 897
+    .line 909
     :cond_6
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -324,7 +324,7 @@
 
     move-result-object p1
 
-    .line 898
+    .line 910
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -333,7 +333,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 899
+    .line 911
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3408(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)I
@@ -342,14 +342,14 @@
 
     invoke-static {p2, p3}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3302(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;I)I
 
-    .line 900
+    .line 912
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2, p7}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3502(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;Z)Z
 
     goto/16 :goto_0
 
-    .line 904
+    .line 916
     :cond_7
     iget-object p6, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -363,7 +363,7 @@
 
     if-le p5, p6, :cond_e
 
-    .line 906
+    .line 918
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p5
@@ -393,7 +393,7 @@
     :cond_8
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    .line 907
+    .line 919
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
     move-result-object p2
@@ -404,7 +404,7 @@
 
     if-le p4, p2, :cond_a
 
-    .line 909
+    .line 921
     :cond_9
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -414,7 +414,7 @@
 
     move-result-object p1
 
-    .line 910
+    .line 922
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -423,7 +423,7 @@
 
     invoke-virtual {p2, p7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 911
+    .line 923
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -434,7 +434,7 @@
 
     goto/16 :goto_0
 
-    .line 913
+    .line 925
     :cond_a
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -473,7 +473,7 @@
     :cond_b
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
-    .line 914
+    .line 926
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
     move-result-object p2
@@ -496,7 +496,7 @@
 
     if-le p8, p2, :cond_e
 
-    .line 916
+    .line 928
     :cond_c
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -506,7 +506,7 @@
 
     invoke-virtual {p1, p7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 917
+    .line 929
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -517,7 +517,7 @@
 
     if-eqz p1, :cond_d
 
-    .line 919
+    .line 931
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     const p2, 0x7f1202e4
@@ -526,7 +526,7 @@
 
     move-result-object p1
 
-    .line 920
+    .line 932
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -537,7 +537,7 @@
 
     goto :goto_0
 
-    .line 924
+    .line 936
     :cond_d
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -547,7 +547,7 @@
 
     move-result-object p1
 
-    .line 925
+    .line 937
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/widget/TextView;
@@ -556,7 +556,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 926
+    .line 938
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3710(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)I
@@ -565,7 +565,7 @@
 
     invoke-static {p2, p3}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3602(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;I)I
 
-    .line 927
+    .line 939
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2, p7}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3802(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;Z)Z
@@ -574,7 +574,7 @@
     :goto_0
     if-eqz p1, :cond_f
 
-    .line 937
+    .line 949
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$3900(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;Ljava/lang/String;)V
@@ -614,7 +614,7 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 953
+    .line 965
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4000(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Z
@@ -623,17 +623,17 @@
 
     if-nez p1, :cond_0
 
-    .line 955
+    .line 967
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4100(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
     const/4 p1, 0x0
 
-    .line 956
+    .line 968
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->bShow:Z
 
-    .line 957
+    .line 969
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
@@ -719,7 +719,7 @@
 
     if-nez p13, :cond_1
 
-    .line 827
+    .line 839
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v2
@@ -730,7 +730,7 @@
 
     if-eq v2, v1, :cond_1
 
-    .line 829
+    .line 841
     iget v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
     const/4 v3, 0x5
@@ -739,12 +739,12 @@
 
     add-int/2addr v2, v0
 
-    .line 830
+    .line 842
     iput v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
     goto :goto_0
 
-    .line 832
+    .line 844
     :cond_0
     iget-object v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -755,10 +755,10 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 835
+    .line 847
     iput v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
-    .line 837
+    .line 849
     :goto_0
     iget-object v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -772,12 +772,12 @@
 
     if-lt v3, v2, :cond_2
 
-    .line 838
+    .line 850
     iget-object v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2500(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 841
+    .line 853
     :cond_2
     iget-object v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -787,12 +787,12 @@
 
     if-ne v2, v7, :cond_3
 
-    .line 842
+    .line 854
     iget-object v2, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v2, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2702(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;Z)Z
 
-    .line 844
+    .line 856
     :cond_3
     iget-object v0, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -802,12 +802,12 @@
 
     if-eqz v0, :cond_4
 
-    .line 845
+    .line 857
     iget-object v0, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0, v7}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2902(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;I)I
 
-    .line 848
+    .line 860
     :cond_4
     iget-object v0, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -825,7 +825,7 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 849
+    .line 861
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -839,7 +839,7 @@
     :cond_5
     move/from16 v0, p8
 
-    .line 850
+    .line 862
     :goto_1
     iget-object v9, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -863,14 +863,14 @@
 
     invoke-virtual/range {v9 .. v21}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->updateData(IIIDDIDII)V
 
-    .line 851
+    .line 863
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v9
 
     invoke-virtual/range {v9 .. v21}, Lcom/changyow/iconsole4th/FlowControl;->keepWorkoutStatus(IIIDDIDII)V
 
-    .line 854
+    .line 866
     iget-object v9, v8, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     new-instance v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12$2;
@@ -967,7 +967,7 @@
 
     if-nez v0, :cond_2
 
-    .line 772
+    .line 784
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -978,7 +978,7 @@
 
     if-eq v4, v2, :cond_2
 
-    .line 774
+    .line 786
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -997,10 +997,10 @@
 
     if-ge v4, v5, :cond_0
 
-    .line 775
+    .line 787
     iput v3, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
-    .line 776
+    .line 788
     :cond_0
     iget v4, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
@@ -1010,12 +1010,12 @@
 
     add-int/2addr v4, v1
 
-    .line 777
+    .line 789
     iput v4, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
     goto :goto_0
 
-    .line 779
+    .line 791
     :cond_1
     iget-object v4, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1023,11 +1023,11 @@
 
     goto :goto_0
 
-    .line 782
+    .line 794
     :cond_2
     iput v3, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->pauseCheck:I
 
-    .line 784
+    .line 796
     :goto_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1047,22 +1047,22 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 786
+    .line 798
     iget-object v1, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$1600(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 787
+    .line 799
     iget-object v1, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     iput v3, v1, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->mCountdown:I
 
-    .line 788
+    .line 800
     iget-object v1, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$1700(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 790
+    .line 802
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1090,12 +1090,12 @@
 
     if-nez v0, :cond_4
 
-    .line 791
+    .line 803
     iget-object v0, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$1900(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 794
+    .line 806
     :cond_4
     iget-object v0, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1113,7 +1113,7 @@
 
     if-ne v0, v2, :cond_5
 
-    .line 795
+    .line 807
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1127,7 +1127,7 @@
     :cond_5
     move/from16 v0, p9
 
-    .line 796
+    .line 808
     :goto_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1139,10 +1139,10 @@
 
     if-eqz v1, :cond_6
 
-    .line 798
+    .line 810
     invoke-static/range {p4 .. p4}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
-    .line 802
+    .line 814
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getTime()I
 
     move-result v0
@@ -1151,7 +1151,7 @@
 
     goto :goto_2
 
-    .line 806
+    .line 818
     :cond_6
     iget-object v11, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1173,7 +1173,7 @@
 
     invoke-virtual/range {v11 .. v23}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->updateData(IDIDDIDI)V
 
-    .line 807
+    .line 819
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v11
@@ -1182,7 +1182,7 @@
 
     move/from16 v2, p1
 
-    .line 810
+    .line 822
     :goto_2
     iget-object v0, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1194,12 +1194,12 @@
 
     if-lt v2, v0, :cond_7
 
-    .line 811
+    .line 823
     iget-object v0, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$2200(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 814
+    .line 826
     :cond_7
     iget-object v11, v10, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1239,7 +1239,7 @@
 
     if-nez p1, :cond_1
 
-    .line 756
+    .line 768
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1252,7 +1252,7 @@
 
     goto :goto_0
 
-    .line 759
+    .line 771
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1264,7 +1264,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 762
+    .line 774
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1285,7 +1285,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 763
+    .line 775
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -1320,7 +1320,7 @@
 .method public onWaitForStart()V
     .locals 1
 
-    .line 971
+    .line 983
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4300(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Z
@@ -1337,7 +1337,7 @@
 
     if-nez v0, :cond_1
 
-    .line 973
+    .line 985
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->bShow:Z
 
     if-eqz v0, :cond_0
@@ -1347,15 +1347,15 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 975
+    .line 987
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->bShow:Z
 
-    .line 976
+    .line 988
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4500(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V
 
-    .line 977
+    .line 989
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$4600(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V

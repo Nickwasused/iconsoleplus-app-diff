@@ -45,7 +45,13 @@
         }
     .end annotation
 
-    .line 204
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 215
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->val$times:[Ljava/lang/String;
@@ -88,7 +94,7 @@
         }
     .end annotation
 
-    .line 208
+    .line 219
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->val$times:[Ljava/lang/String;
@@ -97,7 +103,7 @@
 
     move-result-object p1
 
-    .line 209
+    .line 220
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     iget-boolean p2, p2, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->bOnce:Z
@@ -108,7 +114,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 210
+    .line 221
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     const/4 p2, 0x1
@@ -117,7 +123,7 @@
 
     goto :goto_0
 
-    .line 212
+    .line 223
     :cond_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;->val$spEnd:Landroid/widget/Spinner;
 
@@ -129,9 +135,9 @@
 
     move-result-object p4
 
-    const p5, 0x7f0d00f8
+    const p5, 0x7f0d00f5
 
-    const v0, 0x7f0a0466
+    const v0, 0x7f0a045e
 
     invoke-direct {p3, p4, p5, v0, p1}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
 

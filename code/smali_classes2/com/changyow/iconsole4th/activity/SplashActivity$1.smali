@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 78
+    .line 81
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/SplashActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/SplashActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -65,17 +65,17 @@
         }
     .end annotation
 
-    .line 82
+    .line 85
     invoke-static {p1}, Lcom/changyow/iconsole4th/util/BSUtil;->getToken(Lcom/google/gson/JsonElement;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 83
+    .line 86
     invoke-static {p1}, Lcom/changyow/iconsole4th/util/BSUtil;->getRenewToken(Lcom/google/gson/JsonElement;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 84
+    .line 87
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v1
@@ -84,21 +84,21 @@
 
     if-eqz p1, :cond_0
 
-    .line 85
+    .line 88
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
     if-lez v0, :cond_0
 
-    .line 86
+    .line 89
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/db/UserProfile;->setBsRenewToken(Ljava/lang/String;)V
 
-    .line 87
+    .line 90
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
@@ -106,7 +106,7 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 88
+    .line 91
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1

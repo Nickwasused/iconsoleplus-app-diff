@@ -33,12 +33,15 @@
 
 .field public final txvTrainingVolume:Landroid/widget/TextView;
 
+.field public final txvTrainingVolumeTitle:Landroid/widget/TextView;
+
 
 # direct methods
-.method private constructor <init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+.method private constructor <init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
     .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
+            0x0,
             0x0,
             0x0,
             0x0,
@@ -66,57 +69,61 @@
             "rvReports",
             "rvTrainingVolumeList",
             "txvRPE",
-            "txvTrainingVolume"
+            "txvTrainingVolume",
+            "txvTrainingVolumeTitle"
         }
     .end annotation
 
-    .line 67
+    .line 71
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 68
+    .line 72
     iput-object p1, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->rootView:Landroid/widget/RelativeLayout;
 
-    .line 69
+    .line 73
     iput-object p2, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->btnRPE1:Landroid/widget/ImageButton;
 
-    .line 70
+    .line 74
     iput-object p3, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->btnRPE2:Landroid/widget/ImageButton;
 
-    .line 71
+    .line 75
     iput-object p4, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->btnRPE3:Landroid/widget/ImageButton;
 
-    .line 72
+    .line 76
     iput-object p5, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->btnRPE4:Landroid/widget/ImageButton;
 
-    .line 73
+    .line 77
     iput-object p6, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->btnRPE5:Landroid/widget/ImageButton;
 
-    .line 74
+    .line 78
     iput-object p7, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->etComment:Landroid/widget/EditText;
 
-    .line 75
+    .line 79
     iput-object p8, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->layoutBottomPane:Landroid/widget/LinearLayout;
 
-    .line 76
+    .line 80
     iput-object p9, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->layoutTrainingVolume:Landroid/widget/LinearLayout;
 
-    .line 77
+    .line 81
     iput-object p10, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->rvReports:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 78
+    .line 82
     iput-object p11, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->rvTrainingVolumeList:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 79
+    .line 83
     iput-object p12, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvRPE:Landroid/widget/TextView;
 
-    .line 80
+    .line 84
     iput-object p13, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvTrainingVolume:Landroid/widget/TextView;
+
+    .line 85
+    iput-object p14, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->txvTrainingVolumeTitle:Landroid/widget/TextView;
 
     return-void
 .end method
 
 .method public static bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;
-    .locals 17
+    .locals 18
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0
@@ -128,9 +135,9 @@
 
     move-object/from16 v0, p0
 
-    const v1, 0x7f0a00bf
+    const v1, 0x7f0a00be
 
-    .line 111
+    .line 116
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -141,9 +148,9 @@
 
     if-eqz v5, :cond_0
 
-    const v1, 0x7f0a00c0
+    const v1, 0x7f0a00bf
 
-    .line 117
+    .line 122
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -154,9 +161,9 @@
 
     if-eqz v6, :cond_0
 
-    const v1, 0x7f0a00c1
+    const v1, 0x7f0a00c0
 
-    .line 123
+    .line 128
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -167,9 +174,9 @@
 
     if-eqz v7, :cond_0
 
-    const v1, 0x7f0a00c2
+    const v1, 0x7f0a00c1
 
-    .line 129
+    .line 134
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -180,9 +187,9 @@
 
     if-eqz v8, :cond_0
 
-    const v1, 0x7f0a00c3
+    const v1, 0x7f0a00c2
 
-    .line 135
+    .line 140
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -193,9 +200,9 @@
 
     if-eqz v9, :cond_0
 
-    const v1, 0x7f0a016a
+    const v1, 0x7f0a0168
 
-    .line 141
+    .line 146
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -206,9 +213,9 @@
 
     if-eqz v10, :cond_0
 
-    const v1, 0x7f0a0251
+    const v1, 0x7f0a024d
 
-    .line 147
+    .line 152
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -219,9 +226,9 @@
 
     if-eqz v11, :cond_0
 
-    const v1, 0x7f0a02a5
+    const v1, 0x7f0a029e
 
-    .line 153
+    .line 158
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -232,9 +239,9 @@
 
     if-eqz v12, :cond_0
 
-    const v1, 0x7f0a03dc
+    const v1, 0x7f0a03d4
 
-    .line 159
+    .line 164
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -245,9 +252,9 @@
 
     if-eqz v13, :cond_0
 
-    const v1, 0x7f0a03df
+    const v1, 0x7f0a03d7
 
-    .line 165
+    .line 170
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -258,9 +265,9 @@
 
     if-eqz v14, :cond_0
 
-    const v1, 0x7f0a051a
+    const v1, 0x7f0a0521
 
-    .line 171
+    .line 176
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -271,9 +278,9 @@
 
     if-eqz v15, :cond_0
 
-    const v1, 0x7f0a0566
+    const v1, 0x7f0a0571
 
-    .line 177
+    .line 182
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -284,7 +291,20 @@
 
     if-eqz v16, :cond_0
 
-    .line 182
+    const v1, 0x7f0a0572
+
+    .line 188
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v17, v2
+
+    check-cast v17, Landroid/widget/TextView;
+
+    if-eqz v17, :cond_0
+
+    .line 193
     new-instance v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;
 
     move-object v4, v0
@@ -293,11 +313,11 @@
 
     move-object v3, v1
 
-    invoke-direct/range {v3 .. v16}, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;-><init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    invoke-direct/range {v3 .. v17}, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;-><init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
     return-object v1
 
-    .line 186
+    .line 197
     :cond_0
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -307,7 +327,7 @@
 
     move-result-object v0
 
-    .line 187
+    .line 198
     new-instance v1, Ljava/lang/NullPointerException;
 
     const-string v2, "Missing required view with ID: "
@@ -336,7 +356,7 @@
 
     const/4 v1, 0x0
 
-    .line 91
+    .line 96
     invoke-static {p0, v0, v1}, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;
 
     move-result-object p0
@@ -359,21 +379,21 @@
         }
     .end annotation
 
-    const v0, 0x7f0d0042
+    const v0, 0x7f0d0041
 
     const/4 v1, 0x0
 
-    .line 97
+    .line 102
     invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
-    .line 99
+    .line 104
     invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 101
+    .line 106
     :cond_0
     invoke-static {p0}, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;
 
@@ -398,7 +418,7 @@
 .method public getRoot()Landroid/widget/RelativeLayout;
     .locals 1
 
-    .line 86
+    .line 91
     iget-object v0, p0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityWorkoutSummaryBinding;->rootView:Landroid/widget/RelativeLayout;
 
     return-object v0

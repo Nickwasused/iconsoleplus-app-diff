@@ -49,7 +49,13 @@
         }
     .end annotation
 
-    .line 705
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 734
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$dialog:Landroid/app/Dialog;
@@ -166,7 +172,7 @@
         }
     .end annotation
 
-    .line 749
+    .line 778
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$400(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -197,7 +203,7 @@
 
     invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 751
+    .line 780
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$200(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
@@ -238,7 +244,7 @@
 
     goto :goto_1
 
-    .line 725
+    .line 754
     :cond_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$dialog:Landroid/app/Dialog;
 
@@ -248,7 +254,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 727
+    .line 756
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$video:Lcom/changyow/iconsole4th/models/StreamVideo;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/models/StreamVideo;->hasMachine()Z
@@ -257,7 +263,7 @@
 
     if-eqz p2, :cond_1
 
-    .line 729
+    .line 758
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$btnReady:Landroid/widget/Button;
 
     const/4 v0, 0x0
@@ -266,18 +272,18 @@
 
     goto :goto_0
 
-    .line 733
+    .line 762
     :cond_1
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$dialog:Landroid/app/Dialog;
 
     invoke-virtual {p2}, Landroid/app/Dialog;->dismiss()V
 
-    .line 734
+    .line 763
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->val$player:Lcom/google/android/exoplayer2/SimpleExoPlayer;
 
     invoke-virtual {p2}, Lcom/google/android/exoplayer2/SimpleExoPlayer;->release()V
 
-    .line 735
+    .line 764
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->startWorkout()V
@@ -288,7 +294,7 @@
 
     goto :goto_1
 
-    .line 721
+    .line 750
     :cond_3
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -306,7 +312,7 @@
     :cond_5
     const-string p2, "ExoPlayer.STATE_IDLE      -"
 
-    .line 743
+    .line 772
     :goto_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 

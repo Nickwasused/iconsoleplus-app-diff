@@ -27,7 +27,7 @@
         "",
         "submitted",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -49,7 +49,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$6$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 166
+    .line 168
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +60,7 @@
 .method public onTextSubmitted(Ljava/lang/String;)V
     .locals 2
 
-    .line 168
+    .line 170
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$6$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -74,7 +74,7 @@
     :cond_0
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->setDescription(Ljava/lang/String;)V
 
-    .line 169
+    .line 171
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$6$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 

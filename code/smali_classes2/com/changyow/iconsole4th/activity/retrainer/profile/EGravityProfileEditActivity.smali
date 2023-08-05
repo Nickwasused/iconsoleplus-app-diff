@@ -13,12 +13,12 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 5 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,557:1\n1#2:558\n7#3:559\n7#3:560\n1851#4,2:561\n1851#4,2:563\n1851#4,2:565\n37#5:567\n36#5,3:568\n*S KotlinDebug\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity\n*L\n77#1:559\n78#1:560\n376#1:561,2\n449#1:563,2\n101#1:565,2\n179#1:567\n179#1:568,3\n*E\n"
+    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 5 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,567:1\n1#2:568\n7#3:569\n7#3:570\n1851#4,2:571\n1851#4,2:573\n1851#4,2:575\n37#5:577\n36#5,3:578\n*S KotlinDebug\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity\n*L\n79#1:569\n80#1:570\n386#1:571,2\n459#1:573,2\n103#1:575,2\n181#1:577\n181#1:578,3\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001:\u000267B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u000c\u001a\u00020(H\u0002J\u0008\u0010)\u001a\u00020(H\u0002J\u0008\u0010*\u001a\u00020(H\u0002J\u0008\u0010+\u001a\u00020\u0004H\u0002J\u0006\u0010,\u001a\u00020(J\u0006\u0010-\u001a\u00020(J\u0012\u0010.\u001a\u00020(2\u0008\u0010/\u001a\u0004\u0018\u000100H\u0014J\u0006\u00101\u001a\u00020(J\u0008\u00102\u001a\u00020(H\u0002J\u0008\u00103\u001a\u00020(H\u0002J\u0006\u00104\u001a\u00020(J\u0008\u00105\u001a\u00020(H\u0002R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R \u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00100\u000fX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u001c\u0010\u0015\u001a\u0004\u0018\u00010\u0016X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aR\u0010\u0010\u001b\u001a\u0004\u0018\u00010\u001cX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020#X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020%X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u00068"
+        "\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001:\u000278B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u000c\u001a\u00020(H\u0002J\u0008\u0010)\u001a\u00020(H\u0002J\u0008\u0010*\u001a\u00020(H\u0014J\u0008\u0010+\u001a\u00020(H\u0002J\u0008\u0010,\u001a\u00020\u0004H\u0002J\u0006\u0010-\u001a\u00020(J\u0006\u0010.\u001a\u00020(J\u0012\u0010/\u001a\u00020(2\u0008\u00100\u001a\u0004\u0018\u000101H\u0014J\u0006\u00102\u001a\u00020(J\u0008\u00103\u001a\u00020(H\u0002J\u0008\u00104\u001a\u00020(H\u0002J\u0006\u00105\u001a\u00020(J\u0008\u00106\u001a\u00020(H\u0002R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R \u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00100\u000fX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u001c\u0010\u0015\u001a\u0004\u0018\u00010\u0016X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aR\u0010\u0010\u001b\u001a\u0004\u0018\u00010\u001cX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020#X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020%X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u00069"
     }
     d2 = {
         "Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;",
@@ -63,6 +63,7 @@
         "weight2FocusChangeListener",
         "",
         "fetchExerciseList",
+        "initCustomTheme",
         "initRecyclerView",
         "isLegalProflie",
         "keyboardClosed",
@@ -77,7 +78,7 @@
         "trainingMode",
         "ItemViewHolder",
         "SetListAdapter",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -264,7 +265,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 41
+    .line 43
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -275,7 +276,7 @@
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 44
+    .line 46
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -284,12 +285,12 @@
 
     const/4 v0, 0x1
 
-    .line 47
+    .line 49
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->editMode:Z
 
     const/4 v0, -0x1
 
-    .line 59
+    .line 61
     iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     return-void
@@ -298,7 +299,7 @@
 .method public static final synthetic access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     return-object p0
@@ -307,7 +308,7 @@
 .method public static final synthetic access$getMContext$p$s91769465(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -316,7 +317,7 @@
 .method public static final synthetic access$getMachineMaxUserUnit$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)D
     .locals 2
 
-    .line 41
+    .line 43
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMaxUserUnit:D
 
     return-wide v0
@@ -325,7 +326,7 @@
 .method public static final synthetic access$getMachineMinUserUnit$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)D
     .locals 2
 
-    .line 41
+    .line 43
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMinUserUnit:D
 
     return-wide v0
@@ -334,7 +335,7 @@
 .method public static final synthetic access$getRepsFocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->repsFocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
     return-object p0
@@ -343,7 +344,7 @@
 .method public static final synthetic access$getSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)I
     .locals 0
 
-    .line 41
+    .line 43
     iget p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     return p0
@@ -352,7 +353,7 @@
 .method public static final synthetic access$getTextInputFilter$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->textInputFilter:Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
 
     return-object p0
@@ -361,7 +362,7 @@
 .method public static final synthetic access$getWeight1FocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->weight1FocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
     return-object p0
@@ -370,7 +371,7 @@
 .method public static final synthetic access$getWeight2FocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->weight2FocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
     return-object p0
@@ -379,7 +380,7 @@
 .method public static final synthetic access$isSingleMotor$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Z
     .locals 0
 
-    .line 41
+    .line 43
     iget-boolean p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->isSingleMotor:Z
 
     return p0
@@ -388,7 +389,7 @@
 .method public static final synthetic access$setCloudWorking$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;Z)V
     .locals 0
 
-    .line 41
+    .line 43
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->cloudWorking:Z
 
     return-void
@@ -397,7 +398,7 @@
 .method public static final synthetic access$setSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;I)V
     .locals 0
 
-    .line 41
+    .line 43
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     return-void
@@ -406,7 +407,7 @@
 .method private final editMode()V
     .locals 12
 
-    .line 352
+    .line 362
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
@@ -415,7 +416,7 @@
 
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->hide()V
 
-    .line 353
+    .line 363
     :cond_0
     new-instance v0, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -443,7 +444,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
-    .line 354
+    .line 364
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_1
@@ -469,7 +470,7 @@
 .method private final fetchExerciseList()V
     .locals 2
 
-    .line 330
+    .line 340
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1;
@@ -486,7 +487,7 @@
 .method private final initRecyclerView()V
     .locals 3
 
-    .line 408
+    .line 418
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_0
@@ -500,7 +501,7 @@
     :cond_0
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->rvSetList:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 409
+    .line 419
     new-instance v1, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -513,7 +514,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 410
+    .line 420
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
@@ -522,7 +523,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 412
+    .line 422
     new-instance v1, Landroidx/recyclerview/widget/ItemTouchHelper;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$initRecyclerView$1$1;
@@ -533,7 +534,7 @@
 
     invoke-direct {v1, v2}, Landroidx/recyclerview/widget/ItemTouchHelper;-><init>(Landroidx/recyclerview/widget/ItemTouchHelper$Callback;)V
 
-    .line 443
+    .line 453
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     return-void
@@ -542,7 +543,7 @@
 .method private final isLegalProflie()Z
     .locals 9
 
-    .line 368
+    .line 378
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     const/4 v1, 0x0
@@ -587,7 +588,7 @@
 
     goto/16 :goto_5
 
-    .line 372
+    .line 382
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -624,7 +625,7 @@
 
     goto :goto_4
 
-    .line 376
+    .line 386
     :cond_5
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -640,7 +641,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 561
+    .line 571
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -661,7 +662,7 @@
 
     check-cast v4, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;
 
-    .line 377
+    .line 387
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->getReps()I
 
     move-result v5
@@ -679,7 +680,7 @@
     :cond_7
     move v3, v2
 
-    .line 379
+    .line 389
     :cond_8
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->getWeight1()D
 
@@ -704,7 +705,7 @@
     :cond_9
     move v3, v2
 
-    .line 381
+    .line 391
     :cond_a
     iget-boolean v5, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->isSingleMotor:Z
 
@@ -749,7 +750,7 @@
     :goto_5
     const v0, 0x7f120347
 
-    .line 369
+    .line 379
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -768,14 +769,14 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 110
+    .line 112
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->bKeyboardOpened:Z
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 112
+    .line 114
     :cond_0
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
@@ -793,7 +794,7 @@
 
     const p1, 0x7f120391
 
-    .line 113
+    .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -804,7 +805,7 @@
 
     return-void
 
-    .line 116
+    .line 118
     :cond_1
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->isLegalProflie()Z
 
@@ -814,20 +815,20 @@
 
     return-void
 
-    .line 118
+    .line 120
     :cond_2
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->editMode:Z
 
     if-eqz p1, :cond_4
 
-    .line 119
+    .line 121
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->cloudWorking:Z
 
     if-eqz p1, :cond_3
 
     return-void
 
-    .line 122
+    .line 124
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -835,15 +836,15 @@
 
     const/4 v0, 0x1
 
-    .line 123
+    .line 125
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->cloudWorking:Z
 
-    .line 125
+    .line 127
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
-    .line 126
+    .line 128
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda3;
 
     invoke-direct {v1, p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
@@ -852,7 +853,7 @@
 
     goto :goto_0
 
-    .line 145
+    .line 147
     :cond_4
     new-instance p1, Landroid/content/Intent;
 
@@ -864,7 +865,7 @@
 
     invoke-direct {p1, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 146
+    .line 148
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v1, :cond_5
@@ -878,10 +879,10 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 147
+    .line 149
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 148
+    .line 150
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->finish()V
 
     :cond_6
@@ -900,7 +901,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 127
+    .line 129
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->deepClone()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     move-result-object p0
@@ -931,14 +932,14 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 152
+    .line 154
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->cloudWorking:Z
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 156
+    .line 158
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->onBackPressed()V
 
@@ -952,7 +953,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 165
+    .line 167
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     const-string v0, ""
@@ -987,7 +988,7 @@
     :goto_1
     const v1, 0x7f120346
 
-    .line 166
+    .line 168
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1010,7 +1011,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 174
+    .line 176
     new-instance p1, Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mExerciseList:Ljava/util/ArrayList;
@@ -1021,7 +1022,7 @@
 
     const v0, 0x7f120343
 
-    .line 175
+    .line 177
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -1030,10 +1031,10 @@
 
     invoke-virtual {p1, v1, v0}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 176
+    .line 178
     invoke-virtual {p1}, Ljava/util/ArrayList;->toArray()[Ljava/lang/Object;
 
-    .line 178
+    .line 180
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1042,14 +1043,14 @@
 
     invoke-direct {v0, v2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 179
+    .line 181
     move-object v2, p1
 
     check-cast v2, Ljava/util/Collection;
 
     new-array v1, v1, [Ljava/lang/String;
 
-    .line 570
+    .line 580
     invoke-interface {v2, v1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1060,7 +1061,7 @@
 
     check-cast v1, [Ljava/lang/CharSequence;
 
-    .line 179
+    .line 181
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda0;
 
     invoke-direct {v2, p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;Ljava/util/ArrayList;)V
@@ -1071,7 +1072,7 @@
 
     move-result-object p0
 
-    .line 203
+    .line 205
     invoke-virtual {p0}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -1090,10 +1091,10 @@
 
     if-nez p3, :cond_0
 
-    .line 181
+    .line 183
     invoke-interface {p2}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 183
+    .line 185
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     const p2, 0x7f120343
@@ -1102,7 +1103,7 @@
 
     move-result-object p1
 
-    .line 182
+    .line 184
     new-instance p2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
@@ -1113,7 +1114,7 @@
 
     goto :goto_1
 
-    .line 198
+    .line 200
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -1130,7 +1131,7 @@
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->setExercise(Ljava/lang/String;)V
 
-    .line 199
+    .line 201
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1160,7 +1161,7 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 200
+    .line 202
     invoke-interface {p2}, Landroid/content/DialogInterface;->dismiss()V
 
     :goto_1
@@ -1176,14 +1177,14 @@
 
     if-eqz p1, :cond_3
 
-    .line 187
+    .line 189
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
     if-lez v0, :cond_3
 
-    .line 188
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-nez v0, :cond_0
@@ -1193,7 +1194,7 @@
     :cond_0
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->setExercise(Ljava/lang/String;)V
 
-    .line 189
+    .line 191
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1223,7 +1224,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 191
+    .line 193
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -1245,7 +1246,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 192
+    .line 194
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -1266,7 +1267,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->saveExerciseName(Ljava/lang/String;)V
 
-    .line 193
+    .line 195
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda5;
@@ -1287,7 +1288,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 193
+    .line 195
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->fetchExerciseList()V
 
     return-void
@@ -1300,19 +1301,19 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 206
+    .line 208
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     if-ltz p1, :cond_2
 
-    .line 207
+    .line 209
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v0, :cond_0
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->copySet(I)V
 
-    .line 208
+    .line 210
     :cond_0
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1346,12 +1347,12 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 212
+    .line 214
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     if-ltz p1, :cond_2
 
-    .line 213
+    .line 215
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v0, :cond_0
@@ -1361,13 +1362,13 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 214
+    .line 216
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
-    .line 215
+    .line 217
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->toogleTools()V
 
-    .line 216
+    .line 218
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p0, :cond_1
@@ -1406,7 +1407,7 @@
 
     goto :goto_0
 
-    .line 301
+    .line 303
     :cond_0
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$WhenMappings;->$EnumSwitchMapping$0:[I
 
@@ -1427,13 +1428,13 @@
 
     goto :goto_1
 
-    .line 303
+    .line 305
     :cond_1
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->keyboardClosed()V
 
     goto :goto_1
 
-    .line 302
+    .line 304
     :cond_2
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->keyboardOpen()V
 
@@ -1448,7 +1449,7 @@
 
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 91
+    .line 93
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v0, :cond_0
@@ -1461,7 +1462,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->addSet(IDD)V
 
-    .line 92
+    .line 94
     :cond_0
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1495,7 +1496,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 99
+    .line 101
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
     move-result v0
@@ -1506,7 +1507,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setSelected(Z)V
 
-    .line 100
+    .line 102
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
     move-result p1
@@ -1517,7 +1518,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 101
+    .line 103
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz p1, :cond_0
@@ -1536,7 +1537,7 @@
 
     check-cast p1, Ljava/lang/Iterable;
 
-    .line 565
+    .line 575
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1554,7 +1555,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;
 
-    .line 102
+    .line 104
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->getWeight1()D
 
     move-result-wide v3
@@ -1563,7 +1564,7 @@
 
     goto :goto_1
 
-    .line 104
+    .line 106
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1582,7 +1583,7 @@
 
     goto :goto_2
 
-    .line 106
+    .line 108
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1597,7 +1598,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 107
+    .line 109
     :goto_2
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -1628,7 +1629,7 @@
 .method private final prepareMode()V
     .locals 3
 
-    .line 341
+    .line 351
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -1641,21 +1642,21 @@
 
     move-result v0
 
-    .line 342
+    .line 352
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->editMode:Z
 
     if-eqz v0, :cond_0
 
-    .line 344
+    .line 354
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->editMode()V
 
     goto :goto_0
 
-    .line 346
+    .line 356
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->trainingMode()V
 
-    .line 347
+    .line 357
     :goto_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getIntent()Landroid/content/Intent;
 
@@ -1669,7 +1670,7 @@
 
     if-nez v0, :cond_1
 
-    .line 348
+    .line 358
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -1683,7 +1684,7 @@
 .method private final setupInitActionbar()V
     .locals 3
 
-    .line 388
+    .line 398
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -1696,7 +1697,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 389
+    .line 399
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v1
@@ -1705,13 +1706,13 @@
 
     const/4 v2, 0x0
 
-    .line 390
+    .line 400
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 391
+    .line 401
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 392
+    .line 402
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v2
@@ -1722,22 +1723,22 @@
 
     const/4 v2, 0x1
 
-    .line 393
+    .line 403
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    .line 397
+    .line 407
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
     const/4 v2, 0x4
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 398
+    .line 408
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight2:Landroid/widget/ImageButton;
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 399
+    .line 409
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->txvTitle:Landroid/widget/TextView;
 
     const v2, 0x7f1203aa
@@ -1750,14 +1751,14 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 400
+    .line 410
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
     const v2, 0x7f080365
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 401
+    .line 411
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$$ExternalSyntheticLambda9;
@@ -1776,7 +1777,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 402
+    .line 412
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->onBackPressed()V
 
     return-void
@@ -1785,7 +1786,7 @@
 .method private final trainingMode()V
     .locals 4
 
-    .line 358
+    .line 368
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     const/4 v1, 0x0
@@ -1798,7 +1799,7 @@
 
     move-object v0, v1
 
-    .line 359
+    .line 369
     :cond_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnCancel:Landroid/widget/Button;
 
@@ -1806,14 +1807,14 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 360
+    .line 370
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnGo:Landroid/widget/Button;
 
     const v2, 0x7f120252
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
-    .line 362
+    .line 372
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
@@ -1822,7 +1823,7 @@
 
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->show()V
 
-    .line 363
+    .line 373
     :cond_1
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getIntent()Landroid/content/Intent;
 
@@ -1836,7 +1837,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 364
+    .line 374
     sget-object v1, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->Companion:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile$Companion;
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile$Companion;->fromJson(Ljava/lang/String;)Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -1903,7 +1904,7 @@
 .method public final getBKeyboardOpened()Z
     .locals 1
 
-    .line 311
+    .line 321
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->bKeyboardOpened:Z
 
     return v0
@@ -1920,7 +1921,7 @@
         }
     .end annotation
 
-    .line 44
+    .line 46
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mExerciseList:Ljava/util/ArrayList;
 
     return-object v0
@@ -1929,10 +1930,110 @@
 .method public final getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
     .locals 1
 
-    .line 43
+    .line 45
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     return-object v0
+.end method
+
+.method protected initCustomTheme()V
+    .locals 4
+
+    .line 314
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 315
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
+
+    const/4 v1, 0x0
+
+    const-string v2, "binding"
+
+    if-nez v0, :cond_0
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_0
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnGo:Landroid/widget/Button;
+
+    const-string v3, "binding.btnGo"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 316
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
+
+    if-nez v0, :cond_1
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_1
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnCancel:Landroid/widget/Button;
+
+    const-string v3, "binding.btnCancel"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeSecondaryColor(Landroid/view/View;)V
+
+    .line 317
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
+
+    if-nez v0, :cond_2
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_2
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnGo:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    invoke-virtual {v0, v3}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 318
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
+
+    if-nez v0, :cond_3
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_3
+    move-object v1, v0
+
+    :goto_0
+    iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;->btnCancel:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    return-void
 .end method
 
 .method public final keyboardClosed()V
@@ -1940,10 +2041,10 @@
 
     const/4 v0, 0x0
 
-    .line 321
+    .line 331
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->bKeyboardOpened:Z
 
-    .line 322
+    .line 332
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     const/4 v2, 0x0
@@ -1961,12 +2062,12 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 323
+    .line 333
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->editMode:Z
 
     if-eqz v1, :cond_2
 
-    .line 324
+    .line 334
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v1, :cond_1
@@ -1983,7 +2084,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 325
+    .line 335
     :cond_2
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getCurrentFocus()Landroid/view/View;
 
@@ -1993,7 +2094,7 @@
 
     invoke-virtual {v0}, Landroid/view/View;->clearFocus()V
 
-    .line 326
+    .line 336
     :cond_3
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->toogleTools()V
 
@@ -2005,10 +2106,10 @@
 
     const/4 v0, 0x1
 
-    .line 313
+    .line 323
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->bKeyboardOpened:Z
 
-    .line 314
+    .line 324
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     const/4 v1, 0x0
@@ -2028,7 +2129,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 315
+    .line 325
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_1
@@ -2042,7 +2143,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 316
+    .line 326
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_2
@@ -2058,7 +2159,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 317
+    .line 327
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_3
@@ -2081,10 +2182,10 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 12
 
-    .line 61
+    .line 63
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 62
+    .line 64
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -2105,7 +2206,7 @@
 
     if-nez p1, :cond_0
 
-    .line 63
+    .line 65
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     move-object p1, v1
@@ -2119,13 +2220,13 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->setContentView(Landroid/view/View;)V
 
-    .line 64
+    .line 66
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->setupInitActionbar()V
 
-    .line 65
+    .line 67
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->initRecyclerView()V
 
-    .line 67
+    .line 69
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -2152,7 +2253,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 69
+    .line 71
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerSupportFeature()Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;
 
     move-result-object v4
@@ -2181,11 +2282,11 @@
     :goto_1
     if-eqz v4, :cond_4
 
-    .line 70
+    .line 72
     :cond_3
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->isSingleMotor:Z
 
-    .line 71
+    .line 73
     :cond_4
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerLimits()Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
@@ -2193,19 +2294,19 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
-    .line 73
+    .line 75
     :cond_5
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->prepareMode()V
 
-    .line 74
+    .line 76
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-nez p1, :cond_6
 
-    .line 75
+    .line 77
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->finish()V
 
-    .line 77
+    .line 79
     :cond_6
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
@@ -2240,7 +2341,7 @@
 
     move-result-wide v4
 
-    .line 78
+    .line 80
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     if-eqz p1, :cond_9
@@ -2274,7 +2375,7 @@
 
     move-result-wide v6
 
-    .line 80
+    .line 82
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -2289,7 +2390,7 @@
 
     if-nez p1, :cond_b
 
-    .line 81
+    .line 83
     invoke-static {v4, v5}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
 
     move-result-wide v8
@@ -2304,7 +2405,7 @@
 
     iput-wide v8, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMinUserUnit:D
 
-    .line 82
+    .line 84
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
 
     move-result-wide v6
@@ -2317,7 +2418,7 @@
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMaxUserUnit:D
 
-    .line 83
+    .line 85
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz p1, :cond_c
@@ -2326,14 +2427,14 @@
 
     goto :goto_4
 
-    .line 85
+    .line 87
     :cond_b
     iput-wide v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMinUserUnit:D
 
-    .line 86
+    .line 88
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->machineMaxUserUnit:D
 
-    .line 90
+    .line 92
     :cond_c
     :goto_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
@@ -2353,12 +2454,12 @@
 
     invoke-virtual {p1, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 94
+    .line 96
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->isSingleMotor:Z
 
     if-eqz p1, :cond_10
 
-    .line 95
+    .line 97
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_e
@@ -2374,7 +2475,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 96
+    .line 98
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_f
@@ -2388,7 +2489,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 98
+    .line 100
     :cond_10
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -2407,7 +2508,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 109
+    .line 111
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_12
@@ -2425,7 +2526,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 151
+    .line 153
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_13
@@ -2443,7 +2544,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 162
+    .line 164
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz p1, :cond_14
@@ -2482,7 +2583,7 @@
 
     if-lez p1, :cond_18
 
-    .line 163
+    .line 165
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_16
@@ -2512,7 +2613,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 164
+    .line 166
     :cond_18
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -2531,7 +2632,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 173
+    .line 175
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_1a
@@ -2549,7 +2650,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 205
+    .line 207
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_1b
@@ -2567,7 +2668,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 211
+    .line 213
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez p1, :cond_1c
@@ -2585,7 +2686,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 220
+    .line 222
     new-instance p1, Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
 
     const/4 v0, 0x2
@@ -2602,7 +2703,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->textInputFilter:Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
 
-    .line 221
+    .line 223
     new-instance p1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$10;
 
     invoke-direct {p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$10;-><init>()V
@@ -2611,7 +2712,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->repsFocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
-    .line 243
+    .line 245
     new-instance p1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;
 
     invoke-direct {p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
@@ -2620,7 +2721,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->weight1FocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
-    .line 270
+    .line 272
     new-instance p1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$12;
 
     invoke-direct {p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$12;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
@@ -2629,7 +2730,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->weight2FocusChangeListener:Landroid/view/View$OnFocusChangeListener;
 
-    .line 299
+    .line 301
     new-instance p1, Lcom/changyow/iconsole4th/util/KeyboardTriggerBehavior;
 
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2642,7 +2743,7 @@
 
     invoke-direct {p1, v3, v2, v0, v1}, Lcom/changyow/iconsole4th/util/KeyboardTriggerBehavior;-><init>(Landroid/app/Activity;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    .line 300
+    .line 302
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-static {v0, v4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2655,7 +2756,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/changyow/iconsole4th/util/KeyboardTriggerBehavior;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 308
+    .line 310
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->prepareLinkState()V
 
     return-void
@@ -2664,7 +2765,7 @@
 .method public final prepareLinkState()V
     .locals 8
 
-    .line 449
+    .line 459
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     const/4 v1, 0x1
@@ -2679,7 +2780,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 563
+    .line 573
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2700,7 +2801,7 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;
 
-    .line 450
+    .line 460
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->getWeight1()D
 
     move-result-wide v4
@@ -2735,7 +2836,7 @@
     :cond_3
     if-eqz v1, :cond_5
 
-    .line 455
+    .line 465
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_4
@@ -2758,7 +2859,7 @@
 .method public final setBKeyboardOpened(Z)V
     .locals 0
 
-    .line 311
+    .line 321
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->bKeyboardOpened:Z
 
     return-void
@@ -2779,7 +2880,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 44
+    .line 46
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mExerciseList:Ljava/util/ArrayList;
 
     return-void
@@ -2788,7 +2889,7 @@
 .method public final setMProflie(Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;)V
     .locals 0
 
-    .line 43
+    .line 45
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     return-void
@@ -2797,7 +2898,7 @@
 .method public final toogleTools()V
     .locals 4
 
-    .line 459
+    .line 469
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->selectionIndex:I
 
     const/4 v1, 0x0
@@ -2808,7 +2909,7 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 460
+    .line 470
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_0
@@ -2824,7 +2925,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 461
+    .line 471
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_1
@@ -2843,7 +2944,7 @@
 
     goto :goto_2
 
-    .line 463
+    .line 473
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
@@ -2860,7 +2961,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 464
+    .line 474
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     if-nez v0, :cond_4

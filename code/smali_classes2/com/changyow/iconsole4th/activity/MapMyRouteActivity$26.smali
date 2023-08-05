@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 1311
+    .line 1321
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 1315
+    .line 1325
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -75,14 +75,14 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mChangeToLevel:I
 
-    .line 1316
+    .line 1326
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     const/4 v0, 0x0
 
     iput-boolean v0, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bChangeSent:Z
 
-    .line 1317
+    .line 1327
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iput-boolean v2, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bUserManualLevel:Z

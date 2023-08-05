@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 34
+    .line 35
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 38
+    .line 39
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;
@@ -67,7 +67,7 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 39
+    .line 40
     const-class v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -78,7 +78,7 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 40
+    .line 41
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->access$100(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;)Landroid/widget/Button;
@@ -99,15 +99,15 @@
 
     const-string v0, "Vo2Max"
 
-    .line 41
+    .line 42
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 42
+    .line 43
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 43
+    .line 44
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->finish()V

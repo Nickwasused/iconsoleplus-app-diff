@@ -27,7 +27,7 @@
         "onSuccess",
         "jsonElement",
         "Lcom/google/gson/JsonElement;",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -49,7 +49,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$setupInitActionbar$2$2$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
-    .line 101
+    .line 106
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
 
     return-void
@@ -74,7 +74,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 103
+    .line 108
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$setupInitActionbar$2$2$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->getMWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;

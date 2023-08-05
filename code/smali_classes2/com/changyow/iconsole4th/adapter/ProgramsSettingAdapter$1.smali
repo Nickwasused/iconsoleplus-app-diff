@@ -37,6 +37,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 118
     iput-object p1, p0, Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter$1;->this$0:Lcom/changyow/iconsole4th/adapter/ProgramsSettingAdapter;
 

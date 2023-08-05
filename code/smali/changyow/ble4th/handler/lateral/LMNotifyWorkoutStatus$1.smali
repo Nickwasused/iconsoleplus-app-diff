@@ -36,6 +36,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/lateral/LMNotifyWorkoutStatus;Lchangyow/ble4th/BLEPeripheralListener;IIIII)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 46
     iput-object p1, p0, Lchangyow/ble4th/handler/lateral/LMNotifyWorkoutStatus$1;->this$0:Lchangyow/ble4th/handler/lateral/LMNotifyWorkoutStatus;

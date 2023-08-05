@@ -34,21 +34,21 @@
         }
     .end annotation
 
-    .line 316
+    .line 323
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a0293
+    const v0, 0x7f0a028c
 
-    .line 318
+    .line 325
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
-    const v0, 0x7f0a0508
+    const v0, 0x7f0a050b
 
-    .line 319
+    .line 326
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -57,9 +57,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->txvName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0215
+    const v0, 0x7f0a0212
 
-    .line 320
+    .line 327
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1

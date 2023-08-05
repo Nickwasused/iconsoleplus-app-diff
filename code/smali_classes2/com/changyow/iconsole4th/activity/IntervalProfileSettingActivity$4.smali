@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->lambda$prepareUI$3$com-changyow-iconsole4th-activity-IntervalProfileSettingActivity(Landroid/view/View;)V
+    value = Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->prepareUI()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 256
+    .line 273
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,14 +56,14 @@
 
     const-string v0, "Replace"
 
-    .line 260
+    .line 277
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 261
+    .line 278
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
@@ -72,7 +72,7 @@
 
     goto :goto_0
 
-    .line 263
+    .line 280
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;
 
@@ -80,7 +80,7 @@
 
     invoke-static {p1, v0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->access$600(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
 
-    .line 265
+    .line 282
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;
 
@@ -104,7 +104,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 266
+    .line 283
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->access$800(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)V

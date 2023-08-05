@@ -120,7 +120,7 @@
 
     check-cast p2, Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0d00b7
+    const p3, 0x7f0d00b4
 
     const/4 v0, 0x0
 
@@ -139,7 +139,7 @@
 
     check-cast p3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
-    const v0, 0x7f0a0220
+    const v0, 0x7f0a021e
 
     .line 67
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0a0557
+    const v1, 0x7f0a0562
 
     .line 68
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a0574
+    const v2, 0x7f0a0580
 
     .line 69
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a0216
+    const v3, 0x7f0a0213
 
     .line 70
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,14 +175,14 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0a05a5
+    const v4, 0x7f0a05b1
 
     .line 71
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0a059c
+    const v5, 0x7f0a05a8
 
     .line 72
     invoke-virtual {p2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

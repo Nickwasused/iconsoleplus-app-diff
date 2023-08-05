@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;->f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showNeverAskAgainForBluetooth$12$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showNeverAskAgainForBluetooth$14$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

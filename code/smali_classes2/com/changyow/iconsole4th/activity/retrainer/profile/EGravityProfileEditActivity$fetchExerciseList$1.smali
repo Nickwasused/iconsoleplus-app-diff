@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,557:1\n1851#2,2:558\n*S KotlinDebug\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1\n*L\n333#1:558,2\n*E\n"
+    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,567:1\n1851#2,2:568\n*S KotlinDebug\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1\n*L\n343#1:568,2\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -32,7 +32,7 @@
         "exerciseList",
         "",
         "Lcom/changyow/iconsole4th/activity/retrainer/ExerciseItem;",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -54,7 +54,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 330
+    .line 340
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +73,7 @@
         }
     .end annotation
 
-    .line 332
+    .line 342
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMExerciseList()Ljava/util/ArrayList;
@@ -84,12 +84,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 333
+    .line 343
     check-cast p1, Ljava/lang/Iterable;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$fetchExerciseList$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 558
+    .line 568
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -107,7 +107,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/activity/retrainer/ExerciseItem;
 
-    .line 334
+    .line 344
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMExerciseList()Ljava/util/ArrayList;
 
     move-result-object v2

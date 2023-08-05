@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 157
+    .line 166
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 161
+    .line 170
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->addTimeSetup()V

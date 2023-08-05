@@ -45,7 +45,7 @@
     .line 285
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a044e
+    const v0, 0x7f0a0446
 
     .line 287
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileListActivity$ItemViewHolder;->swipeLayout:Lcom/daimajia/swipe/SwipeLayout;
 
-    const v0, 0x7f0a049f
+    const v0, 0x7f0a0498
 
     .line 288
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileListActivity$ItemViewHolder;->txv1:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04a4
+    const v0, 0x7f0a049b
 
     .line 289
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileListActivity$ItemViewHolder;->txv2:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04a9
+    const v0, 0x7f0a049e
 
     .line 290
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileListActivity$ItemViewHolder;->txv3:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04aa
+    const v0, 0x7f0a049f
 
     .line 291
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

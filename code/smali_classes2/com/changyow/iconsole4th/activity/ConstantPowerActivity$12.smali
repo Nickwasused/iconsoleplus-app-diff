@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 396
+    .line 407
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,12 +54,12 @@
         }
     .end annotation
 
-    .line 400
+    .line 411
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->showControlPanel()V
 
-    .line 401
+    .line 412
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -70,7 +70,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 402
+    .line 413
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -81,7 +81,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 403
+    .line 414
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$12;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 

@@ -37,6 +37,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 438
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIConnectDeviceActivity;
 

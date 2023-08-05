@@ -97,10 +97,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 51
+    .line 53
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 87
+    .line 89
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -113,7 +113,7 @@
 .method private initUI()V
     .locals 11
 
-    .line 196
+    .line 216
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda0;
@@ -122,7 +122,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 197
+    .line 217
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda1;
@@ -131,17 +131,17 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 199
+    .line 219
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/StreamFlowControl;->calcAvgAndMax()V
 
-    .line 200
+    .line 220
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->preparePieChart()V
 
-    .line 202
+    .line 222
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v0
@@ -156,9 +156,9 @@
 
     if-ge v0, v2, :cond_0
 
-    const v0, 0x7f0a050d
+    const v0, 0x7f0a0510
 
-    .line 204
+    .line 224
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -167,9 +167,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvNoHrData:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0245
+    const v0, 0x7f0a0244
 
-    .line 205
+    .line 225
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -178,9 +178,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout1:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a0248
+    const v0, 0x7f0a0245
 
-    .line 206
+    .line 226
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -189,9 +189,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a024d
+    const v0, 0x7f0a0247
 
-    .line 207
+    .line 227
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -200,9 +200,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout3:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a024e
+    const v0, 0x7f0a0248
 
-    .line 208
+    .line 228
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -211,41 +211,41 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout4:Landroid/widget/LinearLayout;
 
-    .line 210
+    .line 230
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvNoHrData:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 211
+    .line 231
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout1:Landroid/widget/LinearLayout;
 
     const/16 v3, 0x8
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 212
+    .line 232
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout2:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 213
+    .line 233
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout3:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 214
+    .line 234
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layout4:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 215
+    .line 235
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->streamSummaryHrChart:Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 219
+    .line 239
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->streamSummaryHrChart:Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
 
@@ -259,12 +259,12 @@
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;->setValueList(Ljava/util/List;)V
 
-    .line 220
+    .line 240
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->streamSummaryHrChart:Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;->invalidate()V
 
-    .line 223
+    .line 243
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvTimestamp:Landroid/widget/TextView;
 
@@ -278,14 +278,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 225
+    .line 245
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->ivAddFavorite:Landroid/widget/ImageView;
 
     sget-object v3, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda4;->INSTANCE:Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda4;
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 229
+    .line 249
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvCalories:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
@@ -302,7 +302,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 230
+    .line 250
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrValue:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
@@ -319,7 +319,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 231
+    .line 251
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrValue:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
@@ -336,7 +336,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 232
+    .line 252
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmValue:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
@@ -353,7 +353,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 233
+    .line 253
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceValue:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
@@ -370,7 +370,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 234
+    .line 254
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getPaceUnit()Ljava/lang/String;
@@ -379,14 +379,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 236
+    .line 256
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const v3, 0x7f0802c4
 
-    .line 237
+    .line 257
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -417,7 +417,7 @@
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 238
+    .line 258
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v3
@@ -430,7 +430,7 @@
 
     const v2, 0x7f0802c5
 
-    .line 240
+    .line 260
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -465,7 +465,7 @@
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 241
+    .line 261
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -500,7 +500,7 @@
 
     const v2, 0x7f0802c3
 
-    .line 242
+    .line 262
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -531,7 +531,7 @@
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 244
+    .line 264
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v2
@@ -544,7 +544,7 @@
 
     const v2, 0x7f0802c0
 
-    .line 246
+    .line 266
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -575,7 +575,7 @@
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 247
+    .line 267
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v2
@@ -588,7 +588,7 @@
 
     const v2, 0x7f080180
 
-    .line 248
+    .line 268
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -621,7 +621,7 @@
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 249
+    .line 269
     :cond_1
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
@@ -635,7 +635,7 @@
 
     const v2, 0x7f0802c1
 
-    .line 250
+    .line 270
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -673,7 +673,7 @@
     :cond_2
     const v2, 0x7f0802c2
 
-    .line 251
+    .line 271
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -708,7 +708,7 @@
 
     const v2, 0x7f0802c6
 
-    .line 252
+    .line 272
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -741,7 +741,7 @@
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 256
+    .line 276
     :cond_3
     :goto_1
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
@@ -752,7 +752,7 @@
 
     if-ge v1, v2, :cond_a
 
-    .line 258
+    .line 278
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v2
@@ -761,7 +761,7 @@
 
     goto/16 :goto_3
 
-    .line 261
+    .line 281
     :cond_4
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
@@ -771,43 +771,43 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    .line 262
+    .line 282
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/util/Map;
 
-    const v4, 0x7f0a0220
+    const v4, 0x7f0a021e
 
-    .line 264
+    .line 284
     invoke-virtual {v2, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0a0557
+    const v5, 0x7f0a0562
 
-    .line 265
+    .line 285
     invoke-virtual {v2, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0a0574
+    const v6, 0x7f0a0580
 
-    .line 266
+    .line 286
     invoke-virtual {v2, v6}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0a0570
+    const v7, 0x7f0a057c
 
-    .line 267
+    .line 287
     invoke-virtual {v2, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -827,7 +827,7 @@
     :cond_5
     const-string v7, "ICON"
 
-    .line 272
+    .line 292
     invoke-interface {v3, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -836,7 +836,7 @@
 
     const-string v8, "TITLE"
 
-    .line 273
+    .line 293
     invoke-interface {v3, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -845,7 +845,7 @@
 
     const-string v9, "VALUE"
 
-    .line 274
+    .line 294
     invoke-interface {v3, v9}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -854,7 +854,7 @@
 
     const-string v10, "UNIT"
 
-    .line 275
+    .line 295
     invoke-interface {v3, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -863,30 +863,30 @@
 
     if-eqz v7, :cond_6
 
-    .line 279
+    .line 299
     invoke-static {v7}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v7
 
-    .line 280
+    .line 300
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_6
     if-eqz v8, :cond_7
 
-    .line 283
+    .line 303
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_7
     if-eqz v9, :cond_8
 
-    .line 285
+    .line 305
     invoke-virtual {v6, v9}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_8
     if-eqz v3, :cond_9
 
-    .line 287
+    .line 307
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_9
@@ -925,18 +925,18 @@
 
     move v1, v0
 
-    .line 427
+    .line 451
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_3
 
-    .line 429
+    .line 453
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00ff
+    const v3, 0x7f0d00fc
 
     const/4 v4, 0x0
 
@@ -944,39 +944,39 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a0557
+    const v3, 0x7f0a0562
 
-    .line 430
+    .line 454
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a0574
+    const v4, 0x7f0a0580
 
-    .line 431
+    .line 455
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0a021c
+    const v5, 0x7f0a0219
 
-    .line 432
+    .line 456
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
     check-cast v5, Landroid/widget/ImageView;
 
-    .line 433
+    .line 457
     aget-object v6, p1, v1
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 435
+    .line 459
     aget-object v3, p2, v1
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -989,7 +989,7 @@
 
     mul-int/lit8 v3, v3, 0x3
 
-    .line 436
+    .line 460
     div-int/lit8 v7, v3, 0x3c
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1016,25 +1016,25 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 437
+    .line 461
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChartLegend:Landroid/widget/LinearLayout;
 
     invoke-virtual {v3, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 439
+    .line 463
     invoke-virtual {v5}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
-    .line 440
+    .line 464
     instance-of v3, v2, Landroid/graphics/drawable/ShapeDrawable;
 
     if-eqz v3, :cond_0
 
-    .line 443
+    .line 467
     check-cast v2, Landroid/graphics/drawable/ShapeDrawable;
 
-    .line 444
+    .line 468
     invoke-virtual {v2}, Landroid/graphics/drawable/ShapeDrawable;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -1049,16 +1049,16 @@
 
     goto :goto_1
 
-    .line 446
+    .line 470
     :cond_0
     instance-of v3, v2, Landroid/graphics/drawable/GradientDrawable;
 
     if-eqz v3, :cond_1
 
-    .line 449
+    .line 473
     check-cast v2, Landroid/graphics/drawable/GradientDrawable;
 
-    .line 450
+    .line 474
     aget-object v3, p3, v1
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -1069,18 +1069,18 @@
 
     goto :goto_1
 
-    .line 452
+    .line 476
     :cond_1
     instance-of v3, v2, Landroid/graphics/drawable/ColorDrawable;
 
     if-eqz v3, :cond_2
 
-    .line 455
+    .line 479
     check-cast v2, Landroid/graphics/drawable/ColorDrawable;
 
     const-string v3, "#f5cc60"
 
-    .line 456
+    .line 480
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v3
@@ -1100,71 +1100,71 @@
 .method private preparePieChart()V
     .locals 4
 
-    .line 320
+    .line 344
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/charts/PieChart;->setDrawHoleEnabled(Z)V
 
-    .line 321
+    .line 345
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/4 v2, 0x0
 
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/charts/PieChart;->setHoleColor(I)V
 
-    .line 322
+    .line 346
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/4 v3, -0x1
 
     invoke-virtual {v0, v3}, Lcom/github/mikephil/charting/charts/PieChart;->setTransparentCircleColor(I)V
 
-    .line 323
+    .line 347
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/16 v3, 0x6e
 
     invoke-virtual {v0, v3}, Lcom/github/mikephil/charting/charts/PieChart;->setTransparentCircleAlpha(I)V
 
-    .line 324
+    .line 348
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/high16 v3, 0x42400000    # 48.0f
 
     invoke-virtual {v0, v3}, Lcom/github/mikephil/charting/charts/PieChart;->setHoleRadius(F)V
 
-    .line 325
+    .line 349
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/high16 v3, 0x42480000    # 50.0f
 
     invoke-virtual {v0, v3}, Lcom/github/mikephil/charting/charts/PieChart;->setTransparentCircleRadius(F)V
 
-    .line 326
+    .line 350
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/charts/PieChart;->setDrawCenterText(Z)V
 
-    .line 327
+    .line 351
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/charts/PieChart;->setRotationAngle(F)V
 
-    .line 328
+    .line 352
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/charts/PieChart;->setRotationEnabled(Z)V
 
-    .line 329
+    .line 353
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/charts/PieChart;->setHighlightPerTapEnabled(Z)V
 
-    .line 330
+    .line 354
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     sget-object v1, Lcom/github/mikephil/charting/animation/Easing;->EaseInOutQuad:Lcom/github/mikephil/charting/animation/Easing$EasingFunction;
@@ -1173,22 +1173,22 @@
 
     invoke-virtual {v0, v3, v1}, Lcom/github/mikephil/charting/charts/PieChart;->animateY(ILcom/github/mikephil/charting/animation/Easing$EasingFunction;)V
 
-    .line 331
+    .line 355
     new-instance v0, Lcom/github/mikephil/charting/components/Description;
 
     invoke-direct {v0}, Lcom/github/mikephil/charting/components/Description;-><init>()V
 
     const-string v1, ""
 
-    .line 332
+    .line 356
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/components/Description;->setText(Ljava/lang/String;)V
 
-    .line 333
+    .line 357
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v1, v0}, Lcom/github/mikephil/charting/charts/PieChart;->setDescription(Lcom/github/mikephil/charting/components/Description;)V
 
-    .line 334
+    .line 358
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->preparePieData()Lcom/github/mikephil/charting/data/PieData;
@@ -1197,36 +1197,36 @@
 
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/charts/PieChart;->setData(Lcom/github/mikephil/charting/data/ChartData;)V
 
-    .line 335
+    .line 359
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/charts/PieChart;->setDrawEntryLabels(Z)V
 
-    .line 336
+    .line 360
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/github/mikephil/charting/charts/PieChart;->highlightValues([Lcom/github/mikephil/charting/highlight/Highlight;)V
 
-    .line 337
+    .line 361
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/charts/PieChart;->setDrawCenterText(Z)V
 
-    .line 340
+    .line 364
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0}, Lcom/github/mikephil/charting/charts/PieChart;->invalidate()V
 
-    .line 342
+    .line 366
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
     invoke-virtual {v0}, Lcom/github/mikephil/charting/charts/PieChart;->getLegend()Lcom/github/mikephil/charting/components/Legend;
 
     move-result-object v0
 
-    .line 343
+    .line 367
     invoke-virtual {v0, v2}, Lcom/github/mikephil/charting/components/Legend;->setEnabled(Z)V
 
     return-void
@@ -1237,22 +1237,22 @@
 
     move-object/from16 v0, p0
 
-    .line 348
+    .line 372
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 349
+    .line 373
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 350
+    .line 374
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 352
+    .line 376
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v4
@@ -1261,7 +1261,7 @@
 
     move-result-object v4
 
-    .line 353
+    .line 377
     invoke-interface {v4}, Ljava/util/List;->size()I
 
     move-result v5
@@ -1272,7 +1272,7 @@
 
     return-object v1
 
-    .line 362
+    .line 386
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
@@ -1318,7 +1318,7 @@
 
     double-to-int v5, v5
 
-    .line 369
+    .line 393
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1349,7 +1349,7 @@
 
     check-cast v16, Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 371
+    .line 395
     invoke-virtual/range {v16 .. v16}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getHeartRate()Ljava/util/ArrayList;
 
     move-result-object v16
@@ -1358,7 +1358,7 @@
 
     goto :goto_0
 
-    .line 375
+    .line 399
     :cond_2
     invoke-interface/range {v16 .. v16}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1381,7 +1381,7 @@
 
     move-object/from16 v19, v3
 
-    .line 377
+    .line 401
     invoke-virtual/range {v17 .. v17}, Lcom/changyow/iconsole4th/db/model/ValueStamp;->getValue()D
 
     move-result-wide v2
@@ -1433,7 +1433,7 @@
 
     move-object/from16 v19, v3
 
-    .line 391
+    .line 415
     new-instance v2, Lcom/github/mikephil/charting/data/PieEntry;
 
     int-to-float v3, v11
@@ -1446,7 +1446,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 392
+    .line 416
     new-instance v2, Lcom/github/mikephil/charting/data/PieEntry;
 
     int-to-float v3, v12
@@ -1461,7 +1461,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 393
+    .line 417
     new-instance v2, Lcom/github/mikephil/charting/data/PieEntry;
 
     int-to-float v3, v13
@@ -1476,7 +1476,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 394
+    .line 418
     new-instance v2, Lcom/github/mikephil/charting/data/PieEntry;
 
     int-to-float v3, v14
@@ -1491,7 +1491,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 395
+    .line 419
     new-instance v2, Lcom/github/mikephil/charting/data/PieEntry;
 
     int-to-float v3, v15
@@ -1508,7 +1508,7 @@
 
     const-string v2, "#e53a4d"
 
-    .line 397
+    .line 421
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1523,7 +1523,7 @@
 
     const-string v2, "#f5cc60"
 
-    .line 398
+    .line 422
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1536,7 +1536,7 @@
 
     const-string v2, "#84c575"
 
-    .line 399
+    .line 423
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1549,7 +1549,7 @@
 
     const-string v2, "#4589c6"
 
-    .line 400
+    .line 424
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1562,7 +1562,7 @@
 
     const-string v2, "#818284"
 
-    .line 401
+    .line 425
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1577,34 +1577,34 @@
 
     move-object/from16 v9, v18
 
-    .line 402
+    .line 426
     invoke-virtual {v9, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 404
+    .line 428
     new-instance v9, Lcom/github/mikephil/charting/data/PieDataSet;
 
     invoke-direct {v9, v1, v2}, Lcom/github/mikephil/charting/data/PieDataSet;-><init>(Ljava/util/List;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 405
+    .line 429
     invoke-virtual {v9, v1}, Lcom/github/mikephil/charting/data/PieDataSet;->setSliceSpace(F)V
 
-    .line 406
+    .line 430
     invoke-virtual {v9, v1}, Lcom/github/mikephil/charting/data/PieDataSet;->setSelectionShift(F)V
 
-    .line 407
+    .line 431
     invoke-virtual {v9, v6}, Lcom/github/mikephil/charting/data/PieDataSet;->setDrawValues(Z)V
 
-    .line 408
+    .line 432
     invoke-virtual {v9, v3}, Lcom/github/mikephil/charting/data/PieDataSet;->setColors(Ljava/util/List;)V
 
-    .line 410
+    .line 434
     new-instance v1, Lcom/github/mikephil/charting/data/PieData;
 
     invoke-direct {v1, v9}, Lcom/github/mikephil/charting/data/PieData;-><init>(Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet;)V
 
-    .line 411
+    .line 435
     new-instance v2, Lcom/github/mikephil/charting/formatter/PercentFormatter;
 
     invoke-direct {v2}, Lcom/github/mikephil/charting/formatter/PercentFormatter;-><init>()V
@@ -1613,13 +1613,13 @@
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 412
+    .line 436
     invoke-virtual {v1, v2}, Lcom/github/mikephil/charting/data/PieData;->setValueTextSize(F)V
 
-    .line 413
+    .line 437
     invoke-virtual {v1, v6}, Lcom/github/mikephil/charting/data/PieData;->setDrawValues(Z)V
 
-    .line 414
+    .line 438
     invoke-virtual {v1, v6}, Lcom/github/mikephil/charting/data/PieData;->setValueTextColor(I)V
 
     const/4 v2, 0x5
@@ -1628,7 +1628,7 @@
 
     const v10, 0x7f1203f9
 
-    .line 416
+    .line 440
     invoke-virtual {v0, v10}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v10
@@ -1669,7 +1669,7 @@
 
     new-array v2, v2, [Ljava/lang/Integer;
 
-    .line 417
+    .line 441
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v10
@@ -1702,14 +1702,14 @@
 
     new-array v4, v6, [Ljava/lang/Integer;
 
-    .line 418
+    .line 442
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, [Ljava/lang/Integer;
 
-    .line 420
+    .line 444
     invoke-direct {v0, v9, v2, v3}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->prepareLegend([Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;)V
 
     return-object v1
@@ -1718,71 +1718,71 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 151
+    .line 171
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 152
+    .line 172
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 153
+    .line 173
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 155
+    .line 175
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 156
+    .line 176
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 158
+    .line 178
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 159
+    .line 179
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 161
+    .line 181
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 162
+    .line 182
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 163
+    .line 183
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 164
+    .line 184
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -1791,32 +1791,32 @@
 
     const v4, 0x7f1203ff
 
-    .line 166
+    .line 186
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080199
 
-    .line 167
+    .line 187
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f0801a9
 
-    .line 168
+    .line 188
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f0802a5
 
-    .line 169
+    .line 189
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 171
+    .line 191
     new-instance v0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 191
+    .line 211
     new-instance v0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda3;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;)V
@@ -1829,7 +1829,7 @@
 .method private showRPEDialog()V
     .locals 7
 
-    .line 463
+    .line 487
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v0
@@ -1838,7 +1838,7 @@
 
     move-result-object v0
 
-    .line 464
+    .line 488
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1847,7 +1847,7 @@
 
     return-void
 
-    .line 467
+    .line 491
     :cond_0
     new-instance v1, Landroid/app/Dialog;
 
@@ -1857,12 +1857,12 @@
 
     invoke-direct {v1, v2, v3}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0d00cb
+    const v2, 0x7f0d00c8
 
-    .line 468
+    .line 492
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 469
+    .line 493
     invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v2
@@ -1875,7 +1875,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 470
+    .line 494
     invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v2
@@ -1884,27 +1884,34 @@
 
     invoke-virtual {v2, v3, v3}, Landroid/view/Window;->setFlags(II)V
 
-    const v2, 0x7f0a03f8
+    .line 495
+    invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
-    .line 472
+    move-result-object v2
+
+    invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    const v2, 0x7f0a03f0
+
+    .line 497
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/SeekBar;
 
-    const v3, 0x7f0a051b
+    const v3, 0x7f0a0522
 
-    .line 473
+    .line 498
     invoke-virtual {v1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0a023c
+    const v5, 0x7f0a023b
 
-    .line 474
+    .line 499
     invoke-virtual {v1, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
@@ -1913,25 +1920,25 @@
 
     const-string v6, "ai_training_rest_animation_checkmark.json"
 
-    .line 476
+    .line 501
     invoke-virtual {v5, v6}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
     const/4 v6, 0x1
 
-    .line 477
+    .line 502
     invoke-virtual {v5, v6}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatCount(I)V
 
-    .line 479
+    .line 504
     new-instance v6, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$3;
 
     invoke-direct {v6, p0, v3, v5, v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;Landroid/widget/TextView;Lcom/airbnb/lottie/LottieAnimationView;Ljava/util/List;)V
 
     invoke-virtual {v2, v6}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 532
+    .line 557
     invoke-virtual {v1, v4}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 533
+    .line 558
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     return-void
@@ -1948,63 +1955,47 @@
         }
     .end annotation
 
-    .line 304
+    .line 324
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
 
-    const-string v1, "#ff541e"
+    const/4 v1, 0x0
 
-    const-string v2, "#6b6b6b"
+    const/4 v2, 0x1
 
     if-ne p1, v0, :cond_0
 
-    .line 306
+    .line 326
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChart:Landroid/view/ViewGroup;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->bringToFront()V
 
-    .line 307
-    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
-
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
-
-    move-result v0
-
-    invoke-virtual {p1, v0}, Landroid/widget/Button;->setTextColor(I)V
-
-    .line 308
+    .line 327
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
 
-    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    invoke-virtual {p1, v1}, Landroid/widget/Button;->setSelected(Z)V
 
-    move-result v0
+    .line 328
+    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
 
-    invoke-virtual {p1, v0}, Landroid/widget/Button;->setTextColor(I)V
+    invoke-virtual {p1, v2}, Landroid/widget/Button;->setSelected(Z)V
 
     goto :goto_0
 
-    .line 312
+    .line 334
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutDetail:Landroid/view/ViewGroup;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->bringToFront()V
 
-    .line 313
-    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
-
-    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
-
-    move-result v0
-
-    invoke-virtual {p1, v0}, Landroid/widget/Button;->setTextColor(I)V
-
-    .line 314
+    .line 335
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
 
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    invoke-virtual {p1, v2}, Landroid/widget/Button;->setSelected(Z)V
 
-    move-result v0
+    .line 336
+    iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
 
-    invoke-virtual {p1, v0}, Landroid/widget/Button;->setTextColor(I)V
+    invoke-virtual {p1, v1}, Landroid/widget/Button;->setSelected(Z)V
 
     :goto_0
     return-void
@@ -2012,10 +2003,82 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 7
+
+    .line 154
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 155
+    new-instance v0, Landroid/content/res/ColorStateList;
+
+    const/4 v1, 0x2
+
+    new-array v2, v1, [[I
+
+    const/4 v3, 0x1
+
+    new-array v4, v3, [I
+
+    const v5, -0x10100a1
+
+    const/4 v6, 0x0
+
+    aput v5, v4, v6
+
+    aput-object v4, v2, v6
+
+    new-array v4, v3, [I
+
+    const v5, 0x10100a1
+
+    aput v5, v4, v6
+
+    aput-object v4, v2, v3
+
+    new-array v1, v1, [I
+
+    .line 161
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v4
+
+    aput v4, v1, v6
+
+    .line 162
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v4
+
+    aput v4, v1, v3
+
+    invoke-direct {v0, v2, v1}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    .line 165
+    iget-object v1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
+
+    invoke-virtual {v1, v0}, Landroid/widget/Button;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 166
+    iget-object v1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
+
+    invoke-virtual {v1, v0}, Landroid/widget/Button;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    return-void
+.end method
+
 .method synthetic lambda$initUI$2$com-changyow-iconsole4th-activity-streaming-StreamSummaryActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 196
+    .line 216
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnChart:Landroid/widget/Button;
 
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->togglePage(Landroid/view/View;)V
@@ -2026,7 +2089,7 @@
 .method synthetic lambda$initUI$3$com-changyow-iconsole4th-activity-streaming-StreamSummaryActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 197
+    .line 217
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
 
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->togglePage(Landroid/view/View;)V
@@ -2037,7 +2100,7 @@
 .method synthetic lambda$setupInitActionbar$0$com-changyow-iconsole4th-activity-streaming-StreamSummaryActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 172
+    .line 192
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -2046,7 +2109,7 @@
 
     const v0, 0x7f1201a7
 
-    .line 173
+    .line 193
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
@@ -2057,7 +2120,7 @@
 
     const v1, 0x7f120277
 
-    .line 174
+    .line 194
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
@@ -2068,17 +2131,17 @@
 
     const v1, 0x7f12023c
 
-    .line 181
+    .line 201
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 187
+    .line 207
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 188
+    .line 208
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -2087,7 +2150,7 @@
 .method synthetic lambda$setupInitActionbar$1$com-changyow-iconsole4th-activity-streaming-StreamSummaryActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 191
+    .line 211
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->showRPEDialog()V
 
     return-void
@@ -2125,29 +2188,29 @@
         }
     .end annotation
 
-    .line 293
+    .line 313
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     const-string v1, "ICON"
 
-    .line 294
+    .line 314
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "TITLE"
 
-    .line 295
+    .line 315
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "VALUE"
 
-    .line 296
+    .line 316
     invoke-interface {v0, p1, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "UNIT"
 
-    .line 297
+    .line 317
     invoke-interface {v0, p1, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object v0
@@ -2164,17 +2227,17 @@
         }
     .end annotation
 
-    .line 98
+    .line 100
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0064
+    const p1, 0x7f0d0061
 
-    .line 99
+    .line 101
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->setContentView(I)V
 
     const p1, 0x7f0a009a
 
-    .line 100
+    .line 102
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2185,7 +2248,7 @@
 
     const p1, 0x7f0a009f
 
-    .line 101
+    .line 103
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2194,9 +2257,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->btnDetail:Landroid/widget/Button;
 
-    const p1, 0x7f0a0253
+    const p1, 0x7f0a024f
 
-    .line 102
+    .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2205,29 +2268,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutBtnPanel:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0556
-
-    .line 103
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvTimestamp:Landroid/widget/TextView;
-
-    const p1, 0x7f0a0211
-
-    .line 104
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/ImageView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->ivAddFavorite:Landroid/widget/ImageView;
-
-    const p1, 0x7f0a04b8
+    const p1, 0x7f0a0561
 
     .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2236,20 +2277,20 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvCalories:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvTimestamp:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b0
+    const p1, 0x7f0a020f
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/ImageView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->ivAddFavorite:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a04b2
+    const p1, 0x7f0a04af
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2258,9 +2299,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrValue:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvCalories:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b1
+    const p1, 0x7f0a04a7
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2269,9 +2310,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrUnit:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04fe
+    const p1, 0x7f0a04a9
 
     .line 109
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2280,9 +2321,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0500
+    const p1, 0x7f0a04a8
 
     .line 110
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2291,9 +2332,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrValue:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvAvgHrUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04ff
+    const p1, 0x7f0a0501
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2302,31 +2343,31 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrUnit:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a027c
+    const p1, 0x7f0a0503
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/LinearLayout;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutHrZone:Landroid/widget/LinearLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a038a
+    const p1, 0x7f0a0502
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Lcom/github/mikephil/charting/charts/PieChart;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvMaxHrUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0258
+    const p1, 0x7f0a0276
 
     .line 114
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2335,31 +2376,31 @@
 
     check-cast p1, Landroid/widget/LinearLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChartLegend:Landroid/widget/LinearLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutHrZone:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0523
+    const p1, 0x7f0a0382
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Lcom/github/mikephil/charting/charts/PieChart;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->pieChart:Lcom/github/mikephil/charting/charts/PieChart;
 
-    const p1, 0x7f0a0525
+    const p1, 0x7f0a0254
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/LinearLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmValue:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChartLegend:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0524
+    const p1, 0x7f0a052a
 
     .line 117
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2368,9 +2409,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmUnit:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0510
+    const p1, 0x7f0a052c
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2379,9 +2420,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0512
+    const p1, 0x7f0a052b
 
     .line 119
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2390,9 +2431,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceValue:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvRpmUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0511
+    const p1, 0x7f0a0513
 
     .line 120
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2401,31 +2442,31 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceUnit:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a038b
+    const p1, 0x7f0a0515
 
     .line 121
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/view/ViewGroup;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece1:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a038d
+    const p1, 0x7f0a0514
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/view/ViewGroup;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece2:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->txvPaceUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a038e
+    const p1, 0x7f0a0383
 
     .line 123
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2434,9 +2475,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece3:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece1:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a038f
+    const p1, 0x7f0a0385
 
     .line 124
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2445,9 +2486,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece4:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece2:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0390
+    const p1, 0x7f0a0386
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2456,9 +2497,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece5:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece3:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0391
+    const p1, 0x7f0a0387
 
     .line 126
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2467,9 +2508,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece6:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece4:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0392
+    const p1, 0x7f0a0388
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2478,9 +2519,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece7:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece5:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0393
+    const p1, 0x7f0a0389
 
     .line 128
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2489,9 +2530,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece8:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece6:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0394
+    const p1, 0x7f0a038a
 
     .line 129
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2500,9 +2541,9 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece9:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece7:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a038c
+    const p1, 0x7f0a038b
 
     .line 130
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2511,20 +2552,20 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece10:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece8:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0444
+    const p1, 0x7f0a038c
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
+    check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->streamSummaryHrChart:Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece9:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0257
+    const p1, 0x7f0a0384
 
     .line 132
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2533,11 +2574,33 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChart:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece10:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0a0269
+    const p1, 0x7f0a043c
 
     .line 133
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->streamSummaryHrChart:Lcom/changyow/iconsole4th/view/StreamSummaryHrChart;
+
+    const p1, 0x7f0a0253
+
+    .line 134
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/view/ViewGroup;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutChart:Landroid/view/ViewGroup;
+
+    const p1, 0x7f0a0264
+
+    .line 135
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2546,80 +2609,80 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->layoutDetail:Landroid/view/ViewGroup;
 
-    .line 135
+    .line 137
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece1:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 136
+    .line 138
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece2:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 137
+    .line 139
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece3:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 138
+    .line 140
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece4:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 139
+    .line 141
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece5:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 140
+    .line 142
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece6:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 141
+    .line 143
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece7:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 142
+    .line 144
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece8:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 143
+    .line 145
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece9:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 144
+    .line 146
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->mPieces:Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->piece10:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 145
+    .line 147
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->setupInitActionbar()V
 
-    .line 146
+    .line 148
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->initUI()V
 
     return-void

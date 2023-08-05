@@ -19,10 +19,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 13
+    .line 14
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 50
+    .line 57
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;)V
@@ -35,7 +35,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 13
+    .line 14
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -44,7 +44,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 13
+    .line 14
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMins:Landroid/widget/Button;
 
     return-object p0
@@ -53,7 +53,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 13
+    .line 14
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMiles:Landroid/widget/Button;
 
     return-object p0
@@ -61,6 +61,20 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 53
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 54
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnGo:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
     .annotation system Ldalvik/annotation/MethodParameters;
@@ -72,17 +86,17 @@
         }
     .end annotation
 
-    .line 24
+    .line 25
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0025
 
-    .line 25
+    .line 26
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->setContentView(I)V
 
     const p1, 0x7f0a00a9
 
-    .line 26
+    .line 27
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -91,9 +105,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnGo:Landroid/widget/Button;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0244
 
-    .line 27
+    .line 28
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -102,18 +116,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->layout1:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a00b5
-
-    .line 28
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/Button;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMiles:Landroid/widget/Button;
-
-    const p1, 0x7f0a00b6
+    const p1, 0x7f0a00b4
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
@@ -122,23 +125,34 @@
 
     check-cast p1, Landroid/widget/Button;
 
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMiles:Landroid/widget/Button;
+
+    const p1, 0x7f0a00b5
+
+    .line 30
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/Button;
+
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMins:Landroid/widget/Button;
 
-    .line 31
+    .line 32
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMiles:Landroid/widget/Button;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 32
+    .line 33
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMins:Landroid/widget/Button;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 33
+    .line 34
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnGo:Landroid/widget/Button;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity$1;
@@ -147,7 +161,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 47
+    .line 48
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxCooperTestActivity;->btnMins:Landroid/widget/Button;
 
     const/4 v0, 0x1

@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 33
+    .line 40
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 37
+    .line 44
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->uploadUserProfile()V
 
-    .line 38
+    .line 45
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/aitraining/RestHrResultActivity;->finish()V

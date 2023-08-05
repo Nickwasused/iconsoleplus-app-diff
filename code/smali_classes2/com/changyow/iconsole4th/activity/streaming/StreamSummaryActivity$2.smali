@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->lambda$setupInitActionbar$0(Landroid/view/View;)V
+    value = Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->setupInitActionbar()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 175
+    .line 195
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 178
+    .line 198
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamSummaryActivity;->finish()V

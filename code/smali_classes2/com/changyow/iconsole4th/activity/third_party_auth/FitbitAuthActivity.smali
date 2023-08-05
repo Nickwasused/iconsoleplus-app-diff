@@ -100,12 +100,12 @@
     .line 26
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0043
+    const p1, 0x7f0d0042
 
     .line 27
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/FitbitAuthActivity;->setContentView(I)V
 
-    const p1, 0x7f0a05be
+    const p1, 0x7f0a05ca
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/third_party_auth/FitbitAuthActivity;->findViewById(I)Landroid/view/View;

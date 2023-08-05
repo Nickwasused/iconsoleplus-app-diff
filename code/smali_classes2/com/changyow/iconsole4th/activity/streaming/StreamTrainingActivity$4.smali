@@ -37,17 +37,17 @@
         }
     .end annotation
 
-    .line 922
+    .line 951
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 959
+    .line 988
     iput p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
-    .line 1074
+    .line 1103
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->bShow:Z
 
     return-void
@@ -84,7 +84,7 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1060
+    .line 1089
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$1900(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)Z
@@ -93,17 +93,17 @@
 
     if-nez p1, :cond_0
 
-    .line 1062
+    .line 1091
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$2000(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
 
     const/4 p1, 0x0
 
-    .line 1063
+    .line 1092
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->bShow:Z
 
-    .line 1064
+    .line 1093
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$2100(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
@@ -187,7 +187,7 @@
 
     if-nez p13, :cond_1
 
-    .line 1022
+    .line 1051
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v2
@@ -200,7 +200,7 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 1024
+    .line 1053
     iget v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
     const/4 v3, 0x5
@@ -209,12 +209,12 @@
 
     add-int/2addr v2, v1
 
-    .line 1025
+    .line 1054
     iput v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
     goto :goto_0
 
-    .line 1027
+    .line 1056
     :cond_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -225,10 +225,10 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 1030
+    .line 1059
     iput v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
-    .line 1033
+    .line 1062
     :goto_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -238,12 +238,12 @@
 
     if-ne v2, v12, :cond_2
 
-    .line 1034
+    .line 1063
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v2, v1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$1402(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;Z)Z
 
-    .line 1035
+    .line 1064
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -255,12 +255,12 @@
 
     if-eqz v2, :cond_3
 
-    .line 1036
+    .line 1065
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v2, v1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$1502(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;Z)Z
 
-    .line 1038
+    .line 1067
     :cond_3
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -270,12 +270,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 1039
+    .line 1068
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v1, v12}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$1702(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;I)I
 
-    .line 1040
+    .line 1069
     :cond_4
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -287,7 +287,7 @@
 
     move-result v9
 
-    .line 1042
+    .line 1071
     iget-object v13, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v13}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$1800(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)I
@@ -312,7 +312,7 @@
 
     invoke-virtual/range {v13 .. v25}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->updateData(IIIDDIDII)V
 
-    .line 1043
+    .line 1072
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v1
@@ -407,7 +407,7 @@
 
     if-nez v1, :cond_2
 
-    .line 964
+    .line 993
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -420,7 +420,7 @@
 
     if-eq v4, v5, :cond_2
 
-    .line 966
+    .line 995
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -439,10 +439,10 @@
 
     if-ge v4, v5, :cond_0
 
-    .line 967
+    .line 996
     iput v3, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
-    .line 968
+    .line 997
     :cond_0
     iget v4, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
@@ -452,12 +452,12 @@
 
     add-int/2addr v4, v2
 
-    .line 969
+    .line 998
     iput v4, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
     goto :goto_0
 
-    .line 971
+    .line 1000
     :cond_1
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -465,11 +465,11 @@
 
     goto :goto_0
 
-    .line 974
+    .line 1003
     :cond_2
     iput v3, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->pauseCheck:I
 
-    .line 976
+    .line 1005
     :goto_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -489,22 +489,22 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 978
+    .line 1007
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$800(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
 
-    .line 979
+    .line 1008
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     iput v3, v2, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->mCountdown:I
 
-    .line 980
+    .line 1009
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$900(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
 
-    .line 982
+    .line 1011
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -532,12 +532,12 @@
 
     if-nez v1, :cond_4
 
-    .line 983
+    .line 1012
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->stopWorkout()V
 
-    .line 985
+    .line 1014
     :cond_4
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -547,7 +547,7 @@
 
     if-eqz v1, :cond_5
 
-    .line 986
+    .line 1015
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     move/from16 v2, p12
@@ -559,7 +559,7 @@
     :cond_5
     move/from16 v2, p12
 
-    .line 987
+    .line 1016
     :goto_1
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
@@ -571,7 +571,7 @@
 
     move-result v1
 
-    .line 996
+    .line 1025
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v4
@@ -586,7 +586,7 @@
 
     if-nez v4, :cond_6
 
-    .line 998
+    .line 1027
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     iget v4, v4, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->mUserAge:I
@@ -601,13 +601,13 @@
 
     invoke-static {v3, v1, v4, v5, v6}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(IIIII)V
 
-    .line 999
+    .line 1028
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getDistance()D
 
-    .line 1000
+    .line 1029
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getTime()I
 
-    .line 1001
+    .line 1030
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v4
@@ -642,7 +642,7 @@
 
     goto :goto_2
 
-    .line 1003
+    .line 1032
     :cond_6
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -654,12 +654,12 @@
 
     if-eqz v3, :cond_7
 
-    .line 1005
+    .line 1034
     invoke-static/range {p4 .. p4}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
     goto :goto_2
 
-    .line 1010
+    .line 1039
     :cond_7
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -681,7 +681,7 @@
 
     invoke-virtual/range {v4 .. v16}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->updateData(IDIDDIDI)V
 
-    .line 1011
+    .line 1040
     invoke-static {}, Lcom/changyow/iconsole4th/StreamFlowControl;->getInstance()Lcom/changyow/iconsole4th/StreamFlowControl;
 
     move-result-object v4
@@ -705,7 +705,7 @@
 
     if-nez p1, :cond_1
 
-    .line 949
+    .line 978
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -728,7 +728,7 @@
 
     goto :goto_0
 
-    .line 952
+    .line 981
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -740,7 +740,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 955
+    .line 984
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -761,7 +761,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 956
+    .line 985
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
@@ -796,7 +796,7 @@
 .method public onWaitForStart()V
     .locals 1
 
-    .line 1079
+    .line 1108
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$2200(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)Z
@@ -813,7 +813,7 @@
 
     if-nez v0, :cond_1
 
-    .line 1081
+    .line 1110
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->bShow:Z
 
     if-eqz v0, :cond_0
@@ -823,15 +823,15 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 1083
+    .line 1112
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->bShow:Z
 
-    .line 1084
+    .line 1113
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$2400(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V
 
-    .line 1085
+    .line 1114
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;->access$2500(Lcom/changyow/iconsole4th/activity/streaming/StreamTrainingActivity;)V

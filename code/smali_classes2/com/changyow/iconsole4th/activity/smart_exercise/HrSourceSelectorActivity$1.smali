@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 137
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 144
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$1;->val$refreshLayout:Lcom/dinuscxj/refresh/RecyclerRefreshLayout;
@@ -52,14 +58,14 @@
 .method public onRefresh()V
     .locals 2
 
-    .line 141
+    .line 148
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$1;->val$refreshLayout:Lcom/dinuscxj/refresh/RecyclerRefreshLayout;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/dinuscxj/refresh/RecyclerRefreshLayout;->setRefreshing(Z)V
 
-    .line 142
+    .line 149
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -70,14 +76,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 143
+    .line 150
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEManager;->cancelPeripheralConnection()V
 
-    .line 146
+    .line 153
     :cond_0
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
@@ -86,7 +92,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEManager;->stopScanPeripherals()V
 
-    .line 147
+    .line 154
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -95,13 +101,13 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 153
+    .line 160
     :catch_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;)V
 
-    .line 154
+    .line 161
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$1;->val$refreshLayout:Lcom/dinuscxj/refresh/RecyclerRefreshLayout;
 
     const/4 v1, 0x0

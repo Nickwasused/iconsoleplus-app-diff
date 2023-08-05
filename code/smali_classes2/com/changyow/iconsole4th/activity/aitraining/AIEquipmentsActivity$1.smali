@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 45
+    .line 46
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -70,7 +70,7 @@
         }
     .end annotation
 
-    .line 49
+    .line 50
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->access$000(Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;)Lcom/changyow/iconsole4th/adapter/aitraining/AIEquipmentListAdapter;
@@ -79,7 +79,7 @@
 
     invoke-virtual {p1, p3}, Lcom/changyow/iconsole4th/adapter/aitraining/AIEquipmentListAdapter;->triggerPosition(I)V
 
-    .line 50
+    .line 51
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->access$000(Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;)Lcom/changyow/iconsole4th/adapter/aitraining/AIEquipmentListAdapter;
@@ -92,7 +92,7 @@
 
     if-lez p1, :cond_0
 
-    .line 51
+    .line 52
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;->access$100(Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;)Landroid/widget/Button;
@@ -105,7 +105,7 @@
 
     goto :goto_0
 
-    .line 53
+    .line 54
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIEquipmentsActivity;
 

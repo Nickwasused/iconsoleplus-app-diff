@@ -6,9 +6,9 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;,
         Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Preset;,
-        Lcom/changyow/iconsole4th/db/AIWorkoutGroup$SummaryData;,
-        Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
+        Lcom/changyow/iconsole4th/db/AIWorkoutGroup$SummaryData;
     }
 .end annotation
 

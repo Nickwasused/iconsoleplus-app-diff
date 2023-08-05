@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 418
+    .line 451
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 422
+    .line 455
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->access$000(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    .line 423
+    .line 456
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     const/4 v1, 0x1
@@ -90,7 +90,7 @@
 
     iput v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
-    .line 424
+    .line 457
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     const/4 v2, 0x2
@@ -113,7 +113,7 @@
 
     iput v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityLevel:I
 
-    .line 425
+    .line 458
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     const/4 v4, 0x3
@@ -136,7 +136,7 @@
 
     iput v5, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityRpm:I
 
-    .line 426
+    .line 459
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -159,7 +159,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
-    .line 427
+    .line 460
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -180,7 +180,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestLevel:I
 
-    .line 428
+    .line 461
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -201,7 +201,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestRpm:I
 
-    .line 429
+    .line 462
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->access$000(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
@@ -210,7 +210,7 @@
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->saveSettings()V
 
-    .line 431
+    .line 464
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -221,7 +221,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 433
+    .line 466
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -242,7 +242,7 @@
 
     iput-wide v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensitySpeed:D
 
-    .line 434
+    .line 467
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -263,7 +263,7 @@
 
     iput-wide v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestSpeed:D
 
-    .line 435
+    .line 468
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -282,7 +282,7 @@
 
     iput-wide v0, p1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensitySpeed:D
 
-    .line 436
+    .line 469
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -301,7 +301,7 @@
 
     iput-wide v0, p1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestSpeed:D
 
-    .line 439
+    .line 472
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -319,7 +319,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityLevel:I
 
-    .line 440
+    .line 473
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -336,7 +336,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestLevel:I
 
-    .line 442
+    .line 475
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -347,7 +347,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 443
+    .line 476
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->access$400(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/wang/avi/AVLoadingIndicatorView;
@@ -356,7 +356,7 @@
 
     invoke-virtual {p1}, Lcom/wang/avi/AVLoadingIndicatorView;->show()V
 
-    .line 444
+    .line 477
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 

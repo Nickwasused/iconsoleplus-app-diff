@@ -29,7 +29,7 @@
     .line 15
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d005d
+    const p1, 0x7f0d005a
 
     .line 16
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/SmartExerciseSummaryActivity;->setContentView(I)V

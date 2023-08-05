@@ -38,7 +38,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
@@ -55,7 +55,7 @@
     .line 42
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 44
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
     .line 45
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,9 +176,9 @@
 
     new-instance v2, Landroid/widget/ArrayAdapter;
 
-    const v3, 0x7f0d00bb
+    const v3, 0x7f0d00b8
 
-    const v4, 0x7f0a0557
+    const v4, 0x7f0a0562
 
     invoke-direct {v2, p0, v3, v4, v0}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
 
@@ -313,12 +313,12 @@
     .line 24
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0066
+    const p1, 0x7f0d0063
 
     .line 25
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02c4
+    const p1, 0x7f0a02b9
 
     .line 26
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/tutorial/TutorialListActivity;->findViewById(I)Landroid/view/View;

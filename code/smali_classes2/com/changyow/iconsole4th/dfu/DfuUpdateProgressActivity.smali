@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressListener;,
-        Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;
+        Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;,
+        Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressListener;
     }
 .end annotation
 
@@ -58,43 +58,43 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 60
+    .line 63
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 83
+    .line 86
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->hwVer:Ljava/lang/String;
 
-    .line 84
+    .line 87
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->fwVer:Ljava/lang/String;
 
-    .line 85
+    .line 88
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->macAddress:Ljava/lang/String;
 
-    .line 86
+    .line 89
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->deviceName:Ljava/lang/String;
 
-    .line 87
+    .line 90
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->currVerStr:Ljava/lang/String;
 
-    .line 88
+    .line 91
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->newVerStr:Ljava/lang/String;
 
-    .line 89
+    .line 92
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->bluetoothDevice:Landroid/bluetooth/BluetoothDevice;
 
-    .line 90
+    .line 93
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->firmwareInfo:Lcom/changyow/iconsole4th/dfu/FirmwareInfo;
 
-    .line 402
+    .line 421
     new-instance v1, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuProgressListener:Lno/nordicsemi/android/dfu/DfuProgressListener;
 
-    .line 621
+    .line 640
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->freqChipOtaManager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     return-void
@@ -103,7 +103,7 @@
 .method static synthetic access$000()Lcom/google/gson/Gson;
     .locals 1
 
-    .line 60
+    .line 63
     sget-object v0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->SharedGson:Lcom/google/gson/Gson;
 
     return-object v0
@@ -112,7 +112,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showNoFirmwareAvailable()V
 
     return-void
@@ -121,7 +121,7 @@
 .method static synthetic access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     return-object p0
@@ -130,7 +130,7 @@
 .method static synthetic access$1100(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ImageView;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     return-object p0
@@ -139,7 +139,7 @@
 .method static synthetic access$1200(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvWarning:Landroid/widget/TextView;
 
     return-object p0
@@ -148,7 +148,7 @@
 .method static synthetic access$1300(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Z
     .locals 0
 
-    .line 60
+    .line 63
     iget-boolean p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->resumed:Z
 
     return p0
@@ -157,7 +157,7 @@
 .method static synthetic access$1402(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Z)Z
     .locals 0
 
-    .line 60
+    .line 63
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuCompleted:Z
 
     return p1
@@ -166,7 +166,7 @@
 .method static synthetic access$1500(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showErrorMessage(Ljava/lang/String;)V
 
     return-void
@@ -175,7 +175,7 @@
 .method static synthetic access$1602(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 60
+    .line 63
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuError:Ljava/lang/String;
 
     return-object p1
@@ -184,7 +184,7 @@
 .method static synthetic access$1700(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->onTransferCompleted()V
 
     return-void
@@ -193,7 +193,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showNewFirmwareAvailable(Ljava/lang/String;)V
 
     return-void
@@ -202,7 +202,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvVersionInfo:Landroid/widget/TextView;
 
     return-object p0
@@ -211,7 +211,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     return-object p0
@@ -220,7 +220,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showDownloadFailed()V
 
     return-void
@@ -229,7 +229,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
     .locals 0
 
-    .line 60
+    .line 63
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->upgradeFreqchip()V
 
     return-void
@@ -238,7 +238,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
     .locals 0
 
-    .line 60
+    .line 63
     iget-object p0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     return-object p0
@@ -247,7 +247,7 @@
 .method private checkNewFirmware()V
     .locals 2
 
-    .line 192
+    .line 211
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->hwVer:Ljava/lang/String;
 
     if-eqz v0, :cond_1
@@ -262,7 +262,7 @@
 
     goto :goto_0
 
-    .line 195
+    .line 214
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -280,7 +280,7 @@
 
     move-result-object v0
 
-    .line 196
+    .line 215
     new-instance v1, Lokhttp3/Request$Builder;
 
     invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
@@ -293,7 +293,7 @@
 
     move-result-object v0
 
-    .line 198
+    .line 217
     new-instance v1, Lokhttp3/OkHttpClient;
 
     invoke-direct {v1}, Lokhttp3/OkHttpClient;-><init>()V
@@ -316,9 +316,9 @@
 .method private initView()V
     .locals 1
 
-    const v0, 0x7f0a0220
+    const v0, 0x7f0a021e
 
-    .line 117
+    .line 120
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -327,9 +327,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0501
+    const v0, 0x7f0a0504
 
-    .line 118
+    .line 121
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -338,9 +338,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0577
+    const v0, 0x7f0a0583
 
-    .line 119
+    .line 122
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -349,9 +349,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvVersionInfo:Landroid/widget/TextView;
 
-    const v0, 0x7f0a057e
+    const v0, 0x7f0a058a
 
-    .line 120
+    .line 123
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -362,7 +362,7 @@
 
     const v0, 0x7f0a00a2
 
-    .line 121
+    .line 124
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -371,9 +371,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
 
-    const v0, 0x7f0a039b
+    const v0, 0x7f0a0393
 
-    .line 122
+    .line 125
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -382,9 +382,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0a0469
+    const v0, 0x7f0a0461
 
-    .line 123
+    .line 126
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -401,7 +401,7 @@
 
     const-string v0, "activity"
 
-    .line 610
+    .line 629
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -410,7 +410,7 @@
 
     const v1, 0x7fffffff
 
-    .line 611
+    .line 630
     invoke-virtual {v0, v1}, Landroid/app/ActivityManager;->getRunningServices(I)Ljava/util/List;
 
     move-result-object v0
@@ -432,7 +432,7 @@
 
     check-cast v1, Landroid/app/ActivityManager$RunningServiceInfo;
 
-    .line 613
+    .line 632
     const-class v2, Lcom/changyow/iconsole4th/dfu/DfuService;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -470,62 +470,62 @@
 .method private setupActionbar()V
     .locals 4
 
-    .line 128
+    .line 131
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 129
+    .line 132
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 130
+    .line 133
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 132
+    .line 135
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 133
+    .line 136
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 135
+    .line 138
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 136
+    .line 139
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 138
+    .line 141
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 139
+    .line 142
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 140
+    .line 143
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -534,20 +534,20 @@
 
     const v3, 0x7f1201f2
 
-    .line 142
+    .line 145
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080199
 
-    .line 143
+    .line 146
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const/4 v0, 0x4
 
-    .line 144
+    .line 147
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 146
+    .line 149
     new-instance v0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$1;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$1;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
@@ -560,14 +560,14 @@
 .method private showDownloadFailed()V
     .locals 2
 
-    .line 319
+    .line 338
     new-instance v0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda0;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 320
+    .line 339
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
 
     const/4 v1, 0x0
@@ -602,7 +602,7 @@
         }
     .end annotation
 
-    .line 306
+    .line 325
     new-instance v0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)V
@@ -615,7 +615,7 @@
 .method private showNoFirmwareAvailable()V
     .locals 1
 
-    .line 314
+    .line 333
     new-instance v0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda1;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
@@ -628,12 +628,12 @@
 .method private showUploadCancelDialog()V
     .locals 4
 
-    .line 574
+    .line 593
     invoke-static {p0}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
 
     move-result-object v0
 
-    .line 575
+    .line 594
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "no.nordicsemi.android.dfu.broadcast.BROADCAST_ACTION"
@@ -644,10 +644,10 @@
 
     const/4 v3, 0x0
 
-    .line 576
+    .line 595
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 577
+    .line 596
     invoke-virtual {v0, v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
     return-void
@@ -656,45 +656,45 @@
 .method private upgradeFreqchip()V
     .locals 3
 
-    .line 625
+    .line 644
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     const v1, 0x7f0801b2
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 626
+    .line 645
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v1, 0x7f12032a
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 627
+    .line 646
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const-string v1, ""
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 628
+    .line 647
     new-instance v0, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-direct {v0, v1}, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;-><init>(Landroid/content/Context;)V
 
-    .line 629
+    .line 648
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->freqChipOtaManager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
-    .line 630
+    .line 649
     new-instance v1, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;
 
     invoke-direct {v1, p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;)V
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;->setConnectionObserver(Lno/nordicsemi/android/ble/observer/ConnectionObserver;)V
 
-    .line 667
+    .line 686
     iget-object v1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->bluetoothDevice:Landroid/bluetooth/BluetoothDevice;
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;->connect(Landroid/bluetooth/BluetoothDevice;)Lno/nordicsemi/android/ble/ConnectRequest;
@@ -703,7 +703,7 @@
 
     const-wide/32 v1, 0x186a0
 
-    .line 668
+    .line 687
     invoke-virtual {v0, v1, v2}, Lno/nordicsemi/android/ble/ConnectRequest;->timeout(J)Lno/nordicsemi/android/ble/ConnectRequest;
 
     move-result-object v0
@@ -712,12 +712,12 @@
 
     const/16 v2, 0x64
 
-    .line 669
+    .line 688
     invoke-virtual {v0, v1, v2}, Lno/nordicsemi/android/ble/ConnectRequest;->retry(II)Lno/nordicsemi/android/ble/ConnectRequest;
 
     move-result-object v0
 
-    .line 670
+    .line 689
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/ConnectRequest;->enqueue()V
 
     return-void
@@ -740,14 +740,14 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 676
+    .line 695
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 677
+    .line 696
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const v0, 0x7f1200c8
@@ -772,14 +772,14 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 683
+    .line 702
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 684
+    .line 703
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const v0, 0x7f1200db
@@ -804,28 +804,28 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 690
+    .line 709
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     const v0, 0x7f080193
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 691
+    .line 710
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvWarning:Landroid/widget/TextView;
 
     const/4 v0, 0x4
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 692
+    .line 711
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const v0, 0x7f1200c6
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 693
+    .line 712
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v0, 0x7f120333
@@ -850,21 +850,21 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 699
+    .line 718
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvWarning:Landroid/widget/TextView;
 
     const/4 v0, 0x4
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 700
+    .line 719
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const-string v0, "Failed"
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 701
+    .line 720
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const-string v0, "Failed to connect to device"
@@ -889,14 +889,14 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 707
+    .line 726
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 708
+    .line 727
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const v0, 0x7f1200d1
@@ -921,33 +921,33 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 714
+    .line 733
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvWarning:Landroid/widget/TextView;
 
     const/4 v0, 0x4
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 715
+    .line 734
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const-string v0, "Failed"
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 716
+    .line 735
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const-string v0, "Has no OTA support"
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 717
+    .line 736
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->freqChipOtaManager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     if-eqz p1, :cond_0
 
-    .line 718
+    .line 737
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;->disconnect()Lno/nordicsemi/android/ble/DisconnectRequest;
 
     :cond_0
@@ -969,14 +969,14 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN_ORDERED:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 724
+    .line 743
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 725
+    .line 744
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/dfu/freqchip/events/FreqChipProgressEvent;->getProgress()I
@@ -985,7 +985,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 726
+    .line 745
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const/4 v2, 0x1
@@ -1010,19 +1010,91 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 727
+    .line 746
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     const v0, 0x7f0801b2
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 728
+    .line 747
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v0, 0x7f12032a
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
+
+    return-void
+.end method
+
+.method protected initCustomTheme()V
+    .locals 6
+
+    .line 195
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    const/4 v0, 0x2
+
+    new-array v1, v0, [[I
+
+    const/4 v2, 0x1
+
+    new-array v3, v2, [I
+
+    const v4, 0x101009e
+
+    const/4 v5, 0x0
+
+    aput v4, v3, v5
+
+    aput-object v3, v1, v5
+
+    new-array v3, v2, [I
+
+    const v4, -0x101009e
+
+    aput v4, v3, v5
+
+    aput-object v3, v1, v2
+
+    new-array v0, v0, [I
+
+    .line 201
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    aput v3, v0, v5
+
+    .line 202
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    aput v3, v0, v2
+
+    .line 204
+    new-instance v2, Landroid/content/res/ColorStateList;
+
+    invoke-direct {v2, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    .line 205
+    iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
+
+    invoke-virtual {v0, v2}, Landroid/widget/Button;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 206
+    iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
+
+    invoke-virtual {v0, v2}, Landroid/widget/Button;->setTextColor(Landroid/content/res/ColorStateList;)V
 
     return-void
 .end method
@@ -1035,7 +1107,7 @@
         }
     .end annotation
 
-    .line 252
+    .line 271
     invoke-interface {p1}, Lokhttp3/Interceptor$Chain;->request()Lokhttp3/Request;
 
     move-result-object v0
@@ -1044,14 +1116,14 @@
 
     move-result-object p1
 
-    .line 253
+    .line 272
     invoke-virtual {p1}, Lokhttp3/Response;->newBuilder()Lokhttp3/Response$Builder;
 
     move-result-object v0
 
     new-instance v1, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;
 
-    .line 254
+    .line 273
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -1066,7 +1138,7 @@
 
     move-result-object p1
 
-    .line 266
+    .line 285
     invoke-virtual {p1}, Lokhttp3/Response$Builder;->build()Lokhttp3/Response;
 
     move-result-object p1
@@ -1077,7 +1149,7 @@
 .method synthetic lambda$showDownloadFailed$3$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity()V
     .locals 2
 
-    .line 319
+    .line 338
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v1, 0x7f120330
@@ -1090,7 +1162,7 @@
 .method synthetic lambda$showNewFirmwareAvailable$1$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity(Ljava/lang/String;)V
     .locals 4
 
-    .line 307
+    .line 326
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const/4 v1, 0x1
@@ -1109,7 +1181,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 308
+    .line 327
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setEnabled(Z)V
@@ -1120,7 +1192,7 @@
 .method synthetic lambda$showNoFirmwareAvailable$2$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity()V
     .locals 2
 
-    .line 314
+    .line 333
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v1, 0x7f120332
@@ -1133,29 +1205,29 @@
 .method public onCancelUpload()V
     .locals 1
 
-    .line 596
+    .line 615
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->isDfuServiceRunning()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 597
+    .line 616
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->finish()V
 
-    .line 598
+    .line 617
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->freqChipOtaManager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     if-eqz v0, :cond_1
 
-    .line 599
+    .line 618
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;->disconnect()Lno/nordicsemi/android/ble/DisconnectRequest;
 
     :cond_1
     const/4 v0, 0x0
 
-    .line 600
+    .line 619
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->freqChipOtaManager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     return-void
@@ -1172,21 +1244,21 @@
         }
     .end annotation
 
-    .line 95
+    .line 98
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0037
 
-    .line 96
+    .line 99
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->setContentView(I)V
 
-    .line 97
+    .line 100
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->initView()V
 
-    .line 98
+    .line 101
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->setupActionbar()V
 
-    .line 100
+    .line 103
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1199,7 +1271,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->hwVer:Ljava/lang/String;
 
-    .line 101
+    .line 104
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1212,7 +1284,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->fwVer:Ljava/lang/String;
 
-    .line 102
+    .line 105
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1225,7 +1297,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->macAddress:Ljava/lang/String;
 
-    .line 103
+    .line 106
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1238,7 +1310,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->deviceName:Ljava/lang/String;
 
-    .line 104
+    .line 107
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1253,12 +1325,12 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->bluetoothDevice:Landroid/bluetooth/BluetoothDevice;
 
-    .line 106
+    .line 109
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->hwVer:Ljava/lang/String;
 
     if-eqz p1, :cond_0
 
-    .line 107
+    .line 110
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1285,16 +1357,16 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->currVerStr:Ljava/lang/String;
 
-    .line 109
+    .line 112
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->checkNewFirmware()V
 
-    .line 111
+    .line 114
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuProgressListener:Lno/nordicsemi/android/dfu/DfuProgressListener;
 
     invoke-static {p0, p1}, Lno/nordicsemi/android/dfu/DfuServiceListenerHelper;->registerProgressListener(Landroid/content/Context;Lno/nordicsemi/android/dfu/DfuProgressListener;)V
 
-    .line 112
+    .line 115
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -1307,15 +1379,15 @@
 .method protected onDestroy()V
     .locals 1
 
-    .line 159
+    .line 162
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onDestroy()V
 
-    .line 160
+    .line 163
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuProgressListener:Lno/nordicsemi/android/dfu/DfuProgressListener;
 
     invoke-static {p0, v0}, Lno/nordicsemi/android/dfu/DfuServiceListenerHelper;->unregisterProgressListener(Landroid/content/Context;Lno/nordicsemi/android/dfu/DfuProgressListener;)V
 
-    .line 161
+    .line 164
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -1336,55 +1408,55 @@
         }
     .end annotation
 
-    .line 240
+    .line 259
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 241
+    .line 260
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
     const v1, 0x7f0801b1
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 242
+    .line 261
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvWarning:Landroid/widget/TextView;
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 243
+    .line 262
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->btnDownloadAndUpdate:Landroid/widget/Button;
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 244
+    .line 263
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v1, 0x7f120331
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 245
+    .line 264
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvVersionInfo:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 246
+    .line 265
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->progressBar:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 247
+    .line 266
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 248
+    .line 267
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1411,7 +1483,7 @@
 
     move-result-object p1
 
-    .line 250
+    .line 269
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -1420,17 +1492,17 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
 
-    .line 251
+    .line 270
     invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->addNetworkInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
 
-    .line 268
+    .line 287
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
 
-    .line 271
+    .line 290
     new-instance v1, Lokhttp3/Request$Builder;
 
     invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
@@ -1443,17 +1515,17 @@
 
     const-string v2, "application/json"
 
-    .line 272
+    .line 291
     invoke-virtual {p1, v1, v2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 273
+    .line 292
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 274
+    .line 293
     invoke-virtual {v0, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
@@ -1470,12 +1542,12 @@
 .method protected onPause()V
     .locals 1
 
-    .line 186
+    .line 189
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onPause()V
 
     const/4 v0, 0x0
 
-    .line 187
+    .line 190
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->resumed:Z
 
     return-void
@@ -1484,32 +1556,32 @@
 .method protected onResume()V
     .locals 2
 
-    .line 167
+    .line 170
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onResume()V
 
     const/4 v0, 0x1
 
-    .line 168
+    .line 171
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->resumed:Z
 
-    .line 169
+    .line 172
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuCompleted:Z
 
     if-eqz v0, :cond_0
 
-    .line 170
+    .line 173
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->onTransferCompleted()V
 
-    .line 171
+    .line 174
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuError:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 172
+    .line 175
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showErrorMessage(Ljava/lang/String;)V
 
-    .line 173
+    .line 176
     :cond_1
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuCompleted:Z
 
@@ -1522,7 +1594,7 @@
     :cond_2
     const-string v0, "notification"
 
-    .line 176
+    .line 179
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1531,17 +1603,17 @@
 
     const/16 v1, 0x11b
 
-    .line 177
+    .line 180
     invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->cancel(I)V
 
     const/4 v0, 0x0
 
-    .line 178
+    .line 181
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuCompleted:Z
 
     const/4 v0, 0x0
 
-    .line 179
+    .line 182
     iput-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->dfuError:Ljava/lang/String;
 
     :cond_3
@@ -1565,19 +1637,19 @@
         }
     .end annotation
 
-    .line 515
+    .line 534
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->isDfuServiceRunning()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 517
+    .line 536
     invoke-direct {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->showUploadCancelDialog()V
 
     return-void
 
-    .line 521
+    .line 540
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->ivIcon:Landroid/widget/ImageView;
 
@@ -1585,21 +1657,21 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 522
+    .line 541
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->textPercentage:Landroid/widget/TextView;
 
     const v0, 0x7f12032f
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 523
+    .line 542
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->txvMessage:Landroid/widget/TextView;
 
     const v0, 0x7f12032a
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 537
+    .line 556
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x17
@@ -1620,12 +1692,12 @@
     :goto_0
     const/16 v0, 0xc
 
-    .line 538
+    .line 557
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 542
+    .line 561
     :try_start_0
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1633,7 +1705,7 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 551
+    .line 570
     :catch_0
     :try_start_1
     new-instance v3, Lno/nordicsemi/android/dfu/DfuServiceInitiator;
@@ -1644,51 +1716,51 @@
 
     iget-object v4, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->deviceName:Ljava/lang/String;
 
-    .line 552
+    .line 571
     invoke-virtual {v3, v4}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setDeviceName(Ljava/lang/String;)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object v3
 
-    .line 553
+    .line 572
     invoke-virtual {v3, v2}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setKeepBond(Z)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object v3
 
-    .line 554
+    .line 573
     invoke-virtual {v3, v2}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setForceDfu(Z)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object v2
 
-    .line 555
+    .line 574
     invoke-virtual {v2, p1}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setPacketsReceiptNotificationsEnabled(Z)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object p1
 
-    .line 556
+    .line 575
     invoke-virtual {p1, v0}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setPacketsReceiptNotificationsValue(I)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object p1
 
     const-wide/16 v2, 0x190
 
-    .line 557
+    .line 576
     invoke-virtual {p1, v2, v3}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setPrepareDataObjectDelay(J)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object p1
 
-    .line 558
+    .line 577
     invoke-virtual {p1, v1}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setUnsafeExperimentalButtonlessServiceInSecureDfuEnabled(Z)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
     move-result-object p1
 
-    .line 559
+    .line 578
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1a
 
     if-lt v0, v1, :cond_2
 
-    .line 560
+    .line 579
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-static {v0}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->createDfuNotificationChannel(Landroid/content/Context;)V
@@ -1696,7 +1768,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 561
+    .line 580
     new-instance v1, Ljava/io/File;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->getCacheDir()Ljava/io/File;
@@ -1727,7 +1799,7 @@
 
     invoke-virtual {p1, v0, v1}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->setZip(Landroid/net/Uri;Ljava/lang/String;)Lno/nordicsemi/android/dfu/DfuServiceInitiator;
 
-    .line 564
+    .line 583
     const-class v0, Lcom/changyow/iconsole4th/dfu/DfuService;
 
     invoke-virtual {p1, p0, v0}, Lno/nordicsemi/android/dfu/DfuServiceInitiator;->start(Landroid/content/Context;Ljava/lang/Class;)Lno/nordicsemi/android/dfu/DfuServiceController;
@@ -1739,7 +1811,7 @@
     :catch_1
     move-exception p1
 
-    .line 568
+    .line 587
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_1

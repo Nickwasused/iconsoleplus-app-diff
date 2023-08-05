@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 349
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 360
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$7;->val$btnStartWorkout:Landroid/widget/ImageButton;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 353
+    .line 364
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$300(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Landroid/app/Dialog;
@@ -69,7 +75,7 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 354
+    .line 365
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$7;->val$btnStartWorkout:Landroid/widget/ImageButton;
 
     invoke-virtual {p1}, Landroid/widget/ImageButton;->isSelected()Z
@@ -80,7 +86,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 355
+    .line 366
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -91,7 +97,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 357
+    .line 368
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$7;->val$btnStartWorkout:Landroid/widget/ImageButton;
 
     invoke-virtual {p1}, Landroid/widget/ImageButton;->isSelected()Z
@@ -100,7 +106,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 359
+    .line 370
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -111,7 +117,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 360
+    .line 371
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -122,12 +128,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 361
+    .line 372
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->start()V
 
     goto :goto_0
 
-    .line 365
+    .line 376
     :cond_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -139,7 +145,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->pauseWorkout()V
 
-    .line 366
+    .line 377
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -150,7 +156,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 367
+    .line 378
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->pause()V
 
     :cond_1

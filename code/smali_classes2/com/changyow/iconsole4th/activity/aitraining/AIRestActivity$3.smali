@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 261
+    .line 262
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 265
+    .line 266
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;

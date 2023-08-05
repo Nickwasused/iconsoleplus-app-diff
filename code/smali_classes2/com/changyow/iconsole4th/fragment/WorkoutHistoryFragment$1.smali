@@ -37,6 +37,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 82
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;
 

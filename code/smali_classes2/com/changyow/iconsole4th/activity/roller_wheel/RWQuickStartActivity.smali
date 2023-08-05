@@ -35,44 +35,44 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 49
+    .line 50
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 56
+    .line 57
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
-    .line 57
+    .line 58
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
     const/4 v0, 0x0
 
-    .line 58
+    .line 59
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bTTSinited:Z
 
-    .line 59
+    .line 60
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bMute:Z
 
     const/4 v1, 0x1
 
-    .line 60
+    .line 61
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bShowLowPower:Z
 
-    .line 256
+    .line 261
     iput v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lastedSpamCount:I
 
-    .line 476
+    .line 482
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bCanceled:Z
 
-    .line 514
+    .line 520
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$10;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$10;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bleManagerListener:Lchangyow/ble4th/BLEManagerListener;
 
-    .line 537
+    .line 543
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
@@ -85,7 +85,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Lcom/airbnb/lottie/LottieAnimationView;
     .locals 0
 
-    .line 49
+    .line 50
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lavCountdownAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
     return-object p0
@@ -94,7 +94,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Landroid/os/Handler;
     .locals 0
 
-    .line 49
+    .line 50
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mHandler:Landroid/os/Handler;
 
     return-object p0
@@ -103,7 +103,7 @@
 .method static synthetic access$202(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;I)I
     .locals 0
 
-    .line 49
+    .line 50
     iput p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mPagerCurrentPage:I
 
     return p1
@@ -112,7 +112,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 49
+    .line 50
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->playVoice(Ljava/lang/String;)V
 
     return-void
@@ -121,7 +121,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Landroid/app/Dialog;
     .locals 0
 
-    .line 49
+    .line 50
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
     return-object p0
@@ -130,7 +130,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
     .locals 0
 
-    .line 49
+    .line 50
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->stopWorkout()V
 
     return-void
@@ -139,7 +139,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 49
+    .line 50
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -148,7 +148,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Lcom/changyow/iconsole4th/db/ActivityRecord;
     .locals 0
 
-    .line 49
+    .line 50
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     return-object p0
@@ -157,7 +157,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;II)V
     .locals 0
 
-    .line 49
+    .line 50
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->speakSpam(II)V
 
     return-void
@@ -166,7 +166,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
     .locals 0
 
-    .line 49
+    .line 50
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->showLowBattery()V
 
     return-void
@@ -183,7 +183,7 @@
         }
     .end annotation
 
-    .line 442
+    .line 448
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bTTSinited:Z
 
     if-eqz v0, :cond_0
@@ -200,7 +200,7 @@
 
     if-nez v0, :cond_0
 
-    .line 443
+    .line 449
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
     const/4 v1, 0x0
@@ -236,7 +236,7 @@
 .method private prepareUI()V
     .locals 2
 
-    .line 155
+    .line 160
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$2;
@@ -245,7 +245,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 164
+    .line 169
     new-instance v0, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -254,17 +254,17 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
-    .line 165
+    .line 170
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;->triggerShowAltitude()V
 
-    .line 166
+    .line 171
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 167
+    .line 172
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
@@ -275,14 +275,14 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
-    .line 168
+    .line 173
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Lme/relex/circleindicator/CircleIndicator;->setViewPager(Landroidx/viewpager/widget/ViewPager;)V
 
-    .line 169
+    .line 174
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$3;
@@ -291,7 +291,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 188
+    .line 193
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lavCountdownAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;
@@ -300,7 +300,7 @@
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->addAnimatorUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 212
+    .line 217
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lavCountdownAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$5;
@@ -315,71 +315,71 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 128
+    .line 133
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 129
+    .line 134
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 130
+    .line 135
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 132
+    .line 137
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 133
+    .line 138
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 135
+    .line 140
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 136
+    .line 141
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 138
+    .line 143
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 139
+    .line 144
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 140
+    .line 145
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 141
+    .line 146
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -388,18 +388,18 @@
 
     const v4, 0x7f120282
 
-    .line 143
+    .line 148
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const/4 v0, 0x4
 
-    .line 144
+    .line 149
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 145
+    .line 150
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 146
+    .line 151
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -414,7 +414,7 @@
 .method private showLowBattery()V
     .locals 3
 
-    .line 244
+    .line 249
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -443,10 +443,10 @@
 
     const/4 v0, 0x0
 
-    .line 246
+    .line 251
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bShowLowPower:Z
 
-    .line 247
+    .line 252
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -455,14 +455,14 @@
 
     const v1, 0x7f1203ad
 
-    .line 248
+    .line 253
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const v1, 0x7f1203ae
 
-    .line 249
+    .line 254
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -471,17 +471,17 @@
 
     const/4 v2, 0x0
 
-    .line 250
+    .line 255
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 251
+    .line 256
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 252
+    .line 257
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     :cond_0
@@ -507,7 +507,7 @@
 
     if-lez p2, :cond_2
 
-    .line 260
+    .line 265
     rem-int/lit8 v2, p2, 0xa
 
     if-nez v2, :cond_2
@@ -516,7 +516,7 @@
 
     if-ge v2, p2, :cond_2
 
-    .line 262
+    .line 267
     iput p2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lastedSpamCount:I
 
     const/4 v2, 0x2
@@ -527,7 +527,7 @@
 
     const v3, 0x7f120148
 
-    .line 265
+    .line 270
     invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
@@ -552,11 +552,11 @@
 
     goto :goto_0
 
-    .line 268
+    .line 273
     :cond_0
     div-int/lit8 v4, p1, 0x3c
 
-    .line 269
+    .line 274
     rem-int/2addr p1, v3
 
     if-lez p1, :cond_1
@@ -566,7 +566,7 @@
     :cond_1
     const p1, 0x7f120147
 
-    .line 272
+    .line 277
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -589,7 +589,7 @@
 
     move-result-object p1
 
-    .line 275
+    .line 280
     :goto_0
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->playVoice(Ljava/lang/String;)V
 
@@ -598,17 +598,17 @@
     :cond_2
     if-lez p2, :cond_3
 
-    .line 277
+    .line 282
     iget p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lastedSpamCount:I
 
     if-ge p1, p2, :cond_3
 
-    .line 279
+    .line 284
     iput p2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lastedSpamCount:I
 
     const p1, 0x7f120146
 
-    .line 280
+    .line 285
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -625,7 +625,7 @@
 
     move-result-object p1
 
-    .line 281
+    .line 286
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->playVoice(Ljava/lang/String;)V
 
     :cond_3
@@ -635,6 +635,17 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 128
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->txvReps:Landroid/widget/TextView;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method protected makeDataMap(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
     .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
@@ -670,14 +681,14 @@
         }
     .end annotation
 
-    .line 434
+    .line 440
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->makeDataMap(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object p1
 
     const-string p2, "DISABLED"
 
-    .line 435
+    .line 441
     invoke-interface {p1, p2, p5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p1
@@ -686,12 +697,12 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 120
+    .line 121
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bTrainingStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 122
+    .line 123
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->stopWorkout()V
 
     :cond_0
@@ -709,26 +720,15 @@
         }
     .end annotation
 
-    .line 65
+    .line 66
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d005a
-
-    .line 66
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->setContentView(I)V
-
-    const p1, 0x7f0a0293
+    const p1, 0x7f0d0057
 
     .line 67
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->setContentView(I)V
 
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/RelativeLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->layoutRoot:Landroid/widget/RelativeLayout;
-
-    const p1, 0x7f0a0280
+    const p1, 0x7f0a028c
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -737,11 +737,22 @@
 
     check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a027a
 
     .line 69
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/RelativeLayout;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
+
+    const p1, 0x7f0a00bd
+
+    .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -750,9 +761,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
-    .line 70
+    .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -761,9 +772,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d6
+    const p1, 0x7f0a03ce
 
-    .line 71
+    .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -772,9 +783,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a051e
+    const p1, 0x7f0a0525
 
-    .line 72
+    .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -783,9 +794,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->txvReps:Landroid/widget/TextView;
 
-    const p1, 0x7f0a023d
+    const p1, 0x7f0a023c
 
-    .line 73
+    .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -794,7 +805,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->lavCountdownAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
-    .line 76
+    .line 77
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -803,7 +814,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEManager;->registerListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 77
+    .line 78
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -814,7 +825,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 78
+    .line 79
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -827,7 +838,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 82
+    .line 83
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
@@ -839,14 +850,14 @@
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->addFlags(I)V
 
-    .line 83
+    .line 84
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->newActivity()Lcom/changyow/iconsole4th/FlowControl;
 
-    .line 84
+    .line 85
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -857,7 +868,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 85
+    .line 86
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getIntent()Landroid/content/Intent;
@@ -878,7 +889,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setHeart_rate_source(Ljava/lang/Integer;)V
 
-    .line 86
+    .line 87
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     const/4 v0, 0x0
@@ -889,7 +900,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setType(Ljava/lang/Integer;)V
 
-    .line 87
+    .line 88
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -906,7 +917,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setManual(Ljava/lang/Boolean;)V
 
-    .line 88
+    .line 89
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
@@ -923,7 +934,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setResistanceFeature(Ljava/lang/Integer;)V
 
-    .line 90
+    .line 91
     new-instance p1, Landroid/speech/tts/TextToSpeech;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getApplicationContext()Landroid/content/Context;
@@ -938,13 +949,13 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
-    .line 112
+    .line 113
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->clear()V
 
-    .line 113
+    .line 114
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->setupInitActionbar()V
 
-    .line 114
+    .line 115
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->prepareUI()V
 
     return-void
@@ -953,7 +964,7 @@
 .method protected prepareControlPanel()V
     .locals 5
 
-    .line 288
+    .line 293
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -964,14 +975,14 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    .line 289
+    .line 294
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d6
+    const v1, 0x7f0d00d3
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 290
+    .line 295
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
@@ -986,10 +997,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 292
+    .line 296
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 298
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
+
+    const v1, 0x7f0a0244
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -997,10 +1017,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    .line 293
+    .line 299
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00d8
+    const v2, 0x7f0a00d5
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1008,10 +1028,10 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    .line 294
+    .line 300
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00da
+    const v3, 0x7f0a00d7
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1019,10 +1039,10 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    .line 295
+    .line 301
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v4, 0x7f0a00b8
+    const v4, 0x7f0a00b7
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1032,7 +1052,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 299
+    .line 305
     new-instance v4, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$6;
 
     invoke-direct {v4, p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$6;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
@@ -1044,10 +1064,10 @@
 
     const/4 v0, 0x1
 
-    .line 311
+    .line 317
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 312
+    .line 318
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$7;
 
     invoke-direct {v0, p0, v1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$7;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;Landroid/widget/ImageButton;)V
@@ -1057,7 +1077,7 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 330
+    .line 336
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$8;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$8;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V
@@ -1067,7 +1087,7 @@
     :cond_2
     if-eqz v3, :cond_3
 
-    .line 343
+    .line 349
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;
 
     invoke-direct {v0, p0, v3}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;-><init>(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;Landroid/widget/ImageButton;)V
@@ -1081,10 +1101,10 @@
 .method protected startWorkout()V
     .locals 11
 
-    .line 449
+    .line 455
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->startWorkout()V
 
-    .line 450
+    .line 456
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->setupWorkoutActionbar()V
 
     const/4 v1, 0x0
@@ -1107,10 +1127,10 @@
 
     move-object v0, p0
 
-    .line 452
+    .line 458
     invoke-virtual/range {v0 .. v10}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->updateData(IIIDIIIII)V
 
-    .line 454
+    .line 460
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1135,7 +1155,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 455
+    .line 461
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1160,14 +1180,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 456
+    .line 462
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 458
+    .line 464
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1176,7 +1196,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 459
+    .line 465
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1185,7 +1205,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 460
+    .line 466
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1194,7 +1214,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 461
+    .line 467
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1203,7 +1223,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 465
+    .line 471
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1215,7 +1235,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->totalReset()V
 
-    .line 466
+    .line 472
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1226,7 +1246,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 467
+    .line 473
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1237,7 +1257,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 469
+    .line 475
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->startRefreshUITimer()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1257,7 +1277,7 @@
         }
     .end annotation
 
-    .line 481
+    .line 487
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -1268,13 +1288,13 @@
 
     monitor-enter p1
 
-    .line 483
+    .line 489
     :try_start_0
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bCanceled:Z
 
     if-eqz v0, :cond_0
 
-    .line 484
+    .line 490
     monitor-exit p1
 
     return-void
@@ -1282,18 +1302,18 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 485
+    .line 491
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bCanceled:Z
 
-    .line 486
+    .line 492
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 487
+    .line 493
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->cancelRefreshUITimer()V
 
-    .line 488
+    .line 494
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1302,7 +1322,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 491
+    .line 497
     :try_start_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1314,7 +1334,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 492
+    .line 498
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1327,7 +1347,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 493
+    .line 499
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1340,7 +1360,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 494
+    .line 500
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1354,10 +1374,10 @@
     :catch_0
     move-exception p1
 
-    .line 498
+    .line 504
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 501
+    .line 507
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1365,7 +1385,7 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 503
+    .line 509
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -1386,12 +1406,12 @@
 
     if-lt p1, v0, :cond_1
 
-    .line 505
+    .line 511
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 506
+    .line 512
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1400,14 +1420,14 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 507
+    .line 513
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 510
+    .line 516
     :cond_1
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->stopWorkout()V
 
-    .line 511
+    .line 517
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->finish()V
 
     return-void
@@ -1415,7 +1435,7 @@
     :catchall_0
     move-exception v0
 
-    .line 486
+    .line 492
     :try_start_2
     monitor-exit p1
     :try_end_2
@@ -1453,7 +1473,7 @@
 
     move-object v7, p0
 
-    .line 358
+    .line 364
     :try_start_0
     iget-object v0, v7, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->txvReps:Landroid/widget/TextView;
 
@@ -1477,12 +1497,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 360
+    .line 366
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 361
+    .line 367
     iget-object v1, v7, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v2, "DATA_PAGE_1"
@@ -1493,7 +1513,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    .line 362
+    .line 368
     iget-object v2, v7, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v3, "DATA_PAGE_2"
@@ -1504,7 +1524,7 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    .line 363
+    .line 369
     iget-object v3, v7, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v4, "DATA_PAGE_3"
@@ -1515,28 +1535,28 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    .line 364
+    .line 370
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 365
+    .line 371
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 366
+    .line 372
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 368
+    .line 374
     invoke-static/range {p7 .. p7}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 370
+    .line 376
     new-instance v10, Ljava/util/ArrayList;
 
     invoke-direct {v10}, Ljava/util/ArrayList;-><init>()V
 
     const v1, 0x7f0803ec
 
-    .line 371
+    .line 377
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1559,7 +1579,7 @@
 
     invoke-virtual {v10, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 372
+    .line 378
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->getHeartRateIconRes()I
 
     move-result v1
@@ -1615,7 +1635,7 @@
 
     const v1, 0x7f0801e7
 
-    .line 373
+    .line 379
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1658,7 +1678,7 @@
 
     const v1, 0x7f0801e3
 
-    .line 374
+    .line 380
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1687,7 +1707,7 @@
 
     const v1, 0x7f080196
 
-    .line 375
+    .line 381
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1708,7 +1728,7 @@
 
     invoke-virtual {v10, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 376
+    .line 382
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1729,7 +1749,7 @@
 
     invoke-virtual {v10, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 378
+    .line 384
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -1744,7 +1764,7 @@
 
     mul-double v1, v1, p4
 
-    .line 381
+    .line 387
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v3
@@ -1762,7 +1782,7 @@
     :cond_2
     const v3, 0x7f0801a8
 
-    .line 384
+    .line 390
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v6
@@ -1789,7 +1809,7 @@
 
     const v1, 0x7f0802a7
 
-    .line 385
+    .line 391
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1820,7 +1840,7 @@
 
     div-double/2addr v1, v13
 
-    .line 388
+    .line 394
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v6
@@ -1833,7 +1853,7 @@
 
     mul-double/2addr v1, v4
 
-    .line 391
+    .line 397
     :cond_3
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -1862,7 +1882,7 @@
     :cond_4
     const v1, 0x7f080191
 
-    .line 394
+    .line 400
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1899,7 +1919,7 @@
 
     invoke-virtual {v10, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 397
+    .line 403
     invoke-virtual {p0, v10, v0}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -1909,7 +1929,7 @@
     :catch_0
     move-exception v0
 
-    .line 401
+    .line 407
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_2
@@ -1943,10 +1963,10 @@
         }
     .end annotation
 
-    .line 408
+    .line 414
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->updateData(Ljava/util/Map;ILandroid/view/ViewGroup;)V
 
-    .line 410
+    .line 416
     invoke-virtual {p3, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -1956,27 +1976,27 @@
     return-void
 
     :cond_0
-    const p3, 0x7f0a0557
+    const p3, 0x7f0a0562
 
-    .line 414
+    .line 420
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p3
 
     check-cast p3, Landroid/widget/TextView;
 
-    const v0, 0x7f0a0574
+    const v0, 0x7f0a0580
 
-    .line 415
+    .line 421
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0a0570
+    const v1, 0x7f0a057c
 
-    .line 416
+    .line 422
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -1994,7 +2014,7 @@
     :cond_1
     const-string v1, "DISABLED"
 
-    .line 421
+    .line 427
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -2003,7 +2023,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 422
+    .line 428
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -2012,15 +2032,15 @@
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 424
+    .line 430
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
     const-string p1, ""
 
-    .line 425
+    .line 431
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 426
+    .line 432
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     goto :goto_0
@@ -2028,7 +2048,7 @@
     :cond_2
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 429
+    .line 435
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
     :cond_3

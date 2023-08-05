@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 570
+    .line 574
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method public run()V
     .locals 3
 
-    .line 576
+    .line 580
     :try_start_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
@@ -62,7 +62,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 581
+    .line 585
     :catch_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 

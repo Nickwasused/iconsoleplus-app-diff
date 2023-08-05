@@ -9,12 +9,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityTrainingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityTrainingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,499:1\n1#2:500\n7#3:501\n7#3:502\n*S KotlinDebug\n*F\n+ 1 EGravityTrainingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity\n*L\n78#1:501\n79#1:502\n*E\n"
+    value = "SMAP\nEGravityTrainingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityTrainingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,516:1\n1#2:517\n7#3:518\n7#3:519\n*S KotlinDebug\n*F\n+ 1 EGravityTrainingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity\n*L\n81#1:518\n82#1:519\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000\u008e\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u000b\n\u0002\u0010\u0008\n\u0002\u0008\u000e\n\u0002\u0010\t\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u001d\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010!\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u0005\u00a2\u0006\u0002\u0010\u0004J\u0006\u0010]\u001a\u00020^J\u0016\u0010_\u001a\u00020^2\u0006\u0010`\u001a\u00020\u000e2\u0006\u0010a\u001a\u00020\u000eJ\u0010\u0010b\u001a\u00020\u001a2\u0006\u0010c\u001a\u00020\u000eH\u0002J\u0010\u0010d\u001a\u00020\u000e2\u0006\u0010e\u001a\u00020\u001aH\u0002J\u0016\u0010f\u001a\u00020\u001a2\u0006\u0010g\u001a\u00020\u001a2\u0006\u0010h\u001a\u00020\u001aJ\u0006\u0010i\u001a\u00020^J\u0006\u0010j\u001a\u00020\u0006J\u0006\u0010k\u001a\u00020^J\u0018\u0010l\u001a\u00020^2\u0006\u0010m\u001a\u00020\u001a2\u0006\u0010n\u001a\u00020oH\u0016J\u0008\u0010p\u001a\u00020^H\u0016J\u0012\u0010q\u001a\u00020^2\u0008\u0010r\u001a\u0004\u0018\u00010sH\u0014J\u0018\u0010t\u001a\u00020^2\u0006\u0010u\u001a\u00020v2\u0006\u0010w\u001a\u00020\u001aH\u0016J\u0010\u0010x\u001a\u00020^2\u0006\u0010u\u001a\u00020vH\u0016J\u0018\u0010y\u001a\u00020^2\u0006\u0010m\u001a\u00020\u001a2\u0006\u0010z\u001a\u00020\u001aH\u0016J\u0010\u0010{\u001a\u00020^2\u0006\u0010|\u001a\u00020\u001aH\u0016J\u0010\u0010}\u001a\u00020^2\u0006\u0010~\u001a\u00020\u007fH\u0016J#\u0010\u0080\u0001\u001a\u00020^2\u0006\u0010m\u001a\u00020\u001a2\u0007\u0010\u0081\u0001\u001a\u00020\u001a2\u0007\u0010\u0082\u0001\u001a\u00020\u001aH\u0016J\t\u0010\u0083\u0001\u001a\u00020^H\u0014J\t\u0010\u0084\u0001\u001a\u00020^H\u0014J\u0007\u0010\u0085\u0001\u001a\u00020^J\u0007\u0010\u0086\u0001\u001a\u00020^J\u0007\u0010\u0087\u0001\u001a\u00020^J\u001c\u0010\u0088\u0001\u001a\u00020^2\u0007\u0010\u0089\u0001\u001a\u00020\u001a2\u0008\u0010\u008a\u0001\u001a\u00030\u008b\u0001H\u0002J\u0012\u0010\u008c\u0001\u001a\u00020^2\t\u0008\u0002\u0010\u008d\u0001\u001a\u00020\u0006R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u000e\u0010\u000b\u001a\u00020\u000cX\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010\r\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R\u001a\u0010\u0013\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0010\"\u0004\u0008\u0015\u0010\u0012R\u001a\u0010\u0016\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0008\"\u0004\u0008\u0018\u0010\nR\u001a\u0010\u0019\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001b\u0010\u001c\"\u0004\u0008\u001d\u0010\u001eR\u001a\u0010\u001f\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0010\"\u0004\u0008!\u0010\u0012R\u001a\u0010\"\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0010\"\u0004\u0008$\u0010\u0012R\u001a\u0010%\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u0010\"\u0004\u0008\'\u0010\u0012R\u001a\u0010(\u001a\u00020)X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010+\"\u0004\u0008,\u0010-R\u001c\u0010.\u001a\u0004\u0018\u00010/X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00080\u00101\"\u0004\u00082\u00103R\u001c\u00104\u001a\u0004\u0018\u000105X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u00107\"\u0004\u00088\u00109R\u001a\u0010:\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010\u001c\"\u0004\u0008<\u0010\u001eR\u001a\u0010=\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008>\u0010\u001c\"\u0004\u0008?\u0010\u001eR\u001a\u0010@\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008A\u0010\u0010\"\u0004\u0008B\u0010\u0012R\u001a\u0010C\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008D\u0010\u0010\"\u0004\u0008E\u0010\u0012R\u001a\u0010F\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008G\u0010\u0010\"\u0004\u0008H\u0010\u0012R\u001a\u0010I\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008J\u0010\u001c\"\u0004\u0008K\u0010\u001eR\u001a\u0010L\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010\u0010\"\u0004\u0008N\u0010\u0012R\u001a\u0010O\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008P\u0010\u0010\"\u0004\u0008Q\u0010\u0012R\u0011\u0010R\u001a\u00020S\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008T\u0010UR\u000e\u0010V\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010W\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0014\u0010X\u001a\u0008\u0012\u0004\u0012\u00020Z0YX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010[\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\\\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u008e\u0001"
+        "\u0000\u008c\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0019\n\u0002\u0010\t\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u001d\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010!\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0011\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u0005\u00a2\u0006\u0002\u0010\u0004J\u0006\u0010^\u001a\u00020_J\u0016\u0010`\u001a\u00020_2\u0006\u0010a\u001a\u00020\u00102\u0006\u0010b\u001a\u00020\u0010J\u0010\u0010c\u001a\u00020\u000e2\u0006\u0010d\u001a\u00020\u0010H\u0002J\u0010\u0010e\u001a\u00020\u00102\u0006\u0010f\u001a\u00020\u000eH\u0002J\u0016\u0010g\u001a\u00020\u000e2\u0006\u0010h\u001a\u00020\u000e2\u0006\u0010i\u001a\u00020\u000eJ\u0006\u0010j\u001a\u00020_J\u0008\u0010k\u001a\u00020_H\u0014J\u0006\u0010l\u001a\u00020\u0006J\u0006\u0010m\u001a\u00020_J\u0018\u0010n\u001a\u00020_2\u0006\u0010o\u001a\u00020\u000e2\u0006\u0010p\u001a\u00020qH\u0016J\u0008\u0010r\u001a\u00020_H\u0016J\u0012\u0010s\u001a\u00020_2\u0008\u0010t\u001a\u0004\u0018\u00010uH\u0014J\u0018\u0010v\u001a\u00020_2\u0006\u0010w\u001a\u00020x2\u0006\u0010y\u001a\u00020\u000eH\u0016J\u0010\u0010z\u001a\u00020_2\u0006\u0010w\u001a\u00020xH\u0016J\u0018\u0010{\u001a\u00020_2\u0006\u0010o\u001a\u00020\u000e2\u0006\u0010|\u001a\u00020\u000eH\u0016J\u0010\u0010}\u001a\u00020_2\u0006\u0010~\u001a\u00020\u000eH\u0016J\u0012\u0010\u007f\u001a\u00020_2\u0008\u0010\u0080\u0001\u001a\u00030\u0081\u0001H\u0016J#\u0010\u0082\u0001\u001a\u00020_2\u0006\u0010o\u001a\u00020\u000e2\u0007\u0010\u0083\u0001\u001a\u00020\u000e2\u0007\u0010\u0084\u0001\u001a\u00020\u000eH\u0016J\t\u0010\u0085\u0001\u001a\u00020_H\u0014J\t\u0010\u0086\u0001\u001a\u00020_H\u0014J\u0007\u0010\u0087\u0001\u001a\u00020_J\u0007\u0010\u0088\u0001\u001a\u00020_J\u0007\u0010\u0089\u0001\u001a\u00020_J\u001c\u0010\u008a\u0001\u001a\u00020_2\u0007\u0010\u008b\u0001\u001a\u00020\u000e2\u0008\u0010\u008c\u0001\u001a\u00030\u008d\u0001H\u0002J\u0012\u0010\u008e\u0001\u001a\u00020_2\t\u0008\u0002\u0010\u008f\u0001\u001a\u00020\u0006R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u000e\u0010\u000b\u001a\u00020\u000cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u000f\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u001a\u0010\u0015\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0016\u0010\u0012\"\u0004\u0008\u0017\u0010\u0014R\u001a\u0010\u0018\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0019\u0010\u0008\"\u0004\u0008\u001a\u0010\nR\u001a\u0010\u001b\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001c\u0010\u001d\"\u0004\u0008\u001e\u0010\u001fR\u001a\u0010 \u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008!\u0010\u0012\"\u0004\u0008\"\u0010\u0014R\u001a\u0010#\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008$\u0010\u0012\"\u0004\u0008%\u0010\u0014R\u001a\u0010&\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\'\u0010\u0012\"\u0004\u0008(\u0010\u0014R\u001a\u0010)\u001a\u00020*X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008+\u0010,\"\u0004\u0008-\u0010.R\u001c\u0010/\u001a\u0004\u0018\u000100X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00081\u00102\"\u0004\u00083\u00104R\u001c\u00105\u001a\u0004\u0018\u000106X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00087\u00108\"\u0004\u00089\u0010:R\u001a\u0010;\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008<\u0010\u001d\"\u0004\u0008=\u0010\u001fR\u001a\u0010>\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008?\u0010\u001d\"\u0004\u0008@\u0010\u001fR\u001a\u0010A\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008B\u0010\u0012\"\u0004\u0008C\u0010\u0014R\u001a\u0010D\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008E\u0010\u0012\"\u0004\u0008F\u0010\u0014R\u001a\u0010G\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010\u0012\"\u0004\u0008I\u0010\u0014R\u001a\u0010J\u001a\u00020\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008K\u0010\u001d\"\u0004\u0008L\u0010\u001fR\u001a\u0010M\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008N\u0010\u0012\"\u0004\u0008O\u0010\u0014R\u001a\u0010P\u001a\u00020\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Q\u0010\u0012\"\u0004\u0008R\u0010\u0014R\u0011\u0010S\u001a\u00020T\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008U\u0010VR\u000e\u0010W\u001a\u00020\u0010X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010X\u001a\u00020\u0010X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0014\u0010Y\u001a\u0008\u0012\u0004\u0012\u00020[0ZX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\\\u001a\u00020\u0010X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010]\u001a\u00020\u0010X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0090\u0001"
     }
     d2 = {
         "Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;",
@@ -30,6 +30,8 @@
         "(Z)V",
         "binding",
         "Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;",
+        "mAppTintColor",
+        "",
         "mBai",
         "",
         "getMBai",
@@ -43,7 +45,6 @@
         "getMIsSingleMotor",
         "setMIsSingleMotor",
         "mLeftCount",
-        "",
         "getMLeftCount",
         "()I",
         "setMLeftCount",
@@ -123,6 +124,7 @@
         "totalReps",
         "currRep",
         "hideRestDialog",
+        "initCustomTheme",
         "isStartingStage",
         "nextStage",
         "onActionStatusChanged",
@@ -159,7 +161,7 @@
         "Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;",
         "stopTraining",
         "manual",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -186,6 +188,8 @@
 .field private bStartingStage:Z
 
 .field private binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+.field private mAppTintColor:I
 
 .field private mBai:D
 
@@ -330,7 +334,7 @@
 
     move-object/from16 v0, p0
 
-    .line 34
+    .line 36
     new-instance v1, Ljava/util/LinkedHashMap;
 
     invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
@@ -341,7 +345,7 @@
 
     invoke-direct/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 36
+    .line 38
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     move-object v2, v1
@@ -380,7 +384,7 @@
 
     iput-object v1, v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
-    .line 59
+    .line 61
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -389,9 +393,18 @@
 
     iput-object v1, v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->pickerOptions:Ljava/util/List;
 
+    const-string v1, "#ff541e"
+
+    .line 62
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    iput v1, v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
+
     const/4 v1, 0x1
 
-    .line 324
+    .line 341
     iput v1, v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRestSeconds:I
 
     return-void
@@ -400,7 +413,7 @@
 .method public static final synthetic access$calcWeightByPickerIndex(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;I)D
     .locals 0
 
-    .line 34
+    .line 36
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->calcWeightByPickerIndex(I)D
 
     move-result-wide p0
@@ -411,7 +424,7 @@
 .method public static final synthetic access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
     .locals 0
 
-    .line 34
+    .line 36
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     return-object p0
@@ -420,7 +433,7 @@
 .method public static final synthetic access$getWeight1$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)D
     .locals 2
 
-    .line 34
+    .line 36
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight1:D
 
     return-wide v0
@@ -429,7 +442,7 @@
 .method public static final synthetic access$getWeight2$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)D
     .locals 2
 
-    .line 34
+    .line 36
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight2:D
 
     return-wide v0
@@ -438,7 +451,7 @@
 .method public static final synthetic access$setWeight1$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;D)V
     .locals 0
 
-    .line 34
+    .line 36
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight1:D
 
     return-void
@@ -447,7 +460,7 @@
 .method public static final synthetic access$setWeight2$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;D)V
     .locals 0
 
-    .line 34
+    .line 36
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight2:D
 
     return-void
@@ -462,13 +475,13 @@
 
     const/4 v0, 0x1
 
-    .line 289
+    .line 306
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
-    .line 290
+    .line 307
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->prepareStage()V
 
-    .line 291
+    .line 308
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda7;
@@ -491,7 +504,7 @@
 
     const/4 v0, 0x0
 
-    .line 292
+    .line 309
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
     return-void
@@ -500,12 +513,12 @@
 .method private final calcIndexByWeight(D)I
     .locals 3
 
-    .line 484
+    .line 501
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
     sub-double/2addr p1, v0
 
-    .line 485
+    .line 502
     sget-object v0, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -544,14 +557,14 @@
 .method private final calcWeightByPickerIndex(I)D
     .locals 6
 
-    .line 493
+    .line 510
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
     int-to-double v2, p1
 
     add-double/2addr v0, v2
 
-    .line 494
+    .line 511
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -566,7 +579,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 495
+    .line 512
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
     const-wide/high16 v4, 0x3fe0000000000000L    # 0.5
@@ -588,13 +601,13 @@
 
     const/4 v0, 0x1
 
-    .line 309
+    .line 326
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
-    .line 310
+    .line 327
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->prepareStage()V
 
-    .line 311
+    .line 328
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda5;
@@ -617,10 +630,10 @@
 
     const/4 v0, 0x0
 
-    .line 312
+    .line 329
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
-    .line 313
+    .line 330
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->showRestDialog()V
 
     return-void
@@ -637,7 +650,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 163
+    .line 180
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight1:D
 
     invoke-direct {p0, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->calcIndexByWeight(D)I
@@ -666,7 +679,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 182
+    .line 199
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight2:D
 
     invoke-direct {p0, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->calcIndexByWeight(D)I
@@ -697,7 +710,7 @@
 
     const/4 v1, 0x0
 
-    .line 195
+    .line 212
     invoke-static {p0, p1, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->stopTraining$default(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;ZILjava/lang/Object;)V
 
     return-void
@@ -712,33 +725,33 @@
 
     const p1, 0x7f120357
 
-    .line 198
+    .line 215
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     const p1, 0x7f120356
 
-    .line 199
+    .line 216
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
     const p1, 0x7f120277
 
-    .line 200
+    .line 217
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
     const p1, 0x7f12023c
 
-    .line 201
+    .line 218
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 197
+    .line 214
     new-instance v6, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda4;
 
     invoke-direct {v6, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)V
@@ -761,7 +774,7 @@
 
     const v0, 0x7f120277
 
-    .line 204
+    .line 221
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -774,29 +787,29 @@
 
     const/4 p1, 0x0
 
-    .line 205
+    .line 222
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 206
+    .line 223
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
     const/4 p1, 0x1
 
-    .line 207
+    .line 224
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
-    .line 208
+    .line 225
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz p1, :cond_0
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->switchWeight()V
 
-    .line 209
+    .line 226
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->prepareStage()V
 
-    .line 210
+    .line 227
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mHandler:Landroid/os/Handler;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda8;
@@ -820,7 +833,7 @@
 
     const/4 v0, 0x0
 
-    .line 211
+    .line 228
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
     return-void
@@ -829,7 +842,7 @@
 .method private final showWeightPicker(ILcom/changyow/iconsole4th/interfaces/OnOptionPickListener;)V
     .locals 2
 
-    .line 480
+    .line 497
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->pickerOptions:Ljava/util/List;
 
     const-string v1, ""
@@ -850,7 +863,7 @@
 
     move p1, p3
 
-    .line 353
+    .line 370
     :cond_0
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->stopTraining(Z)V
 
@@ -911,7 +924,7 @@
 .method public final addFinishedSet()V
     .locals 11
 
-    .line 268
+    .line 285
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -922,10 +935,10 @@
 
     move-result-object v1
 
-    .line 269
+    .line 286
     iget v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 270
+    .line 287
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -946,10 +959,10 @@
 
     move-result-wide v3
 
-    .line 271
+    .line 288
     iget v5, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
-    .line 272
+    .line 289
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -976,10 +989,10 @@
 
     const/4 v10, 0x0
 
-    .line 268
+    .line 285
     invoke-static/range {v1 .. v10}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->addFinishedSet$default(Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;IDIDIILjava/lang/Object;)V
 
-    .line 274
+    .line 291
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalLeftDistance:D
 
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
@@ -988,7 +1001,7 @@
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalLeftDistance:D
 
-    .line 275
+    .line 292
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalRightDistance:D
 
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
@@ -1003,7 +1016,7 @@
 .method public final addQuickstartStage(DD)V
     .locals 8
 
-    .line 279
+    .line 296
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
     if-nez v0, :cond_4
@@ -1012,7 +1025,7 @@
 
     if-nez v0, :cond_4
 
-    .line 280
+    .line 297
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     const/4 v1, 0x0
@@ -1046,7 +1059,7 @@
     :cond_1
     invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->setWeight1(D)V
 
-    .line 281
+    .line 298
     :goto_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -1078,11 +1091,11 @@
 
     goto :goto_4
 
-    .line 283
+    .line 300
     :cond_4
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->addFinishedSet()V
 
-    .line 284
+    .line 301
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v2, :cond_7
@@ -1117,7 +1130,7 @@
     :goto_3
     invoke-virtual/range {v2 .. v7}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->addSet(IDD)V
 
-    .line 285
+    .line 302
     :cond_7
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
@@ -1125,7 +1138,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
-    .line 288
+    .line 305
     :goto_4
     new-instance p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda6;
 
@@ -1135,18 +1148,18 @@
 
     const/4 p1, 0x0
 
-    .line 295
+    .line 312
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 296
+    .line 313
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
     const-wide/16 p1, 0x0
 
-    .line 297
+    .line 314
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
-    .line 298
+    .line 315
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
     return-void
@@ -1155,7 +1168,7 @@
 .method public final getBStartingStage()Z
     .locals 1
 
-    .line 259
+    .line 276
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
     return v0
@@ -1182,7 +1195,7 @@
 .method public final getMBai()D
     .locals 2
 
-    .line 51
+    .line 53
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mBai:D
 
     return-wide v0
@@ -1191,7 +1204,7 @@
 .method public final getMCalories()D
     .locals 2
 
-    .line 50
+    .line 52
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mCalories:D
 
     return-wide v0
@@ -1200,7 +1213,7 @@
 .method public final getMIsSingleMotor()Z
     .locals 1
 
-    .line 37
+    .line 39
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mIsSingleMotor:Z
 
     return v0
@@ -1209,7 +1222,7 @@
 .method public final getMLeftCount()I
     .locals 1
 
-    .line 40
+    .line 42
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
     return v0
@@ -1218,7 +1231,7 @@
 .method public final getMLeftDistance()D
     .locals 2
 
-    .line 46
+    .line 48
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
     return-wide v0
@@ -1227,7 +1240,7 @@
 .method public final getMLeftPower()D
     .locals 2
 
-    .line 42
+    .line 44
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftPower:D
 
     return-wide v0
@@ -1236,7 +1249,7 @@
 .method public final getMLeftSpeed()D
     .locals 2
 
-    .line 44
+    .line 46
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftSpeed:D
 
     return-wide v0
@@ -1245,7 +1258,7 @@
 .method public final getMPreviousTick()J
     .locals 2
 
-    .line 52
+    .line 54
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mPreviousTick:J
 
     return-wide v0
@@ -1254,7 +1267,7 @@
 .method public final getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
     .locals 1
 
-    .line 38
+    .line 40
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     return-object v0
@@ -1263,7 +1276,7 @@
 .method public final getMRefreshUITimer()Ljava/util/Timer;
     .locals 1
 
-    .line 323
+    .line 340
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
     return-object v0
@@ -1272,7 +1285,7 @@
 .method public final getMRestSeconds()I
     .locals 1
 
-    .line 324
+    .line 341
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRestSeconds:I
 
     return v0
@@ -1281,7 +1294,7 @@
 .method public final getMRightCount()I
     .locals 1
 
-    .line 41
+    .line 43
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
     return v0
@@ -1290,7 +1303,7 @@
 .method public final getMRightDistance()D
     .locals 2
 
-    .line 47
+    .line 49
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
     return-wide v0
@@ -1299,7 +1312,7 @@
 .method public final getMRightPower()D
     .locals 2
 
-    .line 43
+    .line 45
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightPower:D
 
     return-wide v0
@@ -1308,7 +1321,7 @@
 .method public final getMRightSpeed()D
     .locals 2
 
-    .line 45
+    .line 47
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightSpeed:D
 
     return-wide v0
@@ -1317,7 +1330,7 @@
 .method public final getMStage()I
     .locals 1
 
-    .line 39
+    .line 41
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
     return v0
@@ -1326,7 +1339,7 @@
 .method public final getMTotalLeftDistance()D
     .locals 2
 
-    .line 48
+    .line 50
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalLeftDistance:D
 
     return-wide v0
@@ -1335,7 +1348,7 @@
 .method public final getMTotalRightDistance()D
     .locals 2
 
-    .line 49
+    .line 51
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalRightDistance:D
 
     return-wide v0
@@ -1344,7 +1357,7 @@
 .method public final getMWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
     .locals 1
 
-    .line 36
+    .line 38
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     return-object v0
@@ -1353,7 +1366,7 @@
 .method public final hideRestDialog()V
     .locals 2
 
-    .line 344
+    .line 361
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
     if-nez v0, :cond_0
@@ -1363,16 +1376,16 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 347
+    .line 364
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
     :cond_1
     const/4 v0, 0x0
 
-    .line 348
+    .line 365
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
-    .line 349
+    .line 366
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_2
@@ -1393,7 +1406,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 350
+    .line 367
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -1411,10 +1424,193 @@
     return-void
 .end method
 
+.method protected initCustomTheme()V
+    .locals 4
+
+    .line 142
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 143
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
+
+    .line 144
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    const/4 v1, 0x0
+
+    const-string v2, "binding"
+
+    if-nez v0, :cond_0
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_0
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->viewProgressLeft:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;->setProgressColor(Ljava/lang/String;)V
+
+    .line 145
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_1
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_1
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->viewProgressRight:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;->setProgressColor(Ljava/lang/String;)V
+
+    .line 147
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_2
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_2
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->layoutHrPanel:Landroid/widget/LinearLayout;
+
+    const-string v3, "binding.layoutHrPanel"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 148
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_3
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_3
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->ivHrIcon:Landroid/widget/ImageView;
+
+    const-string v3, "binding.ivHrIcon"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    .line 149
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_4
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_4
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHrUnit:Landroid/widget/TextView;
+
+    const-string v3, "binding.txvHrUnit"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    .line 150
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_5
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_5
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHr:Landroid/widget/TextView;
+
+    const-string v3, "binding.txvHr"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    .line 151
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_6
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_6
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHrZone:Landroid/widget/TextView;
+
+    const-string v3, "binding.txvHrZone"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    .line 152
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
+
+    if-nez v0, :cond_7
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_7
+    move-object v1, v0
+
+    :goto_0
+    iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHrZoneTitle:Landroid/widget/TextView;
+
+    const-string v1, "binding.txvHrZoneTitle"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method public final isStartingStage()Z
     .locals 1
 
-    .line 261
+    .line 278
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
     if-nez v0, :cond_1
@@ -1440,17 +1636,17 @@
 .method public final nextStage()V
     .locals 3
 
-    .line 302
+    .line 319
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->addFinishedSet()V
 
-    .line 304
+    .line 321
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
-    .line 305
+    .line 322
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1467,12 +1663,12 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 306
+    .line 323
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->stopTraining(Z)V
 
     goto :goto_0
 
-    .line 308
+    .line 325
     :cond_0
     new-instance v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda9;
 
@@ -1480,19 +1676,19 @@
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 317
+    .line 334
     :goto_0
     iput v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 318
+    .line 335
     iput v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
     const-wide/16 v0, 0x0
 
-    .line 319
+    .line 336
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
-    .line 320
+    .line 337
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
     return-void
@@ -1517,10 +1713,10 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 7
 
-    .line 62
+    .line 65
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 63
+    .line 66
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getWindow()Landroid/view/Window;
@@ -1531,7 +1727,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->addFlags(I)V
 
-    .line 64
+    .line 67
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -1552,7 +1748,7 @@
 
     const-string p1, "binding"
 
-    .line 65
+    .line 68
     invoke-static {p1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     move-object p1, v0
@@ -1566,7 +1762,7 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->setContentView(Landroid/view/View;)V
 
-    .line 67
+    .line 70
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1579,7 +1775,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 68
+    .line 71
     sget-object v1, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->Companion:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile$Companion;
 
     invoke-virtual {v1, p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile$Companion;->fromJson(Ljava/lang/String;)Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -1596,10 +1792,10 @@
 
     if-nez p1, :cond_2
 
-    .line 70
+    .line 73
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->finish()V
 
-    .line 71
+    .line 74
     :cond_2
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
@@ -1615,14 +1811,14 @@
 
     if-nez p1, :cond_3
 
-    .line 72
+    .line 75
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz p1, :cond_3
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->makeImperial()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
-    .line 73
+    .line 76
     :cond_3
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
@@ -1640,7 +1836,7 @@
 
     if-eqz p1, :cond_9
 
-    .line 74
+    .line 77
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1655,10 +1851,10 @@
 
     invoke-static {p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 76
+    .line 79
     invoke-virtual {p1, p0}, Lchangyow/ble4th/retrainer/BenchBleManager;->setListener(Ljava/lang/Object;)V
 
-    .line 77
+    .line 80
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerSupportFeature()Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;
 
     move-result-object v3
@@ -1681,7 +1877,7 @@
     :goto_1
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mIsSingleMotor:Z
 
-    .line 78
+    .line 81
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerLimits()Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     move-result-object v3
@@ -1719,7 +1915,7 @@
 
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
-    .line 79
+    .line 82
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerLimits()Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     move-result-object p1
@@ -1757,7 +1953,7 @@
 
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMax:D
 
-    .line 82
+    .line 85
     :cond_9
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
@@ -1773,7 +1969,7 @@
 
     if-nez p1, :cond_a
 
-    .line 83
+    .line 86
     iget-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
     invoke-static {v3, v4}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
@@ -1790,7 +1986,7 @@
 
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
-    .line 84
+    .line 87
     iget-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMax:D
 
     invoke-static {v3, v4}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
@@ -1805,7 +2001,7 @@
 
     iput-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMax:D
 
-    .line 87
+    .line 90
     :cond_a
     iget-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->machineMin:D
 
@@ -1817,7 +2013,7 @@
 
     if-gt p1, v3, :cond_c
 
-    .line 88
+    .line 91
     :goto_4
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->pickerOptions:Ljava/util/List;
 
@@ -1831,7 +2027,7 @@
 
     invoke-interface {v4, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 89
+    .line 92
     sget-object v4, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -1852,7 +2048,7 @@
 
     if-eq p1, v4, :cond_b
 
-    .line 90
+    .line 93
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->pickerOptions:Ljava/util/List;
 
     sget-object v5, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
@@ -1888,11 +2084,11 @@
 
     goto :goto_4
 
-    .line 93
+    .line 96
     :cond_c
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
-    .line 94
+    .line 97
     sget-object v1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1917,7 +2113,7 @@
     :goto_5
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setClientID(I)V
 
-    .line 95
+    .line 98
     sget-object v1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1939,10 +2135,10 @@
 
     const-string v1, "BLE"
 
-    .line 96
+    .line 99
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setProtocol(Ljava/lang/String;)V
 
-    .line 97
+    .line 100
     sget-object v1, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
     const-string v2, "RELEASE"
@@ -1951,7 +2147,7 @@
 
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setOsVersion(Ljava/lang/String;)V
 
-    .line 98
+    .line 101
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v2, "MODEL"
@@ -1962,46 +2158,46 @@
 
     const-string v1, "Android"
 
-    .line 99
+    .line 102
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setOs(Ljava/lang/String;)V
 
     const-string v1, "ic"
 
-    .line 100
+    .line 103
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setWorkoutSource(Ljava/lang/String;)V
 
     const/4 v1, 0x3
 
-    .line 101
+    .line 104
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->setWorkoutVersion(I)V
 
-    .line 102
+    .line 105
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->markStarted()V
 
-    .line 103
+    .line 106
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
 
     move-result-object p1
 
     const-string v1, "Egravity"
 
-    .line 104
+    .line 107
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->setWorkoutType(Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
-    .line 105
+    .line 108
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->setHeartrateSource(I)V
 
-    .line 106
+    .line 109
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->setCaloriesSource(I)V
 
-    .line 107
+    .line 110
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->getSampling()Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;
 
     move-result-object p1
 
-    .line 108
+    .line 111
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->getSamplingInfo()Lcom/changyow/iconsole4th/activity/retrainer/EGravitySamplingInfo;
 
     move-result-object v1
@@ -2032,7 +2228,7 @@
 
     invoke-virtual {v1, v2}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySamplingInfo;->setBleHrName(Ljava/lang/String;)V
 
-    .line 109
+    .line 112
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v1, :cond_10
@@ -2051,7 +2247,7 @@
 
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setExercise(Ljava/lang/String;)V
 
-    .line 110
+    .line 113
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v1, :cond_11
@@ -2078,7 +2274,7 @@
 
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setSingleWeight(Z)V
 
-    .line 111
+    .line 114
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     if-eqz v1, :cond_12
@@ -2096,7 +2292,7 @@
     :cond_12
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setEgravityProfile(Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;)V
 
-    .line 112
+    .line 115
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->loadEccentricFactor()D
@@ -2105,7 +2301,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setEgravityEccentricFactor(D)V
 
-    .line 117
+    .line 120
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->prepareUI()V
 
     return-void
@@ -2114,7 +2310,7 @@
 .method public onDeviceConnected(Landroid/bluetooth/BluetoothDevice;)V
     .locals 0
 
-    .line 34
+    .line 36
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/BleCallbacks$DefaultImpls;->onDeviceConnected(Lchangyow/ble4th/retrainer/BleCallbacks;Landroid/bluetooth/BluetoothDevice;)V
 
     return-void
@@ -2129,7 +2325,7 @@
 
     const/4 p1, 0x1
 
-    .line 473
+    .line 490
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->stopTraining(Z)V
 
     return-void
@@ -2138,7 +2334,7 @@
 .method public onDeviceFailedToConnect(Landroid/bluetooth/BluetoothDevice;I)V
     .locals 0
 
-    .line 34
+    .line 36
     invoke-static {p0, p1, p2}, Lchangyow/ble4th/retrainer/BleCallbacks$DefaultImpls;->onDeviceFailedToConnect(Lchangyow/ble4th/retrainer/BleCallbacks;Landroid/bluetooth/BluetoothDevice;I)V
 
     return-void
@@ -2157,7 +2353,7 @@
 .method public onError(II)V
     .locals 4
 
-    .line 459
+    .line 476
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     check-cast v0, Landroid/content/Context;
@@ -2212,7 +2408,7 @@
 .method public onGetFeatures(Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;)V
     .locals 0
 
-    .line 34
+    .line 36
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onGetFeatures(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;)V
 
     return-void
@@ -2221,7 +2417,7 @@
 .method public onGetLimits(Lchangyow/ble4th/retrainer/Retrainer$Limits;)V
     .locals 0
 
-    .line 34
+    .line 36
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onGetLimits(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;Lchangyow/ble4th/retrainer/Retrainer$Limits;)V
 
     return-void
@@ -2240,7 +2436,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 381
+    .line 398
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -2249,7 +2445,7 @@
 
     move-result v2
 
-    .line 382
+    .line 399
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     const/4 v9, 0x0
@@ -2283,7 +2479,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 383
+    .line 400
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v0, :cond_1
@@ -2303,7 +2499,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 384
+    .line 401
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mPreviousTick:J
 
     const-wide/16 v3, 0x0
@@ -2312,7 +2508,7 @@
 
     if-nez v0, :cond_2
 
-    .line 385
+    .line 402
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -2321,13 +2517,13 @@
 
     goto :goto_0
 
-    .line 387
+    .line 404
     :cond_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 388
+    .line 405
     iget-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mPreviousTick:J
 
     sub-long v3, v0, v3
@@ -2344,7 +2540,7 @@
 
     if-gez v5, :cond_3
 
-    .line 390
+    .line 407
     iget-wide v5, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mCalories:D
 
     sget-object v7, Lcom/changyow/iconsole4th/util/CalorieCalculator;->INSTANCE:Lcom/changyow/iconsole4th/util/CalorieCalculator;
@@ -2359,7 +2555,7 @@
 
     iput-wide v5, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mCalories:D
 
-    .line 391
+    .line 408
     iget-wide v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mBai:D
 
     sget-object v6, Lcom/changyow/iconsole4th/util/CalorieCalculator;->INSTANCE:Lcom/changyow/iconsole4th/util/CalorieCalculator;
@@ -2372,10 +2568,10 @@
 
     iput-wide v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mBai:D
 
-    .line 392
+    .line 409
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mPreviousTick:J
 
-    .line 395
+    .line 412
     :cond_3
     :goto_0
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
@@ -2396,7 +2592,7 @@
 
     return-void
 
-    .line 397
+    .line 414
     :cond_4
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
@@ -2410,21 +2606,21 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 398
+    .line 415
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorPower()D
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftPower:D
 
-    .line 399
+    .line 416
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getRepetitionRate()D
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftSpeed:D
 
-    .line 400
+    .line 417
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getProcessDistance()D
 
     move-result-wide v0
@@ -2433,7 +2629,7 @@
 
     goto :goto_1
 
-    .line 401
+    .line 418
     :cond_5
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
@@ -2447,28 +2643,28 @@
 
     if-ne v0, v1, :cond_6
 
-    .line 402
+    .line 419
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorPower()D
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightPower:D
 
-    .line 403
+    .line 420
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getRepetitionRate()D
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightSpeed:D
 
-    .line 404
+    .line 421
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getProcessDistance()D
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
-    .line 406
+    .line 423
     :cond_6
     :goto_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
@@ -2487,17 +2683,17 @@
 
     invoke-virtual/range {v1 .. v8}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->addSamplingData(IDDIZ)V
 
-    .line 408
+    .line 425
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getRepetitionCount()I
 
     move-result v0
 
     if-lez v0, :cond_7
 
-    .line 409
+    .line 426
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->hideRestDialog()V
 
-    .line 411
+    .line 428
     :cond_7
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -2519,14 +2715,14 @@
 
     move-result v0
 
-    .line 413
+    .line 430
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mIsSingleMotor:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_12
 
-    .line 414
+    .line 431
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
     move-result v1
@@ -2539,7 +2735,7 @@
 
     if-ne v1, v3, :cond_b
 
-    .line 415
+    .line 432
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->isStartingStage()Z
 
     move-result v1
@@ -2556,14 +2752,14 @@
     :goto_2
     iput v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 416
+    .line 433
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getProcessDistance()D
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
-    .line 417
+    .line 434
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_9
@@ -2587,7 +2783,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 418
+    .line 435
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_a
@@ -2613,7 +2809,7 @@
 
     goto :goto_4
 
-    .line 419
+    .line 436
     :cond_b
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
@@ -2627,7 +2823,7 @@
 
     if-ne v1, v3, :cond_f
 
-    .line 420
+    .line 437
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->isStartingStage()Z
 
     move-result v1
@@ -2644,14 +2840,14 @@
     :goto_3
     iput v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
-    .line 421
+    .line 438
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getProcessDistance()D
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
-    .line 422
+    .line 439
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_d
@@ -2675,7 +2871,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 423
+    .line 440
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_e
@@ -2699,7 +2895,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 426
+    .line 443
     :cond_f
     :goto_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
@@ -2735,7 +2931,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 427
+    .line 444
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez p1, :cond_11
@@ -2774,7 +2970,7 @@
 
     if-lez v0, :cond_18
 
-    .line 428
+    .line 445
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
     if-lt p1, v0, :cond_18
@@ -2789,12 +2985,12 @@
 
     if-nez p1, :cond_18
 
-    .line 429
+    .line 446
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->nextStage()V
 
     goto/16 :goto_8
 
-    .line 431
+    .line 448
     :cond_12
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->isStartingStage()Z
 
@@ -2812,14 +3008,14 @@
     :goto_6
     iput v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
-    .line 432
+    .line 449
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getProcessDistance()D
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
-    .line 433
+    .line 450
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_14
@@ -2855,7 +3051,7 @@
 
     if-lez v0, :cond_15
 
-    .line 434
+    .line 451
     iget v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
     if-lt v1, v0, :cond_15
@@ -2866,10 +3062,10 @@
 
     if-nez v0, :cond_15
 
-    .line 435
+    .line 452
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->nextStage()V
 
-    .line 436
+    .line 453
     :cond_15
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
@@ -2894,7 +3090,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 437
+    .line 454
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v0, :cond_17
@@ -2929,7 +3125,7 @@
 .method public onMotorMotionNotified(III)V
     .locals 4
 
-    .line 466
+    .line 483
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->getLeftGripMotorNumber()I
@@ -2944,7 +3140,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 467
+    .line 484
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez p1, :cond_0
@@ -2975,7 +3171,7 @@
 
     goto :goto_2
 
-    .line 468
+    .line 485
     :cond_1
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -2985,7 +3181,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 469
+    .line 486
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez p1, :cond_2
@@ -3022,10 +3218,10 @@
 .method protected onStart()V
     .locals 1
 
-    .line 124
+    .line 127
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onStart()V
 
-    .line 125
+    .line 128
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -3038,7 +3234,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 126
+    .line 129
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -3053,7 +3249,7 @@
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 128
+    .line 131
     invoke-virtual {v0, p0}, Lchangyow/ble4th/retrainer/BenchBleManager;->setListener(Ljava/lang/Object;)V
 
     :cond_0
@@ -3063,10 +3259,10 @@
 .method protected onStop()V
     .locals 2
 
-    .line 134
+    .line 137
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onStop()V
 
-    .line 135
+    .line 138
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -3093,12 +3289,12 @@
 .method public final prepareStage()V
     .locals 10
 
-    .line 222
+    .line 239
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 223
+    .line 240
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->isSingleWeight()Z
 
     move-result v1
@@ -3109,7 +3305,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 224
+    .line 241
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_0
@@ -3151,7 +3347,7 @@
 
     goto :goto_0
 
-    .line 226
+    .line 243
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
@@ -3192,7 +3388,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 227
+    .line 244
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_3
@@ -3232,7 +3428,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 229
+    .line 246
     :goto_0
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->getTrainingSets()Ljava/util/ArrayList;
 
@@ -3252,7 +3448,7 @@
 
     iput-wide v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight1:D
 
-    .line 230
+    .line 247
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->getTrainingSets()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -3271,7 +3467,7 @@
 
     iput-wide v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->weight2:D
 
-    .line 232
+    .line 249
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_4
@@ -3297,7 +3493,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 233
+    .line 250
     iget v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
     add-int/2addr v1, v5
@@ -3320,7 +3516,7 @@
 
     if-ge v1, v4, :cond_6
 
-    .line 234
+    .line 251
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_5
@@ -3346,7 +3542,7 @@
 
     goto :goto_1
 
-    .line 236
+    .line 253
     :cond_6
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
@@ -3365,7 +3561,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 237
+    .line 254
     :goto_1
     iget v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
@@ -3385,7 +3581,7 @@
 
     if-ge v1, v4, :cond_9
 
-    .line 238
+    .line 255
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_8
@@ -3414,7 +3610,7 @@
 
     goto :goto_4
 
-    .line 240
+    .line 257
     :cond_9
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
@@ -3434,7 +3630,7 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 243
+    .line 260
     :goto_4
     sget-object v1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
@@ -3448,7 +3644,7 @@
 
     if-eqz v1, :cond_d
 
-    .line 244
+    .line 261
     sget-object v1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -3463,13 +3659,13 @@
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 246
+    .line 263
     invoke-virtual {v1}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestControlPermission()V
 
-    .line 247
+    .line 264
     invoke-virtual {v1}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestStop()V
 
-    .line 248
+    .line 265
     sget-object v2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->getLeftGripMotorNumber()I
@@ -3494,12 +3690,12 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestSetTargetWeight(ID)V
 
-    .line 249
+    .line 266
     iget-boolean v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mIsSingleMotor:Z
 
     if-nez v2, :cond_b
 
-    .line 250
+    .line 267
     sget-object v2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->getRighGripMotorNumber()I
@@ -3524,7 +3720,7 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestSetTargetWeight(ID)V
 
-    .line 251
+    .line 268
     :cond_b
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -3538,7 +3734,7 @@
 
     if-lez v0, :cond_c
 
-    .line 252
+    .line 269
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->loadEccentricFactor()D
@@ -3549,7 +3745,7 @@
 
     goto :goto_5
 
-    .line 254
+    .line 271
     :cond_c
     invoke-virtual {v1, v5}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestStart(I)V
 
@@ -3559,14 +3755,14 @@
 .end method
 
 .method public final prepareUI()V
-    .locals 9
+    .locals 8
 
-    .line 139
+    .line 156
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 141
+    .line 158
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v1, :cond_0
@@ -3577,7 +3773,7 @@
 
     const/4 v1, 0x0
 
-    .line 142
+    .line 159
     :cond_0
     iget-object v2, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHr:Landroid/widget/TextView;
 
@@ -3589,7 +3785,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 143
+    .line 160
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v2
@@ -3600,7 +3796,7 @@
 
     if-nez v2, :cond_1
 
-    .line 144
+    .line 161
     iget-object v2, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHr:Landroid/widget/TextView;
 
     const-string v4, "N/A"
@@ -3609,7 +3805,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 145
+    .line 162
     :cond_1
     iget-object v2, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvHrZone:Landroid/widget/TextView;
 
@@ -3623,7 +3819,7 @@
 
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 146
+    .line 163
     iget-object v2, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvRepsLeft:Landroid/widget/TextView;
 
     move-object v5, v3
@@ -3632,91 +3828,85 @@
 
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 147
+    .line 164
     iget-object v2, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->txvRepsRight:Landroid/widget/TextView;
 
     check-cast v3, Ljava/lang/CharSequence;
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 149
+    .line 166
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->isSingleWeight()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 150
+    .line 167
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->layoutDataPanelRow1Column2:Landroid/widget/LinearLayout;
 
     const/16 v2, 0x8
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 151
+    .line 168
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->layoutRepsRight:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 152
+    .line 169
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->viewProgressRight:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;
 
     const/4 v3, 0x4
 
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityMotionView;->setVisibility(I)V
 
-    .line 153
+    .line 170
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->btnSwitchMotor:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 156
+    .line 173
     :cond_2
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->piece1:Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;
 
-    .line 157
+    .line 174
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
-    const/high16 v3, 0x7f060000
+    iget v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
 
-    invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getColor(I)I
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    move-result v5
-
-    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setTextColor(I)V
-
-    .line 158
+    .line 175
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvUnit:Landroid/widget/TextView;
 
-    invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getColor(I)I
+    iget v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
 
-    move-result v5
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setTextColor(I)V
-
-    .line 159
+    .line 176
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvTitle:Landroid/widget/TextView;
 
-    const-string v5, ""
+    const-string v3, ""
 
-    move-object v6, v5
+    move-object v5, v3
 
-    check-cast v6, Ljava/lang/CharSequence;
+    check-cast v5, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 160
+    .line 177
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getMassUnit()Ljava/lang/String;
 
-    move-result-object v6
+    move-result-object v5
 
-    check-cast v6, Ljava/lang/CharSequence;
+    check-cast v5, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 161
+    .line 178
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -3735,73 +3925,69 @@
 
     move-result v2
 
-    const v6, 0x7f0801ab
+    const v5, 0x7f0801ab
 
-    const v7, 0x7f07024c
+    const v6, 0x7f07024c
 
     if-nez v2, :cond_3
 
-    .line 162
+    .line 179
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v2
 
-    new-instance v8, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda3;
+    new-instance v7, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda3;
 
-    invoke-direct {v8, p0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;)V
+    invoke-direct {v7, p0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;)V
 
-    invoke-virtual {v2, v8}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v7}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 171
+    .line 188
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getResources()Landroid/content/res/Resources;
 
-    move-result-object v8
+    move-result-object v7
 
-    invoke-virtual {v8, v7}, Landroid/content/res/Resources;->getDimension(I)F
+    invoke-virtual {v7, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
-    move-result v8
+    move-result v7
 
-    float-to-int v8, v8
+    float-to-int v7, v7
 
-    invoke-virtual {v2, v8}, Landroid/widget/TextView;->setCompoundDrawablePadding(I)V
+    invoke-virtual {v2, v7}, Landroid/widget/TextView;->setCompoundDrawablePadding(I)V
 
-    .line 172
+    .line 189
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v6, v4, v4, v4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
+    invoke-virtual {v0, v5, v4, v4, v4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
-    .line 175
+    .line 192
     :cond_3
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->piece2:Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;
 
-    .line 176
+    .line 193
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
-    invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getColor(I)I
+    iget v7, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
 
-    move-result v8
+    invoke-virtual {v2, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-virtual {v2, v8}, Landroid/widget/TextView;->setTextColor(I)V
-
-    .line 177
+    .line 194
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvUnit:Landroid/widget/TextView;
 
-    invoke-virtual {p0, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getColor(I)I
+    iget v7, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mAppTintColor:I
 
-    move-result v3
+    invoke-virtual {v2, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
-
-    .line 178
+    .line 195
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvTitle:Landroid/widget/TextView;
 
-    check-cast v5, Ljava/lang/CharSequence;
+    check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 179
+    .line 196
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getMassUnit()Ljava/lang/String;
@@ -3812,7 +3998,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 180
+    .line 197
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -3833,7 +4019,7 @@
 
     if-nez v2, :cond_4
 
-    .line 181
+    .line 198
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v2
@@ -3844,14 +4030,14 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 190
+    .line 207
     iget-object v2, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getDimension(I)F
+    invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
     move-result v3
 
@@ -3859,12 +4045,12 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setCompoundDrawablePadding(I)V
 
-    .line 191
+    .line 208
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;->txvValue:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v6, v4, v4, v4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
+    invoke-virtual {v0, v5, v4, v4, v4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
 
-    .line 195
+    .line 212
     :cond_4
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->btnStopWorkout:Landroid/widget/ImageButton;
 
@@ -3874,7 +4060,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 196
+    .line 213
     iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->btnSwitchMotor:Landroid/widget/ImageButton;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$$ExternalSyntheticLambda1;
@@ -3883,7 +4069,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 218
+    .line 235
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->prepareStage()V
 
     return-void
@@ -3892,7 +4078,7 @@
 .method public final setBStartingStage(Z)V
     .locals 0
 
-    .line 259
+    .line 276
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->bStartingStage:Z
 
     return-void
@@ -3901,7 +4087,7 @@
 .method public final setMBai(D)V
     .locals 0
 
-    .line 51
+    .line 53
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mBai:D
 
     return-void
@@ -3910,7 +4096,7 @@
 .method public final setMCalories(D)V
     .locals 0
 
-    .line 50
+    .line 52
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mCalories:D
 
     return-void
@@ -3919,7 +4105,7 @@
 .method public final setMIsSingleMotor(Z)V
     .locals 0
 
-    .line 37
+    .line 39
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mIsSingleMotor:Z
 
     return-void
@@ -3928,7 +4114,7 @@
 .method public final setMLeftCount(I)V
     .locals 0
 
-    .line 40
+    .line 42
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftCount:I
 
     return-void
@@ -3937,7 +4123,7 @@
 .method public final setMLeftDistance(D)V
     .locals 0
 
-    .line 46
+    .line 48
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftDistance:D
 
     return-void
@@ -3946,7 +4132,7 @@
 .method public final setMLeftPower(D)V
     .locals 0
 
-    .line 42
+    .line 44
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftPower:D
 
     return-void
@@ -3955,7 +4141,7 @@
 .method public final setMLeftSpeed(D)V
     .locals 0
 
-    .line 44
+    .line 46
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mLeftSpeed:D
 
     return-void
@@ -3964,7 +4150,7 @@
 .method public final setMPreviousTick(J)V
     .locals 0
 
-    .line 52
+    .line 54
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mPreviousTick:J
 
     return-void
@@ -3973,7 +4159,7 @@
 .method public final setMProflie(Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;)V
     .locals 0
 
-    .line 38
+    .line 40
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mProflie:Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
     return-void
@@ -3982,7 +4168,7 @@
 .method public final setMRefreshUITimer(Ljava/util/Timer;)V
     .locals 0
 
-    .line 323
+    .line 340
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
     return-void
@@ -3991,7 +4177,7 @@
 .method public final setMRestSeconds(I)V
     .locals 0
 
-    .line 324
+    .line 341
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRestSeconds:I
 
     return-void
@@ -4000,7 +4186,7 @@
 .method public final setMRightCount(I)V
     .locals 0
 
-    .line 41
+    .line 43
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightCount:I
 
     return-void
@@ -4009,7 +4195,7 @@
 .method public final setMRightDistance(D)V
     .locals 0
 
-    .line 47
+    .line 49
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightDistance:D
 
     return-void
@@ -4018,7 +4204,7 @@
 .method public final setMRightPower(D)V
     .locals 0
 
-    .line 43
+    .line 45
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightPower:D
 
     return-void
@@ -4027,7 +4213,7 @@
 .method public final setMRightSpeed(D)V
     .locals 0
 
-    .line 45
+    .line 47
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRightSpeed:D
 
     return-void
@@ -4036,7 +4222,7 @@
 .method public final setMStage(I)V
     .locals 0
 
-    .line 39
+    .line 41
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mStage:I
 
     return-void
@@ -4045,7 +4231,7 @@
 .method public final setMTotalLeftDistance(D)V
     .locals 0
 
-    .line 48
+    .line 50
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalLeftDistance:D
 
     return-void
@@ -4054,7 +4240,7 @@
 .method public final setMTotalRightDistance(D)V
     .locals 0
 
-    .line 49
+    .line 51
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mTotalRightDistance:D
 
     return-void
@@ -4063,14 +4249,14 @@
 .method public final showRestDialog()V
     .locals 7
 
-    .line 326
+    .line 343
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 329
+    .line 346
     :cond_0
     new-instance v1, Ljava/util/Timer;
 
@@ -4078,7 +4264,7 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRefreshUITimer:Ljava/util/Timer;
 
-    .line 330
+    .line 347
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$showRestDialog$1;
@@ -4097,10 +4283,10 @@
 
     const/4 v0, 0x1
 
-    .line 338
+    .line 355
     iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mRestSeconds:I
 
-    .line 339
+    .line 356
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     const/4 v1, 0x0
@@ -4120,7 +4306,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 340
+    .line 357
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     if-nez v0, :cond_2
@@ -4153,10 +4339,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 355
+    .line 372
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->addFinishedSet()V
 
-    .line 357
+    .line 374
     :cond_0
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
@@ -4170,7 +4356,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 358
+    .line 375
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -4187,27 +4373,27 @@
 
     const/4 v0, 0x0
 
-    .line 360
+    .line 377
     invoke-virtual {p1, v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->setListener(Ljava/lang/Object;)V
 
-    .line 361
+    .line 378
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestControlPermission()V
 
-    .line 362
+    .line 379
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestStop()V
 
-    .line 365
+    .line 382
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->markEnded()V
 
-    .line 366
+    .line 383
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->calcAvgs()V
 
-    .line 367
+    .line 384
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -4220,7 +4406,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->setCalories(I)V
 
-    .line 368
+    .line 385
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -4233,7 +4419,7 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;->setBai(I)V
 
-    .line 369
+    .line 386
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -4248,7 +4434,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setStrengthDistanceInMeter1(D)V
 
-    .line 370
+    .line 387
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -4263,7 +4449,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravitySampling;->setStrengthDistanceInMeter2(D)V
 
-    .line 371
+    .line 388
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->getWorkoutData()Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutDataDetail;
@@ -4298,14 +4484,14 @@
 
     if-lt p1, v0, :cond_2
 
-    .line 372
+    .line 389
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mWorkoutData:Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityWorkoutData;->toJson()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 373
+    .line 390
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -4318,13 +4504,13 @@
 
     const-string v1, "EGRAVITY_WORKOUT_DATA_JSON_STRING"
 
-    .line 374
+    .line 391
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 375
+    .line 392
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 377
+    .line 394
     :cond_2
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->finish()V
 

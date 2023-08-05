@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 605
+    .line 616
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$13;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method public run()V
     .locals 2
 
-    .line 610
+    .line 621
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$13;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$1000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;

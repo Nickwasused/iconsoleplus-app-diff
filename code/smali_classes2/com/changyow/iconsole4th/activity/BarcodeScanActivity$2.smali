@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 107
+    .line 112
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

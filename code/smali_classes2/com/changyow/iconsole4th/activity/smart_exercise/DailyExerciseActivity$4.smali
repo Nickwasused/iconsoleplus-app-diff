@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 730
+    .line 745
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +44,7 @@
 .method static synthetic lambda$onLongClick$1(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 760
+    .line 775
     invoke-interface {p0}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -55,10 +55,10 @@
 .method synthetic lambda$onLongClick$0$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity$4(Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 742
+    .line 757
     invoke-interface {p2}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 743
+    .line 758
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object p2, p2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mScheduled:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;
@@ -67,14 +67,14 @@
 
     invoke-virtual {p2, p3}, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;->removeSchedule(I)V
 
-    .line 744
+    .line 759
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object p2, p2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mListAdapter:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->notifyDataSetChanged()V
 
-    .line 745
+    .line 760
     iget p1, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->schedule_id:I
 
     new-instance p2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$1;
@@ -97,7 +97,7 @@
         }
     .end annotation
 
-    .line 734
+    .line 749
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->access$1600(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroidx/recyclerview/widget/RecyclerView;
@@ -108,7 +108,7 @@
 
     move-result p1
 
-    .line 735
+    .line 750
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -119,7 +119,7 @@
 
     check-cast p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
-    .line 737
+    .line 752
     iget-object v0, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->completed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
 
     if-eqz v0, :cond_0
@@ -138,7 +138,7 @@
 
     return p1
 
-    .line 740
+    .line 755
     :cond_0
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -162,7 +162,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;)V
 
-    .line 741
+    .line 756
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
@@ -171,17 +171,17 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda1;->INSTANCE:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$$ExternalSyntheticLambda1;
 
-    .line 759
+    .line 774
     invoke-virtual {p1, v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 762
+    .line 777
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 763
+    .line 778
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     const/4 p1, 0x1

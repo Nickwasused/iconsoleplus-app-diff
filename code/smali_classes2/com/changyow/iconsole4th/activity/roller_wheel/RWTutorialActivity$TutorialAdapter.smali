@@ -48,12 +48,12 @@
         }
     .end annotation
 
-    .line 79
+    .line 90
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 80
+    .line 91
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
 
     return-void
@@ -96,7 +96,7 @@
         }
     .end annotation
 
-    .line 74
+    .line 85
     check-cast p1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->onBindViewHolder(Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;I)V
@@ -121,12 +121,12 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 120
+    .line 132
     iget-object p2, p1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->btnOk:Landroid/widget/Button;
 
     if-eqz p2, :cond_0
 
-    .line 121
+    .line 133
     iget-object p2, p1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->btnOk:Landroid/widget/Button;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$1;
@@ -152,7 +152,7 @@
         }
     .end annotation
 
-    .line 74
+    .line 85
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;
 
     move-result-object p1
@@ -179,7 +179,65 @@
 
     if-nez p2, :cond_0
 
-    .line 91
+    .line 102
+    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
+
+    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v3, 0x7f0d00ef
+
+    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x1
+
+    if-ne p2, v2, :cond_1
+
+    .line 106
+    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
+
+    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v3, 0x7f0d00f0
+
+    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v2, 0x2
+
+    if-ne p2, v2, :cond_2
+
+    .line 110
+    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
+
+    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v3, 0x7f0d00f1
+
+    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_2
+    if-ne p2, v0, :cond_3
+
+    .line 114
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
 
     invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -194,68 +252,10 @@
 
     goto :goto_0
 
-    :cond_0
-    const/4 v2, 0x1
-
-    if-ne p2, v2, :cond_1
-
-    .line 95
-    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
-
-    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
-
-    move-result-object v2
-
-    const v3, 0x7f0d00f3
-
-    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v2, 0x2
-
-    if-ne p2, v2, :cond_2
-
-    .line 99
-    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
-
-    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
-
-    move-result-object v2
-
-    const v3, 0x7f0d00f4
-
-    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_2
-    if-ne p2, v0, :cond_3
-
-    .line 103
-    iget-object v2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter;->mContext:Landroid/content/Context;
-
-    invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
-
-    move-result-object v2
-
-    const v3, 0x7f0d00f5
-
-    invoke-virtual {v2, v3, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
-
-    move-result-object p1
-
-    goto :goto_0
-
     :cond_3
     const/4 p1, 0x0
 
-    .line 106
+    .line 117
     :goto_0
     new-instance v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;
 
@@ -263,9 +263,9 @@
 
     if-ne p2, v0, :cond_4
 
-    const p2, 0x7f0a00f4
+    const p2, 0x7f0a00f1
 
-    .line 109
+    .line 120
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -274,9 +274,9 @@
 
     iput-object p2, v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->cbDontShowAgain:Landroid/widget/CheckBox;
 
-    const p2, 0x7f0a00bd
+    const p2, 0x7f0a00bc
 
-    .line 110
+    .line 121
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -284,6 +284,11 @@
     check-cast p1, Landroid/widget/Button;
 
     iput-object p1, v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->btnOk:Landroid/widget/Button;
+
+    .line 122
+    iget-object p1, v1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$TutorialAdapter$ViewHolder;->btnOk:Landroid/widget/Button;
+
+    invoke-static {p1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
 
     :cond_4
     return-object v1

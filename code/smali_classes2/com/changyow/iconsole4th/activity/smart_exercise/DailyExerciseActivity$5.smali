@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 772
+    .line 787
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -67,7 +67,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 776
+    .line 791
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->isJsonObject()Z
 
     move-result v0
@@ -76,7 +76,7 @@
 
     goto :goto_1
 
-    .line 779
+    .line 794
     :cond_0
     invoke-static {p1}, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion;->parse(Lcom/google/gson/JsonElement;)Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion;
 
@@ -84,7 +84,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 781
+    .line 796
     iget-object v0, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion;->suggestions:Ljava/util/List;
 
     if-eqz v0, :cond_2
@@ -95,7 +95,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 783
+    .line 798
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    .line 784
+    .line 799
     iget-object v1, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion;->suggestions:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -146,12 +146,12 @@
 
     check-cast v2, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion$Suggestion;
 
-    .line 785
+    .line 800
     iput-object v0, v2, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion$Suggestion;->date_time:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 787
+    .line 802
     :cond_1
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/SmartExerciseSuggestion;->toScheduleJsonStr()Ljava/lang/String;
 

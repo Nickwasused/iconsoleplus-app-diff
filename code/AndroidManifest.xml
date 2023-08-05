@@ -173,7 +173,6 @@
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravitySettingsActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravityMachineActivtionActivity" android:screenOrientation="behind" android:theme="@style/AppTheme"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.profile.EGravityProfileEditActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.EGravityActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:exported="true" android:name="com.changyow.iconsole4th.activity.BarcodeLoginRecognizeActivity" android:screenOrientation="behind" android:theme="@style/ActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
@@ -252,6 +251,7 @@
                 <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND"/>
             </intent-filter>
         </receiver>
+        <provider android:authorities="com.changyow.icp4th.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <provider android:authorities="com.changyow.icp4th.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="net.danlew.android.joda.JodaTimeInitializer" android:value="androidx.startup"/>

@@ -83,84 +83,84 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 46
+    .line 49
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 70
+    .line 73
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
-    .line 71
+    .line 74
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     const/4 v1, 0x3
 
-    .line 72
+    .line 75
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
     const/4 v1, 0x0
 
-    .line 73
+    .line 76
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCurrentCycle:I
 
-    .line 79
+    .line 82
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 500
+    .line 533
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mWarmUpDuration:I
 
     const/16 v0, 0x3c
 
-    .line 501
+    .line 534
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
     const/16 v0, 0xb4
 
-    .line 502
+    .line 535
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
     const/16 v0, 0xa
 
-    .line 503
+    .line 536
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityLevel:I
 
     const/4 v0, 0x1
 
-    .line 504
+    .line 537
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestLevel:I
 
     const/16 v0, 0x50
 
-    .line 505
+    .line 538
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityRpm:I
 
     const/16 v0, 0x1e
 
-    .line 506
+    .line 539
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestRpm:I
 
     const-wide/high16 v2, 0x4024000000000000L    # 10.0
 
-    .line 507
+    .line 540
     iput-wide v2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensitySpeed:D
 
     const-wide/high16 v2, 0x3ff0000000000000L    # 1.0
 
-    .line 508
+    .line 541
     iput-wide v2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestSpeed:D
 
-    .line 666
+    .line 699
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
 
-    .line 810
+    .line 843
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$6;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$6;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bleManagerListener:Lchangyow/ble4th/BLEManagerListener;
 
-    .line 835
+    .line 868
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)V
@@ -173,7 +173,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
     .locals 0
 
-    .line 46
+    .line 49
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     return-object p0
@@ -182,7 +182,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)I
     .locals 0
 
-    .line 46
+    .line 49
     iget p0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
     return p0
@@ -191,7 +191,7 @@
 .method static synthetic access$102(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;I)I
     .locals 0
 
-    .line 46
+    .line 49
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
     return p1
@@ -200,7 +200,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 46
+    .line 49
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     return-object p0
@@ -209,7 +209,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 46
+    .line 49
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
 
     return-object p0
@@ -218,14 +218,14 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/wang/avi/AVLoadingIndicatorView;
     .locals 0
 
-    .line 46
+    .line 49
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
     return-object p0
 .end method
 
 .method private btnSettingsClicked(Landroid/view/View;)V
-    .locals 5
+    .locals 11
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0
@@ -235,7 +235,7 @@
         }
     .end annotation
 
-    .line 229
+    .line 240
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -248,7 +248,7 @@
 
     return-void
 
-    .line 232
+    .line 243
     :cond_0
     new-instance p1, Landroid/app/Dialog;
 
@@ -258,12 +258,12 @@
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v0, 0x7f0d00c5
+    const v0, 0x7f0d00c2
 
-    .line 233
+    .line 244
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 234
+    .line 245
     invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -276,69 +276,178 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0a0293
+    .line 246
+    invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
-    .line 236
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    const v0, 0x7f0a028c
+
+    .line 248
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a00c6
+    const v1, 0x7f0a00c5
 
-    .line 237
+    .line 249
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/Button;
 
-    const v2, 0x7f0a008e
+    const v3, 0x7f0a008e
 
-    .line 238
-    invoke-virtual {p1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
-
-    move-result-object v2
-
-    check-cast v2, Landroid/widget/Button;
-
-    const v3, 0x7f0a00b9
-
-    .line 239
+    .line 250
     invoke-virtual {p1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/Button;
 
-    .line 241
-    new-instance v4, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda0;
+    const v4, 0x7f0a00b8
 
-    invoke-direct {v4, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda0;-><init>(Landroid/app/Dialog;)V
+    .line 251
+    invoke-virtual {p1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
-    invoke-virtual {v0, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    move-result-object v4
 
-    .line 243
+    check-cast v4, Landroid/widget/Button;
+
+    .line 253
+    invoke-static {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 254
+    invoke-static {v3}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 255
+    invoke-static {v4}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 256
+    new-instance v5, Landroid/content/res/ColorStateList;
+
+    const/4 v6, 0x2
+
+    new-array v7, v6, [[I
+
+    const/4 v8, 0x1
+
+    new-array v9, v8, [I
+
+    const v10, -0x101009e
+
+    aput v10, v9, v2
+
+    aput-object v9, v7, v2
+
+    new-array v9, v8, [I
+
+    const v10, 0x101009e
+
+    aput v10, v9, v2
+
+    aput-object v9, v7, v8
+
+    new-array v6, v6, [I
+
+    .line 262
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
+
+    move-result-object v9
+
+    invoke-static {v9}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v9
+
+    aput v9, v6, v2
+
+    .line 263
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    aput v2, v6, v8
+
+    invoke-direct {v5, v7, v6}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    .line 266
+    invoke-virtual {v1, v5}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 267
+    invoke-virtual {v3, v5}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 268
+    invoke-virtual {v4, v5}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 269
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 270
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v3, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 271
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v4, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 273
+    new-instance v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda0;
+
+    invoke-direct {v2, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda0;-><init>(Landroid/app/Dialog;)V
+
+    invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 275
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda3;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 255
+    .line 287
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda4;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;Landroid/app/Dialog;)V
 
-    invoke-virtual {v2, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v3, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 260
+    .line 292
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda5;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda5;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;Landroid/app/Dialog;)V
 
-    invoke-virtual {v3, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 268
+    .line 300
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
     return-void
@@ -347,7 +456,7 @@
 .method static synthetic lambda$btnSettingsClicked$3(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
-    .line 241
+    .line 273
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     return-void
@@ -356,19 +465,19 @@
 .method private prepareUI()V
     .locals 8
 
-    .line 290
+    .line 323
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 291
+    .line 324
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTime:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 293
+    .line 326
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$1;
@@ -377,7 +486,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 302
+    .line 335
     new-instance v0, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -386,31 +495,31 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
-    .line 303
+    .line 336
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;->triggerShowAltitude()V
 
-    .line 304
+    .line 337
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 305
+    .line 338
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const/4 v1, 0x3
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
-    .line 306
+    .line 339
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Lme/relex/circleindicator/CircleIndicator;->setViewPager(Landroidx/viewpager/widget/ViewPager;)V
 
-    .line 307
+    .line 340
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$2;
@@ -419,7 +528,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 326
+    .line 359
     new-instance v0, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -428,12 +537,12 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
-    .line 327
+    .line 360
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     if-nez v1, :cond_6
 
-    .line 331
+    .line 364
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -444,14 +553,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 332
+    .line 365
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setTreadmillMode()V
 
     goto :goto_0
 
-    .line 333
+    .line 366
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -463,14 +572,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 334
+    .line 367
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setRowerMode()V
 
     goto :goto_0
 
-    .line 335
+    .line 368
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -482,14 +591,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 336
+    .line 369
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setManualBikeMode()V
 
     goto :goto_0
 
-    .line 337
+    .line 370
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -501,14 +610,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 338
+    .line 371
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setManualBikeMode()V
 
     goto :goto_0
 
-    .line 339
+    .line 372
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -520,14 +629,14 @@
 
     if-eqz v0, :cond_4
 
-    .line 340
+    .line 373
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCurveTreadmillMode()V
 
     goto :goto_0
 
-    .line 341
+    .line 374
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -539,20 +648,20 @@
 
     if-eqz v0, :cond_5
 
-    .line 342
+    .line 375
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setLateralMode()V
 
     goto :goto_0
 
-    .line 344
+    .line 377
     :cond_5
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setBikeMode()V
 
-    .line 346
+    .line 379
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
@@ -560,18 +669,18 @@
 
     goto :goto_1
 
-    .line 350
+    .line 383
     :cond_6
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setProflie(Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
 
-    .line 351
+    .line 384
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     iget v0, v0, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->cycles:I
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
-    .line 352
+    .line 385
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
@@ -580,7 +689,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 355
+    .line 388
     :goto_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
 
@@ -606,14 +715,14 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 356
+    .line 389
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->lvSettings:Landroid/widget/ListView;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 357
+    .line 390
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$3;
@@ -622,7 +731,7 @@
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCallback(Lcom/changyow/iconsole4th/interfaces/SimpleCallback;)V
 
-    .line 370
+    .line 403
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -639,15 +748,15 @@
 
     const/16 v0, 0xa
 
-    .line 372
+    .line 405
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
-    .line 373
+    .line 406
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v6, v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCycles(I)V
 
-    .line 374
+    .line 407
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
 
     new-array v6, v1, [Ljava/lang/Object;
@@ -666,14 +775,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 375
+    .line 408
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 376
+    .line 409
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -692,7 +801,7 @@
 
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
-    .line 377
+    .line 410
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -711,7 +820,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
-    .line 379
+    .line 412
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v4, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
@@ -730,7 +839,7 @@
 
     goto :goto_2
 
-    .line 383
+    .line 416
     :cond_7
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
@@ -740,7 +849,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 413
+    .line 446
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -751,7 +860,7 @@
 
     if-eqz v0, :cond_8
 
-    .line 414
+    .line 447
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevelTitle:Landroid/widget/TextView;
 
     const v3, 0x7f120296
@@ -762,7 +871,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 417
+    .line 450
     :cond_8
     :goto_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnGo:Landroid/widget/Button;
@@ -773,14 +882,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 448
+    .line 481
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 449
+    .line 482
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -799,7 +908,7 @@
 
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
-    .line 450
+    .line 483
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -818,7 +927,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
-    .line 451
+    .line 484
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
@@ -841,71 +950,71 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 194
+    .line 205
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 195
+    .line 206
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 196
+    .line 207
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 198
+    .line 209
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 199
+    .line 210
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 201
+    .line 212
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 202
+    .line 213
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 204
+    .line 215
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 205
+    .line 216
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 206
+    .line 217
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 207
+    .line 218
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -914,27 +1023,27 @@
 
     const v4, 0x7f12027d
 
-    .line 209
+    .line 220
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080365
 
-    .line 210
+    .line 221
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f080291
 
-    .line 211
+    .line 222
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 213
+    .line 224
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 222
+    .line 233
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda6;
 
     invoke-direct {v0, p0, v3}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda6;-><init>(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;Landroid/widget/ImageButton;)V
@@ -943,7 +1052,7 @@
 
     const/4 v0, 0x4
 
-    .line 224
+    .line 235
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -952,45 +1061,45 @@
 .method private setupWorkoutActionbar()V
     .locals 6
 
-    .line 273
+    .line 305
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 274
+    .line 306
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 275
+    .line 307
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 277
+    .line 309
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->getCustomView()Landroid/view/View;
 
     move-result-object v0
 
-    const v2, 0x7f0a0557
+    const v2, 0x7f0a0562
 
-    .line 278
+    .line 310
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
-    .line 279
+    .line 311
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
-    .line 280
+    .line 312
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1003,7 +1112,7 @@
 
     const v5, 0x7f120260
 
-    .line 282
+    .line 314
     invoke-virtual {p0, v5}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
@@ -1040,11 +1149,14 @@
 
     const/4 v1, 0x4
 
-    .line 284
+    .line 316
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 285
+    .line 317
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
+
+    .line 318
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->applyThemeToActionBar()V
 
     return-void
 .end method
@@ -1056,7 +1168,7 @@
 
     move-object/from16 v14, p0
 
-    .line 459
+    .line 492
     :try_start_0
     iget-object v0, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -1082,7 +1194,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 461
+    .line 494
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1093,7 +1205,7 @@
 
     if-eqz v0, :cond_8
 
-    .line 463
+    .line 496
     iget-object v0, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getDuration()Ljava/lang/Integer;
@@ -1104,7 +1216,7 @@
 
     move-result v0
 
-    .line 472
+    .line 505
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getSpeed()Ljava/util/ArrayList;
@@ -1117,7 +1229,7 @@
 
     if-lez v1, :cond_0
 
-    .line 473
+    .line 506
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getSpeed()Ljava/util/ArrayList;
@@ -1144,7 +1256,7 @@
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/model/ValueStamp;->getValue()D
 
-    .line 474
+    .line 507
     :cond_0
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1158,7 +1270,7 @@
 
     if-lez v1, :cond_1
 
-    .line 475
+    .line 508
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getRpm()Ljava/util/ArrayList;
@@ -1196,7 +1308,7 @@
     :cond_1
     move v4, v5
 
-    .line 476
+    .line 509
     :goto_0
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1212,7 +1324,7 @@
 
     if-lez v1, :cond_2
 
-    .line 477
+    .line 510
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getDistance()Ljava/util/ArrayList;
@@ -1246,7 +1358,7 @@
     :cond_2
     move-wide v8, v6
 
-    .line 478
+    .line 511
     :goto_1
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1260,7 +1372,7 @@
 
     if-lez v1, :cond_3
 
-    .line 479
+    .line 512
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getCalories()Ljava/util/ArrayList;
@@ -1294,7 +1406,7 @@
     :cond_3
     move-wide v10, v6
 
-    .line 480
+    .line 513
     :goto_2
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1308,7 +1420,7 @@
 
     if-lez v1, :cond_4
 
-    .line 481
+    .line 514
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getWatt()Ljava/util/ArrayList;
@@ -1340,7 +1452,7 @@
     :cond_4
     move-wide v12, v6
 
-    .line 482
+    .line 515
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getHeartRate()Ljava/util/ArrayList;
@@ -1353,7 +1465,7 @@
 
     if-lez v1, :cond_5
 
-    .line 483
+    .line 516
     iget-object v1, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getHeartRate()Ljava/util/ArrayList;
@@ -1389,7 +1501,7 @@
     :cond_5
     move v1, v5
 
-    .line 484
+    .line 517
     :goto_3
     iget-object v3, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1411,7 +1523,7 @@
 
     if-lez v3, :cond_6
 
-    .line 485
+    .line 518
     iget-object v3, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getStroke()Ljava/util/ArrayList;
@@ -1447,7 +1559,7 @@
     :cond_6
     move v3, v5
 
-    .line 486
+    .line 519
     :goto_4
     iget-object v6, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
@@ -1469,7 +1581,7 @@
 
     if-lez v6, :cond_7
 
-    .line 487
+    .line 520
     iget-object v5, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getTime500()Ljava/util/ArrayList;
@@ -1507,7 +1619,7 @@
     :cond_7
     move v15, v5
 
-    .line 488
+    .line 521
     :goto_5
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1517,7 +1629,7 @@
 
     move-result v16
 
-    .line 491
+    .line 524
     iget v7, v14, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
 
     move-object/from16 v1, p0
@@ -1547,7 +1659,7 @@
     :catch_0
     move-exception v0
 
-    .line 496
+    .line 529
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_8
@@ -1555,13 +1667,40 @@
     return-void
 .end method
 
+.method protected initCustomTheme()V
+    .locals 2
+
+    .line 198
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initCustomTheme()V
+
+    .line 199
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnGo:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 200
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnGo:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    return-void
+.end method
+
 .method protected initWorkoutState()V
     .locals 2
 
-    .line 159
+    .line 162
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initWorkoutState()V
 
-    .line 161
+    .line 164
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1570,7 +1709,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->registerListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 162
+    .line 165
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1581,7 +1720,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 163
+    .line 166
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1594,7 +1733,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 169
+    .line 172
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1606,7 +1745,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 170
+    .line 173
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
@@ -1623,7 +1762,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setHeart_rate_source(Ljava/lang/Integer;)V
 
-    .line 171
+    .line 174
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     const/4 v1, 0x2
@@ -1640,25 +1779,25 @@
 .method synthetic lambda$btnSettingsClicked$4$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 3
 
-    .line 244
+    .line 276
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
     const/4 p1, 0x0
 
-    .line 245
+    .line 277
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 246
+    .line 278
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->resetToDefault()V
 
     const/4 p1, 0x3
 
-    .line 247
+    .line 279
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
-    .line 248
+    .line 280
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
 
     const/4 v0, 0x1
@@ -1681,21 +1820,21 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 249
+    .line 281
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     iget p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCycles(I)V
 
-    .line 250
+    .line 282
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 251
+    .line 283
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
@@ -1716,7 +1855,7 @@
 
     iput p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
-    .line 252
+    .line 284
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1737,7 +1876,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
-    .line 253
+    .line 285
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
@@ -1760,10 +1899,10 @@
 .method synthetic lambda$btnSettingsClicked$5$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 1
 
-    .line 256
+    .line 288
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 257
+    .line 289
     new-instance p1, Landroid/content/Intent;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1774,7 +1913,7 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 258
+    .line 290
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->finish()V
 
     return-void
@@ -1783,10 +1922,10 @@
 .method synthetic lambda$btnSettingsClicked$6$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 1
 
-    .line 261
+    .line 293
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 262
+    .line 294
     new-instance p1, Landroid/content/Intent;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1795,17 +1934,17 @@
 
     invoke-direct {p1, p2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 263
+    .line 295
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     const-string v0, "IntervalProfile"
 
     invoke-virtual {p1, v0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 264
+    .line 296
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 265
+    .line 297
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->finish()V
 
     return-void
@@ -1814,7 +1953,7 @@
 .method synthetic lambda$onCreate$0$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 124
+    .line 127
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1823,14 +1962,14 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 125
+    .line 128
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     const-string v1, "IntervalProfile"
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 126
+    .line 129
     const-class v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1841,10 +1980,10 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 127
+    .line 130
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 128
+    .line 131
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->finish()V
 
     return-void
@@ -1853,10 +1992,10 @@
 .method synthetic lambda$setupInitActionbar$1$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/view/View;)V
     .locals 1
 
-    .line 214
+    .line 225
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cancelRefreshUITimer()V
 
-    .line 215
+    .line 226
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1865,7 +2004,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 216
+    .line 227
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1876,7 +2015,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 217
+    .line 228
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -1889,7 +2028,7 @@
 
     invoke-virtual {p1, v0}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 218
+    .line 229
     :cond_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1897,7 +2036,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEManager;->cancelPeripheralConnection()V
 
-    .line 219
+    .line 230
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->finish()V
 
     return-void
@@ -1906,7 +2045,7 @@
 .method synthetic lambda$setupInitActionbar$2$com-changyow-iconsole4th-activity-IntervalWorkoutActivity(Landroid/widget/ImageButton;Landroid/view/View;)V
     .locals 0
 
-    .line 222
+    .line 233
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnSettingsClicked(Landroid/view/View;)V
 
     return-void
@@ -1915,12 +2054,12 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 142
+    .line 145
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 144
+    .line 147
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->stopWorkout()V
 
     :cond_0
@@ -1938,17 +2077,17 @@
         }
     .end annotation
 
-    .line 84
+    .line 87
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d004b
+    const p1, 0x7f0d004a
 
-    .line 87
+    .line 90
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
-    .line 88
+    .line 91
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1957,9 +2096,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a012d
+    const p1, 0x7f0a012a
 
-    .line 89
+    .line 92
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1968,9 +2107,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
-    const p1, 0x7f0a0280
+    const p1, 0x7f0a027a
 
-    .line 90
+    .line 93
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1979,9 +2118,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a00bd
 
-    .line 91
+    .line 94
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1990,9 +2129,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
-    .line 92
+    .line 95
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2001,9 +2140,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d6
+    const p1, 0x7f0a03ce
 
-    .line 93
+    .line 96
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2012,9 +2151,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a029a
+    const p1, 0x7f0a0293
 
-    .line 94
+    .line 97
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2025,7 +2164,7 @@
 
     const p1, 0x7f0a00a9
 
-    .line 95
+    .line 98
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2034,9 +2173,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->btnGo:Landroid/widget/Button;
 
-    const p1, 0x7f0a02d7
+    const p1, 0x7f0a02cd
 
-    .line 96
+    .line 99
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2045,18 +2184,18 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->lvSettings:Landroid/widget/ListView;
 
-    const p1, 0x7f0a05a4
+    const p1, 0x7f0a05b0
 
-    .line 97
+    .line 100
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->vSettingsBlocker:Landroid/view/View;
 
-    const p1, 0x7f0a0245
+    const p1, 0x7f0a0244
 
-    .line 98
+    .line 101
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2065,40 +2204,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layout1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0283
-
-    .line 99
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/RelativeLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutLevel:Landroid/widget/RelativeLayout;
-
-    const p1, 0x7f0a04f4
-
-    .line 100
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
-
-    const p1, 0x7f0a04f6
-
-    .line 101
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevelTitle:Landroid/widget/TextView;
-
-    const p1, 0x7f0a029e
+    const p1, 0x7f0a027d
 
     .line 102
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
@@ -2107,9 +2213,9 @@
 
     check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCycles:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04cc
+    const p1, 0x7f0a04f5
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
@@ -2118,31 +2224,31 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
 
-    const p1, 0x7f0a025c
+    const p1, 0x7f0a04f7
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/RelativeLayout;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevelTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0560
+    const p1, 0x7f0a0297
 
     .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTime:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0561
+    const p1, 0x7f0a04c6
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
@@ -2151,20 +2257,20 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvCycles:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0555
+    const p1, 0x7f0a0258
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimerTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0554
+    const p1, 0x7f0a056b
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
@@ -2173,11 +2279,44 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTime:Landroid/widget/TextView;
 
-    const p1, 0x7f0a053a
+    const p1, 0x7f0a056c
 
     .line 109
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0560
+
+    .line 110
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimerTitle:Landroid/widget/TextView;
+
+    const p1, 0x7f0a055f
+
+    .line 111
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0543
+
+    .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2188,7 +2327,7 @@
 
     const p1, 0x7f0a006b
 
-    .line 110
+    .line 113
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -2197,13 +2336,13 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    .line 112
+    .line 115
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->initWorkoutState()V
 
-    .line 113
+    .line 116
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->setupInitActionbar()V
 
-    .line 115
+    .line 118
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -2218,27 +2357,27 @@
 
     if-eqz p1, :cond_0
 
-    .line 118
+    .line 121
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 119
+    .line 122
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->interval_description:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 120
+    .line 123
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->vSettingsBlocker:Landroid/view/View;
 
     if-eqz p1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 122
+    .line 125
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 123
+    .line 126
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->vSettingsBlocker:Landroid/view/View;
 
     new-instance v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$$ExternalSyntheticLambda1;
@@ -2247,16 +2386,16 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 133
+    .line 136
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->prepareUI()V
 
-    .line 135
+    .line 138
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
 
     if-eqz p1, :cond_1
 
-    .line 136
+    .line 139
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->showWorkoutStartedUI()V
 
     :cond_1
@@ -2266,7 +2405,7 @@
 .method public onStop()V
     .locals 2
 
-    .line 152
+    .line 155
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2275,7 +2414,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 153
+    .line 156
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onStop()V
 
     return-void
@@ -2284,7 +2423,7 @@
 .method protected showWorkoutStartedUI()V
     .locals 3
 
-    .line 177
+    .line 180
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
@@ -2297,49 +2436,49 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
 
-    .line 178
+    .line 181
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->setupWorkoutActionbar()V
 
-    .line 179
+    .line 182
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 180
+    .line 183
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 181
+    .line 184
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutSettingPane:Landroid/widget/RelativeLayout;
 
     const/4 v2, 0x4
 
     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 182
+    .line 185
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 183
+    .line 186
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimerTitle:Landroid/widget/TextView;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 184
+    .line 187
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 185
+    .line 188
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTime:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 186
+    .line 189
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTotalTime:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
@@ -2350,7 +2489,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 188
+    .line 191
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2361,7 +2500,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 189
+    .line 192
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
@@ -2373,10 +2512,10 @@
 .method protected startWorkout()V
     .locals 15
 
-    .line 670
+    .line 703
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->startWorkout()V
 
-    .line 671
+    .line 704
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
@@ -2389,10 +2528,10 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
 
-    .line 673
+    .line 706
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->showWorkoutStartedUI()V
 
-    .line 676
+    .line 709
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2405,7 +2544,7 @@
 
     xor-int/lit8 v14, v0, 0x1
 
-    .line 678
+    .line 711
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2438,7 +2577,7 @@
 
     move v14, v0
 
-    .line 679
+    .line 712
     invoke-virtual/range {v2 .. v14}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(IIIDDIDII)V
 
     goto :goto_0
@@ -2460,10 +2599,10 @@
 
     move-object v2, p0
 
-    .line 681
+    .line 714
     invoke-virtual/range {v2 .. v14}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(IDIDDIDI)V
 
-    .line 683
+    .line 716
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -2489,7 +2628,7 @@
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 684
+    .line 717
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -2514,14 +2653,14 @@
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 685
+    .line 718
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 687
+    .line 720
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2530,7 +2669,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 688
+    .line 721
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2539,7 +2678,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 689
+    .line 722
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2548,7 +2687,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 690
+    .line 723
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2557,7 +2696,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 694
+    .line 727
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2569,7 +2708,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 696
+    .line 729
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2580,7 +2719,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 697
+    .line 730
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2601,7 +2740,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 698
+    .line 731
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2612,12 +2751,12 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 700
+    .line 733
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startRefreshUITimer()V
 
     goto/16 :goto_1
 
-    .line 702
+    .line 735
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2629,7 +2768,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 704
+    .line 737
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2640,7 +2779,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 705
+    .line 738
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2661,7 +2800,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 706
+    .line 739
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2672,12 +2811,12 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 708
+    .line 741
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startRefreshUITimer()V
 
     goto/16 :goto_1
 
-    .line 710
+    .line 743
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2689,18 +2828,18 @@
 
     if-eqz v0, :cond_3
 
-    .line 712
+    .line 745
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->clear()V
 
-    .line 713
+    .line 746
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->start()V
 
-    .line 714
+    .line 747
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startRefreshUITimer()V
 
     goto :goto_1
 
-    .line 716
+    .line 749
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2712,7 +2851,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 718
+    .line 751
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2723,7 +2862,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 719
+    .line 752
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2744,7 +2883,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 720
+    .line 753
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2755,18 +2894,18 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 722
+    .line 755
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startRefreshUITimer()V
 
     goto :goto_1
 
-    .line 726
+    .line 759
     :cond_4
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
 
     div-int/lit8 v3, v0, 0x3c
 
-    .line 727
+    .line 760
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2777,7 +2916,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 729
+    .line 762
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2796,7 +2935,7 @@
 
     invoke-virtual/range {v2 .. v9}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 730
+    .line 763
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2819,7 +2958,7 @@
 
     invoke-virtual/range {v2 .. v10}, Lchangyow/ble4th/BLEPeripheral;->setTMIntervalProgram(IIIIDD)V
 
-    .line 731
+    .line 764
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2850,7 +2989,7 @@
 
     move-object/from16 v1, p0
 
-    .line 742
+    .line 775
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -2861,13 +3000,13 @@
 
     monitor-enter v2
 
-    .line 744
+    .line 777
     :try_start_0
     iget-boolean v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bCanceled:Z
 
     if-eqz v0, :cond_0
 
-    .line 745
+    .line 778
     monitor-exit v2
 
     return-void
@@ -2875,23 +3014,23 @@
     :cond_0
     const/4 v3, 0x1
 
-    .line 746
+    .line 779
     iput-boolean v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bCanceled:Z
 
-    .line 747
+    .line 780
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 748
+    .line 781
     iget-object v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
     invoke-virtual {v0}, Lcom/wang/avi/AVLoadingIndicatorView;->hide()V
 
-    .line 749
+    .line 782
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cancelRefreshUITimer()V
 
-    .line 750
+    .line 783
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2902,7 +3041,7 @@
 
     const/4 v2, 0x3
 
-    .line 753
+    .line 786
     :try_start_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -2914,7 +3053,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 754
+    .line 787
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2935,7 +3074,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 755
+    .line 788
     :cond_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -2947,7 +3086,7 @@
 
     invoke-virtual {v0, v2}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 756
+    .line 789
     :cond_2
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -2959,7 +3098,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 757
+    .line 790
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -2972,7 +3111,7 @@
 
     invoke-virtual {v0, v4}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 758
+    .line 791
     :cond_3
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -2987,10 +3126,10 @@
     :catch_0
     move-exception v0
 
-    .line 762
+    .line 795
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 765
+    .line 798
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -3020,19 +3159,19 @@
 
     invoke-virtual/range {v4 .. v16}, Lcom/changyow/iconsole4th/FlowControl;->keepIntervalSettings(IIIIIDIIID)V
 
-    .line 768
+    .line 801
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 769
+    .line 802
     iget-object v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 771
+    .line 804
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -3053,7 +3192,7 @@
 
     if-lt v0, v2, :cond_5
 
-    .line 773
+    .line 806
     iget-object v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
@@ -3062,7 +3201,7 @@
 
     const/4 v2, 0x1
 
-    .line 774
+    .line 807
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3085,7 +3224,7 @@
 
     const/4 v2, 0x2
 
-    .line 775
+    .line 808
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3108,7 +3247,7 @@
 
     const/4 v3, 0x3
 
-    .line 776
+    .line 809
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -3131,7 +3270,7 @@
 
     const/4 v3, 0x1
 
-    .line 777
+    .line 810
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3152,7 +3291,7 @@
 
     iput v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
 
-    .line 778
+    .line 811
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -3175,7 +3314,7 @@
 
     const/4 v2, 0x3
 
-    .line 779
+    .line 812
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3196,7 +3335,7 @@
 
     iput v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestRpm:I
 
-    .line 780
+    .line 813
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3219,7 +3358,7 @@
 
     iput-wide v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensitySpeed:D
 
-    .line 781
+    .line 814
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -3242,7 +3381,7 @@
 
     iput-wide v2, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestSpeed:D
 
-    .line 783
+    .line 816
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3255,22 +3394,22 @@
 
     move-result v3
 
-    .line 784
+    .line 817
     iget-object v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     if-nez v0, :cond_4
 
-    .line 786
+    .line 819
     new-instance v0, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     invoke-direct {v0}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;-><init>()V
 
     iput-object v0, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 787
+    .line 820
     invoke-virtual {v0, v3}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->setEquipmentByType(I)V
 
-    .line 788
+    .line 821
     iget-object v2, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     const-string v4, ""
@@ -3299,7 +3438,7 @@
 
     invoke-virtual/range {v2 .. v13}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->apply(ILjava/lang/String;IIIIIIIII)V
 
-    .line 801
+    .line 834
     :cond_4
     new-instance v0, Landroid/content/Intent;
 
@@ -3311,19 +3450,19 @@
 
     const-string v2, "IntervalProfile"
 
-    .line 802
+    .line 835
     iget-object v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 803
+    .line 836
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 806
+    .line 839
     :cond_5
     invoke-super/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->stopWorkout()V
 
-    .line 807
+    .line 840
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->finish()V
 
     return-void
@@ -3331,7 +3470,7 @@
     :catchall_0
     move-exception v0
 
-    .line 747
+    .line 780
     :try_start_2
     monitor-exit v2
     :try_end_2
@@ -3371,16 +3510,16 @@
 
     const-string v2, ""
 
-    .line 581
+    .line 614
     :try_start_0
     iget-boolean v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
 
     if-eqz v3, :cond_0
 
-    .line 582
+    .line 615
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateStage(I)V
 
-    .line 584
+    .line 617
     :cond_0
     iget-object v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -3402,12 +3541,12 @@
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 585
+    .line 618
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 586
+    .line 619
     iget-object v5, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v6, "DATA_PAGE_1"
@@ -3418,7 +3557,7 @@
 
     check-cast v5, Landroid/view/ViewGroup;
 
-    .line 587
+    .line 620
     iget-object v6, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v8, "DATA_PAGE_2"
@@ -3429,7 +3568,7 @@
 
     check-cast v6, Landroid/view/ViewGroup;
 
-    .line 588
+    .line 621
     iget-object v8, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v9, "DATA_PAGE_3"
@@ -3440,28 +3579,28 @@
 
     check-cast v8, Landroid/view/ViewGroup;
 
-    .line 589
+    .line 622
     invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 590
+    .line 623
     invoke-virtual {v3, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 591
+    .line 624
     invoke-virtual {v3, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 593
+    .line 626
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 594
+    .line 627
     invoke-static/range {p9 .. p9}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object v6
 
     const v8, 0x7f0803ec
 
-    .line 596
+    .line 629
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v8
@@ -3486,7 +3625,7 @@
 
     const v8, 0x7f0801a8
 
-    .line 597
+    .line 630
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v8
@@ -3517,7 +3656,7 @@
 
     const v8, 0x7f0802a7
 
-    .line 598
+    .line 631
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v8
@@ -3548,7 +3687,7 @@
 
     const v8, 0x7f0801e3
 
-    .line 599
+    .line 632
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v8
@@ -3581,7 +3720,7 @@
 
     const v8, 0x7f0801e7
 
-    .line 600
+    .line 633
     invoke-static {v8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v8
@@ -3598,7 +3737,7 @@
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 601
+    .line 634
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getHeartRateIconRes()I
 
     move-result v6
@@ -3623,7 +3762,7 @@
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 602
+    .line 635
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v6
@@ -3636,7 +3775,7 @@
 
     const v0, 0x7f080196
 
-    .line 604
+    .line 637
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -3663,7 +3802,7 @@
 
     invoke-virtual {v5, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 605
+    .line 638
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3676,7 +3815,7 @@
 
     const v0, 0x7f0802d2
 
-    .line 606
+    .line 639
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -3699,7 +3838,7 @@
 
     goto :goto_0
 
-    .line 608
+    .line 641
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -3711,7 +3850,7 @@
 
     if-eqz v6, :cond_3
 
-    .line 610
+    .line 643
     iget-object v6, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
 
     new-array v4, v4, [Ljava/lang/Object;
@@ -3740,7 +3879,7 @@
 
     int-to-double v6, v0
 
-    .line 613
+    .line 646
     invoke-static/range {p5 .. p6}, Lcom/changyow/iconsole4th/util/UnitUtil;->distanceToUserUnit(D)D
 
     move-result-wide v8
@@ -3750,7 +3889,7 @@
     :cond_2
     const v0, 0x7f080190
 
-    .line 614
+    .line 647
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -3781,7 +3920,7 @@
     :goto_0
     const v0, 0x7f080191
 
-    .line 616
+    .line 649
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -3818,7 +3957,7 @@
 
     invoke-virtual {v5, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 618
+    .line 651
     invoke-virtual {p0, v5, v3}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -3828,7 +3967,7 @@
     :catch_0
     move-exception v0
 
-    .line 622
+    .line 655
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_1
@@ -3866,16 +4005,16 @@
 
     const-string v0, ""
 
-    .line 630
+    .line 663
     :try_start_0
     iget-boolean v2, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
 
     if-eqz v2, :cond_0
 
-    .line 631
+    .line 664
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateStage(I)V
 
-    .line 633
+    .line 666
     :cond_0
     iget-object v2, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -3899,12 +4038,12 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 635
+    .line 668
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 636
+    .line 669
     iget-object v3, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v4, "DATA_PAGE_1"
@@ -3915,7 +4054,7 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    .line 637
+    .line 670
     iget-object v4, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v5, "DATA_PAGE_2"
@@ -3926,7 +4065,7 @@
 
     check-cast v4, Landroid/view/ViewGroup;
 
-    .line 638
+    .line 671
     iget-object v5, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v6, "DATA_PAGE_3"
@@ -3937,28 +4076,28 @@
 
     check-cast v5, Landroid/view/ViewGroup;
 
-    .line 639
+    .line 672
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 640
+    .line 673
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 641
+    .line 674
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 643
+    .line 676
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 644
+    .line 677
     invoke-static/range {p8 .. p8}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object v4
 
     const v5, 0x7f0803ec
 
-    .line 646
+    .line 679
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -3983,7 +4122,7 @@
 
     const v5, 0x7f0801a8
 
-    .line 647
+    .line 680
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -4014,7 +4153,7 @@
 
     const v5, 0x7f0801e3
 
-    .line 648
+    .line 681
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -4045,7 +4184,7 @@
 
     invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 649
+    .line 682
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->getHeartRateIconRes()I
 
     move-result v5
@@ -4072,7 +4211,7 @@
 
     const v5, 0x7f0801e7
 
-    .line 650
+    .line 683
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -4091,7 +4230,7 @@
 
     const v4, 0x7f080196
 
-    .line 651
+    .line 684
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -4114,7 +4253,7 @@
 
     const v4, 0x7f080182
 
-    .line 652
+    .line 685
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -4137,7 +4276,7 @@
 
     const v4, 0x7f080191
 
-    .line 653
+    .line 686
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -4174,7 +4313,7 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 654
+    .line 687
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -4187,7 +4326,7 @@
 
     const v4, 0x7f0803e9
 
-    .line 655
+    .line 688
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -4211,7 +4350,7 @@
     :cond_1
     const v4, 0x7f0802d2
 
-    .line 656
+    .line 689
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -4232,7 +4371,7 @@
 
     invoke-virtual {v3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 658
+    .line 691
     invoke-virtual {p0, v3, v2}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -4242,7 +4381,7 @@
     :catch_0
     move-exception v0
 
-    .line 662
+    .line 695
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -4260,14 +4399,14 @@
         }
     .end annotation
 
-    .line 513
+    .line 546
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
     const/high16 v1, 0x41f00000    # 30.0f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 521
+    .line 554
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mWarmUpDuration:I
 
     const-string v1, "#fcbe32"
@@ -4278,14 +4417,14 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 523
+    .line 556
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
     const v4, 0x7f120453
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
-    .line 524
+    .line 557
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -4294,7 +4433,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/CircleView2;->setColor(I)V
 
-    .line 525
+    .line 558
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
     int-to-float v1, p1
@@ -4309,7 +4448,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/CircleView2;->setAngle(F)V
 
-    .line 527
+    .line 560
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mWarmUpDuration:I
@@ -4322,7 +4461,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 529
+    .line 562
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -4335,15 +4474,15 @@
 
     if-eq p1, v0, :cond_4
 
-    .line 531
+    .line 564
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
 
-    .line 532
+    .line 565
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bChangeSent:Z
 
     goto/16 :goto_0
 
-    .line 535
+    .line 568
     :cond_0
     iget v4, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
 
@@ -4359,7 +4498,7 @@
 
     if-gt p1, v0, :cond_3
 
-    .line 537
+    .line 570
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -4368,7 +4507,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/CircleView2;->setColor(I)V
 
-    .line 539
+    .line 572
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mWarmUpDuration:I
 
     sub-int v1, p1, v0
@@ -4389,7 +4528,7 @@
 
     sub-int/2addr p1, v5
 
-    .line 541
+    .line 574
     iget v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCycles:I
 
     const/4 v5, 0x1
@@ -4398,7 +4537,7 @@
 
     add-int/2addr v1, v5
 
-    .line 542
+    .line 575
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCurrentCycle:I
 
     :cond_1
@@ -4412,7 +4551,7 @@
 
     sub-int/2addr p1, v4
 
-    .line 547
+    .line 580
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
     new-array v0, v0, [Ljava/lang/Object;
@@ -4447,7 +4586,7 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 548
+    .line 581
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
     int-to-float v1, p1
@@ -4462,7 +4601,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/CircleView2;->setAngle(F)V
 
-    .line 549
+    .line 582
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestDuration:I
@@ -4477,7 +4616,7 @@
 
     if-ge p1, v6, :cond_4
 
-    .line 552
+    .line 585
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -4500,17 +4639,17 @@
 
     if-nez p1, :cond_4
 
-    .line 554
+    .line 587
     iget p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mRestLevel:I
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
 
-    .line 555
+    .line 588
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bChangeSent:Z
 
     goto :goto_0
 
-    .line 560
+    .line 593
     :cond_2
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvStage:Landroid/widget/TextView;
 
@@ -4546,7 +4685,7 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 561
+    .line 594
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
     int-to-float v1, p1
@@ -4561,7 +4700,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/CircleView2;->setAngle(F)V
 
-    .line 562
+    .line 595
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityDuration:I
@@ -4576,7 +4715,7 @@
 
     if-ge p1, v6, :cond_4
 
-    .line 565
+    .line 598
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -4599,17 +4738,17 @@
 
     if-nez p1, :cond_4
 
-    .line 567
+    .line 600
     iget p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mHighIntensityLevel:I
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
 
-    .line 568
+    .line 601
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bChangeSent:Z
 
     goto :goto_0
 
-    .line 573
+    .line 606
     :cond_3
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->stopWorkout()V
 

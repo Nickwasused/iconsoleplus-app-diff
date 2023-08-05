@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,557:1\n1#2:558\n*E\n"
+    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,567:1\n1#2:568\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "hasFocus",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -55,7 +55,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 243
+    .line 245
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,18 +66,18 @@
 .method public onFocusChange(Landroid/view/View;Z)V
     .locals 9
 
-    .line 245
+    .line 247
     instance-of v0, p1, Landroid/widget/EditText;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 247
+    .line 249
     :cond_0
     check-cast p1, Landroid/widget/EditText;
 
-    .line 248
+    .line 250
     invoke-virtual {p1}, Landroid/widget/EditText;->getTag()Ljava/lang/Object;
 
     move-result-object v0
@@ -102,7 +102,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 251
+    .line 253
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->getWeight1()D
@@ -120,7 +120,7 @@
     :cond_2
     new-array p2, v2, [Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
 
-    .line 253
+    .line 255
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getTextInputFilter$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/util/DecimalDigitsInputFilter;
@@ -147,7 +147,7 @@
 
     goto/16 :goto_2
 
-    .line 255
+    .line 257
     :cond_4
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
@@ -155,7 +155,7 @@
 
     move-result-wide v4
 
-    .line 257
+    .line 259
     :try_start_0
     invoke-virtual {p1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -171,7 +171,7 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 260
+    .line 262
     :catch_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$11;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
@@ -197,7 +197,7 @@
 
     if-lez p2, :cond_6
 
-    .line 261
+    .line 263
     :cond_5
     sget-object p2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
@@ -250,15 +250,15 @@
     :cond_6
     if-eqz v0, :cond_7
 
-    .line 263
+    .line 265
     invoke-virtual {v0, v4, v5}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->setWeight1(D)V
 
     new-array p2, v3, [Landroid/text/InputFilter;
 
-    .line 264
+    .line 266
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 265
+    .line 267
     sget-object p2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     new-array p2, v6, [Ljava/lang/Object;

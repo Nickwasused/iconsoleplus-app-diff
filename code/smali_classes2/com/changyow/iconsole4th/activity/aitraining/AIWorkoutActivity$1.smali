@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 160
+    .line 163
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +58,7 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 166
+    .line 169
     new-instance p1, Ljava/util/Locale;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
@@ -71,14 +71,14 @@
 
     invoke-direct {p1, v0}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    .line 167
+    .line 170
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
     invoke-virtual {v0, p1}, Landroid/speech/tts/TextToSpeech;->setLanguage(Ljava/util/Locale;)I
 
-    .line 168
+    .line 171
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     const/4 v0, 0x1

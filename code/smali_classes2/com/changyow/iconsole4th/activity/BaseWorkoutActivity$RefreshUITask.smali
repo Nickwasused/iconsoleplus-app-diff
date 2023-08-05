@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 607
+    .line 611
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -43,7 +43,7 @@
 .method public run()V
     .locals 1
 
-    .line 611
+    .line 615
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->refreshUiTaskRun()V

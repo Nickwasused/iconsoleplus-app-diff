@@ -51,7 +51,7 @@
         "onRowMoved",
         "fromPosition",
         "toPosition",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -81,31 +81,33 @@
 .end method
 
 .method public constructor <init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)V
-    .locals 1
+    .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()V"
         }
     .end annotation
 
-    .line 476
+    .line 486
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    const-string v0, "#ebebeb"
+    const-string p1, "#ebebeb"
 
-    .line 478
-    invoke-static {v0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    .line 488
+    invoke-static {p1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
-    move-result v0
+    move-result p1
 
-    iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgGray:I
+    iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgGray:I
 
-    const/high16 v0, 0x7f060000
+    .line 489
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
 
-    .line 479
-    invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getColor(I)I
+    move-result-object p1
+
+    invoke-static {p1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p1
 
@@ -125,14 +127,14 @@
 
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 516
+    .line 526
     invoke-static {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)I
 
     move-result p3
 
     if-eq p3, p1, :cond_0
 
-    .line 517
+    .line 527
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$setSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;I)V
 
     goto :goto_0
@@ -140,14 +142,14 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 519
+    .line 529
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$setSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;I)V
 
-    .line 520
+    .line 530
     :goto_0
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->notifyDataSetChanged()V
 
-    .line 521
+    .line 531
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->toogleTools()V
 
     return-void
@@ -158,7 +160,7 @@
 .method public final getBgAppTint()I
     .locals 1
 
-    .line 479
+    .line 489
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgAppTint:I
 
     return v0
@@ -167,7 +169,7 @@
 .method public final getBgGray()I
     .locals 1
 
-    .line 478
+    .line 488
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgGray:I
 
     return v0
@@ -176,7 +178,7 @@
 .method public getItemCount()I
     .locals 1
 
-    .line 554
+    .line 564
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -231,7 +233,7 @@
 .method public bridge synthetic onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 0
 
-    .line 476
+    .line 486
     check-cast p1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->onBindViewHolder(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;I)V
@@ -246,7 +248,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 503
+    .line 513
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -269,21 +271,21 @@
 
     check-cast v0, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;
 
-    .line 506
+    .line 516
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;->getBinding()Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 507
+    .line 517
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getSelectionIndex$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)I
 
     move-result v2
 
     if-ne v2, p2, :cond_0
 
-    .line 508
+    .line 518
     iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->layoutRoot:Landroid/widget/LinearLayout;
 
     iget v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgAppTint:I
@@ -292,13 +294,13 @@
 
     goto :goto_0
 
-    .line 509
+    .line 519
     :cond_0
     rem-int/lit8 v2, p2, 0x2
 
     if-nez v2, :cond_1
 
-    .line 510
+    .line 520
     iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->layoutRoot:Landroid/widget/LinearLayout;
 
     iget v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->bgGray:I
@@ -307,7 +309,7 @@
 
     goto :goto_0
 
-    .line 512
+    .line 522
     :cond_1
     iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->layoutRoot:Landroid/widget/LinearLayout;
 
@@ -315,11 +317,11 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setBackgroundColor(I)V
 
-    .line 513
+    .line 523
     :goto_0
     iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->txvSet:Landroid/widget/TextView;
 
-    .line 514
+    .line 524
     sget-object v3, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     const/4 v3, 0x1
@@ -354,20 +356,20 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 515
+    .line 525
     new-instance v4, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter$$ExternalSyntheticLambda0;
 
     invoke-direct {v4, v1, p2, p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;ILcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;)V
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 524
+    .line 534
     iget-object p2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->etReps:Landroid/widget/EditText;
 
-    .line 525
+    .line 535
     invoke-virtual {p2, v0}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 526
+    .line 536
     sget-object v2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     new-array v2, v3, [Ljava/lang/Object;
@@ -396,7 +398,7 @@
 
     invoke-virtual {p2, v2}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 527
+    .line 537
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getRepsFocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
 
     move-result-object v2
@@ -414,13 +416,13 @@
     :cond_2
     invoke-virtual {p2, v2}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    .line 529
+    .line 539
     iget-object p2, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->etWeight1:Landroid/widget/EditText;
 
-    .line 530
+    .line 540
     invoke-virtual {p2, v0}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 531
+    .line 541
     sget-object v2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     const/4 v2, 0x2
@@ -461,7 +463,7 @@
 
     invoke-virtual {p2, v5}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 532
+    .line 542
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getWeight1FocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
 
     move-result-object v5
@@ -477,7 +479,7 @@
     :cond_3
     invoke-virtual {p2, v5}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    .line 533
+    .line 543
     sget-object v5, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -492,14 +494,14 @@
 
     if-nez v5, :cond_4
 
-    .line 534
+    .line 544
     invoke-virtual {p2, v2}, Landroid/widget/EditText;->setInputType(I)V
 
-    .line 536
+    .line 546
     :cond_4
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityProfileEditListItemBinding;->etWeight2:Landroid/widget/EditText;
 
-    .line 537
+    .line 547
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
 
     move-result-object p2
@@ -521,16 +523,16 @@
 
     if-eqz p2, :cond_6
 
-    .line 538
+    .line 548
     invoke-virtual {p1, v6}, Landroid/widget/EditText;->setEnabled(Z)V
 
     goto :goto_1
 
-    .line 540
+    .line 550
     :cond_6
     invoke-virtual {p1, v3}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 541
+    .line 551
     :goto_1
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$isSingleMotor$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Z
 
@@ -540,14 +542,14 @@
 
     const/4 p2, 0x4
 
-    .line 542
+    .line 552
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->setVisibility(I)V
 
-    .line 544
+    .line 554
     :cond_7
     invoke-virtual {p1, v0}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 545
+    .line 555
     sget-object p2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     new-array p2, v2, [Ljava/lang/Object;
@@ -584,7 +586,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 546
+    .line 556
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getWeight2FocusChangeListener$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Landroid/view/View$OnFocusChangeListener;
 
     move-result-object p2
@@ -603,7 +605,7 @@
     :goto_2
     invoke-virtual {p1, v4}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    .line 547
+    .line 557
     sget-object p2, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -618,7 +620,7 @@
 
     if-nez p2, :cond_9
 
-    .line 548
+    .line 558
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setInputType(I)V
 
     :cond_9
@@ -628,7 +630,7 @@
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
     .locals 0
 
-    .line 476
+    .line 486
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;
 
     move-result-object p1
@@ -645,7 +647,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 499
+    .line 509
     new-instance p2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
@@ -676,7 +678,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 495
+    .line 505
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->notifyDataSetChanged()V
 
     return-void
@@ -694,7 +696,7 @@
     :goto_0
     if-ge v1, p2, :cond_3
 
-    .line 484
+    .line 494
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->getMProflie()Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
@@ -730,7 +732,7 @@
 
     move v2, p1
 
-    .line 488
+    .line 498
     :goto_2
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
@@ -762,7 +764,7 @@
 
     goto :goto_2
 
-    .line 491
+    .line 501
     :cond_3
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->notifyItemMoved(II)V
 

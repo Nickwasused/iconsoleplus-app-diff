@@ -109,7 +109,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->btnCreateAccount:Landroid/widget/Button;
 
-    const p1, 0x7f0a02c0
+    const p1, 0x7f0a02b5
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->linearLayout5:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016b
+    const p1, 0x7f0a0169
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->etConfirmPassword:Landroid/widget/EditText;
 
-    const p1, 0x7f0a02bf
+    const p1, 0x7f0a02b4
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->linearLayout4:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016d
+    const p1, 0x7f0a016b
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->etPassword:Landroid/widget/EditText;
 
-    const p1, 0x7f0a02be
+    const p1, 0x7f0a02b3
 
     .line 48
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->linearLayout3:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016c
+    const p1, 0x7f0a016a
 
     .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->etEmail:Landroid/widget/EditText;
 
-    const p1, 0x7f0a02bd
+    const p1, 0x7f0a02b2
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->linearLayout2:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a027f
+    const p1, 0x7f0a0279
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->layoutInfo:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a04ef
+    const p1, 0x7f0a04ed
 
     .line 52
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->txvInfo:Landroid/widget/TextView;
 
-    const p1, 0x7f0a01fe
+    const p1, 0x7f0a01fc
 
     .line 53
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/CreateAccountActivity;->findViewById(I)Landroid/view/View;

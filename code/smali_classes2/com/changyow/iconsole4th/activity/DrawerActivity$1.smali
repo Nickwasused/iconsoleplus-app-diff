@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 76
+    .line 78
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 81
+    .line 83
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -65,7 +65,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 83
+    .line 85
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
@@ -74,12 +74,12 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 84
+    .line 86
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 85
+    .line 87
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->access$000(Lcom/changyow/iconsole4th/activity/DrawerActivity;)Landroidx/drawerlayout/widget/DrawerLayout;
@@ -90,7 +90,7 @@
 
     goto :goto_0
 
-    .line 89
+    .line 91
     :cond_0
     new-instance p1, Landroid/content/Intent;
 
@@ -102,15 +102,15 @@
 
     const v0, 0x10008000
 
-    .line 90
+    .line 92
     invoke-virtual {p1, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 91
+    .line 93
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 92
+    .line 94
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/DrawerActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/DrawerActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/DrawerActivity;->access$000(Lcom/changyow/iconsole4th/activity/DrawerActivity;)Landroidx/drawerlayout/widget/DrawerLayout;

@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 84
+    .line 85
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 88
+    .line 89
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;
@@ -67,12 +67,12 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 89
+    .line 90
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 90
+    .line 91
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->finish()V

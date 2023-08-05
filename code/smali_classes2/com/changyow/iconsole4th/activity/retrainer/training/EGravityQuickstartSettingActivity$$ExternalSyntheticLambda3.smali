@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda3;->f$0:Landroid/app/Dialog;
 
-    invoke-static {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->$r8$lambda$TU-EDAYhV-RwRGHTVh7masWZXvc(Landroid/app/Dialog;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->$r8$lambda$smPOxC5YdBF140_Qrjqes1dlej0(Landroid/app/Dialog;Landroid/view/View;)V
 
     return-void
 .end method

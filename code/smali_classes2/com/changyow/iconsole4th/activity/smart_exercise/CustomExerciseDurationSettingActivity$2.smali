@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 111
+    .line 118
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V

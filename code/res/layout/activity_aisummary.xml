@@ -11,7 +11,7 @@
     </RelativeLayout>
     <RelativeLayout android:id="@id/layout2" android:background="#ffff541e" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
         <TextView android:textSize="24.799988sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/txv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aitraining_summary__learn_more" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinot_cond_medium" />
-        <ImageView android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ai_training_summary_ic_web" android:layout_centerVertical="true" android:layout_marginEnd="26.0dip" android:layout_toStartOf="@id/txv1" />
+        <ImageView android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ai_training_summary_ic_web" android:layout_centerVertical="true" android:layout_marginEnd="26.0dip" android:layout_toStartOf="@id/txv1" id="@id/img1" />
     </RelativeLayout>
     <ExpandableListView android:id="@id/elvWorkouts" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:childDivider="@android:color/transparent" android:layout_above="@id/layout2" android:layout_below="@id/layout1" />
 </RelativeLayout>

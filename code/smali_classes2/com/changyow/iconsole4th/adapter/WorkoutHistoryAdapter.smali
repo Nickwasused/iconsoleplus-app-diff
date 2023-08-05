@@ -585,7 +585,7 @@
     return p1
 
     :cond_0
-    const p1, 0x7f0a044e
+    const p1, 0x7f0a0446
 
     return p1
 .end method
@@ -1334,7 +1334,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d0128
+    const v1, 0x7f0d0125
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1352,7 +1352,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d0129
+    const v1, 0x7f0d0126
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

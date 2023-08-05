@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 199
+    .line 218
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method synthetic lambda$onFailure$0$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity$2()V
     .locals 2
 
-    .line 203
+    .line 222
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$400(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -63,7 +63,7 @@
 .method synthetic lambda$onResponse$1$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity$2()V
     .locals 2
 
-    .line 229
+    .line 248
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$300(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -94,7 +94,7 @@
         }
     .end annotation
 
-    .line 203
+    .line 222
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     new-instance p2, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2$$ExternalSyntheticLambda0;
@@ -125,7 +125,7 @@
         }
     .end annotation
 
-    .line 209
+    .line 228
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    .line 212
+    .line 231
     :try_start_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
@@ -154,7 +154,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 217
+    .line 236
     :catch_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
@@ -186,14 +186,14 @@
 
     if-eqz p1, :cond_2
 
-    .line 222
+    .line 241
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->firmwareInfo:Lcom/changyow/iconsole4th/dfu/FirmwareInfo;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/dfu/FirmwareInfo;->latest_version:Ljava/lang/String;
 
-    .line 223
+    .line 242
     iget-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     iget-object p2, p2, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->currVerStr:Ljava/lang/String;
@@ -214,13 +214,13 @@
 
     goto :goto_0
 
-    .line 227
+    .line 246
     :cond_0
     iget-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     iput-object p1, p2, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->newVerStr:Ljava/lang/String;
 
-    .line 228
+    .line 247
     iget-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -235,7 +235,7 @@
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$200(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)V
 
-    .line 229
+    .line 248
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     new-instance p2, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2$$ExternalSyntheticLambda1;
@@ -246,7 +246,7 @@
 
     goto :goto_1
 
-    .line 224
+    .line 243
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
@@ -255,7 +255,7 @@
 
     goto :goto_1
 
-    .line 233
+    .line 252
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$2;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 

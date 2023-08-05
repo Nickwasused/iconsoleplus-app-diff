@@ -544,7 +544,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
@@ -561,7 +561,7 @@
     .line 156
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 158
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
     .line 159
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
     .line 160
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
     .line 161
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1235,12 +1235,12 @@
     .line 67
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0052
+    const p1, 0x7f0d0051
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0283
+    const p1, 0x7f0a027d
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1251,7 +1251,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutLevel:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a027d
+    const p1, 0x7f0a0277
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1262,7 +1262,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutIncline:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a04ee
+    const p1, 0x7f0a04ec
 
     .line 71
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1273,7 +1273,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvInclineValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a029d
+    const p1, 0x7f0a0296
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1284,7 +1284,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutSpeed:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0538
+    const p1, 0x7f0a0541
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1295,7 +1295,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvSpeedUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0539
+    const p1, 0x7f0a0542
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1306,7 +1306,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvSpeedValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f6
+    const p1, 0x7f0a04f7
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1317,7 +1317,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvLevelTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04f8
+    const p1, 0x7f0a04f9
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1328,7 +1328,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvLevelValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0552
+    const p1, 0x7f0a055d
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvTimeUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0553
+    const p1, 0x7f0a055e
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1350,7 +1350,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->txvTimeValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0248
+    const p1, 0x7f0a0245
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layout2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0599
+    const p1, 0x7f0a05a5
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1372,7 +1372,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->vChartView:Lcom/changyow/iconsole4th/view/ProgramChart;
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1383,7 +1383,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1394,7 +1394,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d6
+    const p1, 0x7f0a03ce
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1405,7 +1405,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a00bd
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->findViewById(I)Landroid/view/View;
@@ -1523,7 +1523,7 @@
     .line 250
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a00ae
+    const v1, 0x7f0a00ad
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1534,7 +1534,7 @@
     .line 251
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ProgramsActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00af
+    const v2, 0x7f0a00ae
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

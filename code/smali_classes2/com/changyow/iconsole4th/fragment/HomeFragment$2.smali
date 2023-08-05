@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    .line 127
+    .line 149
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/HomeFragment;
 
     invoke-direct {p0, p2}, Landroidx/fragment/app/FragmentStatePagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;)V
@@ -61,7 +61,7 @@
         }
     .end annotation
 
-    .line 131
+    .line 153
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/HomeFragment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->mFragments:Ljava/util/ArrayList;

@@ -98,19 +98,19 @@
         }
     .end annotation
 
-    .line 98
+    .line 101
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 95
+    .line 98
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/view/EasyDialog;->convertPx(I)I
 
     move-result v0
 
     iput v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->cornerRadius:I
 
-    .line 156
+    .line 160
     new-instance v0, Lcom/changyow/iconsole4th/view/EasyDialog$4;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/view/EasyDialog$4;-><init>(Lcom/changyow/iconsole4th/view/EasyDialog;)V
@@ -119,10 +119,10 @@
 
     const/4 v0, 0x0
 
-    .line 260
+    .line 264
     iput-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->attachedView:Landroid/view/View;
 
-    .line 99
+    .line 102
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/view/EasyDialog;->initDialog(Landroid/content/Context;)V
 
     return-void
@@ -131,7 +131,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/view/EasyDialog;)[I
     .locals 0
 
-    .line 40
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->location:[I
 
     return-object p0
@@ -140,7 +140,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/view/EasyDialog;[I)V
     .locals 0
 
-    .line 40
+    .line 43
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/view/EasyDialog;->relocation([I)V
 
     return-void
@@ -149,7 +149,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/view/EasyDialog;)Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogDismissed;
     .locals 0
 
-    .line 40
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->onEasyDialogDismissed:Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogDismissed;
 
     return-object p0
@@ -158,7 +158,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/view/EasyDialog;)Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogShow;
     .locals 0
 
-    .line 40
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->onEasyDialogShow:Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogShow;
 
     return-object p0
@@ -167,7 +167,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/view/EasyDialog;)Z
     .locals 0
 
-    .line 40
+    .line 43
     iget-boolean p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->touchOutsideDismiss:Z
 
     return p0
@@ -176,7 +176,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/view/EasyDialog;)Landroid/app/Dialog;
     .locals 0
 
-    .line 40
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     return-object p0
@@ -185,7 +185,7 @@
 .method static synthetic access$502(Lcom/changyow/iconsole4th/view/EasyDialog;Landroid/app/Dialog;)Landroid/app/Dialog;
     .locals 0
 
-    .line 40
+    .line 43
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     return-object p1
@@ -194,7 +194,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/view/EasyDialog;)V
     .locals 0
 
-    .line 40
+    .line 43
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->onDialogDismiss()V
 
     return-void
@@ -203,7 +203,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/view/EasyDialog;)Landroid/content/Context;
     .locals 0
 
-    .line 40
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     return-object p0
@@ -220,7 +220,7 @@
         }
     .end annotation
 
-    .line 806
+    .line 822
     invoke-static {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -233,7 +233,7 @@
 
     const/4 v1, 0x1
 
-    .line 807
+    .line 823
     invoke-static {v1, p1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     move-result p1
@@ -246,7 +246,7 @@
 .method private getScreenHeight()I
     .locals 2
 
-    .line 730
+    .line 746
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->isFullScreen()Z
 
     move-result v0
@@ -262,7 +262,7 @@
 
     move-result v0
 
-    .line 731
+    .line 747
     :goto_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
@@ -274,7 +274,7 @@
 
     move-result-object v1
 
-    .line 732
+    .line 748
     iget v1, v1, Landroid/util/DisplayMetrics;->heightPixels:I
 
     sub-int/2addr v1, v0
@@ -285,7 +285,7 @@
 .method private getScreenWidth()I
     .locals 1
 
-    .line 724
+    .line 740
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -296,7 +296,7 @@
 
     move-result-object v0
 
-    .line 725
+    .line 741
     iget v0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
 
     return v0
@@ -305,7 +305,7 @@
 .method private getStatusBarHeight()I
     .locals 4
 
-    .line 741
+    .line 757
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -324,7 +324,7 @@
 
     if-lez v0, :cond_0
 
-    .line 744
+    .line 760
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -351,7 +351,7 @@
 
     new-array v0, v0, [I
 
-    .line 182
+    .line 186
     fill-array-data v0, :array_0
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLocation([I)Lcom/changyow/iconsole4th/view/EasyDialog;
@@ -360,31 +360,31 @@
 
     const/4 v1, 0x1
 
-    .line 183
+    .line 187
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setGravity(I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 184
+    .line 188
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setTouchOutsideDismiss(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
     const/4 v2, 0x0
 
-    .line 185
+    .line 189
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setOutsideColor(I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
     const v2, -0xffff01
 
-    .line 186
+    .line 190
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setBackgroundColor(I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 187
+    .line 191
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setMatchParent(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
@@ -393,7 +393,7 @@
 
     iget v2, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->defaultRightMargin:I
 
-    .line 188
+    .line 192
     invoke-virtual {v0, v1, v2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setMarginLeftAndRight(II)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     return-void
@@ -418,10 +418,10 @@
         }
     .end annotation
 
-    .line 104
+    .line 107
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
-    .line 105
+    .line 108
     move-object v0, p1
 
     check-cast v0, Landroid/app/Activity;
@@ -430,30 +430,30 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d00c2
+    const v1, 0x7f0d00bf
 
     const/4 v2, 0x0
 
-    .line 106
+    .line 109
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    .line 108
+    .line 111
     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v1
 
-    .line 109
+    .line 112
     new-instance v2, Lcom/changyow/iconsole4th/view/EasyDialog$1;
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/view/EasyDialog$1;-><init>(Lcom/changyow/iconsole4th/view/EasyDialog;)V
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    const v1, 0x7f0a03c1
+    const v1, 0x7f0a03b9
 
-    .line 119
+    .line 122
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -464,12 +464,12 @@
 
     const/4 v1, 0x1
 
-    .line 120
+    .line 123
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setTouchOutsideDismiss(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
-    const v1, 0x7f0a0230
+    const v1, 0x7f0a022f
 
-    .line 121
+    .line 124
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -478,9 +478,9 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
-    const v1, 0x7f0a02c7
+    const v1, 0x7f0a02bc
 
-    .line 122
+    .line 125
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -489,7 +489,7 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
-    .line 123
+    .line 126
     new-instance v1, Landroid/app/Dialog;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->isFullScreen()Z
@@ -510,10 +510,23 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
-    .line 124
+    .line 127
     invoke-virtual {v1, v0}, Landroid/app/Dialog;->setContentView(Landroid/view/View;)V
 
-    .line 125
+    .line 128
+    iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->adjustStatusBarThemeColor(Landroid/view/Window;Ljava/lang/String;)V
+
+    .line 129
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     new-instance v1, Lcom/changyow/iconsole4th/view/EasyDialog$2;
@@ -522,7 +535,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 136
+    .line 140
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     new-instance v1, Lcom/changyow/iconsole4th/view/EasyDialog$3;
@@ -531,35 +544,35 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    .line 147
+    .line 151
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogShow:Landroid/animation/AnimatorSet;
 
-    .line 148
+    .line 152
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
-    .line 149
+    .line 153
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogShow:Ljava/util/List;
 
-    .line 150
+    .line 154
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogDismiss:Ljava/util/List;
 
-    .line 151
+    .line 155
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -572,7 +585,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->defaultLeftMargin:I
 
-    .line 152
+    .line 156
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -585,7 +598,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->defaultRightMargin:I
 
-    .line 153
+    .line 157
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->ini()V
 
     return-void
@@ -594,7 +607,7 @@
 .method private onDialogDismiss()V
     .locals 2
 
-    .line 563
+    .line 570
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->isRunning()Z
@@ -605,7 +618,7 @@
 
     return-void
 
-    .line 567
+    .line 574
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
@@ -621,19 +634,19 @@
 
     if-lez v0, :cond_1
 
-    .line 569
+    .line 576
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogDismiss:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 
-    .line 570
+    .line 577
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 571
+    .line 578
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogDismiss:Landroid/animation/AnimatorSet;
 
     new-instance v1, Lcom/changyow/iconsole4th/view/EasyDialog$5;
@@ -644,7 +657,7 @@
 
     goto :goto_0
 
-    .line 624
+    .line 636
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
@@ -657,7 +670,7 @@
 .method private onDialogShowing()V
     .locals 2
 
-    .line 550
+    .line 557
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogShow:Landroid/animation/AnimatorSet;
 
     if-eqz v0, :cond_0
@@ -672,14 +685,14 @@
 
     if-lez v0, :cond_0
 
-    .line 552
+    .line 559
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogShow:Landroid/animation/AnimatorSet;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogShow:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 
-    .line 553
+    .line 560
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->animatorSetForDialogShow:Landroid/animation/AnimatorSet;
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
@@ -699,7 +712,7 @@
         }
     .end annotation
 
-    .line 645
+    .line 657
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->isFullScreen()Z
 
     move-result v0
@@ -717,7 +730,7 @@
 
     int-to-float v0, v0
 
-    .line 647
+    .line 659
     :goto_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -739,7 +752,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setX(F)V
 
-    .line 648
+    .line 660
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
     const/4 v3, 0x1
@@ -760,7 +773,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setY(F)V
 
-    .line 649
+    .line 661
     iget v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->gravity:I
 
     const/4 v4, 0x3
@@ -775,7 +788,7 @@
 
     goto :goto_1
 
-    .line 661
+    .line 673
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -797,7 +810,7 @@
 
     goto :goto_1
 
-    .line 658
+    .line 670
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -825,7 +838,7 @@
 
     goto :goto_1
 
-    .line 652
+    .line 664
     :cond_3
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -859,7 +872,7 @@
 
     goto :goto_1
 
-    .line 655
+    .line 667
     :cond_4
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -889,7 +902,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/LinearLayout;->setY(F)V
 
-    .line 665
+    .line 677
     :goto_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -899,7 +912,7 @@
 
     check-cast p1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 666
+    .line 678
     iget v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->gravity:I
 
     if-eqz v0, :cond_8
@@ -912,7 +925,7 @@
 
     goto/16 :goto_4
 
-    .line 694
+    .line 708
     :cond_5
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -934,31 +947,31 @@
 
     float-to-int v0, v0
 
-    .line 695
+    .line 709
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->getHeight()I
 
     move-result v1
 
-    .line 697
+    .line 711
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->getScreenHeight()I
 
     move-result v2
 
     sub-int/2addr v2, v0
 
-    .line 698
+    .line 712
     iget v3, p1, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
     sub-int v3, v0, v3
 
-    .line 699
+    .line 713
     iget v4, p1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
     sub-int/2addr v2, v4
 
-    .line 701
+    .line 715
     div-int/lit8 v4, v1, 0x2
 
     if-gt v4, v3, :cond_6
@@ -972,12 +985,12 @@
     :cond_6
     if-gt v3, v2, :cond_7
 
-    .line 708
+    .line 723
     iget v0, p1, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
     goto :goto_2
 
-    .line 711
+    .line 727
     :cond_7
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->getScreenHeight()I
 
@@ -989,7 +1002,7 @@
 
     sub-int/2addr v0, v1
 
-    .line 714
+    .line 730
     :goto_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -999,7 +1012,7 @@
 
     goto :goto_4
 
-    .line 670
+    .line 682
     :cond_8
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -1021,38 +1034,38 @@
 
     float-to-int v0, v0
 
-    .line 671
+    .line 683
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->getWidth()I
 
     move-result v1
 
-    .line 672
+    .line 684
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->getScreenWidth()I
 
     move-result v2
 
     sub-int/2addr v2, v0
 
-    .line 673
+    .line 685
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->getScreenWidth()I
 
     move-result v3
 
     sub-int/2addr v3, v2
 
-    .line 674
+    .line 686
     iget v4, p1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     sub-int/2addr v3, v4
 
-    .line 675
+    .line 687
     iget v4, p1, Landroid/widget/RelativeLayout$LayoutParams;->rightMargin:I
 
     sub-int/2addr v2, v4
 
-    .line 677
+    .line 689
     div-int/lit8 v4, v1, 0x2
 
     if-gt v4, v3, :cond_9
@@ -1066,12 +1079,12 @@
     :cond_9
     if-gt v3, v2, :cond_a
 
-    .line 684
+    .line 697
     iget v0, p1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     goto :goto_3
 
-    .line 687
+    .line 701
     :cond_a
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->getScreenWidth()I
 
@@ -1083,7 +1096,7 @@
 
     sub-int/2addr v0, v1
 
-    .line 690
+    .line 704
     :goto_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -1110,10 +1123,10 @@
         }
     .end annotation
 
-    .line 531
+    .line 537
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03c2
+    const v1, 0x7f0a03ba
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1133,14 +1146,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 534
+    .line 540
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogShow:Ljava/util/List;
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 537
+    .line 544
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogDismiss:Ljava/util/List;
 
@@ -1192,11 +1205,11 @@
     :cond_2
     const-string/jumbo p2, "translationX"
 
-    .line 495
+    .line 500
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03c2
+    const v1, 0x7f0a03ba
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1208,21 +1221,21 @@
 
     int-to-long p3, p3
 
-    .line 496
+    .line 501
     invoke-virtual {p2, p3, p4}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     move-result-object p2
 
     if-eqz p1, :cond_3
 
-    .line 499
+    .line 504
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogShow:Ljava/util/List;
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 502
+    .line 508
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->objectAnimatorsForDialogDismiss:Ljava/util/List;
 
@@ -1237,7 +1250,7 @@
 .method public dismiss()V
     .locals 1
 
-    .line 633
+    .line 645
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
@@ -1248,7 +1261,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 635
+    .line 647
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->onDialogDismiss()V
 
     :cond_0
@@ -1258,7 +1271,7 @@
 .method public getAttachedView()Landroid/view/View;
     .locals 1
 
-    .line 264
+    .line 268
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->attachedView:Landroid/view/View;
 
     return-object v0
@@ -1267,7 +1280,7 @@
 .method public getDialog()Landroid/app/Dialog;
     .locals 1
 
-    .line 174
+    .line 178
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     return-object v0
@@ -1276,10 +1289,10 @@
 .method public getTipViewInstance()Landroid/view/View;
     .locals 2
 
-    .line 442
+    .line 447
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f0a03c2
+    const v1, 0x7f0a03ba
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1291,7 +1304,7 @@
 .method public isFullScreen()Z
     .locals 2
 
-    .line 754
+    .line 770
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
@@ -1338,7 +1351,7 @@
 
     const/4 v0, 0x0
 
-    .line 526
+    .line 532
     invoke-direct {p0, v0, p1, p2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationAlpha(ZI[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object p1
@@ -1361,7 +1374,7 @@
 
     const/4 v0, 0x1
 
-    .line 515
+    .line 521
     invoke-direct {p0, v0, p1, p2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationAlpha(ZI[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object p1
@@ -1386,7 +1399,7 @@
 
     const/4 v0, 0x0
 
-    .line 476
+    .line 481
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationTranslation(ZII[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object p1
@@ -1411,7 +1424,7 @@
 
     const/4 v0, 0x1
 
-    .line 464
+    .line 469
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationTranslation(ZII[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object p1
@@ -1430,10 +1443,10 @@
         }
     .end annotation
 
-    .line 367
+    .line 371
     iput p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->backgroundColor:I
 
-    .line 368
+    .line 372
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
@@ -1442,9 +1455,9 @@
 
     check-cast v0, Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a0409
+    const v1, 0x7f0a0401
 
-    .line 369
+    .line 373
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/LayerDrawable;->findDrawableByLayerId(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -1459,12 +1472,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 372
+    .line 376
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     goto :goto_0
 
-    .line 375
+    .line 380
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
@@ -1478,7 +1491,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 377
+    .line 382
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -1490,7 +1503,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 380
+    .line 385
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     :cond_1
@@ -1508,7 +1521,7 @@
         }
     .end annotation
 
-    .line 768
+    .line 784
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->setCancelable(Z)V
@@ -1527,7 +1540,7 @@
         }
     .end annotation
 
-    .line 392
+    .line 396
     iput p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->cornerRadius:I
 
     return-object p0
@@ -1560,7 +1573,7 @@
 
     move p1, v2
 
-    .line 276
+    .line 280
     :cond_0
     iput p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->gravity:I
 
@@ -1574,7 +1587,7 @@
 
     goto :goto_0
 
-    .line 289
+    .line 293
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -1584,7 +1597,7 @@
 
     goto :goto_0
 
-    .line 286
+    .line 290
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -1594,7 +1607,7 @@
 
     goto :goto_0
 
-    .line 280
+    .line 284
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -1604,7 +1617,7 @@
 
     goto :goto_0
 
-    .line 283
+    .line 287
     :cond_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->ivTriangle:Landroid/widget/ImageView;
 
@@ -1612,16 +1625,16 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
-    .line 293
+    .line 297
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->attachedView:Landroid/view/View;
 
     if-eqz p1, :cond_5
 
-    .line 295
+    .line 299
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLocationByAttachedView(Landroid/view/View;)Lcom/changyow/iconsole4th/view/EasyDialog;
 
-    .line 297
+    .line 301
     :cond_5
     iget p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->backgroundColor:I
 
@@ -1643,7 +1656,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 198
+    .line 202
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->contentView:Landroid/view/View;
 
     :cond_0
@@ -1661,7 +1674,7 @@
         }
     .end annotation
 
-    .line 208
+    .line 212
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
@@ -1676,7 +1689,7 @@
 
     move-result-object p1
 
-    .line 209
+    .line 213
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLayout(Landroid/view/View;)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     return-object p0
@@ -1693,7 +1706,7 @@
         }
     .end annotation
 
-    .line 218
+    .line 222
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->location:[I
 
     return-object p0
@@ -1712,17 +1725,17 @@
 
     if-eqz p1, :cond_4
 
-    .line 233
+    .line 237
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->attachedView:Landroid/view/View;
 
     const/4 v0, 0x2
 
     new-array v1, v0, [I
 
-    .line 235
+    .line 239
     invoke-virtual {p1, v1}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 236
+    .line 240
     iget v2, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->gravity:I
 
     const/4 v3, 0x0
@@ -1744,7 +1757,7 @@
     :cond_0
     aget v2, v1, v3
 
-    .line 249
+    .line 253
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v5
@@ -1755,7 +1768,7 @@
 
     aget v2, v1, v4
 
-    .line 250
+    .line 254
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result p1
@@ -1771,7 +1784,7 @@
     :cond_1
     aget v2, v1, v4
 
-    .line 246
+    .line 250
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result p1
@@ -1787,7 +1800,7 @@
     :cond_2
     aget v2, v1, v3
 
-    .line 239
+    .line 243
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v5
@@ -1800,7 +1813,7 @@
 
     aget v0, v1, v4
 
-    .line 240
+    .line 244
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result p1
@@ -1814,7 +1827,7 @@
     :cond_3
     aget v2, v1, v3
 
-    .line 243
+    .line 247
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result p1
@@ -1825,7 +1838,7 @@
 
     aput v2, v1, v3
 
-    .line 252
+    .line 256
     :goto_0
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLocation([I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
@@ -1846,7 +1859,7 @@
         }
     .end annotation
 
-    .line 317
+    .line 321
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1857,10 +1870,10 @@
 
     const/4 v1, 0x0
 
-    .line 318
+    .line 322
     invoke-virtual {v0, p1, v1, p2, v1}, Landroid/widget/RelativeLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 319
+    .line 323
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -1881,7 +1894,7 @@
         }
     .end annotation
 
-    .line 325
+    .line 329
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1892,10 +1905,10 @@
 
     const/4 v1, 0x0
 
-    .line 326
+    .line 330
     invoke-virtual {v0, v1, p1, v1, p2}, Landroid/widget/RelativeLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 327
+    .line 331
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -1914,7 +1927,7 @@
         }
     .end annotation
 
-    .line 306
+    .line 310
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1930,11 +1943,11 @@
     :cond_0
     const/4 p1, -0x2
 
-    .line 307
+    .line 311
     :goto_0
     iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 308
+    .line 312
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -1953,7 +1966,7 @@
         }
     .end annotation
 
-    .line 776
+    .line 792
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->onEasyDialogDismissed:Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogDismissed;
 
     return-object p0
@@ -1970,7 +1983,7 @@
         }
     .end annotation
 
-    .line 792
+    .line 808
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->onEasyDialogShow:Lcom/changyow/iconsole4th/view/EasyDialog$OnEasyDialogShow;
 
     return-object p0
@@ -1987,7 +2000,7 @@
         }
     .end annotation
 
-    .line 353
+    .line 357
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, p1}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
@@ -2006,12 +2019,12 @@
         }
     .end annotation
 
-    .line 336
+    .line 340
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->touchOutsideDismiss:Z
 
     if-eqz p1, :cond_0
 
-    .line 339
+    .line 343
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->outsideBackgroundListener:Landroid/view/View$OnTouchListener;
@@ -2020,7 +2033,7 @@
 
     goto :goto_0
 
-    .line 343
+    .line 347
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->rlOutsideBackground:Landroid/widget/RelativeLayout;
 
@@ -2035,17 +2048,17 @@
 .method public show()Lcom/changyow/iconsole4th/view/EasyDialog;
     .locals 3
 
-    .line 401
+    .line 405
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     if-eqz v0, :cond_4
 
-    .line 403
+    .line 407
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->contentView:Landroid/view/View;
 
     if-eqz v0, :cond_3
 
-    .line 407
+    .line 411
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->getChildCount()I
@@ -2054,18 +2067,18 @@
 
     if-lez v0, :cond_0
 
-    .line 409
+    .line 413
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->removeAllViews()V
 
-    .line 412
+    .line 416
     :cond_0
     iget v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->cornerRadius:I
 
     if-lez v0, :cond_2
 
-    .line 414
+    .line 418
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->context:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -2078,48 +2091,48 @@
 
     move-result-object v0
 
-    .line 415
+    .line 419
     check-cast v0, Landroid/graphics/drawable/GradientDrawable;
 
-    .line 417
+    .line 421
     iget v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->cornerRadius:I
 
     int-to-float v1, v1
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 418
+    .line 422
     iget v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 420
+    .line 424
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x10
 
     if-lt v1, v2, :cond_1
 
-    .line 422
+    .line 426
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 425
+    .line 430
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 427
+    .line 432
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->invalidate()V
 
-    .line 430
+    .line 435
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->llContent:Landroid/widget/LinearLayout;
 
@@ -2127,17 +2140,17 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 431
+    .line 436
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog;->dialog:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 432
+    .line 437
     invoke-direct {p0}, Lcom/changyow/iconsole4th/view/EasyDialog;->onDialogShowing()V
 
     goto :goto_1
 
-    .line 405
+    .line 409
     :cond_3
     new-instance v0, Ljava/lang/RuntimeException;
 

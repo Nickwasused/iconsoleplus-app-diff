@@ -104,77 +104,77 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 115
+    .line 116
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapView:Lcom/amap/api/maps2d/MapView;
 
-    .line 116
+    .line 117
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
-    .line 118
+    .line 119
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
-    .line 120
+    .line 121
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     const/4 v1, 0x0
 
-    .line 122
+    .line 123
     iput v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     const/4 v2, 0x1
 
-    .line 123
+    .line 124
     iput v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapType:I
 
-    .line 125
+    .line 126
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
-    .line 143
+    .line 144
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bShowWorkoutUI:Z
 
-    .line 144
+    .line 145
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bHasSavedState:Z
 
-    .line 145
+    .line 146
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bUserManualLevel:Z
 
-    .line 343
+    .line 351
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mBtnChangeMapProvider:Landroid/widget/ImageButton;
 
-    .line 344
+    .line 352
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bLockMapProvider:Z
 
-    .line 345
+    .line 353
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bShowChinaMapWarning:Z
 
-    .line 806
+    .line 815
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMapLocationChangedListener:Lcom/amap/api/maps2d/LocationSource$OnLocationChangedListener;
 
-    .line 807
+    .line 816
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMapLocationClient:Lcom/amap/api/location/AMapLocationClient;
 
-    .line 808
+    .line 817
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMapLocationClientOption:Lcom/amap/api/location/AMapLocationClientOption;
 
-    .line 809
+    .line 818
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bChinaCheck:Z
 
-    .line 810
+    .line 819
     iput v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->iGpsCount:I
 
-    .line 1010
+    .line 1019
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mIsFirstZoomTo:Z
 
-    .line 1107
+    .line 1116
     new-instance v1, Landroid/os/Handler;
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
@@ -183,37 +183,37 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1634
+    .line 1644
     iput-wide v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLatestRequestDistance:D
 
-    .line 1857
+    .line 1867
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMapPolyline:Lcom/google/android/gms/maps/model/Polyline;
 
-    .line 1858
+    .line 1868
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMapPolyline:Lcom/amap/api/maps2d/model/Polyline;
 
-    .line 1859
+    .line 1869
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$33;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$33;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mapUtilListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
-    .line 2014
+    .line 2024
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$34;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$34;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bleManagerListener:Lchangyow/ble4th/BLEManagerListener;
 
-    .line 2038
+    .line 2048
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->blePeripheralListener:Lchangyow/ble4th/BLEPeripheralListener;
 
-    .line 2237
+    .line 2247
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$36;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$36;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -226,7 +226,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/google/android/gms/maps/GoogleMap;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     return-object p0
@@ -235,7 +235,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/amap/api/maps2d/AMap;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     return-object p0
@@ -244,7 +244,7 @@
 .method static synthetic access$1000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/baidu/lbsapi/panoramaview/PanoramaView;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->baiduPanorama:Lcom/baidu/lbsapi/panoramaview/PanoramaView;
 
     return-object p0
@@ -253,7 +253,7 @@
 .method static synthetic access$1100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/EditText;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->etSearchBox:Landroid/widget/EditText;
 
     return-object p0
@@ -262,7 +262,7 @@
 .method static synthetic access$1200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/wang/avi/AVLoadingIndicatorView;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->avLoadingIndicator:Lcom/wang/avi/AVLoadingIndicatorView;
 
     return-object p0
@@ -271,7 +271,7 @@
 .method static synthetic access$1300(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getgetDirectionPath()V
 
     return-void
@@ -280,7 +280,7 @@
 .method static synthetic access$1400(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->reloadMapObjects()V
 
     return-void
@@ -289,7 +289,7 @@
 .method static synthetic access$1500(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Ljava/util/List;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->presentDefaultRoute(Ljava/util/List;)V
 
     return-void
@@ -298,7 +298,7 @@
 .method static synthetic access$1600(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/changyow/slideview/SlideView;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
     return-object p0
@@ -307,7 +307,7 @@
 .method static synthetic access$1700(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -316,7 +316,7 @@
 .method static synthetic access$1800(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -325,7 +325,7 @@
 .method static synthetic access$1900(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Ljava/util/List;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateAltitudeViewElevationPoints(Ljava/util/List;)V
 
     return-void
@@ -334,7 +334,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Ljava/util/ArrayList;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     return-object p0
@@ -343,7 +343,7 @@
 .method static synthetic access$2000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;D)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateAltitudeView(D)V
 
     return-void
@@ -352,7 +352,7 @@
 .method static synthetic access$2100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->moveToCurrentLocation()V
 
     return-void
@@ -361,7 +361,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->initRunnerMarker()V
 
     return-void
@@ -370,7 +370,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Ljava/util/List;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->presentRoute(Ljava/util/List;)V
 
     return-void
@@ -379,7 +379,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)I
     .locals 0
 
-    .line 111
+    .line 112
     iget p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     return p0
@@ -388,7 +388,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
     .locals 0
 
-    .line 111
+    .line 112
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showDefaultRouteDialog()V
 
     return-void
@@ -397,7 +397,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -406,7 +406,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)I
     .locals 0
 
-    .line 111
+    .line 112
     iget p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapType:I
 
     return p0
@@ -415,7 +415,7 @@
 .method static synthetic access$802(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;I)I
     .locals 0
 
-    .line 111
+    .line 112
     iput p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapType:I
 
     return p1
@@ -424,7 +424,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/FrameLayout;
     .locals 0
 
-    .line 111
+    .line 112
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutBaiduPanorama:Landroid/widget/FrameLayout;
 
     return-object p0
@@ -449,7 +449,7 @@
 .method private getCurrentLocation()Landroid/location/Location;
     .locals 2
 
-    .line 998
+    .line 1007
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     if-eqz v0, :cond_0
@@ -462,14 +462,14 @@
 
     if-nez v0, :cond_0
 
-    .line 1000
+    .line 1009
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getLocationProvider()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1003
+    .line 1012
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     invoke-virtual {v1, v0}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
@@ -487,19 +487,19 @@
 .method private getLocationProvider()Ljava/lang/String;
     .locals 4
 
-    .line 973
+    .line 982
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     if-eqz v0, :cond_2
 
     const-string v1, "gps"
 
-    .line 975
+    .line 984
     invoke-virtual {v0, v1}, Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z
 
     move-result v0
 
-    .line 976
+    .line 985
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     const-string v3, "network"
@@ -517,13 +517,13 @@
 
     return-object v3
 
-    .line 988
+    .line 997
     :cond_1
     new-instance v0, Landroid/location/Criteria;
 
     invoke-direct {v0}, Landroid/location/Criteria;-><init>()V
 
-    .line 989
+    .line 998
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     const/4 v2, 0x0
@@ -543,7 +543,7 @@
 .method private getgetDirectionPath()V
     .locals 8
 
-    .line 1111
+    .line 1120
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -554,12 +554,12 @@
 
     if-lt v0, v1, :cond_3
 
-    .line 1113
+    .line 1122
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1114
+    .line 1123
     :goto_0
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
@@ -569,12 +569,12 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 1115
+    .line 1124
     iget v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     if-nez v2, :cond_0
 
-    .line 1116
+    .line 1125
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -591,7 +591,7 @@
 
     goto :goto_1
 
-    .line 1119
+    .line 1128
     :cond_0
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
@@ -605,7 +605,7 @@
 
     move-result-object v2
 
-    .line 1120
+    .line 1129
     new-instance v3, Lcom/google/android/gms/maps/model/LatLng;
 
     iget-wide v4, v2, Lcom/amap/api/maps2d/model/LatLng;->latitude:D
@@ -614,7 +614,7 @@
 
     invoke-direct {v3, v4, v5, v6, v7}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
 
-    .line 1121
+    .line 1130
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :goto_1
@@ -622,7 +622,7 @@
 
     goto :goto_0
 
-    .line 1126
+    .line 1135
     :cond_1
     iget v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
@@ -632,7 +632,7 @@
 
     if-nez v1, :cond_2
 
-    .line 1128
+    .line 1137
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -645,7 +645,7 @@
 
     move-result-object v1
 
-    .line 1129
+    .line 1138
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -660,7 +660,7 @@
 
     goto :goto_2
 
-    .line 1133
+    .line 1142
     :cond_2
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
@@ -674,7 +674,7 @@
 
     move-result-object v1
 
-    .line 1134
+    .line 1143
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -687,7 +687,7 @@
 
     move-result-object v2
 
-    .line 1135
+    .line 1144
     new-instance v3, Lcom/google/android/gms/maps/model/LatLng;
 
     iget-wide v4, v1, Lcom/amap/api/maps2d/model/LatLng;->latitude:D
@@ -696,7 +696,7 @@
 
     invoke-direct {v3, v4, v5, v6, v7}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
 
-    .line 1136
+    .line 1145
     new-instance v1, Lcom/google/android/gms/maps/model/LatLng;
 
     iget-wide v4, v2, Lcom/amap/api/maps2d/model/LatLng;->latitude:D
@@ -709,13 +709,13 @@
 
     move-object v1, v3
 
-    .line 1139
+    .line 1148
     :goto_2
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->avLoadingIndicator:Lcom/wang/avi/AVLoadingIndicatorView;
 
     invoke-virtual {v3}, Lcom/wang/avi/AVLoadingIndicatorView;->show()V
 
-    .line 1140
+    .line 1149
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mHander:Landroid/os/Handler;
 
     new-instance v4, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$24;
@@ -733,12 +733,12 @@
 .method private initRunnerMarker()V
     .locals 8
 
-    .line 677
+    .line 686
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->prepareAvatar()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    .line 678
+    .line 687
     iget v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -751,25 +751,25 @@
 
     if-nez v1, :cond_1
 
-    .line 680
+    .line 689
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     if-nez v1, :cond_0
 
     return-void
 
-    .line 682
+    .line 691
     :cond_0
     new-instance v7, Lcom/google/android/gms/maps/model/MarkerOptions;
 
     invoke-direct {v7}, Lcom/google/android/gms/maps/model/MarkerOptions;-><init>()V
 
-    .line 683
+    .line 692
     invoke-virtual {v7, v6}, Lcom/google/android/gms/maps/model/MarkerOptions;->draggable(Z)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v7
 
-    .line 684
+    .line 693
     invoke-static {v0}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromBitmap(Landroid/graphics/Bitmap;)Lcom/google/android/gms/maps/model/BitmapDescriptor;
 
     move-result-object v0
@@ -778,12 +778,12 @@
 
     move-result-object v0
 
-    .line 685
+    .line 694
     invoke-virtual {v0, v3, v2}, Lcom/google/android/gms/maps/model/MarkerOptions;->anchor(FF)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v0
 
-    .line 686
+    .line 695
     invoke-virtual {v0, v6}, Lcom/google/android/gms/maps/model/MarkerOptions;->visible(Z)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v0
@@ -792,24 +792,24 @@
 
     invoke-direct {v2, v4, v5, v4, v5}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
 
-    .line 687
+    .line 696
     invoke-virtual {v0, v2}, Lcom/google/android/gms/maps/model/MarkerOptions;->position(Lcom/google/android/gms/maps/model/LatLng;)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v0
 
-    .line 682
+    .line 691
     invoke-virtual {v1, v0}, Lcom/google/android/gms/maps/GoogleMap;->addMarker(Lcom/google/android/gms/maps/model/MarkerOptions;)Lcom/google/android/gms/maps/model/Marker;
 
     move-result-object v0
 
-    .line 688
+    .line 697
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 692
+    .line 701
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
@@ -817,12 +817,12 @@
 
     invoke-direct {v7}, Lcom/amap/api/maps2d/model/MarkerOptions;-><init>()V
 
-    .line 693
+    .line 702
     invoke-virtual {v7, v6}, Lcom/amap/api/maps2d/model/MarkerOptions;->draggable(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v7
 
-    .line 694
+    .line 703
     invoke-static {v0}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromBitmap(Landroid/graphics/Bitmap;)Lcom/amap/api/maps2d/model/BitmapDescriptor;
 
     move-result-object v0
@@ -831,12 +831,12 @@
 
     move-result-object v0
 
-    .line 695
+    .line 704
     invoke-virtual {v0, v3, v2}, Lcom/amap/api/maps2d/model/MarkerOptions;->anchor(FF)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v0
 
-    .line 696
+    .line 705
     invoke-virtual {v0, v6}, Lcom/amap/api/maps2d/model/MarkerOptions;->visible(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v0
@@ -845,17 +845,17 @@
 
     invoke-direct {v2, v4, v5, v4, v5}, Lcom/amap/api/maps2d/model/LatLng;-><init>(DD)V
 
-    .line 697
+    .line 706
     invoke-virtual {v0, v2}, Lcom/amap/api/maps2d/model/MarkerOptions;->position(Lcom/amap/api/maps2d/model/LatLng;)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v0
 
-    .line 692
+    .line 701
     invoke-virtual {v1, v0}, Lcom/amap/api/maps2d/AMap;->addMarker(Lcom/amap/api/maps2d/model/MarkerOptions;)Lcom/amap/api/maps2d/model/Marker;
 
     move-result-object v0
 
-    .line 698
+    .line 707
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -867,14 +867,14 @@
 .method private moveToCurrentLocation()V
     .locals 5
 
-    .line 1014
+    .line 1023
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 1017
+    .line 1026
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getCurrentLocation()Landroid/location/Location;
 
@@ -882,32 +882,32 @@
 
     if-eqz v0, :cond_1
 
-    .line 1020
+    .line 1029
     invoke-virtual {v0}, Landroid/location/Location;->getLatitude()D
 
     move-result-wide v1
 
-    .line 1021
+    .line 1030
     invoke-virtual {v0}, Landroid/location/Location;->getLongitude()D
 
     move-result-wide v3
 
-    .line 1022
+    .line 1031
     new-instance v0, Lcom/google/android/gms/maps/model/LatLng;
 
     invoke-direct {v0, v1, v2, v3, v4}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
 
-    .line 1024
+    .line 1033
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mIsFirstZoomTo:Z
 
     if-eqz v1, :cond_1
 
     const/4 v1, 0x0
 
-    .line 1026
+    .line 1035
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mIsFirstZoomTo:Z
 
-    .line 1027
+    .line 1036
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     const/high16 v2, 0x41700000    # 15.0f
@@ -925,7 +925,7 @@
 .method private prepareAvatar()Landroid/graphics/Bitmap;
     .locals 8
 
-    .line 653
+    .line 662
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -942,7 +942,7 @@
 
     float-to-int v0, v0
 
-    .line 654
+    .line 663
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v1
@@ -953,12 +953,12 @@
 
     const/4 v2, 0x0
 
-    .line 655
+    .line 664
     invoke-static {v1, v0, v0, v2}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    .line 657
+    .line 666
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -973,17 +973,17 @@
 
     move-result-object v1
 
-    .line 658
+    .line 667
     new-instance v3, Landroid/graphics/Canvas;
 
     invoke-direct {v3, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 661
+    .line 670
     new-instance v4, Landroid/graphics/Paint;
 
     invoke-direct {v4}, Landroid/graphics/Paint;-><init>()V
 
-    .line 662
+    .line 671
     new-instance v5, Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -998,18 +998,18 @@
 
     const/4 v6, 0x1
 
-    .line 664
+    .line 673
     invoke-virtual {v4, v6}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 665
+    .line 674
     invoke-virtual {v3, v2, v2, v2, v2}, Landroid/graphics/Canvas;->drawARGB(IIII)V
 
     const/4 v2, -0x1
 
-    .line 666
+    .line 675
     invoke-virtual {v4, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 668
+    .line 677
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -1036,7 +1036,7 @@
 
     invoke-virtual {v3, v2, v6, v7, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 669
+    .line 678
     new-instance v2, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v6, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
@@ -1045,7 +1045,7 @@
 
     invoke-virtual {v4, v2}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 670
+    .line 679
     invoke-virtual {v3, v0, v5, v5, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     return-object v1
@@ -1054,9 +1054,9 @@
 .method private prepareUI()V
     .locals 4
 
-    const v0, 0x7f0a0533
+    const v0, 0x7f0a053a
 
-    .line 524
+    .line 533
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1065,9 +1065,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvSlideToStartTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00c6
+    const v0, 0x7f0a00c5
 
-    .line 525
+    .line 534
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1076,9 +1076,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnReset:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a00be
+    const v0, 0x7f0a00bd
 
-    .line 526
+    .line 535
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1087,9 +1087,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a0416
+    const v0, 0x7f0a040e
 
-    .line 527
+    .line 536
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1098,9 +1098,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
-    const v0, 0x7f0a0280
+    const v0, 0x7f0a027a
 
-    .line 528
+    .line 537
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1109,9 +1109,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a04f4
+    const v0, 0x7f0a04f5
 
-    .line 529
+    .line 538
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1120,9 +1120,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0204
+    const v0, 0x7f0a0202
 
-    .line 530
+    .line 539
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1131,9 +1131,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const v0, 0x7f0a03d5
+    const v0, 0x7f0a03cd
 
-    .line 531
+    .line 540
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1142,9 +1142,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const v0, 0x7f0a0295
+    const v0, 0x7f0a028e
 
-    .line 532
+    .line 541
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1153,9 +1153,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a00cc
+    const v0, 0x7f0a00ca
 
-    .line 533
+    .line 542
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1164,9 +1164,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnSearch:Landroid/widget/ImageButton;
 
-    const v0, 0x7f0a016f
+    const v0, 0x7f0a016d
 
-    .line 534
+    .line 543
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1175,9 +1175,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->etSearchBox:Landroid/widget/EditText;
 
-    const v0, 0x7f0a029c
+    const v0, 0x7f0a0295
 
-    .line 535
+    .line 544
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1188,7 +1188,7 @@
 
     const v0, 0x7f0a006a
 
-    .line 536
+    .line 545
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1199,7 +1199,7 @@
 
     const v0, 0x7f0a006d
 
-    .line 537
+    .line 546
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1208,9 +1208,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->baiduPanorama:Lcom/baidu/lbsapi/panoramaview/PanoramaView;
 
-    const v0, 0x7f0a0250
+    const v0, 0x7f0a024c
 
-    .line 538
+    .line 547
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -1219,37 +1219,37 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutBaiduPanorama:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0a05a0
+    const v0, 0x7f0a05ac
 
-    .line 539
+    .line 548
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->vPanoramaBlock:Landroid/view/View;
 
-    const v0, 0x7f0a05a1
+    const v0, 0x7f0a05ad
 
-    .line 540
+    .line 549
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->vPanoramaControlPanel:Landroid/view/View;
 
-    .line 542
+    .line 551
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 543
+    .line 552
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 545
+    .line 554
     new-instance v0, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1258,26 +1258,26 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
-    .line 546
+    .line 555
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     invoke-virtual {v0, v2}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 547
+    .line 556
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
-    .line 548
+    .line 557
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Lme/relex/circleindicator/CircleIndicator;->setViewPager(Landroidx/viewpager/widget/ViewPager;)V
 
-    .line 549
+    .line 558
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$7;
@@ -1286,7 +1286,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 568
+    .line 577
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$8;
@@ -1295,7 +1295,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/slideview/SlideView;->setOnSlideCompleteListener(Lcom/changyow/slideview/SlideView$OnSlideCompleteListener;)V
 
-    .line 579
+    .line 588
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->etSearchBox:Landroid/widget/EditText;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$9;
@@ -1304,7 +1304,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    .line 600
+    .line 609
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->btnSearch:Landroid/widget/ImageButton;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$10;
@@ -1313,7 +1313,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 613
+    .line 622
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->vPanoramaBlock:Landroid/view/View;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$11;
@@ -1322,7 +1322,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 621
+    .line 630
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->vPanoramaControlPanel:Landroid/view/View;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$12;
@@ -1331,7 +1331,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 630
+    .line 639
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1360,7 +1360,7 @@
 
     move-result v0
 
-    .line 631
+    .line 640
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
@@ -1373,33 +1373,33 @@
 
     const-string v0, "CN"
 
-    .line 633
+    .line 642
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 635
+    .line 644
     :cond_0
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bLockMapProvider:Z
 
-    .line 636
+    .line 645
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mBtnChangeMapProvider:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 637
+    .line 646
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0, v2}, Lcom/amap/api/maps2d/MapView;->setVisibility(I)V
 
-    .line 638
+    .line 647
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
-    const v1, 0x7f0a01d1
+    const v1, 0x7f0a01cf
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -1413,12 +1413,12 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 639
+    .line 648
     iput v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     const/4 v0, 0x0
 
-    .line 640
+    .line 649
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->resetBtnPressed(Landroid/view/View;)V
 
     :cond_1
@@ -1445,14 +1445,14 @@
         }
     .end annotation
 
-    .line 1229
+    .line 1238
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 1231
+    .line 1240
     :cond_0
     new-instance v1, Lcom/amap/api/maps2d/model/MarkerOptions;
 
@@ -1490,14 +1490,14 @@
 
     const/4 v2, 0x1
 
-    .line 1232
+    .line 1241
     invoke-virtual {v1, v2}, Lcom/amap/api/maps2d/model/MarkerOptions;->draggable(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v1
 
     const v4, 0x7f0801fb
 
-    .line 1233
+    .line 1242
     invoke-static {v4}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
 
     move-result-object v4
@@ -1506,17 +1506,17 @@
 
     move-result-object v1
 
-    .line 1231
+    .line 1240
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->addMarker(Lcom/amap/api/maps2d/model/MarkerOptions;)Lcom/amap/api/maps2d/model/Marker;
 
     move-result-object v0
 
-    .line 1234
+    .line 1243
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1235
+    .line 1244
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/amap/api/maps2d/model/MarkerOptions;
@@ -1563,14 +1563,14 @@
 
     move-result-object v1
 
-    .line 1236
+    .line 1245
     invoke-virtual {v1, v2}, Lcom/amap/api/maps2d/model/MarkerOptions;->draggable(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object v1
 
     const v2, 0x7f0801fd
 
-    .line 1237
+    .line 1246
     invoke-static {v2}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
 
     move-result-object v2
@@ -1579,27 +1579,27 @@
 
     move-result-object v1
 
-    .line 1235
+    .line 1244
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->addMarker(Lcom/amap/api/maps2d/model/MarkerOptions;)Lcom/amap/api/maps2d/model/Marker;
 
     move-result-object v0
 
-    .line 1238
+    .line 1247
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1240
+    .line 1249
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1241
+    .line 1250
     new-instance v1, Lcom/amap/api/maps2d/model/LatLngBounds$Builder;
 
     invoke-direct {v1}, Lcom/amap/api/maps2d/model/LatLngBounds$Builder;-><init>()V
 
-    .line 1242
+    .line 1251
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1617,7 +1617,7 @@
 
     check-cast v2, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
-    .line 1244
+    .line 1253
     new-instance v4, Lcom/amap/api/maps2d/model/LatLng;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getLat()D
@@ -1630,15 +1630,15 @@
 
     invoke-direct {v4, v5, v6, v7, v8}, Lcom/amap/api/maps2d/model/LatLng;-><init>(DD)V
 
-    .line 1245
+    .line 1254
     invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 1246
+    .line 1255
     invoke-virtual {v1, v4}, Lcom/amap/api/maps2d/model/LatLngBounds$Builder;->include(Lcom/amap/api/maps2d/model/LatLng;)Lcom/amap/api/maps2d/model/LatLngBounds$Builder;
 
     goto :goto_0
 
-    .line 1248
+    .line 1257
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
@@ -1652,14 +1652,14 @@
 
     const/high16 v2, 0x41000000    # 8.0f
 
-    .line 1249
+    .line 1258
     invoke-virtual {v0, v2}, Lcom/amap/api/maps2d/model/PolylineOptions;->width(F)Lcom/amap/api/maps2d/model/PolylineOptions;
 
     move-result-object v0
 
     const-string v2, "#800080"
 
-    .line 1250
+    .line 1259
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1668,27 +1668,27 @@
 
     move-result-object v0
 
-    .line 1251
+    .line 1260
     invoke-virtual {v0, v3}, Lcom/amap/api/maps2d/model/PolylineOptions;->geodesic(Z)Lcom/amap/api/maps2d/model/PolylineOptions;
 
     move-result-object v0
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    .line 1252
+    .line 1261
     invoke-virtual {v0, v2}, Lcom/amap/api/maps2d/model/PolylineOptions;->zIndex(F)Lcom/amap/api/maps2d/model/PolylineOptions;
 
     move-result-object v0
 
-    .line 1248
+    .line 1257
     invoke-virtual {p1, v0}, Lcom/amap/api/maps2d/AMap;->addPolyline(Lcom/amap/api/maps2d/model/PolylineOptions;)Lcom/amap/api/maps2d/model/Polyline;
 
-    .line 1254
+    .line 1263
     invoke-virtual {v1}, Lcom/amap/api/maps2d/model/LatLngBounds$Builder;->build()Lcom/amap/api/maps2d/model/LatLngBounds;
 
     move-result-object p1
 
-    .line 1255
+    .line 1264
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     const/16 v1, 0x32
@@ -1724,12 +1724,12 @@
 
     const/4 v0, 0x0
 
-    .line 1154
+    .line 1163
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->resetBtnPressed(Landroid/view/View;)V
 
     if-eqz p1, :cond_1
 
-    .line 1156
+    .line 1165
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1740,18 +1740,18 @@
 
     goto :goto_0
 
-    .line 1159
+    .line 1168
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->setPathPoints(Ljava/util/List;)V
 
-    .line 1160
+    .line 1169
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->setElevationPoints(Ljava/util/List;)V
 
-    .line 1161
+    .line 1170
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/MapUtil;->getTotalDistance()D
@@ -1762,28 +1762,28 @@
 
     div-double/2addr v0, v2
 
-    .line 1162
+    .line 1171
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v2
 
     invoke-virtual {v2, v0, v1}, Lcom/changyow/iconsole4th/FlowControl;->setTargetDistance(D)V
 
-    .line 1164
+    .line 1173
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
     const/4 v3, 0x4
 
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 1165
+    .line 1174
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 1167
+    .line 1176
     invoke-static {v0, v1}, Lcom/changyow/iconsole4th/util/UnitUtil;->distanceToUserUnit(D)D
 
     move-result-wide v0
@@ -1792,12 +1792,12 @@
 
     move-result-object v0
 
-    .line 1168
+    .line 1177
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getDistanceUnit()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 1169
+    .line 1178
     new-instance v2, Landroid/text/SpannableString;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1818,7 +1818,7 @@
 
     invoke-direct {v2, v1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    .line 1170
+    .line 1179
     new-instance v1, Landroid/text/style/RelativeSizeSpan;
 
     const/high16 v4, 0x40000000    # 2.0f
@@ -1831,19 +1831,19 @@
 
     invoke-virtual {v2, v1, v3, v0, v3}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
-    .line 1171
+    .line 1180
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
     invoke-virtual {v0, v2}, Lcom/changyow/slideview/SlideView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 1172
+    .line 1181
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/changyow/slideview/SlideView;->setEnabled(Z)V
 
-    .line 1174
+    .line 1183
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->presentRoute(Ljava/util/List;)V
 
     :cond_1
@@ -1871,14 +1871,14 @@
         }
     .end annotation
 
-    .line 1198
+    .line 1207
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 1200
+    .line 1209
     :cond_0
     new-instance v1, Lcom/google/android/gms/maps/model/MarkerOptions;
 
@@ -1902,14 +1902,14 @@
 
     const/4 v3, 0x1
 
-    .line 1201
+    .line 1210
     invoke-virtual {v1, v3}, Lcom/google/android/gms/maps/model/MarkerOptions;->draggable(Z)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v1
 
     const v4, 0x7f0801fb
 
-    .line 1202
+    .line 1211
     invoke-static {v4}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromResource(I)Lcom/google/android/gms/maps/model/BitmapDescriptor;
 
     move-result-object v4
@@ -1918,17 +1918,17 @@
 
     move-result-object v1
 
-    .line 1200
+    .line 1209
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->addMarker(Lcom/google/android/gms/maps/model/MarkerOptions;)Lcom/google/android/gms/maps/model/Marker;
 
     move-result-object v0
 
-    .line 1203
+    .line 1212
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1204
+    .line 1213
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     new-instance v1, Lcom/google/android/gms/maps/model/MarkerOptions;
@@ -1955,14 +1955,14 @@
 
     move-result-object v1
 
-    .line 1205
+    .line 1214
     invoke-virtual {v1, v3}, Lcom/google/android/gms/maps/model/MarkerOptions;->draggable(Z)Lcom/google/android/gms/maps/model/MarkerOptions;
 
     move-result-object v1
 
     const v3, 0x7f0801fd
 
-    .line 1206
+    .line 1215
     invoke-static {v3}, Lcom/google/android/gms/maps/model/BitmapDescriptorFactory;->fromResource(I)Lcom/google/android/gms/maps/model/BitmapDescriptor;
 
     move-result-object v3
@@ -1971,27 +1971,27 @@
 
     move-result-object v1
 
-    .line 1204
+    .line 1213
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->addMarker(Lcom/google/android/gms/maps/model/MarkerOptions;)Lcom/google/android/gms/maps/model/Marker;
 
     move-result-object v0
 
-    .line 1207
+    .line 1216
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1209
+    .line 1218
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1210
+    .line 1219
     new-instance v1, Lcom/google/android/gms/maps/model/LatLngBounds$Builder;
 
     invoke-direct {v1}, Lcom/google/android/gms/maps/model/LatLngBounds$Builder;-><init>()V
 
-    .line 1211
+    .line 1220
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2009,20 +2009,20 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
-    .line 1213
+    .line 1222
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v3
 
-    .line 1214
+    .line 1223
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 1215
+    .line 1224
     invoke-virtual {v1, v3}, Lcom/google/android/gms/maps/model/LatLngBounds$Builder;->include(Lcom/google/android/gms/maps/model/LatLng;)Lcom/google/android/gms/maps/model/LatLngBounds$Builder;
 
     goto :goto_0
 
-    .line 1217
+    .line 1226
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
@@ -2036,14 +2036,14 @@
 
     const/high16 v3, 0x41000000    # 8.0f
 
-    .line 1218
+    .line 1227
     invoke-virtual {v0, v3}, Lcom/google/android/gms/maps/model/PolylineOptions;->width(F)Lcom/google/android/gms/maps/model/PolylineOptions;
 
     move-result-object v0
 
     const-string v3, "#800080"
 
-    .line 1219
+    .line 1228
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v3
@@ -2052,27 +2052,27 @@
 
     move-result-object v0
 
-    .line 1220
+    .line 1229
     invoke-virtual {v0, v2}, Lcom/google/android/gms/maps/model/PolylineOptions;->geodesic(Z)Lcom/google/android/gms/maps/model/PolylineOptions;
 
     move-result-object v0
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    .line 1221
+    .line 1230
     invoke-virtual {v0, v2}, Lcom/google/android/gms/maps/model/PolylineOptions;->zIndex(F)Lcom/google/android/gms/maps/model/PolylineOptions;
 
     move-result-object v0
 
-    .line 1217
+    .line 1226
     invoke-virtual {p1, v0}, Lcom/google/android/gms/maps/GoogleMap;->addPolyline(Lcom/google/android/gms/maps/model/PolylineOptions;)Lcom/google/android/gms/maps/model/Polyline;
 
-    .line 1223
+    .line 1232
     invoke-virtual {v1}, Lcom/google/android/gms/maps/model/LatLngBounds$Builder;->build()Lcom/google/android/gms/maps/model/LatLngBounds;
 
     move-result-object p1
 
-    .line 1224
+    .line 1233
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     const/16 v1, 0x32
@@ -2106,29 +2106,29 @@
         }
     .end annotation
 
-    .line 1179
+    .line 1188
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1181
+    .line 1190
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/view/AltitudeView;->setElevationPoints(Ljava/util/List;)V
 
-    .line 1185
+    .line 1194
     :cond_0
     :try_start_0
     iget v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     if-nez v0, :cond_1
 
-    .line 1186
+    .line 1195
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->presentGoogleMapDefaultRoute(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 1188
+    .line 1197
     :cond_1
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->presentAMapDefaultRoute(Ljava/util/List;)V
     :try_end_0
@@ -2139,7 +2139,7 @@
     :catch_0
     move-exception p1
 
-    .line 1192
+    .line 1201
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -2149,7 +2149,7 @@
 .method private reloadMapObjects()V
     .locals 0
 
-    .line 1104
+    .line 1113
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getgetDirectionPath()V
 
     return-void
@@ -2158,7 +2158,7 @@
 .method private requestStreetView()V
     .locals 7
 
-    .line 1641
+    .line 1651
     iget v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mPagingCounter:I
 
     rem-int/lit8 v0, v0, 0xa
@@ -2167,13 +2167,13 @@
 
     return-void
 
-    .line 1644
+    .line 1654
     :cond_0
     iget v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapType:I
 
     if-nez v0, :cond_3
 
-    .line 1646
+    .line 1656
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -2194,7 +2194,7 @@
 
     return-void
 
-    .line 1649
+    .line 1659
     :cond_1
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -2206,21 +2206,21 @@
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLatestRequestDistance:D
 
-    .line 1650
+    .line 1660
     iget v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f0a022e
+    const v0, 0x7f0a022d
 
-    .line 1652
+    .line 1662
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/ImageView;
 
-    .line 1653
+    .line 1663
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
@@ -2249,7 +2249,7 @@
 
     goto :goto_0
 
-    .line 1657
+    .line 1667
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
@@ -2273,14 +2273,14 @@
 .method private setupAMap()V
     .locals 3
 
-    .line 814
+    .line 823
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 816
+    .line 825
     :cond_0
     new-instance v0, Lcom/amap/api/maps2d/model/MyLocationStyle;
 
@@ -2288,27 +2288,27 @@
 
     const/4 v1, 0x6
 
-    .line 817
+    .line 826
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/model/MyLocationStyle;->myLocationType(I)Lcom/amap/api/maps2d/model/MyLocationStyle;
 
     const-wide/16 v1, 0x3e8
 
-    .line 818
+    .line 827
     invoke-virtual {v0, v1, v2}, Lcom/amap/api/maps2d/model/MyLocationStyle;->interval(J)Lcom/amap/api/maps2d/model/MyLocationStyle;
 
-    .line 819
+    .line 828
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     invoke-virtual {v1, v0}, Lcom/amap/api/maps2d/AMap;->setMyLocationStyle(Lcom/amap/api/maps2d/model/MyLocationStyle;)V
 
-    .line 820
+    .line 829
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setMyLocationEnabled(Z)V
 
-    .line 821
+    .line 830
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     invoke-virtual {v0}, Lcom/amap/api/maps2d/AMap;->getUiSettings()Lcom/amap/api/maps2d/UiSettings;
@@ -2317,7 +2317,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/UiSettings;->setMyLocationButtonEnabled(Z)V
 
-    .line 822
+    .line 831
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$18;
@@ -2326,7 +2326,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMyLocationChangeListener(Lcom/amap/api/maps2d/AMap$OnMyLocationChangeListener;)V
 
-    .line 878
+    .line 887
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$19;
@@ -2335,7 +2335,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMarkerClickListener(Lcom/amap/api/maps2d/AMap$OnMarkerClickListener;)V
 
-    .line 886
+    .line 895
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$20;
@@ -2344,7 +2344,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMapClickListener(Lcom/amap/api/maps2d/AMap$OnMapClickListener;)V
 
-    .line 894
+    .line 903
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;
@@ -2353,7 +2353,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMapLongClickListener(Lcom/amap/api/maps2d/AMap$OnMapLongClickListener;)V
 
-    .line 932
+    .line 941
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;
@@ -2362,7 +2362,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMarkerClickListener(Lcom/amap/api/maps2d/AMap$OnMarkerClickListener;)V
 
-    .line 950
+    .line 959
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$23;
@@ -2371,7 +2371,7 @@
 
     invoke-virtual {v0, v1}, Lcom/amap/api/maps2d/AMap;->setOnMarkerDragListener(Lcom/amap/api/maps2d/AMap$OnMarkerDragListener;)V
 
-    .line 968
+    .line 977
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->initRunnerMarker()V
 
     return-void
@@ -2380,71 +2380,71 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 349
+    .line 357
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 350
+    .line 358
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 351
+    .line 359
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 353
+    .line 361
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 354
+    .line 362
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 356
+    .line 364
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 357
+    .line 365
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 359
+    .line 367
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 360
+    .line 368
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 361
+    .line 369
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 362
+    .line 370
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -2453,30 +2453,30 @@
 
     const v1, 0x7f1201f1
 
-    .line 364
+    .line 372
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080365
 
-    .line 365
+    .line 373
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f0801a4
 
-    .line 368
+    .line 376
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 370
+    .line 378
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$3;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 379
+    .line 387
     iput-object v3, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mBtnChangeMapProvider:Landroid/widget/ImageButton;
 
-    .line 381
+    .line 389
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$4;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -2489,14 +2489,14 @@
 .method private setupMap()V
     .locals 3
 
-    .line 704
+    .line 713
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 706
+    .line 715
     :cond_0
     invoke-virtual {v0}, Lcom/google/android/gms/maps/GoogleMap;->getUiSettings()Lcom/google/android/gms/maps/UiSettings;
 
@@ -2506,7 +2506,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/UiSettings;->setMyLocationButtonEnabled(Z)V
 
-    .line 707
+    .line 716
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     invoke-virtual {v0}, Lcom/google/android/gms/maps/GoogleMap;->getUiSettings()Lcom/google/android/gms/maps/UiSettings;
@@ -2517,7 +2517,7 @@
 
     invoke-virtual {v0, v2}, Lcom/google/android/gms/maps/UiSettings;->setZoomControlsEnabled(Z)V
 
-    .line 708
+    .line 717
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     invoke-virtual {v0}, Lcom/google/android/gms/maps/GoogleMap;->getUiSettings()Lcom/google/android/gms/maps/UiSettings;
@@ -2528,19 +2528,19 @@
 
     const-string v0, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 710
+    .line 719
     invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 711
+    .line 720
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setMyLocationEnabled(Z)V
 
-    .line 713
+    .line 722
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
@@ -2550,7 +2550,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setOnMarkerClickListener(Lcom/google/android/gms/maps/GoogleMap$OnMarkerClickListener;)V
 
-    .line 721
+    .line 730
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$14;
@@ -2559,7 +2559,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setOnMapClickListener(Lcom/google/android/gms/maps/GoogleMap$OnMapClickListener;)V
 
-    .line 730
+    .line 739
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$15;
@@ -2568,7 +2568,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setOnMapLongClickListener(Lcom/google/android/gms/maps/GoogleMap$OnMapLongClickListener;)V
 
-    .line 767
+    .line 776
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;
@@ -2577,7 +2577,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setOnMarkerClickListener(Lcom/google/android/gms/maps/GoogleMap$OnMarkerClickListener;)V
 
-    .line 785
+    .line 794
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$17;
@@ -2586,7 +2586,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/maps/GoogleMap;->setOnMarkerDragListener(Lcom/google/android/gms/maps/GoogleMap$OnMarkerDragListener;)V
 
-    .line 803
+    .line 812
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->initRunnerMarker()V
 
     return-void
@@ -2595,62 +2595,62 @@
 .method private setupWorkoutActionbar()V
     .locals 4
 
-    .line 439
+    .line 447
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 440
+    .line 448
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 441
+    .line 449
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 443
+    .line 451
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 444
+    .line 452
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 446
+    .line 454
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 447
+    .line 455
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 449
+    .line 457
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 450
+    .line 458
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 451
+    .line 459
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -2659,32 +2659,35 @@
 
     const v3, 0x7f1201f1
 
-    .line 453
+    .line 461
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f0802ab
 
-    .line 454
+    .line 462
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f0801fc
 
-    .line 455
+    .line 463
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 457
+    .line 465
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$5;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$5;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 480
+    .line 488
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 528
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->applyThemeToActionBar()V
 
     return-void
 .end method
@@ -2692,31 +2695,31 @@
 .method private showDefaultRouteDialog()V
     .locals 9
 
-    .line 1394
+    .line 1404
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
-    .line 1395
+    .line 1405
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->getCustomView()Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a01ee
+    const v1, 0x7f0a01ec
 
-    .line 1396
+    .line 1406
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/ImageButton;
 
-    .line 1398
+    .line 1408
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00c0
+    const v2, 0x7f0d00bd
 
     const/4 v3, 0x0
 
@@ -2724,31 +2727,31 @@
 
     move-result-object v1
 
-    .line 1399
+    .line 1409
     new-instance v2, Lcom/changyow/iconsole4th/view/EasyDialog;
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/view/EasyDialog;-><init>(Landroid/content/Context;)V
 
-    .line 1401
+    .line 1411
     invoke-virtual {v2, v1}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLayout(Landroid/view/View;)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v2
 
     const/4 v3, -0x1
 
-    .line 1402
+    .line 1412
     invoke-virtual {v2, v3}, Lcom/changyow/iconsole4th/view/EasyDialog;->setBackgroundColor(I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v2
 
-    .line 1404
+    .line 1414
     invoke-virtual {v2, v0}, Lcom/changyow/iconsole4th/view/EasyDialog;->setLocationByAttachedView(Landroid/view/View;)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
     const/4 v2, 0x1
 
-    .line 1405
+    .line 1415
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setGravity(I)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
@@ -2763,7 +2766,7 @@
 
     const/16 v5, 0x3e8
 
-    .line 1406
+    .line 1416
     invoke-virtual {v0, v4, v5, v3}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationTranslationShow(II[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
@@ -2776,53 +2779,53 @@
 
     const/16 v5, 0x1f4
 
-    .line 1408
+    .line 1418
     invoke-virtual {v0, v4, v5, v3}, Lcom/changyow/iconsole4th/view/EasyDialog;->setAnimationTranslationDismiss(II[F)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 1410
+    .line 1420
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/view/EasyDialog;->setTouchOutsideDismiss(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 1411
+    .line 1421
     invoke-virtual {v0, v4}, Lcom/changyow/iconsole4th/view/EasyDialog;->setMatchParent(Z)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 1412
+    .line 1422
     invoke-virtual {v0, v4, v4}, Lcom/changyow/iconsole4th/view/EasyDialog;->setMarginLeftAndRight(II)Lcom/changyow/iconsole4th/view/EasyDialog;
 
     move-result-object v0
 
-    .line 1415
+    .line 1425
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/view/EasyDialog;->show()Lcom/changyow/iconsole4th/view/EasyDialog;
 
-    .line 1417
+    .line 1427
     iget v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/def/DefaultRoute;->getTitles(I)[Ljava/lang/String;
 
     move-result-object v8
 
-    const v2, 0x7f0a02d0
+    const v2, 0x7f0a02c6
 
-    .line 1418
+    .line 1428
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/ListView;
 
-    .line 1419
+    .line 1429
     new-instance v2, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$31;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v6, 0x7f0d00bb
+    const v6, 0x7f0d00b8
 
-    const v7, 0x7f0a0557
+    const v7, 0x7f0a0562
 
     move-object v3, v2
 
@@ -2830,10 +2833,10 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$31;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Landroid/content/Context;II[Ljava/lang/String;)V
 
-    .line 1435
+    .line 1445
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 1436
+    .line 1446
     new-instance v2, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$32;
 
     invoke-direct {v2, p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$32;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Lcom/changyow/iconsole4th/view/EasyDialog;)V
@@ -2869,7 +2872,7 @@
         }
     .end annotation
 
-    .line 1463
+    .line 1473
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
 
     move-result-object v0
@@ -2878,22 +2881,22 @@
 
     mul-double/2addr p1, v1
 
-    .line 1464
+    .line 1474
     invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/view/AltitudeView;->setCurrentDistance(D)V
 
-    .line 1467
+    .line 1477
     invoke-static {}, Lcom/changyow/iconsole4th/util/RegionCheck;->isNorthAmerica()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 1469
+    .line 1479
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/view/AltitudeView;->calcResistance()I
 
     move-result p1
 
-    .line 1470
+    .line 1480
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p2
@@ -2902,7 +2905,7 @@
 
     move-result p1
 
-    .line 1471
+    .line 1481
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p2
@@ -2923,7 +2926,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 1472
+    .line 1482
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p2
@@ -2958,32 +2961,32 @@
         }
     .end annotation
 
-    .line 1478
+    .line 1488
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 1481
+    .line 1491
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 1482
+    .line 1492
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/view/AltitudeView;->setElevationPoints(Ljava/util/List;)V
 
     goto :goto_2
 
-    .line 1485
+    .line 1495
     :cond_0
     new-instance p1, Ljava/util/Random;
 
     invoke-direct {p1}, Ljava/util/Random;-><init>()V
 
-    .line 1486
+    .line 1496
     invoke-virtual {p1}, Ljava/util/Random;->nextInt()I
 
     move-result v0
@@ -2992,19 +2995,19 @@
 
     int-to-double v0, v0
 
-    .line 1487
+    .line 1497
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/util/MapUtil;->getOriginPathPoints()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 1488
+    .line 1498
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1489
+    .line 1499
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -3022,7 +3025,7 @@
 
     check-cast v4, Lcom/changyow/iconsole4th/util/PathPoint;
 
-    .line 1491
+    .line 1501
     invoke-virtual {p1}, Ljava/util/Random;->nextInt()I
 
     move-result v5
@@ -3051,7 +3054,7 @@
 
     add-double v12, v0, v5
 
-    .line 1492
+    .line 1502
     new-instance v5, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/util/PathPoint;->getLat()D
@@ -3066,19 +3069,19 @@
 
     invoke-direct/range {v7 .. v13}, Lcom/changyow/iconsole4th/util/ElevationPoint;-><init>(DDD)V
 
-    .line 1493
+    .line 1503
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/util/PathPoint;->getDistance()D
 
     move-result-wide v6
 
     invoke-virtual {v5, v6, v7}, Lcom/changyow/iconsole4th/util/ElevationPoint;->setDistance(D)V
 
-    .line 1495
+    .line 1505
     invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 1498
+    .line 1508
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
@@ -3094,7 +3097,7 @@
 .method public connectDevice()V
     .locals 3
 
-    .line 1812
+    .line 1822
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -3105,7 +3108,7 @@
 
     const/16 v1, 0x4d1
 
-    .line 1813
+    .line 1823
     invoke-virtual {p0, v0, v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void
@@ -3114,7 +3117,7 @@
 .method public getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
     .locals 2
 
-    .line 1451
+    .line 1461
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v1, "ALTITUDE_VIEW"
@@ -3125,9 +3128,9 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0a05af
+    const v1, 0x7f0a05bb
 
-    .line 1454
+    .line 1464
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -3142,15 +3145,37 @@
     return-object v0
 .end method
 
+.method protected initCustomTheme()V
+    .locals 2
+
+    .line 277
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initCustomTheme()V
+
+    .line 278
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->slideView:Lcom/changyow/slideview/SlideView;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lcom/changyow/slideview/SlideView;->setTextColor(I)V
+
+    return-void
+.end method
+
 .method protected initWorkoutState()V
     .locals 7
 
-    .line 276
+    .line 284
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initWorkoutState()V
 
     const-string v0, "location"
 
-    .line 278
+    .line 286
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -3159,14 +3184,14 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
-    .line 279
+    .line 287
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getLocationProvider()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v0, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 280
+    .line 288
     invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
@@ -3175,7 +3200,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 282
+    .line 290
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLocationManager:Landroid/location/LocationManager;
 
     const-wide/16 v3, 0x3e8
@@ -3186,7 +3211,7 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;)V
 
-    .line 283
+    .line 291
     :cond_0
     new-instance v0, Lcom/changyow/iconsole4th/util/MapUtil;
 
@@ -3198,7 +3223,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
-    .line 284
+    .line 292
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -3211,14 +3236,14 @@
 
     move-result v0
 
-    .line 285
+    .line 293
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/FlowControl;->setHrSource(I)V
 
-    .line 286
+    .line 294
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -3229,7 +3254,7 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 287
+    .line 295
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3238,7 +3263,7 @@
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setHeart_rate_source(Ljava/lang/Integer;)V
 
-    .line 288
+    .line 296
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     const/4 v1, 0x3
@@ -3249,7 +3274,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setType(Ljava/lang/Integer;)V
 
-    .line 291
+    .line 299
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/util/PlayServiceHelp;->checkPlayServices(Landroid/content/Context;)Z
@@ -3258,12 +3283,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 293
+    .line 301
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
-    const v1, 0x7f0a01d1
+    const v1, 0x7f0a01cf
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -3271,10 +3296,10 @@
 
     check-cast v0, Lcom/google/android/gms/maps/SupportMapFragment;
 
-    .line 294
+    .line 302
     invoke-virtual {v0, p0}, Lcom/google/android/gms/maps/SupportMapFragment;->getMapAsync(Lcom/google/android/gms/maps/OnMapReadyCallback;)V
 
-    .line 297
+    .line 305
     :try_start_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getApplicationContext()Landroid/content/Context;
 
@@ -3289,7 +3314,7 @@
     :catch_0
     move-exception v0
 
-    .line 301
+    .line 309
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_1
@@ -3312,7 +3337,7 @@
         }
     .end annotation
 
-    .line 1819
+    .line 1829
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     const/16 v0, 0x4d1
@@ -3329,24 +3354,24 @@
 
     const-string p2, "HRSOURCE"
 
-    .line 1826
+    .line 1836
     invoke-virtual {p3, p2, p1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
 
-    .line 1827
+    .line 1837
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p2
 
     invoke-virtual {p2, p1}, Lcom/changyow/iconsole4th/FlowControl;->setHrSource(I)V
 
-    .line 1828
+    .line 1838
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     if-eqz p2, :cond_0
 
-    .line 1829
+    .line 1839
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3355,7 +3380,7 @@
 
     invoke-virtual {p2, p1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setHeart_rate_source(Ljava/lang/Integer;)V
 
-    .line 1831
+    .line 1841
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startWorkout()V
 
@@ -3366,12 +3391,12 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 266
+    .line 267
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 268
+    .line 269
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->finish()V
 
     :cond_0
@@ -3389,20 +3414,20 @@
         }
     .end annotation
 
-    .line 150
+    .line 151
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const v0, 0x7f0d0050
+    const v0, 0x7f0d004f
 
-    .line 151
+    .line 152
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setContentView(I)V
 
-    .line 153
+    .line 154
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->initWorkoutState()V
 
     const v0, 0x7f0a005b
 
-    .line 154
+    .line 155
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -3411,10 +3436,10 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
-    .line 155
+    .line 156
     invoke-virtual {v0, p1}, Lcom/amap/api/maps2d/MapView;->onCreate(Landroid/os/Bundle;)V
 
-    .line 156
+    .line 157
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0}, Lcom/amap/api/maps2d/MapView;->getMap()Lcom/amap/api/maps2d/AMap;
@@ -3423,16 +3448,16 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
-    .line 158
+    .line 159
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setupAMap()V
 
-    .line 160
+    .line 161
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setupInitActionbar()V
 
-    .line 161
+    .line 162
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->prepareUI()V
 
-    .line 163
+    .line 164
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
 
     if-eqz v0, :cond_0
@@ -3441,31 +3466,31 @@
 
     const/4 v0, 0x1
 
-    .line 167
+    .line 168
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bHasSavedState:Z
 
     const-string v0, "String json = new Gson().toJson(mMapUtil.getElevationPoints());"
 
-    .line 168
+    .line 169
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 171
+    .line 172
     sget-object v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->SharedGson:Lcom/google/gson/Gson;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$1;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
-    .line 173
+    .line 174
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$1;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v1
 
-    .line 171
+    .line 172
     invoke-virtual {v0, p1, v1}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
@@ -3474,12 +3499,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 177
+    .line 178
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->setPathPoints(Ljava/util/List;)V
 
-    .line 178
+    .line 179
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->setElevationPoints(Ljava/util/List;)V
@@ -3491,10 +3516,10 @@
 .method protected onDestroy()V
     .locals 1
 
-    .line 246
+    .line 247
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onDestroy()V
 
-    .line 247
+    .line 248
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0}, Lcom/amap/api/maps2d/MapView;->onDestroy()V
@@ -3513,13 +3538,13 @@
         }
     .end annotation
 
-    .line 189
+    .line 190
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
-    .line 191
+    .line 192
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setupMap()V
 
-    .line 192
+    .line 193
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->moveToCurrentLocation()V
 
     return-void
@@ -3528,10 +3553,10 @@
 .method protected onPause()V
     .locals 1
 
-    .line 231
+    .line 232
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onPause()V
 
-    .line 232
+    .line 233
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0}, Lcom/amap/api/maps2d/MapView;->onPause()V
@@ -3542,15 +3567,15 @@
 .method protected onResume()V
     .locals 3
 
-    .line 198
+    .line 199
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onResume()V
 
-    .line 199
+    .line 200
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0}, Lcom/amap/api/maps2d/MapView;->onResume()V
 
-    .line 201
+    .line 202
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -3559,7 +3584,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->registerListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 202
+    .line 203
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -3570,7 +3595,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 203
+    .line 204
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -3583,16 +3608,16 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 207
+    .line 208
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;
 
     if-eqz v0, :cond_1
 
-    .line 209
+    .line 210
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/RouteDataViewPagerAdapter;->notifyDataSetChanged()V
 
-    .line 210
+    .line 211
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mPagerCurrentPage:I
@@ -3601,14 +3626,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(IZ)V
 
-    .line 211
+    .line 212
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Lme/relex/circleindicator/CircleIndicator;->setViewPager(Landroidx/viewpager/widget/ViewPager;)V
 
-    .line 212
+    .line 213
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/MapUtil;->getElevationPoints()Ljava/util/ArrayList;
@@ -3617,7 +3642,7 @@
 
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateAltitudeViewElevationPoints(Ljava/util/List;)V
 
-    .line 215
+    .line 216
     :cond_1
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bShowWorkoutUI:Z
 
@@ -3631,7 +3656,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 216
+    .line 217
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showWorkoutStartedUI()V
 
     :cond_2
@@ -3649,15 +3674,15 @@
         }
     .end annotation
 
-    .line 253
+    .line 254
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    .line 254
+    .line 255
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->amapMapView:Lcom/amap/api/maps2d/MapView;
 
     invoke-virtual {v0, p1}, Lcom/amap/api/maps2d/MapView;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    .line 256
+    .line 257
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
 
     if-eqz v0, :cond_0
@@ -3666,7 +3691,7 @@
 
     if-nez v0, :cond_0
 
-    .line 258
+    .line 259
     sget-object v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->SharedGson:Lcom/google/gson/Gson;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
@@ -3681,7 +3706,7 @@
 
     const-string v1, "String json = new Gson().toJson(mMapUtil.getElevationPoints());"
 
-    .line 259
+    .line 260
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
@@ -3691,7 +3716,7 @@
 .method public onStop()V
     .locals 2
 
-    .line 239
+    .line 240
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -3700,7 +3725,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 240
+    .line 241
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onStop()V
 
     return-void
@@ -3709,7 +3734,7 @@
 .method protected prepareControlPanel()V
     .locals 4
 
-    .line 1272
+    .line 1281
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -3720,7 +3745,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    .line 1273
+    .line 1282
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3729,18 +3754,18 @@
 
     move-result v0
 
-    const v1, 0x7f0d00d2
+    const v1, 0x7f0d00cf
 
     if-eqz v0, :cond_0
 
-    .line 1275
+    .line 1284
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
     goto :goto_1
 
-    .line 1277
+    .line 1286
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -3752,16 +3777,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 1279
+    .line 1288
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d8
+    const v1, 0x7f0d00d5
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
     goto :goto_1
 
-    .line 1281
+    .line 1290
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -3785,7 +3810,7 @@
 
     goto :goto_0
 
-    .line 1285
+    .line 1294
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -3797,16 +3822,16 @@
 
     if-eqz v0, :cond_3
 
-    .line 1287
+    .line 1296
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d3
+    const v1, 0x7f0d00d0
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
     goto :goto_1
 
-    .line 1291
+    .line 1300
     :cond_3
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
@@ -3814,16 +3839,16 @@
 
     goto :goto_1
 
-    .line 1283
+    .line 1292
     :cond_4
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d4
+    const v1, 0x7f0d00d1
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 1293
+    .line 1302
     :goto_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
@@ -3839,10 +3864,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 1295
+    .line 1303
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 1305
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
+
+    const v1, 0x7f0a0244
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3850,10 +3884,10 @@
 
     check-cast v0, Landroid/widget/RelativeLayout;
 
-    .line 1296
+    .line 1306
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00ae
+    const v2, 0x7f0a00ad
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3861,10 +3895,10 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    .line 1297
+    .line 1307
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00af
+    const v3, 0x7f0a00ae
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3874,7 +3908,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 1300
+    .line 1310
     new-instance v3, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$25;
 
     invoke-direct {v3, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$25;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -3884,7 +3918,7 @@
     :cond_5
     if-eqz v2, :cond_6
 
-    .line 1310
+    .line 1320
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$26;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -3894,14 +3928,14 @@
     :cond_6
     if-eqz v1, :cond_7
 
-    .line 1322
+    .line 1332
     new-instance v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$27;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$27;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1333
+    .line 1343
     :cond_7
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -3913,7 +3947,7 @@
 
     if-nez v0, :cond_a
 
-    .line 1335
+    .line 1345
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
     const v1, 0x7f0a0091
@@ -3924,10 +3958,10 @@
 
     check-cast v0, Landroid/widget/ImageButton;
 
-    .line 1336
+    .line 1346
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00da
+    const v2, 0x7f0a00d7
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3935,10 +3969,10 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    .line 1337
+    .line 1347
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v3, 0x7f0a00d8
+    const v3, 0x7f0a00d5
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3950,10 +3984,10 @@
 
     const/4 v3, 0x1
 
-    .line 1341
+    .line 1351
     invoke-virtual {v2, v3}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 1342
+    .line 1352
     new-instance v3, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$28;
 
     invoke-direct {v3, p0, v2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$28;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;Landroid/widget/ImageButton;)V
@@ -3963,7 +3997,7 @@
     :cond_8
     if-eqz v1, :cond_9
 
-    .line 1368
+    .line 1378
     new-instance v2, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$29;
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$29;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -3973,7 +4007,7 @@
     :cond_9
     if-eqz v0, :cond_a
 
-    .line 1381
+    .line 1391
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$30;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$30;-><init>(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -3987,10 +4021,10 @@
 .method protected refreshUiTaskRun()V
     .locals 0
 
-    .line 1853
+    .line 1863
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->refreshUiTaskRun()V
 
-    .line 1854
+    .line 1864
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->requestStreetView()V
 
     return-void
@@ -4007,41 +4041,41 @@
         }
     .end annotation
 
-    .line 1260
+    .line 1269
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mGoogleMap:Lcom/google/android/gms/maps/GoogleMap;
 
     if-eqz p1, :cond_0
 
-    .line 1261
+    .line 1270
     invoke-virtual {p1}, Lcom/google/android/gms/maps/GoogleMap;->clear()V
 
-    .line 1262
+    .line 1271
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mAMap:Lcom/amap/api/maps2d/AMap;
 
     invoke-virtual {p1}, Lcom/amap/api/maps2d/AMap;->clear()V
 
-    .line 1263
+    .line 1272
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
-    .line 1264
+    .line 1273
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/util/MapUtil;->clear()V
 
-    .line 1265
+    .line 1274
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->initRunnerMarker()V
 
-    .line 1266
+    .line 1275
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 1267
+    .line 1276
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     const/4 v0, 0x4
@@ -4054,7 +4088,7 @@
 .method showDeniedForLocation()V
     .locals 3
 
-    .line 1839
+    .line 1849
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     const v1, 0x7f1201a9
@@ -4075,32 +4109,32 @@
 
     const/4 v0, 0x1
 
-    .line 309
+    .line 317
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bShowWorkoutUI:Z
 
-    .line 310
+    .line 318
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->setupWorkoutActionbar()V
 
-    .line 311
+    .line 319
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 312
+    .line 320
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 313
+    .line 321
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 315
+    .line 323
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mHander:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$2;
@@ -4119,35 +4153,35 @@
 
     move-object/from16 v13, p0
 
-    .line 1664
+    .line 1674
     invoke-super/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->startWorkout()V
 
-    .line 1665
+    .line 1675
     iget-object v0, v13, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutSlider:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 1666
+    .line 1676
     iget-object v0, v13, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     const/4 v14, 0x0
 
     invoke-virtual {v0, v14}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 1667
+    .line 1677
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showWorkoutStartedUI()V
 
-    .line 1669
+    .line 1679
     iget v0, v13, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     if-nez v0, :cond_0
 
-    .line 1671
+    .line 1681
     iget-object v0, v13, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
-    .line 1672
+    .line 1682
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -4165,16 +4199,16 @@
 
     check-cast v1, Lcom/google/android/gms/maps/model/Marker;
 
-    .line 1673
+    .line 1683
     invoke-virtual {v1, v14}, Lcom/google/android/gms/maps/model/Marker;->setDraggable(Z)V
 
     goto :goto_0
 
-    .line 1677
+    .line 1687
     :cond_0
     iget-object v0, v13, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMarkers:Ljava/util/ArrayList;
 
-    .line 1678
+    .line 1688
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -4192,12 +4226,12 @@
 
     check-cast v1, Lcom/amap/api/maps2d/model/Marker;
 
-    .line 1679
+    .line 1689
     invoke-virtual {v1, v14}, Lcom/amap/api/maps2d/model/Marker;->setDraggable(Z)V
 
     goto :goto_1
 
-    .line 1683
+    .line 1693
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -4229,10 +4263,10 @@
 
     move/from16 v16, v12
 
-    .line 1685
+    .line 1695
     invoke-virtual/range {v0 .. v12}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateData(IDIDDIDI)V
 
-    .line 1686
+    .line 1696
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4257,7 +4291,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 1687
+    .line 1697
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4282,7 +4316,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 1688
+    .line 1698
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4299,7 +4333,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setWaypointLatLng(Ljava/util/ArrayList;)V
 
-    .line 1689
+    .line 1699
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4316,7 +4350,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setPathLatLng(Ljava/util/ArrayList;)V
 
-    .line 1690
+    .line 1700
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4335,14 +4369,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMaxAltitude(I)V
 
-    .line 1691
+    .line 1701
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 1693
+    .line 1703
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -4351,7 +4385,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 1694
+    .line 1704
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -4360,7 +4394,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 1695
+    .line 1705
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -4369,14 +4403,14 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 1696
+    .line 1706
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
 
     invoke-virtual {v0, v14}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 1698
+    .line 1708
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4387,7 +4421,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 1700
+    .line 1710
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -4398,7 +4432,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1702
+    .line 1712
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4409,7 +4443,7 @@
 
     invoke-virtual {v0, v14}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 1703
+    .line 1713
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4430,7 +4464,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 1704
+    .line 1714
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4441,12 +4475,12 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 1706
+    .line 1716
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startRefreshUITimer()V
 
     goto/16 :goto_2
 
-    .line 1708
+    .line 1718
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -4458,18 +4492,18 @@
 
     if-eqz v0, :cond_3
 
-    .line 1710
+    .line 1720
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->clear()V
 
-    .line 1711
+    .line 1721
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->start()V
 
-    .line 1712
+    .line 1722
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startRefreshUITimer()V
 
     goto/16 :goto_2
 
-    .line 1714
+    .line 1724
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -4481,7 +4515,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 1716
+    .line 1726
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4492,23 +4526,23 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 1717
+    .line 1727
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->clear()V
 
     const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
 
-    .line 1718
+    .line 1728
     invoke-static {v0, v1}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->setTick(D)V
 
-    .line 1719
+    .line 1729
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->start()V
 
-    .line 1721
+    .line 1731
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startRefreshUITimer()V
 
     goto/16 :goto_2
 
-    .line 1723
+    .line 1733
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -4520,7 +4554,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 1725
+    .line 1735
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4531,7 +4565,7 @@
 
     invoke-virtual {v0, v14}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 1726
+    .line 1736
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4552,7 +4586,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 1727
+    .line 1737
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4563,12 +4597,12 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 1729
+    .line 1739
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startRefreshUITimer()V
 
     goto :goto_2
 
-    .line 1733
+    .line 1743
     :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -4586,7 +4620,7 @@
 
     invoke-virtual {v0, v1, v2}, Lchangyow/ble4th/WorkoutStatus;->setTargetDistance(D)V
 
-    .line 1734
+    .line 1744
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4599,7 +4633,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 1735
+    .line 1745
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4626,7 +4660,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 1736
+    .line 1746
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4639,7 +4673,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setResistanceLevel(I)V
 
-    .line 1737
+    .line 1747
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4658,7 +4692,7 @@
 .method public stopWorkout()V
     .locals 3
 
-    .line 1760
+    .line 1770
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -4669,13 +4703,13 @@
 
     monitor-enter v0
 
-    .line 1762
+    .line 1772
     :try_start_0
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bCanceled:Z
 
     if-eqz v1, :cond_0
 
-    .line 1763
+    .line 1773
     monitor-exit v0
 
     return-void
@@ -4683,18 +4717,18 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 1764
+    .line 1774
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bCanceled:Z
 
-    .line 1765
+    .line 1775
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1766
+    .line 1776
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->cancelRefreshUITimer()V
 
-    .line 1767
+    .line 1777
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4703,7 +4737,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 1770
+    .line 1780
     :try_start_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -4715,7 +4749,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 1771
+    .line 1781
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4728,7 +4762,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 1772
+    .line 1782
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -4742,10 +4776,10 @@
     :catch_0
     move-exception v0
 
-    .line 1792
+    .line 1802
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 1795
+    .line 1805
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -4753,12 +4787,12 @@
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 1796
+    .line 1806
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 1798
+    .line 1808
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -4779,7 +4813,7 @@
 
     if-lt v0, v1, :cond_1
 
-    .line 1800
+    .line 1810
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -4790,19 +4824,19 @@
 
     const-string v1, "MapProvider"
 
-    .line 1801
+    .line 1811
     iget v2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapProvider:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 1802
+    .line 1812
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 1805
+    .line 1815
     :cond_1
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->stopWorkout()V
 
-    .line 1806
+    .line 1816
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->finish()V
 
     return-void
@@ -4810,7 +4844,7 @@
     :catchall_0
     move-exception v1
 
-    .line 1765
+    .line 1775
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -4846,17 +4880,17 @@
 
     move-object/from16 v0, p0
 
-    .line 1553
+    .line 1563
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1554
+    .line 1564
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1555
+    .line 1565
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v4, "DATA_PAGE_1"
@@ -4867,7 +4901,7 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    .line 1556
+    .line 1566
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v5, "DATA_PAGE_2"
@@ -4878,7 +4912,7 @@
 
     check-cast v4, Landroid/view/ViewGroup;
 
-    .line 1557
+    .line 1567
     iget-object v5, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v6, "DATA_PAGE_3"
@@ -4889,13 +4923,13 @@
 
     check-cast v5, Landroid/view/ViewGroup;
 
-    .line 1558
+    .line 1568
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1559
+    .line 1569
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1561
+    .line 1571
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -4916,7 +4950,7 @@
 
     if-nez v3, :cond_1
 
-    .line 1562
+    .line 1572
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -4927,7 +4961,7 @@
 
     if-nez v3, :cond_1
 
-    .line 1563
+    .line 1573
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -4950,7 +4984,7 @@
 
     goto :goto_0
 
-    .line 1566
+    .line 1576
     :cond_0
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -4978,14 +5012,14 @@
 
     goto :goto_1
 
-    .line 1564
+    .line 1574
     :cond_1
     :goto_0
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
     invoke-virtual {v3, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 1568
+    .line 1578
     :goto_1
     invoke-static/range {p9 .. p9}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
@@ -4993,7 +5027,7 @@
 
     const v10, 0x7f0803ec
 
-    .line 1570
+    .line 1580
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
@@ -5018,7 +5052,7 @@
 
     const v10, 0x7f0801a8
 
-    .line 1571
+    .line 1581
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
@@ -5049,7 +5083,7 @@
 
     const v10, 0x7f0802a7
 
-    .line 1572
+    .line 1582
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
@@ -5080,7 +5114,7 @@
 
     const v10, 0x7f0801e3
 
-    .line 1573
+    .line 1583
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
@@ -5113,7 +5147,7 @@
 
     const v10, 0x7f0801e7
 
-    .line 1574
+    .line 1584
     invoke-static {v10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v10
@@ -5132,7 +5166,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1576
+    .line 1586
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -5153,7 +5187,7 @@
 
     if-eqz v3, :cond_5
 
-    .line 1578
+    .line 1588
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -5176,7 +5210,7 @@
 
     goto :goto_2
 
-    .line 1581
+    .line 1591
     :cond_2
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -5204,14 +5238,14 @@
 
     goto :goto_3
 
-    .line 1579
+    .line 1589
     :cond_3
     :goto_2
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
     invoke-virtual {v3, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 1582
+    .line 1592
     :goto_3
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getHeartRateIconRes()I
 
@@ -5239,7 +5273,7 @@
 
     if-lez v3, :cond_4
 
-    .line 1585
+    .line 1595
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -5259,7 +5293,7 @@
     :cond_4
     move-wide/from16 v3, v16
 
-    .line 1586
+    .line 1596
     invoke-static {v11}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v6
@@ -5286,7 +5320,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1587
+    .line 1597
     invoke-static/range {v18 .. v18}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -5325,7 +5359,7 @@
 
     goto/16 :goto_5
 
-    .line 1589
+    .line 1599
     :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -5341,7 +5375,7 @@
 
     if-eqz v3, :cond_7
 
-    .line 1591
+    .line 1601
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getHeartRateIconRes()I
 
     move-result v3
@@ -5368,7 +5402,7 @@
 
     if-lez v3, :cond_6
 
-    .line 1594
+    .line 1604
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -5388,7 +5422,7 @@
     :cond_6
     move-wide/from16 v7, v16
 
-    .line 1595
+    .line 1605
     invoke-static {v11}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -5415,7 +5449,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1596
+    .line 1606
     invoke-static {v6}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -5436,7 +5470,7 @@
 
     goto/16 :goto_5
 
-    .line 1600
+    .line 1610
     :cond_7
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getHeartRateIconRes()I
 
@@ -5462,7 +5496,7 @@
 
     const v3, 0x7f080196
 
-    .line 1601
+    .line 1611
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -5489,7 +5523,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1602
+    .line 1612
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -5512,7 +5546,7 @@
 
     goto :goto_4
 
-    .line 1605
+    .line 1615
     :cond_8
     invoke-static {v6}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -5534,7 +5568,7 @@
 
     goto :goto_5
 
-    .line 1603
+    .line 1613
     :cond_9
     :goto_4
     invoke-static/range {v18 .. v18}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -5573,7 +5607,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1621
+    .line 1631
     :goto_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -5585,10 +5619,10 @@
 
     if-nez v3, :cond_a
 
-    .line 1623
+    .line 1633
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1624
+    .line 1634
     invoke-static/range {v18 .. v18}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -5625,11 +5659,11 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1627
+    .line 1637
     :cond_a
     invoke-virtual {v0, v1, v2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
 
-    .line 1629
+    .line 1639
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
 
     move-result-object v1
@@ -5640,7 +5674,7 @@
 
     mul-double v2, v2, p5
 
-    .line 1631
+    .line 1641
     invoke-virtual {v1, v2, v3}, Lcom/changyow/iconsole4th/view/AltitudeView;->setCurrentDistance(D)V
 
     :cond_b
@@ -5664,27 +5698,27 @@
 
     const-string v0, ""
 
-    .line 1505
+    .line 1515
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getTime()I
 
     move-result v2
 
-    .line 1506
+    .line 1516
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getDistance()D
 
     move-result-wide v3
 
-    .line 1507
+    .line 1517
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getSpeed()D
 
     move-result-wide v5
 
-    .line 1508
+    .line 1518
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getCalories()D
 
     move-result-wide v7
 
-    .line 1509
+    .line 1519
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v9
@@ -5693,12 +5727,12 @@
 
     move-result v9
 
-    .line 1510
+    .line 1520
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getRPM()I
 
     move-result v10
 
-    .line 1514
+    .line 1524
     :try_start_0
     iget-object v11, v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->txvLevel:Landroid/widget/TextView;
 
@@ -5706,17 +5740,17 @@
 
     invoke-virtual {v11, v12}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 1516
+    .line 1526
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1517
+    .line 1527
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1518
+    .line 1528
     iget-object v13, v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v14, "DATA_PAGE_1"
@@ -5727,7 +5761,7 @@
 
     check-cast v13, Landroid/view/ViewGroup;
 
-    .line 1519
+    .line 1529
     iget-object v14, v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v15, "DATA_PAGE_2"
@@ -5738,15 +5772,15 @@
 
     check-cast v14, Landroid/view/ViewGroup;
 
-    .line 1521
+    .line 1531
     invoke-virtual {v12, v13}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1522
+    .line 1532
     invoke-virtual {v12, v14}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     const v13, 0x7f0803ec
 
-    .line 1525
+    .line 1535
     invoke-static {v13}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v13
@@ -5771,7 +5805,7 @@
 
     const v2, 0x7f0801a8
 
-    .line 1526
+    .line 1536
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -5802,7 +5836,7 @@
 
     const v2, 0x7f0802a7
 
-    .line 1527
+    .line 1537
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -5833,7 +5867,7 @@
 
     const v2, 0x7f0801e3
 
-    .line 1528
+    .line 1538
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -5862,14 +5896,14 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1530
+    .line 1540
     invoke-static {v9}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object v2
 
     const v5, 0x7f0801e7
 
-    .line 1531
+    .line 1541
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -5886,7 +5920,7 @@
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1532
+    .line 1542
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getHeartRateIconRes()I
 
     move-result v2
@@ -5915,7 +5949,7 @@
 
     const v2, 0x7f080196
 
-    .line 1533
+    .line 1543
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -5942,7 +5976,7 @@
 
     const v2, 0x7f080191
 
-    .line 1535
+    .line 1545
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -5979,10 +6013,10 @@
 
     invoke-virtual {v11, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1540
+    .line 1550
     invoke-virtual {v1, v11, v12}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
 
-    .line 1541
+    .line 1551
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->getAltitudeView()Lcom/changyow/iconsole4th/view/AltitudeView;
 
     move-result-object v0
@@ -5993,7 +6027,7 @@
 
     mul-double/2addr v3, v5
 
-    .line 1543
+    .line 1553
     invoke-virtual {v0, v3, v4}, Lcom/changyow/iconsole4th/view/AltitudeView;->setCurrentDistance(D)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -6003,7 +6037,7 @@
     :catch_0
     move-exception v0
 
-    .line 1547
+    .line 1557
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0

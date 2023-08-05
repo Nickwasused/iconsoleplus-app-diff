@@ -42,7 +42,7 @@
         }
     .end annotation
 
-    .line 98
+    .line 100
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1$1;->this$1:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

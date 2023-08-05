@@ -14,15 +14,15 @@
 
 
 # static fields
-.field public static final srl_classics_arrow:I = 0x7f0a0435
+.field public static final srl_classics_arrow:I = 0x7f0a042d
 
-.field public static final srl_classics_center:I = 0x7f0a0436
+.field public static final srl_classics_center:I = 0x7f0a042e
 
-.field public static final srl_classics_progress:I = 0x7f0a0437
+.field public static final srl_classics_progress:I = 0x7f0a042f
 
-.field public static final srl_classics_title:I = 0x7f0a0438
+.field public static final srl_classics_title:I = 0x7f0a0430
 
-.field public static final srl_classics_update:I = 0x7f0a0439
+.field public static final srl_classics_update:I = 0x7f0a0431
 
 
 # direct methods

@@ -10,7 +10,7 @@
 # annotations
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u0005\u00a2\u0006\u0002\u0010\u0004J\u0008\u0010\u000e\u001a\u00020\u000fH\u0002J\u0008\u0010\u0010\u001a\u00020\u000fH\u0016J\u0012\u0010\u0011\u001a\u00020\u000f2\u0008\u0010\u0012\u001a\u0004\u0018\u00010\u0013H\u0014J\u0018\u0010\u0014\u001a\u00020\u000f2\u0006\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u0017\u001a\u00020\u0006H\u0016J\u0018\u0010\u0018\u001a\u00020\u000f2\u0006\u0010\u0019\u001a\u00020\u00062\u0006\u0010\u001a\u001a\u00020\u0006H\u0016J\u0010\u0010\u001b\u001a\u00020\u000f2\u0006\u0010\u001c\u001a\u00020\u001dH\u0016J\u0008\u0010\u001e\u001a\u00020\u000fH\u0014J\u0008\u0010\u001f\u001a\u00020\u000fH\u0002J\u0008\u0010 \u001a\u00020\u000fH\u0002R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u001a\u0010\u000b\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\u0008\"\u0004\u0008\r\u0010\n\u00a8\u0006!"
+        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u0005\u00a2\u0006\u0002\u0010\u0004J\u0008\u0010\u000e\u001a\u00020\u000fH\u0002J\u0008\u0010\u0010\u001a\u00020\u000fH\u0014J\u0008\u0010\u0011\u001a\u00020\u000fH\u0016J\u0012\u0010\u0012\u001a\u00020\u000f2\u0008\u0010\u0013\u001a\u0004\u0018\u00010\u0014H\u0014J\u0018\u0010\u0015\u001a\u00020\u000f2\u0006\u0010\u0016\u001a\u00020\u00172\u0006\u0010\u0018\u001a\u00020\u0006H\u0016J\u0018\u0010\u0019\u001a\u00020\u000f2\u0006\u0010\u001a\u001a\u00020\u00062\u0006\u0010\u001b\u001a\u00020\u0006H\u0016J\u0010\u0010\u001c\u001a\u00020\u000f2\u0006\u0010\u001d\u001a\u00020\u001eH\u0016J\u0008\u0010\u001f\u001a\u00020\u000fH\u0014J\u0008\u0010 \u001a\u00020\u000fH\u0002J\u0008\u0010!\u001a\u00020\u000fH\u0002R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u001a\u0010\u000b\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\u0008\"\u0004\u0008\r\u0010\n\u00a8\u0006\""
     }
     d2 = {
         "Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;",
@@ -29,6 +29,7 @@
         "setRightMotor",
         "doStartWorkoutWork",
         "",
+        "initCustomTheme",
         "onBackPressed",
         "onCreate",
         "savedInstanceState",
@@ -46,7 +47,7 @@
         "onStop",
         "startWorkout",
         "stopBench",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -95,7 +96,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 19
+    .line 21
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -108,10 +109,10 @@
 
     const/4 v0, -0x1
 
-    .line 21
+    .line 23
     iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
-    .line 22
+    .line 24
     iput v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->rightMotor:I
 
     return-void
@@ -120,7 +121,7 @@
 .method private final doStartWorkoutWork()V
     .locals 5
 
-    .line 56
+    .line 58
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -135,19 +136,19 @@
 
     if-eqz v0, :cond_2
 
-    .line 58
+    .line 60
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->stopBench()V
 
     const-wide/high16 v1, 0x4014000000000000L    # 5.0
 
-    .line 60
+    .line 62
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerLimits()Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 61
+    .line 63
     invoke-virtual {v3}, Lchangyow/ble4th/retrainer/Retrainer$Limits;->getMinWeight()D
 
     move-result-wide v1
@@ -155,10 +156,10 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 63
+    .line 65
     invoke-virtual {v0, v3, v1, v2}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestSetTargetWeight(ID)V
 
-    .line 64
+    .line 66
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerSupportFeature()Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;
 
     move-result-object v3
@@ -167,21 +168,21 @@
 
     if-eqz v3, :cond_1
 
-    .line 65
+    .line 67
     invoke-virtual {v3}, Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;->getNumberOfMoters()I
 
     move-result v3
 
     if-lez v3, :cond_1
 
-    .line 66
+    .line 68
     invoke-virtual {v0, v4, v1, v2}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestSetTargetWeight(ID)V
 
-    .line 68
+    .line 70
     :cond_1
     invoke-virtual {v0, v4}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestStart(I)V
 
-    .line 69
+    .line 71
     invoke-virtual {v0, p0}, Lchangyow/ble4th/retrainer/BenchBleManager;->setListener(Ljava/lang/Object;)V
 
     :cond_2
@@ -195,14 +196,14 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 28
+    .line 30
     sget-object p1, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->setLeftGripMotorNumber(I)V
 
-    .line 29
+    .line 31
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -215,7 +216,7 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 30
+    .line 32
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->finish()V
 
     return-void
@@ -228,7 +229,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 34
+    .line 36
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->onBackPressed()V
 
     return-void
@@ -237,7 +238,7 @@
 .method private final startWorkout()V
     .locals 0
 
-    .line 52
+    .line 54
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->doStartWorkoutWork()V
 
     return-void
@@ -246,7 +247,7 @@
 .method private final stopBench()V
     .locals 1
 
-    .line 94
+    .line 96
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -259,7 +260,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 95
+    .line 97
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -276,7 +277,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestControlPermission()V
 
-    .line 96
+    .line 98
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -351,7 +352,7 @@
 .method public final getLeftMotor()I
     .locals 1
 
-    .line 21
+    .line 23
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
     return v0
@@ -360,16 +361,78 @@
 .method public final getRightMotor()I
     .locals 1
 
-    .line 22
+    .line 24
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->rightMotor:I
 
     return v0
 .end method
 
+.method protected initCustomTheme()V
+    .locals 2
+
+    .line 115
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 116
+    sget v0, Lcom/changyow/iconsole4th/R$id;->btnCancel:I
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageButton;
+
+    const-string v1, "btnCancel"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 117
+    sget v0, Lcom/changyow/iconsole4th/R$id;->btnDone:I
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/Button;
+
+    const-string v1, "btnDone"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 118
+    sget v0, Lcom/changyow/iconsole4th/R$id;->btnDone:I
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    return-void
+.end method
+
 .method public onActionStatusChanged(ILchangyow/ble4th/retrainer/Retrainer$ActionStatus;)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1, p2}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onActionStatusChanged(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;ILchangyow/ble4th/retrainer/Retrainer$ActionStatus;)V
 
     return-void
@@ -378,17 +441,17 @@
 .method public onBackPressed()V
     .locals 3
 
-    .line 41
+    .line 43
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onBackPressed()V
 
-    .line 42
+    .line 44
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->setLeftGripMotorNumber(I)V
 
-    .line 43
+    .line 45
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -407,15 +470,15 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    .line 24
+    .line 26
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d003b
-
-    .line 25
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->setContentView(I)V
+    const p1, 0x7f0d003a
 
     .line 27
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->setContentView(I)V
+
+    .line 29
     sget p1, Lcom/changyow/iconsole4th/R$id;->btnDone:I
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
@@ -430,7 +493,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 33
+    .line 35
     sget p1, Lcom/changyow/iconsole4th/R$id;->btnCancel:I
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
@@ -445,7 +508,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 37
+    .line 39
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->startWorkout()V
 
     return-void
@@ -454,7 +517,7 @@
 .method public onDeviceConnected(Landroid/bluetooth/BluetoothDevice;)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/BleCallbacks$DefaultImpls;->onDeviceConnected(Lchangyow/ble4th/retrainer/BleCallbacks;Landroid/bluetooth/BluetoothDevice;)V
 
     return-void
@@ -467,7 +530,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 109
+    .line 111
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->finish()V
 
     return-void
@@ -476,7 +539,7 @@
 .method public onDeviceFailedToConnect(Landroid/bluetooth/BluetoothDevice;I)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1, p2}, Lchangyow/ble4th/retrainer/BleCallbacks$DefaultImpls;->onDeviceFailedToConnect(Lchangyow/ble4th/retrainer/BleCallbacks;Landroid/bluetooth/BluetoothDevice;I)V
 
     return-void
@@ -485,7 +548,7 @@
 .method public onDeviceReady(Landroid/bluetooth/BluetoothDevice;)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/BleCallbacks$DefaultImpls;->onDeviceReady(Lchangyow/ble4th/retrainer/BleCallbacks;Landroid/bluetooth/BluetoothDevice;)V
 
     return-void
@@ -494,7 +557,7 @@
 .method public onError(II)V
     .locals 4
 
-    .line 105
+    .line 107
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     check-cast v0, Landroid/content/Context;
@@ -549,7 +612,7 @@
 .method public onGetFeatures(Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onGetFeatures(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;)V
 
     return-void
@@ -558,7 +621,7 @@
 .method public onGetLimits(Lchangyow/ble4th/retrainer/Retrainer$Limits;)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onGetLimits(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;Lchangyow/ble4th/retrainer/Retrainer$Limits;)V
 
     return-void
@@ -567,7 +630,7 @@
 .method public onGetTrainingStatus(I)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onGetTrainingStatus(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;I)V
 
     return-void
@@ -580,28 +643,28 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 74
+    .line 76
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getRepetitionCount()I
 
     move-result v0
 
     if-lez v0, :cond_2
 
-    .line 75
+    .line 77
     iget v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 76
+    .line 78
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
     move-result p1
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
-    .line 77
+    .line 79
     sget p1, Lcom/changyow/iconsole4th/R$id;->txvDescription:I
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
@@ -622,7 +685,7 @@
 
     goto :goto_0
 
-    .line 78
+    .line 80
     :cond_0
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
@@ -632,14 +695,14 @@
 
     if-eq v0, v1, :cond_2
 
-    .line 79
+    .line 81
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/Retrainer$MeasurementData;->getMotorNumber()I
 
     move-result p1
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->rightMotor:I
 
-    .line 80
+    .line 82
     sget p1, Lcom/changyow/iconsole4th/R$id;->txvDescription:I
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->_$_findCachedViewById(I)Landroid/view/View;
@@ -658,7 +721,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 81
+    .line 83
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -673,10 +736,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 83
+    .line 85
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->stopBench()V
 
-    .line 85
+    .line 87
     :cond_1
     sget p1, Lcom/changyow/iconsole4th/R$id;->btnDone:I
 
@@ -698,7 +761,7 @@
 .method public onMotorMotionNotified(III)V
     .locals 0
 
-    .line 19
+    .line 21
     invoke-static {p0, p1, p2, p3}, Lchangyow/ble4th/retrainer/Retrainer$Callbacks$DefaultImpls;->onMotorMotionNotified(Lchangyow/ble4th/retrainer/Retrainer$Callbacks;III)V
 
     return-void
@@ -707,10 +770,10 @@
 .method protected onStop()V
     .locals 2
 
-    .line 47
+    .line 49
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onStop()V
 
-    .line 48
+    .line 50
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -737,7 +800,7 @@
 .method public final setLeftMotor(I)V
     .locals 0
 
-    .line 21
+    .line 23
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->leftMotor:I
 
     return-void
@@ -746,7 +809,7 @@
 .method public final setRightMotor(I)V
     .locals 0
 
-    .line 22
+    .line 24
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/settings/EGravityMachineActivtionActivity;->rightMotor:I
 
     return-void

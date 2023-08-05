@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 213
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 298
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/BaseActivity$1;->val$decorView:Landroid/view/View;
@@ -64,7 +70,7 @@
 
     if-nez p1, :cond_0
 
-    .line 221
+    .line 306
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BaseActivity;->mHandler:Landroid/os/Handler;

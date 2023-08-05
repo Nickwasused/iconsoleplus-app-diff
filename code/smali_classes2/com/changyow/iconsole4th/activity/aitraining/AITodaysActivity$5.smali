@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 221
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 235
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->val$settingsDialog:Landroid/app/Dialog;
@@ -60,12 +66,12 @@
         }
     .end annotation
 
-    .line 225
+    .line 239
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->val$settingsDialog:Landroid/app/Dialog;
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 226
+    .line 240
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
@@ -78,12 +84,12 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 227
+    .line 241
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 228
+    .line 242
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->finish()V

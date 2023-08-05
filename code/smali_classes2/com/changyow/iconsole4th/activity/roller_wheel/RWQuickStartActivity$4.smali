@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 189
+    .line 194
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 193
+    .line 198
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Float;
 
-    .line 194
+    .line 199
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    .line 197
+    .line 202
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     const-string v1, "3"
@@ -94,14 +94,14 @@
 
     if-gez p1, :cond_1
 
-    .line 200
+    .line 205
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     const-string v2, "2"
 
     invoke-static {p1, v2}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$300(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;Ljava/lang/String;)V
 
-    .line 201
+    .line 206
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->startWorkout()V
@@ -119,7 +119,7 @@
 
     if-gez p1, :cond_2
 
-    .line 204
+    .line 209
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     const-string v0, "1"

@@ -29,10 +29,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 24
+    .line 25
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 95
+    .line 102
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)V
@@ -45,7 +45,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -54,7 +54,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutBaiYourLife:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -63,7 +63,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutGetFit:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -72,7 +72,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutExplosivenese:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -81,7 +81,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/RelativeLayout;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutMarathon:Landroid/widget/RelativeLayout;
 
     return-object p0
@@ -90,7 +90,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/ImageView;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover1:Landroid/widget/ImageView;
 
     return-object p0
@@ -99,7 +99,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/ImageView;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover2:Landroid/widget/ImageView;
 
     return-object p0
@@ -108,7 +108,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/ImageView;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover3:Landroid/widget/ImageView;
 
     return-object p0
@@ -117,7 +117,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/ImageView;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover4:Landroid/widget/ImageView;
 
     return-object p0
@@ -126,7 +126,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 24
+    .line 25
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->btnDone:Landroid/widget/Button;
 
     return-object p0
@@ -135,7 +135,7 @@
 .method public static getAITrainingTarget()Ljava/lang/String;
     .locals 3
 
-    .line 157
+    .line 164
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -178,7 +178,7 @@
         }
     .end annotation
 
-    .line 152
+    .line 159
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -217,73 +217,73 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 63
+    .line 64
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 64
+    .line 65
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 65
+    .line 66
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 67
+    .line 68
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 68
+    .line 69
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 70
+    .line 71
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 71
+    .line 72
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 73
+    .line 74
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 74
+    .line 75
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 75
+    .line 76
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 76
+    .line 77
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -292,23 +292,23 @@
 
     const v4, 0x7f1202ea
 
-    .line 78
+    .line 79
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080365
 
-    .line 79
+    .line 80
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const/4 v0, 0x4
 
-    .line 80
+    .line 81
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 81
+    .line 82
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 83
+    .line 84
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;)V
@@ -331,7 +331,7 @@
         }
     .end annotation
 
-    .line 127
+    .line 134
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutBaiYourLife:Landroid/widget/RelativeLayout;
 
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->isSelected()Z
@@ -344,7 +344,7 @@
 
     goto :goto_0
 
-    .line 129
+    .line 136
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutGetFit:Landroid/widget/RelativeLayout;
 
@@ -358,7 +358,7 @@
 
     goto :goto_0
 
-    .line 131
+    .line 138
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutExplosivenese:Landroid/widget/RelativeLayout;
 
@@ -372,7 +372,7 @@
 
     goto :goto_0
 
-    .line 133
+    .line 140
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutMarathon:Landroid/widget/RelativeLayout;
 
@@ -384,24 +384,24 @@
 
     const-string v0, "endurance"
 
-    .line 136
+    .line 143
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->setAITrainingTarget(Ljava/lang/String;)V
 
-    .line 138
+    .line 145
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getAll()Ljava/util/List;
 
     move-result-object p1
 
-    .line 140
+    .line 147
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-nez p1, :cond_4
 
-    .line 141
+    .line 148
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -412,7 +412,7 @@
 
     goto :goto_1
 
-    .line 143
+    .line 150
     :cond_4
     new-instance p1, Landroid/content/Intent;
 
@@ -422,19 +422,33 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 144
+    .line 151
     :goto_1
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 146
+    .line 153
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->saveUserSettings()V
 
-    .line 147
+    .line 154
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->finish()V
+
+    return-void
+.end method
+
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 98
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 99
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->btnDone:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
 
     return-void
 .end method
@@ -450,17 +464,17 @@
         }
     .end annotation
 
-    .line 40
+    .line 41
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0024
 
-    .line 41
+    .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->setContentView(I)V
 
-    const p1, 0x7f0a024f
+    const p1, 0x7f0a024b
 
-    .line 42
+    .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -469,9 +483,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutBaiYourLife:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a021a
+    const p1, 0x7f0a0217
 
-    .line 43
+    .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -480,9 +494,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover4:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0275
+    const p1, 0x7f0a0270
 
-    .line 44
+    .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -491,9 +505,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutGetFit:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0219
+    const p1, 0x7f0a0216
 
-    .line 45
+    .line 46
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -502,9 +516,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover3:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a026d
+    const p1, 0x7f0a0268
 
-    .line 46
+    .line 47
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -513,9 +527,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutExplosivenese:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0218
+    const p1, 0x7f0a0215
 
-    .line 47
+    .line 48
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -524,9 +538,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->ivCover2:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a0285
+    const p1, 0x7f0a027f
 
-    .line 48
+    .line 49
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -535,9 +549,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutMarathon:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0217
+    const p1, 0x7f0a0214
 
-    .line 49
+    .line 50
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -548,7 +562,7 @@
 
     const p1, 0x7f0a00a1
 
-    .line 50
+    .line 51
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -557,38 +571,38 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->btnDone:Landroid/widget/Button;
 
-    .line 52
+    .line 53
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->setupInitActionbar()V
 
-    .line 54
+    .line 55
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutBaiYourLife:Landroid/widget/RelativeLayout;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 55
+    .line 56
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutGetFit:Landroid/widget/RelativeLayout;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 56
+    .line 57
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutExplosivenese:Landroid/widget/RelativeLayout;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 57
+    .line 58
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->layoutMarathon:Landroid/widget/RelativeLayout;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 58
+    .line 59
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITrainingTargetActivity;->btnDone:Landroid/widget/Button;
 
     const/4 v0, 0x0

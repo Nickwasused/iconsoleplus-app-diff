@@ -1,5 +1,5 @@
 !!brut.androlib.apk.ApkInfo
-apkFileName: iConsole+ Training_1.8.48_Apkpure.apk
+apkFileName: iConsole+ Training_1.8.52_Apkpure.apk
 doNotCompress:
 - resources.arsc
 - META-INF/androidx.activity_activity-ktx.version
@@ -20,6 +20,9 @@ doNotCompress:
 - META-INF/androidx.core_core.version
 - META-INF/androidx.cursoradapter_cursoradapter.version
 - META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_baseAdapters.version
+- META-INF/androidx.databinding_databindingKtx.version
+- META-INF/androidx.databinding_library.version
 - META-INF/androidx.databinding_viewbinding.version
 - META-INF/androidx.documentfile_documentfile.version
 - META-INF/androidx.drawerlayout_drawerlayout.version
@@ -34,8 +37,10 @@ doNotCompress:
 - META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
 - META-INF/androidx.lifecycle_lifecycle-livedata-core.version
 - META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
 - META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
 - META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
 - META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
 - META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
 - META-INF/androidx.lifecycle_lifecycle-viewmodel.version
@@ -198,5 +203,5 @@ usesFramework:
   tag: null
 version: 2.8.1
 versionInfo:
-  versionCode: '268'
-  versionName: 1.8.48
+  versionCode: '272'
+  versionName: 1.8.52

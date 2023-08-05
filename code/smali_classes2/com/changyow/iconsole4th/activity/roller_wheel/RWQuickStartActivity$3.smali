@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 170
+    .line 175
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -86,7 +86,7 @@
         }
     .end annotation
 
-    .line 179
+    .line 184
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$3;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-static {v0, p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$202(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;I)I

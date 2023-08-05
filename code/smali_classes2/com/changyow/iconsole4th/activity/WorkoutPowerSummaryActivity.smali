@@ -2292,7 +2292,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
@@ -2309,7 +2309,7 @@
     .line 179
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 181
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2318,7 +2318,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
     .line 182
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2327,7 +2327,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
     .line 183
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2336,7 +2336,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
     .line 184
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2437,12 +2437,12 @@
     .line 85
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d006a
+    const p1, 0x7f0d0067
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
     .line 88
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2453,7 +2453,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d4
+    const p1, 0x7f0a03cc
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2464,7 +2464,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->rvChartPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a02c3
+    const p1, 0x7f0a02b8
 
     .line 90
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2475,7 +2475,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->listReports:Landroid/widget/ListView;
 
-    const p1, 0x7f0a0251
+    const p1, 0x7f0a024d
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2486,7 +2486,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->layoutBottomPane:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a016a
+    const p1, 0x7f0a0168
 
     .line 92
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2497,7 +2497,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->etComment:Landroid/widget/EditText;
 
-    const p1, 0x7f0a00c3
+    const p1, 0x7f0a00c2
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2508,7 +2508,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->btnRPE5:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00c2
+    const p1, 0x7f0a00c1
 
     .line 94
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2519,7 +2519,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->btnRPE4:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00c1
+    const p1, 0x7f0a00c0
 
     .line 95
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2530,7 +2530,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->btnRPE3:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00c0
+    const p1, 0x7f0a00bf
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2541,7 +2541,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->btnRPE2:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a00bf
+    const p1, 0x7f0a00be
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2552,7 +2552,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->btnRPE1:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a051a
+    const p1, 0x7f0a0521
 
     .line 98
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -2563,7 +2563,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->txvRPE:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04cd
+    const p1, 0x7f0a04c7
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/WorkoutPowerSummaryActivity;->findViewById(I)Landroid/view/View;

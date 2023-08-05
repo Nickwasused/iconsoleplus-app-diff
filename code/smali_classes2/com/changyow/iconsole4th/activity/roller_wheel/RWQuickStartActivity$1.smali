@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 91
+    .line 92
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +58,7 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 97
+    .line 98
     new-instance p1, Ljava/util/Locale;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
@@ -71,21 +71,21 @@
 
     invoke-direct {p1, v0}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    .line 98
+    .line 99
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
     invoke-virtual {v0, p1}, Landroid/speech/tts/TextToSpeech;->setLanguage(Ljava/util/Locale;)I
 
-    .line 99
+    .line 100
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     const/4 v0, 0x1
 
     iput-boolean v0, p1, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->bTTSinited:Z
 
-    .line 100
+    .line 101
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$100(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Landroid/os/Handler;

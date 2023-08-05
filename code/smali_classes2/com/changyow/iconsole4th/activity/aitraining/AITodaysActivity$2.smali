@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 188
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 202
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$2;->val$settingsDialog:Landroid/app/Dialog;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 192
+    .line 206
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$2;->val$settingsDialog:Landroid/app/Dialog;
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V

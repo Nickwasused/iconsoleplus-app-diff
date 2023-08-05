@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 159
+    .line 171
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -68,7 +68,7 @@
         }
     .end annotation
 
-    .line 173
+    .line 185
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -89,7 +89,7 @@
 
     if-nez v0, :cond_1
 
-    .line 175
+    .line 187
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {p1}, Landroid/widget/Toast;->show()V
 
-    .line 176
+    .line 188
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->finish()V

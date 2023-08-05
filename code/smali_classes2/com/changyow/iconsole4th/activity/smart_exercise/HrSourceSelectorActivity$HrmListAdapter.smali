@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    .line 270
+    .line 277
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
@@ -49,7 +49,7 @@
 .method static synthetic lambda$onBindViewHolder$0(Lchangyow/ble4th/BLEPeripheral;Landroid/view/View;)V
     .locals 0
 
-    .line 288
+    .line 295
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -62,7 +62,7 @@
 
     return-void
 
-    .line 290
+    .line 297
     :cond_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -74,14 +74,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 291
+    .line 298
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEManager;->cancelHrBeltPeripheralConnection()V
 
-    .line 292
+    .line 299
     :cond_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -97,7 +97,7 @@
 .method public getItemCount()I
     .locals 1
 
-    .line 304
+    .line 311
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->mLocalDeviceList:Ljava/util/List;
@@ -122,7 +122,7 @@
         }
     .end annotation
 
-    .line 267
+    .line 274
     check-cast p1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->onBindViewHolder(Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;I)V
@@ -143,7 +143,7 @@
         }
     .end annotation
 
-    .line 284
+    .line 291
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->mLocalDeviceList:Ljava/util/List;
@@ -160,7 +160,7 @@
 
     if-ge p2, v0, :cond_0
 
-    .line 286
+    .line 293
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity;->mLocalDeviceList:Ljava/util/List;
@@ -171,7 +171,7 @@
 
     check-cast p2, Lchangyow/ble4th/BLEPeripheral;
 
-    .line 287
+    .line 294
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter$$ExternalSyntheticLambda0;
@@ -180,7 +180,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 294
+    .line 301
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->txvName:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -189,14 +189,14 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 295
+    .line 302
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->ivCheck:Landroid/widget/ImageView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 296
+    .line 303
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -207,7 +207,7 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 297
+    .line 304
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;->ivCheck:Landroid/widget/ImageView;
 
     const/4 p2, 0x0
@@ -231,7 +231,7 @@
         }
     .end annotation
 
-    .line 267
+    .line 274
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$HrmListAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;
 
     move-result-object p1
@@ -252,7 +252,7 @@
         }
     .end annotation
 
-    .line 277
+    .line 284
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -261,7 +261,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0d00fb
+    const v0, 0x7f0d00f8
 
     const/4 v1, 0x0
 
@@ -269,7 +269,7 @@
 
     move-result-object p1
 
-    .line 278
+    .line 285
     new-instance p2, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;
 
     invoke-direct {p2, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/HrSourceSelectorActivity$ItemViewHolder;-><init>(Landroid/view/View;)V

@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 481
+    .line 489
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 485
+    .line 493
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$800(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)I
 
     move-result p1
 
-    const v0, 0x7f0a022e
+    const v0, 0x7f0a022d
 
     const/4 v1, 0x1
 
@@ -69,14 +69,14 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 486
+    .line 494
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1, v2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$802(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;I)I
 
     goto :goto_0
 
-    .line 487
+    .line 495
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -86,21 +86,21 @@
 
     if-ne p1, v2, :cond_2
 
-    .line 489
+    .line 497
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$802(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;I)I
 
-    .line 490
+    .line 498
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     const-wide/16 v3, 0x0
 
     iput-wide v3, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mLatestRequestDistance:D
 
-    .line 491
+    .line 499
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$500(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)I
@@ -109,17 +109,17 @@
 
     if-nez p1, :cond_1
 
-    .line 493
+    .line 501
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 494
+    .line 502
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 495
+    .line 503
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-object v3, v1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
@@ -154,7 +154,7 @@
 
     goto :goto_0
 
-    .line 499
+    .line 507
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -164,7 +164,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 501
+    .line 509
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
@@ -187,13 +187,13 @@
 
     goto :goto_0
 
-    .line 505
+    .line 513
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1, v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$802(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;I)I
 
-    .line 507
+    .line 515
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -203,7 +203,7 @@
 
     if-lez p1, :cond_5
 
-    .line 509
+    .line 517
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/google/android/gms/maps/GoogleMap;
@@ -212,7 +212,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 510
+    .line 518
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/google/android/gms/maps/GoogleMap;
@@ -227,7 +227,7 @@
 
     invoke-virtual {p1, v1}, Lcom/google/android/gms/maps/GoogleMap;->setMapType(I)V
 
-    .line 511
+    .line 519
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -237,7 +237,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 512
+    .line 520
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/amap/api/maps2d/AMap;
@@ -252,7 +252,7 @@
 
     invoke-virtual {p1, v1}, Lcom/amap/api/maps2d/AMap;->setMapType(I)V
 
-    .line 513
+    .line 521
     :cond_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -262,10 +262,10 @@
 
     const/4 v0, 0x4
 
-    .line 514
+    .line 522
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 515
+    .line 523
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$900(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Landroid/widget/FrameLayout;

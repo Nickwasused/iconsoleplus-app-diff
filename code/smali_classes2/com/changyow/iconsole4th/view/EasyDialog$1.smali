@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 110
+    .line 113
     iput-object p1, p0, Lcom/changyow/iconsole4th/view/EasyDialog$1;->this$0:Lcom/changyow/iconsole4th/view/EasyDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method public onGlobalLayout()V
     .locals 2
 
-    .line 115
+    .line 118
     iget-object v0, p0, Lcom/changyow/iconsole4th/view/EasyDialog$1;->this$0:Lcom/changyow/iconsole4th/view/EasyDialog;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/view/EasyDialog;->access$000(Lcom/changyow/iconsole4th/view/EasyDialog;)[I

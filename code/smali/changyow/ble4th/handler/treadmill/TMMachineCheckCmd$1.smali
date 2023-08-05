@@ -26,6 +26,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/treadmill/TMMachineCheckCmd;Lchangyow/ble4th/BLEPeripheralListener;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 39
     iput-object p1, p0, Lchangyow/ble4th/handler/treadmill/TMMachineCheckCmd$1;->this$0:Lchangyow/ble4th/handler/treadmill/TMMachineCheckCmd;

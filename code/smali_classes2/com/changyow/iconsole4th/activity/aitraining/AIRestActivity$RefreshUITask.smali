@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 457
+    .line 458
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -45,7 +45,7 @@
 
     move-object/from16 v0, p0
 
-    .line 463
+    .line 464
     :try_start_0
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
@@ -57,7 +57,7 @@
 
     const/16 v1, 0x78
 
-    .line 465
+    .line 466
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
     iget-wide v3, v2, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->calories:D
@@ -72,7 +72,7 @@
 
     iput-wide v3, v2, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->calories:D
 
-    .line 466
+    .line 467
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v5
@@ -99,7 +99,7 @@
 
     invoke-virtual/range {v5 .. v17}, Lcom/changyow/iconsole4th/FlowControl;->keepWorkoutStatus(IDIDDIDI)V
 
-    .line 467
+    .line 468
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$RefreshUITask$1;

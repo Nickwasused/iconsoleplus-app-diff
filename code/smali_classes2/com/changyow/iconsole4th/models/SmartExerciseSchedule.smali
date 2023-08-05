@@ -6,12 +6,12 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;,
-        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeDouble;,
         Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;,
-        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;,
+        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeIntDeserializer;,
+        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeDouble;,
         Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeDoubleDeserializer;,
-        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeIntDeserializer;
+        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;,
+        Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
     }
 .end annotation
 

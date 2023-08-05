@@ -26,7 +26,7 @@
         "",
         "item",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -52,7 +52,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$prepareUI$1$2$1$1;->$this_with:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
-    .line 182
+    .line 199
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;-><init>()V
 
     return-void
@@ -63,7 +63,7 @@
 .method public onOptionPicked(ILjava/lang/String;)V
     .locals 4
 
-    .line 184
+    .line 201
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$prepareUI$1$2$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->access$calcWeightByPickerIndex(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;I)D
@@ -72,7 +72,7 @@
 
     invoke-static {p2, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->access$setWeight2$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;D)V
 
-    .line 185
+    .line 202
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$prepareUI$1$2$1$1;->$this_with:Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;->piece2:Lcom/changyow/iconsole4th/databinding/LayoutEgravityTrainingDataItemBinding;
@@ -95,7 +95,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 186
+    .line 203
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$prepareUI$1$2$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->access$getWeight1$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)D

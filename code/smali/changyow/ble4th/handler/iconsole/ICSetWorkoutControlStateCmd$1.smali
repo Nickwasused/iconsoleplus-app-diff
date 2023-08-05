@@ -28,8 +28,13 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd;Lchangyow/ble4th/BLEPeripheralListener;I)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
-    .line 61
+    .line 63
     iput-object p1, p0, Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd$1;->this$0:Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd;
 
     iput-object p2, p0, Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd$1;->val$listener:Lchangyow/ble4th/BLEPeripheralListener;
@@ -46,7 +51,7 @@
 .method public run()V
     .locals 2
 
-    .line 65
+    .line 67
     iget-object v0, p0, Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd$1;->val$listener:Lchangyow/ble4th/BLEPeripheralListener;
 
     iget v1, p0, Lchangyow/ble4th/handler/iconsole/ICSetWorkoutControlStateCmd$1;->val$final_state:I

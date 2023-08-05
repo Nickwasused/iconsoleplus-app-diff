@@ -125,7 +125,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x10
+    const/16 v2, 0xe
 
     invoke-virtual {v0, v1, v2}, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->requestPermissions([Ljava/lang/String;I)V
 

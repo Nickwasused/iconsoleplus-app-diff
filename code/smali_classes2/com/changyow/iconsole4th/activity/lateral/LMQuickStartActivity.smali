@@ -211,7 +211,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
@@ -228,7 +228,7 @@
     .line 107
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 109
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -237,7 +237,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
     .line 110
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
     .line 111
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
     .line 112
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -320,12 +320,12 @@
     .line 56
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d004d
+    const p1, 0x7f0d004c
 
     .line 57
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
     .line 58
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0280
+    const p1, 0x7f0a027a
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a00bd
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -358,7 +358,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
     .line 61
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -369,7 +369,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d6
+    const p1, 0x7f0a03ce
 
     .line 62
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -380,7 +380,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a0240
+    const p1, 0x7f0a023f
 
     .line 64
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->lavLateralAnime:Lcom/airbnb/lottie/LottieAnimationView;
 
-    const p1, 0x7f0a0553
+    const p1, 0x7f0a055e
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -402,7 +402,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->txvTimeValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b7
+    const p1, 0x7f0a04ae
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->txvCadenceValue:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04b6
+    const p1, 0x7f0a04ad
 
     .line 67
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMQuickStartActivity;->findViewById(I)Landroid/view/View;

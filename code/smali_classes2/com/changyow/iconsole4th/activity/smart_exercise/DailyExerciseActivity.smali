@@ -10,12 +10,12 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;,
         Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;,
+        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$HasWorkoutDecorator;,
+        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$NoWorkoutDecorator;,
         Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$TodayDecorator;,
         Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SelectedDecorator;,
-        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$NoWorkoutDecorator;,
-        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$HasWorkoutDecorator;
+        Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;
     }
 .end annotation
 
@@ -84,10 +84,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 62
+    .line 64
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 77
+    .line 79
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
@@ -96,35 +96,35 @@
 
     const/4 v0, 0x0
 
-    .line 78
+    .line 80
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mScheduled:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;
 
-    .line 79
+    .line 81
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 80
+    .line 82
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mCompletedExecises:Ljava/util/List;
 
-    .line 81
+    .line 83
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 
-    .line 82
+    .line 84
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     const-wide/16 v0, 0x0
 
-    .line 83
+    .line 85
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSuggestMets:D
 
-    .line 417
+    .line 432
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     const-string/jumbo v1, "yyyy-MM-dd"
@@ -133,7 +133,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->sdf:Ljava/text/SimpleDateFormat;
 
-    .line 729
+    .line 744
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
@@ -146,7 +146,7 @@
 .method static synthetic access$1000(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingValue:Landroid/widget/TextView;
 
     return-object p0
@@ -155,7 +155,7 @@
 .method static synthetic access$1100(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Lorg/threeten/bp/LocalDate;)V
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->onDateSelected(Lorg/threeten/bp/LocalDate;)V
 
     return-void
@@ -164,7 +164,7 @@
 .method static synthetic access$1200(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     return-object p0
@@ -173,7 +173,7 @@
 .method static synthetic access$1300(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Ljava/util/Date;Lorg/threeten/bp/LocalDate;)Z
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->sameDay(Ljava/util/Date;Lorg/threeten/bp/LocalDate;)Z
 
     move-result p0
@@ -184,7 +184,7 @@
 .method static synthetic access$1400(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -193,7 +193,7 @@
 .method static synthetic access$1500(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroid/view/View$OnLongClickListener;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mOnLongClickListener:Landroid/view/View$OnLongClickListener;
 
     return-object p0
@@ -202,7 +202,7 @@
 .method static synthetic access$1600(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroidx/recyclerview/widget/RecyclerView;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->rvTrainingList:Landroidx/recyclerview/widget/RecyclerView;
 
     return-object p0
@@ -211,7 +211,7 @@
 .method static synthetic access$1700(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -220,7 +220,7 @@
 .method static synthetic access$1800(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -229,7 +229,7 @@
 .method static synthetic access$1900(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -238,7 +238,7 @@
 .method static synthetic access$2000(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -247,7 +247,7 @@
 .method static synthetic access$2100(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -256,7 +256,7 @@
 .method static synthetic access$2200(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -265,7 +265,7 @@
 .method static synthetic access$2300(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -274,7 +274,7 @@
 .method static synthetic access$2400(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->querySuggestionsThenSaveAsSelectedDatesSchedule()V
 
     return-void
@@ -283,7 +283,7 @@
 .method static synthetic access$2500(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -292,7 +292,7 @@
 .method static synthetic access$2600(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Lorg/threeten/bp/LocalDate;)V
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->onMonthChanged(Lorg/threeten/bp/LocalDate;)V
 
     return-void
@@ -301,7 +301,7 @@
 .method static synthetic access$2700(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Lorg/threeten/bp/LocalDate;)Ljava/util/Date;
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->toDate(Lorg/threeten/bp/LocalDate;)Ljava/util/Date;
 
     move-result-object p0
@@ -312,7 +312,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -321,7 +321,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -330,7 +330,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
     .locals 0
 
-    .line 62
+    .line 64
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->displayMetsProgress()V
 
     return-void
@@ -339,7 +339,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -348,7 +348,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -357,7 +357,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroid/os/Handler;
     .locals 0
 
-    .line 62
+    .line 64
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mHandler:Landroid/os/Handler;
 
     return-object p0
@@ -374,7 +374,7 @@
         }
     .end annotation
 
-    .line 235
+    .line 237
     new-instance p1, Landroid/app/Dialog;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -383,12 +383,12 @@
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v0, 0x7f0d00ca
+    const v0, 0x7f0d00c7
 
-    .line 236
+    .line 238
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 237
+    .line 239
     invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -401,16 +401,23 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0a0293
+    .line 240
+    invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
-    .line 239
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    const v0, 0x7f0a028c
+
+    .line 242
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a00b4
+    const v1, 0x7f0a00b3
 
-    .line 240
+    .line 243
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -419,16 +426,16 @@
 
     const v2, 0x7f0a00a4
 
-    .line 241
+    .line 244
     invoke-virtual {p1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/Button;
 
-    const v3, 0x7f0a00de
+    const v3, 0x7f0a00db
 
-    .line 242
+    .line 245
     invoke-virtual {p1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -437,65 +444,135 @@
 
     const v4, 0x7f0a00ab
 
-    .line 243
+    .line 246
     invoke-virtual {p1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/Button;
 
-    const v5, 0x7f0a00c7
+    const v5, 0x7f0a00c6
 
-    .line 244
+    .line 247
     invoke-virtual {p1, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
     check-cast v5, Landroid/widget/Button;
 
-    .line 246
+    .line 250
+    invoke-static {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 251
+    invoke-static {v2}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 252
+    invoke-static {v3}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 253
+    invoke-static {v4}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 254
+    invoke-static {v5}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 255
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    invoke-virtual {v1, v6}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 256
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    invoke-virtual {v2, v6}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 257
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    invoke-virtual {v3, v6}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 258
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    invoke-virtual {v4, v6}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 259
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    invoke-virtual {v5, v6}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 261
     new-instance v6, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda0;
 
     invoke-direct {v6, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda0;-><init>(Landroid/app/Dialog;)V
 
     invoke-virtual {v0, v6}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 248
+    .line 263
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda6;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda6;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 252
+    .line 267
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda7;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda7;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 256
+    .line 271
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda8;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda8;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v3, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 261
+    .line 276
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda9;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda9;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v4, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 267
+    .line 282
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda10;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda10;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Landroid/app/Dialog;)V
 
     invoke-virtual {v5, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 273
+    .line 288
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
     return-void
@@ -504,7 +581,7 @@
 .method private calcCompletedMets()V
     .locals 5
 
-    .line 330
+    .line 345
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MetsSettings;->getResetDateTimestamp()J
@@ -527,7 +604,7 @@
 .method private calcSuggestMets()V
     .locals 8
 
-    .line 370
+    .line 385
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -550,7 +627,7 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
-    .line 371
+    .line 386
     iget-object v4, v3, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->completed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
 
     if-eqz v4, :cond_1
@@ -565,7 +642,7 @@
 
     if-nez v4, :cond_0
 
-    .line 372
+    .line 387
     :cond_1
     iget-wide v3, v3, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->mets:D
 
@@ -573,11 +650,11 @@
 
     goto :goto_0
 
-    .line 374
+    .line 389
     :cond_2
     iput-wide v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSuggestMets:D
 
-    .line 375
+    .line 390
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingValue:Landroid/widget/TextView;
 
     invoke-static {v1, v2}, Lcom/changyow/iconsole4th/util/UnitUtil;->floatString1f(D)Ljava/lang/String;
@@ -592,7 +669,7 @@
 .method private displayMetsProgress()V
     .locals 2
 
-    .line 322
+    .line 337
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -603,7 +680,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 323
+    .line 338
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingUnit:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -614,10 +691,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 324
+    .line 339
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calcCompletedMets()V
 
-    .line 325
+    .line 340
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calcSuggestMets()V
 
     return-void
@@ -626,17 +703,17 @@
 .method private initCalendar()V
     .locals 4
 
-    .line 164
+    .line 166
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     invoke-virtual {v0, p0}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setOnDateChangedListener(Lcom/prolificinteractive/materialcalendarview/OnDateSelectedListener;)V
 
-    .line 165
+    .line 167
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     invoke-virtual {v0, p0}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setOnMonthChangedListener(Lcom/prolificinteractive/materialcalendarview/OnMonthChangedListener;)V
 
-    .line 166
+    .line 168
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$HasWorkoutDecorator;
@@ -647,7 +724,7 @@
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->addDecorator(Lcom/prolificinteractive/materialcalendarview/DayViewDecorator;)V
 
-    .line 167
+    .line 169
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$NoWorkoutDecorator;
@@ -656,7 +733,7 @@
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->addDecorator(Lcom/prolificinteractive/materialcalendarview/DayViewDecorator;)V
 
-    .line 168
+    .line 170
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$TodayDecorator;
@@ -665,7 +742,7 @@
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->addDecorator(Lcom/prolificinteractive/materialcalendarview/DayViewDecorator;)V
 
-    .line 169
+    .line 171
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SelectedDecorator;
@@ -674,7 +751,7 @@
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->addDecorator(Lcom/prolificinteractive/materialcalendarview/DayViewDecorator;)V
 
-    .line 171
+    .line 173
     invoke-static {}, Lcom/prolificinteractive/materialcalendarview/CalendarDay;->today()Lcom/prolificinteractive/materialcalendarview/CalendarDay;
 
     move-result-object v0
@@ -685,22 +762,22 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 
-    .line 172
+    .line 174
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     invoke-virtual {v1, v0}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setSelectedDate(Lorg/threeten/bp/LocalDate;)V
 
-    .line 173
+    .line 175
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->onMonthChanged(Lorg/threeten/bp/LocalDate;)V
 
-    .line 174
+    .line 176
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->onDateSelected(Lorg/threeten/bp/LocalDate;)V
 
-    .line 175
+    .line 177
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda1;
@@ -711,7 +788,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 180
+    .line 182
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     const/4 v1, 0x3
@@ -732,7 +809,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 181
+    .line 183
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda3;
@@ -747,7 +824,7 @@
 .method private initMetsTarget()V
     .locals 2
 
-    .line 194
+    .line 196
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -764,14 +841,14 @@
 .method private initRecylerView()V
     .locals 3
 
-    .line 188
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->rvTrainingList:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mListAdapter:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 189
+    .line 191
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->rvTrainingList:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance v1, Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -788,9 +865,9 @@
 .method private initView()V
     .locals 1
 
-    const v0, 0x7f0a0255
+    const v0, 0x7f0a0251
 
-    .line 115
+    .line 117
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -799,9 +876,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->layoutCalendar:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0a0529
+    const v0, 0x7f0a0530
 
-    .line 116
+    .line 118
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -810,9 +887,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00ec
+    const v0, 0x7f0a00e9
 
-    .line 117
+    .line 119
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -821,9 +898,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
-    const v0, 0x7f0a02a9
+    const v0, 0x7f0a02a2
 
-    .line 118
+    .line 120
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -832,29 +909,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->layoutWorkoutTargets:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a04bf
-
-    .line 119
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingTitle:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04c1
-
-    .line 120
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingValue:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04c0
+    const v0, 0x7f0a04b7
 
     .line 121
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -863,9 +918,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingUnit:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a053d
+    const v0, 0x7f0a04b9
 
     .line 122
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -874,9 +929,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingTitle:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a053f
+    const v0, 0x7f0a04b8
 
     .line 123
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -885,9 +940,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingValue:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvCompletedTrainingUnit:Landroid/widget/TextView;
 
-    const v0, 0x7f0a053e
+    const v0, 0x7f0a0548
 
     .line 124
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -896,9 +951,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingUnit:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04bc
+    const v0, 0x7f0a054a
 
     .line 125
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -907,11 +962,33 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvClickToAddSuggestedTraining:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingValue:Landroid/widget/TextView;
 
-    const v0, 0x7f0a03de
+    const v0, 0x7f0a0549
 
     .line 126
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSuggestedTrainingUnit:Landroid/widget/TextView;
+
+    const v0, 0x7f0a04b3
+
+    .line 127
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvClickToAddSuggestedTraining:Landroid/widget/TextView;
+
+    const v0, 0x7f0a03d6
+
+    .line 128
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -920,13 +997,13 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->rvTrainingList:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 128
+    .line 130
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->initCalendar()V
 
-    .line 129
+    .line 131
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->initRecylerView()V
 
-    .line 130
+    .line 132
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->initMetsTarget()V
 
     return-void
@@ -935,7 +1012,7 @@
 .method static synthetic lambda$btnSettingsClicked$4(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
-    .line 246
+    .line 261
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     return-void
@@ -967,13 +1044,13 @@
     :cond_2
     const/4 p0, 0x0
 
-    .line 308
+    .line 323
     :goto_0
     invoke-static {p0}, Lcom/changyow/iconsole4th/def/Vo2MaxTable;->getVo2Max(I)D
 
     move-result-wide p0
 
-    .line 309
+    .line 324
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p2
@@ -982,21 +1059,21 @@
 
     invoke-virtual {p2, p0}, Lcom/changyow/iconsole4th/db/UserProfile;->setVo2max_cooper(F)V
 
-    .line 310
+    .line 325
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p0
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 311
+    .line 326
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p0
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/FlowControl;->uploadUserProfile()V
 
-    .line 312
+    .line 327
     invoke-virtual {p3}, Landroid/app/Dialog;->dismiss()V
 
     return-void
@@ -1013,17 +1090,17 @@
         }
     .end annotation
 
-    .line 421
+    .line 436
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     invoke-virtual {v0}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->invalidateDecorators()V
 
-    .line 423
+    .line 438
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
-    .line 425
+    .line 440
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->sdf:Ljava/text/SimpleDateFormat;
 
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->toDate(Lorg/threeten/bp/LocalDate;)Ljava/util/Date;
@@ -1034,7 +1111,7 @@
 
     move-result-object p1
 
-    .line 426
+    .line 441
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mScheduled:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;
 
     if-eqz v0, :cond_1
@@ -1043,7 +1120,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 427
+    .line 442
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mScheduled:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule;->schedule:Ljava/util/List;
@@ -1066,7 +1143,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
-    .line 428
+    .line 443
     iget-object v2, v1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->date_time:Ljava/lang/String;
 
     invoke-virtual {v2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -1075,18 +1152,18 @@
 
     if-eqz v2, :cond_0
 
-    .line 429
+    .line 444
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 431
+    .line 446
     :cond_1
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calcSuggestMets()V
 
-    .line 432
+    .line 447
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mListAdapter:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->notifyDataSetChanged()V
@@ -1105,7 +1182,7 @@
         }
     .end annotation
 
-    .line 444
+    .line 459
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->queryScheduledExercises(Lorg/threeten/bp/LocalDate;)V
 
     return-void
@@ -1126,7 +1203,7 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 449
+    .line 464
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getYear()I
 
     move-result v2
@@ -1165,7 +1242,7 @@
 
     move-result-object v1
 
-    .line 450
+    .line 465
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getYear()I
 
     move-result v6
@@ -1178,14 +1255,14 @@
 
     move-result-object v6
 
-    .line 451
+    .line 466
     invoke-virtual {v6}, Lorg/threeten/bp/YearMonth;->lengthOfMonth()I
 
     move-result v6
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 452
+    .line 467
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getYear()I
 
     move-result v7
@@ -1216,7 +1293,7 @@
 
     move-result-object v0
 
-    .line 454
+    .line 469
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$3;
 
     invoke-direct {v2, p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;Lorg/threeten/bp/LocalDate;)V
@@ -1229,7 +1306,7 @@
 .method private querySuggestionsThenSaveAsSelectedDatesSchedule()V
     .locals 1
 
-    .line 771
+    .line 786
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
@@ -1252,17 +1329,17 @@
         }
     .end annotation
 
-    .line 559
+    .line 574
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 560
+    .line 575
     invoke-virtual {v0, p1}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
 
     const/4 p1, 0x1
 
-    .line 562
+    .line 577
     invoke-virtual {v0, p1}, Ljava/util/Calendar;->get(I)I
 
     move-result v1
@@ -1275,7 +1352,7 @@
 
     const/4 v1, 0x2
 
-    .line 563
+    .line 578
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
 
     move-result v1
@@ -1290,7 +1367,7 @@
 
     const/4 v1, 0x5
 
-    .line 564
+    .line 579
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
 
     move-result v0
@@ -1312,71 +1389,71 @@
 .method private setupInitActionbar()V
     .locals 6
 
-    .line 135
+    .line 137
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 136
+    .line 138
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 137
+    .line 139
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 139
+    .line 141
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
-    .line 140
+    .line 142
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    .line 142
+    .line 144
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v3, 0x1
 
-    .line 143
+    .line 145
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 145
+    .line 147
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
-    .line 146
+    .line 148
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
-    .line 147
+    .line 149
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
-    .line 148
+    .line 150
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -1385,33 +1462,33 @@
 
     const-string v5, "Exercise Courses"
 
-    .line 150
+    .line 152
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 151
+    .line 153
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v0, 0x7f080199
 
-    .line 152
+    .line 154
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 153
+    .line 155
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda4;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
 
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 155
+    .line 157
     invoke-virtual {v4, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v0, 0x7f08006b
 
-    .line 156
+    .line 158
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 157
+    .line 159
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda5;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda5;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)V
@@ -1420,7 +1497,7 @@
 
     const/4 v0, 0x4
 
-    .line 159
+    .line 161
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -1429,7 +1506,7 @@
 .method private showRestHrTest()V
     .locals 3
 
-    .line 278
+    .line 293
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1438,12 +1515,12 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 279
+    .line 294
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 280
+    .line 295
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->finish()V
 
     return-void
@@ -1452,90 +1529,90 @@
 .method private showVo2MaxSettingDialog()V
     .locals 7
 
-    .line 285
+    .line 300
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
 
-    const v1, 0x7f0d00c9
+    const v1, 0x7f0d00c6
 
     const/4 v2, 0x0
 
-    .line 286
+    .line 301
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a049f
+    const v1, 0x7f0a0498
 
-    .line 287
+    .line 302
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a04a4
+    const v2, 0x7f0a049b
 
-    .line 288
+    .line 303
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a04a9
+    const v3, 0x7f0a049e
 
-    .line 289
+    .line 304
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a04aa
+    const v4, 0x7f0a049f
 
-    .line 290
+    .line 305
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/TextView;
 
-    .line 292
+    .line 307
     new-instance v5, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-direct {v5, v6}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 293
+    .line 308
     invoke-virtual {v5, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const v5, 0x7f12045d
 
-    .line 294
+    .line 309
     invoke-virtual {v0, v5}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const/4 v5, 0x0
 
-    .line 295
+    .line 310
     invoke-virtual {v0, v5}, Landroidx/appcompat/app/AlertDialog$Builder;->setCancelable(Z)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 296
+    .line 311
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 298
+    .line 313
     invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v5
@@ -1544,21 +1621,21 @@
 
     invoke-virtual {v5, v6}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
-    .line 300
+    .line 315
     new-instance v5, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {v5, v2, v3, v4, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$$ExternalSyntheticLambda2;-><init>(Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/app/Dialog;)V
 
-    .line 314
+    .line 329
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 315
+    .line 330
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 316
+    .line 331
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 317
+    .line 332
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
@@ -1575,12 +1652,12 @@
         }
     .end annotation
 
-    .line 545
+    .line 560
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 546
+    .line 561
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getYear()I
 
     move-result v1
@@ -1589,7 +1666,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/Calendar;->set(II)V
 
-    .line 547
+    .line 562
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getMonthValue()I
 
     move-result v1
@@ -1600,7 +1677,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/Calendar;->set(II)V
 
-    .line 548
+    .line 563
     invoke-virtual {p1}, Lorg/threeten/bp/LocalDate;->getDayOfMonth()I
 
     move-result p1
@@ -1613,25 +1690,25 @@
 
     const/4 v1, 0x0
 
-    .line 549
+    .line 564
     invoke-virtual {v0, p1, v1}, Ljava/util/Calendar;->set(II)V
 
     const/16 p1, 0xc
 
-    .line 550
+    .line 565
     invoke-virtual {v0, p1, v1}, Ljava/util/Calendar;->set(II)V
 
     const/16 p1, 0xd
 
-    .line 551
+    .line 566
     invoke-virtual {v0, p1, v1}, Ljava/util/Calendar;->set(II)V
 
     const/16 p1, 0xe
 
-    .line 552
+    .line 567
     invoke-virtual {v0, p1, v1}, Ljava/util/Calendar;->set(II)V
 
-    .line 554
+    .line 569
     invoke-virtual {v0}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
 
     move-result-object p1
@@ -1642,7 +1719,7 @@
 .method private toogleCalendar()V
     .locals 3
 
-    .line 380
+    .line 395
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getVisibility()I
@@ -1653,12 +1730,12 @@
 
     if-nez v0, :cond_0
 
-    .line 382
+    .line 397
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setVisibility(I)V
 
-    .line 383
+    .line 398
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     const/4 v1, 0x4
@@ -1667,7 +1744,7 @@
 
     goto :goto_0
 
-    .line 395
+    .line 410
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
@@ -1675,7 +1752,7 @@
 
     invoke-virtual {v0, v2}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setVisibility(I)V
 
-    .line 396
+    .line 411
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
@@ -1689,10 +1766,10 @@
 .method synthetic lambda$btnSettingsClicked$5$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 1
 
-    .line 249
+    .line 264
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 250
+    .line 265
     new-instance p1, Landroid/content/Intent;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1709,10 +1786,10 @@
 .method synthetic lambda$btnSettingsClicked$6$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 1
 
-    .line 253
+    .line 268
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 254
+    .line 269
     new-instance p1, Landroid/content/Intent;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1729,10 +1806,10 @@
 .method synthetic lambda$btnSettingsClicked$7$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
-    .line 257
+    .line 272
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 259
+    .line 274
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->showVo2MaxSettingDialog()V
 
     return-void
@@ -1741,10 +1818,10 @@
 .method synthetic lambda$btnSettingsClicked$8$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 1
 
-    .line 262
+    .line 277
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 264
+    .line 279
     new-instance p1, Landroid/content/Intent;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1753,7 +1830,7 @@
 
     invoke-direct {p1, p2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 265
+    .line 280
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1762,10 +1839,10 @@
 .method synthetic lambda$btnSettingsClicked$9$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
-    .line 268
+    .line 283
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 270
+    .line 285
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->showRestHrTest()V
 
     return-void
@@ -1774,14 +1851,14 @@
 .method synthetic lambda$initCalendar$2$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity()V
     .locals 2
 
-    .line 176
+    .line 178
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->calendarView:Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Lcom/prolificinteractive/materialcalendarview/MaterialCalendarView;->setVisibility(I)V
 
-    .line 177
+    .line 179
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     const/4 v1, 0x0
@@ -1794,7 +1871,7 @@
 .method synthetic lambda$initCalendar$3$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 182
+    .line 184
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->toogleCalendar()V
 
     return-void
@@ -1803,7 +1880,7 @@
 .method synthetic lambda$setupInitActionbar$0$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 153
+    .line 155
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->finish()V
 
     return-void
@@ -1812,7 +1889,7 @@
 .method synthetic lambda$setupInitActionbar$1$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 157
+    .line 159
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->btnSettingsClicked(Landroid/view/View;)V
 
     return-void
@@ -1829,18 +1906,18 @@
         }
     .end annotation
 
-    .line 88
+    .line 90
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0034
 
-    .line 89
+    .line 91
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->setContentView(I)V
 
-    .line 90
+    .line 92
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->initView()V
 
-    .line 92
+    .line 94
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->setupInitActionbar()V
 
     return-void
@@ -1861,21 +1938,21 @@
         }
     .end annotation
 
-    .line 411
+    .line 426
     invoke-virtual {p2}, Lcom/prolificinteractive/materialcalendarview/CalendarDay;->getDate()Lorg/threeten/bp/LocalDate;
 
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->onDateSelected(Lorg/threeten/bp/LocalDate;)V
 
-    .line 412
+    .line 427
     invoke-virtual {p2}, Lcom/prolificinteractive/materialcalendarview/CalendarDay;->getDate()Lorg/threeten/bp/LocalDate;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 
-    .line 413
+    .line 428
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->txvSelectedDate:Landroid/widget/TextView;
 
     const/4 p2, 0x3
@@ -1896,7 +1973,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 414
+    .line 429
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->toogleCalendar()V
 
     return-void
@@ -1915,7 +1992,7 @@
         }
     .end annotation
 
-    .line 439
+    .line 454
     invoke-virtual {p2}, Lcom/prolificinteractive/materialcalendarview/CalendarDay;->getDate()Lorg/threeten/bp/LocalDate;
 
     move-result-object p1
@@ -1928,10 +2005,10 @@
 .method public onResume()V
     .locals 2
 
-    .line 98
+    .line 100
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onResume()V
 
-    .line 99
+    .line 101
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -1942,12 +2019,12 @@
 
     if-nez v0, :cond_0
 
-    .line 101
+    .line 103
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->showRestHrTest()V
 
     goto :goto_0
 
-    .line 103
+    .line 105
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
@@ -1963,16 +2040,16 @@
 
     if-nez v0, :cond_1
 
-    .line 105
+    .line 107
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->showVo2MaxSettingDialog()V
 
     goto :goto_0
 
-    .line 108
+    .line 110
     :cond_1
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->initMetsTarget()V
 
-    .line 110
+    .line 112
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mSelectedDate:Lorg/threeten/bp/LocalDate;
 

@@ -6,27 +6,17 @@
 .implements Landroid/content/DialogInterface$OnClickListener;
 
 
-# static fields
-.field public static final synthetic INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;
+# instance fields
+.field public final synthetic f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;
-
-    invoke-direct {v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;-><init>()V
-
-    sput-object v0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;->f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
 
     return-void
 .end method
@@ -34,9 +24,11 @@
 
 # virtual methods
 .method public final onClick(Landroid/content/DialogInterface;I)V
-    .locals 0
+    .locals 1
 
-    invoke-static {p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showDeniedForLocation$11(Landroid/content/DialogInterface;I)V
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;->f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
+
+    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showNeverAskAgainForLocation$15$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

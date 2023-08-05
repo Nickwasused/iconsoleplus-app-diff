@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->lambda$onCreate$0(Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;Ljava/lang/String;)V
+    value = Lcom/changyow/iconsole4th/activity/WorkoutSummaryActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

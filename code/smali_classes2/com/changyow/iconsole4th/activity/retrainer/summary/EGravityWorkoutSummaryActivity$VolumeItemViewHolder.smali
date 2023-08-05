@@ -28,7 +28,7 @@
         "()Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;",
         "setBinding",
         "(Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;)V",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -61,7 +61,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 346
+    .line 367
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$VolumeItemViewHolder;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;->getRoot()Landroid/widget/RelativeLayout;
@@ -72,7 +72,7 @@
 
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 350
+    .line 371
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$VolumeItemViewHolder;->binding:Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;
 
     return-void
@@ -83,7 +83,7 @@
 .method public final getBinding()Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;
     .locals 1
 
-    .line 347
+    .line 368
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$VolumeItemViewHolder;->binding:Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;
 
     return-object v0
@@ -96,7 +96,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 347
+    .line 368
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$VolumeItemViewHolder;->binding:Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorktouSummaryTrainingVolumeListItemBinding;
 
     return-void

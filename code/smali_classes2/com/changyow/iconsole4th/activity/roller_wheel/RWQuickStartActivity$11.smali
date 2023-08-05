@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 538
+    .line 544
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -126,7 +126,7 @@
 
     move/from16 v12, p2
 
-    .line 559
+    .line 565
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -135,7 +135,7 @@
 
     move-result v22
 
-    .line 560
+    .line 566
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     move/from16 v2, p1
@@ -158,7 +158,7 @@
 
     invoke-virtual/range {v1 .. v11}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->updateData(IIIDIIIII)V
 
-    .line 561
+    .line 567
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v13
@@ -185,7 +185,7 @@
 
     invoke-virtual/range {v13 .. v25}, Lcom/changyow/iconsole4th/FlowControl;->keepWorkoutStatus(IDIDDIDI)V
 
-    .line 562
+    .line 568
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$700(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Lcom/changyow/iconsole4th/db/ActivityRecord;
@@ -198,14 +198,14 @@
 
     invoke-virtual {v1, v2}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setCycles(Ljava/lang/Integer;)V
 
-    .line 564
+    .line 570
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     move/from16 v2, p1
 
     invoke-static {v1, v2, v12}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$800(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;II)V
 
-    .line 565
+    .line 571
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$900(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)V

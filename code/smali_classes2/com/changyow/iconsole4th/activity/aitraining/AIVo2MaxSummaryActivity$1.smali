@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 57
+    .line 60
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 61
+    .line 64
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;
 
     iget-boolean p1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->bFinished:Z
 
     if-eqz p1, :cond_0
 
-    .line 63
+    .line 66
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -70,21 +70,21 @@
 
     invoke-virtual {p1, v0}, Lcom/changyow/iconsole4th/db/UserProfile;->setVo2max_cooper(F)V
 
-    .line 64
+    .line 67
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 65
+    .line 68
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->uploadUserProfile()V
 
-    .line 67
+    .line 70
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;
 

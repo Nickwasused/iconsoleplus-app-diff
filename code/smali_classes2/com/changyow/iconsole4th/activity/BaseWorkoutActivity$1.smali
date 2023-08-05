@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 166
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 168
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->val$txvTitle:Landroid/widget/TextView;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 175
+    .line 177
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iget v0, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdown:I
@@ -71,19 +77,19 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdown:I
 
-    .line 176
+    .line 178
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdownDialog:Landroid/app/Dialog;
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 177
+    .line 179
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iput-boolean v1, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->bCountdownFinished:Z
 
-    .line 180
+    .line 182
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -112,7 +118,7 @@
         }
     .end annotation
 
-    .line 190
+    .line 192
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iget v0, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdown:I
@@ -123,7 +129,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mCountdown:I
 
-    .line 191
+    .line 193
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$1;->val$txvTitle:Landroid/widget/TextView;
 
     new-array v0, v1, [Ljava/lang/Object;

@@ -3,12 +3,12 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="horizontal" android:id="@id/layoutHrPanel" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="54.0dip">
         <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/icon_workout_data_heart_rate_wh" android:layout_marginStart="20.0dip" />
+            <ImageView android:id="@id/ivHrIcon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/icon_workout_data_heart_rate_wh" android:layout_marginStart="20.0dip" />
             <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/txvHr" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:includeFontPadding="false" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="36.0dip" />
-            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="32.0dip" android:includeFontPadding="false" android:layout_alignBottom="@id/txvHr" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvHr" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="bottom" android:id="@id/txvHrUnit" android:layout_width="fill_parent" android:layout_height="32.0dip" android:includeFontPadding="false" android:layout_alignBottom="@id/txvHr" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvHr" />
         </RelativeLayout>
         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="40.0dip">
-            <TextView android:textSize="13.5sp" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strHrZone" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="13.5sp" android:textStyle="normal" android:textColor="@color/white" android:id="@id/txvHrZoneTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strHrZone" android:fontFamily="@font/ff_dinpro_regular" />
             <TextView android:textSize="18.799988sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/txvHrZone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
         </LinearLayout>
     </LinearLayout>

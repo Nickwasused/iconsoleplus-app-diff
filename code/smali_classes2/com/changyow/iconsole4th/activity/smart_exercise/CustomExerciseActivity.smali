@@ -39,7 +39,7 @@
 .method private initView()V
     .locals 2
 
-    const v0, 0x7f0a02a3
+    const v0, 0x7f0a029c
 
     .line 83
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->layoutTop:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a0276
+    const v0, 0x7f0a0271
 
     .line 84
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->layoutGraph1:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a0277
+    const v0, 0x7f0a0272
 
     .line 85
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->layoutGraph2:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a0278
+    const v0, 0x7f0a0273
 
     .line 86
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0a059d
+    const v0, 0x7f0a05a9
 
     .line 90
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->vIncline1:Landroid/view/View;
 
-    const v0, 0x7f0a059e
+    const v0, 0x7f0a05aa
 
     .line 91
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->vIncline2:Landroid/view/View;
 
-    const v0, 0x7f0a059f
+    const v0, 0x7f0a05ab
 
     .line 92
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseActivity;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
@@ -239,7 +239,7 @@
     .line 58
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 60
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
     .line 61
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -257,7 +257,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
     .line 62
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
     .line 63
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

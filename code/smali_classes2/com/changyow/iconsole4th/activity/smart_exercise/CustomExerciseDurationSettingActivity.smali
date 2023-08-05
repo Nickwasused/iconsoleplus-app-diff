@@ -17,12 +17,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 22
+    .line 23
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 28
+    .line 29
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->mSchedule:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
     return-void
@@ -31,7 +31,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 22
+    .line 23
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->txvDurationMinutes:Landroid/widget/TextView;
 
     return-object p0
@@ -40,9 +40,9 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 82
+    .line 89
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -51,9 +51,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->txvTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04d2
+    const v0, 0x7f0a04cd
 
-    .line 83
+    .line 90
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -64,7 +64,7 @@
 
     const v0, 0x7f0a00a1
 
-    .line 84
+    .line 91
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->btnDone:Landroid/widget/Button;
 
-    .line 86
+    .line 93
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->mSchedule:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
     iget v0, v0, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->time_seconds:I
@@ -86,7 +86,7 @@
 
     const/4 v0, 0x0
 
-    .line 91
+    .line 98
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->txvDurationMinutes:Landroid/widget/TextView;
 
@@ -102,7 +102,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 92
+    .line 99
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->txvDurationMinutes:Landroid/widget/TextView;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$$ExternalSyntheticLambda2;
@@ -111,7 +111,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 102
+    .line 109
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->btnDone:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$$ExternalSyntheticLambda0;
@@ -126,71 +126,71 @@
 .method private setupInitActionbar()V
     .locals 6
 
-    .line 49
+    .line 56
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 50
+    .line 57
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 51
+    .line 58
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 53
+    .line 60
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
-    .line 54
+    .line 61
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    .line 56
+    .line 63
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v3, 0x1
 
-    .line 57
+    .line 64
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 59
+    .line 66
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
-    .line 60
+    .line 67
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
-    .line 61
+    .line 68
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
-    .line 62
+    .line 69
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -199,18 +199,18 @@
 
     const v5, 0x7f12027c
 
-    .line 64
+    .line 71
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    .line 65
+    .line 72
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v0, 0x7f08018a
 
-    .line 66
+    .line 73
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 67
+    .line 74
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$$ExternalSyntheticLambda1;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;)V
@@ -219,10 +219,10 @@
 
     const/4 v0, 0x4
 
-    .line 69
+    .line 76
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 70
+    .line 77
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -231,7 +231,7 @@
 .method private uploadChanges()V
     .locals 2
 
-    .line 110
+    .line 117
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->mSchedule:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->getAsEdited()Lcom/changyow/iconsole4th/models/SmartExerciseEdited;
@@ -253,10 +253,24 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 50
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 51
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->btnDone:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method synthetic lambda$initView$1$com-changyow-iconsole4th-activity-smart_exercise-CustomExerciseDurationSettingActivity(ILandroid/view/View;)V
     .locals 8
 
-    .line 92
+    .line 99
     new-instance v7, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$1;
 
     invoke-direct {v7, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;)V
@@ -283,10 +297,10 @@
 .method synthetic lambda$initView$2$com-changyow-iconsole4th-activity-smart_exercise-CustomExerciseDurationSettingActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 103
+    .line 110
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->uploadChanges()V
 
-    .line 104
+    .line 111
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->finish()V
 
     return-void
@@ -295,7 +309,7 @@
 .method synthetic lambda$setupInitActionbar$0$com-changyow-iconsole4th-activity-smart_exercise-CustomExerciseDurationSettingActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 67
+    .line 74
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->onBackPressed()V
 
     return-void
@@ -304,7 +318,7 @@
 .method public onBackPressed()V
     .locals 4
 
-    .line 76
+    .line 83
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     new-instance v1, Landroid/content/Intent;
@@ -325,7 +339,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 77
+    .line 84
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onBackPressed()V
 
     return-void
@@ -342,15 +356,15 @@
         }
     .end annotation
 
-    .line 33
+    .line 34
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0032
 
-    .line 34
+    .line 35
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->setContentView(I)V
 
-    .line 36
+    .line 37
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -367,16 +381,16 @@
 
     if-nez p1, :cond_0
 
-    .line 39
+    .line 40
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->finish()V
 
     return-void
 
-    .line 43
+    .line 44
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->setupInitActionbar()V
 
-    .line 44
+    .line 45
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->initView()V
 
     return-void

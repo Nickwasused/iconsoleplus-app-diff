@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 108
+    .line 109
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 156
+    .line 157
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$100(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/ListView;
@@ -62,7 +62,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ListView;->setVisibility(I)V
 
-    .line 157
+    .line 158
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$200(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/TextView;
@@ -71,7 +71,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 158
+    .line 159
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$300(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/TextView;
@@ -82,7 +82,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 159
+    .line 160
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$400(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/Button;
@@ -91,7 +91,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 160
+    .line 161
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -114,7 +114,7 @@
         }
     .end annotation
 
-    .line 112
+    .line 113
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
@@ -123,7 +123,7 @@
 
     iput-object v1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->strJsonAIworkout:Ljava/lang/String;
 
-    .line 114
+    .line 115
     invoke-static {}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$000()Lcom/google/gson/Gson;
 
     move-result-object v0
@@ -136,12 +136,12 @@
 
     check-cast p1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
-    .line 115
+    .line 116
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     iput-object p1, v0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->aiWorkoutGroup:Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
-    .line 117
+    .line 118
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$100(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/ListView;
@@ -152,7 +152,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setVisibility(I)V
 
-    .line 118
+    .line 119
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$200(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/TextView;
@@ -161,7 +161,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 119
+    .line 120
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$300(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/TextView;
@@ -172,7 +172,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 120
+    .line 121
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$400(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/Button;
@@ -181,7 +181,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 122
+    .line 123
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$200(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/TextView;
@@ -224,7 +224,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 124
+    .line 125
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBDatabase;->instance()Lcom/changyow/iconsole4th/db/RDBDatabase;
 
     move-result-object v0
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    .line 127
+    .line 128
     iget-object v2, p1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup;->ai_workouts:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -260,14 +260,14 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
-    .line 129
+    .line 130
     iget v4, v3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->status:I
 
     const/4 v6, 0x1
 
     if-nez v4, :cond_2
 
-    .line 131
+    .line 132
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -286,7 +286,7 @@
 
     check-cast v7, Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 133
+    .line 134
     invoke-virtual {v7}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getWgOrder()Ljava/lang/Integer;
 
     move-result-object v8
@@ -327,10 +327,10 @@
 
     const/4 v8, 0x2
 
-    .line 135
+    .line 136
     iput v8, v3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->status:I
 
-    .line 136
+    .line 137
     invoke-virtual {v7}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getDuration()Ljava/lang/Integer;
 
     move-result-object v7
@@ -343,12 +343,12 @@
 
     if-lt v7, v8, :cond_1
 
-    .line 137
+    .line 138
     iput v6, v3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->status:I
 
     goto :goto_1
 
-    .line 143
+    .line 144
     :cond_2
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
@@ -358,7 +358,7 @@
 
     invoke-virtual {v4, v1}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 144
+    .line 145
     iget v4, v3, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->status:I
 
     if-nez v4, :cond_0
@@ -371,7 +371,7 @@
 
     if-eq v3, v5, :cond_0
 
-    .line 145
+    .line 146
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-static {v3}, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->access$600(Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;)Landroid/widget/Button;
@@ -382,7 +382,7 @@
 
     goto :goto_0
 
-    .line 148
+    .line 149
     :cond_3
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
@@ -392,14 +392,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/adapter/aitraining/AITodaySchduledListAdapter;->setSchedule(Ljava/util/List;)V
 
-    .line 149
+    .line 150
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;->mAdapter:Lcom/changyow/iconsole4th/adapter/aitraining/AITodaySchduledListAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AITodaySchduledListAdapter;->notifyDataSetChanged()V
 
-    .line 150
+    .line 151
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0

@@ -36,7 +36,7 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-static {p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showDenyForBluetooth$10(Landroid/content/DialogInterface;I)V
+    invoke-static {p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$rlRoutePressed$11(Landroid/content/DialogInterface;I)V
 
     return-void
 .end method

@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$10\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,557:1\n1#2:558\n*E\n"
+    value = "SMAP\nEGravityProfileEditActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityProfileEditActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$10\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,567:1\n1#2:568\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "hasFocus",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -49,7 +49,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 221
+    .line 223
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,18 +60,18 @@
 .method public onFocusChange(Landroid/view/View;Z)V
     .locals 8
 
-    .line 223
+    .line 225
     instance-of v0, p1, Landroid/widget/EditText;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 225
+    .line 227
     :cond_0
     check-cast p1, Landroid/widget/EditText;
 
-    .line 226
+    .line 228
     invoke-virtual {p1}, Landroid/widget/EditText;->getTag()Ljava/lang/Object;
 
     move-result-object v0
@@ -90,7 +90,7 @@
 
     const/16 p2, 0xa
 
-    .line 231
+    .line 233
     :try_start_0
     invoke-virtual {p1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -119,7 +119,7 @@
 
     if-le p2, v2, :cond_3
 
-    .line 235
+    .line 237
     :cond_2
     sget-object v5, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
@@ -158,10 +158,10 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 237
+    .line 239
     invoke-virtual {v0, p2}, Lcom/changyow/iconsole4th/activity/retrainer/TrainingSet;->setReps(I)V
 
-    .line 238
+    .line 240
     sget-object p2, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
 
     new-array p2, v4, [Ljava/lang/Object;

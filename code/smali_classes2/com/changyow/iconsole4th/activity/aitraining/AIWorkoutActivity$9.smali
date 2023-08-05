@@ -41,7 +41,13 @@
         }
     .end annotation
 
-    .line 614
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 626
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$txvRPEDesc:Landroid/widget/TextView;
@@ -72,12 +78,12 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 618
+    .line 630
     invoke-static {p2}, Lcom/changyow/iconsole4th/def/Const$RPE;->getRPEDesc(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 619
+    .line 631
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$txvRPEDesc:Landroid/widget/TextView;
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -96,7 +102,7 @@
         }
     .end annotation
 
-    .line 625
+    .line 637
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$txvRPEDesc:Landroid/widget/TextView;
 
     const v0, 0x7f12035b
@@ -117,26 +123,26 @@
         }
     .end annotation
 
-    .line 631
+    .line 643
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$lavCheck:Lcom/airbnb/lottie/LottieAnimationView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->loop(Z)V
 
-    .line 632
+    .line 644
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$lavCheck:Lcom/airbnb/lottie/LottieAnimationView;
 
     const-string v1, "ai_training_rest_animation_checkmark.json"
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 633
+    .line 645
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->val$lavCheck:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/LottieAnimationView;->playAnimation()V
 
-    .line 634
+    .line 646
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$700(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)Lcom/changyow/iconsole4th/db/ActivityRecord;
@@ -155,7 +161,7 @@
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setRpe(Ljava/lang/Integer;)V
 
-    .line 636
+    .line 648
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;->access$800(Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;)V

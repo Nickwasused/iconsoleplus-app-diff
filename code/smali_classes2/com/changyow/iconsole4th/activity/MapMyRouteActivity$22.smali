@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 933
+    .line 942
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 937
+    .line 946
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-boolean v0, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
@@ -65,7 +65,7 @@
 
     return v1
 
-    .line 939
+    .line 948
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -85,10 +85,10 @@
 
     if-gt v0, v2, :cond_1
 
-    .line 942
+    .line 951
     invoke-virtual {p1}, Lcom/amap/api/maps2d/model/Marker;->remove()V
 
-    .line 943
+    .line 952
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Ljava/util/ArrayList;
@@ -97,7 +97,7 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 944
+    .line 953
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$22;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$1400(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V

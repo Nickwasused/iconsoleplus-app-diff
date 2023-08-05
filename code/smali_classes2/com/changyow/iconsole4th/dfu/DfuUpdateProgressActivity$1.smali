@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 147
+    .line 150
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$1;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 151
+    .line 154
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$1;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->onCancelUpload()V

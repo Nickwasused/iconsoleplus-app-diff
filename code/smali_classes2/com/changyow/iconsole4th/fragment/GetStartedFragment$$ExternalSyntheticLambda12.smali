@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda12;->f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
 
-    invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$onCreateView$3$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$onCreateView$1$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/view/View;)V
 
     return-void
 .end method

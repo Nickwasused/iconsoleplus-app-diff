@@ -37,17 +37,17 @@
         }
     .end annotation
 
-    .line 836
+    .line 869
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 873
+    .line 906
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
-    .line 987
+    .line 1020
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->bShow:Z
 
     return-void
@@ -84,24 +84,24 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 973
+    .line 1006
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget-boolean p1, p1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bCanceled:Z
 
     if-nez p1, :cond_0
 
-    .line 975
+    .line 1008
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->dismissPressStartDialog()V
 
     const/4 p1, 0x0
 
-    .line 976
+    .line 1009
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->bShow:Z
 
-    .line 977
+    .line 1010
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->showSafetyKeyDialog()V
@@ -181,7 +181,7 @@
 
     move/from16 v12, p12
 
-    .line 929
+    .line 962
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget-boolean v1, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
@@ -195,7 +195,7 @@
 
     if-nez p13, :cond_2
 
-    .line 932
+    .line 965
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v2
@@ -208,7 +208,7 @@
 
     if-eq v2, v3, :cond_2
 
-    .line 934
+    .line 967
     iget v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
     const/4 v3, 0x5
@@ -217,12 +217,12 @@
 
     add-int/2addr v2, v1
 
-    .line 935
+    .line 968
     iput v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
     goto :goto_0
 
-    .line 937
+    .line 970
     :cond_1
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -233,10 +233,10 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 940
+    .line 973
     iput v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
-    .line 942
+    .line 975
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -264,7 +264,7 @@
 
     div-long/2addr v2, v4
 
-    .line 943
+    .line 976
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget v4, v4, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
@@ -283,12 +283,12 @@
 
     if-ltz v2, :cond_3
 
-    .line 944
+    .line 977
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->stopWorkout()V
 
-    .line 947
+    .line 980
     :cond_3
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -296,12 +296,12 @@
 
     if-ne v2, v12, :cond_4
 
-    .line 948
+    .line 981
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iput-boolean v1, v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bChangeSent:Z
 
-    .line 949
+    .line 982
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -313,12 +313,12 @@
 
     if-eqz v2, :cond_5
 
-    .line 950
+    .line 983
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iput-boolean v1, v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bChangeSent:Z
 
-    .line 952
+    .line 985
     :cond_5
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -326,12 +326,12 @@
 
     if-eqz v1, :cond_6
 
-    .line 953
+    .line 986
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iput v12, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
 
-    .line 954
+    .line 987
     :cond_6
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -343,7 +343,7 @@
 
     move-result v9
 
-    .line 956
+    .line 989
     iget-object v13, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget v1, v13, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mChangeToLevel:I
@@ -368,7 +368,7 @@
 
     invoke-virtual/range {v13 .. v25}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(IIIDDIDII)V
 
-    .line 957
+    .line 990
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -457,7 +457,7 @@
 
     move/from16 v1, p13
 
-    .line 879
+    .line 912
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget-boolean v2, v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
@@ -473,7 +473,7 @@
 
     if-nez v1, :cond_3
 
-    .line 882
+    .line 915
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -486,7 +486,7 @@
 
     if-eq v4, v5, :cond_3
 
-    .line 884
+    .line 917
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -505,10 +505,10 @@
 
     if-ge v4, v5, :cond_1
 
-    .line 885
+    .line 918
     iput v3, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
-    .line 886
+    .line 919
     :cond_1
     iget v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
@@ -518,12 +518,12 @@
 
     add-int/2addr v4, v2
 
-    .line 887
+    .line 920
     iput v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
     goto :goto_0
 
-    .line 889
+    .line 922
     :cond_2
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -531,11 +531,11 @@
 
     goto :goto_0
 
-    .line 892
+    .line 925
     :cond_3
     iput v3, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->pauseCheck:I
 
-    .line 894
+    .line 927
     :goto_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -555,22 +555,22 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 896
+    .line 929
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->dismissPressStartDialog()V
 
-    .line 897
+    .line 930
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iput v3, v2, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mCountdown:I
 
-    .line 898
+    .line 931
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->showCountdownDialog()V
 
-    .line 900
+    .line 933
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -596,12 +596,12 @@
 
     if-nez v1, :cond_5
 
-    .line 901
+    .line 934
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->stopWorkout()V
 
-    .line 903
+    .line 936
     :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -613,7 +613,7 @@
 
     if-eqz v1, :cond_6
 
-    .line 904
+    .line 937
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget v1, v1, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
@@ -625,7 +625,7 @@
     :cond_6
     move/from16 v1, p1
 
-    .line 906
+    .line 939
     :goto_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -653,7 +653,7 @@
 
     div-long/2addr v2, v4
 
-    .line 907
+    .line 940
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget v4, v4, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->mTotalTime:I
@@ -670,12 +670,12 @@
 
     if-ltz v2, :cond_7
 
-    .line 908
+    .line 941
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->stopWorkout()V
 
-    .line 910
+    .line 943
     :cond_7
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -683,7 +683,7 @@
 
     if-eqz v2, :cond_8
 
-    .line 911
+    .line 944
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     move/from16 v15, p12
@@ -695,7 +695,7 @@
     :cond_8
     move/from16 v15, p12
 
-    .line 912
+    .line 945
     :goto_2
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -707,7 +707,7 @@
 
     move-result v16
 
-    .line 913
+    .line 946
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v2
@@ -718,12 +718,12 @@
 
     if-eqz v2, :cond_9
 
-    .line 915
+    .line 948
     invoke-static/range {p4 .. p4}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
     goto :goto_3
 
-    .line 921
+    .line 954
     :cond_9
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -745,7 +745,7 @@
 
     invoke-virtual/range {v2 .. v14}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->updateData(IDIDDIDI)V
 
-    .line 922
+    .line 955
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v2
@@ -769,7 +769,7 @@
 
     if-nez p1, :cond_1
 
-    .line 863
+    .line 896
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -792,7 +792,7 @@
 
     goto :goto_0
 
-    .line 866
+    .line 899
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -804,7 +804,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 869
+    .line 902
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -825,7 +825,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 870
+    .line 903
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
@@ -860,7 +860,7 @@
 .method public onWaitForStart()V
     .locals 1
 
-    .line 992
+    .line 1025
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->access$400(Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;)Lcom/wang/avi/AVLoadingIndicatorView;
@@ -869,7 +869,7 @@
 
     invoke-virtual {v0}, Lcom/wang/avi/AVLoadingIndicatorView;->hide()V
 
-    .line 993
+    .line 1026
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     iget-boolean v0, v0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->bTrainingStarted:Z
@@ -882,7 +882,7 @@
 
     if-nez v0, :cond_1
 
-    .line 995
+    .line 1028
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->bShow:Z
 
     if-eqz v0, :cond_0
@@ -892,15 +892,15 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 997
+    .line 1030
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->bShow:Z
 
-    .line 998
+    .line 1031
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->showPressStartDialog()V
 
-    .line 999
+    .line 1032
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$7;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;->startRefreshUITimer()V

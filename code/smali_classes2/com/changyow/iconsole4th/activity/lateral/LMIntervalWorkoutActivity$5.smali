@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 464
+    .line 465
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +56,7 @@
 
     if-nez p1, :cond_0
 
-    .line 479
+    .line 480
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$200(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)V
@@ -246,7 +246,7 @@
         }
     .end annotation
 
-    .line 485
+    .line 486
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p4}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$300(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -259,7 +259,7 @@
 
     if-nez p4, :cond_0
 
-    .line 486
+    .line 487
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p4}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$300(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -268,23 +268,23 @@
 
     invoke-virtual {p4}, Lcom/airbnb/lottie/LottieAnimationView;->playAnimation()V
 
-    .line 487
+    .line 488
     :cond_0
     invoke-static {p2}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
-    .line 488
+    .line 489
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-virtual {p4, p1, p2}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->updateData(II)V
 
-    .line 489
+    .line 490
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->getBleHeartRate()I
 
-    .line 491
+    .line 492
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -301,7 +301,7 @@
 
     invoke-virtual {p1, p2, p4}, Lcom/changyow/iconsole4th/FlowControl;->keepDirection(II)V
 
-    .line 493
+    .line 494
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$400(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)I
@@ -310,7 +310,7 @@
 
     if-eq p3, p1, :cond_2
 
-    .line 495
+    .line 496
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$300(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -323,7 +323,7 @@
 
     if-ne p3, p1, :cond_1
 
-    .line 498
+    .line 499
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$300(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -334,14 +334,14 @@
 
     invoke-virtual {p2, p3}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 499
+    .line 500
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$402(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;I)I
 
     goto :goto_0
 
-    .line 503
+    .line 504
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
@@ -353,14 +353,14 @@
 
     invoke-virtual {p1, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 504
+    .line 505
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 
     const/4 p2, 0x1
 
     invoke-static {p1, p2}, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;->access$402(Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;I)I
 
-    .line 506
+    .line 507
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/lateral/LMIntervalWorkoutActivity;
 

@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 1369
+    .line 1379
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$29;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,12 +54,12 @@
         }
     .end annotation
 
-    .line 1373
+    .line 1383
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$29;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showControlPanel()V
 
-    .line 1374
+    .line 1384
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -70,7 +70,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1375
+    .line 1385
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -81,7 +81,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 1376
+    .line 1386
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$29;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 

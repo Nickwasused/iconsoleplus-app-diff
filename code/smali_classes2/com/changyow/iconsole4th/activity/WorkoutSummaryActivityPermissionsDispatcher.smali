@@ -8,9 +8,9 @@
 
 .field private static final PERMISSION_SHAREACTION:[Ljava/lang/String;
 
-.field private static final REQUEST_REQUESTWRITEPERMISSION:I = 0x13
+.field private static final REQUEST_REQUESTWRITEPERMISSION:I = 0x11
 
-.field private static final REQUEST_SHAREACTION:I = 0x14
+.field private static final REQUEST_SHAREACTION:I = 0x12
 
 
 # direct methods
@@ -62,11 +62,11 @@
         }
     .end annotation
 
-    const/16 v0, 0x13
+    const/16 v0, 0x11
 
     if-eq p1, v0, :cond_1
 
-    const/16 v0, 0x14
+    const/16 v0, 0x12
 
     if-eq p1, v0, :cond_0
 
@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v1, 0x13
+    const/16 v1, 0x11
 
     .line 33
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
@@ -162,7 +162,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v1, 0x14
+    const/16 v1, 0x12
 
     .line 25
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V

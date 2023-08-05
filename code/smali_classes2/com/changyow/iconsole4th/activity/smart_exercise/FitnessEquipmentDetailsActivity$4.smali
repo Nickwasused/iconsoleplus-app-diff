@@ -34,7 +34,7 @@
         }
     .end annotation
 
-    .line 368
+    .line 375
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$4;->val$callback:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;
@@ -59,7 +59,7 @@
         }
     .end annotation
 
-    .line 372
+    .line 379
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$4;->val$callback:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;
 
     invoke-virtual {p2}, Ljava/lang/Number;->intValue()I

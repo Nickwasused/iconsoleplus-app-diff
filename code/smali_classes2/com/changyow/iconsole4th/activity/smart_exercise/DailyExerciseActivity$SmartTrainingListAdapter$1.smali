@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 692
+    .line 707
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,10 +46,10 @@
 .method synthetic lambda$onClick$0$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity$SmartTrainingListAdapter$1(Landroidx/appcompat/app/AlertDialog;Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;Landroid/view/View;)V
     .locals 2
 
-    .line 717
+    .line 732
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->dismiss()V
 
-    .line 718
+    .line 733
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -86,10 +86,10 @@
 .method synthetic lambda$onClick$1$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity$SmartTrainingListAdapter$1(Landroidx/appcompat/app/AlertDialog;Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;Landroid/view/View;)V
     .locals 2
 
-    .line 722
+    .line 737
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->dismiss()V
 
-    .line 723
+    .line 738
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -134,7 +134,7 @@
         }
     .end annotation
 
-    .line 696
+    .line 711
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -147,7 +147,7 @@
 
     move-result p1
 
-    .line 697
+    .line 712
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -160,7 +160,7 @@
 
     check-cast p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
-    .line 699
+    .line 714
     iget-object v0, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->equipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->identifier:Lcom/changyow/iconsole4th/models/MetsSettings$Identifier;
@@ -171,7 +171,7 @@
 
     return-void
 
-    .line 702
+    .line 717
     :cond_0
     iget-object v0, p1, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->completed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
 
@@ -189,7 +189,7 @@
 
     return-void
 
-    .line 705
+    .line 720
     :cond_1
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -203,7 +203,7 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 706
+    .line 721
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;
 
     iget-object v1, v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -216,20 +216,20 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00c8
+    const v2, 0x7f0d00c5
 
     const/4 v3, 0x0
 
     const/4 v4, 0x0
 
-    .line 707
+    .line 722
     invoke-virtual {v1, v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v1
 
     const v2, 0x7f0a0084
 
-    .line 708
+    .line 723
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -238,22 +238,22 @@
 
     const v3, 0x7f0a008c
 
-    .line 709
+    .line 724
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/Button;
 
-    .line 711
+    .line 726
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 712
+    .line 727
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 714
+    .line 729
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -262,14 +262,14 @@
 
     invoke-virtual {v1, v4}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
-    .line 716
+    .line 731
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1$$ExternalSyntheticLambda0;
 
     invoke-direct {v1, p0, v0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;Landroidx/appcompat/app/AlertDialog;Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;)V
 
     invoke-virtual {v2, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 721
+    .line 736
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1$$ExternalSyntheticLambda1;
 
     invoke-direct {v1, p0, v0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;Landroidx/appcompat/app/AlertDialog;Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;)V

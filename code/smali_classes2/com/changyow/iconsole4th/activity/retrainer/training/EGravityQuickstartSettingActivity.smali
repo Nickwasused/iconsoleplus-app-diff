@@ -5,12 +5,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEGravityQuickstartSettingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityQuickstartSettingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,270:1\n1#2:271\n7#3:272\n7#3:273\n*S KotlinDebug\n*F\n+ 1 EGravityQuickstartSettingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity\n*L\n98#1:272\n99#1:273\n*E\n"
+    value = "SMAP\nEGravityQuickstartSettingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EGravityQuickstartSettingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 KotlinHelper.kt\nchangyow/ble4th/retrainer/KotlinHelperKt\n*L\n1#1,305:1\n1#2:306\n7#3:307\n7#3:308\n*S KotlinDebug\n*F\n+ 1 EGravityQuickstartSettingActivity.kt\ncom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity\n*L\n103#1:307\n104#1:308\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000V\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010!\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0010\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u0017\u001a\u00020\u0018H\u0002J\u0010\u0010\u0019\u001a\u00020\u00112\u0006\u0010\u001a\u001a\u00020\nH\u0002J\u0010\u0010\u001b\u001a\u00020\n2\u0006\u0010\u001c\u001a\u00020\u0011H\u0002J\u0008\u0010\u001d\u001a\u00020\u0016H\u0002J\u0006\u0010\u001e\u001a\u00020\u0016J\u000e\u0010\u001f\u001a\u00020\r2\u0006\u0010 \u001a\u00020\nJ\u0012\u0010!\u001a\u00020\u00162\u0008\u0010\"\u001a\u0004\u0018\u00010#H\u0014J\u0008\u0010$\u001a\u00020\u0016H\u0014J\u0008\u0010%\u001a\u00020\u0016H\u0002J\u0018\u0010&\u001a\u00020\u00162\u0006\u0010\'\u001a\u00020\u00112\u0006\u0010(\u001a\u00020)H\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0007\u001a\u0004\u0018\u00010\u0008X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u000c\u001a\u0004\u0018\u00010\rX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\r0\u000fX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0011X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0011X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006*"
+        "\u0000V\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010!\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0010\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u0017\u001a\u00020\u0018H\u0002J\u0010\u0010\u0019\u001a\u00020\u00112\u0006\u0010\u001a\u001a\u00020\nH\u0002J\u0010\u0010\u001b\u001a\u00020\n2\u0006\u0010\u001c\u001a\u00020\u0011H\u0002J\u0008\u0010\u001d\u001a\u00020\u0016H\u0002J\u0006\u0010\u001e\u001a\u00020\u0016J\u000e\u0010\u001f\u001a\u00020\r2\u0006\u0010 \u001a\u00020\nJ\u0008\u0010!\u001a\u00020\u0016H\u0014J\u0012\u0010\"\u001a\u00020\u00162\u0008\u0010#\u001a\u0004\u0018\u00010$H\u0014J\u0008\u0010%\u001a\u00020\u0016H\u0014J\u0008\u0010&\u001a\u00020\u0016H\u0002J\u0018\u0010\'\u001a\u00020\u00162\u0006\u0010(\u001a\u00020\u00112\u0006\u0010)\u001a\u00020*H\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0007\u001a\u0004\u0018\u00010\u0008X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u000c\u001a\u0004\u0018\u00010\rX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\r0\u000fX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0011X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0011X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006+"
     }
     d2 = {
         "Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;",
@@ -46,6 +46,7 @@
         "displayWeight",
         "getWeightWithUserUnit",
         "kg",
+        "initCustomTheme",
         "onCreate",
         "savedInstanceState",
         "Landroid/os/Bundle;",
@@ -55,7 +56,7 @@
         "sel",
         "listener",
         "Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -111,6 +112,14 @@
 
 
 # direct methods
+.method public static synthetic $r8$lambda$EIlhaQx6z0uBLwLBkHcsUeKCSV8(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
+    .locals 0
+
+    invoke-static {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->btnSettingsClicked$lambda-26(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method public static synthetic $r8$lambda$JctXO9yoNADpaHEQDfFC4pcTZYQ(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;Landroid/view/View;)V
     .locals 0
 
@@ -143,14 +152,6 @@
     return-void
 .end method
 
-.method public static synthetic $r8$lambda$TU-EDAYhV-RwRGHTVh7masWZXvc(Landroid/app/Dialog;Landroid/view/View;)V
-    .locals 0
-
-    invoke-static {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->btnSettingsClicked$lambda-22(Landroid/app/Dialog;Landroid/view/View;)V
-
-    return-void
-.end method
-
 .method public static synthetic $r8$lambda$WoorsoLC0Mbxy9pFMPV0hjqkwxg(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
     .locals 0
 
@@ -163,14 +164,6 @@
     .locals 0
 
     invoke-static {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->setupInitActionbar$lambda-21$lambda-19(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
-
-    return-void
-.end method
-
-.method public static synthetic $r8$lambda$b0Uz-zeeHtuqFfxXgqCS0YAsVnU(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
-    .locals 0
-
-    invoke-static {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->btnSettingsClicked$lambda-23(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
 
     return-void
 .end method
@@ -207,10 +200,18 @@
     return-void
 .end method
 
+.method public static synthetic $r8$lambda$smPOxC5YdBF140_Qrjqes1dlej0(Landroid/app/Dialog;Landroid/view/View;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->btnSettingsClicked$lambda-23(Landroid/app/Dialog;Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 1
 
-    .line 28
+    .line 33
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -221,7 +222,7 @@
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
-    .line 38
+    .line 43
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -236,7 +237,7 @@
 .method public static final synthetic access$calcWeightByPickerIndex(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;I)D
     .locals 0
 
-    .line 28
+    .line 33
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->calcWeightByPickerIndex(I)D
 
     move-result-wide p0
@@ -247,7 +248,7 @@
 .method public static final synthetic access$setWeight1$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;D)V
     .locals 0
 
-    .line 28
+    .line 33
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
     return-void
@@ -256,16 +257,16 @@
 .method public static final synthetic access$setWeight2$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;D)V
     .locals 0
 
-    .line 28
+    .line 33
     iput-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
     return-void
 .end method
 
 .method private final btnSettingsClicked(Landroid/view/View;)V
-    .locals 4
+    .locals 8
 
-    .line 209
+    .line 225
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -278,7 +279,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 210
+    .line 226
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -289,7 +290,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    .line 211
+    .line 227
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v1
@@ -298,7 +299,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;)V
 
-    .line 212
+    .line 228
     invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -315,7 +316,146 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 213
+    .line 231
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnSettings:Landroid/widget/Button;
+
+    const-string v2, "btnSettings"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v1, Landroid/view/View;
+
+    invoke-static {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 232
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnReset:Landroid/widget/Button;
+
+    const-string v2, "btnReset"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v1, Landroid/view/View;
+
+    invoke-static {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 233
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnMyTraining:Landroid/widget/Button;
+
+    const-string v2, "btnMyTraining"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v1, Landroid/view/View;
+
+    invoke-static {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 234
+    new-instance v1, Landroid/content/res/ColorStateList;
+
+    const/4 v2, 0x2
+
+    new-array v4, v2, [[I
+
+    const/4 v5, 0x1
+
+    new-array v6, v5, [I
+
+    const v7, -0x101009e
+
+    aput v7, v6, v3
+
+    aput-object v6, v4, v3
+
+    new-array v6, v5, [I
+
+    const v7, 0x101009e
+
+    aput v7, v6, v3
+
+    aput-object v6, v4, v5
+
+    new-array v2, v2, [I
+
+    .line 236
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v6
+
+    aput v6, v2, v3
+
+    .line 237
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    aput v3, v2, v5
+
+    .line 234
+    invoke-direct {v1, v4, v2}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    .line 240
+    iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnSettings:Landroid/widget/Button;
+
+    invoke-virtual {v2, v1}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 241
+    iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnReset:Landroid/widget/Button;
+
+    invoke-virtual {v2, v1}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 242
+    iget-object v2, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnMyTraining:Landroid/widget/Button;
+
+    invoke-virtual {v2, v1}, Landroid/widget/Button;->setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 243
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnSettings:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 244
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnReset:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 245
+    iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnMyTraining:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 248
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v1
@@ -326,7 +466,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 214
+    .line 249
     iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnReset:Landroid/widget/Button;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda5;
@@ -335,44 +475,44 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 220
+    .line 255
     iget-object v1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnMyTraining:Landroid/widget/Button;
 
-    new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda4;
+    new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda6;
 
-    invoke-direct {v2, v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda4;-><init>(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
+    invoke-direct {v2, v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda6;-><init>(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 224
+    .line 259
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/LayoutDialogEgravityQuickstartMoreActionBinding;->btnSettings:Landroid/widget/Button;
 
-    new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda6;
+    new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda4;
 
-    invoke-direct {v1, v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda6;-><init>(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
+    invoke-direct {v1, v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda4;-><init>(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 228
+    .line 263
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
     return-void
 .end method
 
-.method private static final btnSettingsClicked$lambda-22(Landroid/app/Dialog;Landroid/view/View;)V
+.method private static final btnSettingsClicked$lambda-23(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
     const-string p1, "$settingsDialog"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 213
+    .line 248
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     return-void
 .end method
 
-.method private static final btnSettingsClicked$lambda-23(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
+.method private static final btnSettingsClicked$lambda-24(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
     .locals 2
 
     const-string p2, "$settingsDialog"
@@ -383,49 +523,19 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 215
+    .line 250
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 216
+    .line 251
     iget-wide v0, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     iput-wide v0, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
-    .line 217
+    .line 252
     iput-wide v0, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
-    .line 218
+    .line 253
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->displayWeight()V
-
-    return-void
-.end method
-
-.method private static final btnSettingsClicked$lambda-24(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
-    .locals 1
-
-    const-string p2, "$settingsDialog"
-
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string/jumbo p2, "this$0"
-
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 221
-    invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
-
-    .line 222
-    new-instance p0, Landroid/content/Intent;
-
-    iget-object p2, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
-
-    check-cast p2, Landroid/content/Context;
-
-    const-class v0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;
-
-    invoke-direct {p0, p2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    invoke-virtual {p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -441,10 +551,40 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 225
+    .line 256
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 226
+    .line 257
+    new-instance p0, Landroid/content/Intent;
+
+    iget-object p2, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
+
+    check-cast p2, Landroid/content/Context;
+
+    const-class v0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileListActivity;
+
+    invoke-direct {p0, p2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->startActivity(Landroid/content/Intent;)V
+
+    return-void
+.end method
+
+.method private static final btnSettingsClicked$lambda-26(Landroid/app/Dialog;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/view/View;)V
+    .locals 1
+
+    const-string p2, "$settingsDialog"
+
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string/jumbo p2, "this$0"
+
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 260
+    invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
+
+    .line 261
     new-instance p0, Landroid/content/Intent;
 
     iget-object p2, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -463,12 +603,12 @@
 .method private final calcIndexByWeight(D)I
     .locals 3
 
-    .line 250
+    .line 285
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     sub-double/2addr p1, v0
 
-    .line 251
+    .line 286
     sget-object v0, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -507,14 +647,14 @@
 .method private final calcWeightByPickerIndex(I)D
     .locals 6
 
-    .line 259
+    .line 294
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     int-to-double v2, p1
 
     add-double/2addr v0, v2
 
-    .line 260
+    .line 295
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -529,7 +669,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 261
+    .line 296
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     const-wide/high16 v4, 0x3fe0000000000000L    # 0.5
@@ -545,14 +685,14 @@
 .method private final displayEccentriRatio()V
     .locals 6
 
-    .line 267
+    .line 302
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->loadEccentricFactor()D
 
     move-result-wide v0
 
-    .line 268
+    .line 303
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez v2, :cond_0
@@ -612,15 +752,15 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 125
+    .line 130
     invoke-virtual {p2}, Landroid/view/View;->bringToFront()V
 
     const/high16 p2, 0x41200000    # 10.0f
 
-    .line 126
+    .line 131
     invoke-virtual {p0, p2}, Landroid/widget/TextView;->setTranslationZ(F)V
 
-    .line 127
+    .line 132
     iget-object p0, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p0, :cond_0
@@ -638,7 +778,7 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/TextView;->setTranslationZ(F)V
 
-    .line 128
+    .line 133
     iget-wide v0, p1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
     invoke-direct {p1, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->calcIndexByWeight(D)I
@@ -667,7 +807,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 139
+    .line 144
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     const/4 v1, 0x0
@@ -691,16 +831,16 @@
 
     return-void
 
-    .line 141
+    .line 146
     :cond_1
     invoke-virtual {p2}, Landroid/view/View;->bringToFront()V
 
     const/high16 p2, 0x41200000    # 10.0f
 
-    .line 142
+    .line 147
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTranslationZ(F)V
 
-    .line 143
+    .line 148
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_2
@@ -719,7 +859,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTranslationZ(F)V
 
-    .line 144
+    .line 149
     iget-wide p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->calcIndexByWeight(D)I
@@ -754,12 +894,12 @@
 
     const-string/jumbo v3, "x 2.0"
 
-    .line 154
+    .line 159
     filled-new-array {p1, v0, v1, v2, v3}, [Ljava/lang/String;
 
     move-result-object p1
 
-    .line 155
+    .line 160
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -774,7 +914,7 @@
 
     move-result-object v0
 
-    .line 156
+    .line 161
     check-cast p1, [Ljava/lang/CharSequence;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda0;
@@ -787,7 +927,7 @@
 
     move-result-object p0
 
-    .line 167
+    .line 172
     invoke-virtual {p0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
     return-void
@@ -820,7 +960,7 @@
 
     goto :goto_0
 
-    .line 162
+    .line 167
     :cond_0
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -830,7 +970,7 @@
 
     goto :goto_0
 
-    .line 161
+    .line 166
     :cond_1
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -840,7 +980,7 @@
 
     goto :goto_0
 
-    .line 160
+    .line 165
     :cond_2
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -850,7 +990,7 @@
 
     goto :goto_0
 
-    .line 159
+    .line 164
     :cond_3
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -860,7 +1000,7 @@
 
     goto :goto_0
 
-    .line 158
+    .line 163
     :cond_4
     sget-object p2, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -868,11 +1008,11 @@
 
     invoke-virtual {p2, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->saveEccentricFactor(D)V
 
-    .line 164
+    .line 169
     :goto_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->displayEccentriRatio()V
 
-    .line 165
+    .line 170
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -885,7 +1025,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 64
+    .line 69
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
     move-result v0
@@ -894,7 +1034,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setSelected(Z)V
 
-    .line 66
+    .line 71
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     const/4 v1, 0x0
@@ -914,19 +1054,19 @@
 
     move-result-object v0
 
-    .line 68
+    .line 73
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 69
+    .line 74
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pixelWidthLinked:I
 
     iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 70
+    .line 75
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_1
@@ -940,7 +1080,7 @@
 
     invoke-virtual {p1}, Landroid/widget/TextView;->bringToFront()V
 
-    .line 71
+    .line 76
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_2
@@ -956,7 +1096,7 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTranslationZ(F)V
 
-    .line 72
+    .line 77
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_3
@@ -974,13 +1114,13 @@
 
     goto :goto_0
 
-    .line 74
+    .line 79
     :cond_4
     iget p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pixelWidthUnLinked:I
 
     iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 76
+    .line 81
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
@@ -995,7 +1135,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 77
+    .line 82
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p0, :cond_6
@@ -1022,7 +1162,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 81
+    .line 86
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1037,7 +1177,7 @@
 
     const p1, 0x7f120391
 
-    .line 82
+    .line 87
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1050,7 +1190,7 @@
 
     return-void
 
-    .line 85
+    .line 90
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineName:Ljava/lang/String;
 
@@ -1058,7 +1198,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 86
+    .line 91
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     const v1, 0x7f120024
@@ -1075,7 +1215,7 @@
 
     move-result-object p1
 
-    .line 87
+    .line 92
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1100,7 +1240,7 @@
 
     move-result-object p1
 
-    .line 88
+    .line 93
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1125,10 +1265,10 @@
 
     move-result-object p1
 
-    .line 89
+    .line 94
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 91
+    .line 96
     :cond_1
     new-instance p1, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;
 
@@ -1167,14 +1307,14 @@
 
     const/4 v2, 0x0
 
-    .line 92
+    .line 97
     iget-wide v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
     iget-wide v5, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
     invoke-virtual/range {v1 .. v6}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->addSet(IDD)V
 
-    .line 93
+    .line 98
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1185,7 +1325,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 94
+    .line 99
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/EgravityProfile;->toJson()Ljava/lang/String;
 
     move-result-object p1
@@ -1194,7 +1334,7 @@
 
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 95
+    .line 100
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1203,7 +1343,7 @@
 .method private final setupInitActionbar()V
     .locals 3
 
-    .line 183
+    .line 199
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -1216,7 +1356,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 184
+    .line 200
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v1
@@ -1225,13 +1365,13 @@
 
     const/4 v2, 0x0
 
-    .line 185
+    .line 201
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 186
+    .line 202
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 187
+    .line 203
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v2
@@ -1242,17 +1382,17 @@
 
     const/4 v2, 0x1
 
-    .line 188
+    .line 204
     invoke-virtual {v1, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    .line 192
+    .line 208
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight2:Landroid/widget/ImageButton;
 
     const/4 v2, 0x4
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 194
+    .line 210
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->txvTitle:Landroid/widget/TextView;
 
     const v2, 0x7f1203aa
@@ -1265,21 +1405,21 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 195
+    .line 211
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
     const v2, 0x7f080365
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 196
+    .line 212
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
     const v2, 0x7f08006b
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 198
+    .line 214
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibLeft:Landroid/widget/ImageButton;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda10;
@@ -1288,7 +1428,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 202
+    .line 218
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda2;
@@ -1307,7 +1447,7 @@
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 199
+    .line 215
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1316,7 +1456,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper;->cancelConnect()V
 
-    .line 200
+    .line 216
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->onBackPressed()V
 
     return-void
@@ -1333,7 +1473,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 203
+    .line 219
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/LayoutCustomActionbarBinding;->ibRight1:Landroid/widget/ImageButton;
 
     const-string p2, "ibRight1"
@@ -1350,7 +1490,7 @@
 .method private final showWeightPicker(ILcom/changyow/iconsole4th/interfaces/OnOptionPickListener;)V
     .locals 2
 
-    .line 246
+    .line 281
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pickerOptions:Ljava/util/List;
 
     const-string v1, ""
@@ -1414,7 +1554,7 @@
 .method public final displayWeight()V
     .locals 4
 
-    .line 232
+    .line 267
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez v0, :cond_0
@@ -1425,7 +1565,7 @@
 
     const/4 v0, 0x0
 
-    .line 233
+    .line 268
     :cond_0
     iget-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvWeight1:Landroid/widget/TextView;
 
@@ -1439,7 +1579,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 234
+    .line 269
     iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvWeight2:Landroid/widget/TextView;
 
     iget-wide v1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
@@ -1458,7 +1598,7 @@
 .method public final getWeightWithUserUnit(D)Ljava/lang/String;
     .locals 1
 
-    .line 240
+    .line 275
     sget-object v0, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -1473,12 +1613,12 @@
 
     if-nez v0, :cond_0
 
-    .line 241
+    .line 276
     invoke-static {p1, p2}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
 
     move-result-wide p1
 
-    .line 242
+    .line 277
     :cond_0
     sget-object v0, Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;->INSTANCE:Lcom/changyow/iconsole4th/activity/retrainer/EGravityDefs;
 
@@ -1489,13 +1629,151 @@
     return-object p1
 .end method
 
+.method protected initCustomTheme()V
+    .locals 4
+
+    .line 188
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 189
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    const/4 v1, 0x0
+
+    const-string v2, "binding"
+
+    if-nez v0, :cond_0
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_0
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->btnLink:Landroid/widget/ImageButton;
+
+    const-string v3, "binding.btnLink"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 190
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    if-nez v0, :cond_1
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_1
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->btnGo:Landroid/widget/Button;
+
+    const-string v3, "binding.btnGo"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 191
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    if-nez v0, :cond_2
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_2
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->btnGo:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    invoke-virtual {v0, v3}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 192
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    if-nez v0, :cond_3
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_3
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->layoutEccentricRatio:Landroid/widget/RelativeLayout;
+
+    const-string v3, "binding.layoutEccentricRatio"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 193
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    if-nez v0, :cond_4
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    move-object v0, v1
+
+    :cond_4
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvEccentricRatioTitle:Landroid/widget/TextView;
+
+    const-string v3, "binding.txvEccentricRatioTitle"
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 194
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
+
+    if-nez v0, :cond_5
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_5
+    move-object v1, v0
+
+    :goto_0
+    iget-object v0, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvEccentricRatioValue:Landroid/widget/TextView;
+
+    const-string v1, "binding.txvEccentricRatioValue"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 12
 
-    .line 42
+    .line 47
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 43
+    .line 48
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -1516,7 +1794,7 @@
 
     if-nez p1, :cond_0
 
-    .line 44
+    .line 49
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     move-object p1, v1
@@ -1530,10 +1808,10 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->setContentView(Landroid/view/View;)V
 
-    .line 45
+    .line 50
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->setupInitActionbar()V
 
-    .line 47
+    .line 52
     sget-object p1, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -1560,7 +1838,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 49
+    .line 54
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerSupportFeature()Lchangyow/ble4th/retrainer/Retrainer$SupportFeature;
 
     move-result-object v4
@@ -1589,7 +1867,7 @@
     :goto_1
     if-eqz v4, :cond_6
 
-    .line 50
+    .line 55
     :cond_3
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
@@ -1606,7 +1884,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 51
+    .line 56
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez v4, :cond_5
@@ -1620,10 +1898,10 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 52
+    .line 57
     iput-boolean v3, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->isSingleWeight:Z
 
-    .line 54
+    .line 59
     :cond_6
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getAddress()Ljava/lang/String;
 
@@ -1631,14 +1909,14 @@
 
     iput-object v4, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineName:Ljava/lang/String;
 
-    .line 55
+    .line 60
     invoke-virtual {p1}, Lchangyow/ble4th/retrainer/BenchBleManager;->getRetrainerLimits()Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
-    .line 58
+    .line 63
     :cond_7
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
@@ -1679,7 +1957,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 60
+    .line 65
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -1694,7 +1972,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pixelWidthLinked:I
 
-    .line 61
+    .line 66
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -1709,7 +1987,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pixelWidthUnLinked:I
 
-    .line 62
+    .line 67
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_9
@@ -1723,7 +2001,7 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 63
+    .line 68
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_a
@@ -1741,7 +2019,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 80
+    .line 85
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_b
@@ -1759,7 +2037,7 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 98
+    .line 103
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     if-eqz p1, :cond_c
@@ -1795,7 +2073,7 @@
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
-    .line 99
+    .line 104
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineLimit:Lchangyow/ble4th/retrainer/Retrainer$Limits;
 
     if-eqz p1, :cond_e
@@ -1831,7 +2109,7 @@
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMax:D
 
-    .line 100
+    .line 105
     sget-object p1, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -1846,7 +2124,7 @@
 
     if-nez p1, :cond_10
 
-    .line 101
+    .line 106
     iget-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
@@ -1863,7 +2141,7 @@
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
-    .line 102
+    .line 107
     iget-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMax:D
 
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/UnitUtil;->kg2lbs(D)D
@@ -1878,21 +2156,21 @@
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMax:D
 
-    .line 104
+    .line 109
     :cond_10
     iget-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
-    .line 105
+    .line 110
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
-    .line 106
+    .line 111
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineName:Ljava/lang/String;
 
     if-eqz p1, :cond_12
 
-    .line 107
+    .line 112
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     const v4, 0x7f120024
@@ -1905,7 +2183,7 @@
 
     move-result-object p1
 
-    .line 108
+    .line 113
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -1932,10 +2210,10 @@
 
     float-to-double v6, p1
 
-    .line 107
+    .line 112
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
-    .line 109
+    .line 114
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-virtual {p1, v4}, Lcom/changyow/iconsole4th/activity/BaseActivity;->getString(I)Ljava/lang/String;
@@ -1946,7 +2224,7 @@
 
     move-result-object p1
 
-    .line 110
+    .line 115
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1973,10 +2251,10 @@
 
     float-to-double v6, p1
 
-    .line 109
+    .line 114
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
-    .line 111
+    .line 116
     iget-wide v8, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
     iget-wide v10, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMax:D
@@ -1985,7 +2263,7 @@
 
     if-lez p1, :cond_11
 
-    .line 112
+    .line 117
     iget-wide v8, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     iput-wide v8, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
@@ -1995,12 +2273,12 @@
 
     if-lez p1, :cond_12
 
-    .line 114
+    .line 119
     iget-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
     iput-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
-    .line 117
+    .line 122
     :cond_12
     iget-wide v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->machineMin:D
 
@@ -2012,7 +2290,7 @@
 
     if-gt p1, v4, :cond_14
 
-    .line 118
+    .line 123
     :goto_4
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pickerOptions:Ljava/util/List;
 
@@ -2040,7 +2318,7 @@
 
     invoke-interface {v6, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 119
+    .line 124
     sget-object v6, Lcom/changyow/iconsole4th/db/UserProfile;->Companion:Lcom/changyow/iconsole4th/db/UserProfile$Companion;
 
     invoke-virtual {v6}, Lcom/changyow/iconsole4th/db/UserProfile$Companion;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -2061,7 +2339,7 @@
 
     if-eq p1, v6, :cond_13
 
-    .line 120
+    .line 125
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->pickerOptions:Ljava/util/List;
 
     sget-object v7, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
@@ -2095,7 +2373,7 @@
 
     goto :goto_4
 
-    .line 122
+    .line 127
     :cond_14
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
@@ -2108,7 +2386,7 @@
     :cond_15
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvWeight1:Landroid/widget/TextView;
 
-    .line 123
+    .line 128
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight1:D
 
     invoke-virtual {p0, v2, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getWeightWithUserUnit(D)Ljava/lang/String;
@@ -2119,14 +2397,14 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 124
+    .line 129
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda7;
 
     invoke-direct {v2, p1, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda7;-><init>(Landroid/widget/TextView;Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 136
+    .line 141
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_16
@@ -2138,7 +2416,7 @@
     :cond_16
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->txvWeight2:Landroid/widget/TextView;
 
-    .line 137
+    .line 142
     iget-wide v2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->weight2:D
 
     invoke-virtual {p0, v2, v3}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->getWeightWithUserUnit(D)Ljava/lang/String;
@@ -2149,14 +2427,14 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 138
+    .line 143
     new-instance v2, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda1;
 
     invoke-direct {v2, p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;Landroid/widget/TextView;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 152
+    .line 157
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->binding:Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;
 
     if-nez p1, :cond_17
@@ -2171,7 +2449,7 @@
     :goto_5
     iget-object p1, v1, Lcom/changyow/iconsole4th/databinding/ActivityEgravityQuickstartSettingBinding;->layoutEccentricRatio:Landroid/widget/RelativeLayout;
 
-    .line 153
+    .line 158
     new-instance v0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda11;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$$ExternalSyntheticLambda11;-><init>(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;)V
@@ -2184,10 +2462,10 @@
 .method protected onResume()V
     .locals 1
 
-    .line 173
+    .line 178
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onResume()V
 
-    .line 174
+    .line 179
     sget-object v0, Lchangyow/ble4th/retrainer/BleHelper;->Companion:Lchangyow/ble4th/retrainer/BleHelper$Companion;
 
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BleHelper$Companion;->getHelper()Lchangyow/ble4th/retrainer/BleHelper;
@@ -2202,13 +2480,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 176
+    .line 181
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestControlPermission()V
 
-    .line 177
+    .line 182
     invoke-virtual {v0}, Lchangyow/ble4th/retrainer/BenchBleManager;->requestStop()V
 
-    .line 179
+    .line 184
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->displayEccentriRatio()V
 

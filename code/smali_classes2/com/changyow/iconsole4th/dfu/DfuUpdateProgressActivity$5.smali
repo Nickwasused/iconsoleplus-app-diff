@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 403
+    .line 422
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-direct {p0}, Lno/nordicsemi/android/dfu/DfuProgressListenerAdapter;-><init>()V
@@ -43,12 +43,12 @@
 .method synthetic lambda$onDfuAborted$1$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity$5()V
     .locals 2
 
-    .line 470
+    .line 489
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->onUploadCanceled()V
 
-    .line 473
+    .line 492
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     const-string v1, "notification"
@@ -61,7 +61,7 @@
 
     const/16 v1, 0x11b
 
-    .line 474
+    .line 493
     invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->cancel(I)V
 
     return-void
@@ -70,12 +70,12 @@
 .method synthetic lambda$onDfuCompleted$0$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity$5()V
     .locals 2
 
-    .line 450
+    .line 469
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1700(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)V
 
-    .line 453
+    .line 472
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     const-string v1, "notification"
@@ -88,7 +88,7 @@
 
     const/16 v1, 0x11b
 
-    .line 454
+    .line 473
     invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->cancel(I)V
 
     return-void
@@ -97,7 +97,7 @@
 .method synthetic lambda$onError$2$com-changyow-iconsole4th-dfu-DfuUpdateProgressActivity$5()V
     .locals 2
 
-    .line 502
+    .line 521
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     const-string v1, "notification"
@@ -110,7 +110,7 @@
 
     const/16 v1, 0x11b
 
-    .line 503
+    .line 522
     invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->cancel(I)V
 
     return-void
@@ -127,7 +127,7 @@
         }
     .end annotation
 
-    .line 407
+    .line 426
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -138,7 +138,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 408
+    .line 427
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -163,7 +163,7 @@
         }
     .end annotation
 
-    .line 435
+    .line 454
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -174,7 +174,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 436
+    .line 455
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -199,7 +199,7 @@
         }
     .end annotation
 
-    .line 467
+    .line 486
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -210,7 +210,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 469
+    .line 488
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
@@ -237,7 +237,7 @@
         }
     .end annotation
 
-    .line 442
+    .line 461
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1100(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ImageView;
@@ -248,7 +248,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 443
+    .line 462
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1200(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -259,7 +259,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 444
+    .line 463
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -270,7 +270,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 445
+    .line 464
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$400(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -281,7 +281,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 446
+    .line 465
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1300(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Z
@@ -290,7 +290,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 449
+    .line 468
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
@@ -305,7 +305,7 @@
 
     goto :goto_0
 
-    .line 460
+    .line 479
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
@@ -328,7 +328,7 @@
         }
     .end annotation
 
-    .line 414
+    .line 433
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -339,7 +339,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 415
+    .line 434
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -364,7 +364,7 @@
         }
     .end annotation
 
-    .line 421
+    .line 440
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -375,7 +375,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 422
+    .line 441
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -406,7 +406,7 @@
         }
     .end annotation
 
-    .line 495
+    .line 514
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1300(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Z
@@ -415,12 +415,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 497
+    .line 516
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1, p4}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1500(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;Ljava/lang/String;)V
 
-    .line 500
+    .line 519
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
@@ -435,7 +435,7 @@
 
     goto :goto_0
 
-    .line 508
+    .line 527
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
@@ -456,7 +456,7 @@
         }
     .end annotation
 
-    .line 428
+    .line 447
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -467,7 +467,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 429
+    .line 448
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -502,7 +502,7 @@
         }
     .end annotation
 
-    .line 483
+    .line 502
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -513,7 +513,7 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/ProgressBar;->setIndeterminate(Z)V
 
-    .line 484
+    .line 503
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$900(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/ProgressBar;
@@ -522,7 +522,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 485
+    .line 504
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$1000(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -549,7 +549,7 @@
 
     if-le p6, p4, :cond_0
 
-    .line 487
+    .line 506
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;->access$400(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;)Landroid/widget/TextView;
@@ -584,7 +584,7 @@
 
     goto :goto_0
 
-    .line 489
+    .line 508
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 

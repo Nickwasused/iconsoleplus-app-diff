@@ -39,7 +39,7 @@
         }
     .end annotation
 
-    .line 73
+    .line 75
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/ProgramsSettingActivity;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

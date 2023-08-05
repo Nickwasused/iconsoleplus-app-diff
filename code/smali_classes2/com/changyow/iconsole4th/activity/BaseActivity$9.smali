@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 512
+    .line 604
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

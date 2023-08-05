@@ -40,7 +40,7 @@
         "parent",
         "Landroid/view/ViewGroup;",
         "viewType",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -62,7 +62,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
-    .line 295
+    .line 316
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
     return-void
@@ -73,7 +73,7 @@
 .method public getItemCount()I
     .locals 1
 
-    .line 315
+    .line 336
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->access$getMItems$p(Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;)Ljava/util/List;
@@ -90,7 +90,7 @@
 .method public bridge synthetic onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 0
 
-    .line 295
+    .line 316
     check-cast p1, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItemViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->onBindViewHolder(Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItemViewHolder;I)V
@@ -105,7 +105,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 302
+    .line 323
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;->access$getMItems$p(Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;)Ljava/util/List;
@@ -118,12 +118,12 @@
 
     check-cast p2, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;
 
-    .line 303
+    .line 324
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItemViewHolder;->getBinding()Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;
 
     move-result-object p1
 
-    .line 304
+    .line 325
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvTitle1:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getTitle1()Ljava/lang/String;
@@ -134,7 +134,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 305
+    .line 326
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvValue1:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getValue1()Ljava/lang/String;
@@ -145,7 +145,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 306
+    .line 327
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvUnit1:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getUnit1()Ljava/lang/String;
@@ -156,7 +156,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 307
+    .line 328
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvTitle2:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getTitle2()Ljava/lang/String;
@@ -167,7 +167,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 308
+    .line 329
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvValue2:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getValue2()Ljava/lang/String;
@@ -178,7 +178,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 309
+    .line 330
     iget-object v0, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvUnit2:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getUnit2()Ljava/lang/String;
@@ -189,7 +189,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 310
+    .line 331
     iget-object p1, p1, Lcom/changyow/iconsole4th/databinding/LayoutEgravityWorkoutSummaryDataItemBinding;->txvCenter:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->getCenterText()Ljava/lang/String;
@@ -206,7 +206,7 @@
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
     .locals 0
 
-    .line 295
+    .line 316
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItemViewHolder;
 
     move-result-object p1
@@ -223,7 +223,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 298
+    .line 319
     new-instance p2, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItemViewHolder;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$initRecyclerView$4$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity;

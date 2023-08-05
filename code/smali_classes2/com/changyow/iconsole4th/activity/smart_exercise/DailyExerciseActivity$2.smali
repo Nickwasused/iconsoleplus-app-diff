@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 331
+    .line 346
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -43,7 +43,7 @@
 .method synthetic lambda$onSuccess$0$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity$2(D)V
     .locals 1
 
-    .line 356
+    .line 371
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->access$1000(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Landroid/widget/TextView;
@@ -88,19 +88,19 @@
 
     if-eqz p1, :cond_1
 
-    .line 336
+    .line 351
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->isJsonObject()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 338
+    .line 353
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object v2
 
-    .line 339
+    .line 354
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object p1
@@ -109,7 +109,7 @@
 
     move-result-object p1
 
-    .line 340
+    .line 355
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -129,21 +129,21 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 342
+    .line 357
     invoke-virtual {v2, v3}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 343
+    .line 358
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->isJsonPrimitive()Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 346
+    .line 361
     :try_start_0
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->getAsDouble()D
 
@@ -155,7 +155,7 @@
 
     goto :goto_0
 
-    .line 355
+    .line 370
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 

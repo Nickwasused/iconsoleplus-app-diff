@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 291
+    .line 301
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 297
+    .line 307
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     const p1, 0x7f120360

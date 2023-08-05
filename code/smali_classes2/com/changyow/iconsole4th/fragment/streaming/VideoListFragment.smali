@@ -39,10 +39,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 47
+    .line 49
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/streaming/StreamBaseFragment;-><init>()V
 
-    .line 41
+    .line 43
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -51,16 +51,16 @@
 
     const/4 v0, 0x0
 
-    .line 42
+    .line 44
     iput-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoTags:Ljava/util/HashMap;
 
-    .line 43
+    .line 45
     iput-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mStreamVideos:Lcom/changyow/iconsole4th/models/StreamVideos;
 
-    .line 44
+    .line 46
     iput-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoListListAdapter:Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
 
-    .line 281
+    .line 302
     new-instance v0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda0;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)V
@@ -73,7 +73,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroid/app/Activity;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mContext:Landroid/app/Activity;
 
     return-object p0
@@ -82,7 +82,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroidx/recyclerview/widget/RecyclerView;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->rvVideoList:Landroidx/recyclerview/widget/RecyclerView;
 
     return-object p0
@@ -91,7 +91,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroid/app/Activity;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mContext:Landroid/app/Activity;
 
     return-object p0
@@ -102,7 +102,7 @@
 .method fetchTags()V
     .locals 2
 
-    .line 87
+    .line 89
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -123,12 +123,12 @@
 .method fetchVideos()V
     .locals 3
 
-    .line 125
+    .line 127
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->prepareTags()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 126
+    .line 128
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v1
@@ -147,7 +147,7 @@
 .end method
 
 .method fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
-    .locals 4
+    .locals 8
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0,
@@ -175,10 +175,105 @@
 
     if-nez p2, :cond_0
 
-    goto :goto_1
+    goto/16 :goto_1
 
-    .line 252
+    .line 256
     :cond_0
+    new-instance v0, Landroid/content/res/ColorStateList;
+
+    const/4 v1, 0x4
+
+    new-array v2, v1, [[I
+
+    const/4 v3, 0x1
+
+    new-array v4, v3, [I
+
+    const v5, -0x10100a1
+
+    const/4 v6, 0x0
+
+    aput v5, v4, v6
+
+    aput-object v4, v2, v6
+
+    new-array v4, v3, [I
+
+    const v5, 0x10100a1
+
+    aput v5, v4, v6
+
+    aput-object v4, v2, v3
+
+    new-array v4, v3, [I
+
+    const v5, 0x10100a0
+
+    aput v5, v4, v6
+
+    const/4 v5, 0x2
+
+    aput-object v4, v2, v5
+
+    new-array v4, v3, [I
+
+    const v7, 0x10100a7
+
+    aput v7, v4, v6
+
+    const/4 v7, 0x3
+
+    aput-object v4, v2, v7
+
+    new-array v1, v1, [I
+
+    .line 264
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeSecondaryColor()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v4
+
+    aput v4, v1, v6
+
+    .line 265
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v4
+
+    aput v4, v1, v3
+
+    .line 266
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    aput v3, v1, v5
+
+    .line 267
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v3
+
+    aput v3, v1, v7
+
+    invoke-direct {v0, v2, v1}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+
+    .line 271
     invoke-virtual {p1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object p1
@@ -190,57 +285,63 @@
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_1
+    if-eqz v1, :cond_1
 
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object v1
 
-    check-cast v0, Ljava/lang/String;
+    check-cast v1, Ljava/lang/String;
 
-    .line 254
+    .line 273
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->getLayoutInflater()Landroid/view/LayoutInflater;
-
-    move-result-object v1
-
-    const v2, 0x7f0d0105
-
-    const/4 v3, 0x0
-
-    invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
-
-    move-result-object v1
-
-    const v2, 0x7f0a0557
-
-    .line 255
-    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    check-cast v2, Landroid/widget/TextView;
+    const v3, 0x7f0d0102
 
-    .line 256
-    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    const/4 v4, 0x0
 
-    .line 257
-    iget-object v3, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
+    invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    invoke-virtual {v3, v0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+    move-result-object v2
 
-    move-result v0
+    const v3, 0x7f0a0562
 
-    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setSelected(Z)V
+    .line 274
+    invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
-    .line 258
-    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mTagItemOnClickListener:Landroid/view/View$OnClickListener;
+    move-result-object v3
 
-    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    check-cast v3, Landroid/widget/TextView;
 
-    .line 259
-    invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    .line 275
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 276
+    iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
+
+    invoke-virtual {v4, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setSelected(Z)V
+
+    .line 277
+    iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mTagItemOnClickListener:Landroid/view/View$OnClickListener;
+
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 278
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 279
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 280
+    invoke-virtual {p2, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     goto :goto_0
 
@@ -252,10 +353,10 @@
 .method synthetic lambda$new$3$com-changyow-iconsole4th-fragment-streaming-VideoListFragment(Landroid/view/View;)V
     .locals 2
 
-    .line 282
+    .line 303
     check-cast p1, Landroid/widget/TextView;
 
-    .line 283
+    .line 304
     invoke-virtual {p1}, Landroid/widget/TextView;->isSelected()Z
 
     move-result v0
@@ -266,7 +367,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 285
+    .line 306
     invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -275,14 +376,14 @@
 
     move-result-object v0
 
-    .line 286
+    .line 307
     invoke-virtual {p1}, Landroid/widget/TextView;->isSelected()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 287
+    .line 308
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -293,7 +394,7 @@
 
     goto :goto_0
 
-    .line 289
+    .line 310
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
 
@@ -306,7 +407,7 @@
 .method synthetic lambda$onResume$0$com-changyow-iconsole4th-fragment-streaming-VideoListFragment(Landroid/view/View;)V
     .locals 0
 
-    .line 81
+    .line 83
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->showFilterPanel()V
 
     return-void
@@ -315,10 +416,10 @@
 .method synthetic lambda$showFilterPanel$1$com-changyow-iconsole4th-fragment-streaming-VideoListFragment(Landroid/widget/LinearLayout;Landroid/view/View;)V
     .locals 0
 
-    .line 213
+    .line 216
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->resetAllTagItem(Landroid/view/ViewGroup;)V
 
-    .line 214
+    .line 217
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Ljava/util/HashMap;->clear()V
@@ -329,10 +430,10 @@
 .method synthetic lambda$showFilterPanel$2$com-changyow-iconsole4th-fragment-streaming-VideoListFragment(Landroid/app/Dialog;Landroid/view/View;)V
     .locals 0
 
-    .line 218
+    .line 221
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 219
+    .line 222
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoListListAdapter:Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
 
     new-instance p2, Ljava/util/ArrayList;
@@ -341,7 +442,7 @@
 
     invoke-virtual {p1, p2}, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;->setVideos(Ljava/util/List;)V
 
-    .line 220
+    .line 223
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fetchVideos()V
 
     return-void
@@ -358,7 +459,7 @@
         }
     .end annotation
 
-    .line 53
+    .line 55
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/fragment/streaming/StreamBaseFragment;->onCreate(Landroid/os/Bundle;)V
 
     return-void
@@ -379,18 +480,18 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00ae
+    const p3, 0x7f0d00ab
 
     const/4 v0, 0x0
 
-    .line 59
+    .line 61
     invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0a03e0
+    const p2, 0x7f0a03d8
 
-    .line 60
+    .line 62
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -399,7 +500,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->rvVideoList:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 62
+    .line 64
     new-instance p2, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
 
     iget-object p3, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mContext:Landroid/app/Activity;
@@ -410,12 +511,12 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoListListAdapter:Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
 
-    .line 63
+    .line 65
     iget-object p3, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->rvVideoList:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 64
+    .line 66
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->rvVideoList:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance p3, Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -428,7 +529,7 @@
 
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 66
+    .line 68
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fetchTags()V
 
     return-object p1
@@ -437,10 +538,10 @@
 .method public onResume()V
     .locals 2
 
-    .line 74
+    .line 76
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/streaming/StreamBaseFragment;->onResume()V
 
-    .line 75
+    .line 77
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
@@ -451,12 +552,12 @@
 
     move-result-object v0
 
-    .line 76
+    .line 78
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->getCustomView()Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0a01ed
+    const v1, 0x7f0a01eb
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -466,15 +567,15 @@
 
     const/4 v1, 0x0
 
-    .line 77
+    .line 79
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v1, 0x7f0803e1
 
-    .line 78
+    .line 80
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 80
+    .line 82
     new-instance v1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda1;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)V
@@ -496,17 +597,17 @@
         }
     .end annotation
 
-    .line 164
+    .line 166
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 165
+    .line 167
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 167
+    .line 169
     iget-object v2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoTags:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -530,7 +631,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 169
+    .line 171
     iget-object v4, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoTags:Ljava/util/HashMap;
 
     invoke-virtual {v4, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -539,17 +640,17 @@
 
     check-cast v4, Ljava/util/HashMap;
 
-    .line 170
+    .line 172
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 171
+    .line 173
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 173
+    .line 175
     invoke-virtual {v4}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v7
@@ -571,7 +672,7 @@
 
     check-cast v8, Ljava/lang/String;
 
-    .line 175
+    .line 177
     iget-object v9, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mSelectedTags:Ljava/util/HashMap;
 
     invoke-virtual {v9, v8}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -580,14 +681,14 @@
 
     if-eqz v9, :cond_0
 
-    .line 176
+    .line 178
     invoke-virtual {v4, v8}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 177
+    .line 179
     :cond_0
     invoke-virtual {v4, v8}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -597,7 +698,7 @@
 
     goto :goto_1
 
-    .line 180
+    .line 182
     :cond_1
     invoke-virtual {v5}, Ljava/util/ArrayList;->size()I
 
@@ -605,16 +706,16 @@
 
     if-lez v4, :cond_2
 
-    .line 181
+    .line 183
     invoke-virtual {v0, v3, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 182
+    .line 184
     :cond_2
     invoke-virtual {v1, v3, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 185
+    .line 187
     :cond_3
     invoke-virtual {v0}, Ljava/util/HashMap;->size()I
 
@@ -643,7 +744,7 @@
 
     move v1, v0
 
-    .line 265
+    .line 286
     :goto_0
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -651,31 +752,31 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 267
+    .line 288
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 269
+    .line 290
     instance-of v3, v2, Landroid/widget/TextView;
 
     if-eqz v3, :cond_0
 
-    .line 271
+    .line 292
     check-cast v2, Landroid/widget/TextView;
 
-    .line 272
+    .line 293
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setSelected(Z)V
 
     goto :goto_1
 
-    .line 274
+    .line 295
     :cond_0
     instance-of v3, v2, Landroid/view/ViewGroup;
 
     if-eqz v3, :cond_1
 
-    .line 276
+    .line 297
     check-cast v2, Landroid/view/ViewGroup;
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->resetAllTagItem(Landroid/view/ViewGroup;)V
@@ -693,14 +794,14 @@
 .method showFilterPanel()V
     .locals 14
 
-    .line 192
+    .line 194
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoTags:Ljava/util/HashMap;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 197
+    .line 199
     :cond_0
     new-instance v1, Landroid/app/Dialog;
 
@@ -710,12 +811,12 @@
 
     invoke-direct {v1, v2, v3}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0d00d1
+    const v2, 0x7f0d00ce
 
-    .line 198
+    .line 200
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 199
+    .line 201
     invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v2
@@ -728,18 +829,25 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v2, 0x7f0a0293
+    .line 203
+    invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
-    .line 202
+    move-result-object v2
+
+    invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    const v2, 0x7f0a028c
+
+    .line 205
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0a00c6
+    const v3, 0x7f0a00c5
 
-    .line 203
+    .line 206
     invoke-virtual {v1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -748,84 +856,95 @@
 
     const v4, 0x7f0a00a1
 
-    .line 204
+    .line 207
     invoke-virtual {v1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/Button;
 
-    const v5, 0x7f0a02a6
+    const v5, 0x7f0a029f
 
-    .line 205
+    .line 208
     invoke-virtual {v1, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
     check-cast v5, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v6, 0x7f0a026c
+    const v6, 0x7f0a0267
 
-    .line 206
+    .line 209
     invoke-virtual {v1, v6}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
     check-cast v6, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v7, 0x7f0a02a0
+    const v7, 0x7f0a0299
 
-    .line 207
+    .line 210
     invoke-virtual {v1, v7}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
     check-cast v7, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v8, 0x7f0a0283
+    const v8, 0x7f0a027d
 
-    .line 208
+    .line 211
     invoke-virtual {v1, v8}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
     check-cast v8, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v9, 0x7f0a025d
+    const v9, 0x7f0a0259
 
-    .line 209
+    .line 212
     invoke-virtual {v1, v9}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
     check-cast v9, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v10, 0x7f0a0252
+    const v10, 0x7f0a024e
 
-    .line 210
+    .line 213
     invoke-virtual {v1, v10}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
     check-cast v10, Lcom/google/android/flexbox/FlexboxLayout;
 
-    .line 212
+    .line 215
     new-instance v11, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda3;
 
     invoke-direct {v11, p0, v2}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;Landroid/widget/LinearLayout;)V
 
     invoke-virtual {v3, v11}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 217
+    .line 220
     new-instance v2, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda2;
 
     invoke-direct {v2, p0, v1}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;Landroid/app/Dialog;)V
 
     invoke-virtual {v4, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
+    .line 225
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v4, v2}, Landroid/widget/Button;->setTextColor(I)V
+
     const-string/jumbo v2, "type"
 
-    .line 223
+    .line 227
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -834,7 +953,7 @@
 
     const-string v3, "equipment"
 
-    .line 224
+    .line 228
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -843,7 +962,7 @@
 
     const-string/jumbo v4, "time"
 
-    .line 225
+    .line 229
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -852,7 +971,7 @@
 
     const-string v11, "level"
 
-    .line 226
+    .line 230
     invoke-virtual {v0, v11}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v11
@@ -861,7 +980,7 @@
 
     const-string v12, "coach"
 
-    .line 227
+    .line 231
     invoke-virtual {v0, v12}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v12
@@ -870,32 +989,32 @@
 
     const-string v13, "brand"
 
-    .line 228
+    .line 232
     invoke-virtual {v0, v13}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/HashMap;
 
-    .line 230
+    .line 234
     invoke-virtual {p0, v2, v5}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 231
+    .line 235
     invoke-virtual {p0, v3, v6}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 232
+    .line 236
     invoke-virtual {p0, v4, v7}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 233
+    .line 237
     invoke-virtual {p0, v11, v8}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 234
+    .line 238
     invoke-virtual {p0, v12, v9}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 235
+    .line 239
     invoke-virtual {p0, v0, v10}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fillTagGroup(Ljava/util/HashMap;Landroid/view/ViewGroup;)V
 
-    .line 244
+    .line 248
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     return-void

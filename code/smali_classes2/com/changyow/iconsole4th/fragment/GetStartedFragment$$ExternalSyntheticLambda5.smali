@@ -3,7 +3,7 @@
 .source "D8$$SyntheticClass"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnClickListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
@@ -23,12 +23,12 @@
 
 
 # virtual methods
-.method public final onClick(Landroid/content/DialogInterface;I)V
+.method public final run()V
     .locals 1
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda5;->f$0:Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
 
-    invoke-virtual {v0, p1, p2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$showNeverAskAgainForLocation$13$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->lambda$initCustomTheme$9$com-changyow-iconsole4th-fragment-GetStartedFragment()V
 
     return-void
 .end method

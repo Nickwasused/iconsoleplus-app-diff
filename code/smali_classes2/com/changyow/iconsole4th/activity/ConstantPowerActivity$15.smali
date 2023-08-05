@@ -35,14 +35,14 @@
         }
     .end annotation
 
-    .line 645
+    .line 656
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 676
+    .line 687
     iput p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
     return-void
@@ -153,7 +153,7 @@
 
     if-nez p13, :cond_1
 
-    .line 714
+    .line 725
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v2
@@ -166,7 +166,7 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 716
+    .line 727
     iget v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
     const/4 v3, 0x5
@@ -175,12 +175,12 @@
 
     add-int/2addr v2, v1
 
-    .line 717
+    .line 728
     iput v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
     goto :goto_0
 
-    .line 719
+    .line 730
     :cond_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -191,10 +191,10 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 722
+    .line 733
     iput v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
-    .line 724
+    .line 735
     :goto_0
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -204,7 +204,7 @@
 
     if-lez v2, :cond_2
 
-    .line 725
+    .line 736
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
@@ -217,7 +217,7 @@
 
     if-lt v15, v2, :cond_3
 
-    .line 726
+    .line 737
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->stopWorkout()V
@@ -227,7 +227,7 @@
     :cond_2
     move/from16 v15, p1
 
-    .line 729
+    .line 740
     :cond_3
     :goto_1
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
@@ -238,12 +238,12 @@
 
     if-lez v2, :cond_4
 
-    .line 730
+    .line 741
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v2}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
 
-    .line 733
+    .line 744
     :cond_4
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -251,12 +251,12 @@
 
     if-ne v2, v14, :cond_5
 
-    .line 734
+    .line 745
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     iput-boolean v1, v2, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bChangeSent:Z
 
-    .line 735
+    .line 746
     :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -268,12 +268,12 @@
 
     if-eqz v2, :cond_6
 
-    .line 736
+    .line 747
     iget-object v2, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     iput-boolean v1, v2, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bChangeSent:Z
 
-    .line 738
+    .line 749
     :cond_6
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -281,12 +281,12 @@
 
     if-eqz v1, :cond_7
 
-    .line 739
+    .line 750
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     iput v14, v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mChangeToLevel:I
 
-    .line 740
+    .line 751
     :cond_7
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -298,7 +298,7 @@
 
     move-result v16
 
-    .line 741
+    .line 752
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     move/from16 v2, p1
@@ -321,14 +321,14 @@
 
     invoke-virtual/range {v1 .. v13}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(IIIDDIDII)V
 
-    .line 742
+    .line 753
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
 
     invoke-virtual/range {v1 .. v13}, Lcom/changyow/iconsole4th/FlowControl;->keepWorkoutStatus(IIIDDIDII)V
 
-    .line 743
+    .line 754
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -347,7 +347,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/changyow/iconsole4th/FlowControl;->keepTarget(II)V
 
-    .line 744
+    .line 755
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$900(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
@@ -356,7 +356,7 @@
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/view/ConstantPowerChartView;->invalidate()V
 
-    .line 746
+    .line 757
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     move/from16 v2, p3
@@ -435,7 +435,7 @@
 
     if-nez p13, :cond_1
 
-    .line 682
+    .line 693
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v3
@@ -448,7 +448,7 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 684
+    .line 695
     iget v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
     const/4 v4, 0x5
@@ -457,12 +457,12 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 685
+    .line 696
     iput v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
     goto :goto_0
 
-    .line 687
+    .line 698
     :cond_0
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -473,10 +473,10 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 690
+    .line 701
     iput v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->pauseCheck:I
 
-    .line 692
+    .line 703
     :goto_0
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -486,7 +486,7 @@
 
     if-lez v3, :cond_2
 
-    .line 693
+    .line 704
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v3}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
@@ -497,12 +497,12 @@
 
     if-lt v2, v3, :cond_2
 
-    .line 694
+    .line 705
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->stopWorkout()V
 
-    .line 697
+    .line 708
     :cond_2
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -512,7 +512,7 @@
 
     if-lez v3, :cond_3
 
-    .line 698
+    .line 709
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v3}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
@@ -530,7 +530,7 @@
     :cond_3
     move v4, v2
 
-    .line 700
+    .line 711
     :goto_1
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
@@ -538,12 +538,12 @@
 
     if-eqz v3, :cond_4
 
-    .line 701
+    .line 712
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     iput v1, v3, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mChangeToLevel:I
 
-    .line 702
+    .line 713
     :cond_4
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -555,7 +555,7 @@
 
     move-result v16
 
-    .line 703
+    .line 714
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     move-wide/from16 v5, p2
@@ -574,7 +574,7 @@
 
     invoke-virtual/range {v3 .. v15}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(IDIDDIDI)V
 
-    .line 704
+    .line 715
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v3
@@ -601,7 +601,7 @@
 
     invoke-virtual/range {v1 .. v13}, Lcom/changyow/iconsole4th/FlowControl;->keepWorkoutStatus(IDIDDIDI)V
 
-    .line 705
+    .line 716
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -620,7 +620,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/changyow/iconsole4th/FlowControl;->keepTarget(II)V
 
-    .line 706
+    .line 717
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$900(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
@@ -629,7 +629,7 @@
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/view/ConstantPowerChartView;->invalidate()V
 
-    .line 708
+    .line 719
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     move/from16 v2, p4
@@ -654,7 +654,7 @@
 
     if-nez p1, :cond_0
 
-    .line 670
+    .line 681
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->stopWorkout()V
@@ -664,7 +664,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 673
+    .line 684
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     const/4 v0, 0x0

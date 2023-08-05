@@ -6,11 +6,11 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;,
         Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;,
-        Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;,
-        Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;,
         Lcom/changyow/iconsole4th/models/MetsSettings$Identifier;,
-        Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
+        Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;,
+        Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
     }
 .end annotation
 

@@ -34,10 +34,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 45
+    .line 46
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;-><init>()V
 
-    .line 38
+    .line 39
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -58,7 +58,7 @@
         }
     .end annotation
 
-    .line 160
+    .line 182
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -73,12 +73,12 @@
 .method private initUI()V
     .locals 1
 
-    .line 117
+    .line 139
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMenu:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 118
+    .line 140
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMessage:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -89,7 +89,7 @@
 .method private setUI()V
     .locals 3
 
-    .line 123
+    .line 145
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->mFragments:Ljava/util/ArrayList;
 
     new-instance v1, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;
@@ -98,7 +98,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 124
+    .line 146
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->mFragments:Ljava/util/ArrayList;
 
     new-instance v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;
@@ -107,7 +107,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 126
+    .line 148
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->vpContent:Landroidx/viewpager/widget/ViewPager;
 
     new-instance v1, Lcom/changyow/iconsole4th/fragment/HomeFragment$2;
@@ -124,7 +124,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 141
+    .line 163
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->vpContent:Landroidx/viewpager/widget/ViewPager;
@@ -136,6 +136,148 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 4
+
+    .line 119
+    invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->initCustomTheme()V
+
+    .line 120
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    .line 121
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 123
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 124
+    invoke-static {v0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v0
+
+    .line 125
+    sget-object v1, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v1}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/changyow/iconsole4th/models/Style;->getMainTabbarSelectedBarColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 126
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    .line 127
+    sget-object v2, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v2}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/changyow/iconsole4th/models/Style;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 128
+    invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v2
+
+    .line 130
+    iget-object v3, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
+
+    invoke-virtual {v3, v0}, Lcom/gigamole/navigationtabstrip/NavigationTabStrip;->setBackgroundColor(I)V
+
+    .line 131
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
+
+    invoke-virtual {v0, v2}, Lcom/gigamole/navigationtabstrip/NavigationTabStrip;->setActiveColor(I)V
+
+    .line 132
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
+
+    invoke-virtual {v0, v2}, Lcom/gigamole/navigationtabstrip/NavigationTabStrip;->setInactiveColor(I)V
+
+    .line 133
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
+
+    invoke-virtual {v0, v1}, Lcom/gigamole/navigationtabstrip/NavigationTabStrip;->setStripColor(I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method synthetic lambda$onLogoUpdatedEvent$0$com-changyow-iconsole4th-fragment-HomeFragment()V
+    .locals 1
+
+    .line 190
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentActivity;->recreate()V
+
+    return-void
+.end method
+
+.method synthetic lambda$onLogoUpdatedEvent$1$com-changyow-iconsole4th-fragment-HomeFragment(Landroid/graphics/Bitmap;)V
+    .locals 1
+
+    if-eqz p1, :cond_0
+
+    .line 197
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ivLogo:Landroid/widget/ImageView;
+
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+
+    .line 198
+    :cond_0
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->initCustomTheme()V
+
+    return-void
+.end method
+
 .method public onClick(Landroid/view/View;)V
     .locals 2
     .annotation system Ldalvik/annotation/MethodParameters;
@@ -147,18 +289,18 @@
         }
     .end annotation
 
-    .line 148
+    .line 170
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
 
-    const v1, 0x7f0a00b2
+    const v1, 0x7f0a00b1
 
     if-eq v0, v1, :cond_0
 
     goto :goto_0
 
-    .line 152
+    .line 174
     :cond_0
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMenuPressed(Landroid/view/View;)V
 
@@ -177,10 +319,10 @@
         }
     .end annotation
 
-    .line 51
+    .line 52
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 52
+    .line 53
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -205,18 +347,18 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00a7
+    const p3, 0x7f0d00a4
 
     const/4 v0, 0x0
 
-    .line 58
+    .line 59
     invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0a0225
+    const p2, 0x7f0a0223
 
-    .line 59
+    .line 60
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -225,9 +367,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ivLogo:Landroid/widget/ImageView;
 
-    const p2, 0x7f0a01aa
+    const p2, 0x7f0a01a8
 
-    .line 60
+    .line 61
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -235,17 +377,6 @@
     check-cast p2, Landroid/widget/RelativeLayout;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
-
-    const p2, 0x7f0a00b3
-
-    .line 61
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object p2
-
-    check-cast p2, Landroid/widget/ImageButton;
-
-    iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMessage:Landroid/widget/ImageButton;
 
     const p2, 0x7f0a00b2
 
@@ -256,11 +387,22 @@
 
     check-cast p2, Landroid/widget/ImageButton;
 
-    iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMenu:Landroid/widget/ImageButton;
+    iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMessage:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a05bc
+    const p2, 0x7f0a00b1
 
     .line 63
+    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p2
+
+    check-cast p2, Landroid/widget/ImageButton;
+
+    iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->btnMenu:Landroid/widget/ImageButton;
+
+    const p2, 0x7f0a05c8
+
+    .line 64
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -269,9 +411,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->vpContent:Landroidx/viewpager/widget/ViewPager;
 
-    const p2, 0x7f0a0367
+    const p2, 0x7f0a035d
 
-    .line 64
+    .line 65
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -280,13 +422,13 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
 
-    .line 66
+    .line 67
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->initUI()V
 
-    .line 67
+    .line 68
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->setUI()V
 
-    .line 69
+    .line 70
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->mContext:Landroid/app/Activity;
 
     const/4 p3, 0x1
@@ -301,10 +443,10 @@
 .method public onDestroy()V
     .locals 1
 
-    .line 111
+    .line 112
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onDestroy()V
 
-    .line 112
+    .line 113
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -315,7 +457,7 @@
 .end method
 
 .method public onLogoUpdatedEvent(Lcom/changyow/iconsole4th/events/LogoUpdatedEvent;)V
-    .locals 1
+    .locals 2
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0
@@ -326,44 +468,69 @@
     .end annotation
 
     .annotation runtime Lorg/greenrobot/eventbus/Subscribe;
-        threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
+        threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->BACKGROUND:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 166
+    .line 188
+    invoke-virtual {p1}, Lcom/changyow/iconsole4th/events/LogoUpdatedEvent;->needsResetView()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 190
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object p1
+
+    new-instance v0, Lcom/changyow/iconsole4th/fragment/HomeFragment$$ExternalSyntheticLambda0;
+
+    invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/HomeFragment;)V
+
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    .line 194
+    :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getLogo()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    if-eqz p1, :cond_0
+    .line 195
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/HomeFragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
-    .line 168
-    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ivLogo:Landroid/widget/ImageView;
+    move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    new-instance v1, Lcom/changyow/iconsole4th/fragment/HomeFragment$$ExternalSyntheticLambda1;
 
-    :cond_0
+    invoke-direct {v1, p0, p1}, Lcom/changyow/iconsole4th/fragment/HomeFragment$$ExternalSyntheticLambda1;-><init>(Lcom/changyow/iconsole4th/fragment/HomeFragment;Landroid/graphics/Bitmap;)V
+
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+
+    :goto_0
     return-void
 .end method
 
 .method public onResume()V
     .locals 2
 
-    .line 89
+    .line 90
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onResume()V
 
-    .line 90
+    .line 91
     invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getLogo()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 92
+    .line 93
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/HomeFragment;->ivLogo:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 94
+    .line 95
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -375,7 +542,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/FlowControl;->refreshToken(Lcom/changyow/iconsole4th/interfaces/SimpleCallback;)V
 
-    .line 105
+    .line 106
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -392,7 +559,7 @@
 .method public onStart()V
     .locals 0
 
-    .line 77
+    .line 78
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onStart()V
 
     return-void
@@ -401,7 +568,7 @@
 .method public onStop()V
     .locals 0
 
-    .line 83
+    .line 84
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onStop()V
 
     return-void

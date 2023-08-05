@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 192
+    .line 197
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -74,7 +74,7 @@
         }
     .end annotation
 
-    .line 198
+    .line 203
     :try_start_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
@@ -90,7 +90,7 @@
 
     return-void
 
-    .line 202
+    .line 207
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
@@ -115,7 +115,7 @@
     :catch_0
     move-exception p1
 
-    .line 206
+    .line 211
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -139,7 +139,7 @@
         }
     .end annotation
 
-    .line 218
+    .line 223
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->cameraSource:Lcom/google/android/gms/vision/CameraSource;

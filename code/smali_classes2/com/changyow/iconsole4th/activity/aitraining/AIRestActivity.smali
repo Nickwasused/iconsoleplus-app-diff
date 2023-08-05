@@ -152,15 +152,15 @@
     .line 251
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bChangeSent:Z
 
-    .line 329
+    .line 330
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bCanceled:Z
 
-    .line 454
+    .line 455
     iput v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->duration:I
 
     const-wide/16 v0, 0x0
 
-    .line 455
+    .line 456
     iput-wide v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->calories:D
 
     return-void
@@ -246,7 +246,7 @@
 
     int-to-double v0, p1
 
-    .line 404
+    .line 405
     iget p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->age:I
 
     rsub-int p1, p1, 0xdc
@@ -269,7 +269,7 @@
 
     div-double/2addr v0, v2
 
-    .line 407
+    .line 408
     iget p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->maximumOxygenUptake:I
 
     int-to-double v2, p1
@@ -303,7 +303,7 @@
 .method private getMaxV02()I
     .locals 11
 
-    .line 417
+    .line 418
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -334,7 +334,7 @@
 
     if-ne v0, v10, :cond_4
 
-    .line 421
+    .line 422
     iget v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->age:I
 
     if-gt v0, v8, :cond_0
@@ -368,7 +368,7 @@
     :cond_4
     if-nez v0, :cond_a
 
-    .line 437
+    .line 438
     iget v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->age:I
 
     if-gt v0, v8, :cond_5
@@ -422,7 +422,7 @@
 .method private goNext()V
     .locals 5
 
-    .line 356
+    .line 357
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getDuration()Ljava/lang/Integer;
@@ -437,7 +437,7 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 357
+    .line 358
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -446,7 +446,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/FlowControl;->saveAnduploadActivity(Lcom/changyow/iconsole4th/db/ActivityRecord;)Lcom/changyow/iconsole4th/FlowControl;
 
-    .line 359
+    .line 360
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->aiWorkout:Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
@@ -464,7 +464,7 @@
 
     if-gt v0, v1, :cond_1
 
-    .line 360
+    .line 361
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->aiWorkout:Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
     const/4 v1, 0x1
@@ -473,7 +473,7 @@
 
     goto :goto_0
 
-    .line 362
+    .line 363
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->aiWorkout:Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
@@ -481,7 +481,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->status:I
 
-    .line 363
+    .line 364
     :goto_0
     sget-object v0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->SharedGson:Lcom/google/gson/Gson;
 
@@ -491,7 +491,7 @@
 
     move-result-object v0
 
-    .line 365
+    .line 366
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mAIWorkoutGroup:Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
     iget-object v1, v1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup;->ai_workouts:Ljava/util/List;
@@ -506,7 +506,7 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 367
+    .line 368
     :goto_1
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mAIWorkoutGroup:Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
@@ -518,7 +518,7 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 368
+    .line 369
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mAIWorkoutGroup:Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
     iget-object v4, v4, Lcom/changyow/iconsole4th/db/AIWorkoutGroup;->ai_workouts:Ljava/util/List;
@@ -548,7 +548,7 @@
 
     if-le v2, v1, :cond_5
 
-    .line 376
+    .line 377
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mAIWorkoutGroup:Lcom/changyow/iconsole4th/db/AIWorkoutGroup;
 
     iget-object v1, v1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup;->ai_workouts:Ljava/util/List;
@@ -559,7 +559,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
 
-    .line 377
+    .line 378
     iget-object v1, v1, Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;->type:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/changyow/iconsole4th/def/Const$Equipments;->getType(Ljava/lang/String;)I
@@ -570,7 +570,7 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 381
+    .line 382
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -581,7 +581,7 @@
 
     goto :goto_3
 
-    .line 383
+    .line 384
     :cond_4
     new-instance v1, Landroid/content/Intent;
 
@@ -591,7 +591,7 @@
 
     invoke-direct {v1, v2, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 385
+    .line 386
     :goto_3
     const-class v2, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;
 
@@ -603,15 +603,15 @@
 
     invoke-virtual {v1, v4, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 386
+    .line 387
     invoke-virtual {v1, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 387
+    .line 388
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_4
 
-    .line 391
+    .line 392
     :cond_5
     new-instance v1, Landroid/content/Intent;
 
@@ -621,13 +621,13 @@
 
     invoke-direct {v1, v2, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 392
+    .line 393
     invoke-virtual {v1, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 393
+    .line 394
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 397
+    .line 398
     :goto_4
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->finish()V
 
@@ -648,7 +648,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00d5
+    const v1, 0x7f0d00d2
 
     .line 256
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
@@ -668,10 +668,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 259
+    .line 258
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 260
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
+
+    const v1, 0x7f0a0244
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -679,17 +688,17 @@
 
     check-cast v0, Landroid/widget/RelativeLayout;
 
-    .line 260
+    .line 261
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$3;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 269
+    .line 270
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a00da
+    const v1, 0x7f0a00d7
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -697,7 +706,7 @@
 
     check-cast v0, Landroid/widget/ImageButton;
 
-    .line 270
+    .line 271
     new-instance v1, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$4;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;)V
@@ -1094,7 +1103,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
@@ -1111,7 +1120,7 @@
     .line 153
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
     .line 155
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1120,7 +1129,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
     .line 156
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1129,7 +1138,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
     .line 157
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1138,7 +1147,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
     .line 158
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1175,30 +1184,30 @@
 .method private showControlPanel()V
     .locals 1
 
-    .line 282
+    .line 283
     monitor-enter p0
 
-    .line 284
+    .line 285
     :try_start_0
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bTrainingStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 285
+    .line 286
     monitor-exit p0
 
     return-void
 
-    .line 287
+    .line 288
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
     if-nez v0, :cond_1
 
-    .line 288
+    .line 289
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->prepareControlPanel()V
 
-    .line 290
+    .line 291
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
@@ -1210,13 +1219,13 @@
 
     goto :goto_0
 
-    .line 294
+    .line 295
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mControlPanel:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 295
+    .line 296
     :goto_0
     monitor-exit p0
 
@@ -1264,13 +1273,13 @@
 
     const/4 v0, 0x1
 
-    .line 314
+    .line 315
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bTrainingStarted:Z
 
-    .line 315
+    .line 316
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->setupWorkoutActionbar()V
 
-    .line 317
+    .line 318
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1295,7 +1304,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 318
+    .line 319
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1320,14 +1329,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 319
+    .line 320
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 321
+    .line 322
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1336,7 +1345,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 322
+    .line 323
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1345,7 +1354,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 323
+    .line 324
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1354,7 +1363,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 324
+    .line 325
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1363,7 +1372,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 326
+    .line 327
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->startRefreshUITimer()V
 
     return-void
@@ -1372,7 +1381,7 @@
 .method private updateData()V
     .locals 4
 
-    .line 300
+    .line 301
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1381,19 +1390,19 @@
 
     move-result v0
 
-    .line 301
+    .line 302
     invoke-static {v0}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 303
+    .line 304
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->pbProgress:Landroid/widget/ProgressBar;
 
     iget v3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->duration:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 304
+    .line 305
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->duration:I
@@ -1404,7 +1413,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 305
+    .line 306
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvHeartRate:Landroid/widget/TextView;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1431,12 +1440,12 @@
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 306
+    .line 307
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvHrZone:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 308
+    .line 309
     iget v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->duration:I
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->aiWorkout:Lcom/changyow/iconsole4th/db/AIWorkoutGroup$Workout;
@@ -1445,7 +1454,7 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 309
+    .line 310
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->stopWorkout()V
 
     :cond_0
@@ -1488,7 +1497,7 @@
     .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0554
+    const p1, 0x7f0a055f
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1499,7 +1508,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvTimer:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04e5
+    const p1, 0x7f0a04e3
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1510,7 +1519,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvHrZone:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04dc
+    const p1, 0x7f0a04da
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1521,7 +1530,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvHeartRate:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1532,7 +1541,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a023b
+    const p1, 0x7f0a023a
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1543,7 +1552,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->lavAnimation:Lcom/airbnb/lottie/LottieAnimationView;
 
-    const p1, 0x7f0a028e
+    const p1, 0x7f0a0287
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1554,7 +1563,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->layoutProgress:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0384
+    const p1, 0x7f0a037c
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1565,7 +1574,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->pbProgress:Landroid/widget/ProgressBar;
 
-    const p1, 0x7f0a0280
+    const p1, 0x7f0a027a
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1576,7 +1585,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->layoutInfoPane:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0288
+    const p1, 0x7f0a0281
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1587,7 +1596,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->layoutNotes:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a029f
+    const p1, 0x7f0a0298
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1598,7 +1607,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->layoutSteps:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a050c
+    const p1, 0x7f0a050f
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1609,7 +1618,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvNextStepDuration:Landroid/widget/TextView;
 
-    const p1, 0x7f0a050b
+    const p1, 0x7f0a050e
 
     .line 88
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1620,7 +1629,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvNextStep:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04ca
+    const p1, 0x7f0a04c4
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1631,7 +1640,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvCurrentStepDuration:Landroid/widget/TextView;
 
-    const p1, 0x7f0a04c9
+    const p1, 0x7f0a04c3
 
     .line 90
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1642,7 +1651,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvCurrentStep:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0518
+    const p1, 0x7f0a051b
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1653,7 +1662,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->txvPrevStepDuration:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0517
+    const p1, 0x7f0a051a
 
     .line 92
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->findViewById(I)Landroid/view/View;
@@ -1854,7 +1863,7 @@
 .method public stopWorkout()V
     .locals 2
 
-    .line 333
+    .line 334
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1865,13 +1874,13 @@
 
     monitor-enter v0
 
-    .line 335
+    .line 336
     :try_start_0
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bCanceled:Z
 
     if-eqz v1, :cond_0
 
-    .line 336
+    .line 337
     monitor-exit v0
 
     return-void
@@ -1879,30 +1888,30 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 337
+    .line 338
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->bCanceled:Z
 
-    .line 338
+    .line 339
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 339
+    .line 340
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->cancelRefreshUITimer()V
 
-    .line 340
+    .line 341
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 341
+    .line 342
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 342
+    .line 343
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIRestActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1911,7 +1920,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setRpe(Ljava/lang/Integer;)V
 
-    .line 344
+    .line 345
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1927,7 +1936,7 @@
     :catchall_0
     move-exception v1
 
-    .line 338
+    .line 339
     :try_start_1
     monitor-exit v0
     :try_end_1

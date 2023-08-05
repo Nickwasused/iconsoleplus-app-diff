@@ -37,6 +37,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 826
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7$1;->this$1:Lcom/changyow/iconsole4th/util/MapUtil$7;
 

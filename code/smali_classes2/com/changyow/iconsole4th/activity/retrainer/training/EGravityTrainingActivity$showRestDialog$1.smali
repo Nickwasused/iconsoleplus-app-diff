@@ -22,7 +22,7 @@
         "Ljava/util/TimerTask;",
         "run",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -52,7 +52,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$showRestDialog$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;
 
-    .line 330
+    .line 347
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     return-void
@@ -65,7 +65,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 333
+    .line 350
     invoke-static {p0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityTrainingBinding;
 
     move-result-object v0
@@ -101,7 +101,7 @@
 .method public run()V
     .locals 2
 
-    .line 332
+    .line 349
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$showRestDialog$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->getMRestSeconds()I
@@ -112,7 +112,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;->setMRestSeconds(I)V
 
-    .line 333
+    .line 350
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$showRestDialog$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityTrainingActivity$showRestDialog$1$$ExternalSyntheticLambda0;

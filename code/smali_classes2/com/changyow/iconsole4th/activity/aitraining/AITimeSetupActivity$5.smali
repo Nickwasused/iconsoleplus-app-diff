@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 267
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 278
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$5;->val$dialog:Landroidx/appcompat/app/AlertDialog;
@@ -60,12 +66,12 @@
         }
     .end annotation
 
-    .line 271
+    .line 282
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$5;->val$dialog:Landroidx/appcompat/app/AlertDialog;
 
     if-eqz p1, :cond_0
 
-    .line 272
+    .line 283
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->dismiss()V
 
     :cond_0

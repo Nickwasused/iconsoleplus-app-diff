@@ -42,7 +42,7 @@
         }
     .end annotation
 
-    .line 223
+    .line 228
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -72,12 +72,12 @@
         }
     .end annotation
 
-    .line 232
+    .line 237
     invoke-virtual {p1}, Lcom/google/android/gms/vision/Detector$Detections;->getDetectedItems()Landroid/util/SparseArray;
 
     move-result-object p1
 
-    .line 234
+    .line 239
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v0
@@ -86,7 +86,7 @@
 
     const/4 v0, 0x0
 
-    .line 236
+    .line 241
     invoke-virtual {p1, v0}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -97,7 +97,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 238
+    .line 243
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -106,7 +106,7 @@
 
     goto :goto_0
 
-    .line 241
+    .line 246
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
@@ -120,13 +120,13 @@
 
     return-void
 
-    .line 244
+    .line 249
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iput-object p1, v0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mLastestBarcode:Ljava/lang/String;
 
-    .line 247
+    .line 252
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mLastestBarcode:Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 249
+    .line 254
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
@@ -172,7 +172,7 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 250
+    .line 255
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mLastestBarcode:Ljava/lang/String;
@@ -181,12 +181,12 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 251
+    .line 256
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 252
+    .line 257
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;

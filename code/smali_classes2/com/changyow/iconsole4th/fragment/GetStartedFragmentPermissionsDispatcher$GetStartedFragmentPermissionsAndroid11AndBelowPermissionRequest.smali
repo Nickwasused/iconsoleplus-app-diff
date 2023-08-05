@@ -125,7 +125,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x5
+    const/4 v2, 0x3
 
     invoke-virtual {v0, v1, v2}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V
 

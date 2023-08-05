@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 384
+    .line 417
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 390
+    .line 423
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -75,7 +75,7 @@
     :goto_0
     move v4, p1
 
-    .line 393
+    .line 426
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/IntervalWorkoutActivity;
 
     const p1, 0x7f120318

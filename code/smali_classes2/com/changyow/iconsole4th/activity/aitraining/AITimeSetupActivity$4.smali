@@ -53,7 +53,13 @@
         }
     .end annotation
 
-    .line 236
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 247
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$dialog:Landroidx/appcompat/app/AlertDialog;
@@ -84,15 +90,15 @@
         }
     .end annotation
 
-    .line 240
+    .line 251
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$dialog:Landroidx/appcompat/app/AlertDialog;
 
     if-eqz p1, :cond_0
 
-    .line 241
+    .line 252
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->dismiss()V
 
-    .line 243
+    .line 254
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$spWeeday:Landroid/widget/Spinner;
 
@@ -100,19 +106,19 @@
 
     move-result p1
 
-    .line 244
+    .line 255
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$weekdays:[Ljava/lang/String;
 
     aget-object p1, v0, p1
 
-    .line 245
+    .line 256
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$spStart:Landroid/widget/Spinner;
 
     invoke-virtual {v0}, Landroid/widget/Spinner;->getSelectedItemPosition()I
 
     move-result v0
 
-    .line 246
+    .line 257
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->val$spEnd:Landroid/widget/Spinner;
 
     invoke-virtual {v1}, Landroid/widget/Spinner;->getSelectedItemPosition()I
@@ -125,7 +131,7 @@
 
     add-int/2addr v1, v2
 
-    .line 248
+    .line 259
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     invoke-static {v3}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->access$300(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -144,13 +150,13 @@
 
     const/4 v4, 0x0
 
-    .line 250
+    .line 261
     :goto_0
     array-length v5, v3
 
     if-ge v4, v5, :cond_2
 
-    .line 251
+    .line 262
     aget-object v5, v3, v4
 
     invoke-virtual {p1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -168,7 +174,7 @@
 
     goto :goto_0
 
-    .line 257
+    .line 268
     :cond_2
     :goto_1
     invoke-static {v2}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getTimeSetupByWeekday(I)Lcom/changyow/iconsole4th/db/RDBAITimeSetup;
@@ -177,14 +183,14 @@
 
     if-eqz p1, :cond_3
 
-    .line 259
+    .line 270
     invoke-static {p1}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->deleteTimeSetup(Lcom/changyow/iconsole4th/db/RDBAITimeSetup;)V
 
-    .line 260
+    .line 271
     :cond_3
     invoke-static {v2, v0, v1}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->addNewTimeSetup(III)V
 
-    .line 261
+    .line 272
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->access$400(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
@@ -193,7 +199,7 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;->refreshData()V
 
-    .line 262
+    .line 273
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->access$500(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)V

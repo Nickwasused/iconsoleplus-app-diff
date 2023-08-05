@@ -35,12 +35,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 37
+    .line 39
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 184
+    .line 193
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->bOnce:Z
 
     return-void
@@ -49,7 +49,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -58,7 +58,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;I[Ljava/lang/String;)[Ljava/lang/String;
     .locals 0
 
-    .line 37
+    .line 39
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->arrangeSpEndItems(I[Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
@@ -69,7 +69,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -78,7 +78,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -87,7 +87,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
     .locals 0
 
-    .line 37
+    .line 39
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mTimeSetupAdapter:Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 
     return-object p0
@@ -96,7 +96,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)V
     .locals 0
 
-    .line 37
+    .line 39
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->checkWeekdayState()V
 
     return-void
@@ -115,7 +115,7 @@
         }
     .end annotation
 
-    .line 283
+    .line 294
     array-length v0, p2
 
     add-int/lit8 v0, v0, -0x1
@@ -124,14 +124,14 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 284
+    .line 295
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 287
+    .line 298
     :cond_0
     array-length v0, p2
 
@@ -144,12 +144,12 @@
     :goto_0
     add-int/lit8 p1, p1, 0x1
 
-    .line 289
+    .line 300
     array-length v3, p2
 
     if-ge p1, v3, :cond_1
 
-    .line 291
+    .line 302
     aget-object v3, p2, p1
 
     aput-object v3, v0, v2
@@ -158,7 +158,7 @@
 
     goto :goto_0
 
-    .line 294
+    .line 305
     :cond_1
     aput-object v1, v0, v2
 
@@ -171,14 +171,14 @@
 .method private checkWeekdayState()V
     .locals 5
 
-    .line 104
+    .line 113
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mTimeSetupAdapter:Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;->getWeekdayState()Ljava/util/List;
 
     move-result-object v0
 
-    .line 105
+    .line 114
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySun:Landroid/widget/TextView;
 
     const/4 v2, 0x0
@@ -195,7 +195,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 106
+    .line 115
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayMon:Landroid/widget/TextView;
 
     const/4 v3, 0x1
@@ -212,7 +212,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 107
+    .line 116
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayTue:Landroid/widget/TextView;
 
     const/4 v4, 0x2
@@ -229,7 +229,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 108
+    .line 117
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayWed:Landroid/widget/TextView;
 
     const/4 v4, 0x3
@@ -246,7 +246,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 109
+    .line 118
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayThu:Landroid/widget/TextView;
 
     const/4 v4, 0x4
@@ -263,7 +263,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 110
+    .line 119
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayFri:Landroid/widget/TextView;
 
     const/4 v4, 0x5
@@ -280,7 +280,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 111
+    .line 120
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySat:Landroid/widget/TextView;
 
     const/4 v4, 0x6
@@ -297,7 +297,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 114
+    .line 123
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -317,7 +317,7 @@
 
     check-cast v4, Ljava/lang/Boolean;
 
-    .line 115
+    .line 124
     invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
@@ -329,14 +329,14 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    .line 118
+    .line 127
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->btnDone:Landroid/widget/Button;
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setEnabled(Z)V
 
     goto :goto_1
 
-    .line 120
+    .line 129
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->btnDone:Landroid/widget/Button;
 
@@ -349,73 +349,73 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 125
+    .line 134
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 126
+    .line 135
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 127
+    .line 136
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 129
+    .line 138
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 130
+    .line 139
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 132
+    .line 141
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 133
+    .line 142
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 135
+    .line 144
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 136
+    .line 145
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 137
+    .line 146
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 138
+    .line 147
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -424,32 +424,32 @@
 
     const v4, 0x7f1202c4
 
-    .line 140
+    .line 149
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const v0, 0x7f080365
 
-    .line 141
+    .line 150
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const v0, 0x7f08028d
 
-    .line 142
+    .line 151
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const/4 v0, 0x4
 
-    .line 143
+    .line 152
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 145
+    .line 154
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$1;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)V
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 156
+    .line 165
     new-instance v0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$2;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;)V
@@ -464,14 +464,14 @@
 .method public addTimeSetup()V
     .locals 3
 
-    .line 176
+    .line 185
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mTimeSetupAdapter:Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;->getAvailableWeekdays()[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 178
+    .line 187
     array-length v1, v0
 
     if-nez v1, :cond_0
@@ -483,7 +483,7 @@
 
     const/4 v2, -0x1
 
-    .line 181
+    .line 190
     invoke-virtual {p0, v1, v0, v2}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->showTimeSetupDialog(Z[Ljava/lang/String;I)V
 
     return-void
@@ -500,7 +500,7 @@
         }
     .end annotation
 
-    .line 95
+    .line 104
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -509,17 +509,17 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 96
+    .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 98
+    .line 107
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/FlowControl;->saveUserSettings()V
 
-    .line 99
+    .line 108
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->finish()V
 
     return-void
@@ -536,7 +536,7 @@
         }
     .end annotation
 
-    .line 168
+    .line 177
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -553,15 +553,29 @@
 
     add-int/lit8 v3, p1, -0x1
 
-    .line 170
+    .line 179
     aget-object v0, v0, v3
 
     const/4 v3, 0x0
 
     aput-object v0, v2, v3
 
-    .line 171
+    .line 180
     invoke-virtual {p0, v1, v2, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->showTimeSetupDialog(Z[Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 98
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 99
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->btnDone:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
 
     return-void
 .end method
@@ -577,17 +591,17 @@
         }
     .end annotation
 
-    .line 57
+    .line 59
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0022
 
-    .line 58
+    .line 60
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02d8
+    const p1, 0x7f0a02ce
 
-    .line 59
+    .line 61
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -598,7 +612,7 @@
 
     const p1, 0x7f0a00a1
 
-    .line 60
+    .line 62
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -607,29 +621,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->btnDone:Landroid/widget/Button;
 
-    const p1, 0x7f0a0248
-
-    .line 61
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->layout2:Landroid/widget/TextView;
-
     const p1, 0x7f0a0245
-
-    .line 62
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/LinearLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->layout1:Landroid/widget/LinearLayout;
-
-    const p1, 0x7f0a0582
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -638,20 +630,20 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySat:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->layout2:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0580
+    const p1, 0x7f0a0244
 
     .line 64
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/LinearLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayFri:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->layout1:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0a0584
+    const p1, 0x7f0a058e
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -660,9 +652,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayThu:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySat:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0586
+    const p1, 0x7f0a058c
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -671,9 +663,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayWed:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayFri:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0585
+    const p1, 0x7f0a0590
 
     .line 67
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -682,9 +674,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayTue:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayThu:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0581
+    const p1, 0x7f0a0592
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -693,9 +685,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayMon:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayWed:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0583
+    const p1, 0x7f0a0591
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
@@ -704,12 +696,34 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySun:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayTue:Landroid/widget/TextView;
+
+    const p1, 0x7f0a058d
+
+    .line 70
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdayMon:Landroid/widget/TextView;
+
+    const p1, 0x7f0a058f
 
     .line 71
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->setupInitActionbar()V
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->txvWeekdaySun:Landroid/widget/TextView;
 
     .line 73
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->setupInitActionbar()V
+
+    .line 75
     new-instance p1, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -720,12 +734,12 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mTimeSetupAdapter:Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 
-    .line 74
+    .line 76
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->lvTimeSetups:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 75
+    .line 77
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->lvTimeSetups:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance v0, Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -754,7 +768,7 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 302
+    .line 313
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->checkWeekdayState()V
 
     return-void
@@ -775,7 +789,7 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 308
+    .line 319
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/events/AITimeSetupItemEditEvent;->getWeekday()I
 
     move-result p1
@@ -788,7 +802,7 @@
 .method public onPause()V
     .locals 2
 
-    .line 89
+    .line 91
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -797,7 +811,7 @@
 
     invoke-virtual {v0, v1}, Lorg/greenrobot/eventbus/EventBus;->unregister(Ljava/lang/Object;)V
 
-    .line 90
+    .line 92
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onPause()V
 
     return-void
@@ -806,10 +820,10 @@
 .method public onResume()V
     .locals 2
 
-    .line 81
+    .line 83
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onResume()V
 
-    .line 82
+    .line 84
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -818,7 +832,7 @@
 
     invoke-virtual {v0, v1}, Lorg/greenrobot/eventbus/EventBus;->register(Ljava/lang/Object;)V
 
-    .line 83
+    .line 85
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->checkWeekdayState()V
 
     return-void
@@ -841,10 +855,10 @@
 
     const/4 v0, 0x0
 
-    .line 188
+    .line 197
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->bOnce:Z
 
-    .line 190
+    .line 199
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -853,12 +867,12 @@
 
     invoke-direct {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
-    .line 191
+    .line 200
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00bc
+    const v2, 0x7f0d00b9
 
     const/4 v3, 0x0
 
@@ -868,7 +882,7 @@
 
     const v2, 0x7f0a008e
 
-    .line 192
+    .line 201
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -877,16 +891,16 @@
 
     const v3, 0x7f0a0094
 
-    .line 193
+    .line 202
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/Button;
 
-    const v4, 0x7f0a0421
+    const v4, 0x7f0a0419
 
-    .line 194
+    .line 203
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
@@ -895,9 +909,9 @@
 
     check-cast v11, Landroid/widget/Spinner;
 
-    const v4, 0x7f0a0422
+    const v4, 0x7f0a041a
 
-    .line 195
+    .line 204
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
@@ -906,9 +920,9 @@
 
     check-cast v10, Landroid/widget/Spinner;
 
-    const v4, 0x7f0a0424
+    const v4, 0x7f0a041c
 
-    .line 196
+    .line 205
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
@@ -917,16 +931,27 @@
 
     check-cast v8, Landroid/widget/Spinner;
 
-    const v4, 0x7f0a0557
+    const v4, 0x7f0a0562
 
-    .line 197
+    .line 206
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/TextView;
 
-    .line 199
+    .line 208
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeColor()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v4
+
+    invoke-virtual {v2, v4}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 210
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
@@ -937,20 +962,20 @@
 
     move-result-object v4
 
-    .line 200
+    .line 211
     new-instance v5, Landroid/widget/ArrayAdapter;
 
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
-    const v7, 0x7f0d00f8
+    const v7, 0x7f0d00f5
 
-    const v9, 0x7f0a0466
+    const v9, 0x7f0a045e
 
     invoke-direct {v5, v6, v7, v9, p2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
 
     invoke-virtual {v8, v5}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
-    .line 201
+    .line 212
     new-instance v5, Landroid/widget/ArrayAdapter;
 
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -961,17 +986,17 @@
 
     const/16 v5, 0x11
 
-    .line 202
+    .line 213
     invoke-virtual {v10, v5}, Landroid/widget/Spinner;->setGravity(I)V
 
-    .line 203
+    .line 214
     new-instance v5, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;
 
     invoke-direct {v5, p0, v4, p1, v11}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;[Ljava/lang/String;ZLandroid/widget/Spinner;)V
 
     invoke-virtual {v10, v5}, Landroid/widget/Spinner;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    .line 221
+    .line 232
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -984,24 +1009,24 @@
 
     const p1, 0x7f120244
 
-    .line 225
+    .line 236
     invoke-virtual {v2, p1}, Landroid/widget/Button;->setText(I)V
 
-    .line 226
+    .line 237
     invoke-static {p3}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getTimeSetupByWeekday(I)Lcom/changyow/iconsole4th/db/RDBAITimeSetup;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 229
+    .line 240
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getTimeslotStart()I
 
     move-result p3
 
     invoke-virtual {v10, p3}, Landroid/widget/Spinner;->setSelection(I)V
 
-    .line 230
+    .line 241
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getTimeslotStart()I
 
     move-result p3
@@ -1010,7 +1035,7 @@
 
     move-result-object p3
 
-    .line 231
+    .line 242
     new-instance v1, Landroid/widget/ArrayAdapter;
 
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1019,7 +1044,7 @@
 
     invoke-virtual {v11, v1}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
-    .line 232
+    .line 243
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/RDBAITimeSetup;->getTimeslotEnd()I
 
     move-result p3
@@ -1034,7 +1059,7 @@
 
     invoke-virtual {v11, p3}, Landroid/widget/Spinner;->setSelection(I)V
 
-    .line 235
+    .line 246
     :cond_0
     new-instance p1, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$4;
 
@@ -1050,14 +1075,14 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 266
+    .line 277
     new-instance p1, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$5;
 
     invoke-direct {p1, p0, v0}, Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity$5;-><init>(Lcom/changyow/iconsole4th/activity/aitraining/AITimeSetupActivity;Landroidx/appcompat/app/AlertDialog;)V
 
     invoke-virtual {v3, p1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 276
+    .line 287
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void

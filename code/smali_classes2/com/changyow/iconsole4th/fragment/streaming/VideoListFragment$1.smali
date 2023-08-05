@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 88
+    .line 90
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 118
+    .line 120
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->access$000(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroid/app/Activity;
@@ -84,18 +84,18 @@
 
     const/4 v0, 0x0
 
-    .line 97
+    .line 99
     :try_start_0
     new-instance v1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1$1;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1$1;-><init>(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;)V
 
-    .line 99
+    .line 101
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1$1;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v1
 
-    .line 100
+    .line 102
     new-instance v2, Lcom/google/gson/Gson;
 
     invoke-direct {v2}, Lcom/google/gson/Gson;-><init>()V
@@ -115,18 +115,18 @@
     :catch_0
     move-exception p1
 
-    .line 104
+    .line 106
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
     if-eqz v0, :cond_0
 
-    .line 109
+    .line 111
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     iput-object v0, p1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoTags:Ljava/util/HashMap;
 
-    .line 110
+    .line 112
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$1;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->fetchVideos()V

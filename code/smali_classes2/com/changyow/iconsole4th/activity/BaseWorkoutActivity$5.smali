@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 364
+    .line 368
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +54,14 @@
         }
     .end annotation
 
-    .line 368
+    .line 372
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->mControlPanel:Landroid/app/Dialog;
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 370
+    .line 374
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -72,7 +72,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 371
+    .line 375
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -83,7 +83,7 @@
 
     invoke-virtual {p1}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 372
+    .line 376
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;
 

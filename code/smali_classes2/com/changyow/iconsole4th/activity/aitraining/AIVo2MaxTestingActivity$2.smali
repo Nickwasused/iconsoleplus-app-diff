@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 238
+    .line 241
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
 .method public run()V
     .locals 1
 
-    .line 242
+    .line 245
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;->access$000(Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;)V

@@ -77,45 +77,45 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 41
+    .line 43
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 70
+    .line 72
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/ConstantPowerViewPagerAdapter;
 
     const/4 v0, 0x0
 
-    .line 72
+    .line 74
     iput v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetTime:I
 
     const/16 v1, 0x1e
 
-    .line 73
+    .line 75
     iput v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
 
     const/16 v1, 0x32
 
-    .line 74
+    .line 76
     iput v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
     const/16 v1, 0xa
 
-    .line 75
+    .line 77
     iput v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRange:I
 
-    .line 530
+    .line 541
     iput v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
-    .line 621
+    .line 632
     new-instance v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$14;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$14;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bleManagerListener:Lchangyow/ble4th/BLEManagerListener;
 
-    .line 644
+    .line 655
     new-instance v0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$15;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)V
@@ -128,7 +128,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
     .locals 0
 
-    .line 41
+    .line 43
     iget p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetTime:I
 
     return p0
@@ -137,7 +137,7 @@
 .method static synthetic access$002(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;I)I
     .locals 0
 
-    .line 41
+    .line 43
     iput p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetTime:I
 
     return p1
@@ -146,7 +146,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueTime:Landroid/widget/TextView;
 
     return-object p0
@@ -155,7 +155,7 @@
 .method static synthetic access$1000(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingSuggestion:Landroid/widget/TextView;
 
     return-object p0
@@ -164,7 +164,7 @@
 .method static synthetic access$1100(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;IDI)V
     .locals 0
 
-    .line 41
+    .line 43
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->powerControl(IDI)V
 
     return-void
@@ -173,7 +173,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
     .locals 0
 
-    .line 41
+    .line 43
     iget p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
     return p0
@@ -182,7 +182,7 @@
 .method static synthetic access$202(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;I)I
     .locals 0
 
-    .line 41
+    .line 43
     iput p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
     return p1
@@ -191,7 +191,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueWatt:Landroid/widget/TextView;
 
     return-object p0
@@ -200,7 +200,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)I
     .locals 0
 
-    .line 41
+    .line 43
     iget p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
 
     return p0
@@ -209,7 +209,7 @@
 .method static synthetic access$402(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;I)I
     .locals 0
 
-    .line 41
+    .line 43
     iput p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
 
     return p1
@@ -218,7 +218,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueRPM:Landroid/widget/TextView;
 
     return-object p0
@@ -227,7 +227,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupRpmDesc:Landroid/widget/TextView;
 
     return-object p0
@@ -236,7 +236,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentPower:Landroid/widget/Button;
 
     return-object p0
@@ -245,7 +245,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Landroid/widget/Button;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentCadence:Landroid/widget/Button;
 
     return-object p0
@@ -254,7 +254,7 @@
 .method static synthetic access$900(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
     .locals 0
 
-    .line 41
+    .line 43
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->chartView:Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
 
     return-object p0
@@ -275,7 +275,7 @@
         }
     .end annotation
 
-    .line 534
+    .line 545
     iget p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
     int-to-double v0, p4
@@ -298,7 +298,7 @@
 
     if-lez v1, :cond_1
 
-    .line 539
+    .line 550
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p4
@@ -317,12 +317,12 @@
 
     if-le p4, v1, :cond_0
 
-    .line 540
+    .line 551
     iput v3, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
     goto :goto_0
 
-    .line 543
+    .line 554
     :cond_0
     iget p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
@@ -341,7 +341,7 @@
 
     if-gez p4, :cond_4
 
-    .line 548
+    .line 559
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p4
@@ -360,12 +360,12 @@
 
     if-ge p4, v1, :cond_2
 
-    .line 549
+    .line 560
     iput v3, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
     goto :goto_0
 
-    .line 552
+    .line 563
     :cond_2
     iget p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
 
@@ -373,7 +373,7 @@
 
     if-ge p1, p4, :cond_3
 
-    .line 553
+    .line 564
     iget p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
     add-int/2addr p4, v2
@@ -382,7 +382,7 @@
 
     goto :goto_0
 
-    .line 555
+    .line 566
     :cond_3
     iput v3, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
@@ -390,7 +390,7 @@
     :goto_0
     if-lez p1, :cond_6
 
-    .line 563
+    .line 574
     :try_start_0
     iget p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
@@ -402,7 +402,7 @@
 
     if-gez p4, :cond_5
 
-    .line 565
+    .line 576
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -424,7 +424,7 @@
 
     if-lez p1, :cond_6
 
-    .line 569
+    .line 580
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -442,10 +442,10 @@
     :catch_0
     move-exception p1
 
-    .line 574
+    .line 585
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 579
+    .line 590
     :cond_6
     :goto_1
     iget p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
@@ -454,10 +454,10 @@
 
     if-lt p1, p4, :cond_a
 
-    .line 581
+    .line 592
     iput v3, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
 
-    .line 585
+    .line 596
     iget p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
 
     int-to-double v4, p1
@@ -468,7 +468,7 @@
 
     const p1, 0x7f1201b9
 
-    .line 586
+    .line 597
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -493,7 +493,7 @@
 
     const p1, 0x7f1201b6
 
-    .line 589
+    .line 600
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -503,14 +503,14 @@
     :cond_8
     const p1, 0x7f1201b8
 
-    .line 593
+    .line 604
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_2
 
-    .line 601
+    .line 612
     :goto_3
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingSuggestion:Landroid/widget/TextView;
 
@@ -518,7 +518,7 @@
 
     if-nez v2, :cond_9
 
-    .line 604
+    .line 615
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mHandler:Landroid/os/Handler;
 
     new-instance p4, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$13;
@@ -531,11 +531,11 @@
 
     goto :goto_4
 
-    .line 614
+    .line 625
     :cond_9
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->stopWorkout()V
 
-    .line 617
+    .line 628
     :cond_a
     :goto_4
     iget p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rpmWarningCount:I
@@ -560,7 +560,7 @@
 
     if-ltz p1, :cond_b
 
-    .line 618
+    .line 629
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingSuggestion:Landroid/widget/TextView;
 
     const p2, 0x7f1201b7
@@ -574,7 +574,7 @@
 .method private prepareUI()V
     .locals 7
 
-    .line 217
+    .line 227
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$2;
@@ -583,7 +583,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 226
+    .line 236
     new-instance v0, Lcom/changyow/iconsole4th/adapter/ConstantPowerViewPagerAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -592,31 +592,31 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/ConstantPowerViewPagerAdapter;
 
-    .line 227
+    .line 237
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/ConstantPowerViewPagerAdapter;->triggerShowAltitude()V
 
-    .line 228
+    .line 238
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mViewPagerAdapter:Lcom/changyow/iconsole4th/adapter/ConstantPowerViewPagerAdapter;
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 229
+    .line 239
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const/4 v1, 0x3
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
-    .line 230
+    .line 240
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     invoke-virtual {v0, v1}, Lme/relex/circleindicator/CircleIndicator;->setViewPager(Landroidx/viewpager/widget/ViewPager;)V
 
-    .line 231
+    .line 241
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$3;
@@ -625,7 +625,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 250
+    .line 260
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupRpmDesc:Landroid/widget/TextView;
 
     const v1, 0x7f120142
@@ -654,7 +654,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 251
+    .line 261
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -665,7 +665,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 252
+    .line 262
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupRpmDesc:Landroid/widget/TextView;
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getString(I)Ljava/lang/String;
@@ -688,7 +688,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 254
+    .line 264
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem1:Landroid/widget/RelativeLayout;
 
@@ -698,7 +698,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 271
+    .line 281
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem2:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$5;
@@ -707,7 +707,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 290
+    .line 300
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem3:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
@@ -716,7 +716,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 312
+    .line 322
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnStartTraining:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$7;
@@ -725,12 +725,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 322
+    .line 332
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentCadence:Landroid/widget/Button;
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setSelected(Z)V
 
-    .line 323
+    .line 333
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentCadence:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$8;
@@ -739,7 +739,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 334
+    .line 344
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentPower:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$9;
@@ -748,7 +748,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 346
+    .line 356
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -759,14 +759,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 348
+    .line 358
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupUnitRPM:Landroid/widget/TextView;
 
     const v1, 0x7f120293
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 349
+    .line 359
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPMUnit:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -778,71 +778,71 @@
 .method private setupInitActionbar()V
     .locals 5
 
-    .line 190
+    .line 200
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 191
+    .line 201
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 192
+    .line 202
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 194
+    .line 204
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    const v2, 0x7f0d00ba
+    const v2, 0x7f0d00b7
 
     const/4 v3, 0x0
 
-    .line 195
+    .line 205
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 197
+    .line 207
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v2, 0x1
 
-    .line 198
+    .line 208
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 200
+    .line 210
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01eb
+    const v2, 0x7f0a01e9
 
-    .line 201
+    .line 211
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01ed
+    const v3, 0x7f0a01eb
 
-    .line 202
+    .line 212
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ee
+    const v4, 0x7f0a01ec
 
-    .line 203
+    .line 213
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -851,18 +851,18 @@
 
     const v4, 0x7f12027b
 
-    .line 205
+    .line 215
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     const/4 v0, 0x4
 
-    .line 206
+    .line 216
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 207
+    .line 217
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 208
+    .line 218
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -876,13 +876,40 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 2
+
+    .line 162
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initCustomTheme()V
+
+    .line 163
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnStartTraining:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 164
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnStartTraining:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    return-void
+.end method
+
 .method protected initWorkoutState()V
     .locals 3
 
-    .line 160
+    .line 170
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->initWorkoutState()V
 
-    .line 162
+    .line 172
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -891,7 +918,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->registerListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 163
+    .line 173
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -902,7 +929,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 164
+    .line 174
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -915,7 +942,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 168
+    .line 178
     :cond_0
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->getIntent()Landroid/content/Intent;
 
@@ -929,14 +956,14 @@
 
     move-result v0
 
-    .line 169
+    .line 179
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/FlowControl;->setHrSource(I)V
 
-    .line 170
+    .line 180
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -947,7 +974,7 @@
 
     iput-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 171
+    .line 181
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -956,7 +983,7 @@
 
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setHeart_rate_source(Ljava/lang/Integer;)V
 
-    .line 172
+    .line 182
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     const/4 v1, 0x4
@@ -973,12 +1000,12 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 123
+    .line 125
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bTrainingStarted:Z
 
     if-nez v0, :cond_0
 
-    .line 125
+    .line 127
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->stopWorkout()V
 
     :cond_0
@@ -996,17 +1023,17 @@
         }
     .end annotation
 
-    .line 80
+    .line 82
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d002f
 
-    .line 81
+    .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
-    .line 82
+    .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1015,9 +1042,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a029b
+    const p1, 0x7f0a0294
 
-    .line 83
+    .line 85
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1026,9 +1053,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSetup:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0564
+    const p1, 0x7f0a056f
 
-    .line 84
+    .line 86
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1037,9 +1064,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingStrength:Landroid/widget/TextView;
 
-    const p1, 0x7f0a022f
+    const p1, 0x7f0a022e
 
-    .line 85
+    .line 87
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1048,29 +1075,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->ivTrainingStrength:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a00d7
-
-    .line 86
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/Button;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnStartTraining:Landroid/widget/Button;
-
-    const p1, 0x7f0a00cd
-
-    .line 87
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/Button;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentCadence:Landroid/widget/Button;
-
-    const p1, 0x7f0a00ce
+    const p1, 0x7f0a00d4
 
     .line 88
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1079,11 +1084,33 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentPower:Landroid/widget/Button;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnStartTraining:Landroid/widget/Button;
 
-    const p1, 0x7f0a0299
+    const p1, 0x7f0a00cb
 
     .line 89
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/Button;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentCadence:Landroid/widget/Button;
+
+    const p1, 0x7f0a00cc
+
+    .line 90
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/Button;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnSegmentPower:Landroid/widget/Button;
+
+    const p1, 0x7f0a0292
+
+    .line 91
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1092,9 +1119,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem3:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a052f
+    const p1, 0x7f0a0536
 
-    .line 90
+    .line 92
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1103,29 +1130,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueRPM:Landroid/widget/TextView;
 
-    const p1, 0x7f0a052d
-
-    .line 91
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupUnitRPM:Landroid/widget/TextView;
-
-    const p1, 0x7f0a0298
-
-    .line 92
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/RelativeLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem2:Landroid/widget/RelativeLayout;
-
-    const p1, 0x7f0a0531
+    const p1, 0x7f0a0534
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1134,31 +1139,31 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueWatt:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupUnitRPM:Landroid/widget/TextView;
 
-    const p1, 0x7f0a052e
+    const p1, 0x7f0a0291
 
     .line 94
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupUnitWatt:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem2:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0297
+    const p1, 0x7f0a0538
 
     .line 95
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/RelativeLayout;
+    check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem1:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueWatt:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0530
+    const p1, 0x7f0a0535
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1167,20 +1172,20 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueTime:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupUnitWatt:Landroid/widget/TextView;
 
-    const p1, 0x7f0a052c
+    const p1, 0x7f0a0290
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupRpmDesc:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSettingItem1:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a052b
+    const p1, 0x7f0a0537
 
     .line 98
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1189,11 +1194,33 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupDesc:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupValueTime:Landroid/widget/TextView;
 
-    const p1, 0x7f0a02a8
+    const p1, 0x7f0a0533
 
     .line 99
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupRpmDesc:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0532
+
+    .line 100
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvSetupDesc:Landroid/widget/TextView;
+
+    const p1, 0x7f0a02a1
+
+    .line 101
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1202,9 +1229,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutWorkout:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0280
+    const p1, 0x7f0a027a
 
-    .line 100
+    .line 102
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1213,9 +1240,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a00be
+    const p1, 0x7f0a00bd
 
-    .line 101
+    .line 103
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1224,9 +1251,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->btnPin:Landroid/widget/ImageButton;
 
-    const p1, 0x7f0a0204
+    const p1, 0x7f0a0202
 
-    .line 102
+    .line 104
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1235,9 +1262,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
-    const p1, 0x7f0a03d6
+    const p1, 0x7f0a03ce
 
-    .line 103
+    .line 105
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1246,29 +1273,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
-    const p1, 0x7f0a0543
-
-    .line 104
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHR:Landroid/widget/TextView;
-
-    const p1, 0x7f0a0544
-
-    .line 105
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHrZone:Landroid/widget/TextView;
-
-    const p1, 0x7f0a054f
+    const p1, 0x7f0a054e
 
     .line 106
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1277,9 +1282,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetWatt:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHR:Landroid/widget/TextView;
 
-    const p1, 0x7f0a054a
+    const p1, 0x7f0a054f
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1288,9 +1293,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPMUnit:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHrZone:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0549
+    const p1, 0x7f0a055a
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1299,9 +1304,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPM:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetWatt:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0565
+    const p1, 0x7f0a0555
 
     .line 109
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
@@ -1310,11 +1315,33 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingSuggestion:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPMUnit:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0599
+    const p1, 0x7f0a0554
 
     .line 110
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPM:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0570
+
+    .line 111
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTrainingSuggestion:Landroid/widget/TextView;
+
+    const p1, 0x7f0a05a5
+
+    .line 112
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1323,21 +1350,21 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->chartView:Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
 
-    .line 112
+    .line 114
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->initWorkoutState()V
 
-    .line 113
+    .line 115
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->setupInitActionbar()V
 
-    .line 114
+    .line 116
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->prepareUI()V
 
-    .line 116
+    .line 118
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bTrainingStarted:Z
 
     if-eqz p1, :cond_0
 
-    .line 117
+    .line 119
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->showWorkoutStartedUI()V
 
     :cond_0
@@ -1347,10 +1374,10 @@
 .method public onResume()V
     .locals 3
 
-    .line 133
+    .line 135
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onResume()V
 
-    .line 134
+    .line 136
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1371,7 +1398,7 @@
 
     if-nez v0, :cond_0
 
-    .line 136
+    .line 138
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1380,7 +1407,7 @@
 
     const v1, 0x7f1201b5
 
-    .line 137
+    .line 139
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -1391,17 +1418,17 @@
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$1;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)V
 
-    .line 138
+    .line 140
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 145
+    .line 147
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 146
+    .line 148
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     :cond_0
@@ -1411,7 +1438,7 @@
 .method public onStop()V
     .locals 2
 
-    .line 153
+    .line 155
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1420,7 +1447,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 154
+    .line 156
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->onStop()V
 
     return-void
@@ -1429,7 +1456,7 @@
 .method protected prepareControlPanel()V
     .locals 3
 
-    .line 355
+    .line 365
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1440,14 +1467,14 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
-    .line 356
+    .line 366
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0d00bf
+    const v1, 0x7f0d00bc
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 357
+    .line 367
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
@@ -1462,10 +1489,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 359
+    .line 368
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a0245
+    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->applyThemeToStatusBar(Landroid/view/Window;)V
+
+    .line 370
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
+
+    const v1, 0x7f0a0244
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1475,18 +1511,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 362
+    .line 373
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$10;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$10;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 371
+    .line 382
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v1, 0x7f0a00da
+    const v1, 0x7f0a00d7
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1494,10 +1530,10 @@
 
     check-cast v0, Landroid/widget/ImageButton;
 
-    .line 372
+    .line 383
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mControlPanel:Landroid/app/Dialog;
 
-    const v2, 0x7f0a00d8
+    const v2, 0x7f0a00d5
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1509,10 +1545,10 @@
 
     const/4 v2, 0x1
 
-    .line 376
+    .line 387
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 377
+    .line 388
     new-instance v2, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;
 
     invoke-direct {v2, p0, v1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;Landroid/widget/ImageButton;)V
@@ -1522,7 +1558,7 @@
     :cond_1
     if-eqz v0, :cond_2
 
-    .line 395
+    .line 406
     new-instance v1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$12;
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$12;-><init>(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;)V
@@ -1536,14 +1572,14 @@
 .method protected showWorkoutStartedUI()V
     .locals 2
 
-    .line 178
+    .line 188
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->layoutSetup:Landroid/widget/RelativeLayout;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 179
+    .line 189
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetRPM:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
@@ -1554,7 +1590,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 180
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetWatt:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
@@ -1565,10 +1601,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 182
+    .line 192
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->setupWorkoutActionbar()V
 
-    .line 183
+    .line 193
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->chartView:Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
@@ -1581,14 +1617,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/ConstantPowerChartView;->setRecord(Lcom/changyow/iconsole4th/db/ActivityRecord;)V
 
-    .line 184
+    .line 194
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->chartView:Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetRPM:I
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/view/ConstantPowerChartView;->setTargetRPM(I)V
 
-    .line 185
+    .line 195
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->chartView:Lcom/changyow/iconsole4th/view/ConstantPowerChartView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mTargetWatt:I
@@ -1601,10 +1637,10 @@
 .method protected startWorkout()V
     .locals 27
 
-    .line 464
+    .line 475
     invoke-super/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->startWorkout()V
 
-    .line 467
+    .line 478
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1635,7 +1671,7 @@
 
     move-object/from16 v1, p0
 
-    .line 468
+    .line 479
     invoke-virtual/range {v1 .. v13}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(IIIDDIDII)V
 
     goto :goto_0
@@ -1659,10 +1695,10 @@
 
     move-object/from16 v14, p0
 
-    .line 470
+    .line 481
     invoke-virtual/range {v14 .. v26}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(IDIDDIDI)V
 
-    .line 472
+    .line 483
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1688,7 +1724,7 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setBrand(Ljava/lang/Integer;)V
 
-    .line 473
+    .line 484
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1713,14 +1749,14 @@
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setMachine(Ljava/lang/Integer;)V
 
-    .line 474
+    .line 485
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutStarted()V
 
-    .line 476
+    .line 487
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1729,7 +1765,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setAge(I)V
 
-    .line 477
+    .line 488
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1738,7 +1774,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setHeight(I)V
 
-    .line 478
+    .line 489
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1747,7 +1783,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setWeight(I)V
 
-    .line 479
+    .line 490
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1756,7 +1792,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setUnit(I)V
 
-    .line 483
+    .line 494
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1768,7 +1804,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutMode(I)V
 
-    .line 484
+    .line 495
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1789,7 +1825,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutParam(IDIID)V
 
-    .line 485
+    .line 496
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1800,7 +1836,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->startWorkout()V
 
-    .line 487
+    .line 498
     invoke-virtual/range {p0 .. p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->startRefreshUITimer()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1812,7 +1848,7 @@
 .method public stopWorkout()V
     .locals 3
 
-    .line 496
+    .line 507
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1823,13 +1859,13 @@
 
     monitor-enter v0
 
-    .line 498
+    .line 509
     :try_start_0
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bCanceled:Z
 
     if-eqz v1, :cond_0
 
-    .line 499
+    .line 510
     monitor-exit v0
 
     return-void
@@ -1837,18 +1873,18 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 500
+    .line 511
     iput-boolean v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->bCanceled:Z
 
-    .line 501
+    .line 512
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 502
+    .line 513
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->cancelRefreshUITimer()V
 
-    .line 503
+    .line 514
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1857,7 +1893,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEManager;->unregisterListener(Lchangyow/ble4th/BLEManagerListener;)V
 
-    .line 506
+    .line 517
     :try_start_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1869,7 +1905,7 @@
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->stopWorkout()V
 
-    .line 507
+    .line 518
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1880,7 +1916,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 508
+    .line 519
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1893,7 +1929,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 509
+    .line 520
     :cond_1
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
@@ -1907,7 +1943,7 @@
 
     invoke-virtual {v0, v1}, Lchangyow/ble4th/BLEPeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 510
+    .line 521
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object v0
@@ -1921,10 +1957,10 @@
     :catch_0
     move-exception v0
 
-    .line 514
+    .line 525
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 517
+    .line 528
     :goto_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -1932,12 +1968,12 @@
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->markWorkoutEnded()V
 
-    .line 518
+    .line 529
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->calcAvgs()V
 
-    .line 520
+    .line 531
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -1958,7 +1994,7 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 522
+    .line 533
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1967,14 +2003,14 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 523
+    .line 534
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 526
+    .line 537
     :cond_2
     invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseWorkoutActivity;->stopWorkout()V
 
-    .line 527
+    .line 538
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->finish()V
 
     return-void
@@ -1982,7 +2018,7 @@
     :catchall_0
     move-exception v1
 
-    .line 501
+    .line 512
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -2016,12 +2052,12 @@
         }
     .end annotation
 
-    .line 411
+    .line 422
     invoke-static {p9}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object p4
 
-    .line 412
+    .line 423
     iget-object p10, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHR:Landroid/widget/TextView;
 
     invoke-static {p9}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2030,22 +2066,22 @@
 
     invoke-virtual {p10, p9}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 413
+    .line 424
     iget-object p9, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHrZone:Landroid/widget/TextView;
 
     invoke-virtual {p9, p4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 415
+    .line 426
     new-instance p4, Ljava/util/ArrayList;
 
     invoke-direct {p4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 416
+    .line 427
     new-instance p9, Ljava/util/ArrayList;
 
     invoke-direct {p9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 417
+    .line 428
     iget-object p10, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string p11, "DATA_PAGE_1"
@@ -2056,7 +2092,7 @@
 
     check-cast p10, Landroid/view/ViewGroup;
 
-    .line 418
+    .line 429
     iget-object p11, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string v0, "DATA_PAGE_2"
@@ -2067,15 +2103,15 @@
 
     check-cast p11, Landroid/view/ViewGroup;
 
-    .line 419
+    .line 430
     invoke-virtual {p9, p10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 420
+    .line 431
     invoke-virtual {p9, p11}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     const p10, 0x7f0803ec
 
-    .line 422
+    .line 433
     invoke-static {p10}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p10
@@ -2100,7 +2136,7 @@
 
     const p1, 0x7f0801a8
 
-    .line 423
+    .line 434
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2131,7 +2167,7 @@
 
     const p1, 0x7f0801e3
 
-    .line 424
+    .line 435
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2162,7 +2198,7 @@
 
     const p1, 0x7f0803e9
 
-    .line 425
+    .line 436
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2185,7 +2221,7 @@
 
     const p1, 0x7f0802a7
 
-    .line 426
+    .line 437
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2216,7 +2252,7 @@
 
     const p1, 0x7f080191
 
-    .line 432
+    .line 443
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2255,7 +2291,7 @@
 
     invoke-virtual {p4, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 434
+    .line 445
     invoke-virtual {p0, p4, p9}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
 
     return-void
@@ -2288,12 +2324,12 @@
         }
     .end annotation
 
-    .line 439
+    .line 450
     invoke-static {p8}, Lcom/changyow/iconsole4th/util/UnitUtil;->getReadableHrZone(I)Ljava/lang/String;
 
     move-result-object p3
 
-    .line 440
+    .line 451
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHR:Landroid/widget/TextView;
 
     invoke-static {p8}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -2302,22 +2338,22 @@
 
     invoke-virtual {p4, p5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 441
+    .line 452
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->txvTargetHrZone:Landroid/widget/TextView;
 
     invoke-virtual {p4, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 443
+    .line 454
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 444
+    .line 455
     new-instance p4, Ljava/util/ArrayList;
 
     invoke-direct {p4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 445
+    .line 456
     iget-object p5, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string p8, "DATA_PAGE_1"
@@ -2328,7 +2364,7 @@
 
     check-cast p5, Landroid/view/ViewGroup;
 
-    .line 446
+    .line 457
     iget-object p8, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->rvDataPager:Landroidx/viewpager/widget/ViewPager;
 
     const-string p9, "DATA_PAGE_2"
@@ -2339,15 +2375,15 @@
 
     check-cast p8, Landroid/view/ViewGroup;
 
-    .line 447
+    .line 458
     invoke-virtual {p4, p5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 448
+    .line 459
     invoke-virtual {p4, p8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     const p5, 0x7f0803ec
 
-    .line 450
+    .line 461
     invoke-static {p5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p5
@@ -2372,7 +2408,7 @@
 
     const p1, 0x7f0801e3
 
-    .line 452
+    .line 463
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2401,7 +2437,7 @@
 
     invoke-virtual {p3, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 453
+    .line 464
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -2414,7 +2450,7 @@
 
     const p1, 0x7f0803e9
 
-    .line 454
+    .line 465
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2438,7 +2474,7 @@
     :cond_0
     const p1, 0x7f080182
 
-    .line 455
+    .line 466
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2463,7 +2499,7 @@
 
     const p1, 0x7f0802a9
 
-    .line 456
+    .line 467
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2486,7 +2522,7 @@
 
     const p1, 0x7f080191
 
-    .line 457
+    .line 468
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2523,7 +2559,7 @@
 
     invoke-virtual {p3, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 459
+    .line 470
     invoke-virtual {p0, p3, p4}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->updateData(Ljava/util/List;Ljava/util/ArrayList;)V
 
     return-void

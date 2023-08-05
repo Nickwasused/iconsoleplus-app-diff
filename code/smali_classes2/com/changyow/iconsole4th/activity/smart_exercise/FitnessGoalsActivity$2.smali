@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 209
+    .line 216
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 239
+    .line 246
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
@@ -75,17 +75,17 @@
 
     const v1, 0x7f120277
 
-    .line 240
+    .line 247
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 247
+    .line 254
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object p1
 
-    .line 248
+    .line 255
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void
@@ -104,7 +104,7 @@
 
     if-nez p1, :cond_0
 
-    .line 214
+    .line 221
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
@@ -127,26 +127,26 @@
 
     invoke-direct {v2, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2$1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;)V
 
-    .line 215
+    .line 222
     invoke-virtual {v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 222
+    .line 229
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 223
+    .line 230
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
-    .line 224
+    .line 231
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iput-object p1, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
-    .line 225
+    .line 232
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -155,7 +155,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 227
+    .line 234
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -166,7 +166,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mTargetMets:I
 
-    .line 228
+    .line 235
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -177,7 +177,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
-    .line 229
+    .line 236
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -188,7 +188,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
-    .line 230
+    .line 237
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -199,7 +199,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mNotifHour:I
 
-    .line 231
+    .line 238
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -210,7 +210,7 @@
 
     iput v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mNotifyMinute:I
 
-    .line 232
+    .line 239
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->access$200(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)V

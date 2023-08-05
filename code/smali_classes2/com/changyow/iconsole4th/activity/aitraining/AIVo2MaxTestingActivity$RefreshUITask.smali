@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 334
+    .line 337
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity$RefreshUITask;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxTestingActivity;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -43,7 +43,7 @@
 .method public run()V
     .locals 1
 
-    .line 340
+    .line 343
     :try_start_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 

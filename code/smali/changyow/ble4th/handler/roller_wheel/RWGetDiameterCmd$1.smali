@@ -30,6 +30,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/roller_wheel/RWGetDiameterCmd;Lchangyow/ble4th/BLEPeripheralListener;DZ)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 42
     iput-object p1, p0, Lchangyow/ble4th/handler/roller_wheel/RWGetDiameterCmd$1;->this$0:Lchangyow/ble4th/handler/roller_wheel/RWGetDiameterCmd;

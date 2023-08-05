@@ -8,9 +8,9 @@
 
 .field private static final PERMISSION_PERMISSIONSANDROID12:[Ljava/lang/String;
 
-.field private static final REQUEST_PERMISSIONSANDROID11ANDBELOW:I = 0xb
+.field private static final REQUEST_PERMISSIONSANDROID11ANDBELOW:I = 0x9
 
-.field private static final REQUEST_PERMISSIONSANDROID12:I = 0xc
+.field private static final REQUEST_PERMISSIONSANDROID12:I = 0xa
 
 
 # direct methods
@@ -66,11 +66,11 @@
         }
     .end annotation
 
-    const/16 v0, 0xb
+    const/16 v0, 0x9
 
     if-eq p1, v0, :cond_1
 
-    const/16 v0, 0xc
+    const/16 v0, 0xa
 
     if-eq p1, v0, :cond_0
 
@@ -135,7 +135,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xb
+    const/16 v0, 0x9
 
     .line 24
     invoke-virtual {p0, v1, v0}, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -174,7 +174,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xc
+    const/16 v0, 0xa
 
     .line 32
     invoke-virtual {p0, v1, v0}, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->requestPermissions([Ljava/lang/String;I)V

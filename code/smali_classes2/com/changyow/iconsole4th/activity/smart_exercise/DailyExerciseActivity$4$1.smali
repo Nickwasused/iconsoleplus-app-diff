@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->lambda$onLongClick$0(Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;Landroid/content/DialogInterface;I)V
+    value = Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->onLongClick(Landroid/view/View;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 746
+    .line 761
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .line 750
+    .line 765
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$4;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;

@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final row_detail:I = 0x7f0d0187
+.field public static final row_detail:I = 0x7f0d0184
 
 
 # direct methods

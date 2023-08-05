@@ -51,7 +51,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -139,28 +139,28 @@
 
     invoke-static {p7, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 362
+    .line 383
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 363
+    .line 384
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->title1:Ljava/lang/String;
 
-    .line 364
+    .line 385
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->value1:Ljava/lang/String;
 
-    .line 365
+    .line 386
     iput-object p3, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->unit1:Ljava/lang/String;
 
-    .line 366
+    .line 387
     iput-object p4, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->title2:Ljava/lang/String;
 
-    .line 367
+    .line 388
     iput-object p5, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->value2:Ljava/lang/String;
 
-    .line 368
+    .line 389
     iput-object p6, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->unit2:Ljava/lang/String;
 
-    .line 369
+    .line 390
     iput-object p7, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->centerText:Ljava/lang/String;
 
     return-void
@@ -269,7 +269,7 @@
 
     move-object p7, v5
 
-    .line 362
+    .line 383
     invoke-direct/range {p1 .. p8}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -592,7 +592,7 @@
 .method public final getCenterText()Ljava/lang/String;
     .locals 1
 
-    .line 369
+    .line 390
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->centerText:Ljava/lang/String;
 
     return-object v0
@@ -601,7 +601,7 @@
 .method public final getTitle1()Ljava/lang/String;
     .locals 1
 
-    .line 363
+    .line 384
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->title1:Ljava/lang/String;
 
     return-object v0
@@ -610,7 +610,7 @@
 .method public final getTitle2()Ljava/lang/String;
     .locals 1
 
-    .line 366
+    .line 387
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->title2:Ljava/lang/String;
 
     return-object v0
@@ -619,7 +619,7 @@
 .method public final getUnit1()Ljava/lang/String;
     .locals 1
 
-    .line 365
+    .line 386
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->unit1:Ljava/lang/String;
 
     return-object v0
@@ -628,7 +628,7 @@
 .method public final getUnit2()Ljava/lang/String;
     .locals 1
 
-    .line 368
+    .line 389
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->unit2:Ljava/lang/String;
 
     return-object v0
@@ -637,7 +637,7 @@
 .method public final getValue1()Ljava/lang/String;
     .locals 1
 
-    .line 364
+    .line 385
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->value1:Ljava/lang/String;
 
     return-object v0
@@ -646,7 +646,7 @@
 .method public final getValue2()Ljava/lang/String;
     .locals 1
 
-    .line 367
+    .line 388
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravityWorkoutSummaryActivity$DataItem;->value2:Ljava/lang/String;
 
     return-object v0

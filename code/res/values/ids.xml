@@ -118,7 +118,6 @@
     <item type="id" name="btnGoogle" />
     <item type="id" name="btnHeartRateSourceSetting" />
     <item type="id" name="btnInputDescription" />
-    <item type="id" name="btnKettleBell" />
     <item type="id" name="btnLevelDown" />
     <item type="id" name="btnLevelUp" />
     <item type="id" name="btnLink" />
@@ -148,12 +147,10 @@
     <item type="id" name="btnSave" />
     <item type="id" name="btnSaveEquipment" />
     <item type="id" name="btnSaveIntervalProflie" />
-    <item type="id" name="btnScanQrcode" />
     <item type="id" name="btnSearch" />
     <item type="id" name="btnSegmentCadence" />
     <item type="id" name="btnSegmentPower" />
     <item type="id" name="btnSelect" />
-    <item type="id" name="btnSetWeight" />
     <item type="id" name="btnSetWorkoutTime" />
     <item type="id" name="btnSettings" />
     <item type="id" name="btnShare" />
@@ -219,6 +216,7 @@
     <item type="id" name="crop_image_menu_crop" />
     <item type="id" name="customPanel" />
     <item type="id" name="cvTimerCircle" />
+    <item type="id" name="dataBinding" />
     <item type="id" name="date_picker_actions" />
     <item type="id" name="decor_content_parent" />
     <item type="id" name="default_activity_button" />
@@ -366,7 +364,6 @@
     <item type="id" name="iv2" />
     <item type="id" name="ivAddFavorite" />
     <item type="id" name="ivAvatar" />
-    <item type="id" name="ivBG" />
     <item type="id" name="ivCaloriesIcon" />
     <item type="id" name="ivCheck" />
     <item type="id" name="ivCk" />
@@ -379,6 +376,7 @@
     <item type="id" name="ivDurationIcon" />
     <item type="id" name="ivFlash" />
     <item type="id" name="ivFlashlight" />
+    <item type="id" name="ivHrIcon" />
     <item type="id" name="ivIcon" />
     <item type="id" name="ivImage" />
     <item type="id" name="ivImg" />
@@ -386,12 +384,13 @@
     <item type="id" name="ivIndicator" />
     <item type="id" name="ivLogo" />
     <item type="id" name="ivMap" />
-    <item type="id" name="ivModeDisplay" />
     <item type="id" name="ivPlayGround" />
     <item type="id" name="ivPrivacyAgreementMark" />
     <item type="id" name="ivQrCodeImage" />
     <item type="id" name="ivRPEIcon" />
+    <item type="id" name="ivScanFrame" />
     <item type="id" name="ivSpeedHint" />
+    <item type="id" name="ivSplashIcon" />
     <item type="id" name="ivStatus" />
     <item type="id" name="ivStreetView" />
     <item type="id" name="ivTrainingStrength" />
@@ -411,15 +410,12 @@
     <item type="id" name="lavNote" />
     <item type="id" name="lavSplashAnime" />
     <item type="id" name="layout1" />
-    <item type="id" name="layout1stRepe" />
-    <item type="id" name="layout1stWeight" />
     <item type="id" name="layout2" />
     <item type="id" name="layout2_1" />
-    <item type="id" name="layout2edDisplay" />
-    <item type="id" name="layout2edRepe" />
-    <item type="id" name="layout2edWeight" />
     <item type="id" name="layout3" />
     <item type="id" name="layout4" />
+    <item type="id" name="layoutBG" />
+    <item type="id" name="layoutBackground" />
     <item type="id" name="layoutBaiYourLife" />
     <item type="id" name="layoutBaiduPanorama" />
     <item type="id" name="layoutBottomPane" />
@@ -436,7 +432,6 @@
     <item type="id" name="layoutCirclePane" />
     <item type="id" name="layoutCoach" />
     <item type="id" name="layoutConnect" />
-    <item type="id" name="layoutControlPanel" />
     <item type="id" name="layoutCycles" />
     <item type="id" name="layoutDataPanel" />
     <item type="id" name="layoutDataPanelRow1Column2" />
@@ -462,7 +457,6 @@
     <item type="id" name="layoutGraph1" />
     <item type="id" name="layoutGraph2" />
     <item type="id" name="layoutGraph3" />
-    <item type="id" name="layoutHr" />
     <item type="id" name="layoutHrPanel" />
     <item type="id" name="layoutHrSource" />
     <item type="id" name="layoutHrZone" />
@@ -475,7 +469,6 @@
     <item type="id" name="layoutLevel" />
     <item type="id" name="layoutListTitle" />
     <item type="id" name="layoutMarathon" />
-    <item type="id" name="layoutModeDispaly" />
     <item type="id" name="layoutNext" />
     <item type="id" name="layoutNotes" />
     <item type="id" name="layoutPos1" />
@@ -512,17 +505,13 @@
     <item type="id" name="layoutWorkout" />
     <item type="id" name="layoutWorkoutTargets" />
     <item type="id" name="layout_brand" />
-    <item type="id" name="layout_center" />
     <item type="id" name="layout_exercie_settings" />
     <item type="id" name="layout_machine_ratio" />
     <item type="id" name="layout_not_found_dev" />
     <item type="id" name="layout_reactivation_machine" />
     <item type="id" name="left_drawer" />
     <item type="id" name="line1" />
-    <item type="id" name="line2" />
     <item type="id" name="line3" />
-    <item type="id" name="line4" />
-    <item type="id" name="line5" />
     <item type="id" name="linearLayout" />
     <item type="id" name="linearLayout2" />
     <item type="id" name="linearLayout3" />
@@ -534,6 +523,7 @@
     <item type="id" name="list_item" />
     <item type="id" name="ll1" />
     <item type="id" name="llContent" />
+    <item type="id" name="llGetStarted" />
     <item type="id" name="llSpeed" />
     <item type="id" name="llTarget" />
     <item type="id" name="ll_cast_root" />
@@ -675,6 +665,8 @@
     <item type="id" name="numberPicker" />
     <item type="id" name="numberPicker1" />
     <item type="id" name="numberPicker2" />
+    <item type="id" name="onAttachStateChangeListener" />
+    <item type="id" name="onDateChanged" />
     <item type="id" name="pager" />
     <item type="id" name="parentPanel" />
     <item type="id" name="parent_matrix" />
@@ -840,6 +832,7 @@
     <item type="id" name="textSpacerNoButtons" />
     <item type="id" name="textSpacerNoTitle" />
     <item type="id" name="textView8" />
+    <item type="id" name="textWatcher" />
     <item type="id" name="text_input_end_icon" />
     <item type="id" name="text_input_error_icon" />
     <item type="id" name="text_input_start_icon" />
@@ -881,18 +874,16 @@
     <item type="id" name="tv_search_dev" />
     <item type="id" name="tv_site" />
     <item type="id" name="txv1" />
-    <item type="id" name="txv1stRepe" />
     <item type="id" name="txv1stReset" />
     <item type="id" name="txv1stTitle" />
-    <item type="id" name="txv1stWeight" />
     <item type="id" name="txv2" />
-    <item type="id" name="txv2edRepe" />
-    <item type="id" name="txv2edWeight" />
     <item type="id" name="txv2ndReset" />
     <item type="id" name="txv2ndTitle" />
     <item type="id" name="txv3" />
     <item type="id" name="txv4" />
     <item type="id" name="txvAiComment" />
+    <item type="id" name="txvAiTrainingDesc" />
+    <item type="id" name="txvAiTrainingTitle" />
     <item type="id" name="txvAvgCaloriesUnit" />
     <item type="id" name="txvAvgCaloriesValue" />
     <item type="id" name="txvAvgDistanceUnit" />
@@ -911,6 +902,7 @@
     <item type="id" name="txvCenter" />
     <item type="id" name="txvClickToAddSuggestedTraining" />
     <item type="id" name="txvCoach" />
+    <item type="id" name="txvCompanyName" />
     <item type="id" name="txvCompletedPercent" />
     <item type="id" name="txvCompletedTrainingTitle" />
     <item type="id" name="txvCompletedTrainingUnit" />
@@ -918,6 +910,8 @@
     <item type="id" name="txvConnected" />
     <item type="id" name="txvConnectedHRCE" />
     <item type="id" name="txvConnection" />
+    <item type="id" name="txvConstantPowerDesc" />
+    <item type="id" name="txvConstantPowerTitle" />
     <item type="id" name="txvCountdonw" />
     <item type="id" name="txvCountdonwBelow" />
     <item type="id" name="txvCountdonwTop" />
@@ -927,6 +921,7 @@
     <item type="id" name="txvCurrentTarget" />
     <item type="id" name="txvCycles" />
     <item type="id" name="txvDate" />
+    <item type="id" name="txvDeleteAccount" />
     <item type="id" name="txvDesc" />
     <item type="id" name="txvDescription" />
     <item type="id" name="txvDistance" />
@@ -934,6 +929,9 @@
     <item type="id" name="txvDurationMinutes" />
     <item type="id" name="txvDurationTitle" />
     <item type="id" name="txvDurationValue" />
+    <item type="id" name="txvEGravityDesc" />
+    <item type="id" name="txvEGravityTitle" />
+    <item type="id" name="txvEccentricRatioTitle" />
     <item type="id" name="txvEccentricRatioValue" />
     <item type="id" name="txvEquipment" />
     <item type="id" name="txvEquipmentName" />
@@ -949,7 +947,7 @@
     <item type="id" name="txvHint" />
     <item type="id" name="txvHr" />
     <item type="id" name="txvHrRate" />
-    <item type="id" name="txvHrValue" />
+    <item type="id" name="txvHrUnit" />
     <item type="id" name="txvHrZone" />
     <item type="id" name="txvHrZoneTitle" />
     <item type="id" name="txvHrmName" />
@@ -962,8 +960,11 @@
     <item type="id" name="txvInclineValue" />
     <item type="id" name="txvInfo" />
     <item type="id" name="txvIntensityValue" />
+    <item type="id" name="txvIntervalDesc" />
     <item type="id" name="txvIntervalProflie" />
+    <item type="id" name="txvIntervalTitle" />
     <item type="id" name="txvLap" />
+    <item type="id" name="txvLearnMore" />
     <item type="id" name="txvLengthInMin" />
     <item type="id" name="txvLevel" />
     <item type="id" name="txvLevelDownNote" />
@@ -975,6 +976,8 @@
     <item type="id" name="txvLoadType" />
     <item type="id" name="txvLowIntensityDuration" />
     <item type="id" name="txvMachineType" />
+    <item type="id" name="txvMapMyRouteDesc" />
+    <item type="id" name="txvMapMyRouteTitle" />
     <item type="id" name="txvMaxHrTitle" />
     <item type="id" name="txvMaxHrUnit" />
     <item type="id" name="txvMaxHrValue" />
@@ -1003,6 +1006,10 @@
     <item type="id" name="txvPrevStep" />
     <item type="id" name="txvPrevStepDuration" />
     <item type="id" name="txvPrevVo2Max" />
+    <item type="id" name="txvProgramsDesc" />
+    <item type="id" name="txvProgramsTitle" />
+    <item type="id" name="txvQuickStartDesc" />
+    <item type="id" name="txvQuickStartTitle" />
     <item type="id" name="txvRPE" />
     <item type="id" name="txvRPEDesc" />
     <item type="id" name="txvRatio" />
@@ -1029,6 +1036,8 @@
     <item type="id" name="txvSetupValueWatt" />
     <item type="id" name="txvSignup" />
     <item type="id" name="txvSlideToStartTitle" />
+    <item type="id" name="txvSmartExerciseDesc" />
+    <item type="id" name="txvSmartExerciseTitle" />
     <item type="id" name="txvSpeed" />
     <item type="id" name="txvSpeedInCircle" />
     <item type="id" name="txvSpeedLeft" />
@@ -1038,6 +1047,8 @@
     <item type="id" name="txvStage" />
     <item type="id" name="txvStatus" />
     <item type="id" name="txvStopTraining" />
+    <item type="id" name="txvStreamingDesc" />
+    <item type="id" name="txvStreamingTitle" />
     <item type="id" name="txvSuggestedTrainingTitle" />
     <item type="id" name="txvSuggestedTrainingUnit" />
     <item type="id" name="txvSuggestedTrainingValue" />
@@ -1080,6 +1091,7 @@
     <item type="id" name="txvTrainingStrength" />
     <item type="id" name="txvTrainingSuggestion" />
     <item type="id" name="txvTrainingVolume" />
+    <item type="id" name="txvTrainingVolumeTitle" />
     <item type="id" name="txvTrainingZoneHighIntensity" />
     <item type="id" name="txvTrainingZoneInclineHighIntensity" />
     <item type="id" name="txvTrainingZoneInclineLowIntensity" />

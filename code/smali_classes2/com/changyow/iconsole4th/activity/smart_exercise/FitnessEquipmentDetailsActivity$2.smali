@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    .line 339
+    .line 346
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     iput-wide p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;->val$min:D
@@ -71,7 +71,7 @@
 
     mul-double/2addr p1, v0
 
-    .line 343
+    .line 350
     iget-wide v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;->val$min:D
 
     add-double/2addr p1, v0
@@ -80,7 +80,7 @@
 
     move-result-wide p1
 
-    .line 344
+    .line 351
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;->val$callback:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$SpeedCallback;
 
     invoke-interface {v0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$SpeedCallback;->onSpeedPicked(D)V

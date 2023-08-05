@@ -57,7 +57,13 @@
         }
     .end annotation
 
-    .line 815
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 827
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12$1;->this$1:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;
 
     iput p2, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12$1;->val$dur:I
@@ -82,7 +88,7 @@
 .method public run()V
     .locals 9
 
-    .line 819
+    .line 831
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12$1;->this$1:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$12$1;->val$dur:I

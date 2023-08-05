@@ -40,12 +40,12 @@
         }
     .end annotation
 
-    .line 573
+    .line 588
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 691
+    .line 706
     new-instance p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;
 
     invoke-direct {p1, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter$1;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;)V
@@ -60,7 +60,7 @@
 .method public getItemCount()I
     .locals 2
 
-    .line 685
+    .line 700
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -79,7 +79,7 @@
 
     if-lez v0, :cond_0
 
-    .line 686
+    .line 701
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -107,7 +107,7 @@
         }
     .end annotation
 
-    .line 579
+    .line 594
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -137,7 +137,7 @@
 .method synthetic lambda$onBindViewHolder$0$com-changyow-iconsole4th-activity-smart_exercise-DailyExerciseActivity$SmartTrainingListAdapter(Landroid/view/View;)V
     .locals 3
 
-    .line 674
+    .line 689
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -160,7 +160,7 @@
 
     goto :goto_0
 
-    .line 677
+    .line 692
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
@@ -168,7 +168,7 @@
 
     goto :goto_1
 
-    .line 675
+    .line 690
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -204,7 +204,7 @@
         }
     .end annotation
 
-    .line 570
+    .line 585
     check-cast p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->onBindViewHolder(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;I)V
@@ -225,7 +225,7 @@
         }
     .end annotation
 
-    .line 603
+    .line 618
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -242,7 +242,7 @@
 
     if-ge p2, v0, :cond_9
 
-    .line 605
+    .line 620
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->mExercises:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -253,7 +253,7 @@
 
     check-cast p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
 
-    .line 607
+    .line 622
     iget-object v0, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->completed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
 
     const/4 v1, 0x0
@@ -279,7 +279,7 @@
     :cond_0
     move v0, v1
 
-    .line 612
+    .line 627
     :goto_0
     iget-object v3, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->level:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;
 
@@ -316,7 +316,7 @@
 
     iget-object v3, v3, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeDouble;->items:Ljava/util/List;
 
-    .line 613
+    .line 628
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v3
@@ -338,7 +338,7 @@
 
     iget-object v3, v3, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;->items:Ljava/util/List;
 
-    .line 614
+    .line 629
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v3
@@ -353,7 +353,7 @@
     :cond_4
     move v3, v1
 
-    .line 620
+    .line 635
     :goto_1
     iget-object v4, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->equipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
@@ -365,12 +365,12 @@
 
     move-result-object v4
 
-    .line 621
+    .line 636
     invoke-static {v4}, Lcom/changyow/iconsole4th/def/Const$Equipments;->getIconRes(Ljava/lang/String;)I
 
     move-result v4
 
-    .line 622
+    .line 637
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
 
     invoke-static {v5}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;->access$1400(Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -385,7 +385,7 @@
 
     move-result-object v4
 
-    .line 623
+    .line 638
     iget-object v5, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvMachineType:Landroid/widget/TextView;
 
     iget-object v6, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->equipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -396,7 +396,7 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 624
+    .line 639
     iget-object v5, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvMachineType:Landroid/widget/TextView;
 
     const/4 v6, 0x0
@@ -407,7 +407,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 627
+    .line 642
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->vCompletedHint:Landroid/view/View;
 
     const-string v3, "#9b9b9b"
@@ -418,7 +418,7 @@
 
     invoke-virtual {v0, v3}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 628
+    .line 643
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvDuration:Landroid/widget/TextView;
 
     iget-object v3, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->completed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Completed;
@@ -431,7 +431,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 629
+    .line 644
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvMets:Landroid/widget/TextView;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -452,7 +452,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 630
+    .line 645
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeedTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -465,7 +465,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 631
+    .line 646
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -494,7 +494,7 @@
 
     goto/16 :goto_3
 
-    .line 635
+    .line 650
     :cond_5
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->vCompletedHint:Landroid/view/View;
 
@@ -506,7 +506,7 @@
 
     invoke-virtual {v0, v5}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 636
+    .line 651
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvDuration:Landroid/widget/TextView;
 
     iget v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->time_seconds:I
@@ -517,7 +517,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 638
+    .line 653
     iget-object v0, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->equipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->equipmentTypeId()I
@@ -528,7 +528,7 @@
 
     if-ne v0, v5, :cond_6
 
-    .line 641
+    .line 656
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeedTitle:Landroid/widget/TextView;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -541,7 +541,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 642
+    .line 657
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
     iget-object v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->speed:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeDouble;
@@ -556,7 +556,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 643
+    .line 658
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoadTitle:Landroid/widget/TextView;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -569,7 +569,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 644
+    .line 659
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoad:Landroid/widget/TextView;
 
     iget-object v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->incline:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;
@@ -593,7 +593,7 @@
 
     if-ne v0, v5, :cond_7
 
-    .line 648
+    .line 663
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeedTitle:Landroid/widget/TextView;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -606,7 +606,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 649
+    .line 664
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
     iget v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->spm:I
@@ -617,7 +617,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 650
+    .line 665
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoadTitle:Landroid/widget/TextView;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -628,7 +628,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 651
+    .line 666
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoad:Landroid/widget/TextView;
 
     iget-object v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->level:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;
@@ -645,7 +645,7 @@
 
     goto :goto_2
 
-    .line 655
+    .line 670
     :cond_7
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeedTitle:Landroid/widget/TextView;
 
@@ -659,7 +659,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 656
+    .line 671
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
     iget v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->rpm:I
@@ -670,7 +670,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 657
+    .line 672
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoadTitle:Landroid/widget/TextView;
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -681,7 +681,7 @@
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 658
+    .line 673
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoad:Landroid/widget/TextView;
 
     iget-object v5, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->level:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$PolytypeInt;
@@ -699,19 +699,19 @@
     :goto_2
     if-eqz v3, :cond_8
 
-    .line 662
+    .line 677
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetSpeed:Landroid/widget/TextView;
 
     const-string v3, "-"
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 663
+    .line 678
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvTargetLoad:Landroid/widget/TextView;
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 665
+    .line 680
     :cond_8
     iget-object v0, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->txvMets:Landroid/widget/TextView;
 
@@ -731,14 +731,14 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 666
+    .line 681
     iget-object p2, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 667
+    .line 682
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;
@@ -751,7 +751,7 @@
 
     goto :goto_3
 
-    .line 672
+    .line 687
     :cond_9
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
@@ -778,7 +778,7 @@
         }
     .end annotation
 
-    .line 570
+    .line 585
     invoke-virtual {p0, p1, p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$SmartTrainingListAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;
 
     move-result-object p1
@@ -805,7 +805,7 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 590
+    .line 605
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -814,20 +814,20 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00fd
+    const v1, 0x7f0d00fa
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
-    .line 591
+    .line 606
     new-instance p2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;
 
     invoke-direct {p2, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;-><init>(Landroid/view/View;)V
 
     return-object p2
 
-    .line 595
+    .line 610
     :cond_0
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -837,13 +837,13 @@
 
     move-result-object p2
 
-    const v1, 0x7f0d00fe
+    const v1, 0x7f0d00fb
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
-    .line 596
+    .line 611
     new-instance p2, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;
 
     invoke-direct {p2, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$ItemViewHolder;-><init>(Landroid/view/View;)V

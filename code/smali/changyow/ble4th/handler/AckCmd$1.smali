@@ -26,6 +26,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/AckCmd;Lchangyow/ble4th/BLEPeripheralListener;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 44
     iput-object p1, p0, Lchangyow/ble4th/handler/AckCmd$1;->this$0:Lchangyow/ble4th/handler/AckCmd;

@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 63
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 64
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     iput p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->val$equipmentIndex:I
@@ -76,12 +82,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 69
+    .line 70
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     invoke-static {v0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$002(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/models/MetsSettings;)Lcom/changyow/iconsole4th/models/MetsSettings;
 
-    .line 70
+    .line 71
     iget p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->val$equipmentIndex:I
 
     if-ltz p1, :cond_0
@@ -112,7 +118,7 @@
 
     if-le p1, v0, :cond_0
 
-    .line 72
+    .line 73
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)Lcom/changyow/iconsole4th/models/MetsSettings;
@@ -131,7 +137,7 @@
 
     invoke-static {p1, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$102(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;)Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
-    .line 73
+    .line 74
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     const/4 v0, 0x0
@@ -140,7 +146,7 @@
 
     goto :goto_0
 
-    .line 77
+    .line 78
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
@@ -158,7 +164,7 @@
 
     invoke-static {p1, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$102(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;)Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
-    .line 80
+    .line 81
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
@@ -168,14 +174,14 @@
 
     if-nez p1, :cond_1
 
-    .line 82
+    .line 83
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->finish()V
 
     return-void
 
-    .line 86
+    .line 87
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
@@ -185,12 +191,12 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->fixNull()V
 
-    .line 87
+    .line 88
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$300(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V
 
-    .line 88
+    .line 89
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->access$400(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V

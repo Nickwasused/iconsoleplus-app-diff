@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->lambda$onItemClick$1(Landroid/content/DialogInterface;I)V
+    value = Lcom/changyow/iconsole4th/activity/UserProfileActivity$3;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

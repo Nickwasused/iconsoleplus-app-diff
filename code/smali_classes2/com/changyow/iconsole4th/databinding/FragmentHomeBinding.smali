@@ -19,14 +19,17 @@
 
 .field private final rootView:Landroid/widget/RelativeLayout;
 
+.field public final txvCompanyName:Landroid/widget/TextView;
+
 .field public final vpContent:Landroidx/viewpager/widget/ViewPager;
 
 
 # direct methods
-.method private constructor <init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RelativeLayout;Landroid/widget/ImageView;Lcom/gigamole/navigationtabstrip/NavigationTabStrip;Landroidx/viewpager/widget/ViewPager;)V
+.method private constructor <init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RelativeLayout;Landroid/widget/ImageView;Lcom/gigamole/navigationtabstrip/NavigationTabStrip;Landroid/widget/TextView;Landroidx/viewpager/widget/ViewPager;)V
     .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
+            0x0,
             0x0,
             0x0,
             0x0,
@@ -42,39 +45,43 @@
             "fakeActionBar",
             "ivLogo",
             "ntsTop",
+            "txvCompanyName",
             "vpContent"
         }
     .end annotation
 
-    .line 45
+    .line 64
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 46
+    .line 65
     iput-object p1, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->rootView:Landroid/widget/RelativeLayout;
 
-    .line 47
+    .line 66
     iput-object p2, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->btnMenu:Landroid/widget/ImageButton;
 
-    .line 48
+    .line 67
     iput-object p3, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->btnMessage:Landroid/widget/ImageButton;
 
-    .line 49
+    .line 68
     iput-object p4, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    .line 50
+    .line 69
     iput-object p5, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->ivLogo:Landroid/widget/ImageView;
 
-    .line 51
+    .line 70
     iput-object p6, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->ntsTop:Lcom/gigamole/navigationtabstrip/NavigationTabStrip;
 
-    .line 52
-    iput-object p7, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->vpContent:Landroidx/viewpager/widget/ViewPager;
+    .line 71
+    iput-object p7, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->txvCompanyName:Landroid/widget/TextView;
+
+    .line 72
+    iput-object p8, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->vpContent:Landroidx/viewpager/widget/ViewPager;
 
     return-void
 .end method
 
 .method public static bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;
-    .locals 10
+    .locals 11
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0
@@ -84,9 +91,9 @@
         }
     .end annotation
 
-    const v0, 0x7f0a00b2
+    const v0, 0x7f0a00b1
 
-    .line 83
+    .line 103
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
@@ -97,9 +104,9 @@
 
     if-eqz v4, :cond_0
 
-    const v0, 0x7f0a00b3
+    const v0, 0x7f0a00b2
 
-    .line 89
+    .line 109
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
@@ -110,9 +117,9 @@
 
     if-eqz v5, :cond_0
 
-    const v0, 0x7f0a01aa
+    const v0, 0x7f0a01a8
 
-    .line 95
+    .line 115
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
@@ -123,9 +130,9 @@
 
     if-eqz v6, :cond_0
 
-    const v0, 0x7f0a0225
+    const v0, 0x7f0a0223
 
-    .line 101
+    .line 121
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
@@ -136,9 +143,9 @@
 
     if-eqz v7, :cond_0
 
-    const v0, 0x7f0a0367
+    const v0, 0x7f0a035d
 
-    .line 107
+    .line 127
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
@@ -149,20 +156,31 @@
 
     if-eqz v8, :cond_0
 
-    const v0, 0x7f0a05bc
+    const v0, 0x7f0a04b5
 
-    .line 113
+    .line 133
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    move-object v9, v0
+
+    check-cast v9, Landroid/widget/TextView;
+
+    const v0, 0x7f0a05c8
+
+    .line 136
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
 
-    move-object v9, v1
+    move-object v10, v1
 
-    check-cast v9, Landroidx/viewpager/widget/ViewPager;
+    check-cast v10, Landroidx/viewpager/widget/ViewPager;
 
-    if-eqz v9, :cond_0
+    if-eqz v10, :cond_0
 
-    .line 118
+    .line 141
     new-instance v0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;
 
     move-object v3, p0
@@ -171,11 +189,11 @@
 
     move-object v2, v0
 
-    invoke-direct/range {v2 .. v9}, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;-><init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RelativeLayout;Landroid/widget/ImageView;Lcom/gigamole/navigationtabstrip/NavigationTabStrip;Landroidx/viewpager/widget/ViewPager;)V
+    invoke-direct/range {v2 .. v10}, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;-><init>(Landroid/widget/RelativeLayout;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RelativeLayout;Landroid/widget/ImageView;Lcom/gigamole/navigationtabstrip/NavigationTabStrip;Landroid/widget/TextView;Landroidx/viewpager/widget/ViewPager;)V
 
     return-object v0
 
-    .line 121
+    .line 144
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -185,7 +203,7 @@
 
     move-result-object p0
 
-    .line 122
+    .line 145
     new-instance v0, Ljava/lang/NullPointerException;
 
     const-string v1, "Missing required view with ID: "
@@ -214,7 +232,7 @@
 
     const/4 v1, 0x0
 
-    .line 63
+    .line 83
     invoke-static {p0, v0, v1}, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;
 
     move-result-object p0
@@ -237,21 +255,21 @@
         }
     .end annotation
 
-    const v0, 0x7f0d00a7
+    const v0, 0x7f0d00a4
 
     const/4 v1, 0x0
 
-    .line 69
+    .line 89
     invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
-    .line 71
+    .line 91
     invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 73
+    .line 93
     :cond_0
     invoke-static {p0}, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;
 
@@ -265,7 +283,7 @@
 .method public bridge synthetic getRoot()Landroid/view/View;
     .locals 1
 
-    .line 21
+    .line 22
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v0
@@ -276,7 +294,7 @@
 .method public getRoot()Landroid/widget/RelativeLayout;
     .locals 1
 
-    .line 58
+    .line 78
     iget-object v0, p0, Lcom/changyow/iconsole4th/databinding/FragmentHomeBinding;->rootView:Landroid/widget/RelativeLayout;
 
     return-object v0

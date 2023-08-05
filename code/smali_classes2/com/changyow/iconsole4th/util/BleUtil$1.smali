@@ -33,6 +33,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 80
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/BleUtil$1;->val$activityContext:Landroid/content/Context;
 

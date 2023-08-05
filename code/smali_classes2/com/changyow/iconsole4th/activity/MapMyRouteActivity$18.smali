@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 823
+    .line 832
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$18;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,12 +54,12 @@
         }
     .end annotation
 
-    .line 827
+    .line 836
     move-object v0, p1
 
     check-cast v0, Lcom/amap/api/location/AMapLocation;
 
-    .line 829
+    .line 838
     invoke-virtual {v0}, Lcom/amap/api/location/AMapLocation;->getLocationType()I
 
     move-result v1
@@ -102,7 +102,7 @@
 
     return-void
 
-    .line 832
+    .line 841
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$18;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -112,7 +112,7 @@
 
     return-void
 
-    .line 834
+    .line 843
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$18;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -122,7 +122,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->iGpsCount:I
 
-    .line 836
+    .line 845
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$18;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/amap/api/maps2d/AMap;

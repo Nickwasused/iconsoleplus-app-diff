@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 768
+    .line 777
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 772
+    .line 781
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-boolean v0, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
@@ -65,7 +65,7 @@
 
     return v1
 
-    .line 774
+    .line 783
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -85,10 +85,10 @@
 
     if-gt v0, v2, :cond_1
 
-    .line 777
+    .line 786
     invoke-virtual {p1}, Lcom/google/android/gms/maps/model/Marker;->remove()V
 
-    .line 778
+    .line 787
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Ljava/util/ArrayList;
@@ -97,7 +97,7 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 779
+    .line 788
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$16;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$1400(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V

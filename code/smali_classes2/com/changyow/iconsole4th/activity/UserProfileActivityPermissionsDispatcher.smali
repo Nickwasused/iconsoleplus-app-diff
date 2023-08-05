@@ -10,11 +10,11 @@
 
 .field private static final PERMISSION_STARTBARCODEACTIVITY:[Ljava/lang/String;
 
-.field private static final REQUEST_SHOWCAMERA:I = 0x3
+.field private static final REQUEST_SHOWCAMERA:I = 0x6
 
-.field private static final REQUEST_SHWOGALLERY:I = 0x4
+.field private static final REQUEST_SHWOGALLERY:I = 0x7
 
-.field private static final REQUEST_STARTBARCODEACTIVITY:I = 0x5
+.field private static final REQUEST_STARTBARCODEACTIVITY:I = 0x8
 
 
 # direct methods
@@ -73,15 +73,15 @@
         }
     .end annotation
 
-    const/4 v0, 0x3
+    const/4 v0, 0x6
 
     if-eq p1, v0, :cond_2
 
-    const/4 v0, 0x4
+    const/4 v0, 0x7
 
     if-eq p1, v0, :cond_1
 
-    const/4 v0, 0x5
+    const/16 v0, 0x8
 
     if-eq p1, v0, :cond_0
 
@@ -155,7 +155,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v1, 0x3
+    const/4 v1, 0x6
 
     .line 37
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
@@ -190,7 +190,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v1, 0x4
+    const/4 v1, 0x7
 
     .line 45
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
@@ -225,7 +225,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v1, 0x5
+    const/16 v1, 0x8
 
     .line 29
     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V

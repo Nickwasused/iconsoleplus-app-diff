@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 53
+    .line 56
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 57
+    .line 60
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;->access$000(Lcom/changyow/iconsole4th/activity/roller_wheel/RWTutorialActivity;)V

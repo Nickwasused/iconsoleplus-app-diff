@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 300
+    .line 306
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 304
+    .line 310
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;->access$400(Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;)Landroid/app/Dialog;

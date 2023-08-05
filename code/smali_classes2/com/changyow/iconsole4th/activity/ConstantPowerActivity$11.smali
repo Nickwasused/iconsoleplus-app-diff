@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 378
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 389
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;->val$btnStartWorkout:Landroid/widget/ImageButton;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 382
+    .line 393
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;->val$btnStartWorkout:Landroid/widget/ImageButton;
 
     invoke-virtual {p1}, Landroid/widget/ImageButton;->isSelected()Z
@@ -71,7 +77,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 383
+    .line 394
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -82,7 +88,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 385
+    .line 396
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$11;->val$btnStartWorkout:Landroid/widget/ImageButton;
 
     invoke-virtual {p1}, Landroid/widget/ImageButton;->isSelected()Z
@@ -91,7 +97,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 386
+    .line 397
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 
     move-result-object p1
@@ -104,7 +110,7 @@
 
     goto :goto_0
 
-    .line 388
+    .line 399
     :cond_0
     invoke-static {}, Lchangyow/ble4th/BLEManager;->getInstance()Lchangyow/ble4th/BLEManager;
 

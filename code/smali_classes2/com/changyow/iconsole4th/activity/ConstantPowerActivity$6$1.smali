@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 298
+    .line 308
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6$1;->this$1:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;-><init>()V
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .line 302
+    .line 312
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6$1;->this$1:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
 
     iget-object p2, p2, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
@@ -64,7 +64,7 @@
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;->access$402(Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;I)I
 
-    .line 303
+    .line 313
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6$1;->this$1:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
@@ -101,7 +101,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 304
+    .line 314
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6$1;->this$1:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;
@@ -142,7 +142,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 305
+    .line 315
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -153,7 +153,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 306
+    .line 316
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6$1;->this$1:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/ConstantPowerActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/ConstantPowerActivity;

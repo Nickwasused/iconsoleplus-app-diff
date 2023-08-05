@@ -16,7 +16,7 @@
 
 .field private static final PERMISSION_BTNMENUPRESSED:[Ljava/lang/String;
 
-.field private static final REQUEST_BTNMENUPRESSED:I = 0x10
+.field private static final REQUEST_BTNMENUPRESSED:I = 0xe
 
 
 # direct methods
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragmentPermissionsDispatcher;->PENDING_BTNMENUPRESSED:Lpermissions/dispatcher/GrantableRequest;
 
-    const/16 p1, 0x10
+    const/16 p1, 0xe
 
     .line 27
     invoke-virtual {p0, v1, p1}, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -118,7 +118,7 @@
         }
     .end annotation
 
-    const/16 p0, 0x10
+    const/16 p0, 0xe
 
     if-eq p1, p0, :cond_0
 

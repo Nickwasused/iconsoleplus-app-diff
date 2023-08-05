@@ -38,6 +38,11 @@
 # direct methods
 .method constructor <init>(Lchangyow/ble4th/handler/iconsole/ICGetWorkoutStatus;Lchangyow/ble4th/BLEPeripheralListener;DIIDII)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 80
     iput-object p1, p0, Lchangyow/ble4th/handler/iconsole/ICGetWorkoutStatus$1;->this$0:Lchangyow/ble4th/handler/iconsole/ICGetWorkoutStatus;

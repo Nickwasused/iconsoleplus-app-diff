@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 344
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 350
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;->val$btnMute:Landroid/widget/ImageButton;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 348
+    .line 354
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;->val$btnMute:Landroid/widget/ImageButton;
 
     invoke-virtual {p1}, Landroid/widget/ImageButton;->isSelected()Z
@@ -71,7 +77,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setSelected(Z)V
 
-    .line 349
+    .line 355
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;->this$0:Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/roller_wheel/RWQuickStartActivity$9;->val$btnMute:Landroid/widget/ImageButton;

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->lambda$initView$1(ILandroid/view/View;)V
+    value = Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->initView()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 93
+    .line 100
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnNumberPickListener;-><init>()V
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .line 97
+    .line 104
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;
 
     iget-object p2, p2, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->mSchedule:Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;
@@ -64,7 +64,7 @@
 
     iput v0, p2, Lcom/changyow/iconsole4th/models/SmartExerciseSchedule$Schedule;->time_seconds:I
 
-    .line 98
+    .line 105
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;
 
     invoke-static {p2}, Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;->access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/CustomExerciseDurationSettingActivity;)Landroid/widget/TextView;

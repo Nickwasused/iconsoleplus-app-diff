@@ -41,6 +41,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 123
     iput-object p1, p0, Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter$2;->this$0:Lcom/changyow/iconsole4th/adapter/aitraining/AITimeSetupAdapter;
 

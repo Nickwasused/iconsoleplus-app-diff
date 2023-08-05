@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="58.0dip" android:minHeight="58.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.799988sp" android:textStyle="normal" android:textColor="#ffb4191d" android:gravity="center" android:background="@drawable/shape_userprofile__delete_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:minHeight="38.0dip" android:text="@string/str_delete_account" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" fontPath="dinpro_regular.otf"
+    <TextView android:textSize="15.799988sp" android:textStyle="normal" android:textColor="#ffb4191d" android:gravity="center" android:id="@id/txvDeleteAccount" android:background="@drawable/shape_userprofile__delete_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:minHeight="38.0dip" android:text="@string/str_delete_account" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" fontPath="dinpro_regular.otf"
       xmlns:android="http://schemas.android.com/apk/res/android" />
 </RelativeLayout>

@@ -35,35 +35,35 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 38
+    .line 39
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     const/16 v0, 0xc8
 
-    .line 39
+    .line 40
     iput v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mTargetMets:I
 
     const/4 v0, 0x1
 
-    .line 40
+    .line 41
     iput v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
     const/4 v0, 0x0
 
-    .line 41
+    .line 42
     iput v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
     const/16 v1, 0x8
 
-    .line 42
+    .line 43
     iput v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mNotifHour:I
 
-    .line 43
+    .line 44
     iput v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mNotifyMinute:I
 
     return-void
@@ -72,7 +72,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -81,7 +81,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -90,7 +90,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)V
     .locals 0
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->presentPage()V
 
     return-void
@@ -99,7 +99,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -108,7 +108,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     return-object p0
@@ -117,9 +117,9 @@
 .method private initView()V
     .locals 2
 
-    const v0, 0x7f0a0548
+    const v0, 0x7f0a0553
 
-    .line 83
+    .line 90
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -128,9 +128,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMetsTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0547
+    const v0, 0x7f0a0552
 
-    .line 84
+    .line 91
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -139,9 +139,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMets:Landroid/widget/TextView;
 
-    const v0, 0x7f0a051d
+    const v0, 0x7f0a0524
 
-    .line 85
+    .line 92
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -150,9 +150,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0521
+    const v0, 0x7f0a0528
 
-    .line 86
+    .line 93
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -161,9 +161,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0551
+    const v0, 0x7f0a055c
 
-    .line 87
+    .line 94
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -172,9 +172,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTimeOfFitness:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00c8
+    const v0, 0x7f0a00c7
 
-    .line 88
+    .line 95
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -183,9 +183,9 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->btnSave:Landroid/widget/Button;
 
-    const v0, 0x7f0a0522
+    const v0, 0x7f0a0529
 
-    .line 89
+    .line 96
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -194,7 +194,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetGoals:Landroid/widget/TextView;
 
-    .line 91
+    .line 98
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMetsTitle:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda10;
@@ -203,7 +203,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 99
+    .line 106
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMets:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda11;
@@ -212,7 +212,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 143
+    .line 150
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda12;
@@ -221,7 +221,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 155
+    .line 162
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda1;
@@ -230,7 +230,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 183
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTimeOfFitness:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda8;
@@ -239,14 +239,14 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 196
+    .line 203
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetGoals:Landroid/widget/TextView;
 
     sget-object v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda3;->INSTANCE:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda3;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 200
+    .line 207
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->btnSave:Landroid/widget/Button;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda9;
@@ -261,7 +261,7 @@
 .method static synthetic lambda$initView$1(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 95
+    .line 102
     invoke-interface {p0}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -276,7 +276,7 @@
 .method private loadSettings()V
     .locals 2
 
-    .line 208
+    .line 215
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -293,7 +293,7 @@
 .method private presentPage()V
     .locals 6
 
-    .line 267
+    .line 274
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTargetMets:Landroid/widget/TextView;
 
     iget v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mTargetMets:I
@@ -304,7 +304,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 268
+    .line 275
     iget v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
     const/4 v1, 0x2
@@ -313,14 +313,14 @@
 
     if-ne v0, v2, :cond_0
 
-    .line 270
+    .line 277
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
     const v3, 0x7f120131
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 271
+    .line 278
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
     const v3, 0x7f120132
@@ -332,24 +332,24 @@
     :cond_0
     if-ne v0, v1, :cond_1
 
-    .line 275
+    .line 282
     invoke-static {}, Lcom/changyow/iconsole4th/def/Mets;->getWeekdaysTitle()[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 276
+    .line 283
     iget v3, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
     sub-int/2addr v3, v2
 
-    .line 277
+    .line 284
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
     const v5, 0x7f12013b
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
-    .line 278
+    .line 285
     iget-object v4, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
     aget-object v0, v0, v3
@@ -363,14 +363,14 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 282
+    .line 289
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvRepeitionPeriod:Landroid/widget/TextView;
 
     const v3, 0x7f120134
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 283
+    .line 290
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvResetDate:Landroid/widget/TextView;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -391,7 +391,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 286
+    .line 293
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->txvTimeOfFitness:Landroid/widget/TextView;
@@ -430,7 +430,7 @@
 .method private resetMets()V
     .locals 1
 
-    .line 291
+    .line 298
     iget v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/def/Mets;->getTargetMetsDefault(I)I
@@ -441,10 +441,10 @@
 
     const/4 v0, 0x1
 
-    .line 292
+    .line 299
     iput v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
-    .line 294
+    .line 301
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->presentPage()V
 
     return-void
@@ -453,14 +453,14 @@
 .method private saveSettings()V
     .locals 4
 
-    .line 255
+    .line 262
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
 
     if-eqz v0, :cond_0
 
-    .line 257
+    .line 264
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
@@ -469,7 +469,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;->target:I
 
-    .line 258
+    .line 265
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
@@ -478,7 +478,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;->period:I
 
-    .line 259
+    .line 266
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
@@ -487,7 +487,7 @@
 
     iput v1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;->reset:I
 
-    .line 260
+    .line 267
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
@@ -524,7 +524,7 @@
 
     iput-object v1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;->time:Ljava/lang/String;
 
-    .line 262
+    .line 269
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -538,71 +538,71 @@
 .method private setupInitActionbar()V
     .locals 6
 
-    .line 57
+    .line 64
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 58
+    .line 65
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 59
+    .line 66
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 61
+    .line 68
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
-    .line 62
+    .line 69
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    .line 64
+    .line 71
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v3, 0x1
 
-    .line 65
+    .line 72
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 67
+    .line 74
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
-    .line 68
+    .line 75
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
-    .line 69
+    .line 76
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
-    .line 70
+    .line 77
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -611,18 +611,18 @@
 
     const v5, 0x7f1200a4
 
-    .line 72
+    .line 79
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    .line 73
+    .line 80
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v0, 0x7f08018a
 
-    .line 74
+    .line 81
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 75
+    .line 82
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda2;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)V
@@ -631,10 +631,10 @@
 
     const/4 v0, 0x4
 
-    .line 77
+    .line 84
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 78
+    .line 85
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -642,10 +642,24 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 58
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 59
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->btnSave:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method synthetic lambda$initView$10$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 6
 
-    .line 184
+    .line 191
     new-instance p1, Landroid/app/TimePickerDialog;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -664,7 +678,7 @@
 
     invoke-direct/range {v0 .. v5}, Landroid/app/TimePickerDialog;-><init>(Landroid/content/Context;Landroid/app/TimePickerDialog$OnTimeSetListener;IIZ)V
 
-    .line 193
+    .line 200
     invoke-virtual {p1}, Landroid/app/TimePickerDialog;->show()V
 
     return-void
@@ -673,10 +687,10 @@
 .method synthetic lambda$initView$12$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 201
+    .line 208
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->saveSettings()V
 
-    .line 202
+    .line 209
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->finish()V
 
     return-void
@@ -685,7 +699,7 @@
 .method synthetic lambda$initView$2$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 2
 
-    .line 92
+    .line 99
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -694,14 +708,14 @@
 
     const v0, 0x7f120218
 
-    .line 93
+    .line 100
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
     const v0, 0x7f120133
 
-    .line 94
+    .line 101
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
@@ -710,12 +724,12 @@
 
     const v1, 0x7f120130
 
-    .line 95
+    .line 102
     invoke-virtual {p1, v1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 96
+    .line 103
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -728,13 +742,13 @@
 
     add-int/2addr p4, p2
 
-    .line 136
+    .line 143
     iput p4, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mTargetMets:I
 
-    .line 137
+    .line 144
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->presentPage()V
 
-    .line 138
+    .line 145
     invoke-interface {p3}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -743,12 +757,12 @@
 .method synthetic lambda$initView$4$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 6
 
-    .line 105
+    .line 112
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 107
+    .line 114
     iget v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
     const/16 v1, 0x1f4
@@ -800,7 +814,7 @@
     :goto_1
     if-gt v0, v2, :cond_3
 
-    .line 127
+    .line 134
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -811,7 +825,7 @@
 
     goto :goto_1
 
-    .line 128
+    .line 135
     :cond_3
     iget v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mTargetMets:I
 
@@ -825,7 +839,7 @@
 
     move v0, v2
 
-    .line 134
+    .line 141
     :cond_4
     new-instance v3, Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -841,7 +855,7 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    .line 135
+    .line 142
     invoke-interface {p1, v2}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -856,7 +870,7 @@
 
     move-result-object p1
 
-    .line 140
+    .line 147
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -867,13 +881,13 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 148
+    .line 155
     iput p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
-    .line 149
+    .line 156
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->resetMets()V
 
-    .line 150
+    .line 157
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -888,7 +902,7 @@
 
     const v0, 0x7f120131
 
-    .line 144
+    .line 151
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -917,7 +931,7 @@
 
     aput-object v0, p1, v2
 
-    .line 146
+    .line 153
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -938,12 +952,12 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)V
 
-    .line 147
+    .line 154
     invoke-virtual {v0, p1, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 152
+    .line 159
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -954,13 +968,13 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 162
+    .line 169
     iput p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
-    .line 163
+    .line 170
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->presentPage()V
 
-    .line 164
+    .line 171
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -971,13 +985,13 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 175
+    .line 182
     iput p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
-    .line 176
+    .line 183
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->presentPage()V
 
-    .line 177
+    .line 184
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -986,7 +1000,7 @@
 .method synthetic lambda$initView$9$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 4
 
-    .line 156
+    .line 163
     iget p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mRepetitonPeriod:I
 
     const v0, 0x7f120136
@@ -997,17 +1011,17 @@
 
     if-ne p1, v2, :cond_0
 
-    .line 158
+    .line 165
     invoke-static {}, Lcom/changyow/iconsole4th/def/Mets;->getWeekdaysTitle()[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 159
+    .line 166
     iget v2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mResetDate:I
 
     sub-int/2addr v2, v1
 
-    .line 160
+    .line 167
     new-instance v1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1022,17 +1036,17 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$$ExternalSyntheticLambda4;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;)V
 
-    .line 161
+    .line 168
     invoke-virtual {v0, p1, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 166
+    .line 173
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     goto :goto_1
 
-    .line 170
+    .line 177
     :cond_0
     new-instance p1, Ljava/util/ArrayList;
 
@@ -1045,7 +1059,7 @@
 
     if-gt v2, v3, :cond_1
 
-    .line 172
+    .line 179
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -1056,7 +1070,7 @@
 
     goto :goto_0
 
-    .line 173
+    .line 180
     :cond_1
     new-instance v2, Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -1072,7 +1086,7 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    .line 174
+    .line 181
     invoke-interface {p1, v2}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1091,7 +1105,7 @@
 
     move-result-object p1
 
-    .line 179
+    .line 186
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     :goto_1
@@ -1101,7 +1115,7 @@
 .method synthetic lambda$setupInitActionbar$0$com-changyow-iconsole4th-activity-smart_exercise-FitnessGoalsActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 75
+    .line 82
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->finish()V
 
     return-void
@@ -1118,21 +1132,21 @@
         }
     .end annotation
 
-    .line 48
+    .line 49
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0046
-
-    .line 49
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->setContentView(I)V
+    const p1, 0x7f0d0045
 
     .line 50
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->setupInitActionbar()V
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->setContentView(I)V
 
     .line 51
-    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->initView()V
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->setupInitActionbar()V
 
     .line 52
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->initView()V
+
+    .line 53
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;->loadSettings()V
 
     return-void

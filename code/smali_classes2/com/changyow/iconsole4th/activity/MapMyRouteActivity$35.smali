@@ -41,25 +41,25 @@
         }
     .end annotation
 
-    .line 2039
+    .line 2049
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2076
+    .line 2086
     iput p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->pauseCheck:I
 
     const/4 v0, 0x1
 
-    .line 2077
+    .line 2087
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->distanceAdc:Z
 
-    .line 2153
+    .line 2163
     iput p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->mDirection:I
 
-    .line 2221
+    .line 2231
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->bShow:Z
 
     return-void
@@ -96,24 +96,24 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 2207
+    .line 2217
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-boolean p1, p1, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bCanceled:Z
 
     if-nez p1, :cond_0
 
-    .line 2209
+    .line 2219
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->dismissPressStartDialog()V
 
     const/4 p1, 0x0
 
-    .line 2210
+    .line 2220
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->bShow:Z
 
-    .line 2211
+    .line 2221
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showSafetyKeyDialog()V
@@ -265,7 +265,7 @@
 
     if-nez v1, :cond_2
 
-    .line 2082
+    .line 2092
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -278,7 +278,7 @@
 
     if-eq v4, v5, :cond_2
 
-    .line 2084
+    .line 2094
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v4
@@ -295,10 +295,10 @@
 
     if-ge v4, v15, :cond_0
 
-    .line 2085
+    .line 2095
     iput v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->pauseCheck:I
 
-    .line 2086
+    .line 2096
     :cond_0
     iget v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->pauseCheck:I
 
@@ -308,12 +308,12 @@
 
     add-int/2addr v4, v2
 
-    .line 2087
+    .line 2097
     iput v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->pauseCheck:I
 
     goto :goto_0
 
-    .line 2089
+    .line 2099
     :cond_1
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -321,11 +321,11 @@
 
     goto :goto_0
 
-    .line 2092
+    .line 2102
     :cond_2
     iput v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->pauseCheck:I
 
-    .line 2094
+    .line 2104
     :goto_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -345,22 +345,22 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 2096
+    .line 2106
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->dismissPressStartDialog()V
 
-    .line 2097
+    .line 2107
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iput v3, v4, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mCountdown:I
 
-    .line 2098
+    .line 2108
     iget-object v4, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v4}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showCountdownDialog()V
 
-    .line 2100
+    .line 2110
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -386,12 +386,12 @@
 
     if-nez v1, :cond_4
 
-    .line 2101
+    .line 2111
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->stopWorkout()V
 
-    .line 2103
+    .line 2113
     :cond_4
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -399,7 +399,7 @@
 
     if-eqz v1, :cond_5
 
-    .line 2104
+    .line 2114
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     move/from16 v13, p12
@@ -411,7 +411,7 @@
     :cond_5
     move/from16 v13, p12
 
-    .line 2105
+    .line 2115
     :goto_1
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -423,7 +423,7 @@
 
     move-result v16
 
-    .line 2107
+    .line 2117
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v1
@@ -436,7 +436,7 @@
 
     if-ge v14, v15, :cond_6
 
-    .line 2110
+    .line 2120
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -453,7 +453,7 @@
 
     if-gez v1, :cond_6
 
-    .line 2111
+    .line 2121
     iput-boolean v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->distanceAdc:Z
 
     goto :goto_2
@@ -461,17 +461,17 @@
     :cond_6
     if-ge v14, v15, :cond_7
 
-    .line 2113
+    .line 2123
     iput-boolean v2, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->distanceAdc:Z
 
-    .line 2114
+    .line 2124
     :cond_7
     :goto_2
     iget-boolean v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->distanceAdc:Z
 
     if-nez v1, :cond_8
 
-    .line 2116
+    .line 2126
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -493,7 +493,7 @@
     :cond_8
     move-wide/from16 v17, p5
 
-    .line 2122
+    .line 2132
     :goto_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -505,15 +505,15 @@
 
     if-eqz v1, :cond_9
 
-    .line 2124
+    .line 2134
     invoke-static/range {p4 .. p4}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
-    .line 2125
+    .line 2135
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getDistance()D
 
     move-result-wide v17
 
-    .line 2126
+    .line 2136
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getTime()I
 
     move-result v1
@@ -522,7 +522,7 @@
 
     goto :goto_4
 
-    .line 2133
+    .line 2143
     :cond_9
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -544,7 +544,7 @@
 
     invoke-virtual/range {v1 .. v13}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateData(IDIDDIDI)V
 
-    .line 2134
+    .line 2144
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v1
@@ -554,7 +554,7 @@
     :goto_4
     move-wide/from16 v1, v17
 
-    .line 2137
+    .line 2147
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v3
@@ -567,26 +567,26 @@
 
     if-eqz v3, :cond_a
 
-    .line 2139
+    .line 2149
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v3, v1, v2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$2000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;D)V
 
-    .line 2140
+    .line 2150
     iget-object v3, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-object v3, v3, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {v3, v1, v2}, Lcom/changyow/iconsole4th/util/MapUtil;->updateCurrentDistance(D)V
 
-    .line 2141
+    .line 2151
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v3
 
     invoke-virtual {v3, v1, v2}, Lcom/changyow/iconsole4th/FlowControl;->setCurrentDistance(D)V
 
-    .line 2143
+    .line 2153
     :cond_a
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -602,7 +602,7 @@
 
     if-lt v14, v15, :cond_b
 
-    .line 2144
+    .line 2154
     iget-object v1, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->stopWorkout()V
@@ -624,7 +624,7 @@
 
     if-nez p1, :cond_1
 
-    .line 2066
+    .line 2076
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -647,7 +647,7 @@
 
     goto :goto_0
 
-    .line 2069
+    .line 2079
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -659,7 +659,7 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 2072
+    .line 2082
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -670,7 +670,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 2073
+    .line 2083
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     const/4 v0, 0x0
@@ -704,7 +704,7 @@
 .method public onWaitForStart()V
     .locals 1
 
-    .line 2226
+    .line 2236
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-boolean v0, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
@@ -717,7 +717,7 @@
 
     if-nez v0, :cond_1
 
-    .line 2228
+    .line 2238
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->bShow:Z
 
     if-eqz v0, :cond_0
@@ -727,15 +727,15 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2230
+    .line 2240
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->bShow:Z
 
-    .line 2231
+    .line 2241
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->showPressStartDialog()V
 
-    .line 2232
+    .line 2242
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->startRefreshUITimer()V
@@ -807,20 +807,20 @@
         }
     .end annotation
 
-    .line 2158
+    .line 2168
     invoke-static {p2}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->tick(I)V
 
-    .line 2159
+    .line 2169
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p4, p1, p2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->updateData(II)V
 
-    .line 2161
+    .line 2171
     invoke-static {}, Lcom/changyow/iconsole4th/util/ManualBikeHelper;->getDistance()D
 
     move-result-wide p1
 
-    .line 2162
+    .line 2172
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p4
@@ -833,26 +833,26 @@
 
     if-eqz p4, :cond_0
 
-    .line 2164
+    .line 2174
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-object p4, p4, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->mMapUtil:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-virtual {p4, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->updateCurrentDistance(D)V
 
-    .line 2165
+    .line 2175
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p4
 
     invoke-virtual {p4, p1, p2}, Lcom/changyow/iconsole4th/FlowControl;->setCurrentDistance(D)V
 
-    .line 2166
+    .line 2176
     iget-object p4, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p4, p1, p2}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$2000(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;D)V
 
-    .line 2169
+    .line 2179
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -860,7 +860,7 @@
 
     invoke-virtual {p4}, Lcom/changyow/iconsole4th/FlowControl;->getBleHeartRate()I
 
-    .line 2171
+    .line 2181
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p4
@@ -873,7 +873,7 @@
 
     invoke-virtual {p4, p5, v0}, Lcom/changyow/iconsole4th/FlowControl;->keepDirection(II)V
 
-    .line 2173
+    .line 2183
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p4
@@ -894,12 +894,12 @@
 
     if-lt p1, p2, :cond_1
 
-    .line 2174
+    .line 2184
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->stopWorkout()V
 
-    .line 2176
+    .line 2186
     :cond_1
     iget p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->mDirection:I
 
@@ -909,12 +909,12 @@
 
     if-ne p3, p1, :cond_2
 
-    .line 2182
+    .line 2192
     iput p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->mDirection:I
 
     goto :goto_0
 
-    .line 2187
+    .line 2197
     :cond_2
     iput p2, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$35;->mDirection:I
 

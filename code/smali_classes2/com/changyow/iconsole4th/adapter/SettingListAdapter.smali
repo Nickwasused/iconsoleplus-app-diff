@@ -198,7 +198,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const v1, 0x7f0d00f7
+    const v1, 0x7f0d00f4
 
     .line 98
     invoke-virtual {p2, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -208,7 +208,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0d00f6
+    const v1, 0x7f0d00f3
 
     .line 100
     invoke-virtual {p2, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -216,7 +216,7 @@
     move-result-object p2
 
     :goto_0
-    const v1, 0x7f0a044c
+    const v1, 0x7f0a0444
 
     .line 103
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     check-cast v1, Lcom/suke/widget/SwitchButton;
 
-    const v2, 0x7f0a0557
+    const v2, 0x7f0a0562
 
     .line 104
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a053b
+    const v3, 0x7f0a0544
 
     .line 105
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a04c4
+    const v4, 0x7f0a04bc
 
     .line 106
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

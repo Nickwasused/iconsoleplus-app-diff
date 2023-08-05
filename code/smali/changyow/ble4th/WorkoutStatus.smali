@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lchangyow/ble4th/WorkoutStatus$Units;,
+        Lchangyow/ble4th/WorkoutStatus$ControlState;,
         Lchangyow/ble4th/WorkoutStatus$Directions;,
         Lchangyow/ble4th/WorkoutStatus$Sexs;,
-        Lchangyow/ble4th/WorkoutStatus$Units;,
         Lchangyow/ble4th/WorkoutStatus$KeyLock;,
         Lchangyow/ble4th/WorkoutStatus$ShutdownState;,
-        Lchangyow/ble4th/WorkoutStatus$WarmUpState;,
-        Lchangyow/ble4th/WorkoutStatus$ControlState;
+        Lchangyow/ble4th/WorkoutStatus$WarmUpState;
     }
 .end annotation
 

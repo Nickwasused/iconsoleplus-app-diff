@@ -67,67 +67,67 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 33
+    .line 35
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 51
+    .line 53
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     const/4 v1, 0x3
 
-    .line 52
+    .line 54
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
     const/4 v1, 0x0
 
-    .line 53
+    .line 55
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCurrentCycle:I
 
-    .line 55
+    .line 57
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
-    .line 57
+    .line 59
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mWarmUpDuration:I
 
     const/16 v1, 0x3c
 
-    .line 58
+    .line 60
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityDuration:I
 
     const/16 v1, 0xb4
 
-    .line 59
+    .line 61
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestDuration:I
 
     const/16 v1, 0xa
 
-    .line 60
+    .line 62
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityLevel:I
 
     const/4 v2, 0x1
 
-    .line 61
+    .line 63
     iput v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestLevel:I
 
     const/16 v3, 0x50
 
-    .line 62
+    .line 64
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityRpm:I
 
     const/16 v3, 0x1e
 
-    .line 63
+    .line 65
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestRpm:I
 
-    .line 64
+    .line 66
     iput v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensitySpeed:I
 
-    .line 65
+    .line 67
     iput v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestSpeed:I
 
-    .line 66
+    .line 68
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     return-void
@@ -136,7 +136,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
     .locals 0
 
-    .line 33
+    .line 35
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     return-object p0
@@ -145,7 +145,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)I
     .locals 0
 
-    .line 33
+    .line 35
     iget p0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
     return p0
@@ -154,7 +154,7 @@
 .method static synthetic access$102(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;I)I
     .locals 0
 
-    .line 33
+    .line 35
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
     return p1
@@ -163,7 +163,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 33
+    .line 35
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
 
     return-object p0
@@ -172,7 +172,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)Landroid/widget/TextView;
     .locals 0
 
-    .line 33
+    .line 35
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
 
     return-object p0
@@ -181,7 +181,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)V
     .locals 0
 
-    .line 33
+    .line 35
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->exitSettingEdit()V
 
     return-void
@@ -190,7 +190,7 @@
 .method static synthetic access$500(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
     .locals 0
 
-    .line 33
+    .line 35
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->updateProfile(Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
 
     return-void
@@ -199,7 +199,7 @@
 .method static synthetic access$600(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
     .locals 0
 
-    .line 33
+    .line 35
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->saveNewProfile(Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
 
     return-void
@@ -208,7 +208,7 @@
 .method static synthetic access$700(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)Ljava/lang/String;
     .locals 0
 
-    .line 33
+    .line 35
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
     return-object p0
@@ -217,7 +217,7 @@
 .method static synthetic access$800(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)V
     .locals 0
 
-    .line 33
+    .line 35
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->exitWithoutWaitingSync()V
 
     return-void
@@ -226,12 +226,12 @@
 .method private exitSettingEdit()V
     .locals 1
 
-    .line 319
+    .line 336
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 320
+    .line 337
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->exitWithoutWaitingSync()V
 
     :cond_0
@@ -243,13 +243,13 @@
 
     const/4 v0, 0x0
 
-    .line 328
+    .line 345
     :try_start_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 329
+    .line 346
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -261,33 +261,33 @@
     :catch_0
     move-exception v1
 
-    .line 333
+    .line 350
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 338
+    .line 355
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
 
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 339
+    .line 356
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     const-string v2, "IntervalProfile"
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 340
+    .line 357
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_1
 
-    .line 343
+    .line 360
     :cond_1
     new-instance v0, Landroid/content/Intent;
 
@@ -299,7 +299,7 @@
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 344
+    .line 361
     :goto_1
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->finish()V
 
@@ -309,19 +309,19 @@
 .method private prepareUI()V
     .locals 8
 
-    .line 102
+    .line 119
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 103
+    .line 120
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTime:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 105
+    .line 122
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$1;
@@ -330,7 +330,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 113
+    .line 130
     new-instance v0, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -339,12 +339,12 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
-    .line 115
+    .line 132
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     if-nez v1, :cond_6
 
-    .line 117
+    .line 134
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -355,14 +355,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 118
+    .line 135
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setTreadmillMode()V
 
     goto :goto_0
 
-    .line 119
+    .line 136
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -374,14 +374,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 120
+    .line 137
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setRowerMode()V
 
     goto :goto_0
 
-    .line 121
+    .line 138
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -393,14 +393,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 122
+    .line 139
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setManualBikeMode()V
 
     goto :goto_0
 
-    .line 123
+    .line 140
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -412,14 +412,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 124
+    .line 141
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setManualBikeMode()V
 
     goto :goto_0
 
-    .line 125
+    .line 142
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -431,14 +431,14 @@
 
     if-eqz v0, :cond_4
 
-    .line 126
+    .line 143
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCurveTreadmillMode()V
 
     goto :goto_0
 
-    .line 127
+    .line 144
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -450,20 +450,20 @@
 
     if-eqz v0, :cond_5
 
-    .line 128
+    .line 145
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setLateralMode()V
 
     goto :goto_0
 
-    .line 130
+    .line 147
     :cond_5
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setBikeMode()V
 
-    .line 131
+    .line 148
     :goto_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
@@ -471,18 +471,18 @@
 
     goto :goto_1
 
-    .line 135
+    .line 152
     :cond_6
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setProflie(Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;)V
 
-    .line 136
+    .line 153
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     iget v0, v0, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->cycles:I
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
-    .line 137
+    .line 154
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvStage:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
@@ -491,7 +491,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 140
+    .line 157
     :goto_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
 
@@ -517,21 +517,21 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 141
+    .line 158
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     iget v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCycles(I)V
 
-    .line 143
+    .line 160
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->lvSettings:Landroid/widget/ListView;
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 144
+    .line 161
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$2;
@@ -540,7 +540,7 @@
 
     invoke-virtual {v0, v2}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCallback(Lcom/changyow/iconsole4th/interfaces/SimpleCallback;)V
 
-    .line 157
+    .line 174
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -557,15 +557,15 @@
 
     const/16 v0, 0xa
 
-    .line 159
+    .line 176
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mCycles:I
 
-    .line 160
+    .line 177
     iget-object v6, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v6, v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->setCycles(I)V
 
-    .line 161
+    .line 178
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
 
     new-array v6, v1, [Ljava/lang/Object;
@@ -584,14 +584,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 162
+    .line 179
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 163
+    .line 180
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -610,7 +610,7 @@
 
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityDuration:I
 
-    .line 164
+    .line 181
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -629,7 +629,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestDuration:I
 
-    .line 166
+    .line 183
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v4, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityDuration:I
@@ -648,7 +648,7 @@
 
     goto :goto_2
 
-    .line 170
+    .line 187
     :cond_7
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
@@ -658,7 +658,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 201
+    .line 218
     :goto_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvStage:Landroid/widget/TextView;
 
@@ -668,7 +668,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 208
+    .line 225
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnCancel:Landroid/widget/Button;
 
     new-instance v3, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$$ExternalSyntheticLambda1;
@@ -677,7 +677,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 215
+    .line 232
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
 
     new-instance v3, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$$ExternalSyntheticLambda2;
@@ -686,14 +686,14 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 273
+    .line 290
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 274
+    .line 291
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -712,7 +712,7 @@
 
     iput v3, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityDuration:I
 
-    .line 275
+    .line 292
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -731,7 +731,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestDuration:I
 
-    .line 276
+    .line 293
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
 
     iget v2, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityDuration:I
@@ -762,12 +762,12 @@
         }
     .end annotation
 
-    .line 281
+    .line 298
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
     invoke-virtual {v0}, Lcom/wang/avi/AVLoadingIndicatorView;->show()V
 
-    .line 282
+    .line 299
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->generateNewProfileString()Ljava/lang/String;
 
     move-result-object p1
@@ -792,12 +792,12 @@
         }
     .end annotation
 
-    .line 300
+    .line 317
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
     invoke-virtual {v0}, Lcom/wang/avi/AVLoadingIndicatorView;->show()V
 
-    .line 301
+    .line 318
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->generateUpdateString()Ljava/lang/String;
 
     move-result-object p1
@@ -813,19 +813,64 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 2
+
+    .line 110
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 111
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 112
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnCancel:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeSecondaryColor(Landroid/view/View;)V
+
+    .line 113
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    .line 114
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnCancel:Landroid/widget/Button;
+
+    invoke-static {}, Lcom/changyow/iconsole4th/util/LogoUtil;->getThemeTextColor()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+
+    return-void
+.end method
+
 .method synthetic lambda$prepareUI$0$com-changyow-iconsole4th-activity-IntervalProfileSettingActivity(Ljava/lang/String;)V
     .locals 1
 
     if-eqz p1, :cond_0
 
-    .line 203
+    .line 220
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
     if-lez v0, :cond_0
 
-    .line 204
+    .line 221
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvStage:Landroid/widget/TextView;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -837,7 +882,7 @@
 .method synthetic lambda$prepareUI$1$com-changyow-iconsole4th-activity-IntervalProfileSettingActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 202
+    .line 219
     new-instance p1, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$$ExternalSyntheticLambda3;
 
     invoke-direct {p1, p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)V
@@ -856,17 +901,17 @@
 .method synthetic lambda$prepareUI$2$com-changyow-iconsole4th-activity-IntervalProfileSettingActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 209
+    .line 226
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
     if-eqz p1, :cond_0
 
-    .line 210
+    .line 227
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->exitWithoutWaitingSync()V
 
     goto :goto_0
 
-    .line 212
+    .line 229
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->exitSettingEdit()V
 
@@ -877,7 +922,7 @@
 .method synthetic lambda$prepareUI$3$com-changyow-iconsole4th-activity-IntervalProfileSettingActivity(Landroid/view/View;)V
     .locals 12
 
-    .line 217
+    .line 234
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvStage:Landroid/widget/TextView;
 
     invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
@@ -890,7 +935,7 @@
 
     if-eqz v2, :cond_3
 
-    .line 218
+    .line 235
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -899,7 +944,7 @@
 
     goto/16 :goto_1
 
-    .line 224
+    .line 241
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
 
@@ -907,7 +952,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 226
+    .line 243
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalSettingAdapter:Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/IntervalSettingAdapter;->getValues()Ljava/util/ArrayList;
@@ -916,7 +961,7 @@
 
     const/4 v0, 0x1
 
-    .line 227
+    .line 244
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -939,7 +984,7 @@
 
     const/4 v1, 0x2
 
-    .line 228
+    .line 245
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -960,7 +1005,7 @@
 
     const/4 v4, 0x3
 
-    .line 229
+    .line 246
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -979,7 +1024,7 @@
 
     iput v5, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensityRpm:I
 
-    .line 230
+    .line 247
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1000,7 +1045,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestDuration:I
 
-    .line 231
+    .line 248
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1019,7 +1064,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestLevel:I
 
-    .line 232
+    .line 249
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1038,7 +1083,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestRpm:I
 
-    .line 233
+    .line 250
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1057,7 +1102,7 @@
 
     iput v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mHighIntensitySpeed:I
 
-    .line 234
+    .line 251
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1076,7 +1121,7 @@
 
     iput p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mRestSpeed:I
 
-    .line 236
+    .line 253
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1089,22 +1134,22 @@
 
     move-result v1
 
-    .line 237
+    .line 254
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     if-nez p1, :cond_1
 
-    .line 239
+    .line 256
     new-instance p1, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     invoke-direct {p1}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;-><init>()V
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 240
+    .line 257
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->setEquipmentByType(I)V
 
-    .line 242
+    .line 259
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
@@ -1128,14 +1173,14 @@
 
     invoke-virtual/range {v0 .. v11}, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->apply(ILjava/lang/String;IIIIIIIII)V
 
-    .line 254
+    .line 271
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
     iget p1, p1, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->interval_id:I
 
     if-lez p1, :cond_2
 
-    .line 255
+    .line 272
     new-instance v6, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;
 
     invoke-direct {v6, p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;)V
@@ -1156,7 +1201,7 @@
 
     goto :goto_0
 
-    .line 270
+    .line 287
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
@@ -1173,8 +1218,14 @@
 
     const-string v1, "Please input description to save interval profile."
 
-    .line 220
+    .line 237
     invoke-virtual {p0, v0, v1, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->showSimpleDialog(Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/SimpleCallback;)Landroidx/appcompat/app/AlertDialog;
+
+    return-void
+.end method
+
+.method public onBackPressed()V
+    .locals 0
 
     return-void
 .end method
@@ -1190,17 +1241,17 @@
         }
     .end annotation
 
-    .line 71
+    .line 73
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d004a
+    const p1, 0x7f0d0049
 
-    .line 72
+    .line 74
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->setContentView(I)V
 
-    const p1, 0x7f0a0293
+    const p1, 0x7f0a028c
 
-    .line 73
+    .line 75
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1209,9 +1260,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutRoot:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a012d
+    const p1, 0x7f0a012a
 
-    .line 74
+    .line 76
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1220,9 +1271,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->cvTimerCircle:Lcom/changyow/iconsole4th/view/CircleView2;
 
-    const p1, 0x7f0a029a
+    const p1, 0x7f0a0293
 
-    .line 75
+    .line 77
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1233,7 +1284,7 @@
 
     const p1, 0x7f0a0094
 
-    .line 76
+    .line 78
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1242,9 +1293,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnCancel:Landroid/widget/Button;
 
-    const p1, 0x7f0a00c8
+    const p1, 0x7f0a00c7
 
-    .line 77
+    .line 79
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1253,9 +1304,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->btnSave:Landroid/widget/Button;
 
-    const p1, 0x7f0a02d7
+    const p1, 0x7f0a02cd
 
-    .line 78
+    .line 80
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1264,29 +1315,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->lvSettings:Landroid/widget/ListView;
 
-    const p1, 0x7f0a029e
-
-    .line 79
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/RelativeLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCycles:Landroid/widget/RelativeLayout;
-
-    const p1, 0x7f0a04cc
-
-    .line 80
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/TextView;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
-
-    const p1, 0x7f0a025c
+    const p1, 0x7f0a0297
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1295,9 +1324,9 @@
 
     check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCycles:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0560
+    const p1, 0x7f0a04c6
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1306,20 +1335,20 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTime:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvCycles:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0561
+    const p1, 0x7f0a0258
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/TextView;
+    check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->layoutCirclePane:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a0555
+    const p1, 0x7f0a056b
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1328,9 +1357,9 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimerTitle:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTime:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0554
+    const p1, 0x7f0a056c
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
@@ -1339,11 +1368,33 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTotalTimeTitle:Landroid/widget/TextView;
 
-    const p1, 0x7f0a053a
+    const p1, 0x7f0a0560
 
     .line 86
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimerTitle:Landroid/widget/TextView;
+
+    const p1, 0x7f0a055f
+
+    .line 87
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvTimer:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0543
+
+    .line 88
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1354,7 +1405,7 @@
 
     const p1, 0x7f0a006b
 
-    .line 87
+    .line 89
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -1363,7 +1414,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    .line 89
+    .line 91
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1376,7 +1427,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mNextActivity:Ljava/lang/String;
 
-    .line 90
+    .line 92
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -1391,17 +1442,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 93
+    .line 95
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->mIntervalProfile:Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;
 
-    .line 94
+    .line 96
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->txvStage:Landroid/widget/TextView;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->interval_description:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 97
+    .line 99
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/IntervalProfileSettingActivity;->prepareUI()V
 

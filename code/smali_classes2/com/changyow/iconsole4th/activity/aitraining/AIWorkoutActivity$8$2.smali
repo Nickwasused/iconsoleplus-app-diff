@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 384
+    .line 395
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8$2;->this$1:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 387
+    .line 398
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8$2;->this$1:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity$8;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AIWorkoutActivity;

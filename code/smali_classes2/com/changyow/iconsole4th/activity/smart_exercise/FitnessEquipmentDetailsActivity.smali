@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;,
-        Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$SpeedCallback;
+        Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$SpeedCallback;,
+        Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;
     }
 .end annotation
 
@@ -64,20 +64,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 50
+    .line 51
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
-    .line 51
+    .line 52
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     const/4 v0, 0x1
 
-    .line 52
+    .line 53
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mNewEquipment:Z
 
     return-void
@@ -86,7 +86,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)Lcom/changyow/iconsole4th/models/MetsSettings;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     return-object p0
@@ -95,7 +95,7 @@
 .method static synthetic access$002(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/models/MetsSettings;)Lcom/changyow/iconsole4th/models/MetsSettings;
     .locals 0
 
-    .line 27
+    .line 28
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     return-object p1
@@ -104,7 +104,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
     .locals 0
 
-    .line 27
+    .line 28
     iget-object p0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     return-object p0
@@ -113,7 +113,7 @@
 .method static synthetic access$102(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;)Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
     .locals 0
 
-    .line 27
+    .line 28
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     return-object p1
@@ -122,7 +122,7 @@
 .method static synthetic access$202(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Z)Z
     .locals 0
 
-    .line 27
+    .line 28
     iput-boolean p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mNewEquipment:Z
 
     return p1
@@ -131,7 +131,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V
     .locals 0
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->initView()V
 
     return-void
@@ -140,7 +140,7 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V
     .locals 0
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -149,84 +149,7 @@
 .method private initView()V
     .locals 3
 
-    const v0, 0x7f0a04d7
-
-    .line 127
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentName:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04d8
-
-    .line 128
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentType:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04fb
-
-    .line 129
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadType:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04f9
-
-    .line 130
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMax:Landroid/widget/TextView;
-
-    const v0, 0x7f0a04fa
-
-    .line 131
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMin:Landroid/widget/TextView;
-
-    const v0, 0x7f0a056c
-
-    .line 132
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLoadType:Landroid/widget/TextView;
-
-    const v0, 0x7f0a056f
-
-    .line 133
-    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
-
-    const v0, 0x7f0a056d
+    const v0, 0x7f0a04d5
 
     .line 134
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -235,9 +158,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a056e
+    const v0, 0x7f0a04d6
 
     .line 135
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -246,9 +169,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0567
+    const v0, 0x7f0a04fc
 
     .line 136
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -257,20 +180,20 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a027e
+    const v0, 0x7f0a04fa
 
     .line 137
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/LinearLayout;
+    check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->layoutInclinePanel:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMax:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04ec
+    const v0, 0x7f0a04fb
 
     .line 138
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -279,9 +202,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineType:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMin:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04ea
+    const v0, 0x7f0a0578
 
     .line 139
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -290,9 +213,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMax:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLoadType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04eb
+    const v0, 0x7f0a057b
 
     .line 140
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -301,9 +224,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMin:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
 
-    const v0, 0x7f0a056b
+    const v0, 0x7f0a0579
 
     .line 141
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -312,9 +235,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineType:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a057a
 
     .line 142
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -323,9 +246,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingInclineZoneWarmUp:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0569
+    const v0, 0x7f0a0573
 
     .line 143
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -334,20 +257,20 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineLowIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
 
-    const v0, 0x7f0a056a
+    const v0, 0x7f0a0278
 
     .line 144
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/TextView;
+    check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineMidIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->layoutInclinePanel:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a0568
+    const v0, 0x7f0a04ea
 
     .line 145
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
@@ -356,11 +279,88 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineHighIntensity:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineType:Landroid/widget/TextView;
 
-    const v0, 0x7f0a00c9
+    const v0, 0x7f0a04e8
 
     .line 146
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMax:Landroid/widget/TextView;
+
+    const v0, 0x7f0a04e9
+
+    .line 147
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMin:Landroid/widget/TextView;
+
+    const v0, 0x7f0a0577
+
+    .line 148
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineType:Landroid/widget/TextView;
+
+    const v0, 0x7f0a056e
+
+    .line 149
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingInclineZoneWarmUp:Landroid/widget/TextView;
+
+    const v0, 0x7f0a0575
+
+    .line 150
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineLowIntensity:Landroid/widget/TextView;
+
+    const v0, 0x7f0a0576
+
+    .line 151
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineMidIntensity:Landroid/widget/TextView;
+
+    const v0, 0x7f0a0574
+
+    .line 152
+    invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineHighIntensity:Landroid/widget/TextView;
+
+    const v0, 0x7f0a00c8
+
+    .line 153
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -369,7 +369,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->btnSaveEquipment:Landroid/widget/Button;
 
-    .line 148
+    .line 155
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentName:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda21;
@@ -378,7 +378,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 156
+    .line 163
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->equipmentTypeId()I
@@ -397,7 +397,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 158
+    .line 165
     :cond_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentType:Landroid/widget/TextView;
 
@@ -407,7 +407,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 181
+    .line 188
     :cond_1
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
 
@@ -417,7 +417,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 196
+    .line 203
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda11;
@@ -426,7 +426,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 211
+    .line 218
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda18;
@@ -435,7 +435,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 226
+    .line 233
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
 
     new-instance v2, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda19;
@@ -448,14 +448,14 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 243
+    .line 250
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->layoutInclinePanel:Landroid/widget/LinearLayout;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 245
+    .line 252
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingInclineZoneWarmUp:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda20;
@@ -464,7 +464,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 253
+    .line 260
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineLowIntensity:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda22;
@@ -473,7 +473,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 261
+    .line 268
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineMidIntensity:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda23;
@@ -482,7 +482,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 269
+    .line 276
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineHighIntensity:Landroid/widget/TextView;
 
     new-instance v1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda24;
@@ -491,7 +491,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 278
+    .line 285
     :cond_2
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->btnSaveEquipment:Landroid/widget/Button;
 
@@ -507,7 +507,7 @@
 .method private isTreadmill()Z
     .locals 2
 
-    .line 327
+    .line 334
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->equipmentTypeId()I
@@ -532,7 +532,7 @@
 .method private presentValues()V
     .locals 7
 
-    .line 284
+    .line 291
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentName:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -543,7 +543,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 285
+    .line 292
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvEquipmentType:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -554,14 +554,14 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 286
+    .line 293
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->isTreadmill()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 288
+    .line 295
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadType:Landroid/widget/TextView;
 
     const v1, 0x7f12012c
@@ -572,7 +572,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 289
+    .line 296
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMax:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -587,7 +587,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 290
+    .line 297
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMin:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -602,7 +602,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 291
+    .line 298
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLoadType:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getSpeedUnit()Ljava/lang/String;
@@ -611,7 +611,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 292
+    .line 299
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -626,7 +626,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 293
+    .line 300
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -641,7 +641,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 294
+    .line 301
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -656,7 +656,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 295
+    .line 302
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -671,7 +671,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 297
+    .line 304
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMax:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -686,7 +686,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 298
+    .line 305
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvInclineMin:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -701,7 +701,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 299
+    .line 306
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingInclineZoneWarmUp:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -716,7 +716,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 300
+    .line 307
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineLowIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -731,7 +731,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 301
+    .line 308
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineMidIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -746,7 +746,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 302
+    .line 309
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneInclineHighIntensity:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
@@ -763,7 +763,7 @@
 
     goto/16 :goto_0
 
-    .line 306
+    .line 313
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadType:Landroid/widget/TextView;
 
@@ -775,7 +775,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 307
+    .line 314
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMax:Landroid/widget/TextView;
 
     const/4 v2, 0x1
@@ -804,7 +804,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 308
+    .line 315
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvLoadMin:Landroid/widget/TextView;
 
     new-array v3, v2, [Ljava/lang/Object;
@@ -827,7 +827,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 309
+    .line 316
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLoadType:Landroid/widget/TextView;
 
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
@@ -836,7 +836,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 310
+    .line 317
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneWarmUp:Landroid/widget/TextView;
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -859,7 +859,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 311
+    .line 318
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneLowIntensity:Landroid/widget/TextView;
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -882,7 +882,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 312
+    .line 319
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneMidIntensity:Landroid/widget/TextView;
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -905,7 +905,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 313
+    .line 320
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->txvTrainingZoneHighIntensity:Landroid/widget/TextView;
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -935,19 +935,19 @@
 .method private saveEquipment()V
     .locals 2
 
-    .line 319
+    .line 326
     iget-boolean v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mNewEquipment:Z
 
     if-eqz v0, :cond_0
 
-    .line 320
+    .line 327
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mMetsSettings:Lcom/changyow/iconsole4th/models/MetsSettings;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/models/MetsSettings;->addEquipment(Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;)V
 
-    .line 321
+    .line 328
     :cond_0
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
@@ -955,7 +955,7 @@
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->updateMetsSettings()V
 
-    .line 322
+    .line 329
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->finish()V
 
     return-void
@@ -964,71 +964,71 @@
 .method private setupInitActionbar()V
     .locals 6
 
-    .line 101
+    .line 108
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 102
+    .line 109
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
-    .line 103
+    .line 110
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setDisplayShowTitleEnabled(Z)V
 
-    .line 105
+    .line 112
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v2
 
-    const v3, 0x7f0d00ba
+    const v3, 0x7f0d00b7
 
     const/4 v4, 0x0
 
-    .line 106
+    .line 113
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    .line 108
+    .line 115
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setCustomView(Landroid/view/View;)V
 
     const/4 v3, 0x1
 
-    .line 109
+    .line 116
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a0557
+    const v0, 0x7f0a0562
 
-    .line 111
+    .line 118
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f0a01eb
+    const v3, 0x7f0a01e9
 
-    .line 112
+    .line 119
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v4, 0x7f0a01ed
+    const v4, 0x7f0a01eb
 
-    .line 113
+    .line 120
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0a01ee
+    const v5, 0x7f0a01ec
 
-    .line 114
+    .line 121
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -1037,18 +1037,18 @@
 
     const-string v5, "Equipment Details"
 
-    .line 116
+    .line 123
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 117
+    .line 124
     invoke-virtual {v3, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     const v0, 0x7f08018a
 
-    .line 118
+    .line 125
     invoke-virtual {v3, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 119
+    .line 126
     new-instance v0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda3;
 
     invoke-direct {v0, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V
@@ -1057,10 +1057,10 @@
 
     const/4 v0, 0x4
 
-    .line 121
+    .line 128
     invoke-virtual {v4, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 122
+    .line 129
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     return-void
@@ -1081,14 +1081,14 @@
         }
     .end annotation
 
-    .line 351
+    .line 358
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iget v4, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->min:I
 
-    .line 352
+    .line 359
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
@@ -1101,7 +1101,7 @@
 
     double-to-int v7, p2
 
-    .line 353
+    .line 360
     new-instance v8, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$3;
 
     invoke-direct {v8, p0, p4}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$3;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;)V
@@ -1134,14 +1134,14 @@
         }
     .end annotation
 
-    .line 365
+    .line 372
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iget v4, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->min:I
 
-    .line 366
+    .line 373
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
@@ -1154,7 +1154,7 @@
 
     double-to-int v7, p2
 
-    .line 367
+    .line 374
     new-instance v8, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$4;
 
     invoke-direct {v8, p0, p4}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$4;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$LoadCallback;)V
@@ -1187,12 +1187,12 @@
         }
     .end annotation
 
-    .line 332
+    .line 339
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 333
+    .line 340
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v1, v1, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
@@ -1203,7 +1203,7 @@
 
     move-result-wide v1
 
-    .line 334
+    .line 341
     iget-object v3, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v3, v3, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
@@ -1214,7 +1214,7 @@
 
     move-result-wide v3
 
-    .line 335
+    .line 342
     invoke-static {p2, p3}, Lcom/changyow/iconsole4th/util/UnitUtil;->distanceToUserUnit(D)D
 
     move-result-wide p2
@@ -1226,7 +1226,7 @@
 
     if-gtz v7, :cond_0
 
-    .line 337
+    .line 344
     invoke-static {v5, v6}, Lcom/changyow/iconsole4th/util/UnitUtil;->floatString1f(D)Ljava/lang/String;
 
     move-result-object v7
@@ -1248,7 +1248,7 @@
 
     double-to-int p2, p2
 
-    .line 338
+    .line 345
     new-instance p3, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;
 
     invoke-direct {p3, p0, v1, v2, p4}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$2;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;DLcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$SpeedCallback;)V
@@ -1260,12 +1260,26 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 102
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 103
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->btnSaveEquipment:Landroid/widget/Button;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColorAndThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method synthetic lambda$initView$1$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Ljava/lang/String;)V
     .locals 1
 
     if-eqz p1, :cond_0
 
-    .line 150
+    .line 157
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1282,12 +1296,12 @@
 
     if-nez v0, :cond_0
 
-    .line 151
+    .line 158
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iput-object p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->alias:Ljava/lang/String;
 
-    .line 152
+    .line 159
     :cond_0
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
@@ -1297,7 +1311,7 @@
 .method synthetic lambda$initView$10$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 197
+    .line 204
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->isTreadmill()Z
 
     move-result p1
@@ -1306,7 +1320,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 198
+    .line 205
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1325,7 +1339,7 @@
 
     goto :goto_0
 
-    .line 204
+    .line 211
     :cond_0
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
@@ -1352,14 +1366,14 @@
 .method synthetic lambda$initView$11$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(D)V
     .locals 1
 
-    .line 215
+    .line 222
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
 
     iput-wide p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;->moderate_inteinsity_zone:D
 
-    .line 216
+    .line 223
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1368,14 +1382,14 @@
 .method synthetic lambda$initView$12$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 221
+    .line 228
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->moderate_inteinsity_zone:I
 
-    .line 222
+    .line 229
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1384,7 +1398,7 @@
 .method synthetic lambda$initView$13$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 212
+    .line 219
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->isTreadmill()Z
 
     move-result p1
@@ -1393,7 +1407,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 213
+    .line 220
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1412,7 +1426,7 @@
 
     goto :goto_0
 
-    .line 219
+    .line 226
     :cond_0
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
@@ -1439,14 +1453,14 @@
 .method synthetic lambda$initView$14$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(D)V
     .locals 1
 
-    .line 230
+    .line 237
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
 
     iput-wide p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;->high_inteinsity_zone:D
 
-    .line 231
+    .line 238
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1455,14 +1469,14 @@
 .method synthetic lambda$initView$15$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 236
+    .line 243
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->high_inteinsity_zone:I
 
-    .line 237
+    .line 244
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1471,7 +1485,7 @@
 .method synthetic lambda$initView$16$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 227
+    .line 234
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->isTreadmill()Z
 
     move-result p1
@@ -1480,7 +1494,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 228
+    .line 235
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1499,7 +1513,7 @@
 
     goto :goto_0
 
-    .line 234
+    .line 241
     :cond_0
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
@@ -1526,14 +1540,14 @@
 .method synthetic lambda$initView$17$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 248
+    .line 255
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->warmup_zone:I
 
-    .line 249
+    .line 256
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1544,7 +1558,7 @@
 
     const p1, 0x7f12012e
 
-    .line 246
+    .line 253
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1569,14 +1583,14 @@
 .method synthetic lambda$initView$19$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 256
+    .line 263
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->low_inteinsity_zone:I
 
-    .line 257
+    .line 264
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1585,7 +1599,7 @@
 .method synthetic lambda$initView$2$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 149
+    .line 156
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->readableEquipmentName()Ljava/lang/String;
@@ -1610,7 +1624,7 @@
 
     const p1, 0x7f120126
 
-    .line 254
+    .line 261
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1635,14 +1649,14 @@
 .method synthetic lambda$initView$21$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 264
+    .line 271
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->moderate_inteinsity_zone:I
 
-    .line 265
+    .line 272
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1653,7 +1667,7 @@
 
     const p1, 0x7f120129
 
-    .line 262
+    .line 269
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1678,14 +1692,14 @@
 .method synthetic lambda$initView$23$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 272
+    .line 279
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->inclines:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->high_inteinsity_zone:I
 
-    .line 273
+    .line 280
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1696,7 +1710,7 @@
 
     const p1, 0x7f120123
 
-    .line 270
+    .line 277
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1721,7 +1735,7 @@
 .method synthetic lambda$initView$25$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 278
+    .line 285
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->saveEquipment()V
 
     return-void
@@ -1732,7 +1746,7 @@
 
     if-nez p2, :cond_0
 
-    .line 170
+    .line 177
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     const/4 v0, 0x5
@@ -1750,7 +1764,7 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 172
+    .line 179
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     const/4 v0, 0x6
@@ -1763,7 +1777,7 @@
 
     goto :goto_0
 
-    .line 174
+    .line 181
     :cond_1
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
@@ -1775,11 +1789,11 @@
 
     iput-object v0, p2, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->equipment_type:Ljava/lang/String;
 
-    .line 175
+    .line 182
     :goto_0
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 176
+    .line 183
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1788,7 +1802,7 @@
 .method synthetic lambda$initView$4$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 5
 
-    .line 160
+    .line 167
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->equipmentTypeId()I
@@ -1828,7 +1842,7 @@
 
     const v4, 0x7f1202b3
 
-    .line 166
+    .line 173
     invoke-virtual {p0, v4}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -1851,7 +1865,7 @@
 
     aput-object v1, v3, v0
 
-    .line 167
+    .line 174
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -1868,12 +1882,12 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;)V
 
-    .line 168
+    .line 175
     invoke-virtual {v0, v3, p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 178
+    .line 185
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -1882,14 +1896,14 @@
 .method synthetic lambda$initView$5$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(D)V
     .locals 1
 
-    .line 185
+    .line 192
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
 
     iput-wide p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;->warmup_zone:D
 
-    .line 186
+    .line 193
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1898,14 +1912,14 @@
 .method synthetic lambda$initView$6$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 191
+    .line 198
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->warmup_zone:I
 
-    .line 192
+    .line 199
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1914,7 +1928,7 @@
 .method synthetic lambda$initView$7$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 3
 
-    .line 182
+    .line 189
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->isTreadmill()Z
 
     move-result p1
@@ -1923,7 +1937,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 183
+    .line 190
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1942,7 +1956,7 @@
 
     goto :goto_0
 
-    .line 189
+    .line 196
     :cond_0
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getString(I)Ljava/lang/String;
 
@@ -1969,14 +1983,14 @@
 .method synthetic lambda$initView$8$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(D)V
     .locals 1
 
-    .line 200
+    .line 207
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->speeds:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;
 
     iput-wide p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneDouble;->low_inteinsity_zone:D
 
-    .line 201
+    .line 208
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -1985,14 +1999,14 @@
 .method synthetic lambda$initView$9$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(I)V
     .locals 1
 
-    .line 206
+    .line 213
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->mEquipment:Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/models/MetsSettings$Equipment;->levels:Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;
 
     iput p1, v0, Lcom/changyow/iconsole4th/models/MetsSettings$InteinsityZoneInt;->low_inteinsity_zone:I
 
-    .line 207
+    .line 214
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->presentValues()V
 
     return-void
@@ -2001,7 +2015,7 @@
 .method synthetic lambda$setupInitActionbar$0$com-changyow-iconsole4th-activity-smart_exercise-FitnessEquipmentDetailsActivity(Landroid/view/View;)V
     .locals 0
 
-    .line 119
+    .line 126
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->finish()V
 
     return-void
@@ -2018,18 +2032,18 @@
         }
     .end annotation
 
-    .line 57
+    .line 58
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0044
-
-    .line 58
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->setContentView(I)V
+    const p1, 0x7f0d0043
 
     .line 59
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->setContentView(I)V
+
+    .line 60
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->setupInitActionbar()V
 
-    .line 61
+    .line 62
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentDetailsActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -2042,7 +2056,7 @@
 
     move-result p1
 
-    .line 62
+    .line 63
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0

@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 262
+    .line 276
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity$6;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AITodaysActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 266
+    .line 280
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void

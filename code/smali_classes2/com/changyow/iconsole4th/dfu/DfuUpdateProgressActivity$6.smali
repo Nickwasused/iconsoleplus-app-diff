@@ -37,7 +37,13 @@
         }
     .end annotation
 
-    .line 631
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 650
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;->val$manager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
@@ -60,7 +66,7 @@
         }
     .end annotation
 
-    .line 640
+    .line 659
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -101,7 +107,7 @@
         }
     .end annotation
 
-    .line 664
+    .line 683
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -142,7 +148,7 @@
         }
     .end annotation
 
-    .line 646
+    .line 665
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -167,7 +173,7 @@
         }
     .end annotation
 
-    .line 652
+    .line 671
     new-instance p1, Ljava/io/File;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
@@ -204,7 +210,7 @@
 
     invoke-direct {p1, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 653
+    .line 672
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$6;->val$manager:Lcom/changyow/iconsole4th/dfu/freqchip/FreqChipOtaManager;
 
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;

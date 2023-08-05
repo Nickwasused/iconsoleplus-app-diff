@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 117
+    .line 121
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 121
+    .line 125
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivityPermissionsDispatcher;->shareActionWithPermissionCheck(Lcom/changyow/iconsole4th/activity/aitraining/AISummaryActivity;)V

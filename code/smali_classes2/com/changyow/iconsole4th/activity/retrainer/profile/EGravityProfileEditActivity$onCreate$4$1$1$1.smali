@@ -27,7 +27,7 @@
         "onSuccess",
         "jsonElement",
         "Lcom/google/gson/JsonElement;",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -49,7 +49,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$4$1$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 127
+    .line 129
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
 
     return-void
@@ -60,14 +60,14 @@
 .method public onError(Ljava/lang/String;)V
     .locals 2
 
-    .line 138
+    .line 140
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$4$1$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$setCloudWorking$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;Z)V
 
-    .line 139
+    .line 141
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$4$1$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getMContext$p$s91769465(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/activity/BaseActivity;
@@ -92,14 +92,14 @@
 .method public onSuccess(Lcom/google/gson/JsonElement;)V
     .locals 1
 
-    .line 129
+    .line 131
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$4$1$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$setCloudWorking$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;Z)V
 
-    .line 132
+    .line 134
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$onCreate$4$1$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->finish()V

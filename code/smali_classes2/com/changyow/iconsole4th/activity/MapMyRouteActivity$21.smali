@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 895
+    .line 904
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .line 900
+    .line 909
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     iget-boolean v0, v0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->bTrainingStarted:Z
@@ -63,7 +63,7 @@
 
     return-void
 
-    .line 902
+    .line 911
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -90,7 +90,7 @@
     :cond_1
     const v0, 0x7f0801fd
 
-    .line 907
+    .line 916
     :goto_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
@@ -106,12 +106,12 @@
 
     move-result-object p1
 
-    .line 908
+    .line 917
     invoke-virtual {p1, v2}, Lcom/amap/api/maps2d/model/MarkerOptions;->draggable(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object p1
 
-    .line 909
+    .line 918
     invoke-static {v0}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
 
     move-result-object v0
@@ -120,12 +120,12 @@
 
     move-result-object p1
 
-    .line 907
+    .line 916
     invoke-virtual {v1, p1}, Lcom/amap/api/maps2d/AMap;->addMarker(Lcom/amap/api/maps2d/model/MarkerOptions;)Lcom/amap/api/maps2d/model/Marker;
 
     move-result-object p1
 
-    .line 911
+    .line 920
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Ljava/util/ArrayList;
@@ -134,10 +134,10 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 912
+    .line 921
     invoke-virtual {p1}, Lcom/amap/api/maps2d/model/Marker;->getPosition()Lcom/amap/api/maps2d/model/LatLng;
 
-    .line 913
+    .line 922
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$1300(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
@@ -149,7 +149,7 @@
 
     if-ge v0, v1, :cond_3
 
-    .line 917
+    .line 926
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$100(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Lcom/amap/api/maps2d/AMap;
@@ -166,14 +166,14 @@
 
     const/4 v1, 0x0
 
-    .line 918
+    .line 927
     invoke-virtual {p1, v1}, Lcom/amap/api/maps2d/model/MarkerOptions;->draggable(Z)Lcom/amap/api/maps2d/model/MarkerOptions;
 
     move-result-object p1
 
     const v1, 0x7f0801f8
 
-    .line 919
+    .line 928
     invoke-static {v1}, Lcom/amap/api/maps2d/model/BitmapDescriptorFactory;->fromResource(I)Lcom/amap/api/maps2d/model/BitmapDescriptor;
 
     move-result-object v1
@@ -182,12 +182,12 @@
 
     move-result-object p1
 
-    .line 917
+    .line 926
     invoke-virtual {v0, p1}, Lcom/amap/api/maps2d/AMap;->addMarker(Lcom/amap/api/maps2d/model/MarkerOptions;)Lcom/amap/api/maps2d/model/Marker;
 
     move-result-object p1
 
-    .line 921
+    .line 930
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$200(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)Ljava/util/ArrayList;
@@ -196,14 +196,14 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 923
+    .line 932
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;->access$1400(Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;)V
 
     goto :goto_1
 
-    .line 927
+    .line 936
     :cond_3
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/MapMyRouteActivity$21;->this$0:Lcom/changyow/iconsole4th/activity/MapMyRouteActivity;
 

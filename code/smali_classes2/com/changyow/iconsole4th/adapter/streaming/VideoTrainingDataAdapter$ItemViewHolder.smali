@@ -43,7 +43,7 @@
     .line 124
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a0263
+    const v0, 0x7f0a025e
 
     .line 126
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -54,7 +54,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoTrainingDataAdapter$ItemViewHolder;->layoutDataPiece1:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0a0264
+    const v0, 0x7f0a025f
 
     .line 127
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoTrainingDataAdapter$ItemViewHolder;->layoutDataPiece2:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0a0265
+    const v0, 0x7f0a0260
 
     .line 128
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoTrainingDataAdapter$ItemViewHolder;->layoutDataPiece3:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0a0266
+    const v0, 0x7f0a0261
 
     .line 129
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoTrainingDataAdapter$ItemViewHolder;->layoutDataPiece4:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0a0267
+    const v0, 0x7f0a0262
 
     .line 130
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/adapter/streaming/VideoTrainingDataAdapter$ItemViewHolder;->layoutDataPiece5:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0a0268
+    const v0, 0x7f0a0263
 
     .line 131
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

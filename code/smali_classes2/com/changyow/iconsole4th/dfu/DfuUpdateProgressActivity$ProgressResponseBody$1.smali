@@ -34,14 +34,14 @@
         }
     .end annotation
 
-    .line 381
+    .line 400
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody$1;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;
 
     invoke-direct {p0, p2}, Lokio/ForwardingSource;-><init>(Lokio/Source;)V
 
     const-wide/16 p1, 0x0
 
-    .line 382
+    .line 401
     iput-wide p1, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody$1;->totalBytesRead:J
 
     return-void
@@ -68,12 +68,12 @@
         }
     .end annotation
 
-    .line 387
+    .line 406
     invoke-super {p0, p1, p2, p3}, Lokio/ForwardingSource;->read(Lokio/Buffer;J)J
 
     move-result-wide p1
 
-    .line 389
+    .line 408
     iget-wide v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody$1;->totalBytesRead:J
 
     const-wide/16 v2, -0x1
@@ -94,7 +94,7 @@
 
     iput-wide v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody$1;->totalBytesRead:J
 
-    .line 390
+    .line 409
     iget-object v0, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody$1;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;->access$800(Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressResponseBody;)Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$ProgressListener;

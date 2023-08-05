@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 127
+    .line 129
     iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 157
+    .line 159
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-static {v0}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->access$200(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroid/app/Activity;
@@ -84,7 +84,7 @@
 
     const/4 v0, 0x0
 
-    .line 136
+    .line 138
     :try_start_0
     new-instance v1, Lcom/google/gson/Gson;
 
@@ -107,25 +107,25 @@
     :catch_0
     move-exception p1
 
-    .line 140
+    .line 142
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
     if-eqz v0, :cond_0
 
-    .line 143
+    .line 145
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/StreamVideos;->getVideos()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 145
+    .line 147
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     iput-object v0, p1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mStreamVideos:Lcom/changyow/iconsole4th/models/StreamVideos;
 
-    .line 146
+    .line 148
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoListListAdapter:Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
@@ -136,14 +136,14 @@
 
     invoke-virtual {p1, v1}, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;->setVideos(Ljava/util/List;)V
 
-    .line 147
+    .line 149
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mVideoListListAdapter:Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/streaming/VideoListListAdapter;->notifyDataSetChanged()V
 
-    .line 148
+    .line 150
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/StreamVideos;->getVideos()Ljava/util/List;
 
     move-result-object p1
@@ -154,7 +154,7 @@
 
     if-lez p1, :cond_0
 
-    .line 149
+    .line 151
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment$2;->this$0:Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->access$100(Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;)Landroidx/recyclerview/widget/RecyclerView;

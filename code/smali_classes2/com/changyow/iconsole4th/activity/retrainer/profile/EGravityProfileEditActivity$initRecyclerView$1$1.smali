@@ -33,7 +33,7 @@
         "target",
         "onSwiped",
         "direction",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -55,7 +55,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$initRecyclerView$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
-    .line 412
+    .line 422
     invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;-><init>()V
 
     return-void
@@ -74,18 +74,18 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 437
+    .line 447
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 438
+    .line 448
     instance-of p1, p2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;
 
     if-eqz p1, :cond_1
 
-    .line 439
+    .line 449
     check-cast p2, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$ItemViewHolder;
 
-    .line 440
+    .line 450
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$initRecyclerView$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
@@ -134,7 +134,7 @@
 
     const/4 p2, 0x0
 
-    .line 415
+    .line 425
     invoke-static {p1, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->makeMovementFlags(II)I
 
     move-result p1
@@ -157,7 +157,7 @@
 
     invoke-static {p3, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 423
+    .line 433
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$initRecyclerView$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;->access$getBinding$p(Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity;)Lcom/changyow/iconsole4th/databinding/ActivityEgravityProfileEditBinding;
@@ -185,17 +185,17 @@
 
     check-cast p1, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;
 
-    .line 424
+    .line 434
     invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result p2
 
-    .line 425
+    .line 435
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result p3
 
-    .line 423
+    .line 433
     invoke-virtual {p1, p2, p3}, Lcom/changyow/iconsole4th/activity/retrainer/profile/EGravityProfileEditActivity$SetListAdapter;->onRowMoved(II)V
 
     const/4 p1, 0x1

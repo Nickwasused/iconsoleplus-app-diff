@@ -37,7 +37,7 @@
     .line 195
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0a0293
+    const v0, 0x7f0a028c
 
     .line 197
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$ItemViewHolder;->layoutRoot:Landroid/view/View;
 
-    const v0, 0x7f0a0508
+    const v0, 0x7f0a050b
 
     .line 198
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessEquipmentListActivity$ItemViewHolder;->txvName:Landroid/widget/TextView;
 
-    const v0, 0x7f0a04fd
+    const v0, 0x7f0a04fe
 
     .line 199
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

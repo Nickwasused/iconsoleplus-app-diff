@@ -4,6 +4,8 @@
 
 
 # instance fields
+.field binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
 .field private txvAvgCaloriesUnit:Landroid/widget/TextView;
 
 .field private txvAvgCaloriesValue:Landroid/widget/TextView;
@@ -27,10 +29,15 @@
 
 # direct methods
 .method public constructor <init>()V
-    .locals 0
+    .locals 1
 
-    .line 41
+    .line 52
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 39
+    iput-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
 
     return-void
 .end method
@@ -38,7 +45,7 @@
 .method static synthetic lambda$onResume$1(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 109
+    .line 116
     invoke-interface {p0}, Landroid/content/DialogInterface;->dismiss()V
 
     return-void
@@ -47,12 +54,12 @@
 .method private refreshData()V
     .locals 3
 
-    .line 118
+    .line 152
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getFristDayOfWeek()J
 
     move-result-wide v0
 
-    .line 121
+    .line 155
     new-instance v2, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda3;
 
     invoke-direct {v2, p0, v0, v1}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda3;-><init>(Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;J)V
@@ -82,7 +89,7 @@
         }
     .end annotation
 
-    .line 140
+    .line 174
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -113,14 +120,13 @@
 
     move-result-object v0
 
-    .line 141
+    .line 175
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-ne v2, v1, :cond_0
 
-    .line 142
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -149,7 +155,7 @@
 
     goto :goto_0
 
-    .line 143
+    .line 176
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -157,7 +163,6 @@
 
     if-nez v2, :cond_1
 
-    .line 144
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -184,14 +189,14 @@
 
     move-result-object v0
 
-    .line 145
+    .line 177
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvWorkoutSessions:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 151
+    .line 183
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -215,7 +220,7 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    .line 153
+    .line 185
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getTotalDistance()Ljava/lang/Double;
 
     move-result-object v9
@@ -226,7 +231,7 @@
 
     add-double/2addr v5, v9
 
-    .line 154
+    .line 186
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getDuration()Ljava/lang/Integer;
 
     move-result-object v9
@@ -237,7 +242,7 @@
 
     add-int/2addr v4, v9
 
-    .line 155
+    .line 187
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/db/ActivityRecord;->getTotalCalories()Ljava/lang/Double;
 
     move-result-object v3
@@ -250,7 +255,7 @@
 
     goto :goto_1
 
-    .line 160
+    .line 192
     :cond_2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -258,7 +263,7 @@
 
     if-lez v0, :cond_3
 
-    .line 162
+    .line 194
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -267,7 +272,7 @@
 
     div-double v1, v5, v0
 
-    .line 163
+    .line 195
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -281,7 +286,7 @@
     :cond_3
     move-wide v9, v1
 
-    .line 166
+    .line 198
     :goto_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceValue:Landroid/widget/TextView;
 
@@ -295,7 +300,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 167
+    .line 199
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getDistanceUnit()Ljava/lang/String;
@@ -304,7 +309,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 168
+    .line 200
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalTimeValue:Landroid/widget/TextView;
 
     invoke-static {v4}, Lcom/changyow/iconsole4th/util/UnitUtil;->timeString(I)Ljava/lang/String;
@@ -313,7 +318,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 169
+    .line 201
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesValue:Landroid/widget/TextView;
 
     double-to-int v0, v7
@@ -324,7 +329,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 170
+    .line 202
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesUnit:Landroid/widget/TextView;
 
     const v0, 0x7f120239
@@ -335,7 +340,7 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 171
+    .line 203
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgDistanceValue:Landroid/widget/TextView;
 
     invoke-static {v1, v2}, Lcom/changyow/iconsole4th/util/UnitUtil;->distanceToUserUnit(D)D
@@ -348,7 +353,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 172
+    .line 204
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgDistanceUnit:Landroid/widget/TextView;
 
     invoke-static {}, Lcom/changyow/iconsole4th/util/UnitUtil;->getDistanceUnit()Ljava/lang/String;
@@ -357,7 +362,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 173
+    .line 205
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesValue:Landroid/widget/TextView;
 
     double-to-int v1, v9
@@ -368,7 +373,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 174
+    .line 206
     iget-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesUnit:Landroid/widget/TextView;
 
     invoke-virtual {p0, v0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->getString(I)Ljava/lang/String;
@@ -382,10 +387,135 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 3
+
+    .line 126
+    invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->initCustomTheme()V
+
+    .line 127
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    .line 128
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    .line 129
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getMainMyTraining()Lcom/changyow/iconsole4th/models/MainMyTraining;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 131
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getStyle()Lcom/changyow/iconsole4th/models/Style;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getMainMyTraining()Lcom/changyow/iconsole4th/models/MainMyTraining;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MainMyTraining;->getSummaryTextColor()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 132
+    iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
+    invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->setTextColorCode(Ljava/lang/String;)V
+
+    .line 133
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->executePendingBindings()V
+
+    .line 135
+    sget-object v0, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/changyow/iconsole4th/models/ImageDownloaded;->MainMyTraining:Lcom/changyow/iconsole4th/models/ImageDownloaded;
+
+    invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->getImageBitmap(Lcom/changyow/iconsole4th/models/ImageDownloaded;)Landroid/graphics/Bitmap;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 138
+    new-instance v1, Landroid/graphics/drawable/BitmapDrawable;
+
+    invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2, v0}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
+
+    .line 139
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
+    iget-object v0, v0, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->layoutBackground:Landroid/widget/LinearLayout;
+
+    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_0
+
+    .line 144
+    :cond_0
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
+    const-string v1, "#000000"
+
+    invoke-virtual {v0, v1}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->setTextColorCode(Ljava/lang/String;)V
+
+    .line 145
+    iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
+
+    invoke-virtual {v0}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->executePendingBindings()V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
 .method synthetic lambda$onResume$0$com-changyow-iconsole4th-fragment-MyTrainingFragment(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 95
+    .line 106
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "mailto"
@@ -394,7 +524,6 @@
 
     const/4 v1, 0x0
 
-    .line 96
     invoke-static {p2, v0, v1}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p2
@@ -403,7 +532,7 @@
 
     invoke-direct {p1, v0, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 102
+    .line 109
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->startActivity(Landroid/content/Intent;)V
     :try_end_0
@@ -414,7 +543,7 @@
     :catch_0
     move-exception p1
 
-    .line 106
+    .line 113
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -424,10 +553,10 @@
 .method synthetic lambda$onResume$2$com-changyow-iconsole4th-fragment-MyTrainingFragment(Lcom/codemybrainsout/ratingdialog/RatingDialog;FZ)V
     .locals 0
 
-    .line 92
+    .line 103
     invoke-virtual {p1}, Lcom/codemybrainsout/ratingdialog/RatingDialog;->dismiss()V
 
-    .line 93
+    .line 104
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->mContext:Landroid/app/Activity;
@@ -436,7 +565,7 @@
 
     const p2, 0x7f12020f
 
-    .line 94
+    .line 105
     invoke-virtual {p1, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
@@ -455,12 +584,12 @@
 
     const p3, 0x7f120273
 
-    .line 108
+    .line 115
     invoke-virtual {p1, p3, p2}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 110
+    .line 117
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
     return-void
@@ -469,7 +598,7 @@
 .method synthetic lambda$refreshData$3$com-changyow-iconsole4th-fragment-MyTrainingFragment(Ljava/util/List;)V
     .locals 0
 
-    .line 127
+    .line 161
     :try_start_0
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->updateData(Ljava/util/List;)V
     :try_end_0
@@ -480,7 +609,7 @@
     :catch_0
     move-exception p1
 
-    .line 131
+    .line 165
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -490,7 +619,7 @@
 .method synthetic lambda$refreshData$4$com-changyow-iconsole4th-fragment-MyTrainingFragment(Ljava/util/List;)V
     .locals 2
 
-    .line 124
+    .line 158
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->mContext:Landroid/app/Activity;
 
     new-instance v1, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda4;
@@ -505,7 +634,7 @@
 .method synthetic lambda$refreshData$5$com-changyow-iconsole4th-fragment-MyTrainingFragment(J)V
     .locals 1
 
-    .line 122
+    .line 156
     invoke-static {}, Lcom/changyow/iconsole4th/db/RDBDatabase;->instance()Lcom/changyow/iconsole4th/db/RDBDatabase;
 
     move-result-object v0
@@ -518,7 +647,7 @@
 
     move-result-object p1
 
-    .line 123
+    .line 157
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->mContext:Landroid/app/Activity;
 
     new-instance v0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda5;
@@ -541,10 +670,10 @@
         }
     .end annotation
 
-    .line 47
+    .line 58
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 48
+    .line 59
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -555,7 +684,7 @@
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
-    .locals 1
+    .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0,
@@ -569,18 +698,21 @@
         }
     .end annotation
 
-    const p3, 0x7f0d00a9
-
-    const/4 v0, 0x0
-
-    .line 54
-    invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    .line 65
+    invoke-static {p1}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->inflate(Landroid/view/LayoutInflater;)Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
 
     move-result-object p1
 
-    const p2, 0x7f0a058c
+    iput-object p1, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->binding:Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;
 
-    .line 55
+    .line 66
+    invoke-virtual {p1}, Lcom/changyow/iconsole4th/databinding/FragmentMyTrainingBinding;->getRoot()Landroid/view/View;
+
+    move-result-object p1
+
+    const p2, 0x7f0a0598
+
+    .line 67
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -589,9 +721,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvWorkoutSessions:Landroid/widget/TextView;
 
-    const p2, 0x7f0a055b
+    const p2, 0x7f0a0566
 
-    .line 56
+    .line 68
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -600,9 +732,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a055c
+    const p2, 0x7f0a0567
 
-    .line 57
+    .line 69
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -611,9 +743,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalCaloriesValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a0562
+    const p2, 0x7f0a056d
 
-    .line 58
+    .line 70
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -622,9 +754,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalTimeValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a055e
+    const p2, 0x7f0a0569
 
-    .line 59
+    .line 71
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -633,9 +765,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a055f
+    const p2, 0x7f0a056a
 
-    .line 60
+    .line 72
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -644,9 +776,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvTotalDistanceValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04ac
+    const p2, 0x7f0a04a3
 
-    .line 61
+    .line 73
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -655,9 +787,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04ad
+    const p2, 0x7f0a04a4
 
-    .line 62
+    .line 74
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -666,9 +798,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgCaloriesValue:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04ae
+    const p2, 0x7f0a04a5
 
-    .line 63
+    .line 75
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -677,9 +809,9 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgDistanceUnit:Landroid/widget/TextView;
 
-    const p2, 0x7f0a04af
+    const p2, 0x7f0a04a6
 
-    .line 64
+    .line 76
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -688,19 +820,38 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->txvAvgDistanceValue:Landroid/widget/TextView;
 
+    .line 77
+    sget-object p2, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object p2
+
+    if-eqz p2, :cond_0
+
+    .line 78
+    sget-object p2, Lcom/changyow/iconsole4th/util/LogoUtil;->INSTANCE:Lcom/changyow/iconsole4th/util/LogoUtil;
+
+    invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/LogoUtil;->getBrandingInfo()Lcom/changyow/iconsole4th/models/BrandingInfo;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->prepareImages()V
+
+    :cond_0
     return-object p1
 .end method
 
 .method public onResume()V
     .locals 2
 
-    .line 85
+    .line 99
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onResume()V
 
-    .line 86
+    .line 100
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->refreshData()V
 
-    .line 88
+    .line 102
     new-instance v0, Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;
 
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -711,14 +862,12 @@
 
     const/high16 v1, 0x40400000    # 3.0f
 
-    .line 89
     invoke-virtual {v0, v1}, Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;->threshold(F)Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;
 
     move-result-object v0
 
     const/16 v1, 0xa
 
-    .line 90
     invoke-virtual {v0, v1}, Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;->session(I)Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;
 
     move-result-object v0
@@ -727,17 +876,16 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment$$ExternalSyntheticLambda2;-><init>(Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;)V
 
-    .line 91
     invoke-virtual {v0, v1}, Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;->onThresholdFailed(Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder$RatingThresholdFailedListener;)Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;
 
     move-result-object v0
 
-    .line 111
+    .line 118
     invoke-virtual {v0}, Lcom/codemybrainsout/ratingdialog/RatingDialog$Builder;->build()Lcom/codemybrainsout/ratingdialog/RatingDialog;
 
     move-result-object v0
 
-    .line 113
+    .line 120
     invoke-virtual {v0}, Lcom/codemybrainsout/ratingdialog/RatingDialog;->show()V
 
     return-void
@@ -746,10 +894,10 @@
 .method public onStart()V
     .locals 1
 
-    .line 71
+    .line 85
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onStart()V
 
-    .line 72
+    .line 86
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -762,10 +910,10 @@
 .method public onStop()V
     .locals 1
 
-    .line 78
+    .line 92
     invoke-super {p0}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onStop()V
 
-    .line 79
+    .line 93
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object v0
@@ -790,7 +938,7 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    .line 180
+    .line 212
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/MyTrainingFragment;->refreshData()V
 
     return-void

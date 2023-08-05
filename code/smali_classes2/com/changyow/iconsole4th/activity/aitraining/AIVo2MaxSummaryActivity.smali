@@ -16,6 +16,8 @@
 
 .field private rlWarning:Landroid/widget/LinearLayout;
 
+.field private txvLearnMore:Landroid/widget/TextView;
+
 .field private txvScoreInText:Landroid/widget/TextView;
 
 .field private txvVo2MaxScore:Landroid/widget/TextView;
@@ -25,15 +27,15 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 17
+    .line 18
     invoke-direct {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 27
+    .line 29
     iput v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->mMode:I
 
-    .line 28
+    .line 30
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->bFinished:Z
 
     return-void
@@ -41,6 +43,25 @@
 
 
 # virtual methods
+.method protected initCustomTheme()V
+    .locals 1
+
+    .line 89
+    invoke-super {p0}, Lcom/changyow/iconsole4th/activity/BaseActivity;->initCustomTheme()V
+
+    .line 90
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeColor(Landroid/view/View;)V
+
+    .line 91
+    iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvLearnMore:Landroid/widget/TextView;
+
+    invoke-static {v0}, Lcom/changyow/iconsole4th/util/LogoUtil;->applyThemeTextColor(Landroid/view/View;)V
+
+    return-void
+.end method
+
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 6
     .annotation system Ldalvik/annotation/MethodParameters;
@@ -52,37 +73,15 @@
         }
     .end annotation
 
-    .line 33
+    .line 35
     invoke-super {p0, p1}, Lcom/changyow/iconsole4th/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0d0026
 
-    .line 34
+    .line 36
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->setContentView(I)V
 
-    const p1, 0x7f0a03c0
-
-    .line 35
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/RelativeLayout;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
-
-    const p1, 0x7f0a00bc
-
-    .line 36
-    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/Button;
-
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->btnOK:Landroid/widget/Button;
-
-    const p1, 0x7f0a03c6
+    const p1, 0x7f0a03b8
 
     .line 37
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -91,9 +90,9 @@
 
     check-cast p1, Landroid/widget/RelativeLayout;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlScore:Landroid/widget/RelativeLayout;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a057a
+    const p1, 0x7f0a04f3
 
     .line 38
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
@@ -102,11 +101,44 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvVo2MaxScore:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvLearnMore:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0528
+    const p1, 0x7f0a00bb
 
     .line 39
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/Button;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->btnOK:Landroid/widget/Button;
+
+    const p1, 0x7f0a03be
+
+    .line 40
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/RelativeLayout;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlScore:Landroid/widget/RelativeLayout;
+
+    const p1, 0x7f0a0586
+
+    .line 41
+    invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvVo2MaxScore:Landroid/widget/TextView;
+
+    const p1, 0x7f0a052f
+
+    .line 42
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -115,9 +147,9 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvScoreInText:Landroid/widget/TextView;
 
-    const p1, 0x7f0a03ca
+    const p1, 0x7f0a03c2
 
-    .line 40
+    .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -126,7 +158,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlWarning:Landroid/widget/LinearLayout;
 
-    .line 42
+    .line 45
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -145,7 +177,7 @@
 
     if-nez p1, :cond_0
 
-    .line 44
+    .line 47
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -166,12 +198,12 @@
 
     if-lt p1, v2, :cond_0
 
-    .line 45
+    .line 48
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->bFinished:Z
 
     goto :goto_0
 
-    .line 46
+    .line 49
     :cond_0
     iget p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->mMode:I
 
@@ -199,10 +231,10 @@
 
     if-ltz p1, :cond_1
 
-    .line 47
+    .line 50
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->bFinished:Z
 
-    .line 49
+    .line 52
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlLearnMore:Landroid/widget/RelativeLayout;
@@ -211,24 +243,24 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    .line 50
+    .line 53
     iget-boolean p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->bFinished:Z
 
     if-nez p1, :cond_2
 
-    .line 52
+    .line 55
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlWarning:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 53
+    .line 56
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->rlScore:Landroid/widget/RelativeLayout;
 
     const/4 v1, 0x4
 
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 56
+    .line 59
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->btnOK:Landroid/widget/Button;
 
@@ -240,14 +272,14 @@
 
     const/4 p1, 0x0
 
-    .line 72
+    .line 75
     iget v1, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->mMode:I
 
     if-nez v1, :cond_3
 
     const-wide v0, 0x403659999999999aL    # 22.35
 
-    .line 73
+    .line 76
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object p1
@@ -279,7 +311,7 @@
 
     const p1, 0x43f18000    # 483.0f
 
-    .line 75
+    .line 78
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
@@ -308,7 +340,7 @@
 
     add-float/2addr p1, v0
 
-    .line 76
+    .line 79
     :cond_4
     :goto_1
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
@@ -317,21 +349,21 @@
 
     invoke-virtual {v0, p1}, Lcom/changyow/iconsole4th/db/UserProfile;->setVo2max_cooper(F)V
 
-    .line 77
+    .line 80
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/db/UserProfile;->save()V
 
-    .line 78
+    .line 81
     invoke-static {}, Lcom/changyow/iconsole4th/FlowControl;->getInstance()Lcom/changyow/iconsole4th/FlowControl;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/FlowControl;->uploadUserProfile()V
 
-    .line 80
+    .line 83
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/aitraining/AIVo2MaxSummaryActivity;->txvVo2MaxScore:Landroid/widget/TextView;
 
     float-to-double v1, p1

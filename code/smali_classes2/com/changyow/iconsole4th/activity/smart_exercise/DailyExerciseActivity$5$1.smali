@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 788
+    .line 803
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .line 792
+    .line 807
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5$1;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity$5;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/DailyExerciseActivity;

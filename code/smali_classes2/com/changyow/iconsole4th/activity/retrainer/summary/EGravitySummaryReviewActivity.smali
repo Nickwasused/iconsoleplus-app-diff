@@ -16,7 +16,7 @@
         "",
         "savedInstanceState",
         "Landroid/os/Bundle;",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -116,7 +116,7 @@
     .line 9
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0040
+    const p1, 0x7f0d003f
 
     .line 10
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/activity/retrainer/summary/EGravitySummaryReviewActivity;->setContentView(I)V

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:tag="layout-sw960dp-land/fragment_get_started_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="6.0">
         <RelativeLayout android:id="@id/rlQuickstart" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
             <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_quick_start" android:scaleType="centerCrop" android:minHeight="420.0dip" />

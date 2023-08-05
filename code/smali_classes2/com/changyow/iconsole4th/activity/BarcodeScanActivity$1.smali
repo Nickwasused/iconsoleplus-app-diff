@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 77
+    .line 82
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/BSCallback;-><init>()V
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 97
+    .line 102
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mHandler:Landroid/os/Handler;
@@ -64,7 +64,7 @@
 
     invoke-virtual {p1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 98
+    .line 103
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mQrCodeImageView:Landroid/widget/ImageView;
@@ -73,7 +73,7 @@
 
     return-void
 
-    .line 100
+    .line 105
     :cond_0
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 101
+    .line 106
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->access$100(Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;)V
@@ -110,14 +110,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 82
+    .line 87
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->isJsonObject()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 83
+    .line 88
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object v0
@@ -130,7 +130,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 84
+    .line 89
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object v0
@@ -145,7 +145,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 86
+    .line 91
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object p1
@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    .line 87
+    .line 92
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object v0
@@ -169,17 +169,17 @@
 
     const/4 v1, 0x0
 
-    .line 88
+    .line 93
     invoke-static {v0, p1, v1}, Lcom/changyow/iconsole4th/CloudControl;->qrcodeRecognize(Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/interfaces/BSCallback;)V
 
-    .line 89
+    .line 94
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mQrCodeImageView:Landroid/widget/ImageView;
 
     if-eqz v0, :cond_0
 
-    .line 90
+    .line 95
     iget-object v0, p0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity$1;->this$0:Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/activity/BarcodeScanActivity;->mContext:Lcom/changyow/iconsole4th/activity/BaseActivity;

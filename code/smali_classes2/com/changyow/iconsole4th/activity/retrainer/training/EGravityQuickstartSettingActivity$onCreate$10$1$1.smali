@@ -26,7 +26,7 @@
         "",
         "item",
         "",
-        "icp4th-1.8.48_icpCnRelease"
+        "icp4th-1.8.52_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -48,7 +48,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$onCreate$10$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;
 
-    .line 144
+    .line 149
     invoke-direct {p0}, Lcom/changyow/iconsole4th/interfaces/OnOptionPickListener;-><init>()V
 
     return-void
@@ -59,7 +59,7 @@
 .method public onOptionPicked(ILjava/lang/String;)V
     .locals 2
 
-    .line 146
+    .line 151
     iget-object p2, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$onCreate$10$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;
 
     invoke-static {p2, p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->access$calcWeightByPickerIndex(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;I)D
@@ -68,7 +68,7 @@
 
     invoke-static {p2, v0, v1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->access$setWeight2$p(Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;D)V
 
-    .line 147
+    .line 152
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity$onCreate$10$1$1;->this$0:Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/activity/retrainer/training/EGravityQuickstartSettingActivity;->displayWeight()V

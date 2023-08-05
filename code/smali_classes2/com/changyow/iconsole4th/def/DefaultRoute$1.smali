@@ -33,6 +33,12 @@
         }
     .end annotation
 
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
     .line 141
     iput-object p1, p0, Lcom/changyow/iconsole4th/def/DefaultRoute$1;->val$points:Ljava/util/List;
 

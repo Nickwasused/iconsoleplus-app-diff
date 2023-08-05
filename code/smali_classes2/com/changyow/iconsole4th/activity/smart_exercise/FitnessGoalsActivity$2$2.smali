@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 241
+    .line 248
     iput-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2$2;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 244
+    .line 251
     iget-object p1, p0, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2$2;->this$1:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;
 
     iget-object p1, p1, Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity$2;->this$0:Lcom/changyow/iconsole4th/activity/smart_exercise/FitnessGoalsActivity;
