@@ -1,5 +1,5 @@
 !!brut.androlib.apk.ApkInfo
-apkFileName: iConsole+ Training_1.8.47_Apkpure.apk
+apkFileName: iConsole+ Training_1.8.48_Apkpure.apk
 doNotCompress:
 - resources.arsc
 - META-INF/androidx.activity_activity-ktx.version
@@ -198,5 +198,5 @@ usesFramework:
   tag: null
 version: 2.8.1
 versionInfo:
-  versionCode: '267'
-  versionName: 1.8.47
+  versionCode: '268'
+  versionName: 1.8.48

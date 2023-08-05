@@ -85,7 +85,7 @@
         "getVelocityRight",
         "hashCode",
         "toString",
-        "icp4th-1.8.47_icpCnRelease"
+        "icp4th-1.8.48_icpCnRelease"
     }
     k = 0x1
     mv = {

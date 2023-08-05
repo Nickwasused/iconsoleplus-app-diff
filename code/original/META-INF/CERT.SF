@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: Android Gradle 7.2.1
-SHA-256-Digest-Manifest: 0dW97fRxcUL+YvZEHYO0b9cIhsyfOCZxLphBz1IAhKU=
+SHA-256-Digest-Manifest: 5T8JORMj6U2e2nvWPuo5d6w4xz4Gma3m9jXkZamHYkM=
 X-Android-APK-Signed: 2
 
 Name: AndroidManifest.xml
-SHA-256-Digest: VYKpTb8kSdqQAeF9J9wrEP99TJvJu0+eF8CUKtwue9M=
+SHA-256-Digest: XFBltQcub81YSjBjLbZhKTfC4S2j4sLCT+hBWbGUs1o=
 
 Name: DebugProbesKt.bin
 SHA-256-Digest: EuE0exWn1BqnXy7yBXKn/kXjNj4uFZgQCPqj16JeTqQ=
@@ -314,7 +314,7 @@ Name: assets/ae/GNaviConfig.xml
 SHA-256-Digest: qTF5aPrK3LnyflbOWZHgiN0YidEXvKw3garz835orJU=
 
 Name: assets/ae/res.zip
-SHA-256-Digest: YWdMzmivGtejCee1zvyEWkzfSzegQEPMfk84iV8CFOk=
+SHA-256-Digest: nBtdVqE7XPO3bMC4w7r2QgNreO8QDiizUk+NFkYq6Y0=
 
 Name: assets/ai_training_animation_bike_f.json
 SHA-256-Digest: rUzRsM2685HHfNN5s+YiMSBWNt9wlXlbaiYFuNoN2rY=
@@ -599,7 +599,7 @@ Name: assets/cross/crossing_nigth_bk.data
 SHA-256-Digest: OLj6HJA67PhZGBuE02Sz37V5fSDslFB+7MNdXJFAwME=
 
 Name: assets/dexopt/baseline.prof
-SHA-256-Digest: GGsQNBXdesojjI44mQCDknlm/d64S7Q2SNN/UV2Zb4M=
+SHA-256-Digest: 8StLfyKp8DRy8Tb9AB8EU25KDD6pR6Zbrj4lx7r3Fcw=
 
 Name: assets/dexopt/baseline.profm
 SHA-256-Digest: dU196iQZ7CyRSFUsQHlTe/2r8EI8llwetnSASNSL/os=
@@ -1093,7 +1093,7 @@ Name: classes.dex
 SHA-256-Digest: wVBxckne6TOsJXLiZxLQbNYJAbS/8gTxN957s0EqkwY=
 
 Name: classes2.dex
-SHA-256-Digest: OkhqGeVqgMGIrXrWmX/sCRXtAkRXG+/C6YAacimd0Dw=
+SHA-256-Digest: F7Li8ywnl9yctnP+A2bQjNyqlnXKEyU+LW1UppD/lxo=
 
 Name: classes3.dex
 SHA-256-Digest: XmOdu92Nb4Ux4uqT365mYoN62g3KcHz3QfIP9KKDWug=
