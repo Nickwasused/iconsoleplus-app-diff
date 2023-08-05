@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_not_found_dev" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlAccentColor="#ff868b97" app:srlEnableAutoLoadMore="false" app:srlEnableLoadMore="true" app:srlPrimaryColor="#fff6f6f6">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="98.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/home_serch_error_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/img_wtpsb" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_gray_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bq_ss_not_found_tv" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff868b97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_or_use" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_blue_text" android:id="@id/tv_go_scan" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_scan_code_connection_" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_blue_text" android:id="@id/tv_go_code" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_projection_code_connection" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0sp" android:textColor="@color/bq_ss_blue_text" android:layout_gravity="center_horizontal" android:id="@id/cast_guide2" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/bq_ss_howto_cast" android:drawableRight="@mipmap/icon_jcxq" android:drawablePadding="7.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

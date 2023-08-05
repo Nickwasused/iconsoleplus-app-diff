@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_usb_cast" android:background="@drawable/layout_shape_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="145.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clImage" android:layout_width="fill_parent" android:layout_height="230.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/tip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tip1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="#ff1e7ef3" android:gravity="center" android:background="@mipmap/bg_xuhao" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="01" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/bq_ss_adb_tip1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/tip1">
+            <TextView android:textSize="15.0sp" android:textColor="#ff1e7ef3" android:gravity="center" android:background="@mipmap/bg_xuhao" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="02" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin" android:text="@string/bq_ss_adb_tip2" />
+        </LinearLayout>
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/f2_close_b1" android:background="@drawable/f2_btn_shape" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="44.0dip" android:layout_marginTop="8.0dip" android:text="@string/bq_ss_adb_tip3" android:drawableRight="@mipmap/icon_xiangqing" android:layout_below="@id/tip2" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff1e7ef3" android:gravity="center|left" android:id="@id/f2_yikaiqi_t1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="45.0dip" android:layout_marginTop="8.0dip" android:text="@string/bq_ss_adb_open" android:drawableLeft="@mipmap/icon_yikaiqi" android:drawablePadding="7.0dip" android:layout_below="@id/tip2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tip3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="59.0dip" android:layout_below="@id/tip2">
+            <TextView android:textSize="15.0sp" android:textColor="#ff1e7ef3" android:gravity="center" android:background="@mipmap/bg_xuhao" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="03" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin" android:text="@string/bq_ss_adb_tip4" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tip4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/tip3">
+            <TextView android:textSize="15.0sp" android:textColor="#ff1e7ef3" android:gravity="center" android:background="@mipmap/bg_xuhao" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="04" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin" android:text="@string/bq_ss_adb_tip5" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_below="@id/tip4">
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_win_url" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_blue_text" android:id="@id/tv_site" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_ktp_website" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_copy" android:focusable="true" android:clickable="true" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="8.0dip" android:src="@mipmap/icon_fuzhi1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

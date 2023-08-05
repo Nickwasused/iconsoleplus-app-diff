@@ -1,0 +1,61 @@
+.class Lnet/protyposis/android/mediaplayer/VideoView$10;
+.super Ljava/lang/Object;
+.source "VideoView.java"
+
+# interfaces
+.implements Lnet/protyposis/android/mediaplayer/MediaPlayer$OnBufferingUpdateListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/protyposis/android/mediaplayer/VideoView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lnet/protyposis/android/mediaplayer/VideoView;
+
+
+# direct methods
+.method constructor <init>(Lnet/protyposis/android/mediaplayer/VideoView;)V
+    .locals 0
+
+    .line 582
+    iput-object p1, p0, Lnet/protyposis/android/mediaplayer/VideoView$10;->this$0:Lnet/protyposis/android/mediaplayer/VideoView;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onBufferingUpdate(Lnet/protyposis/android/mediaplayer/MediaPlayer;I)V
+    .locals 1
+
+    .line 585
+    iget-object v0, p0, Lnet/protyposis/android/mediaplayer/VideoView$10;->this$0:Lnet/protyposis/android/mediaplayer/VideoView;
+
+    invoke-static {v0}, Lnet/protyposis/android/mediaplayer/VideoView;->access$1800(Lnet/protyposis/android/mediaplayer/VideoView;)Lnet/protyposis/android/mediaplayer/MediaPlayer$OnBufferingUpdateListener;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 586
+    iget-object v0, p0, Lnet/protyposis/android/mediaplayer/VideoView$10;->this$0:Lnet/protyposis/android/mediaplayer/VideoView;
+
+    invoke-static {v0}, Lnet/protyposis/android/mediaplayer/VideoView;->access$1800(Lnet/protyposis/android/mediaplayer/VideoView;)Lnet/protyposis/android/mediaplayer/MediaPlayer$OnBufferingUpdateListener;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1, p2}, Lnet/protyposis/android/mediaplayer/MediaPlayer$OnBufferingUpdateListener;->onBufferingUpdate(Lnet/protyposis/android/mediaplayer/MediaPlayer;I)V
+
+    :cond_0
+    return-void
+.end method

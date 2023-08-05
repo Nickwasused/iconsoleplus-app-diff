@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="3" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece1" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece2" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece3" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece4" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece5" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+        <include android:id="@id/piece6" layout="@layout/layout_programs_setting_item_piece" />
+    </FrameLayout>
+</GridLayout>

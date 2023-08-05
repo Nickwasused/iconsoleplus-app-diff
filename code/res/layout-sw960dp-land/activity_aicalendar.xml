@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView android:id="@id/calendarView" android:layout_width="fill_parent" android:layout_height="300.0dip" app:mcv_allowClickDaysOutsideCurrentMonth="false" app:mcv_calendarMode="month" app:mcv_dateTextAppearance="@style/DateTextAppearance" app:mcv_firstDayOfWeek="sunday" app:mcv_headerTextAppearance="@style/HeaderTextAppearance" app:mcv_leftArrow="@null" app:mcv_rightArrow="@null" app:mcv_selectionColor="@color/CalendarSelectorColor" app:mcv_selectionMode="single" app:mcv_showOtherDates="decorated_disabled" app:mcv_tileHeight="36.0dip" app:mcv_tileWidth="50.0dip" app:mcv_weekDayTextAppearance="@style/WeekdayTextAppearance" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <ExpandableListView android:id="@id/elvWorkouts" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:childDivider="@android:color/transparent" android:layout_below="@id/calendarView" />
+</RelativeLayout>

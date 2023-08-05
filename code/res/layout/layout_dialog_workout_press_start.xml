@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ddffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="72.0dip">
+        <TextView android:textSize="31.5sp" android:textColor="#ff282828" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msgTreadmillPressStart" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_guideline" android:layout_toStartOf="@id/txvTitle" />
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieAnimationView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="lottie_pressed_start.json" app:lottie_loop="true" />
+    <TextView android:textSize="24.799988sp" android:textColor="#ff282828" android:gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="72.0sp" android:text="@string/msgTreadmillPressStopToCancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

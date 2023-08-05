@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout android:id="@id/swipeLayout" android:background="@drawable/edittext_background" android:layout_width="fill_parent" android:layout_height="124.0dip" android:layout_margin="8.0dip" android:minHeight="94.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/bottom_wrapper" android:layout_width="248.0dip" android:layout_height="fill_parent" android:weightSum="1.0" android:paddingStart="8.0dip">
+        <FrameLayout android:id="@id/btnEdit" android:background="#ff40c1b2" android:layout_width="124.0dip" android:layout_height="124.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_edit_pen_white" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/btnDelete" android:background="#ffdd4248" android:layout_width="124.0dip" android:layout_height="124.0dip" android:layout_toEndOf="@id/btnEdit">
+            <ImageView android:layout_gravity="center" android:background="#ffdd4248" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_slide_delete" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="12.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txv1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="2.0dip" android:layout_weight="1.0" android:drawableStart="@drawable/ai_training_todaysreceipt_ic_treadmill" android:fontFamily="@font/ff_dinpro_bold" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffa5a5a5" android:gravity="center_vertical" android:id="@id/txv2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffa5a5a5" android:gravity="center_vertical" android:id="@id/txv3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffa5a5a5" android:gravity="center_vertical" android:id="@id/txv4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

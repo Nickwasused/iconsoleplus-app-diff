@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:text="@string/str_custom_exercise" android:layout_centerHorizontal="true" android:fontFamily="@font/dinpro_regular" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txvTitle" android:layout_centerHorizontal="true">
+        <TextView android:textSize="89.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvDurationMinutes" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/dinpro_regular" />
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_unit_min" android:layout_alignBaseline="@id/txvDurationMinutes" android:fontFamily="@font/dinpro_regular" android:layout_toEndOf="@id/txvDurationMinutes" />
+    </RelativeLayout>
+    <Button android:textSize="25.0sp" android:textColor="@android:color/white" android:id="@id/btnDone" android:background="#ffeb4e1d" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="20.0dip" android:text="@string/strDone" android:layout_alignParentBottom="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+</RelativeLayout>

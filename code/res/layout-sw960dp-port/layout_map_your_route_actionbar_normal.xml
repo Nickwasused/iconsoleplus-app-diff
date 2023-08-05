@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btnSwitchInfoView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_switch_data" />
+    <ImageButton android:id="@id/btnChangeMapMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_map_layer" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="19.0sp" android:textColor="#fffefefe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapMyRoute" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+</RelativeLayout>

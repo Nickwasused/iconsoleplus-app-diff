@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutTrainingVolume" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="23.0dip" android:text="@string/str_egravity__training_volume" android:fontFamily="@font/dinpro_regular" />
+        <TextView android:textSize="45.0sp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/txvTrainingVolume" android:layout_width="wrap_content" android:layout_height="57.5dip" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/ic_triangle_down_whit" android:fontFamily="@font/dinpro_regular" android:paddingStart="50.0dip" android:paddingEnd="40.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTrainingVolumeList" android:background="@color/AppTint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutTrainingVolume" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutBottomPane" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_i_feel_" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff40c1b2" android:id="@id/txvRPE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strSomewhatEasy" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="5.0">
+            <ImageButton android:id="@id/btnRPE1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_01" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE2" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_02" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE3" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_03" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE4" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_04" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE5" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_05" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/shape_bg_workout_result_comment" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_margin="2.0dip">
+            <EditText android:gravity="center|left|top" android:id="@id/etComment" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:fontFamily="@font/ff_dinpro_regular" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvReports" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/layoutBottomPane" android:layout_below="@id/rvTrainingVolumeList" />
+</RelativeLayout>

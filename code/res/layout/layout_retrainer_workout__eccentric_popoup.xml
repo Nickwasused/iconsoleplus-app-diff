@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/combined_shape" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageButton android:id="@id/btn1_5x" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_start_orange" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eccentric 1.5x" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageButton android:id="@id/btn1_3x" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_start_orange" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eccentric 1.3x" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageButton android:id="@id/btn1_2x" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_start_orange" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eccentric 1.2x" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageButton android:id="@id/btn1x" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_start_orange" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eccentric" />
+    </LinearLayout>
+</LinearLayout>

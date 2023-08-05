@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.5sp" android:textColor="#ff6b6b6b" android:gravity="center" android:id="@id/txvTimestamp" android:layout_width="wrap_content" android:layout_height="28.799988dip" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" />
+    <ImageView android:id="@id/ivAddFavorite" android:layout_width="28.799988dip" android:layout_height="28.799988dip" android:src="@drawable/sel_btn_stream_summary_add_favorite" android:scaleType="fitCenter" android:layout_marginEnd="28.799988dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="67.5sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:gravity="center_horizontal" android:id="@id/txvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@id/txvTimestamp" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_bold" />
+    <TextView android:textSize="22.0sp" android:textColor="#ff6b6b6b" android:gravity="center_horizontal" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strCal" android:includeFontPadding="false" android:layout_alignBottom="@id/txvCalories" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvCalories" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/txvCalories">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/piece1" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+                <include android:id="@id/piece2" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/piece3" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+                <include android:id="@id/piece4" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/piece5" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+                <include android:id="@id/piece6" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/piece7" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+                <include android:id="@id/piece8" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/piece9" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+                <include android:id="@id/piece10" layout="@layout/layout_stream_training_summary_detail_data_piece" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

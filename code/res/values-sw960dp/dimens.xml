@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="constant_power_chart_icon_size">16.0dip</dimen>
+    <dimen name="constant_power_chart_marking_textsize">24.0dip</dimen>
+    <dimen name="number_picker_dialog_button_text_size">32.0sp</dimen>
+</resources>

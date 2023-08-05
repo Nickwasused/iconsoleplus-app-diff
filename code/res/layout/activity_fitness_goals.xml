@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvTargetMetsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_goals__target_mets" android:drawablePadding="10.0dip" android:layout_centerVertical="true" android:drawableEnd="@drawable/icon_membersystem_info_grey" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvTargetMets" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:paddingStart="100.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvResetGoals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_goals__rest_your_goals" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="18.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_goals__repetition_period" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvRepeitionPeriod" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:paddingStart="100.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="18.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_goals__reset_date" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvResetDate" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:paddingStart="100.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_goals__time_for_fitness" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvTimeOfFitness" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:paddingStart="100.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textSize="25.0sp" android:textColor="@android:color/white" android:id="@id/btnSave" android:background="#ffeb4e1d" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/fitness_goals__save" android:fontFamily="@font/ff_dinot_cond_medium" />
+</LinearLayout>

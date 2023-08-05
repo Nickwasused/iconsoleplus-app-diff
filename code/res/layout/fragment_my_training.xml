@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/strAverage" android:fontFamily="@font/ff_neue_plak" android:paddingStart="18.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_mainpage_distance" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="@string/strWorkoutDistance" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="19.0sp" android:textColor="@android:color/black" android:gravity="end" android:id="@id/txvAvgDistanceValue" android:layout_width="50.0dip" android:layout_height="26.0dip" android:text="30" android:fontFamily="@font/ff_neue_plak_extra" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="bottom" android:id="@id/txvAvgDistanceUnit" android:layout_width="60.0dip" android:layout_height="30.0dip" android:text="@string/strKm" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="49.0dip">
+            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_calorie" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="@string/strCaloriesBurned" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="19.0sp" android:textColor="@android:color/black" android:gravity="end" android:id="@id/txvAvgCaloriesValue" android:layout_width="50.0dip" android:layout_height="26.0dip" android:text="1200" android:fontFamily="@font/ff_neue_plak_extra" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="bottom" android:id="@id/txvAvgCaloriesUnit" android:layout_width="60.0dip" android:layout_height="30.0dip" android:text="@string/strCal" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_my_training" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll1">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.5sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strLetsGoTraining" android:fontFamily="@font/ff_neue_plak_extra" />
+            <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:id="@id/txvWorkoutSessions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Workout sessions this week: 3" android:fontFamily="@font/ff_neue_plak" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerInParent="true" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/txv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strTotalDistance" android:fontFamily="@font/ff_neue_plak" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19.0sp" android:textColor="@android:color/black" android:id="@id/txvTotalDistanceValue" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="1" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="bottom" android:id="@id/txvTotalDistanceUnit" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/strKm" android:layout_below="@id/txv1" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/txv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strTotalTime" android:fontFamily="@font/ff_neue_plak" />
+            <TextView android:textSize="19.0sp" android:textColor="@android:color/black" android:id="@id/txvTotalTimeValue" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="30:00" android:fontFamily="@font/ff_neue_plak_extra" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/txv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strTotalCalories" android:fontFamily="@font/ff_neue_plak" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19.0sp" android:textColor="@android:color/black" android:id="@id/txvTotalCaloriesValue" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="1200" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="bottom" android:id="@id/txvTotalCaloriesUnit" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/strCal" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layoutBtnPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0sp" android:textColor="#ffff541e" android:id="@id/btnChart" android:background="@android:color/transparent" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__title_chart" android:textAllCaps="false" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="50.0dip" android:paddingEnd="50.0dip" />
+        <Button android:textSize="18.0sp" android:textColor="#ff6b6b6b" android:id="@id/btnDetail" android:background="@android:color/transparent" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__title_details" android:textAllCaps="false" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="50.0dip" android:paddingEnd="50.0dip" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layoutBtnPanel">
+        <include android:id="@id/layoutDetail" layout="@layout/layout_stream_training_summary_detail" />
+        <include android:id="@id/layoutChart" layout="@layout/layout_stream_training_summary_chart" />
+    </FrameLayout>
+</RelativeLayout>

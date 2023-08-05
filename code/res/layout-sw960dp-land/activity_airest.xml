@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutSteps" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip">
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@drawable/shape_bg_aiworkout__training_step_others" android:layout_width="64.0dip" android:layout_height="64.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ffa0a0a0" android:gravity="center_horizontal" android:id="@id/txvPrevStep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" app:autoSizeMinTextSize="6.0sp" app:autoSizeTextType="uniform" />
+            <TextView android:textSize="10.5sp" android:textColor="#ffa0a0a0" android:id="@id/txvPrevStepDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txvPrevStep" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" />
+        </RelativeLayout>
+        <View android:background="#ffc2c2c2" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_margin="15.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@drawable/shape_bg_aiworkout__training_step_current" android:layout_width="100.0dip" android:layout_height="100.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff40c1b2" android:gravity="center_horizontal" android:id="@id/txvCurrentStep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_bold" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:autoSizeMinTextSize="6.0sp" app:autoSizeTextType="uniform" />
+            <TextView android:textSize="14.5sp" android:textColor="#ff40c1b2" android:id="@id/txvCurrentStepDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txvCurrentStep" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_bold" />
+        </RelativeLayout>
+        <View android:background="#ffc2c2c2" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_margin="15.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@drawable/shape_bg_aiworkout__training_step_others" android:layout_width="64.0dip" android:layout_height="64.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ffa0a0a0" android:gravity="center_horizontal" android:id="@id/txvNextStep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" app:autoSizeMinTextSize="6.0sp" app:autoSizeTextType="uniform" />
+            <TextView android:textSize="10.5sp" android:textColor="#ffa0a0a0" android:id="@id/txvNextStepDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txvNextStep" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" />
+        </RelativeLayout>
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layoutNotes" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/layoutSteps" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutInfoPane" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="38.0dip" android:layout_marginEnd="22.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="19.299988sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strHeartRate" android:layout_centerVertical="true" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff3e3e3e" android:id="@id/txvHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="19.299988sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strHrZone" android:layout_centerVertical="true" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff3e3e3e" android:id="@id/txvHrZone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layoutProgress" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_above="@id/layoutInfoPane" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip">
+        <ProgressBar android:theme="@style/AIWorkoutProgressTheme" android:id="@id/pbProgress" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="8.0dip" android:max="100" android:progress="30" android:indeterminate="false" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="13.5sp" android:textColor="#ffa0a0a0" android:gravity="center_horizontal" android:id="@id/txvTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/pbProgress" android:fontFamily="@font/ff_dinpro_regular" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lavAnimation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip" android:layout_above="@id/layoutProgress" android:layout_below="@id/layoutNotes" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_loop="true" />
+</RelativeLayout>

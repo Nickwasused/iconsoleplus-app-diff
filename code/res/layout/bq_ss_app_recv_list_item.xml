@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/home_test_list1" android:background="@drawable/dlg_btn_bg" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginTop="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/device_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin" android:src="@mipmap/icon_tv" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/bq_ss_text" android:layout_gravity="center" android:id="@id/id_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/device_icon" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_cloud_cast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:src="@mipmap/icon_ytp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/home_list_last_img_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_margin" android:src="@mipmap/_back" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <androidx.core.widget.ContentLoadingProgressBar android:id="@id/progrisbar_id_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:progressBarStyleSmallInverse" />
+</RelativeLayout>

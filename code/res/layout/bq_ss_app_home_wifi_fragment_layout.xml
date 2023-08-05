@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/layout_shape_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" layout="@layout/bq_ss_app_device_searching" />
+    <include android:visibility="gone" layout="@layout/bq_ss_app_no_device_found" />
+    <LinearLayout android:orientation="vertical" android:id="@id/home_device_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginLeft="@dimen/app_margin" android:layout_marginRight="@dimen/app_margin">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/bq_ss_text" android:gravity="center" android:id="@id/tv_search_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_ss_search_tv" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/bq_ss_blue_text" android:gravity="center" android:id="@id/tv_course" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:text="@string/bq_ss_howto_cast1" android:drawableRight="@mipmap/icon_tpjc" android:drawablePadding="7.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlAccentColor="#ff868b97" app:srlEnableAutoLoadMore="false" app:srlEnableLoadMore="true" app:srlPrimaryColor="#fff6f6f6">
+            <ListView android:id="@id/id_myList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_marginTop="5.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="#ffffffff" android:dividerHeight="1.0dip" android:choiceMode="singleChoice" />
+        </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+</FrameLayout>

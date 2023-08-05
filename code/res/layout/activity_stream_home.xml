@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fakeTabBar" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/btnVideoHome" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btntabvideohome" android:layout_weight="1.0" android:onClick="btnVideoHomeClicked" />
+        <ImageButton android:id="@id/btnVideoList" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btntabvideolist" android:layout_weight="1.0" android:onClick="btnVideoListClicked" />
+        <ImageButton android:id="@id/VideoCommunity" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btntabvideocommunity" android:layout_weight="1.0" android:onClick="btnVideoCommunityClicked" />
+        <ImageButton android:id="@id/btnVideoProfile" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btntabvideoprofile" android:layout_weight="1.0" android:onClick="btnVideoProfileClicked" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fakeTabBar" />
+</RelativeLayout>

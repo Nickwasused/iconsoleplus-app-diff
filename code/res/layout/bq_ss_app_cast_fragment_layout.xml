@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="160.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/image_top3" android:scaleType="centerCrop" />
+        <RelativeLayout android:id="@id/rl_cast" android:background="@drawable/title_cast_bg" android:padding="2.0dip" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/app_margin" android:layout_marginTop="25.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <FrameLayout android:id="@id/fl_cast_bg" android:background="@drawable/title_cast_btn_bg" android:layout_width="86.0dip" android:layout_height="28.0dip" android:layout_centerVertical="true" />
+            <Button android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/bq_ss_blue_text" android:gravity="center" android:id="@id/btn_wifi_cast" android:background="@color/bq_ss_transparent" android:layout_width="86.0dip" android:layout_height="28.0dip" android:text="@string/bq_ss_title_wifi_cast" android:layout_centerVertical="true" />
+            <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_usb_cast" android:background="@color/bq_ss_transparent" android:layout_width="86.0dip" android:layout_height="28.0dip" android:text="@string/bq_ss_title_usb_cast" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/size_title" android:textColor="@color/white" android:id="@id/mTvWifiMirror" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_margin" android:text="@string/bq_ss_title_wifi_cast" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <include layout="@layout/bq_ss_app_top_view" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_cast_root" android:background="@drawable/layout_shape_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="145.0dip">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicator="@drawable/indicator" app:tabIndicatorColor="@color/bq_ss_blue_text" app:tabIndicatorHeight="3.0dip" app:tabMode="fixed" app:tabSelectedTextColor="@color/bq_ss_blue_text" app:tabTextAppearance="@style/TabLayoutStyle" app:tabTextColor="@color/bq_ss_text" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/bq_ss_app_home_casting_layout" />
+    <include layout="@layout/bq_ss_app_home_usb_cast_fragment" />
+</FrameLayout>

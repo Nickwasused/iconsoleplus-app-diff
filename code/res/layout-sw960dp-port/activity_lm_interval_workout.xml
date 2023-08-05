@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutInfoPane" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true">
+        <androidx.viewpager.widget.ViewPager android:id="@id/rvDataPager" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+        <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="150.0dip" android:layout_centerHorizontal="true" app:ci_drawable="@drawable/drawable_pager_indicator_selected" app:ci_drawable_unselected="@drawable/drawable_pager_indicator_unselected" />
+        <ImageButton android:id="@id/btnPin" android:background="@null" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="8.0dip" android:src="@drawable/selector_btn_push_pin" android:scaleType="fitXY" android:layout_alignBottom="@id/rvDataPager" android:onClick="pinBtnPressed" android:layout_alignEnd="@id/rvDataPager" android:elevation="2.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutInfoPane">
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/txvStage" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" android:text="@string/msg_setting_interval" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff9b9b9b" android:gravity="center_horizontal" android:id="@id/txvHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txvStage" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavLateralAnime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="150.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="an_lateral_training_machine_outward.json" app:lottie_loop="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavIntensityAnime" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignBottom="@id/lavLateralAnime" android:layout_alignEnd="@id/lavLateralAnime" app:lottie_autoPlay="false" app:lottie_fileName="an_lateral_trainer_adjust_high.json" app:lottie_loop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lavLateralAnime">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="@string/str_general_cadence" android:fontFamily="@font/ff_dinpro_regular" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="50.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvCadenceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="@font/ff_dinot_cond_medium" />
+                    <TextView android:textSize="30.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvCadenceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strRpm" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip" android:src="@drawable/ic_chronograph" />
+                <TextView android:textSize="50.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvTimeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="@string/str_intensity" android:fontFamily="@font/ff_dinpro_regular" />
+                <TextView android:textSize="50.0sp" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvIntensityValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="88.0dip" android:minHeight="88.0dip" android:paddingStart="27.0dip" android:paddingEnd="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivIcon" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_info_calories" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="36.0sp" android:textColor="@android:color/black" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Machine" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_toEndOf="@id/ivIcon" />
+    <TextView android:textSize="28.0sp" android:textColor="@android:color/black" android:gravity="bottom" android:id="@id/txvUnit" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="km" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="2.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="52.0sp" android:textColor="@android:color/black" android:id="@id/txvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.2" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_toStartOf="@id/txvUnit" />
+    <View android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

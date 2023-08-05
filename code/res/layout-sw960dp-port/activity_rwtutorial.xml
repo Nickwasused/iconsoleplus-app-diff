@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:ci_drawable="@drawable/drawable_pager_indicator_selected" app:ci_drawable_unselected="@drawable/drawable_pager_indicator_unselected" />
+    <ImageButton android:id="@id/ibCancel" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/ic_cancel_orange" />
+</RelativeLayout>

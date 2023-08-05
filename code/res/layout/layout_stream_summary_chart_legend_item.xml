@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip" android:minHeight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivDot" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shape_aitoday_dot" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.799988sp" android:textColor="#ff6b6b6b" android:id="@id/txvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff6b6b6b" android:gravity="center" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/ivDot" />
+</RelativeLayout>

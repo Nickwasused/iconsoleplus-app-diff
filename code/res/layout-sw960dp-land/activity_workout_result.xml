@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivMap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="260.0dip" />
+    <TextView android:textSize="36.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/txvDate" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="14:00, 13/03/2017" android:layout_below="@id/ivMap" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="28.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutBottomPane" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:textSize="36.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_i_feel_" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="50.0sp" android:textColor="#ff40c1b2" android:id="@id/txvRPE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strSomewhatEasy" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:weightSum="5.0">
+            <ImageButton android:id="@id/btnRPE1" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_01" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE2" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_02" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE3" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_03" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE4" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_04" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE5" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_05" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/shape_bg_workout_result_comment" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_margin="2.0dip">
+            <EditText android:textSize="36.0sp" android:gravity="center|left|top" android:id="@id/etComment" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:fontFamily="@font/ff_dinpro_regular" />
+        </FrameLayout>
+    </LinearLayout>
+    <ListView android:id="@id/listReports" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/layoutBottomPane" android:layout_below="@id/txvDate" />
+</RelativeLayout>

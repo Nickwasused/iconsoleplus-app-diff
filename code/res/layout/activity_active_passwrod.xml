@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_login" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivImg" android:layout_width="92.0dip" android:layout_height="41.0dip" android:layout_marginTop="85.0dip" android:src="@drawable/ic_sent_mail" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/msg_reset_mail_sent" android:lines="10" android:layout_below="@id/ivImg" android:fontFamily="@font/ff_dinot_cond" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" />
+    <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/btnDone" android:background="@drawable/shape_bg_btn_login" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="50.0dip" android:text="DONE" android:layout_alignParentBottom="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+</RelativeLayout>

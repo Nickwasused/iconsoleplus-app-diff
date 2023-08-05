@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="fill_parent" android:layout_height="120.0dip" android:minHeight="120.0dip" android:rowCount="4" android:columnCount="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff999999" android:gravity="center_vertical" android:id="@id/txvTitle" android:background="#ffe6e6e6" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/str_input_a_description" android:includeFontPadding="false" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="15.0dip" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" />
+    <EditText android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="top" android:id="@id/txvValue1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:hint="@string/str_input_a_description2" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" android:layout_rowWeight="3.0" android:layout_columnWeight="1.0" />
+</GridLayout>

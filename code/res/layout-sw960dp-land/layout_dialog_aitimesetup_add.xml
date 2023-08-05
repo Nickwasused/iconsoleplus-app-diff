@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape_bg_aitimesetup_dialog" android:layout_width="280.0dip" android:layout_height="290.0dip" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="19.099976sp" android:textColor="#fffefefe" android:gravity="center" android:id="@id/txvTitle" android:background="@drawable/shape_bg_aitimesetup_dialog_title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip" android:text="Set Time" />
+        <RelativeLayout android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip" android:layout_below="@id/txvTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.899994sp" android:textColor="#ff5e5e5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Weekday" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <Spinner android:id="@id/spWeeday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="150.0dip" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_alignParentEnd="true" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout2" android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip" android:layout_below="@id/layout1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.899994sp" android:textColor="#ff5e5e5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time Start" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <Spinner android:id="@id/spStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="150.0dip" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_alignParentEnd="true" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout3" android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip" android:layout_below="@id/layout2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.899994sp" android:textColor="#ff5e5e5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time End" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <Spinner android:id="@id/spEnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="150.0dip" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_alignParentEnd="true" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_below="@id/layout3">
+            <Button android:textSize="14.599976sp" android:textStyle="bold" android:textColor="#ff5e5e5e" android:gravity="center" android:id="@id/btnCancel" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/strCancel" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+            <Button android:textSize="14.599976sp" android:textStyle="bold" android:textColor="@color/AppTint" android:gravity="center" android:id="@id/btnAdd" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Add" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

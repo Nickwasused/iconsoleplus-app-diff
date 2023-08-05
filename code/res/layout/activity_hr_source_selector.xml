@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutTop" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Heart rate monitor" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:gravity="end|center" android:id="@id/txvHeartRateSource" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="200.0dip" android:text="BLE HRM" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_vertical" android:id="@id/txvHrmTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="My heart rate monitor" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5d5d5d" android:ellipsize="end" android:gravity="end|center" android:id="@id/txvHrmName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="150.0dip" android:lines="1" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_bold" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/txvHrmTitle" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <RelativeLayout android:id="@id/layoutScanHrm" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/txvScanHeartMonitor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msgSearching_hr_strap" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:autoSizeTextType="uniform" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.dinuscxj.refresh.RecyclerRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btnSave" android:layout_below="@id/layoutTop">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvHrmList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.dinuscxj.refresh.RecyclerRefreshLayout>
+    <Button android:textSize="25.0sp" android:textColor="@android:color/white" android:id="@id/btnSave" android:background="#ffeb4e1d" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/fitness_goals__save" android:layout_alignParentBottom="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+</RelativeLayout>

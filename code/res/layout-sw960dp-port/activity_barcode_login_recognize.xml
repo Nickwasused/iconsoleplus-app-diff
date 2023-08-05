@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivImage" android:layout_width="167.0dip" android:layout_height="167.0dip" android:layout_centerHorizontal="true" app:layout_marginTopPercent="20.000004%" />
+    <TextView android:textSize="30.0sp" android:textColor="#ff000000" android:id="@id/txv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Log in ?" android:layout_below="@id/ivImage" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond" app:layout_marginTopPercent="3.9999962%" />
+    <TextView android:textSize="17.5sp" android:textColor="#ff000000" android:id="@id/txv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tap log in for permission." android:layout_below="@id/txv1" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" app:layout_marginTopPercent="1.9999981%" />
+    <Button android:textSize="31.5sp" android:textColor="@android:color/white" android:id="@id/btnRecognize" android:background="@drawable/sel_btn_barcode_login_recognize" android:layout_width="180.0dip" android:layout_height="45.0dip" android:text="LOG IN" android:layout_below="@id/txv2" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" app:layout_marginTopPercent="8.000004%" />
+</androidx.percentlayout.widget.PercentRelativeLayout>

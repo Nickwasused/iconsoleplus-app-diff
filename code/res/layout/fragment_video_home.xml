@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/svFilterPanel" android:layout_width="wrap_content" android:layout_height="60.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/txvPickedForYou" android:background="@drawable/sel_bg_stream_home_rounded" android:layout_width="wrap_content" android:layout_height="34.0dip" android:text="@string/str_stream_video_home__pick_for_your" android:lines="1" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="13.0dip" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/txvMostPopular" android:background="@drawable/sel_bg_stream_home_rounded" android:layout_width="wrap_content" android:layout_height="34.0dip" android:text="@string/str_stream_video_home__most_popular" android:lines="1" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/txvMyFavorite" android:background="@drawable/sel_bg_stream_home_rounded" android:layout_width="wrap_content" android:layout_height="34.0dip" android:text="@string/str_stream_video_home__my_favorite" android:lines="1" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvVideoList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/svFilterPanel" />
+</RelativeLayout>

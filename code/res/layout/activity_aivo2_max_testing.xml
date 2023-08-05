@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ai_training_vo2max_test_bg" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginTop="60.0dip" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip">
+        <TextView android:textSize="23.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_bold" />
+        <TextView android:textSize="14.399994sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Incline Up to LEVEL 1" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_bold" />
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/txvPrevVo2Max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+    </RelativeLayout>
+    <View android:id="@id/view1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view1">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/llTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="95.5sp" android:textColor="#ffbeec44" android:gravity="end" android:id="@id/txvTargetValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#68000000" android:shadowDx="-1.4695761E-15" android:shadowDy="-8.0" android:shadowRadius="25.0" android:fontFamily="@font/ff_dinot_cond_medium" />
+            <TextView android:textSize="28.599976sp" android:textColor="#ffbeec44" android:gravity="end" android:id="@id/txvTargetUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#68000000" android:shadowDx="-1.4695761E-15" android:shadowDy="-8.0" android:shadowRadius="25.0" android:fontFamily="@font/ff_dinot_cond" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/llSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/llTarget" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="95.5sp" android:textColor="#ffbeec44" android:gravity="end" android:id="@id/txvSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#68000000" android:shadowDx="-1.4695761E-15" android:shadowDy="-8.0" android:shadowRadius="25.0" android:fontFamily="@font/ff_dinot_cond_medium" />
+            <TextView android:textSize="28.599976sp" android:textColor="#ffbeec44" android:gravity="end" android:id="@id/txvSpeedUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#68000000" android:shadowDx="-1.4695761E-15" android:shadowDy="-8.0" android:shadowRadius="25.0" android:fontFamily="@font/ff_dinot_cond" />
+        </LinearLayout>
+        <TextView android:textSize="17.299988sp" android:textColor="#ffbeec44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aivo2max_testing__avg_speed_now" android:shadowColor="#68000000" android:shadowDx="-1.4695761E-15" android:shadowDy="-8.0" android:shadowRadius="25.0" android:layout_above="@id/llSpeed" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_alignStart="@id/llSpeed" />
+    </RelativeLayout>
+</RelativeLayout>

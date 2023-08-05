@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0">
+        <RelativeLayout android:id="@id/rlQuickstart" android:background="@drawable/bg_quick_start" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_quick_start" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strQuickStart" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strQuickStartDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlInterval" android:background="@drawable/bg_interval" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_internal" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strInterval" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strIntervalDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlRoute" android:background="@drawable/bg_map_my_route" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_iroute" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapMyRoute" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapYourRouteDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlEGravity" android:background="@drawable/background_mainpage_e_gravity" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_iroute" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_retrainer__egravity" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_retrainer__egravity" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlConstantPower" android:background="@drawable/bg_constant_power" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_constantpower" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitleConstantPower" android:textAllCaps="true" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strConstantPowerDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlPrograms" android:background="@drawable/bg_default_program" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_default_program" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitlePrograms" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strProgramsDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlAiTraining" android:background="@drawable/bg_ai_training" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_ai_training" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitleAiTraining" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strAiTrainingDesc" android:fontFamily="@font/ff_neue_plak" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlStreaming" android:background="@drawable/bg_videoondemand" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_ai_training" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitleStreaming" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strStreamingDesc" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" fontPath="neue_plak_regular.otf" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlSmartExercise" android:background="@drawable/background_mainpage_smart_exercise" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_ai_training" />
+                <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SMART EXERCISE" android:fontFamily="@font/ff_neue_plak_extra" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How to promote health" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" fontPath="neue_plak_regular.otf" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

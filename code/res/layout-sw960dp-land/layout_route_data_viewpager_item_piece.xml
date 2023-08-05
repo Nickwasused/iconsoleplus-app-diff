@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:textColor="#ff808080" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:fontFamily="@font/ff_dinpro_regular" />
+    <TextView android:textSize="60.0sp" android:textColor="#ff3e3e3e" android:id="@id/txvValue" android:layout_width="wrap_content" android:layout_height="72.0dip" android:layout_below="@id/txvTitle" android:fontFamily="@font/ff_dinot_cond_medium" />
+    <TextView android:textSize="32.0sp" android:textColor="#ff3e3e3e" android:gravity="bottom" android:id="@id/txvUnit" android:layout_width="wrap_content" android:layout_height="72.0dip" android:includeFontPadding="false" android:layout_below="@id/txvTitle" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvValue" />
+</RelativeLayout>

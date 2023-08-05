@@ -1,0 +1,104 @@
+{
+  "106": {
+    "EN": "An account with this email already exists and is verified. Use 'password reset' if user can not remember password to access their account.",
+    "DE": "Ein Konto mit dieser Emailadresse existiert bereits. Wenn Sie das Passwort nicht mehr wissen, dann können Sie es bei 'Passwort vergessen' zurücksetzen.",
+    "TW": "此帳號email己被申請使用,如您忘記密碼，請按'密碼重設'來重設您的密碼",
+    "CN": "此帐号email己被申请使用,如您忘记密码，请按'密码重设'来重设您的密码"
+  },
+  "109": {
+    "EN": "Passwords must be at least 6 characters long. The password must contain at least 2 lowercase characters (a-z).",
+    "DE": "Das Passswort muss mindestens eine Länge von 6 Zeichen haben mit mindestens zwei Kleinbuchstaben (a-z).",
+    "TW": "密碼必要至少6字元,且至少有兩個小寫字體",
+    "CN": "密码必要至少6字元,且至少有两个小写字体"
+  },
+  "110": {
+    "EN": "Password is in the list of common passwords. Do not use it.",
+    "DE": "Das Passwort is in der Liste häufiger Passwörter und dart nicht benutzt werden.",
+    "TW": "密碼太常見,請更換",
+    "CN": "密码太常见,请更换"
+  },
+  "111": {
+    "EN": "Password must be different from your email address.",
+    "DE": "Passwort darf nicht die E-Mail-Adresse sein.",
+    "TW": "密碼跟email設定不符",
+    "CN": "密码跟email设定不符"
+  },
+  "112": {
+    "EN": "Can not get latest Google certificates. Google Login not available.",
+    "DE": "Google ist nicht erreichbar. Einloggen mit Google ist nicht möglich.",
+    "TW": "無法得到Google認証,Google無法登入",
+    "CN": "无法得到Google认证,Google无法登入"
+  },
+  "116": {
+    "EN": "Too many failed login attempts from one IP. The IP will temporarily be blocked to prevent brute force attacks.",
+    "DE": "Ihre IP-Adresse wurde wegen zahlreichen missglückten Anmeldeversuchen vorübergehend gesperrt. Versuchen Sie es später nochmal.",
+    "TW": "此IP過多錯誤登入,暫時停止此IP登入",
+    "CN": "此IP过多错误登入,暂时停止此IP登入"
+  },
+  "117": {
+    "EN": "Must be a valid email address (max. length 100 characters)",
+    "DE": "Es muss eine gültige E-Mailadresse sein. (höchstens 100 Zeichen)",
+    "TW": "錯誤Email位址,必需要少於100字元",
+    "CN": "错误Email位址,必需要少于100字元"
+  },
+  "118": {
+    "EN": "Bad login credentials. Email & password combination is wrong.",
+    "DE": "Falsche Anmeldedaten. E-Mail & Passwort-Kombination ist falsch.",
+    "TW": "錯誤登入訊息,Email &password 未符合",
+    "CN": "错误登入讯息,Email &password 未符合"
+  },
+  "119": {
+    "EN": "Email address has not been verified. Click on the link in the verification email. If you can not find the verification email please register again.",
+    "DE": "Die E-Mail-Adresse wurde noch nicht bestätigt. Klicken Sie auf den Link in der Bestätigungs-E-Mail. Wenn Sie die Bestätigungs-E-Mail nicht finden können, registrieren Sie sich erneut.",
+    "TW": "Email位址未認證,請點擊認證信件連結.如您無法找到認證信,請重新申請註冊",
+    "CN": "Email位址未认证,请点击认证信件连结.如您无法找到认证信,请重新申请注册"
+  },
+  "120": {
+    "EN": "Bad login credentials. User uses only social login or did not verify his password.",
+    "DE": "Falsche Anmeldedaten. Der Benutzer verwendet Single Sign-on (Google, Facebook) oder hat sein Passwort nicht bestätigt.",
+    "TW": "錯誤登入訊息，使用者僅可用社交軟體帳號登入或未認證密碼",
+    "CN": "错误登入讯息，使用者仅可用社交软体帐号登入或未认证密码"
+  },
+  "123": {
+    "EN": "Can not connect to Facebook. Facebook Login not available.",
+    "DE": "Facebook ist nicht erreichbar. Einloggen mit Facebook ist nicht möglich.",
+    "TW": "不能連接Facebook,Facebook 拒絶登入",
+    "CN": "不能连接Facebook,Facebook 拒绝登入"
+  },
+  "135": {
+    "EN": "This email address does not have a registered account.",
+    "DE": "Diese E-Mail-Adresse ist nicht registriert.",
+    "TW": "此email並無註冊過帳號",
+    "CN": "此email并无注册过帐号"
+  },
+  "158": {
+    "EN": "Image processing error.",
+    "DE": "Bildverarbeitungsfehler.",
+    "TW": "圖片處理錯誤",
+    "CN": "圖片處理錯誤"
+  },
+  "159": {
+    "EN": "File is not an image.",
+    "DE": "Datei ist kein Bild.",
+    "TW": "檔案不是圖片檔",
+    "CN": "档案不是图片档"
+  },
+  "200": {
+    "EN": "Invalid workout identifier.",
+    "DE": "Ungültige Trainings-ID.",
+    "TW": "非正規workout記錄",
+    "CN": "非正规workout记录"
+  },
+  "201": {
+    "EN": "Workout could not be deleted.",
+    "DE": "Training konnte nicht gelöscht werden.",
+    "TW": "Workout無法刪除",
+    "CN": "Workout无法删除"
+  },
+  "500": {
+    "EN": "The database server is not working.",
+    "DE": "Der Datenbankserver ist außer Betrieb.",
+    "TW": "伺服器停止運作中",
+    "CN": "伺服器停止运作中"
+  }
+}

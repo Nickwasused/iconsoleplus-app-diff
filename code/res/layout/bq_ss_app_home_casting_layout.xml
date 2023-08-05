@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/home_casting_layout" android:background="@drawable/layout_shape_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="145.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/aniView" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_marginTop="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" />
+        <TextView android:textSize="14.0sp" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/aniView" />
+        <LinearLayout android:id="@id/bt_ctrl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" app:layout_constraintBottom_toTopOf="@id/mic_ctrl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <Button android:textSize="16.0sp" android:textColor="@color/bq_ss_blue_text" android:gravity="center" android:id="@id/button_int_the_scaran_id" android:background="@drawable/btn_shape" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="6.0dip" android:text="@string/bq_ss_disconnect" android:layout_weight="13.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/mic_ctrl" android:background="@drawable/mic_btn_shape" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@mipmap/icon_mkf" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff1b212e" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/bq_ss_mic_sound" />
+            <Switch android:enabled="true" android:layout_gravity="center|right" android:id="@id/sw_mic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:thumb="@drawable/switch_ios_thumb" android:layout_weight="1.0" android:track="@drawable/switch_ios_track_selector" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

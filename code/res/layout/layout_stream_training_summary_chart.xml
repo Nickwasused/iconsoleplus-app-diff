@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="22.5dip" android:layout_height="22.5dip" android:layout_margin="13.0dip" android:src="@drawable/ic_video_red_heart_rate" android:scaleType="fitCenter" android:layout_marginEnd="28.799988dip" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__heart_rate" android:fontFamily="@font/ff_dinpro_bold" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ff6b6b6b" android:layout_gravity="center_vertical" android:id="@id/txvNoHrData" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This workout have no heart rate data." android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="30.0sp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginStart="48.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                    <TextView android:textSize="13.5sp" android:textColor="#ff9b9b9b" android:id="@id/txvAvgHrTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__avg_heart_rate" android:fontFamily="@font/ff_dinpro_regular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="30.0sp" android:textColor="#ff3d3d3d" android:id="@id/txvAvgHrValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+                        <TextView android:textSize="13.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvAvgHrUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBpm" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                    <TextView android:textSize="13.5sp" android:textColor="#ff9b9b9b" android:id="@id/txvMaxHrTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__max_heart_rate" android:fontFamily="@font/ff_dinpro_regular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="30.0sp" android:textColor="#ff3d3d3d" android:id="@id/txvMaxHrValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+                        <TextView android:textSize="13.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvMaxHrUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBpm" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.changyow.iconsole4th.view.StreamSummaryHrChart android:id="@id/streamSummaryHrChart" android:layout_width="fill_parent" android:layout_height="160.0dip" />
+        <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <RelativeLayout android:id="@id/layout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layoutHrZone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="22.5dip" android:layout_height="22.5dip" android:layout_margin="13.0dip" android:src="@drawable/ic_video_red_hr_zone" android:scaleType="fitCenter" android:layout_marginEnd="28.799988dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__hr_zone" android:fontFamily="@font/ff_dinpro_bold" />
+            </LinearLayout>
+            <com.github.mikephil.charting.charts.PieChart android:id="@id/pieChart" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_margin="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/layoutHrZone" android:contentDescription="" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutChartLegend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutHrZone" android:layout_toEndOf="@id/pieChart" />
+        </RelativeLayout>
+        <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="22.5dip" android:layout_height="22.5dip" android:layout_margin="13.0dip" android:src="@drawable/ic_video_blue_outline_cadence" android:scaleType="fitCenter" android:layout_marginEnd="28.799988dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__rpm" android:fontFamily="@font/ff_dinpro_bold" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="22.5dip" android:layout_height="22.5dip" android:layout_margin="13.0dip" android:src="@drawable/green_outline_pace" android:scaleType="fitCenter" android:layout_marginEnd="28.799988dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__pace" android:fontFamily="@font/ff_dinpro_bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginStart="48.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                    <TextView android:textSize="13.5sp" android:textColor="#ff9b9b9b" android:id="@id/txvRpmTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__avg_rpm" android:fontFamily="@font/ff_dinpro_regular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="30.0sp" android:textColor="#ff3d3d3d" android:id="@id/txvRpmValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+                        <TextView android:textSize="13.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvRpmUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__avg_rpm_unit" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_marginStart="36.0dip">
+                    <TextView android:textSize="13.5sp" android:textColor="#ff9b9b9b" android:id="@id/txvPaceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__avg_pace" android:fontFamily="@font/ff_dinpro_regular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="30.0sp" android:textColor="#ff3d3d3d" android:id="@id/txvPaceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+                        <TextView android:textSize="13.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvPaceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_stream_summary__avg_pace_unit" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

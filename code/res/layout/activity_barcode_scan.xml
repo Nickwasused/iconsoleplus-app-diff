@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@id/cameraView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_frame" android:layout_centerHorizontal="true" app:layout_marginTopPercent="20.000004%" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_barcode_scan__line_up_the_qr_code_to_scan_it_with_your_device_s_camera" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" app:layout_marginEndPercent="14.999998%" app:layout_marginStartPercent="14.999998%" app:layout_marginTopPercent="65.0%" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/btnShowMyCode" android:background="@drawable/shape_rounded_25dp_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_barcode_scan__my_qr_code" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:textAllCaps="false" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" app:layout_marginTopPercent="79.99999%" />
+</androidx.percentlayout.widget.PercentRelativeLayout>

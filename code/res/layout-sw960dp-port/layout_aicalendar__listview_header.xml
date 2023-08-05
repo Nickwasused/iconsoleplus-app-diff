@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="140.0dip" android:minHeight="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/pieChart" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:contentDescription="" />
+    <GridLayout android:id="@id/gridLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="4" android:columnCount="2" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/pieChart">
+        <FrameLayout android:id="@id/gItem1" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem2" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem3" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem4" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem5" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem6" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem7" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/gItem8" android:tag="gItem" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+            <include layout="@layout/layout_aicalendar_header_grid_item" />
+        </FrameLayout>
+    </GridLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="75.0dip" android:minHeight="75.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivIcon" android:layout_width="22.5dip" android:layout_height="22.5dip" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="34.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toEndOf="@id/ivIcon">
+        <TextView android:textSize="11.299988sp" android:textColor="#ff9b9b9b" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="13.5sp" android:textColor="#ff3d3d3d" android:id="@id/txvUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

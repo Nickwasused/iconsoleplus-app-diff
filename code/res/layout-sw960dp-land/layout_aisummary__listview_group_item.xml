@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffd1d1d1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <View android:id="@id/vBottom" android:background="#ffd1d1d1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <View android:id="@id/vDot" android:background="@drawable/shape_aisummary_color_dot" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/vDot" />
+    <ImageView android:id="@id/ivIndicator" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ai_training_arrow_right" android:scaleType="center" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="15.399994sp" android:textColor="#ffff541e" android:gravity="end" android:id="@id/txvWarn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

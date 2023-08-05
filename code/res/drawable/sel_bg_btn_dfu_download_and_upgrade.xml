@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/shape_bg_btn_dfu_download_and_upgrade_enabled" />
+    <item android:drawable="@drawable/shape_bg_btn_dfu_download_and_upgrade_disabled" />
+</selector>

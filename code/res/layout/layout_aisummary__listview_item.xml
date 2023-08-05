@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:layout_width="1.0dip" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_marginStart="58.0dip">
+        <View android:id="@id/vUp" android:background="#ffd1d1d1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:id="@id/vDown" android:background="#ffd1d1d1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="16.899994sp" android:textColor="#ff000000" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/layout1" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="end" android:id="@id/txvUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/txvValue" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="5.0dip" android:layout_marginEnd="22.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="end" android:id="@id/txvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_toStartOf="@id/txvUnit" />
+</RelativeLayout>

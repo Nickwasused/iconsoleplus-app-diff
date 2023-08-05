@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ff151b27" android:gravity="center_horizontal" android:id="@id/txv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/str_rwtutorial__prepare" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_bold" />
+    <TextView android:textSize="19.0sp" android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/str_rwtutorial__warm_up_before_start_nget_position_ready_for_wheel_nlet_s_go" android:layout_below="@id/txv1" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_light" />
+    <ImageView android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_abroller_pull_back" android:layout_above="@id/txv1" android:layout_centerHorizontal="true" />
+</RelativeLayout>

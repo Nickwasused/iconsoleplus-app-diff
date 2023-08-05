@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="240.0dip">
+        <TextView android:textSize="57.0sp" android:textColor="#ff888888" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_rest_hr__please_sit_and_rest_for" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="57.0sp" android:textColor="#ff888888" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="57.0sp" android:textColor="#ffff541e" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_rest_hr__one_minute" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="2.0dip" />
+        <TextView android:textSize="57.0sp" android:textColor="#ff888888" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." />
+    </LinearLayout>
+    <TextView android:textSize="57.0sp" android:textColor="#ff888888" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="390.0dip" android:text="@string/str_rest_hr__testing_desc" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" />
+    <Button android:textSize="72.0sp" android:textColor="@android:color/white" android:id="@id/btnStart" android:background="#ffea4c1b" android:layout_width="fill_parent" android:layout_height="180.0dip" android:text="@string/start" android:layout_alignParentBottom="true" android:textAllCaps="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+    <ImageView android:background="@android:color/transparent" android:layout_width="480.0dip" android:layout_height="480.0dip" android:layout_marginBottom="360.0dip" android:src="@drawable/img_resthr_chair" android:scaleType="fitCenter" android:layout_above="@id/btnStart" android:layout_centerHorizontal="true" />
+</RelativeLayout>

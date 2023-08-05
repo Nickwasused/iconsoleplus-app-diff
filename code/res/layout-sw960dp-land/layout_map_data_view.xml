@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:orientation="vertical" android:background="#00ffffff" android:layout_width="330.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" android:rowCount="2" android:columnCount="2" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutPos1" layout="@layout/layout_map_data_item" />
+    <include android:id="@id/layoutPos2" layout="@layout/layout_map_data_item" />
+    <include android:id="@id/layoutPos3" layout="@layout/layout_map_data_item" />
+    <include android:id="@id/layoutPos4" layout="@layout/layout_map_data_item" />
+</GridLayout>

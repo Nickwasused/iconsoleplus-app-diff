@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout android:id="@id/swipeLayout" android:layout_width="fill_parent" android:layout_height="240.0dip" android:minHeight="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/bottom_wrapper" android:background="#ffdd4248" android:layout_width="240.0dip" android:layout_height="fill_parent" android:weightSum="1.0">
+        <ImageView android:id="@id/btnDelete" android:layout_width="84.0dip" android:layout_height="84.0dip" android:src="@drawable/ic_slide_delete" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btnSelect" android:background="@drawable/selector_btn_selector" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/btnSelect">
+            <TextView android:textSize="40.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/txvDate" android:background="#ff9eaa5f" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="20200jfosijf" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="24.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_below="@id/txvDate">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvWorkoutType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivWorkoutModeIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_history_type" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvWorkoutMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:lines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/ivWorkoutModeIcon" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivRPEIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_delete" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvRPE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:lines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/ivRPEIcon" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivDurationIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_result_time" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:lines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/ivDurationIcon" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivDistanceIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_result_distance" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:lines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/ivDistanceIcon" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivCaloriesIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_result_calories" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+                        <TextView android:textSize="44.0sp" android:textColor="#ff979797" android:gravity="center_vertical" android:id="@id/txvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:lines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/ivCaloriesIcon" />
+                        <TextView android:textSize="30.0sp" android:textColor="#ff979797" android:gravity="start" android:id="@id/txvCaloriesUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/strCal" android:lines="1" android:layout_alignBottom="@id/txvCalories" android:layout_centerVertical="true" android:layout_toEndOf="@id/txvCalories" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="#ffc9c9c9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="140.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

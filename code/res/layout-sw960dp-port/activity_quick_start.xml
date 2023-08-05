@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="60.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/txvLap" android:layout_width="wrap_content" android:layout_height="108.0dip" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+    <RelativeLayout android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutInfoPane" android:layout_below="@id/txvLap">
+        <RelativeLayout android:id="@id/layoutCirclePane" android:layout_width="480.0dip" android:layout_height="480.0dip" android:layout_centerInParent="true">
+            <View android:background="@drawable/shape_bg_interval_circle_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.changyow.iconsole4th.view.CircleView2 android:id="@id/cvTimerCircle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="120.0sp" android:textColor="#ff000000" android:gravity="bottom" android:id="@id/txvTotalDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11.2" android:includeFontPadding="false" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinot_cond_medium" />w <TextView android:textSize="60.0sp" android:textColor="#ff000000" android:gravity="bottom" android:id="@id/txvUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strKm" android:layout_alignBottom="@id/txvTotalDistance" android:translationY="-16.0dip" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvTotalDistance" />
+            <ImageView android:id="@id/ivPlayGround" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/ic_playground" android:layout_below="@id/txvTotalDistance" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="56.0sp" android:textColor="#ffa0a0a0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="400 m" android:layout_alignBottom="@id/ivPlayGround" android:layout_centerHorizontal="true" android:translationY="6.0dip" android:fontFamily="@font/ff_dinot_cond_medium" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutSpeedInCircle" android:background="@drawable/shape_bg_interval_circle_red" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_alignBottom="@id/layoutCirclePane" android:translationX="-120.0dip" android:layout_toEndOf="@id/layoutCirclePane">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="36.0sp" android:textColor="#ff696969" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strSpeed" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+                <TextView android:textSize="66.0sp" android:textColor="#ff000000" android:id="@id/txvSpeedInCircle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutLevel" android:background="@drawable/shape_bg_interval_circle_red" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_alignTop="@id/layoutCirclePane" android:translationX="120.0dip" android:layout_toStartOf="@id/layoutCirclePane">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="36.0sp" android:textColor="#ff696969" android:id="@id/txvLevelTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strLevel" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+                <TextView android:textSize="66.0sp" android:textColor="#ff000000" android:id="@id/txvLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="1" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutInfoPane" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="500.0dip" android:layout_alignParentBottom="true">
+        <androidx.viewpager.widget.ViewPager android:id="@id/rvDataPager" android:layout_width="fill_parent" android:layout_height="450.0dip" />
+        <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="450.0dip" android:layout_centerHorizontal="true" app:ci_drawable="@drawable/drawable_pager_indicator_selected" app:ci_drawable_unselected="@drawable/drawable_pager_indicator_unselected" />
+        <ImageButton android:id="@id/btnPin" android:background="@null" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_margin="24.0dip" android:src="@drawable/selector_btn_push_pin" android:scaleType="fitXY" android:layout_alignBottom="@id/rvDataPager" android:onClick="pinBtnPressed" android:layout_alignEnd="@id/rvDataPager" android:elevation="6.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

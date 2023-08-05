@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="150.0dip" android:minHeight="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.changyow.iconsole4th.view.AltitudeView android:id="@id/viewAltitude" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

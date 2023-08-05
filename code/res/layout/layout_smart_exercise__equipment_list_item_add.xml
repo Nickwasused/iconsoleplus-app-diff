@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layoutRoot" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="100.0dip" android:minHeight="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" app:cardCornerRadius="3.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.5sp" android:textStyle="normal" android:textColor="#ff9b9b9b" android:gravity="center_horizontal" android:id="@id/txvTitle" android:layout_width="250.0dip" android:layout_height="wrap_content" android:text="@string/fitness_equipment_list__add_equipment" android:layout_centerInParent="true" android:fontFamily="@font/dinpro_regular" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_baseline_add_24" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="30.0dip" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

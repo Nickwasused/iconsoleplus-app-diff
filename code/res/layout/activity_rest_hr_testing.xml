@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textSize="24.799988sp" android:textColor="@android:color/white" android:id="@id/btnStop" android:background="@drawable/btn_rest_hr_test_stop_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/str_rest_hr__stop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btnStop">
+        <RelativeLayout android:id="@id/rlCountdownLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="80.0sp" android:textStyle="bold" android:id="@id/txvCountdonwBelow" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60" android:fontFamily="@font/ff_dinpro_bold" />
+            <TextView android:textSize="80.0sp" android:textStyle="bold" android:id="@id/txvCountdonwTop" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60" android:fontFamily="@font/ff_dinpro_bold" />
+            <TextView android:textSize="80.0sp" android:textStyle="bold" android:id="@id/txvCountdonw" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60" android:fontFamily="@font/ff_dinpro_bold" />
+        </RelativeLayout>
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_fileName="heartrate_curve_animation.json" app:lottie_loop="true" />
+    </RelativeLayout>
+</RelativeLayout>

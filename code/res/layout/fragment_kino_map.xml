@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fakeActionBar" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageButton android:id="@id/btnMenu" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/ic_menu" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="19.099976sp" android:textColor="#fffefefe" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kinomap" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+    </RelativeLayout>
+    <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fakeActionBar" />
+</RelativeLayout>

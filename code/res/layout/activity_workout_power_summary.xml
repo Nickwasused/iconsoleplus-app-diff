@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutChartPane" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_alignParentTop="true">
+        <androidx.viewpager.widget.ViewPager android:id="@id/rvChartPager" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="25.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="120.0dip" android:layout_centerHorizontal="true" app:ci_drawable="@drawable/drawable_pager_indicator_selected" app:ci_drawable_unselected="@drawable/drawable_pager_indicator_unselected" />
+        <View android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/txvDate" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="2018/10/25" android:layout_below="@id/layoutChartPane" android:fontFamily="@font/ff_dinpro_regular" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutBottomPane" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="44.0dip" android:paddingEnd="40.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_i_feel_" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff40c1b2" android:id="@id/txvRPE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strSomewhatEasy" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="5.0" android:paddingStart="44.0dip" android:paddingEnd="40.0dip">
+            <ImageButton android:id="@id/btnRPE1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_01" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE2" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_02" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE3" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_03" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE4" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_04" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnRPE5" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_rpe_05" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/shape_bg_workout_result_comment" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_margin="2.0dip">
+            <EditText android:gravity="center|left|top" android:id="@id/etComment" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:fontFamily="@font/ff_dinpro_regular" />
+        </FrameLayout>
+    </LinearLayout>
+    <ListView android:id="@id/listReports" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/layoutBottomPane" android:layout_below="@id/txvDate" />
+</RelativeLayout>

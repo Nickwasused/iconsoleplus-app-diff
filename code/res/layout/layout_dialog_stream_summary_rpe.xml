@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="#fff5f5f5" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="176.0dip">
+        <TextView android:textSize="16.5sp" android:textColor="#ff6b6b6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe_dialog_title" android:fontFamily="@font/ff_dinpro_bold" />
+        <SeekBar android:id="@id/seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:max="7" android:thumb="@drawable/shape_aiworkout_rpe_thumb" android:layout_alignParentBottom="true" android:progressBackgroundTint="@android:color/darker_gray" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe_dialog_easy" android:fontFamily="@font/ff_dinot_light" />
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe_dialog_hard" android:fontFamily="@font/ff_dinot_light" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe_dialog_normal" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_light" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/seekBar">
+            <TextView android:textSize="19.299988sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/lavCheck" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.5dip" android:layout_alignParentEnd="true" app:lottie_autoPlay="false" app:lottie_fileName="ai_training_rest_animation_loading.json" app:lottie_loop="true" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff3e3e3e" android:id="@id/txvRPEDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinot_cond_medium" android:layout_toStartOf="@id/lavCheck" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

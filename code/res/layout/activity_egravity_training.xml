@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutHrPanel" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/icon_workout_data_heart_rate_wh" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/txvHr" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:includeFontPadding="false" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="36.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="32.0dip" android:includeFontPadding="false" android:layout_alignBottom="@id/txvHr" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/txvHr" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="40.0dip">
+            <TextView android:textSize="13.5sp" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strHrZone" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="18.799988sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/txvHrZone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/ff_dinpro_regular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutDataPanel" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="4.0dip" android:layout_below="@id/layoutHrPanel">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <include android:id="@id/piece1" layout="@layout/layout_egravity_training_data_item" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutDataPanelRow1Column2" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <include android:id="@id/piece2" layout="@layout/layout_egravity_training_data_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutSetPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_below="@id/layoutDataPanel">
+        <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="19.0dip" android:text="@string/str_egravity_profile_edit__set" android:fontFamily="@font/dinpro_regular"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff3d3d3d" android:id="@id/txvCurrentSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="@font/dinpro_regular" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="22.5sp" android:textStyle="normal" android:textColor="#ff9b9b9b" android:id="@id/txvNextSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_regular" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/txvCurrentSet"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="22.5sp" android:textStyle="normal" android:textColor="#ffd8d8d8" android:id="@id/txvOneMoreNextSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/dinpro_regular" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/txvNextSet"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutRepsPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutInfoPanel" android:layout_below="@id/layoutSetPanel">
+        <com.changyow.iconsole4th.activity.retrainer.training.EGravityMotionView android:id="@id/viewProgressLeft" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="87.5sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvRepsLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="22.5sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/str_egravity_profile_edit__reps" android:layout_below="@id/txvRepsLeft" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutRepsRight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="87.5sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/txvRepsRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <TextView android:textSize="22.5sp" android:textStyle="normal" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/str_egravity_profile_edit__reps" android:layout_below="@id/txvRepsRight" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        </RelativeLayout>
+        <com.changyow.iconsole4th.activity.retrainer.training.EGravityMotionView android:id="@id/viewProgressRight" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutInfoPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_above="@id/layoutButtonPanel">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:layout_width="36.799988dip" android:layout_height="25.5dip" android:text="@string/str_general_power" android:layout_weight="0.5" android:fontFamily="@font/ff_dinot_cond"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="30.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:id="@id/txvPowerLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/ff_dinot_light"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="30.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:id="@id/txvPowerRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/ff_dinot_light"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ff6b6b6b" android:gravity="center_horizontal" android:layout_width="28.799988dip" android:layout_height="19.0dip" android:text="@string/strWatt" android:layout_weight="0.5" android:fontFamily="@font/ff_dinpro_regular"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:layout_width="36.799988dip" android:layout_height="25.5dip" android:text="@string/strSpeed" android:layout_weight="0.5" android:fontFamily="@font/ff_dinot_cond"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="30.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:id="@id/txvSpeedLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/ff_dinot_light"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="30.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:id="@id/txvSpeedRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/ff_dinot_light"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ff6b6b6b" android:gravity="center_horizontal" android:layout_width="28.799988dip" android:layout_height="19.0dip" android:text="@string/str_egravity__reps_minute" android:layout_weight="0.5" android:fontFamily="@font/ff_dinpro_regular"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layoutButtonPanel" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/btnSwitchMotor" android:background="@android:color/transparent" android:layout_width="66.0dip" android:layout_height="66.0dip" android:src="@drawable/sel_egravity__btn_motor_switch" android:scaleType="fitCenter" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+        <ImageButton android:id="@id/btnStopWorkout" android:background="@android:color/transparent" android:layout_width="66.0dip" android:layout_height="66.0dip" android:src="@drawable/selector_btn_stop_workout" android:scaleType="fitXY" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutRestPanel" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="132.0dip" android:layout_below="@id/layoutHrPanel" android:translationZ="10.0dip">
+        <TextView android:textSize="45.0sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:id="@id/txvTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="16.5sp" android:textStyle="normal" android:textColor="#ff3d3d3d" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="21.299988dip" android:layout_marginTop="10.0dip" android:layout_below="@id/txvTimer" android:fontFamily="@font/ff_dinpro_regular" />
+    </LinearLayout>
+</RelativeLayout>

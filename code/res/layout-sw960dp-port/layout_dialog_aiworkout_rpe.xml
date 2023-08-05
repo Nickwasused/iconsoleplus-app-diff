@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:background="#77ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_alignParentBottom="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavNote" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_margin="25.0dip" app:lottie_autoPlay="true" app:lottie_fileName="ai_training_rest_animation_yellow_notification_bell.json" app:lottie_loop="true" />
+        <TextView android:textSize="20.099976sp" android:textStyle="bold" android:textColor="#ff6b6b6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe_dialog_title" android:layout_alignBottom="@id/lavNote" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinpro_bold" />
+        <TextView android:textSize="18.899994sp" android:textColor="#ff6b6b6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="25.0dip" android:text="Make sure  select your real feeling after workout.This is for your AI receipts reference and tuning. " android:layout_below="@id/lavNote" android:fontFamily="@font/ff_dinpro_regular" />
+        <SeekBar android:id="@id/seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:max="8" android:thumb="@drawable/shape_aiworkout_rpe_thumb" android:layout_alignParentBottom="true" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" android:progressTint="@android:color/darker_gray" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip">
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Easy" android:fontFamily="@font/ff_dinot_light" />
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hard" android:fontFamily="@font/ff_dinot_light" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="12.5sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Normal" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_light" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/seekBar" android:layout_marginStart="25.0dip">
+            <TextView android:textSize="19.299988sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_aiworkout__rpe" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/lavCheck" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="25.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:lottie_autoPlay="true" app:lottie_fileName="ai_training_rest_animation_loading.json" app:lottie_loop="true" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff3e3e3e" android:id="@id/txvRPEDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/lavCheck" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

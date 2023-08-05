@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btnBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_left" />
+    <ImageButton android:id="@id/btnChangeMap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_select_map" android:layout_alignParentEnd="true" />
+    <ImageButton android:id="@id/btnDefaultRoute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_default_route" android:layout_toStartOf="@id/btnChangeMap" />
+    <TextView android:textSize="19.0sp" android:textColor="#fffefefe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapMyRoute" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_regular" />
+</RelativeLayout>

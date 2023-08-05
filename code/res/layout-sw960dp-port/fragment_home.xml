@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fakeActionBar" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <ImageButton android:id="@id/btnMenu" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/ic_menu" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ivLogo" android:layout_width="wrap_content" android:layout_height="150.0dip" android:src="@drawable/ic_logo_b" android:layout_centerInParent="true" />
+        <ImageButton android:id="@id/btnMessage" android:background="@null" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/selector_ic_message" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.gigamole.navigationtabstrip.NavigationTabStrip android:layout_gravity="center" android:id="@id/ntsTop" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_below="@id/fakeActionBar" app:nts_active_color="#ffffffff" app:nts_color="#ffffffff" app:nts_corners_radius="1.0dip" app:nts_inactive_color="#ffffffff" app:nts_size="45.0sp" app:nts_titles="@array/home_fragment_titles" app:nts_typeface="neue_plak_ext_reg.otf" app:nts_weight="4.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/vpContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ntsTop" />
+</RelativeLayout>

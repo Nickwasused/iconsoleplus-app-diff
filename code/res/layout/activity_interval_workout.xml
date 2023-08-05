@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/txvStage" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" android:text="@string/msg_setting_interval" android:layout_centerHorizontal="true" android:fontFamily="@font/ff_dinot_cond_medium" />
+    <RelativeLayout android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutSettingPane" android:layout_below="@id/txvStage">
+        <RelativeLayout android:id="@id/layoutCirclePane" android:layout_width="280.0dip" android:layout_height="280.0dip" android:layout_centerInParent="true">
+            <View android:background="@drawable/shape_bg_interval_circle_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.changyow.iconsole4th.view.CircleView2 android:id="@id/cvTimerCircle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="90.0sp" android:textColor="#ff000000" android:id="@id/txvTimer" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginTop="-15.0dip" android:text="13:00" android:includeFontPadding="false" android:layout_centerInParent="true" />
+            <TextView android:textSize="29.299988sp" android:textColor="#ff656565" android:id="@id/txvTimerTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strTotalTime" android:layout_above="@id/txvTimer" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff666666" android:id="@id/txvTotalTimeTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strTotalTime" android:layout_below="@id/txvTimer" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="30.0sp" android:textColor="#ff000000" android:id="@id/txvTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="13:23" android:layout_below="@id/txvTotalTimeTitle" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutSpeedInCircle" android:background="@drawable/shape_bg_interval_circle_red" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginBottom="-40.0dip" android:layout_alignBottom="@id/layoutCirclePane" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="19.099976sp" android:textColor="#ff696969" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_cycles" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+                <TextView android:textSize="56.299988sp" android:textColor="#ff000000" android:id="@id/txvCycles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="3" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutLevel" android:background="@drawable/shape_bg_interval_circle_red" android:visibility="invisible" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="-40.0dip" android:layout_alignTop="@id/layoutCirclePane" android:layout_marginStart="10.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="19.099976sp" android:textColor="#ff696969" android:id="@id/txvLevelTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strLevel" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+                <TextView android:textSize="56.299988sp" android:textColor="#ff000000" android:id="@id/txvLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="1" android:includeFontPadding="false" android:fontFamily="@font/ff_dinot_cond_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutSettingPane" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true">
+        <ListView android:id="@id/lvSettings" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <View android:id="@id/vSettingsBlocker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <Button android:textSize="30.0sp" android:textColor="#ffffffff" android:id="@id/btnGo" android:background="@color/AppTint" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/strGO" android:layout_below="@id/lvSettings" android:fontFamily="@font/ff_dinot_cond_medium" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutInfoPane" android:background="#ffffffff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true">
+        <androidx.viewpager.widget.ViewPager android:id="@id/rvDataPager" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+        <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="150.0dip" android:layout_centerHorizontal="true" app:ci_drawable="@drawable/drawable_pager_indicator_selected" app:ci_drawable_unselected="@drawable/drawable_pager_indicator_unselected" />
+        <ImageButton android:id="@id/btnPin" android:background="@null" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="8.0dip" android:src="@drawable/selector_btn_push_pin" android:scaleType="fitXY" android:layout_alignBottom="@id/rvDataPager" android:onClick="pinBtnPressed" android:layout_alignEnd="@id/rvDataPager" android:elevation="2.0dip" />
+    </RelativeLayout>
+    <com.wang.avi.AVLoadingIndicatorView android:id="@id/avLoadingIndicatorView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:indicatorColor="@color/AppTint" app:indicatorName="LineScalePulseOutRapidIndicator" />
+</RelativeLayout>

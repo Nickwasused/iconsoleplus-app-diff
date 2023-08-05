@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivAvatar" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_user_photo_b" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:riv_corner_radius="50.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="24.799988sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/txvUsername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/str_user_profile_name" android:layout_below="@id/ivAvatar" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/layoutGDPR" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="40.0dip" android:minHeight="48.0dip" android:layout_below="@id/txvUsername" android:layout_marginStart="33.0dip">
+        <TextView android:textSize="15.799988sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_privacy_ploicy" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ivPrivacyAgreementMark" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/sel_membership_warning_mark" android:scaleType="center" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/lvProfileList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/txv1" android:layout_below="@id/layoutGDPR" />
+    <TextView android:textSize="15.799988sp" android:textColor="#ff000000" android:id="@id/txv1" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="Connect" android:layout_above="@id/layoutConnect" android:paddingStart="32.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutConnect" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:id="@id/btnStrava" android:background="@drawable/sel_strava_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginBottom="8.0dip" />
+            <TextView android:textSize="15.799988sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Strava" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:id="@id/btnFitbit" android:background="@drawable/sel_fitbit_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginBottom="8.0dip" />
+            <TextView android:textSize="15.799988sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fitbit" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

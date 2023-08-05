@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivQrCodeImage" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_margin="50.0dip" />
+    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/str_barcode_scan__my_qr_code" android:fontFamily="@font/ff_dinpro_regular" />
+</LinearLayout>

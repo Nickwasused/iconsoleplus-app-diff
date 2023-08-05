@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="125.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar1" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar2" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar3" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar4" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar5" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar6" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar7" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar8" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar9" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.changyow.iconsole4th.view.VerticalSeekbar android:id="@id/seekBar10" android:layout_width="30.0dip" android:layout_height="125.0dip" android:max="100" android:progressTint="@color/AppTint" android:min="0" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

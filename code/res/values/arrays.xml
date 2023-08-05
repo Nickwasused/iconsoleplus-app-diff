@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ai_training_times">
+        <item>0:00</item>
+        <item>0:30</item>
+        <item>1:00</item>
+        <item>1:30</item>
+        <item>2:00</item>
+        <item>2:30</item>
+        <item>3:00</item>
+        <item>3:30</item>
+        <item>4:00</item>
+        <item>4:30</item>
+        <item>5:00</item>
+        <item>5:30</item>
+        <item>6:00</item>
+        <item>6:30</item>
+        <item>7:00</item>
+        <item>7:30</item>
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+        <item>22:30</item>
+        <item>23:00</item>
+        <item>23:30</item>
+    </string-array>
+    <string-array name="ai_training_weekdays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="china_route_list">
+        <item>二砂岛沿江路沿线，南京 [7.5km]</item>
+        <item>世紀公园, 上海 [13.1km]</item>
+        <item>南湖公园, 长春 [22.4km]</item>
+        <item>翠湖公园, 昆明 [4.0km]</item>
+        <item>环玄武湖, 南京 [17.9km]</item>
+        <item>九寨沟， 四川 [3.3km]</item>
+        <item>三清山， 江西 [7km]</item>
+        <item>大雁塔, 西安 [1.4km]</item>
+        <item>广州电视塔， 广州 [7.0km]</item>
+        <item>中山陵， 南京 [2.2km]</item>
+        <item>乌镇西栅， 桐乡 [1.3km]</item>
+        <item>凤凰古城， 湘西 [1.5km]</item>
+        <item>双廊镇, 洱海畔，大理 [8.9km]</item>
+        <item>太平山顶， 香港 [2.8km]</item>
+        <item>北海公园， 北京 [3.6km]</item>
+        <item>外滩, 上海 [3.6km]</item>
+        <item>布达拉宫， 西藏 [3.7km]</item>
+        <item>平江湖, 苏州 [1.6km]</item>
+        <item>长白山天池， 吉林 [7.2km]</item>
+        <item>亚龙湾， 三亚 [3.7km]</item>
+        <item>华山, 陕西 [2.2km]</item>
+        <item>后海， 北京[2.7km]</item>
+        <item>老外滩滨江， 宁波 [2.8km]</item>
+        <item>灵隐寺， 杭州 [5.4km]</item>
+        <item>武汉长江大桥 [6.0km]</item>
+        <item>武康大厦, 上海 [2.5km]</item>
+        <item>泸沽湖, 云南 [1.3km]</item>
+        <item>环岛， 澳门 [8.1km]</item>
+        <item>苍山洱海畔， 大理 [5.8km]</item>
+        <item>苏堤, 西湖, 杭州 [2.6km]</item>
+        <item>金鸡湖, 苏州 [4.0km]</item>
+        <item>故宫中轴线, 北京 [1.4km]</item>
+        <item>柳浪闻莺, 西湖, 杭州 [1.8km]</item>
+        <item>香山公园， 北京[3.2km]</item>
+        <item>圆明园, 福海湖畔, 北京 [1.9km]</item>
+        <item>宽窄巷子, 成都 [1.0km]</item>
+        <item>峨眉山， 四川 [5.4km]</item>
+        <item>崂山国家公园， 青岛 [5.7km]</item>
+        <item>泰山， 山东 [2.6km]</item>
+        <item>情侣路， 珠海 [3km]</item>
+        <item>淮海路， 上海 [3.3km]</item>
+        <item>莫干山， 德清 [5.1km]</item>
+        <item>莲花山公园， 深圳 [3.2km]</item>
+        <item>滨江大道, 上海 [6.3km]</item>
+        <item>颐和园, 昆明湖畔, 北京 [3.4km]</item>
+        <item>鼓浪屿, 厦门 [8.7km]</item>
+        <item>嘉陵江畔， 重庆 [6.6km]</item>
+        <item>福田CBD， 深圳 [9.2km]</item>
+        <item>赛里木湖， 新疆 [8.2km]</item>
+        <item>橘子洲， 湖南[3.4km]</item>
+    </string-array>
+    <string-array name="country_code_list">
+        <item>AD</item>
+        <item>AE</item>
+        <item>AF</item>
+        <item>AG</item>
+        <item>AI</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AO</item>
+        <item>AQ</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AT</item>
+        <item>AU</item>
+        <item>AW</item>
+        <item>AX</item>
+        <item>AZ</item>
+        <item>BA</item>
+        <item>BB</item>
+        <item>BD</item>
+        <item>BE</item>
+        <item>BF</item>
+        <item>BG</item>
+        <item>BH</item>
+        <item>BI</item>
+        <item>BJ</item>
+        <item>BL</item>
+        <item>BM</item>
+        <item>BN</item>
+        <item>BO</item>
+        <item>BQ</item>
+        <item>BR</item>
+        <item>BS</item>
+        <item>BT</item>
+        <item>BV</item>
+        <item>BW</item>
+        <item>BY</item>
+        <item>BZ</item>
+        <item>CA</item>
+        <item>CC</item>
+        <item>CD</item>
+        <item>CF</item>
+        <item>CG</item>
+        <item>CH</item>
+        <item>CI</item>
+        <item>CK</item>
+        <item>CL</item>
+        <item>CM</item>
+        <item>CN</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>CU</item>
+        <item>CV</item>
+        <item>CW</item>
+        <item>CX</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>DJ</item>
+        <item>DK</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>DZ</item>
+        <item>EC</item>
+        <item>EE</item>
+        <item>EG</item>
+        <item>EH</item>
+        <item>ER</item>
+        <item>ES</item>
+        <item>ET</item>
+        <item>FI</item>
+        <item>FJ</item>
+        <item>FK</item>
+        <item>FM</item>
+        <item>FO</item>
+        <item>FR</item>
+        <item>GA</item>
+        <item>GB</item>
+        <item>GD</item>
+        <item>GE</item>
+        <item>GF</item>
+        <item>GG</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GL</item>
+        <item>GM</item>
+        <item>GN</item>
+        <item>GP</item>
+        <item>GQ</item>
+        <item>GR</item>
+        <item>GS</item>
+        <item>GT</item>
+        <item>GU</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HK</item>
+        <item>HM</item>
+        <item>HN</item>
+        <item>HR</item>
+        <item>HT</item>
+        <item>HU</item>
+        <item>ID</item>
+        <item>IE</item>
+        <item>IL</item>
+        <item>IM</item>
+        <item>IN</item>
+        <item>IO</item>
+        <item>IQ</item>
+        <item>IR</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>JE</item>
+        <item>JM</item>
+        <item>JO</item>
+        <item>JP</item>
+        <item>KE</item>
+        <item>KG</item>
+        <item>KH</item>
+        <item>KI</item>
+        <item>KM</item>
+        <item>KN</item>
+        <item>KP</item>
+        <item>KR</item>
+        <item>KW</item>
+        <item>KY</item>
+        <item>KZ</item>
+        <item>LA</item>
+        <item>LB</item>
+        <item>LC</item>
+        <item>LI</item>
+        <item>LK</item>
+        <item>LR</item>
+        <item>LS</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>LV</item>
+        <item>LY</item>
+        <item>MA</item>
+        <item>MC</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MF</item>
+        <item>MG</item>
+        <item>MH</item>
+        <item>MK</item>
+        <item>ML</item>
+        <item>MM</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MP</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>MU</item>
+        <item>MV</item>
+        <item>MW</item>
+        <item>MX</item>
+        <item>MY</item>
+        <item>MZ</item>
+        <item>NA</item>
+        <item>NC</item>
+        <item>NE</item>
+        <item>NF</item>
+        <item>NG</item>
+        <item>NI</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>NP</item>
+        <item>NR</item>
+        <item>NU</item>
+        <item>NZ</item>
+        <item>OM</item>
+        <item>PA</item>
+        <item>PE</item>
+        <item>PF</item>
+        <item>PG</item>
+        <item>PH</item>
+        <item>PK</item>
+        <item>PL</item>
+        <item>PM</item>
+        <item>PN</item>
+        <item>PR</item>
+        <item>PS</item>
+        <item>PT</item>
+        <item>PW</item>
+        <item>PY</item>
+        <item>QA</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>SA</item>
+        <item>SB</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>SE</item>
+        <item>SG</item>
+        <item>SH</item>
+        <item>SI</item>
+        <item>SJ</item>
+        <item>SK</item>
+        <item>SL</item>
+        <item>SM</item>
+        <item>SN</item>
+        <item>SO</item>
+        <item>SR</item>
+        <item>SS</item>
+        <item>ST</item>
+        <item>SV</item>
+        <item>SX</item>
+        <item>SY</item>
+        <item>SZ</item>
+        <item>TC</item>
+        <item>TD</item>
+        <item>TF</item>
+        <item>TG</item>
+        <item>TH</item>
+        <item>TJ</item>
+        <item>TK</item>
+        <item>TL</item>
+        <item>TM</item>
+        <item>TN</item>
+        <item>TO</item>
+        <item>TR</item>
+        <item>TT</item>
+        <item>TV</item>
+        <item>TW</item>
+        <item>TZ</item>
+        <item>UA</item>
+        <item>UG</item>
+        <item>UM</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VA</item>
+        <item>VC</item>
+        <item>VE</item>
+        <item>VG</item>
+        <item>VI</item>
+        <item>VN</item>
+        <item>VU</item>
+        <item>WF</item>
+        <item>WS</item>
+        <item>YE</item>
+        <item>YT</item>
+        <item>ZA</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+    <string-array name="country_name_list">
+        <item>Andorra</item>
+        <item>United Arab Emirates</item>
+        <item>Afghanistan</item>
+        <item>Antigua and Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>American Samoa</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <item>Åland Islands</item>
+        <item>Azerbaijan</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgium</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaria</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>Saint Barthélemy</item>
+        <item>Bermuda</item>
+        <item>Brunei Darussalam</item>
+        <item>Bolivia, Plurinational State of</item>
+        <item>Bonaire, Sint Eustatius and Saba</item>
+        <item>Brazil</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Bouvet Island</item>
+        <item>Botswana</item>
+        <item>Belarus</item>
+        <item>Belize</item>
+        <item>Canada</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Congo, the Democratic Republic of the</item>
+        <item>Central African Republic</item>
+        <item>Congo</item>
+        <item>Switzerland</item>
+        <item>"Côte d'Ivoire"</item>
+        <item>Cook Islands</item>
+        <item>Chile</item>
+        <item>Cameroon</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Cabo Verde</item>
+        <item>Curaçao</item>
+        <item>Christmas Island</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Germany</item>
+        <item>Djibouti</item>
+        <item>Denmark</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Algeria</item>
+        <item>Ecuador</item>
+        <item>Estonia</item>
+        <item>Egypt</item>
+        <item>Western Sahara</item>
+        <item>Eritrea</item>
+        <item>Spain</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>Fiji</item>
+        <item>Falkland Islands (Malvinas)</item>
+        <item>Micronesia, Federated States of</item>
+        <item>Faroe Islands</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>United Kingdom</item>
+        <item>Grenada</item>
+        <item>Georgia</item>
+        <item>French Guiana</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greenland</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Equatorial Guinea</item>
+        <item>Greece</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hong Kong</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Croatia</item>
+        <item>Haiti</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Isle of Man</item>
+        <item>India</item>
+        <item>British Indian Ocean Territory</item>
+        <item>Iraq</item>
+        <item>Iran, Islamic Republic of</item>
+        <item>Iceland</item>
+        <item>Italy</item>
+        <item>Jersey</item>
+        <item>Jamaica</item>
+        <item>Jordan</item>
+        <item>Japan</item>
+        <item>Kenya</item>
+        <item>Kyrgyzstan</item>
+        <item>Cambodia</item>
+        <item>Kiribati</item>
+        <item>Comoros</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>"Korea (the Democratic People's Republic of)"</item>
+        <item>Korea (the Republic of)</item>
+        <item>Kuwait</item>
+        <item>Cayman Islands</item>
+        <item>Kazakhstan</item>
+        <item>"Lao People's Democratic Republic"</item>
+        <item>Lebanon</item>
+        <item>Saint Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Latvia</item>
+        <item>Libya</item>
+        <item>Morocco</item>
+        <item>Monaco</item>
+        <item>Moldova, Republic of</item>
+        <item>Montenegro</item>
+        <item>Saint Martin (French part)</item>
+        <item>Madagascar</item>
+        <item>Marshall Islands</item>
+        <item>Macedonia, the former Yugoslav Republic of</item>
+        <item>Mali</item>
+        <item>Myanmar</item>
+        <item>Mongolia</item>
+        <item>Macao</item>
+        <item>Northern Mariana Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldives</item>
+        <item>Malawi</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>New Caledonia</item>
+        <item>Niger</item>
+        <item>Norfolk Island</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>New Zealand</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>French Polynesia</item>
+        <item>Papua New Guinea</item>
+        <item>Philippines</item>
+        <item>Pakistan</item>
+        <item>Poland</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Pitcairn</item>
+        <item>Puerto Rico</item>
+        <item>Palestine, State of</item>
+        <item>Portugal</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saudi Arabia</item>
+        <item>Solomon Islands</item>
+        <item>Seychelles</item>
+        <item>Sudan</item>
+        <item>Sweden</item>
+        <item>Singapore</item>
+        <item>Saint Helena, Ascension and Tristan da Cunha</item>
+        <item>Slovenia</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Slovakia</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Suriname</item>
+        <item>South Sudan</item>
+        <item>Sao Tome and Principe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten (Dutch part)</item>
+        <item>Syrian Arab Republic</item>
+        <item>Swaziland</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Chad</item>
+        <item>French Southern Territories</item>
+        <item>Togo</item>
+        <item>Thailand</item>
+        <item>Tajikistan</item>
+        <item>Tokelau</item>
+        <item>Timor-Leste</item>
+        <item>Turkmenistan</item>
+        <item>Tunisia</item>
+        <item>Tonga</item>
+        <item>Turkey</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tanzania, United Republic of</item>
+        <item>Ukraine</item>
+        <item>Uganda</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Holy See (Vatican City State)</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Venezuela, Bolivarian Republic of</item>
+        <item>Virgin Islands, British</item>
+        <item>Virgin Islands, U.S.</item>
+        <item>Viet Nam</item>
+        <item>Vanuatu</item>
+        <item>Wallis and Futuna</item>
+        <item>Samoa</item>
+        <item>Yemen</item>
+        <item>Mayotte</item>
+        <item>South Africa</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="global_route_list">
+        <item>"Arthur's Seat, Edinburgh, UK [3.6km]"</item>
+        <item>Athens, Greece [2km]</item>
+        <item>Barcelona, Spain [5.2km]</item>
+        <item>Berlin, Germany [6.4km]</item>
+        <item>Big Ben, London, UK [14.3km]</item>
+        <item>Brooklyn, USA [3.6km]</item>
+        <item>Brussels, Belgium [3.6km]</item>
+        <item>Budapest, Hungary [6.3km]</item>
+        <item>Cambridge, England [6.9km]</item>
+        <item>Cape Town, South Africa [8.5km]</item>
+        <item>Cardiff, Wales [4km]</item>
+        <item>Central Park, New York, USA [7.2km]</item>
+        <item>Central, Amsterdam, the Netherlands [3.7km]</item>
+        <item>Century Park, Shanghai, China [6.6km]</item>
+        <item>Chicago, USA [8.6km]</item>
+        <item>Colloseum, Rome, Italy [2.7km]</item>
+        <item>"Colosseo - St. Peter's, Rome &amp; Vatican [5.3km]"</item>
+        <item>Dublin, Ireland [7.8km]</item>
+        <item>Edinburgh, Scotland [8.4km]</item>
+        <item>Eiffel tower, Paris, France [4.0km]</item>
+        <item>Englischen Garten, Munich, German [8.2km]</item>
+        <item>Festung Hohen, Salzburg, Austria [2.0km]</item>
+        <item>Florence, Tuscany, Italy [10.8km]</item>
+        <item>Florida, USA [7.8km]</item>
+        <item>Forbidden City, Beijing, China [1.4km]</item>
+        <item>Foz do Douro, Porto, Portugal [2.4km]</item>
+        <item>Geneva, Switzerland [5km]</item>
+        <item>Golden Gate Bridge, San Francisco, USA, [5.1km]</item>
+        <item>Granada, AL, Spain [6.2km]</item>
+        <item>Helsinki, Finland [2.8km]</item>
+        <item>Hollywood Hills, Los Angeles, USA [3.6km]</item>
+        <item>Hyde Park, London, England [6.5km]</item>
+        <item>Kiyomizu temple, kyoto, Japan [1.5km]</item>
+        <item>Las Vegas, USA [4.6km]</item>
+        <item>Lisbon, Portugal, [7.6km]</item>
+        <item>Loir et Cher, Centre, France [15.0km]</item>
+        <item>Madrid, Spain [3.7km]</item>
+        <item>Margaret Island, Budapest, Hungary [4.7km]</item>
+        <item>Marrakesh, Morocco [6.8km]</item>
+        <item>Mexico City, Mexico [3.9km]</item>
+        <item>Miami Beach, Miami, USA [5.1km]</item>
+        <item>Milan, Italy, [3.2km]</item>
+        <item>Monaco [3.3km]</item>
+        <item>Ponte Luis I, Porto, Portugal [1.3km]</item>
+        <item>Ponte Vecchio, Florence, Italy [2.2km]</item>
+        <item>Prague, Czech Republic [3.5km]</item>
+        <item>Pyramids of Giza, Cairo, Egypt [6km]</item>
+        <item>Reykjavik, Iceland [5km]</item>
+        <item>Rio de Janeiro, Brazil [3.2km]</item>
+        <item>Riverside promenade, Shanghai, China [6.3km]</item>
+        <item>Seattle, USA [7km]</item>
+        <item>Sitges, Spain [1.7km]</item>
+        <item>Stokholm, Sweden [7.4km]</item>
+        <item>Summer palace, Beijing, China [3.4km]</item>
+        <item>Sydney, Australia [2.6km]</item>
+        <item>Syvota, Greece [3.8km]</item>
+        <item>Tagus riverside, Lisboa, Portugal [3.7km]</item>
+        <item>Taj Mahal, India [3.4km]</item>
+        <item>The bund, Shanghai, China [3.6km]</item>
+        <item>The Lakes, Minnesota, USA [4.8km]</item>
+        <item>Tokyo yutaichang, Japan [3.0km]</item>
+        <item>Valletta, Malta [2.7km]</item>
+        <item>Venice Beach, Los Angeles, USA [8.1km]</item>
+        <item>Vienna, Austria [5.5km]</item>
+        <item>VondelPark, Amsterdam, Netherlands, [5.1km]</item>
+        <item>Washington D.C, USA [5km]</item>
+        <item>West Vlaanderen, Vlaams Gewest, Belgium [5.9km]</item>
+        <item>Zagreb, Croatia [7km]</item>
+    </string-array>
+    <string-array name="home_fragment_titles">
+        <item>@string/strTitleMyTraining</item>
+        <item>@string/strTitleGetStarted</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:minHeight="70.0dip" android:layout_weight="1.0">
+        <include android:id="@id/layoutDataPiece1" layout="@layout/layout_stream_training_data_piece" />
+        <include android:id="@id/layoutDataPiece2" layout="@layout/layout_stream_training_data_piece" />
+        <include android:id="@id/layoutDataPiece3" layout="@layout/layout_stream_training_data_piece" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:minHeight="70.0dip" android:layout_weight="1.0">
+        <include android:id="@id/layoutDataPiece4" layout="@layout/layout_stream_training_data_piece" />
+        <include android:id="@id/layoutDataPiece5" layout="@layout/layout_stream_training_data_piece" />
+        <include android:id="@id/layoutDataPiece6" layout="@layout/layout_stream_training_data_piece" />
+    </LinearLayout>
+</LinearLayout>

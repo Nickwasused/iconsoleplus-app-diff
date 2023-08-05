@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/layout1" android:background="#aaffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btnStartWorkout" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_btn_start_workout" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/btnStopWorkout" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_btn_stop_workout" android:layout_centerVertical="true" android:layout_marginEnd="50.0dip" android:layout_toStartOf="@id/btnStartWorkout" />
+</RelativeLayout>

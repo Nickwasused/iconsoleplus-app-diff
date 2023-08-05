@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="140.0dip" android:minHeight="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="40.0sp" android:textColor="@android:color/darker_gray" android:id="@id/txvConnection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Units" android:layout_centerVertical="true" android:fontFamily="@font/ff_dinpro_regular" android:layout_marginEnd="40.0dip" android:layout_alignParentEnd="true" />
+    <View android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="40.0dip">
+        <TextView android:textSize="40.0sp" android:textColor="#ff000000" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Units" android:fontFamily="@font/ff_dinpro_regular" />
+        <TextView android:textSize="38.0sp" android:textColor="#ff848484" android:id="@id/txvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Metric" android:fontFamily="@font/ff_dinpro_regular" />
+    </LinearLayout>
+</RelativeLayout>

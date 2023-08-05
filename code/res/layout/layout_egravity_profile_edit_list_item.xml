@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/layoutRoot" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="42.0dip" android:minWidth="360.0dip" android:minHeight="42.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff3d3d3d" android:gravity="center" android:id="@id/txvSet" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_regular" />
+    <EditText android:textSize="14.0sp" android:textColor="#ff3d3d3d" android:gravity="center" android:id="@id/etReps" android:background="@drawable/shane_egravity_proflie_edit__edittext_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:selectAllOnFocus="true" android:maxLength="2" android:layout_weight="1.5" android:inputType="number" android:fontFamily="@font/ff_dinpro_regular" />
+    <EditText android:textSize="14.0sp" android:textColor="#ff3d3d3d" android:gravity="center" android:id="@id/etWeight1" android:background="@drawable/shane_egravity_proflie_edit__edittext_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:layout_weight="2.0" android:inputType="numberDecimal" android:fontFamily="@font/ff_dinpro_regular" />
+    <ImageButton android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <EditText android:textSize="14.0sp" android:textColor="@color/sel_egravity_profile_edit_weight2_color" android:gravity="center" android:id="@id/etWeight2" android:background="@drawable/shane_egravity_proflie_edit__edittext_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:layout_weight="2.0" android:inputType="numberDecimal" android:fontFamily="@font/ff_dinpro_regular" />
+    <ImageButton android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageButton android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

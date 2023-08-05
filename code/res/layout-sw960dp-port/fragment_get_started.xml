@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0">
+        <RelativeLayout android:id="@id/rlQuickstart" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_quick_start" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_quick_start" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strQuickStart" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strQuickStartDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlInterval" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_interval" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_internal" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strInterval" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strIntervalDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlRoute" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_map_my_route" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_iroute" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapMyRoute" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strMapYourRouteDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlConstantPower" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_constant_power" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_constantpower" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitleConstantPower" android:textAllCaps="true" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strConstantPowerDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlPrograms" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_default_program" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_default_program" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitlePrograms" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strProgramsDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlAiTraining" android:background="@drawable/bg_ai_training" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:minHeight="420.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_ai_training" android:scaleType="centerCrop" android:minHeight="420.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mainpage_ai_training" />
+                <TextView android:textSize="75.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPageTitleAiTraining" android:fontFamily="@font/ff_neue_plak_extra" />
+                <TextView android:textSize="42.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strAiTrainingDesc" android:fontFamily="@font/ff_neue_plak" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

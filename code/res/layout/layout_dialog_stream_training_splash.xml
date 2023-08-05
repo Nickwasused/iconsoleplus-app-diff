@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#d9000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/txvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerInParent="true" android:fontFamily="@font/ff_dinpro_bold" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" />
+    <TextView android:textSize="14.5sp" android:textColor="@android:color/white" android:id="@id/txvNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NEXT" android:includeFontPadding="false" android:layout_above="@id/txvTitle" android:translationY="5.0dip" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" android:layout_alignStart="@id/txvTitle" />
+    <View android:background="@color/AppTint" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_above="@id/txvNext" android:layout_alignStart="@id/txvTitle" />
+    <View android:background="@color/AppTint" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/txvTitle" android:layout_alignEnd="@id/txvTitle" />
+</RelativeLayout>

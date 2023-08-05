@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contentBackground">#ff212121</color>
+    <color name="grey_200">#ff777777</color>
+    <color name="grey_400">#ffcccccc</color>
+    <color name="grey_500">#ffe0e0e0</color>
+    <color name="textColor">#ffffffff</color>
+    <color name="textField">#ff424242</color>
+</resources>

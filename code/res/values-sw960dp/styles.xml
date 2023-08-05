@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberPickerDialog" parent="@style/Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/NumberPickerDialogTitle</item>
+    </style>
+    <style name="NumberPickerDialogTitle" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:textSize">32.0sp</item>
+    </style>
+    <style name="NumberPickerText">
+        <item name="android:textSize">44.0sp</item>
+    </style>
+</resources>

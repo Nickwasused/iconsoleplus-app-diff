@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/tutorial_map_my_route_03" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:id="@id/txv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="200.0dip" android:text="@string/str_tur_route_p2_1" android:fontFamily="@font/ff_dinpro_bold" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lavAnimation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="anim_map_zoomin_zoomout.json" app:lottie_loop="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivVideoPreview" android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_margin="10.0dip" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="19.5sp" android:textStyle="bold" android:textColor="#ff3d3d3d" android:gravity="center_vertical" android:id="@id/txvVideoTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Get fit" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_bold" />
+        <TextView android:textSize="19.5sp" android:textStyle="bold" android:textColor="#ff3d3d3d" android:gravity="end" android:id="@id/txvLengthInMin" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="14 min" android:layout_weight="1.0" android:fontFamily="@font/ff_dinpro_bold" />
+    </LinearLayout>
+    <TextView android:textSize="16.5sp" android:textColor="#ff5d5d5d" android:id="@id/txvVideoBrief" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="14 min" android:fontFamily="@font/ff_dinot_light" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

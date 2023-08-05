@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/tutorial_start_up_04" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="220.0dip" android:text="@string/str_tur_startup_p3_1" android:fontFamily="@font/ff_dinpro_bold" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <TextView android:textSize="16.5sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:text="@string/str_tur_startup_p3_2" android:layout_alignParentBottom="true" android:fontFamily="@font/ff_dinpro_bold" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</RelativeLayout>
