@@ -499,7 +499,7 @@
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -514,7 +514,7 @@
 
     move-result-object p0
 
-    const-string p1, "valueOf(this)"
+    const-string/jumbo p1, "valueOf(this)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

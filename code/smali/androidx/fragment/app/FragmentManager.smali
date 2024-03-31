@@ -8885,7 +8885,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "show: "
+    const-string/jumbo v1, "show: "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -8955,9 +8955,9 @@
     .line 1213
     iget-object v1, p0, Landroidx/fragment/app/FragmentManager;->mParent:Landroidx/fragment/app/Fragment;
 
-    const-string v2, "}"
+    const-string/jumbo v2, "}"
 
-    const-string v3, "{"
+    const-string/jumbo v3, "{"
 
     if-eqz v1, :cond_0
 
@@ -9040,7 +9040,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_0
-    const-string v1, "}}"
+    const-string/jumbo v1, "}}"
 
     .line 1228
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

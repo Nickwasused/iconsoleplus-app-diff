@@ -60,7 +60,7 @@
 
     const-string v1, "from"
 
-    const-string v2, "to"
+    const-string/jumbo v2, "to"
 
     const-string v3, "pathMotionArc"
 
@@ -68,11 +68,11 @@
 
     const-string v5, "motionInterpolator"
 
-    const-string v6, "staggered"
+    const-string/jumbo v6, "staggered"
 
     const-string v7, "from"
 
-    const-string v8, "transitionFlags"
+    const-string/jumbo v8, "transitionFlags"
 
     .line 733
     filled-new-array/range {v0 .. v8}, [Ljava/lang/String;

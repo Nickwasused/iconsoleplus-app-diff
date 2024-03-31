@@ -515,7 +515,7 @@
     goto/16 :goto_1
 
     :sswitch_0
-    const-string v0, "triggerReceiver"
+    const-string/jumbo v0, "triggerReceiver"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -547,7 +547,7 @@
     goto/16 :goto_1
 
     :sswitch_2
-    const-string v0, "viewTransitionOnCross"
+    const-string/jumbo v0, "viewTransitionOnCross"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -563,7 +563,7 @@
     goto/16 :goto_1
 
     :sswitch_3
-    const-string v0, "triggerSlack"
+    const-string/jumbo v0, "triggerSlack"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -579,7 +579,7 @@
     goto :goto_1
 
     :sswitch_4
-    const-string v0, "viewTransitionOnNegativeCross"
+    const-string/jumbo v0, "viewTransitionOnNegativeCross"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -595,7 +595,7 @@
     goto :goto_1
 
     :sswitch_5
-    const-string v0, "triggerCollisionView"
+    const-string/jumbo v0, "triggerCollisionView"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -627,7 +627,7 @@
     goto :goto_1
 
     :sswitch_7
-    const-string v0, "triggerID"
+    const-string/jumbo v0, "triggerID"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -643,7 +643,7 @@
     goto :goto_1
 
     :sswitch_8
-    const-string v0, "triggerCollisionId"
+    const-string/jumbo v0, "triggerCollisionId"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -659,7 +659,7 @@
     goto :goto_1
 
     :sswitch_9
-    const-string v0, "viewTransitionOnPositiveCross"
+    const-string/jumbo v0, "viewTransitionOnPositiveCross"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -683,7 +683,7 @@
 
     if-nez p1, :cond_a
 
-    goto :goto_0
+    goto/16 :goto_0
 
     :cond_a
     const/4 p1, 0x0
@@ -747,8 +747,6 @@
     const/16 p1, 0x135
 
     return p1
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

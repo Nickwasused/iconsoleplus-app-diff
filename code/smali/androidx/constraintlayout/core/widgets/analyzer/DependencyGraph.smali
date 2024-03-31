@@ -1973,7 +1973,7 @@
     .line 894
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "subgraph "
+    const-string/jumbo v2, "subgraph "
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2072,7 +2072,7 @@
     goto :goto_1
 
     :cond_2
-    const-string p1, "}\n"
+    const-string/jumbo p1, "}\n"
 
     .line 914
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -3105,7 +3105,7 @@
 
     if-ne v3, v7, :cond_8
 
-    const-string v3, "style=\"dashed\""
+    const-string/jumbo v3, "style=\"dashed\""
 
     .line 857
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

@@ -18,39 +18,39 @@
 
 .field public static final action_divider:I = 0x7f0a0048
 
-.field public static final cancel_action:I = 0x7f0a00ed
+.field public static final cancel_action:I = 0x7f0a00ea
 
-.field public static final chronometer:I = 0x7f0a0102
+.field public static final chronometer:I = 0x7f0a00ff
 
-.field public static final end_padder:I = 0x7f0a0166
+.field public static final end_padder:I = 0x7f0a0163
 
-.field public static final icon:I = 0x7f0a01f4
+.field public static final icon:I = 0x7f0a01f0
 
-.field public static final info:I = 0x7f0a0205
+.field public static final info:I = 0x7f0a0201
 
-.field public static final line1:I = 0x7f0a02b0
+.field public static final line1:I = 0x7f0a02ac
 
-.field public static final line3:I = 0x7f0a02b1
+.field public static final line3:I = 0x7f0a02ad
 
-.field public static final media_actions:I = 0x7f0a02e9
+.field public static final media_actions:I = 0x7f0a02e5
 
-.field public static final media_controller_compat_view_tag:I = 0x7f0a02ea
+.field public static final media_controller_compat_view_tag:I = 0x7f0a02e6
 
-.field public static final notification_main_column:I = 0x7f0a035c
+.field public static final notification_main_column:I = 0x7f0a0358
 
-.field public static final notification_main_column_container:I = 0x7f0a035d
+.field public static final notification_main_column_container:I = 0x7f0a0359
 
-.field public static final right_side:I = 0x7f0a03b4
+.field public static final right_side:I = 0x7f0a03b0
 
-.field public static final status_bar_latest_event_content:I = 0x7f0a043c
+.field public static final status_bar_latest_event_content:I = 0x7f0a0437
 
-.field public static final text:I = 0x7f0a045f
+.field public static final text:I = 0x7f0a045a
 
-.field public static final text2:I = 0x7f0a0461
+.field public static final text2:I = 0x7f0a045c
 
-.field public static final time:I = 0x7f0a0475
+.field public static final time:I = 0x7f0a0470
 
-.field public static final title:I = 0x7f0a047c
+.field public static final title:I = 0x7f0a0477
 
 
 # direct methods

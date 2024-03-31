@@ -95,7 +95,7 @@
     :cond_0
     iget-object p2, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$layoutChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/ProducerScope;
 
-    const-string p3, "v"
+    const-string/jumbo p3, "v"
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

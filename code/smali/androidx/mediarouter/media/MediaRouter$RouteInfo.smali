@@ -870,7 +870,7 @@
 
     const-string v1, "default_audio_route_name"
 
-    const-string v2, "string"
+    const-string/jumbo v2, "string"
 
     const-string v3, "android"
 

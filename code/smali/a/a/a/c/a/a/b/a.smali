@@ -54,7 +54,7 @@
 .method private a(Landroid/content/Context;)I
     .locals 1
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     .line 45
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

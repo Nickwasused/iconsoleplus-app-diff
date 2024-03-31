@@ -107,7 +107,7 @@
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_2
-    const-string p0, "unknown"
+    const-string/jumbo p0, "unknown"
 
     return-object p0
 .end method

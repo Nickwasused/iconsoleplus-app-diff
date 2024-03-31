@@ -68,7 +68,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string v0, "viewModelStore"
+    const-string/jumbo v0, "viewModelStore"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

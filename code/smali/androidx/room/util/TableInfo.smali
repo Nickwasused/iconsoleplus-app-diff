@@ -226,7 +226,7 @@
 
     move-result v0
 
-    const-string v1, "type"
+    const-string/jumbo v1, "type"
 
     .line 248
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -365,7 +365,7 @@
 
     move-result v2
 
-    const-string v3, "to"
+    const-string/jumbo v3, "to"
 
     .line 222
     invoke-interface {p0, v3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -490,7 +490,7 @@
 
     move-result v3
 
-    const-string v4, "table"
+    const-string/jumbo v4, "table"
 
     .line 183
     invoke-interface {v1, v4}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -895,7 +895,7 @@
 
     move-result v1
 
-    const-string v2, "unique"
+    const-string/jumbo v2, "unique"
 
     .line 279
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I

@@ -78,7 +78,7 @@
 
     invoke-direct {p1, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string p2, "vnd.android.cursor.dir/contact"
+    const-string/jumbo p2, "vnd.android.cursor.dir/contact"
 
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 

@@ -58,7 +58,7 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    const-string v0, "transitionEasing"
+    const-string/jumbo v0, "transitionEasing"
 
     const-string v1, "drawPath"
 
@@ -66,7 +66,7 @@
 
     const-string v3, "percentHeight"
 
-    const-string v4, "sizePercent"
+    const-string/jumbo v4, "sizePercent"
 
     const-string v5, "percentX"
 

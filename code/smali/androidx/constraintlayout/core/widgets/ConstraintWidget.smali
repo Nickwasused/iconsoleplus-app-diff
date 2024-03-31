@@ -3646,7 +3646,7 @@
 
     int-to-float p2, p3
 
-    const-string p3, "size"
+    const-string/jumbo p3, "size"
 
     const/high16 p6, -0x31000000
 
@@ -3692,7 +3692,7 @@
     .line 647
     invoke-direct {p0, p1, p3, p2, p4}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->serializeAttribute(Ljava/lang/StringBuilder;Ljava/lang/String;FF)V
 
-    const-string p2, "},\n"
+    const-string/jumbo p2, "},\n"
 
     .line 648
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -10029,7 +10029,7 @@
 .method public serialize(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
     .locals 11
 
-    const-string v0, "{\n"
+    const-string/jumbo v0, "{\n"
 
     .line 652
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -10044,7 +10044,7 @@
     .line 654
     iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mTop:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
 
-    const-string v1, "top"
+    const-string/jumbo v1, "top"
 
     invoke-direct {p0, p1, v1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->serializeAnchor(Ljava/lang/StringBuilder;Ljava/lang/String;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)V
 
@@ -10113,7 +10113,7 @@
 
     aget v10, v0, v1
 
-    const-string v2, "width"
+    const-string/jumbo v2, "width"
 
     move-object v0, p0
 
@@ -10175,11 +10175,11 @@
 
     sget v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->DEFAULT_BIAS:F
 
-    const-string v2, "verticalBias"
+    const-string/jumbo v2, "verticalBias"
 
     invoke-direct {p0, p1, v2, v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->serializeAttribute(Ljava/lang/StringBuilder;Ljava/lang/String;FF)V
 
-    const-string v0, "}\n"
+    const-string/jumbo v0, "}\n"
 
     .line 686
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -11899,7 +11899,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "type: "
+    const-string/jumbo v4, "type: "
 
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

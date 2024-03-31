@@ -351,7 +351,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v7, "source: "
+    const-string/jumbo v7, "source: "
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -466,7 +466,7 @@
 
     move-result p1
 
-    const-string v1, "video/avc"
+    const-string/jumbo v1, "video/avc"
 
     .line 255
     invoke-static {v1, v0, p1}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
@@ -829,7 +829,7 @@
     .line 385
     invoke-virtual {p0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    const-string p0, "startRecording"
+    const-string/jumbo p0, "startRecording"
 
     return-object p0
 .end method
@@ -2052,7 +2052,7 @@
 
     :cond_0
     :try_start_0
-    const-string v0, "video/avc"
+    const-string/jumbo v0, "video/avc"
 
     .line 324
     invoke-static {v0}, Landroid/media/MediaCodec;->createEncoderByType(Ljava/lang/String;)Landroid/media/MediaCodec;
@@ -2350,7 +2350,7 @@
     :cond_0
     const-string v0, "VideoCapture"
 
-    const-string v1, "startRecording"
+    const-string/jumbo v1, "startRecording"
 
     .line 353
     invoke-static {v0, v1}, Landroidx/camera/core/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V
@@ -2485,7 +2485,7 @@
     :try_start_1
     const-string v2, "VideoCapture"
 
-    const-string v3, "videoEncoder start"
+    const-string/jumbo v3, "videoEncoder start"
 
     .line 406
     invoke-static {v2, v3}, Landroidx/camera/core/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V
@@ -2717,7 +2717,7 @@
     :cond_0
     const-string v0, "VideoCapture"
 
-    const-string v1, "stopRecording"
+    const-string/jumbo v1, "stopRecording"
 
     .line 473
     invoke-static {v0, v1}, Landroidx/camera/core/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V
@@ -2903,7 +2903,7 @@
     :try_start_1
     const-string p3, "VideoCapture"
 
-    const-string v3, "videoEncoder stop"
+    const-string/jumbo v3, "videoEncoder stop"
 
     .line 774
     invoke-static {p3, v3}, Landroidx/camera/core/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V

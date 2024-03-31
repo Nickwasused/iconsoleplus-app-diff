@@ -41,7 +41,7 @@
 .method public static add(Landroid/view/View;Ljava/lang/Runnable;)Landroidx/core/view/OneShotPreDrawListener;
     .locals 1
 
-    const-string v0, "view == null"
+    const-string/jumbo v0, "view == null"
 
     .line 59
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

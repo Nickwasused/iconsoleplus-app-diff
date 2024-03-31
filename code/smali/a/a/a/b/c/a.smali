@@ -89,7 +89,7 @@
     .line 4
     new-instance v5, La/a/a/b/c/a;
 
-    const-string v7, "up_key"
+    const-string/jumbo v7, "up_key"
 
     const/4 v8, 0x3
 

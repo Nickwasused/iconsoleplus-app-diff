@@ -285,7 +285,7 @@
 .method static synthetic lambda$getInterpolator$1(F)F
     .locals 3
 
-    const-string v0, "standard"
+    const-string/jumbo v0, "standard"
 
     .line 391
     invoke-static {v0}, Landroidx/constraintlayout/core/motion/utils/Easing;->getInterpolator(Ljava/lang/String;)Landroidx/constraintlayout/core/motion/utils/Easing;
@@ -411,7 +411,7 @@
 .method static synthetic lambda$getInterpolator$7(F)F
     .locals 3
 
-    const-string v0, "spline(0.0, 0.2, 0.4, 0.6, 0.8 ,1.0, 0.8, 1.0, 0.9, 1.0)"
+    const-string/jumbo v0, "spline(0.0, 0.2, 0.4, 0.6, 0.8 ,1.0, 0.8, 1.0, 0.9, 1.0)"
 
     .line 403
     invoke-static {v0}, Landroidx/constraintlayout/core/motion/utils/Easing;->getInterpolator(Ljava/lang/String;)Landroidx/constraintlayout/core/motion/utils/Easing;

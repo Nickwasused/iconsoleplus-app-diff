@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    const-string v0, "transferableTitle"
+    const-string/jumbo v0, "transferableTitle"
 
     .line 1003
     invoke-virtual {p2, v0, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V

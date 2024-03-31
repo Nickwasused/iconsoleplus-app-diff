@@ -104,15 +104,15 @@
 
     const-string v0, "curveFit"
 
-    const-string v1, "visibility"
+    const-string/jumbo v1, "visibility"
 
     const-string v2, "alpha"
 
-    const-string v3, "translationX"
+    const-string/jumbo v3, "translationX"
 
-    const-string v4, "translationY"
+    const-string/jumbo v4, "translationY"
 
-    const-string v5, "translationZ"
+    const-string/jumbo v5, "translationZ"
 
     const-string v6, "elevation"
 
@@ -140,7 +140,7 @@
 
     const-string v18, "frame"
 
-    const-string v19, "target"
+    const-string/jumbo v19, "target"
 
     const-string v20, "pivotTarget"
 

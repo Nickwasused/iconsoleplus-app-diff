@@ -787,7 +787,7 @@
     .line 268
     check-cast p1, Landroid/os/Bundle;
 
-    const-string v0, "super"
+    const-string/jumbo v0, "super"
 
     .line 269
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -809,7 +809,7 @@
 
     invoke-virtual {p0, v0}, Landroidx/camera/view/CameraView;->setScaleType(Landroidx/camera/view/PreviewView$ScaleType;)V
 
-    const-string v0, "zoom_ratio"
+    const-string/jumbo v0, "zoom_ratio"
 
     .line 271
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
@@ -926,7 +926,7 @@
 
     move-result-object v1
 
-    const-string v2, "super"
+    const-string/jumbo v2, "super"
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
@@ -948,7 +948,7 @@
 
     move-result v1
 
-    const-string v2, "zoom_ratio"
+    const-string/jumbo v2, "zoom_ratio"
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 

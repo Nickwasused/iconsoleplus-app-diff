@@ -101,7 +101,7 @@
     return v3
 
     :cond_2
-    const-string p1, "vnd.android.document/directory"
+    const-string/jumbo p1, "vnd.android.document/directory"
 
     .line 127
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -304,7 +304,7 @@
 
     move-result-object p0
 
-    const-string p1, "vnd.android.document/directory"
+    const-string/jumbo p1, "vnd.android.document/directory"
 
     .line 60
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -327,7 +327,7 @@
 
     move-result-object p0
 
-    const-string p1, "vnd.android.document/directory"
+    const-string/jumbo p1, "vnd.android.document/directory"
 
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -344,7 +344,7 @@
 
     move-result-object p0
 
-    const-string p1, "vnd.android.document/directory"
+    const-string/jumbo p1, "vnd.android.document/directory"
 
     .line 77
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

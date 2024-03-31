@@ -39,7 +39,7 @@
 
     if-ge v0, v1, :cond_0
 
-    const-string v0, "sys.display-size"
+    const-string/jumbo v0, "sys.display-size"
 
     .line 192
     invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
@@ -49,7 +49,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v0, "vendor.display-size"
+    const-string/jumbo v0, "vendor.display-size"
 
     .line 193
     invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
@@ -324,7 +324,7 @@
 .method private static isTv(Landroid/content/Context;)Z
     .locals 1
 
-    const-string v0, "uimode"
+    const-string/jumbo v0, "uimode"
 
     .line 146
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -368,7 +368,7 @@
 
     move-result-object p0
 
-    const-string v0, "x"
+    const-string/jumbo v0, "x"
 
     const/4 v1, -0x1
 

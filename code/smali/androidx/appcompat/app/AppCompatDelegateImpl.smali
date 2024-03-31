@@ -2697,7 +2697,7 @@
     :cond_3
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mContext:Landroid/content/Context;
 
-    const-string v3, "window"
+    const-string/jumbo v3, "window"
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -4354,7 +4354,7 @@
     :cond_0
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mContext:Landroid/content/Context;
 
-    const-string v1, "window"
+    const-string/jumbo v1, "window"
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -5407,7 +5407,7 @@
 
     move-result-object p2
 
-    const-string v0, "uimode"
+    const-string/jumbo v0, "uimode"
 
     .line 2438
     invoke-virtual {p2, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

@@ -112,7 +112,7 @@
     :cond_2
     if-ne p5, p1, :cond_3
 
-    const-string p1, "wait_for_request"
+    const-string/jumbo p1, "wait_for_request"
 
     .line 248
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z

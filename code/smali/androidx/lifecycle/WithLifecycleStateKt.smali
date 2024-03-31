@@ -1637,7 +1637,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1799,7 +1799,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1954,7 +1954,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2116,7 +2116,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

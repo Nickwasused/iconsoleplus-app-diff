@@ -345,7 +345,7 @@
     goto/16 :goto_2
 
     :cond_5
-    const-string v5, "slide"
+    const-string/jumbo v5, "slide"
 
     .line 139
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -478,7 +478,7 @@
     goto/16 :goto_2
 
     :cond_c
-    const-string v5, "transitionSet"
+    const-string/jumbo v5, "transitionSet"
 
     .line 153
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -497,7 +497,7 @@
     goto :goto_2
 
     :cond_d
-    const-string v5, "transition"
+    const-string/jumbo v5, "transition"
 
     .line 155
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -518,7 +518,7 @@
     goto :goto_2
 
     :cond_e
-    const-string v5, "targets"
+    const-string/jumbo v5, "targets"
 
     .line 157
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -746,7 +746,7 @@
 
     move-result-object v2
 
-    const-string v3, "transitionManager"
+    const-string/jumbo v3, "transitionManager"
 
     .line 300
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -763,7 +763,7 @@
     goto :goto_0
 
     :cond_2
-    const-string v3, "transition"
+    const-string/jumbo v3, "transition"
 
     .line 302
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -867,7 +867,7 @@
 
     move-result-object v1
 
-    const-string v5, "target"
+    const-string/jumbo v5, "target"
 
     .line 240
     invoke-virtual {v1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -885,7 +885,7 @@
 
     move-result-object v1
 
-    const-string v5, "targetId"
+    const-string/jumbo v5, "targetId"
 
     const/4 v6, 0x0
 
@@ -919,7 +919,7 @@
     :cond_3
     const/4 v4, 0x4
 
-    const-string v5, "targetName"
+    const-string/jumbo v5, "targetName"
 
     .line 250
     invoke-static {v1, p1, v5, v4}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
@@ -972,7 +972,7 @@
     goto :goto_1
 
     :cond_6
-    const-string v3, "targetClass"
+    const-string/jumbo v3, "targetClass"
 
     .line 263
     invoke-static {v1, p1, v3, v6}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
@@ -996,7 +996,7 @@
     :goto_1
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
-    goto :goto_0
+    goto/16 :goto_0
 
     :catch_0
     move-exception p1
@@ -1072,7 +1072,7 @@
 
     move-result-object p1
 
-    const-string v0, "transition"
+    const-string/jumbo v0, "transition"
 
     const/4 v1, 0x2
 
@@ -1111,7 +1111,7 @@
     :goto_0
     const/4 v4, 0x1
 
-    const-string v5, "toScene"
+    const-string/jumbo v5, "toScene"
 
     .line 323
     invoke-static {p1, p2, v5, v4, v2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I

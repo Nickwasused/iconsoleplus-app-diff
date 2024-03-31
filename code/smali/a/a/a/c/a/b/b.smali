@@ -269,7 +269,7 @@
 
     invoke-virtual {v2, p0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const-string p0, "\u63a5\u6536\u7aef\u4e0d\u5728\u7ebf"
+    const-string/jumbo p0, "\u63a5\u6536\u7aef\u4e0d\u5728\u7ebf"
 
     .line 42
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -298,7 +298,7 @@
 
     invoke-direct {p0, p1}, Landroid/widget/Toast;-><init>(Landroid/content/Context;)V
 
-    const-string v1, "window"
+    const-string/jumbo v1, "window"
 
     .line 56
     invoke-virtual {p1, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

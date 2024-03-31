@@ -67,7 +67,7 @@
 .method public constructor <init>(Landroidx/window/layout/WindowInfoTracker;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    const-string v0, "windowInfoTracker"
+    const-string/jumbo v0, "windowInfoTracker"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -281,7 +281,7 @@
     :cond_3
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    const-string v0, "when[State] methods should have a parent job"
+    const-string/jumbo v0, "when[State] methods should have a parent job"
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

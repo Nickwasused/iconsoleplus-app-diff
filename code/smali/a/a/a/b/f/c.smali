@@ -215,7 +215,7 @@
     .line 6
     invoke-virtual {v5, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "srcvers"
+    const-string/jumbo v0, "srcvers"
 
     const-string v1, "220.68"
 
@@ -229,7 +229,7 @@
     .line 8
     invoke-virtual {v5, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "vv"
+    const-string/jumbo v0, "vv"
 
     const-string v1, "2"
 
@@ -312,7 +312,7 @@
 
     const-string v0, "da"
 
-    const-string v2, "true"
+    const-string/jumbo v2, "true"
 
     .line 5
     invoke-virtual {v7, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -331,7 +331,7 @@
     .line 7
     invoke-virtual {v7, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "vv"
+    const-string/jumbo v0, "vv"
 
     .line 8
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -364,57 +364,57 @@
     .line 13
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "sm"
+    const-string/jumbo v0, "sm"
 
     .line 14
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "sr"
+    const-string/jumbo v0, "sr"
 
     const-string v3, "44100"
 
     .line 15
     invoke-virtual {v7, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "ss"
+    const-string/jumbo v0, "ss"
 
     const-string v3, "16"
 
     .line 16
     invoke-virtual {v7, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "sv"
+    const-string/jumbo v0, "sv"
 
     .line 17
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "tp"
+    const-string/jumbo v0, "tp"
 
     const-string v1, "UDP"
 
     .line 18
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "txtvers"
+    const-string/jumbo v0, "txtvers"
 
     .line 19
     invoke-virtual {v7, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "sf"
+    const-string/jumbo v0, "sf"
 
     const-string v1, "0x4"
 
     .line 20
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "vs"
+    const-string/jumbo v0, "vs"
 
     const-string v1, "220.68"
 
     .line 21
     invoke-virtual {v7, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "vn"
+    const-string/jumbo v0, "vn"
 
     const-string v1, "3"
 
@@ -534,7 +534,7 @@
 
     move-result-object v0
 
-    const-string v1, "type"
+    const-string/jumbo v1, "type"
 
     invoke-virtual {v7, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -545,7 +545,7 @@
 
     move-result-object v1
 
-    const-string v2, "vertical"
+    const-string/jumbo v2, "vertical"
 
     invoke-virtual {v7, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

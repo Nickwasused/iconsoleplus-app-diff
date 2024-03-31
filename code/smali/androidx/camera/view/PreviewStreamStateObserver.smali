@@ -297,7 +297,7 @@
     .line 188
     invoke-interface {p1, p2, v0}, Landroidx/camera/core/impl/CameraInfoInternal;->addSessionCaptureCallback(Ljava/util/concurrent/Executor;Landroidx/camera/core/impl/CameraCaptureCallback;)V
 
-    const-string p1, "waitForCaptureResult"
+    const-string/jumbo p1, "waitForCaptureResult"
 
     return-object p1
 .end method

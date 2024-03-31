@@ -592,7 +592,7 @@
 
     const-string v0, "CommandClient"
 
-    const-string v1, "start() called"
+    const-string/jumbo v1, "start() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
@@ -836,7 +836,7 @@
 
     const-string v0, "CommandClient"
 
-    const-string v1, "stop() "
+    const-string/jumbo v1, "stop() "
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
@@ -894,7 +894,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v3, "stop() Exception "
+    const-string/jumbo v3, "stop() Exception "
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

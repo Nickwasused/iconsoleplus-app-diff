@@ -855,7 +855,7 @@
         }
     .end annotation
 
-    const-string v0, "setValue"
+    const-string/jumbo v0, "setValue"
 
     .line 306
     invoke-static {v0}, Landroidx/lifecycle/LiveData;->assertMainThread(Ljava/lang/String;)V

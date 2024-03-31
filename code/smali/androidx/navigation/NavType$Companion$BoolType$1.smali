@@ -112,11 +112,11 @@
 .method public parseValue(Ljava/lang/String;)Ljava/lang/Boolean;
     .locals 1
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "true"
+    const-string/jumbo v0, "true"
 
     .line 462
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z

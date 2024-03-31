@@ -56,7 +56,7 @@
 
     const-string v1, "color"
 
-    const-string v2, "string"
+    const-string/jumbo v2, "string"
 
     const-string v3, "boolean"
 

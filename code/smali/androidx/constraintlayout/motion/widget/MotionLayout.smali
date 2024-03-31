@@ -4233,7 +4233,7 @@
 
     if-ne v1, v4, :cond_5
 
-    const-string v1, "undefined"
+    const-string/jumbo v1, "undefined"
 
     goto :goto_2
 
@@ -6306,7 +6306,7 @@
         }
     .end annotation
 
-    const-string v0, "unable to parse MotionScene file"
+    const-string/jumbo v0, "unable to parse MotionScene file"
 
     const/4 v1, 0x0
 

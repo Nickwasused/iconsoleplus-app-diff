@@ -500,7 +500,7 @@
 .method private static setCounterFallback(Ljava/lang/String;I)V
     .locals 9
 
-    const-string v0, "traceCounter"
+    const-string/jumbo v0, "traceCounter"
 
     .line 211
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I

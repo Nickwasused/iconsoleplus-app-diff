@@ -40,7 +40,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p1, "unknown"
+    const-string/jumbo p1, "unknown"
 
     .line 29
     iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLParsingException;->mElementClass:Ljava/lang/String;

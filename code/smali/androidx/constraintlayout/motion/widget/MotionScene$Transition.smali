@@ -674,7 +674,7 @@
     .line 934
     sget v6, Landroidx/constraintlayout/widget/R$styleable;->Transition_constraintSetEnd:I
 
-    const-string v7, "xml"
+    const-string/jumbo v7, "xml"
 
     const-string v8, "layout"
 

@@ -736,11 +736,11 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string v0, "violatingFragment"
+    const-string/jumbo v0, "violatingFragment"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "targetFragment"
+    const-string/jumbo v0, "targetFragment"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1075,7 +1075,7 @@
 .method public final onPolicyViolation(Landroidx/fragment/app/strictmode/Violation;)V
     .locals 3
 
-    const-string v0, "violation"
+    const-string/jumbo v0, "violation"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

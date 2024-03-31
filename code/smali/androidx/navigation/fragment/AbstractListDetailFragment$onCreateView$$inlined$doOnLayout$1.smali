@@ -77,7 +77,7 @@
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
 
-    const-string p2, "view"
+    const-string/jumbo p2, "view"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 

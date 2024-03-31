@@ -1450,7 +1450,7 @@
     .line 2895
     sget p2, Landroidx/core/R$id;->chronometer:I
 
-    const-string p3, "setStarted"
+    const-string/jumbo p3, "setStarted"
 
     invoke-virtual {v7, p2, p3, v8}, Landroid/widget/RemoteViews;->setBoolean(ILjava/lang/String;Z)V
 
@@ -1493,7 +1493,7 @@
 
     move-result-wide v0
 
-    const-string p3, "setTime"
+    const-string/jumbo p3, "setTime"
 
     invoke-virtual {v7, p2, p3, v0, v1}, Landroid/widget/RemoteViews;->setLong(ILjava/lang/String;J)V
 

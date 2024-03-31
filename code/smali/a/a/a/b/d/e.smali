@@ -157,7 +157,7 @@
     goto :goto_0
 
     :catch_0
-    const-string v0, "startChecker: ex"
+    const-string/jumbo v0, "startChecker: ex"
 
     .line 17
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I

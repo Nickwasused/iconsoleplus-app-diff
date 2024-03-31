@@ -208,7 +208,7 @@
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    const-string v1, "unknown"
+    const-string/jumbo v1, "unknown"
 
     if-nez v0, :cond_0
 
@@ -632,7 +632,7 @@
 .method public static b(Landroid/content/Context;)Ljava/lang/String;
     .locals 7
 
-    const-string v0, "wifi"
+    const-string/jumbo v0, "wifi"
 
     .line 38
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -699,7 +699,7 @@
     :goto_1
     if-eqz v1, :cond_4
 
-    const-string v4, "unknown ssid"
+    const-string/jumbo v4, "unknown ssid"
 
     .line 55
     invoke-virtual {v1, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -802,7 +802,7 @@
     :cond_7
     if-nez v1, :cond_8
 
-    const-string p0, "unknown"
+    const-string/jumbo p0, "unknown"
 
     goto :goto_2
 
@@ -1056,7 +1056,7 @@
 .method public static c(Landroid/content/Context;)Z
     .locals 5
 
-    const-string v0, "wifi"
+    const-string/jumbo v0, "wifi"
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1303,7 +1303,7 @@
 
     move-result-object v8
 
-    const-string v9, "wlan0"
+    const-string/jumbo v9, "wlan0"
 
     invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1450,7 +1450,7 @@
 .method public static d(Landroid/content/Context;)Z
     .locals 7
 
-    const-string v0, "wifi"
+    const-string/jumbo v0, "wifi"
 
     .line 58
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1563,7 +1563,7 @@
 .method public static e()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "wlan"
+    const-string/jumbo v0, "wlan"
 
     .line 7
     invoke-static {v0}, La/a/a/b/g/g;->b(Ljava/lang/String;)Ljava/lang/String;
@@ -1788,7 +1788,7 @@
     invoke-virtual {v0}, Ljava/net/SocketException;->printStackTrace()V
 
     :cond_2
-    const-string v0, "unknown"
+    const-string/jumbo v0, "unknown"
 
     return-object v0
 .end method
@@ -1977,7 +1977,7 @@
 
     move-result-object v6
 
-    const-string v7, "wlan0"
+    const-string/jumbo v7, "wlan0"
 
     invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

@@ -522,7 +522,7 @@
 .method public onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    const-string p2, "view"
+    const-string/jumbo p2, "view"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -556,7 +556,7 @@
 .method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

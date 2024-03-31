@@ -1018,7 +1018,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v0, "the root navigation"
+    const-string/jumbo v0, "the root navigation"
 
     :goto_0
     return-object v0
@@ -1398,7 +1398,7 @@
 .method public final setStartDestination(Ljava/lang/String;)V
     .locals 1
 
-    const-string v0, "startDestRoute"
+    const-string/jumbo v0, "startDestRoute"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1486,7 +1486,7 @@
     goto :goto_0
 
     :cond_3
-    const-string v2, "{"
+    const-string/jumbo v2, "{"
 
     .line 373
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1498,7 +1498,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v1, "}"
+    const-string/jumbo v1, "}"
 
     .line 375
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

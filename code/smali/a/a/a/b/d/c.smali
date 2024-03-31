@@ -628,7 +628,7 @@
 
     const-string v0, "CommandProcessor"
 
-    const-string v1, "stop() called"
+    const-string/jumbo v1, "stop() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I

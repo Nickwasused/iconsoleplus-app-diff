@@ -72,7 +72,7 @@
 
     const-string v2, "autoCompleteToEnd"
 
-    const-string v3, "stop"
+    const-string/jumbo v3, "stop"
 
     const-string v4, "decelerate"
 
@@ -106,7 +106,7 @@
 
     const-string v0, "continuousVelocity"
 
-    const-string v1, "spring"
+    const-string/jumbo v1, "spring"
 
     .line 829
     filled-new-array {v0, v1}, [Ljava/lang/String;
@@ -121,7 +121,7 @@
 
     const-string v2, "disableScroll"
 
-    const-string v3, "supportScrollUp"
+    const-string/jumbo v3, "supportScrollUp"
 
     .line 834
     filled-new-array {v0, v1, v2, v3}, [Ljava/lang/String;

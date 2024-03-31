@@ -3962,7 +3962,7 @@
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v2, "yyyy:MM:dd HH:mm:ss"
+    const-string/jumbo v2, "yyyy:MM:dd HH:mm:ss"
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -3982,7 +3982,7 @@
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v2, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v2, "yyyy-MM-dd HH:mm:ss"
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -5322,7 +5322,7 @@
 .method private getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
     .locals 2
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 4099
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -5396,7 +5396,7 @@
         }
     .end annotation
 
-    const-string v0, "yes"
+    const-string/jumbo v0, "yes"
 
     .line 5821
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -5743,7 +5743,7 @@
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v3, "x"
+    const-string/jumbo v3, "x"
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -8503,7 +8503,7 @@
 
     if-eq v5, v6, :cond_2
 
-    const-string v1, "stripOffsets and stripByteCounts should have same length."
+    const-string/jumbo v1, "stripOffsets and stripByteCounts should have same length."
 
     .line 7142
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -8706,7 +8706,7 @@
 
     :cond_9
     :goto_2
-    const-string v1, "stripByteCounts should not be null or have zero length."
+    const-string/jumbo v1, "stripByteCounts should not be null or have zero length."
 
     .line 7138
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -8715,7 +8715,7 @@
 
     :cond_a
     :goto_3
-    const-string v1, "stripOffsets should not be null or have zero length."
+    const-string/jumbo v1, "stripOffsets should not be null or have zero length."
 
     .line 7134
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -10715,7 +10715,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v6, "tagName: "
+    const-string/jumbo v6, "tagName: "
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -15428,7 +15428,7 @@
 .method public getAttribute(Ljava/lang/String;)Ljava/lang/String;
     .locals 5
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 4129
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -15665,7 +15665,7 @@
 .method public getAttributeBytes(Ljava/lang/String;)[B
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 5001
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -15691,7 +15691,7 @@
 .method public getAttributeDouble(Ljava/lang/String;D)D
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 4196
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -15725,7 +15725,7 @@
 .method public getAttributeInt(Ljava/lang/String;I)I
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 4172
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -15759,7 +15759,7 @@
 .method public getAttributeRange(Ljava/lang/String;)[J
     .locals 4
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
     .line 4976
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -17143,9 +17143,9 @@
     const/4 v1, 0x0
 
     :try_start_0
-    const-string v2, "temp"
+    const-string/jumbo v2, "temp"
 
-    const-string v3, "tmp"
+    const-string/jumbo v3, "tmp"
 
     .line 4704
     invoke-static {v2, v3}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
@@ -17738,7 +17738,7 @@
 
     move-object/from16 v2, p2
 
-    const-string v3, "tag shouldn\'t be null"
+    const-string/jumbo v3, "tag shouldn\'t be null"
 
     .line 4219
     invoke-static {v1, v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -18774,6 +18774,8 @@
 
     :cond_1b
     return-void
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1

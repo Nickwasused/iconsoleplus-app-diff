@@ -83,7 +83,7 @@
     .line 230
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    const-string v0, "validateMigration is deprecated"
+    const-string/jumbo v0, "validateMigration is deprecated"
 
     invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 

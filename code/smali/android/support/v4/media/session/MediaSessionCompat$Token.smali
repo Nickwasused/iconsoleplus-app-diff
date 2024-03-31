@@ -260,7 +260,7 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    const-string p1, "token is not a valid MediaSession.Token object"
+    const-string/jumbo p1, "token is not a valid MediaSession.Token object"
 
     invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

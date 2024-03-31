@@ -583,7 +583,7 @@
 
     if-eqz v6, :cond_0
 
-    const-string p1, "showDialog(): Route chooser dialog already showing!"
+    const-string/jumbo p1, "showDialog(): Route chooser dialog already showing!"
 
     .line 354
     invoke-static {v3, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -633,7 +633,7 @@
 
     if-eqz v6, :cond_3
 
-    const-string p1, "showDialog(): Route controller dialog already showing!"
+    const-string/jumbo p1, "showDialog(): Route controller dialog already showing!"
 
     .line 370
     invoke-static {v3, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I

@@ -32,7 +32,7 @@
     goto/16 :goto_1
 
     :sswitch_0
-    const-string v0, "visibility"
+    const-string/jumbo v0, "visibility"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -176,7 +176,7 @@
     goto :goto_1
 
     :sswitch_9
-    const-string v0, "translationZ"
+    const-string/jumbo v0, "translationZ"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -192,7 +192,7 @@
     goto :goto_1
 
     :sswitch_a
-    const-string v0, "translationY"
+    const-string/jumbo v0, "translationY"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -208,7 +208,7 @@
     goto :goto_1
 
     :sswitch_b
-    const-string v0, "translationX"
+    const-string/jumbo v0, "translationX"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

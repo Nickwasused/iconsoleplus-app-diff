@@ -81,7 +81,7 @@
 .method public final addSharedElement(Landroid/view/View;Ljava/lang/String;)Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
     .locals 1
 
-    const-string v0, "sharedElement"
+    const-string/jumbo v0, "sharedElement"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    const-string v0, "sharedElements"
+    const-string/jumbo v0, "sharedElements"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

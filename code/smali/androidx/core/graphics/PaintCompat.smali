@@ -87,7 +87,7 @@
     return v1
 
     :cond_1
-    const-string v3, "\udb3f\udffd"
+    const-string/jumbo v3, "\udb3f\udffd"
 
     .line 61
     invoke-virtual {p0, v3}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F

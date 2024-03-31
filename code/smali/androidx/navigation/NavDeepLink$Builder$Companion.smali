@@ -145,7 +145,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string v0, "uriPattern"
+    const-string/jumbo v0, "uriPattern"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

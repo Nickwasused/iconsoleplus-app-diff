@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const-string v1, "viewModelStore"
+    const-string/jumbo v1, "viewModelStore"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

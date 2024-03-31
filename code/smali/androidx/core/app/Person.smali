@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    const-string v1, "uri"
+    const-string/jumbo v1, "uri"
 
     .line 52
     invoke-virtual {p0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    const-string v1, "uri"
+    const-string/jumbo v1, "uri"
 
     .line 72
     invoke-virtual {p0, v1}, Landroid/os/PersistableBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -564,7 +564,7 @@
     .line 133
     iget-object v1, p0, Landroidx/core/app/Person;->mUri:Ljava/lang/String;
 
-    const-string v2, "uri"
+    const-string/jumbo v2, "uri"
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -622,7 +622,7 @@
     .line 153
     iget-object v1, p0, Landroidx/core/app/Person;->mUri:Ljava/lang/String;
 
-    const-string v2, "uri"
+    const-string/jumbo v2, "uri"
 
     invoke-virtual {v0, v2, v1}, Landroid/os/PersistableBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
