@@ -16,13 +16,13 @@
 # static fields
 .field public static final androidx_startup:I = 0x7f120023
 
-.field public static final joda_time_android_date_time:I = 0x7f120162
+.field public static final joda_time_android_date_time:I = 0x7f120164
 
-.field public static final joda_time_android_preposition_for_date:I = 0x7f120163
+.field public static final joda_time_android_preposition_for_date:I = 0x7f120165
 
-.field public static final joda_time_android_preposition_for_time:I = 0x7f120164
+.field public static final joda_time_android_preposition_for_time:I = 0x7f120166
 
-.field public static final joda_time_android_relative_time:I = 0x7f120165
+.field public static final joda_time_android_relative_time:I = 0x7f120167
 
 
 # direct methods

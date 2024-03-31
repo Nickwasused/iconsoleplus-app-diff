@@ -428,7 +428,7 @@
 
     :cond_5
     :goto_0
-    const-string p2, "single cert required"
+    const-string/jumbo p2, "single cert required"
 
     .line 8
     invoke-static {p2}, Lcom/google/android/gms/common/zzx;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzx;

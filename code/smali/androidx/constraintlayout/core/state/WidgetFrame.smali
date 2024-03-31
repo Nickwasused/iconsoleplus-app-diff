@@ -1849,7 +1849,7 @@
 .method public serialize(Ljava/lang/StringBuilder;Z)Ljava/lang/StringBuilder;
     .locals 6
 
-    const-string/jumbo v0, "{\n"
+    const-string v0, "{\n"
 
     .line 433
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1864,7 +1864,7 @@
     .line 435
     iget v0, p0, Landroidx/constraintlayout/core/state/WidgetFrame;->top:I
 
-    const-string/jumbo v1, "top"
+    const-string v1, "top"
 
     invoke-static {p1, v1, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->add(Ljava/lang/StringBuilder;Ljava/lang/String;I)V
 
@@ -1920,21 +1920,21 @@
     .line 443
     iget v0, p0, Landroidx/constraintlayout/core/state/WidgetFrame;->translationX:F
 
-    const-string/jumbo v1, "translationX"
+    const-string v1, "translationX"
 
     invoke-static {p1, v1, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->add(Ljava/lang/StringBuilder;Ljava/lang/String;F)V
 
     .line 444
     iget v0, p0, Landroidx/constraintlayout/core/state/WidgetFrame;->translationY:F
 
-    const-string/jumbo v1, "translationY"
+    const-string v1, "translationY"
 
     invoke-static {p1, v1, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->add(Ljava/lang/StringBuilder;Ljava/lang/String;F)V
 
     .line 445
     iget v0, p0, Landroidx/constraintlayout/core/state/WidgetFrame;->translationZ:F
 
-    const-string/jumbo v1, "translationZ"
+    const-string v1, "translationZ"
 
     invoke-static {p1, v1, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->add(Ljava/lang/StringBuilder;Ljava/lang/String;F)V
 
@@ -1962,7 +1962,7 @@
     .line 449
     iget v0, p0, Landroidx/constraintlayout/core/state/WidgetFrame;->left:I
 
-    const-string/jumbo v1, "visibility"
+    const-string v1, "visibility"
 
     invoke-static {p1, v1, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->add(Ljava/lang/StringBuilder;Ljava/lang/String;I)V
 
@@ -2025,7 +2025,7 @@
 
     move-result p2
 
-    const-string/jumbo v0, "}\n"
+    const-string v0, "}\n"
 
     if-eqz p2, :cond_4
 
@@ -2177,8 +2177,6 @@
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     return-object p1
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x384
@@ -2437,7 +2435,7 @@
     goto/16 :goto_0
 
     :sswitch_4
-    const-string/jumbo v0, "top"
+    const-string v0, "top"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2517,7 +2515,7 @@
     goto/16 :goto_0
 
     :sswitch_9
-    const-string/jumbo v0, "translationZ"
+    const-string v0, "translationZ"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2533,7 +2531,7 @@
     goto/16 :goto_0
 
     :sswitch_a
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2549,7 +2547,7 @@
     goto :goto_0
 
     :sswitch_b
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

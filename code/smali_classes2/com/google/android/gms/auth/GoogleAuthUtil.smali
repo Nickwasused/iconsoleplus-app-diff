@@ -292,7 +292,7 @@
     .line 15
     invoke-virtual {p3, v0, p4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string p4, "sync_extras"
+    const-string/jumbo p4, "sync_extras"
 
     .line 16
     invoke-virtual {p3, p4, p5}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V

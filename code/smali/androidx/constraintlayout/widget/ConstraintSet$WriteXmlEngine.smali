@@ -549,7 +549,7 @@
 
     const/4 v0, -0x1
 
-    const-string/jumbo v1, "unknown"
+    const-string v1, "unknown"
 
     if-eq p1, v0, :cond_0
 
@@ -1336,9 +1336,9 @@
 
     invoke-virtual {p0, v3, v2}, Landroidx/constraintlayout/widget/ConstraintSet$WriteXmlEngine;->writeXmlConstraint(Ljava/lang/String;I)V
 
-    const-string/jumbo v2, "spread"
+    const-string v2, "spread"
 
-    const-string/jumbo v3, "wrap"
+    const-string v3, "wrap"
 
     const-string v9, "percent"
 
@@ -1453,11 +1453,11 @@
 
     const-string v10, "right"
 
-    const-string/jumbo v11, "top"
+    const-string v11, "top"
 
     const-string v12, "bottom"
 
-    const-string/jumbo v13, "start"
+    const-string v13, "start"
 
     const-string v14, "end"
 

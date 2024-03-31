@@ -759,7 +759,7 @@
     return-object v1
 
     :cond_2
-    const-string v2, "string"
+    const-string/jumbo v2, "string"
 
     const-string v3, "com.google.android.gms"
 

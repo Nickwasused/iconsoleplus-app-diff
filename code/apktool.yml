@@ -1,5 +1,5 @@
 !!brut.androlib.apk.ApkInfo
-apkFileName: iConsole+ Training_1.8.58_Apkpure.apk
+apkFileName: iConsole+ Training_1.8.69_Apkpure.apk
 doNotCompress:
 - resources.arsc
 - META-INF/androidx.activity_activity-ktx.version
@@ -76,13 +76,42 @@ doNotCompress:
 - META-INF/com.google.android.material_material.version
 - META-INF/kotlinx_coroutines_android.version
 - META-INF/kotlinx_coroutines_core.version
+- png
+- assets/ap1.data
+- assets/ap2d.data
 - assets/dexopt/baseline.prof
 - assets/dexopt/baseline.profm
+- assets/map_assets/config_2_16_1560339691.data
+- assets/map_assets/icons_1_16_1561444603.data
+- assets/map_assets/icons_25_16_1560344307.data
+- assets/map_assets/icons_2_16_1560344131.data
+- assets/map_assets/icons_3_16_1560517561.data
+- assets/map_assets/icons_4_16_1560344142.data
+- assets/map_assets/icons_50_16_1541648499.data
+- assets/map_assets/icons_5_16_1561028345.data
+- assets/map_assets/icons_6_16_1560344646.data
+- assets/map_assets/icons_7_16_1560344652.data
+- assets/map_assets/icons_8_16_1560344658.data
+- assets/map_assets/icons_9_16_1560344664.data
+- assets/map_assets/mapprofile_1_16_1560563265.data
+- assets/map_assets/mapprofile_2_16_1560563265.data
+- assets/map_assets/style_17_16_1561023816.data
+- assets/map_assets/style_50_16_1501671321.data
+- assets/map_assets/tmc_n_allinone.data
+- lib/arm64-v8a/libAMapSDK_MAP_v7_1_0.so
 - lib/arm64-v8a/libLeo_SafetyConfirmation.so
+- lib/arm64-v8a/libapp_BaiduPanoramaAppLib.so
+- lib/armeabi-v7a/libAMapSDK_MAP_v7_1_0.so
 - lib/armeabi-v7a/libLeo_SafetyConfirmation.so
+- lib/armeabi-v7a/libapp_BaiduPanoramaAppLib.so
+- lib/armeabi/libAMapSDK_MAP_v7_1_0.so
+- lib/armeabi/libapp_BaiduPanoramaAppLib.so
+- lib/x86/libAMapSDK_MAP_v7_1_0.so
 - lib/x86/libLeo_SafetyConfirmation.so
+- lib/x86/libapp_BaiduPanoramaAppLib.so
+- lib/x86_64/libAMapSDK_MAP_v7_1_0.so
 - lib/x86_64/libLeo_SafetyConfirmation.so
-- png
+- lib/x86_64/libapp_BaiduPanoramaAppLib.so
 - res/raw/joda_etc_gmt_9
 - res/raw/joda_etc_gmtplus6
 - res/raw/joda_hst
@@ -131,18 +160,7 @@ sparseResources: true
 unknownFiles:
   DebugProbesKt.bin: '8'
   androidsupportmultidexversion.txt: '0'
-  firebase-analytics.properties: '8'
-  firebase-annotations.properties: '8'
-  firebase-common.properties: '8'
-  firebase-components.properties: '8'
-  firebase-crashlytics.properties: '8'
-  firebase-encoders-json.properties: '8'
-  firebase-encoders.properties: '8'
-  firebase-installations-interop.properties: '8'
-  firebase-installations.properties: '8'
-  firebase-measurement-connector.properties: '8'
   kotlin-tooling-metadata.json: '8'
-  play-services-ads-identifier.properties: '8'
   play-services-auth-api-phone.properties: '8'
   play-services-auth-base.properties: '8'
   play-services-auth.properties: '8'
@@ -152,21 +170,13 @@ unknownFiles:
   play-services-flags.properties: '8'
   play-services-location.properties: '8'
   play-services-maps.properties: '8'
-  play-services-measurement-api.properties: '8'
-  play-services-measurement-base.properties: '8'
-  play-services-measurement-impl.properties: '8'
-  play-services-measurement-sdk-api.properties: '8'
-  play-services-measurement-sdk.properties: '8'
-  play-services-measurement.properties: '8'
   play-services-phenotype.properties: '8'
-  play-services-stats.properties: '8'
   play-services-tasks.properties: '8'
   play-services-vision-common.properties: '8'
   play-services-vision.properties: '8'
-  transport-api.properties: '8'
-  transport-backend-cct.properties: '8'
-  transport-runtime.properties: '8'
-  stamp-cert-sha256: '8'
+  com/baidu/pano/platform/res/indoor_in.png: '0'
+  com/baidu/panosdk/plugin/indoor/res/indoor_exit.png: '0'
+  com/baidu/panosdk/plugin/indoor/res/panophoto_def.9.png: '0'
   okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
   org/joda/time/format/messages.properties: '8'
   org/joda/time/format/messages_bg.properties: '8'
@@ -193,5 +203,5 @@ usesFramework:
   tag: null
 version: 2.8.1
 versionInfo:
-  versionCode: '278'
-  versionName: 1.8.58
+  versionCode: '288'
+  versionName: 1.8.69

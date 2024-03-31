@@ -15,7 +15,9 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <queries>
@@ -55,17 +57,8 @@
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.changyow.iconsole4th.App" android:roundIcon="@mipmap/ic_app_icon_circle" android:supportsRtl="true" android:theme="@style/AppTheme">
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.third_party_auth.HuaweiAuthActivity"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.third_party_auth.WahooAuthActivity"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravitySummaryReviewActivity"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravityWorkoutSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.training.EGravityTrainingActivity"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.training.EGravityQuickstartSettingActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.profile.EGravityProfileListActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravityEccentricSettingActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravitySettingsActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravityMachineActivtionActivity" android:screenOrientation="behind" android:theme="@style/AppTheme"/>
-        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.profile.EGravityProfileEditActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.RetrainerWorkoutSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.RetrainerWorkoutActivity" android:screenOrientation="behind" android:theme="@style/AppTheme"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.IntervalProfileListActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.IntervalProfileSettingActivity" android:screenOrientation="behind" android:theme="@style/AppTheme"/>
         <activity android:name="com.changyow.iconsole4th.activity.smart_exercise.CustomExerciseDurationSettingActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
@@ -118,6 +111,7 @@
         <activity android:name="com.changyow.iconsole4th.activity.SignupActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.Dark"/>
         <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
         <activity android:label="@string/title_activity_map_my_route" android:name="com.changyow.iconsole4th.activity.MapMyRouteActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="52e97e53543215eee5549fbe74be4a45"/>
         <activity android:label="@string/title_activity_workout_result" android:name="com.changyow.iconsole4th.activity.WorkoutSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar" android:windowSoftInputMode="stateHidden"/>
         <activity android:name="com.changyow.iconsole4th.activity.ConnectDeviceActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <service android:exported="true" android:label="iConsole Dfu Service" android:name="com.changyow.iconsole4th.dfu.DfuService">
@@ -126,6 +120,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
+        <service android:name="com.amap.api.location.APSService"/>
         <activity android:name="com.changyow.iconsole4th.activity.BLEBeltConnectActivity" android:screenOrientation="behind"/>
         <activity android:name="com.changyow.iconsole4th.activity.NotificaionSettingActivity" android:screenOrientation="behind"/>
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
@@ -156,14 +151,6 @@
         <activity android:name="com.changyow.iconsole4th.activity.CreateAccountActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.Dark"/>
         <activity android:exported="true" android:name="com.canhub.cropper.CropImageActivity" android:screenOrientation="behind" android:theme="@style/Base.Theme.AppCompat"/>
         <activity android:exported="true" android:name="com.changyow.icp4th.wxapi.WXEntryActivity"/>
-        <activity android:exported="true" android:name="com.changyow.iconsole4th.activity.BarcodeLoginRecognizeActivity" android:screenOrientation="behind" android:theme="@style/ActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="api.iconsole.plus" android:scheme="https"/>
-            </intent-filter>
-        </activity>
         <activity android:name="com.changyow.iconsole4th.activity.BarcodeScanActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:name="com.changyow.iconsole4th.activity.ConstantPowerActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:name="com.changyow.iconsole4th.activity.WorkoutPowerSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
@@ -180,6 +167,26 @@
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AISummaryActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.FullScreen"/>
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AIConnectDeviceActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
         <activity android:name="com.changyow.iconsole4th.activity.aitraining.AIWorkoutActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.third_party_auth.HuaweiAuthActivity"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.third_party_auth.WahooAuthActivity"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravitySummaryReviewActivity"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.summary.EGravityWorkoutSummaryActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.training.EGravityTrainingActivity"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.training.EGravityQuickstartSettingActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.profile.EGravityProfileListActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravityEccentricSettingActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravitySettingsActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.settings.EGravityMachineActivtionActivity" android:screenOrientation="behind" android:theme="@style/AppTheme"/>
+        <activity android:exported="false" android:name="com.changyow.iconsole4th.activity.retrainer.profile.EGravityProfileEditActivity" android:screenOrientation="behind" android:theme="@style/ActionBar"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <activity android:exported="true" android:name="com.changyow.iconsole4th.activity.BarcodeLoginRecognizeActivity" android:screenOrientation="behind" android:theme="@style/ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="api.iconsole.plus" android:scheme="https"/>
+            </intent-filter>
+        </activity>
         <provider android:authorities="com.changyow.icp4th.cropper.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.canhub.cropper.CropFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/library_file_paths"/>
         </provider>
@@ -198,11 +205,6 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
-            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
-            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
-            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
-        </service>
         <activity android:launchMode="singleTop" android:name="com.boqun.screensender.sender.app.BQSSMainActivity" android:theme="@style/AppThemeHudun" android:windowSoftInputMode="adjustPan"/>
         <service android:enabled="true" android:foregroundServiceType="mediaProjection" android:name="com.boqun.screensender.aircast.app.ScreenService"/>
         <receiver android:name="com.boqun.screensender.aircast.notification.NotificationClickReceiver"/>
@@ -241,10 +243,6 @@
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.changyow.icp4th.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
-        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
@@ -264,11 +262,5 @@
         <provider android:authorities="com.changyow.icp4th.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="net.danlew.android.joda.JodaTimeInitializer" android:value="androidx.startup"/>
         </provider>
-        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
-            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
-        </service>
-        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
-        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
     </application>
 </manifest>

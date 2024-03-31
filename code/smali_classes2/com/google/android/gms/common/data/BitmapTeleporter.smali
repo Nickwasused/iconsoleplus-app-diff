@@ -334,7 +334,7 @@
     if-eqz v3, :cond_0
 
     :try_start_0
-    const-string v4, "teleporter"
+    const-string/jumbo v4, "teleporter"
 
     const-string v5, ".tmp"
 
@@ -471,7 +471,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    const-string p2, "setTempDir() must be called before writing this object to a parcel"
+    const-string/jumbo p2, "setTempDir() must be called before writing this object to a parcel"
 
     .line 6
     invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V

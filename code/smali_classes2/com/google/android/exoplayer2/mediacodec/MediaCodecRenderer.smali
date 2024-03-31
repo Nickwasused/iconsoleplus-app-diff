@@ -939,7 +939,7 @@
 
     sget-object p1, Lcom/google/android/exoplayer2/util/Util;->DEVICE:Ljava/lang/String;
 
-    const-string v0, "tilapia"
+    const-string/jumbo v0, "tilapia"
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1142,7 +1142,7 @@
 
     sget-object v0, Lcom/google/android/exoplayer2/util/Util;->DEVICE:Ljava/lang/String;
 
-    const-string v1, "stvm8"
+    const-string/jumbo v1, "stvm8"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

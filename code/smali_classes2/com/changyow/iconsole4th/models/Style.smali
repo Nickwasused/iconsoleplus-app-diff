@@ -60,7 +60,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -124,15 +124,15 @@
 .method public constructor <init>(Lcom/changyow/iconsole4th/models/LaunchScreen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/MainMyTraining;Lcom/changyow/iconsole4th/models/MainGetStarted;)V
     .locals 1
 
-    const-string v0, "themeColor"
+    const-string/jumbo v0, "themeColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "themeTextColor"
+    const-string/jumbo v0, "themeTextColor"
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "themeSecondaryColor"
+    const-string/jumbo v0, "themeSecondaryColor"
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -140,7 +140,7 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "statusbarTextColor"
+    const-string/jumbo v0, "statusbarTextColor"
 
     invoke-static {p6, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -566,19 +566,19 @@
 .method public final copy(Lcom/changyow/iconsole4th/models/LaunchScreen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/MainMyTraining;Lcom/changyow/iconsole4th/models/MainGetStarted;)Lcom/changyow/iconsole4th/models/Style;
     .locals 10
 
-    const-string v0, "themeColor"
+    const-string/jumbo v0, "themeColor"
 
     move-object v3, p2
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "themeTextColor"
+    const-string/jumbo v0, "themeTextColor"
 
     move-object v4, p3
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "themeSecondaryColor"
+    const-string/jumbo v0, "themeSecondaryColor"
 
     move-object v5, p4
 
@@ -590,7 +590,7 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "statusbarTextColor"
+    const-string/jumbo v0, "statusbarTextColor"
 
     move-object/from16 v7, p6
 

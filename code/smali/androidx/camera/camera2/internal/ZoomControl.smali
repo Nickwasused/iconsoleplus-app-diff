@@ -484,7 +484,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    const-string/jumbo p1, "setZoomRatio"
+    const-string p1, "setZoomRatio"
 
     return-object p1
 .end method

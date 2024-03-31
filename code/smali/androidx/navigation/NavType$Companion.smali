@@ -376,7 +376,7 @@
 
     move-result-object p2
 
-    const-string/jumbo p1, "this as java.lang.String\u2026ing(startIndex, endIndex)"
+    const-string p1, "this as java.lang.String\u2026ing(startIndex, endIndex)"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -590,7 +590,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string/jumbo v0, "value"
+    const-string v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

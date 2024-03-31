@@ -110,7 +110,7 @@
     goto :goto_2
 
     :sswitch_0
-    const-string v8, "style"
+    const-string/jumbo v8, "style"
 
     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -126,7 +126,7 @@
     goto :goto_2
 
     :sswitch_1
-    const-string v8, "start"
+    const-string/jumbo v8, "start"
 
     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -142,7 +142,7 @@
     goto :goto_2
 
     :sswitch_2
-    const-string v8, "text"
+    const-string/jumbo v8, "text"
 
     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -222,8 +222,6 @@
 
     :goto_4
     return-object v0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

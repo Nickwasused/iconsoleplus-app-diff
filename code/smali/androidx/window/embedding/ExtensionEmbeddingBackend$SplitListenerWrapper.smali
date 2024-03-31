@@ -131,7 +131,7 @@
 .method private static final accept$lambda-1(Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;Ljava/util/List;)V
     .locals 1
 
-    const-string/jumbo v0, "this$0"
+    const-string v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -160,7 +160,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "splitInfoList"
+    const-string v0, "splitInfoList"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

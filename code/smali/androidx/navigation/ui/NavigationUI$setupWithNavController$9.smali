@@ -126,7 +126,7 @@
 
     move-result-object p1
 
-    const-string/jumbo p3, "view.menu"
+    const-string p3, "view.menu"
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

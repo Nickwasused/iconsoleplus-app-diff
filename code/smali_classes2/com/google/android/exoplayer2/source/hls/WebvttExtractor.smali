@@ -108,7 +108,7 @@
 
     invoke-direct {v1}, Lcom/google/android/exoplayer2/Format$Builder;-><init>()V
 
-    const-string v2, "text/vtt"
+    const-string/jumbo v2, "text/vtt"
 
     .line 196
     invoke-virtual {v1, v2}, Lcom/google/android/exoplayer2/Format$Builder;->setSampleMimeType(Ljava/lang/String;)Lcom/google/android/exoplayer2/Format$Builder;

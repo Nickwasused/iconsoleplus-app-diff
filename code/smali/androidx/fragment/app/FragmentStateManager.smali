@@ -1224,7 +1224,7 @@
     goto :goto_0
 
     :catch_0
-    const-string/jumbo v0, "unknown"
+    const-string v0, "unknown"
 
     .line 512
     :goto_0
@@ -3164,7 +3164,7 @@
 
     if-eqz v2, :cond_1
 
-    const-string/jumbo v0, "succeeded"
+    const-string v0, "succeeded"
 
     goto :goto_0
 

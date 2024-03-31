@@ -328,7 +328,7 @@
 
     if-eqz v1, :cond_3
 
-    const-string v1, "v2"
+    const-string/jumbo v1, "v2"
 
     goto :goto_0
 

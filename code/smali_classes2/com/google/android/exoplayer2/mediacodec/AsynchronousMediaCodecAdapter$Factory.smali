@@ -251,7 +251,7 @@
     .line 123
     invoke-static {}, Lcom/google/android/exoplayer2/util/TraceUtil;->endSection()V
 
-    const-string p1, "startCodec"
+    const-string/jumbo p1, "startCodec"
 
     .line 124
     invoke-static {p1}, Lcom/google/android/exoplayer2/util/TraceUtil;->beginSection(Ljava/lang/String;)V

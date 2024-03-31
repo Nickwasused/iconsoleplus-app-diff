@@ -106,7 +106,7 @@
     :try_start_2
     const-class v0, Landroid/os/WorkSource;
 
-    const-string v4, "size"
+    const-string/jumbo v4, "size"
 
     new-array v6, v2, [Ljava/lang/Class;
 

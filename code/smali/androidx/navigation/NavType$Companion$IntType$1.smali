@@ -124,7 +124,7 @@
 .method public parseValue(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 4
 
-    const-string/jumbo v0, "value"
+    const-string v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -148,7 +148,7 @@
 
     move-result-object p1
 
-    const-string/jumbo v0, "this as java.lang.String).substring(startIndex)"
+    const-string v0, "this as java.lang.String).substring(startIndex)"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -75,7 +75,7 @@
 .method public final getRawSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;)I
     .locals 4
 
-    const-string/jumbo v0, "sidecarDeviceState"
+    const-string v0, "sidecarDeviceState"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -140,7 +140,7 @@
 .method public final getSidecarDevicePosture$window_release(Landroidx/window/sidecar/SidecarDeviceState;)I
     .locals 1
 
-    const-string/jumbo v0, "sidecarDeviceState"
+    const-string v0, "sidecarDeviceState"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -248,7 +248,7 @@
 .method public final setSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;I)V
     .locals 6
 
-    const-string/jumbo v0, "sidecarDeviceState"
+    const-string v0, "sidecarDeviceState"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -265,7 +265,7 @@
     :try_start_1
     const-class v0, Landroidx/window/sidecar/SidecarDeviceState;
 
-    const-string/jumbo v1, "setPosture"
+    const-string v1, "setPosture"
 
     const/4 v2, 0x1
 

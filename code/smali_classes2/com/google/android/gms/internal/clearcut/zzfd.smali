@@ -299,7 +299,7 @@
 
     const-class v0, Ljava/lang/String;
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/clearcut/zzfd;->zzb(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
@@ -1071,7 +1071,7 @@
 
     const-string v4, "com.google.protobuf.UnsafeUtil"
 
-    const-string v5, "supportsUnsafeArrayOperations"
+    const-string/jumbo v5, "supportsUnsafeArrayOperations"
 
     invoke-virtual {v2, v3, v4, v5, v0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1300,7 +1300,7 @@
 
     const-string v4, "com.google.protobuf.UnsafeUtil"
 
-    const-string v5, "supportsUnsafeByteBufferOperations"
+    const-string/jumbo v5, "supportsUnsafeByteBufferOperations"
 
     invoke-virtual {v1, v2, v4, v5, v0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 

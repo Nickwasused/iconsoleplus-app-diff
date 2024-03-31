@@ -220,7 +220,7 @@
     goto :goto_2
 
     :sswitch_5
-    const-string v13, "strikeout"
+    const-string/jumbo v13, "strikeout"
 
     invoke-virtual {v4, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -236,7 +236,7 @@
     goto :goto_2
 
     :sswitch_6
-    const-string v13, "underline"
+    const-string/jumbo v13, "underline"
 
     invoke-virtual {v4, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

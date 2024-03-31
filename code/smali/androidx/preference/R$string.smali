@@ -70,21 +70,21 @@
 
 .field public static final copy:I = 0x7f12009b
 
-.field public static final expand_button_title:I = 0x7f12011a
+.field public static final expand_button_title:I = 0x7f12011c
 
-.field public static final not_set:I = 0x7f1201ec
+.field public static final not_set:I = 0x7f1201ee
 
-.field public static final preference_copied:I = 0x7f120208
+.field public static final preference_copied:I = 0x7f12020a
 
-.field public static final search_menu_title:I = 0x7f120218
+.field public static final search_menu_title:I = 0x7f12021a
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
 
-.field public static final summary_collapsed_preference_list:I = 0x7f120460
+.field public static final summary_collapsed_preference_list:I = 0x7f120464
 
-.field public static final v7_preference_off:I = 0x7f12046d
+.field public static final v7_preference_off:I = 0x7f120471
 
-.field public static final v7_preference_on:I = 0x7f12046e
+.field public static final v7_preference_on:I = 0x7f120472
 
 
 # direct methods

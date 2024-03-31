@@ -196,7 +196,7 @@
 
     :cond_1
     :goto_0
-    const-string v0, "two different server client ids provided"
+    const-string/jumbo v0, "two different server client ids provided"
 
     .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V

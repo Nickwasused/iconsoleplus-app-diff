@@ -252,7 +252,7 @@
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string v2, "unexpected uniform type: "
+    const-string/jumbo v2, "unexpected uniform type: "
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

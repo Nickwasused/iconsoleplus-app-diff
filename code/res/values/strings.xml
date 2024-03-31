@@ -157,6 +157,7 @@
     <string name="connect">Connect</string>
     <string name="connecting">Connecting</string>
     <string name="copy">Copy</string>
+    <string name="creating_an_account_implies_agreeing_to_the_terms">Creating an_account implies agreeing to the terms.</string>
     <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
     <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Crop</string>
@@ -173,6 +174,7 @@
     <string name="daily_exercise_add_suggested_training">Add suggested training</string>
     <string name="default_web_client_id">917461097758-989jh9ggkm09hkl1glhn19fdfgs8hes5.apps.googleusercontent.com</string>
     <string name="define_roundedimageview" />
+    <string name="desc__please_check_the_privacy_agreement_checkbox">Please check the privacy agreement checkbox.</string>
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="detail_addr">Address</string>
     <string name="detail_device_class">Device Class</string>
@@ -781,8 +783,9 @@ Please check it out and click verification to activate new password."</string>
     <string name="str_barcode_scan__my_qr_code">My QR Code</string>
     <string name="str_bike">Bike</string>
     <string name="str_blebeltconnect__connect_hint">Click your Heart rate sensor from the list above then click DONE.</string>
-    <string name="str_confirm">Confirm</string>
+    <string name="str_cancel_delete_account">Cancel</string>
     <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_confirm_to_delete_account">Confirm</string>
     <string name="str_connect__interval_mode_is_not_compatible_with_a_manual_meter">Manual dial equipments do not support Interval training mode.</string>
     <string name="str_connect__map_route_program_is_not_compatible_with_a_rower">Map route program is not compatible with a rower.</string>
     <string name="str_connect__programs_mode_is_not_compatible_with_a_manual_meter">Manual dial equipments do not support Program training mode.</string>
@@ -928,6 +931,7 @@ Pedal smooth at your target RPM."</string>
     <string name="str_out">out</string>
     <string name="str_please_check_your_email_to_confirm_delete">Please check your email to confirm delete.</string>
     <string name="str_privacy_ploicy">Privacy Policy</string>
+    <string name="str_privacy_policy__argeement">&lt;html> &lt;head> &lt;/head> &lt;body> Creating an_account implies agreeing to the《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>Privacy policy&lt;/a>》and the《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>Service term&lt;/a>》. &lt;/body> &lt;/html></string>
     <string name="str_privacy_policy__desc">&lt;html> &lt;head> &lt;style> a:link { color: #4589c6; background-color: transparent; text-decoration: none; } a:visited { color: #4589c6; background-color: transparent; text-decoration: none; } a:hover { color: red; background-color: transparent; text-decoration: underline; } a:active { color: #4589c6; background-color: transparent; text-decoration: underline; } &lt;/style> &lt;/head> &lt;body> 欢迎使用iConsole+。在您注册成为iConsole+用户的过程中,您需要完成我们的注册流程并通过点击同意的形式在线签署以下协议,请您务必审慎阅读《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>隐私政策&lt;/a>》&amp;《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>服务协议&lt;/a>》,并充分理解协议条款内容。 我们将严格按照您同意的各项条款使用您的个人信息,以便为您提供更好的服务。 &lt;/body> &lt;/html></string>
     <string name="str_privacy_policy__title">注册协议及隐私政策</string>
     <string name="str_proceed_to_delete_account">Proceed to delete account ?</string>

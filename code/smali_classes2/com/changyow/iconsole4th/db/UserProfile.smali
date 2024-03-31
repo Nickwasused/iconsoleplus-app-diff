@@ -143,7 +143,7 @@
         "toString",
         "toggleUnit",
         "Companion",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -1136,7 +1136,7 @@
 .method private static final save$lambda-0(Lcom/changyow/iconsole4th/db/UserProfile;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1949,7 +1949,7 @@
     .line 204
     new-instance v1, Ljava/io/File;
 
-    const-string v2, "userAvatar.jpg"
+    const-string/jumbo v2, "userAvatar.jpg"
 
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
@@ -1983,7 +1983,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0802c3
+    const v1, 0x7f0802c6
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -2535,7 +2535,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "userAvatar.jpg"
+    const-string/jumbo v0, "userAvatar.jpg"
 
     .line 214
     invoke-direct {p0, p1, v0}, Lcom/changyow/iconsole4th/db/UserProfile;->saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V

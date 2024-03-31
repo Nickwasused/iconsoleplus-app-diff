@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "topLevelMenu"
+    const-string v0, "topLevelMenu"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -154,7 +154,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "topLevelDestinationIds"
+    const-string v0, "topLevelDestinationIds"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -211,7 +211,7 @@
     check-cast p2, Lkotlin/jvm/functions/Function0;
 
     :cond_1
-    const-string/jumbo p3, "topLevelMenu"
+    const-string p3, "topLevelMenu"
 
     .line 246
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
@@ -327,7 +327,7 @@
     check-cast p2, Lkotlin/jvm/functions/Function0;
 
     :cond_1
-    const-string/jumbo p3, "topLevelDestinationIds"
+    const-string p3, "topLevelDestinationIds"
 
     .line 271
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V

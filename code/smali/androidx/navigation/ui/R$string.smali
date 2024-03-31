@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final nav_app_bar_navigate_up_description:I = 0x7f1201e9
+.field public static final nav_app_bar_navigate_up_description:I = 0x7f1201eb
 
-.field public static final nav_app_bar_open_drawer_description:I = 0x7f1201ea
+.field public static final nav_app_bar_open_drawer_description:I = 0x7f1201ec
 
 
 # direct methods

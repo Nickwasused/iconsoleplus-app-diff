@@ -246,7 +246,7 @@
 .method private static isPlayerEmsgEvent(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
 
-    const-string v0, "urn:mpeg:dash:event:2012"
+    const-string/jumbo v0, "urn:mpeg:dash:event:2012"
 
     .line 254
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

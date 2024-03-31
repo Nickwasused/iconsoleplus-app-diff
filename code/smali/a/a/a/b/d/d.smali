@@ -156,7 +156,7 @@
 
     const-string v0, "CommandServer"
 
-    const-string/jumbo v1, "stopClient() called"
+    const-string v1, "stopClient() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
@@ -273,7 +273,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v1, "setSourceType()   host = ["
+    const-string v1, "setSourceType()   host = ["
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -581,7 +581,7 @@
 
     const-string v0, "CommandServer"
 
-    const-string/jumbo v1, "stop() called"
+    const-string v1, "stop() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I

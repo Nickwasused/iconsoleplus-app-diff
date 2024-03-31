@@ -35,7 +35,7 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    const-string/jumbo v0, "tokenize="
+    const-string v0, "tokenize="
 
     const-string v1, "compress="
 
@@ -51,7 +51,7 @@
 
     const-string v7, "prefix="
 
-    const-string/jumbo v8, "uncompress="
+    const-string v8, "uncompress="
 
     .line 40
     filled-new-array/range {v0 .. v8}, [Ljava/lang/String;
@@ -562,7 +562,7 @@
 
     if-eqz p1, :cond_0
 
-    const-string/jumbo p1, "sql"
+    const-string p1, "sql"
 
     .line 110
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I

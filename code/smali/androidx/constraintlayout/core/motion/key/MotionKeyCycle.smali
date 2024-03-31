@@ -588,7 +588,7 @@
 
     if-nez v0, :cond_8
 
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     .line 96
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -603,7 +603,7 @@
 
     if-nez v0, :cond_9
 
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     .line 99
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -618,7 +618,7 @@
 
     if-nez v0, :cond_a
 
-    const-string/jumbo v0, "translationZ"
+    const-string v0, "translationZ"
 
     .line 102
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -700,7 +700,7 @@
     goto/16 :goto_1
 
     :sswitch_0
-    const-string/jumbo v0, "visibility"
+    const-string v0, "visibility"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -716,7 +716,7 @@
     goto/16 :goto_1
 
     :sswitch_1
-    const-string/jumbo v0, "waveShape"
+    const-string v0, "waveShape"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -908,7 +908,7 @@
     goto/16 :goto_1
 
     :sswitch_d
-    const-string/jumbo v0, "translationZ"
+    const-string v0, "translationZ"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -924,7 +924,7 @@
     goto :goto_1
 
     :sswitch_e
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -940,7 +940,7 @@
     goto :goto_1
 
     :sswitch_f
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1143,6 +1143,8 @@
 
     return p1
 
+    nop
+
     :sswitch_data_0
     .sparse-switch
         -0x5e458df6 -> :sswitch_14
@@ -1339,7 +1341,7 @@
     goto :goto_0
 
     :sswitch_8
-    const-string/jumbo v0, "translationZ"
+    const-string v0, "translationZ"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1355,7 +1357,7 @@
     goto :goto_0
 
     :sswitch_9
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1371,7 +1373,7 @@
     goto :goto_0
 
     :sswitch_a
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1522,8 +1524,6 @@
     iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationX:F
 
     return p1
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

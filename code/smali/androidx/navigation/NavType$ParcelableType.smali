@@ -89,7 +89,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "type"
+    const-string v0, "type"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -249,7 +249,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "type.name"
+    const-string v1, "type.name"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -279,7 +279,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "value"
+    const-string v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

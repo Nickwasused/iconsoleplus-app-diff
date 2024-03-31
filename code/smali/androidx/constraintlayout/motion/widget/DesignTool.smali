@@ -710,7 +710,7 @@
 
     const/4 v0, -0x2
 
-    const-string/jumbo v1, "wrap_content"
+    const-string v1, "wrap_content"
 
     .line 169
     invoke-virtual {p3, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z

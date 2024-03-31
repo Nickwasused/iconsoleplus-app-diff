@@ -1079,7 +1079,7 @@
     .line 7857
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    const-string/jumbo v0, "skipBytes is currently unsupported"
+    const-string v0, "skipBytes is currently unsupported"
 
     invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 

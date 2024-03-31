@@ -380,7 +380,7 @@
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    const-string/jumbo p1, "textureViewImpl_waitForNextFrame"
+    const-string p1, "textureViewImpl_waitForNextFrame"
 
     return-object p1
 .end method

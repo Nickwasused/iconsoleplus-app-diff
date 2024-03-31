@@ -246,7 +246,7 @@
 
     if-ne v3, v5, :cond_0
 
-    const-string/jumbo v2, "shortcut"
+    const-string v2, "shortcut"
 
     .line 146
     invoke-virtual {v2, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -255,7 +255,7 @@
 
     if-eqz v2, :cond_0
 
-    const-string/jumbo v2, "shortcutId"
+    const-string v2, "shortcutId"
 
     .line 147
     invoke-static {p0, v2}, Landroidx/core/content/pm/ShortcutXmlParser;->getAttributeValue(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;

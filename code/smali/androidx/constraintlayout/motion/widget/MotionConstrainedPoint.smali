@@ -104,11 +104,11 @@
 
     const-string v0, "position"
 
-    const-string/jumbo v1, "x"
+    const-string v1, "x"
 
-    const-string/jumbo v2, "y"
+    const-string v2, "y"
 
-    const-string/jumbo v3, "width"
+    const-string v3, "width"
 
     const-string v4, "height"
 
@@ -382,7 +382,7 @@
     goto/16 :goto_1
 
     :sswitch_1
-    const-string/jumbo v4, "transitionPathRotate"
+    const-string v4, "transitionPathRotate"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -430,7 +430,7 @@
     goto/16 :goto_1
 
     :sswitch_4
-    const-string/jumbo v4, "transformPivotY"
+    const-string v4, "transformPivotY"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -446,7 +446,7 @@
     goto/16 :goto_1
 
     :sswitch_5
-    const-string/jumbo v4, "transformPivotX"
+    const-string v4, "transformPivotX"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -510,7 +510,7 @@
     goto :goto_1
 
     :sswitch_9
-    const-string/jumbo v4, "translationZ"
+    const-string v4, "translationZ"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -526,7 +526,7 @@
     goto :goto_1
 
     :sswitch_a
-    const-string/jumbo v4, "translationY"
+    const-string v4, "translationY"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -542,7 +542,7 @@
     goto :goto_1
 
     :sswitch_b
-    const-string/jumbo v4, "translationX"
+    const-string v4, "translationX"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1538,7 +1538,7 @@
     if-nez v0, :cond_6
 
     :cond_5
-    const-string/jumbo v0, "transitionPathRotate"
+    const-string v0, "transitionPathRotate"
 
     .line 110
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1613,7 +1613,7 @@
 
     if-eqz v0, :cond_b
 
-    const-string/jumbo v0, "transformPivotX"
+    const-string v0, "transformPivotX"
 
     .line 122
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1630,7 +1630,7 @@
 
     if-eqz v0, :cond_c
 
-    const-string/jumbo v0, "transformPivotY"
+    const-string v0, "transformPivotY"
 
     .line 125
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1681,7 +1681,7 @@
 
     if-eqz v0, :cond_f
 
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     .line 134
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1698,7 +1698,7 @@
 
     if-eqz v0, :cond_10
 
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     .line 137
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1715,7 +1715,7 @@
 
     if-eqz p1, :cond_11
 
-    const-string/jumbo p1, "translationZ"
+    const-string p1, "translationZ"
 
     .line 140
     invoke-virtual {p2, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z

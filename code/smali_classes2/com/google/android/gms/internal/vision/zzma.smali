@@ -1185,7 +1185,7 @@
 
     const-string v4, "com.google.protobuf.UnsafeUtil"
 
-    const-string v5, "supportsUnsafeArrayOperations"
+    const-string/jumbo v5, "supportsUnsafeArrayOperations"
 
     .line 68
     invoke-virtual {v2, v3, v4, v5, v0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1626,7 +1626,7 @@
 
     const-string v4, "com.google.protobuf.UnsafeUtil"
 
-    const-string v5, "supportsUnsafeByteBufferOperations"
+    const-string/jumbo v5, "supportsUnsafeByteBufferOperations"
 
     .line 90
     invoke-virtual {v1, v2, v4, v5, v0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

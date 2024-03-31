@@ -1273,7 +1273,7 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 781
+    .line 782
     invoke-static {p2}, Lappdevice/adble/utility/ADConverter;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v1
@@ -1290,12 +1290,12 @@
 
     if-eqz p2, :cond_2
 
-    .line 783
+    .line 784
     array-length v0, p2
 
     if-lez v0, :cond_2
 
-    .line 785
+    .line 786
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v0
@@ -1304,26 +1304,26 @@
 
     move-result-object v0
 
-    .line 786
+    .line 787
     invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
-    .line 788
+    .line 789
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v0
 
-    .line 789
+    .line 790
     invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
-    .line 791
+    .line 792
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v0
@@ -1348,7 +1348,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 792
+    .line 793
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object p1
@@ -1369,7 +1369,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 794
+    .line 795
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1401,7 +1401,7 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 729
+    .line 730
     invoke-static {p2}, Lappdevice/adble/utility/ADConverter;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v2
@@ -1416,7 +1416,7 @@
 
     invoke-static {v2, v4, v1}, Lappdevice/adble/utility/ADLog;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 731
+    .line 732
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v1
@@ -1425,7 +1425,7 @@
 
     move-result-object v1
 
-    .line 732
+    .line 733
     invoke-virtual {v1}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1434,12 +1434,12 @@
 
     move-result-object v2
 
-    .line 733
+    .line 734
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v4
 
-    .line 734
+    .line 735
     invoke-virtual {v4}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -1448,7 +1448,7 @@
 
     move-result-object v5
 
-    .line 736
+    .line 737
     sget-object v6, Lchangyow/ble4th/BLEPeripheral;->mServiceUuid:Ljava/util/UUID;
 
     invoke-virtual {v1, v6}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
@@ -1465,17 +1465,17 @@
 
     if-eqz v7, :cond_2
 
-    .line 738
+    .line 739
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 739
+    .line 740
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 741
+    .line 742
     :cond_2
     invoke-virtual {v1, v6}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
 
@@ -1491,17 +1491,17 @@
 
     if-eqz v1, :cond_3
 
-    .line 743
+    .line 744
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 744
+    .line 745
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processReadData()V
 
     goto/16 :goto_0
 
-    .line 746
+    .line 747
     :cond_3
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1521,7 +1521,7 @@
 
     if-nez v1, :cond_5
 
-    .line 747
+    .line 748
     :cond_4
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1537,7 +1537,7 @@
 
     if-eqz v1, :cond_6
 
-    .line 749
+    .line 750
     :cond_5
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -1553,17 +1553,17 @@
 
     if-eqz p1, :cond_9
 
-    .line 751
+    .line 752
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 752
+    .line 753
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 755
+    .line 756
     :cond_6
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1583,17 +1583,17 @@
 
     if-eqz v1, :cond_7
 
-    .line 757
+    .line 758
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 758
+    .line 759
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 760
+    .line 761
     :cond_7
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
@@ -1619,7 +1619,7 @@
 
     if-eqz v1, :cond_8
 
-    .line 761
+    .line 762
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v1
@@ -1640,19 +1640,19 @@
 
     if-eqz v1, :cond_8
 
-    .line 763
+    .line 764
     aget-byte p1, p2, v0
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 764
+    .line 765
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p2
 
     invoke-virtual {p2, p1}, Lchangyow/ble4th/WorkoutStatus;->setBleHrBeltValue(I)V
 
-    .line 765
+    .line 766
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p2
@@ -1665,7 +1665,7 @@
 
     goto :goto_0
 
-    .line 767
+    .line 768
     :cond_8
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
@@ -1691,7 +1691,7 @@
 
     if-eqz v0, :cond_9
 
-    .line 768
+    .line 769
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object p1
@@ -1712,7 +1712,7 @@
 
     if-eqz p1, :cond_9
 
-    .line 770
+    .line 771
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1740,7 +1740,7 @@
 .method protected consumeCommand(Lchangyow/ble4th/handler/CommandHandler;)V
     .locals 2
 
-    .line 933
+    .line 934
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->size()I
@@ -1751,7 +1751,7 @@
 
     return-void
 
-    .line 936
+    .line 937
     :cond_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -1769,20 +1769,20 @@
 
     goto :goto_0
 
-    .line 941
+    .line 942
     :cond_1
     instance-of v1, v0, Lchangyow/ble4th/handler/ibiking/IBAskWheelCmd;
 
     if-eqz v1, :cond_2
 
-    .line 942
+    .line 943
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 943
+    .line 944
     :cond_2
     invoke-virtual {p1}, Lchangyow/ble4th/handler/CommandHandler;->getResponseCode()B
 
@@ -1794,7 +1794,7 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 944
+    .line 945
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
@@ -1807,7 +1807,7 @@
 .method public decreaseLevel()V
     .locals 2
 
-    .line 527
+    .line 528
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1820,7 +1820,7 @@
 
     if-le v0, v1, :cond_0
 
-    .line 528
+    .line 529
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1851,7 +1851,7 @@
 .method public getFirmwareRevisionString()Ljava/lang/String;
     .locals 1
 
-    .line 1005
+    .line 1006
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionString:Ljava/lang/String;
 
     return-object v0
@@ -1873,7 +1873,7 @@
 .method public getHardwareRevisionString()Ljava/lang/String;
     .locals 1
 
-    .line 1000
+    .line 1001
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionString:Ljava/lang/String;
 
     return-object v0
@@ -1882,40 +1882,7 @@
 .method public getMaxResistanceLevel()V
     .locals 1
 
-    .line 489
-    iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
-
-    invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->getMaxResistanceLevel()Lchangyow/ble4th/handler/CommandHandler;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    .line 491
-    invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
-
-    .line 493
-    :cond_0
-    invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lchangyow/ble4th/WorkoutStatus;->isLateral()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    .line 495
-    new-instance v0, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;
-
-    invoke-direct {v0}, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;-><init>()V
-
-    .line 497
-    invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
-
-    .line 499
-    :cond_1
+    .line 490
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1924,14 +1891,47 @@
 
     move-result v0
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_0
 
-    .line 501
+    .line 492
     new-instance v0, Lchangyow/ble4th/handler/ibiking/IBGetPulseStateCmd;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/ibiking/IBGetPulseStateCmd;-><init>()V
 
-    .line 503
+    .line 494
+    invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
+
+    .line 496
+    :cond_0
+    iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
+
+    invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->getMaxResistanceLevel()Lchangyow/ble4th/handler/CommandHandler;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 498
+    invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
+
+    .line 500
+    :cond_1
+    invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lchangyow/ble4th/WorkoutStatus;->isLateral()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    .line 502
+    new-instance v0, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;
+
+    invoke-direct {v0}, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;-><init>()V
+
+    .line 504
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_2
@@ -1974,7 +1974,7 @@
 .method public getWokroutStatus()V
     .locals 1
 
-    .line 582
+    .line 583
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->getWokroutStatus()Lchangyow/ble4th/handler/CommandHandler;
@@ -1983,10 +1983,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 584
+    .line 585
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 586
+    .line 587
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1998,12 +1998,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 588
+    .line 589
     new-instance v0, Lchangyow/ble4th/handler/ski/SKGetWorkoutStatus2;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/ski/SKGetWorkoutStatus2;-><init>()V
 
-    .line 590
+    .line 591
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_1
@@ -2013,17 +2013,17 @@
 .method protected handleResponse(Lokio/Buffer;)I
     .locals 11
 
-    .line 905
+    .line 906
     new-instance v6, Lokio/Buffer;
 
     invoke-direct {v6}, Lokio/Buffer;-><init>()V
 
-    .line 908
+    .line 909
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v7
 
-    .line 910
+    .line 911
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -2046,10 +2046,10 @@
 
     check-cast v9, Lchangyow/ble4th/handler/CommandHandler;
 
-    .line 912
+    .line 913
     invoke-virtual {v6}, Lokio/Buffer;->clear()V
 
-    .line 913
+    .line 914
     invoke-virtual {v9}, Lchangyow/ble4th/handler/CommandHandler;->getResponseLength()I
 
     move-result v10
@@ -2062,7 +2062,7 @@
 
     goto :goto_0
 
-    .line 917
+    .line 918
     :cond_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
@@ -2072,24 +2072,24 @@
 
     invoke-virtual/range {v0 .. v5}, Lokio/Buffer;->copyTo(Lokio/Buffer;JJ)Lokio/Buffer;
 
-    .line 918
+    .line 919
     invoke-virtual {v6}, Lokio/Buffer;->readByteArray()[B
 
     move-result-object v0
 
-    .line 920
+    .line 921
     invoke-virtual {v9, v0}, Lchangyow/ble4th/handler/CommandHandler;->isExpectedData([B)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 922
+    .line 923
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     invoke-virtual {v9, v0, p0, p1}, Lchangyow/ble4th/handler/CommandHandler;->handleReceivedData([BLchangyow/ble4th/BLEPeripheral;Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 923
+    .line 924
     invoke-virtual {p0, v9}, Lchangyow/ble4th/BLEPeripheral;->consumeCommand(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return v10
@@ -2235,7 +2235,7 @@
 .method public increaseLevel()V
     .locals 2
 
-    .line 521
+    .line 522
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2254,7 +2254,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 522
+    .line 523
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2285,7 +2285,7 @@
 .method protected parseCommand(Lokio/Buffer;)V
     .locals 5
 
-    .line 801
+    .line 802
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2297,7 +2297,7 @@
 
     if-ltz v2, :cond_3
 
-    .line 805
+    .line 806
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->handleResponse(Lokio/Buffer;)I
 
     move-result v2
@@ -2306,7 +2306,7 @@
 
     int-to-long v0, v2
 
-    .line 810
+    .line 811
     :try_start_0
     invoke-virtual {p1, v0, v1}, Lokio/Buffer;->skip(J)V
 
@@ -2315,7 +2315,7 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 814
+    .line 815
     iget-object v3, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v3}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -2336,7 +2336,7 @@
 
     check-cast v4, Lchangyow/ble4th/handler/CommandHandler;
 
-    .line 816
+    .line 817
     invoke-virtual {v4}, Lchangyow/ble4th/handler/CommandHandler;->getResponseLength()I
 
     move-result v4
@@ -2356,7 +2356,7 @@
 
     const-wide/16 v0, 0x1
 
-    .line 822
+    .line 823
     invoke-virtual {p1, v0, v1}, Lokio/Buffer;->skip(J)V
     :try_end_0
     .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_0
@@ -2366,14 +2366,14 @@
     :catch_0
     move-exception v0
 
-    .line 829
+    .line 830
     invoke-virtual {v0}, Ljava/io/EOFException;->printStackTrace()V
 
-    .line 832
+    .line 833
     :goto_2
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->seekStarter(Lokio/Buffer;)V
 
-    .line 833
+    .line 834
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2389,7 +2389,7 @@
 
     const/4 v0, 0x2
 
-    .line 564
+    .line 565
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void
@@ -2398,12 +2398,12 @@
 .method public prepareCommandHandler()V
     .locals 2
 
-    .line 949
+    .line 950
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
-    .line 950
+    .line 951
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/AckCmd;
@@ -2412,7 +2412,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 953
+    .line 954
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2431,7 +2431,7 @@
 
     goto/16 :goto_0
 
-    .line 957
+    .line 958
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2443,7 +2443,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 959
+    .line 960
     new-instance v0, Lchangyow/ble4th/provider/IConsoleCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/IConsoleCmdProvider;-><init>()V
@@ -2452,7 +2452,7 @@
 
     goto/16 :goto_1
 
-    .line 961
+    .line 962
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2464,7 +2464,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 963
+    .line 964
     new-instance v0, Lchangyow/ble4th/provider/TreadmillCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/TreadmillCmdProvider;-><init>()V
@@ -2473,7 +2473,7 @@
 
     goto/16 :goto_1
 
-    .line 965
+    .line 966
     :cond_2
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2485,7 +2485,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 967
+    .line 968
     new-instance v0, Lchangyow/ble4th/provider/RowerCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/RowerCmdProvider;-><init>()V
@@ -2494,7 +2494,7 @@
 
     goto/16 :goto_1
 
-    .line 969
+    .line 970
     :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2506,7 +2506,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 971
+    .line 972
     new-instance v0, Lchangyow/ble4th/provider/IBikingCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/IBikingCmdProvider;-><init>()V
@@ -2515,7 +2515,7 @@
 
     goto :goto_1
 
-    .line 973
+    .line 974
     :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2527,7 +2527,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 975
+    .line 976
     new-instance v0, Lchangyow/ble4th/provider/RollerWheelCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/RollerWheelCmdProvider;-><init>()V
@@ -2536,7 +2536,7 @@
 
     goto :goto_1
 
-    .line 977
+    .line 978
     :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2548,7 +2548,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 979
+    .line 980
     new-instance v0, Lchangyow/ble4th/provider/LateralCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/LateralCmdProvider;-><init>()V
@@ -2557,7 +2557,7 @@
 
     goto :goto_1
 
-    .line 981
+    .line 982
     :cond_6
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2569,7 +2569,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 983
+    .line 984
     new-instance v0, Lchangyow/ble4th/provider/CurveTreadmillCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/CurveTreadmillCmdProvider;-><init>()V
@@ -2578,7 +2578,7 @@
 
     goto :goto_1
 
-    .line 985
+    .line 986
     :cond_7
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2590,7 +2590,7 @@
 
     if-eqz v0, :cond_8
 
-    .line 987
+    .line 988
     new-instance v0, Lchangyow/ble4th/provider/SkiCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/SkiCmdProvider;-><init>()V
@@ -2599,7 +2599,7 @@
 
     goto :goto_1
 
-    .line 989
+    .line 990
     :cond_8
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2611,7 +2611,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 991
+    .line 992
     new-instance v0, Lchangyow/ble4th/provider/ManualBikeWithWattCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/ManualBikeWithWattCmdProvider;-><init>()V
@@ -2620,7 +2620,7 @@
 
     goto :goto_1
 
-    .line 955
+    .line 956
     :cond_9
     :goto_0
     new-instance v0, Lchangyow/ble4th/provider/StepCounterCmdProvider;
@@ -2629,14 +2629,14 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
-    .line 994
+    .line 995
     :cond_a
     :goto_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     if-eqz v0, :cond_b
 
-    .line 995
+    .line 996
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->handlers()Ljava/util/List;
@@ -2652,12 +2652,12 @@
 .method protected processNotifyData()V
     .locals 3
 
-    .line 839
+    .line 840
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     monitor-enter v0
 
-    .line 841
+    .line 842
     :try_start_0
     iget-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
@@ -2674,30 +2674,30 @@
     :cond_0
     move v1, v2
 
-    .line 842
+    .line 843
     :goto_0
     iput-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 845
+    .line 846
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 847
+    .line 848
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->parseCommand(Lokio/Buffer;)V
 
-    .line 849
+    .line 850
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     monitor-enter v1
 
-    .line 851
+    .line 852
     :try_start_1
     iput-boolean v2, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 852
+    .line 853
     monitor-exit v1
 
     return-void
@@ -2711,7 +2711,7 @@
 
     throw v0
 
-    .line 844
+    .line 845
     :cond_1
     :try_start_2
     monitor-exit v0
@@ -2721,7 +2721,7 @@
     :catchall_1
     move-exception v1
 
-    .line 845
+    .line 846
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -2732,12 +2732,12 @@
 .method protected processReadData()V
     .locals 3
 
-    .line 857
+    .line 858
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     monitor-enter v0
 
-    .line 859
+    .line 860
     :try_start_0
     iget-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
@@ -2754,30 +2754,30 @@
     :cond_0
     move v1, v2
 
-    .line 860
+    .line 861
     :goto_0
     iput-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 863
+    .line 864
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 865
+    .line 866
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->parseCommand(Lokio/Buffer;)V
 
-    .line 867
+    .line 868
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     monitor-enter v1
 
-    .line 869
+    .line 870
     :try_start_1
     iput-boolean v2, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 870
+    .line 871
     monitor-exit v1
 
     return-void
@@ -2791,7 +2791,7 @@
 
     throw v0
 
-    .line 862
+    .line 863
     :cond_1
     :try_start_2
     monitor-exit v0
@@ -2801,7 +2801,7 @@
     :catchall_1
     move-exception v1
 
-    .line 863
+    .line 864
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -2812,24 +2812,24 @@
 .method protected reset()V
     .locals 2
 
-    .line 696
+    .line 697
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->reset()V
 
-    .line 697
+    .line 698
     monitor-enter p0
 
-    .line 699
+    .line 700
     :try_start_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     if-eqz v0, :cond_0
 
-    .line 700
+    .line 701
     invoke-virtual {v0}, Lokio/Buffer;->clear()V
 
     goto :goto_0
 
-    .line 702
+    .line 703
     :cond_0
     new-instance v0, Lokio/Buffer;
 
@@ -2837,18 +2837,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
-    .line 703
+    .line 704
     :goto_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     if-eqz v0, :cond_1
 
-    .line 704
+    .line 705
     invoke-virtual {v0}, Lokio/Buffer;->clear()V
 
     goto :goto_1
 
-    .line 705
+    .line 706
     :cond_1
     new-instance v0, Lokio/Buffer;
 
@@ -2856,18 +2856,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
-    .line 706
+    .line 707
     :goto_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-eqz v0, :cond_2
 
-    .line 707
+    .line 708
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
     goto :goto_2
 
-    .line 708
+    .line 709
     :cond_2
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2875,18 +2875,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 710
+    .line 711
     :goto_2
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-eqz v0, :cond_3
 
-    .line 711
+    .line 712
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
     goto :goto_3
 
-    .line 713
+    .line 714
     :cond_3
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2894,7 +2894,7 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 715
+    .line 716
     :goto_3
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2904,7 +2904,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 716
+    .line 717
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/step_counter/SCAckCmd;
@@ -2913,7 +2913,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 717
+    .line 718
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/iconsole/ICClientIDNotify;
@@ -2922,7 +2922,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 718
+    .line 719
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/roller_wheel/RWClientIDNotify;
@@ -2931,7 +2931,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 719
+    .line 720
     monitor-exit p0
 
     return-void
@@ -2949,7 +2949,7 @@
 .method protected seekStarter(Lokio/Buffer;)V
     .locals 10
 
-    .line 876
+    .line 877
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2967,7 +2967,7 @@
 
     const/16 v6, -0x10
 
-    .line 879
+    .line 880
     invoke-virtual {p1, v4, v5}, Lokio/Buffer;->getByte(J)B
 
     move-result v9
@@ -2991,7 +2991,7 @@
 
     if-nez v0, :cond_2
 
-    .line 888
+    .line 889
     invoke-virtual {p1}, Lokio/Buffer;->clear()V
 
     goto :goto_2
@@ -3001,7 +3001,7 @@
 
     if-lez v0, :cond_3
 
-    .line 894
+    .line 895
     :try_start_0
     invoke-virtual {p1, v4, v5}, Lokio/Buffer;->skip(J)V
     :try_end_0
@@ -3036,37 +3036,37 @@
         }
     .end annotation
 
-    .line 653
+    .line 654
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 654
+    .line 655
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 655
+    .line 656
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 656
+    .line 657
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 657
+    .line 658
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 659
+    .line 660
     div-int/lit8 v5, p1, 0x14
 
     const/16 v6, 0x14
 
-    .line 660
+    .line 661
     rem-int/2addr p1, v6
 
     const/4 v7, 0x0
@@ -3076,7 +3076,7 @@
 
     if-ge v7, v8, :cond_0
 
-    .line 664
+    .line 665
     invoke-interface {p2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -3085,14 +3085,14 @@
 
     invoke-virtual {v2, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 666
+    .line 667
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
 
     invoke-virtual {v0, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 667
+    .line 668
     invoke-interface {p3, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -3109,7 +3109,7 @@
     :goto_1
     if-ge v8, v6, :cond_2
 
-    .line 672
+    .line 673
     invoke-interface {p2, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -3124,7 +3124,7 @@
 
     add-int v7, v5, p1
 
-    .line 675
+    .line 676
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -3133,7 +3133,7 @@
 
     goto :goto_2
 
-    .line 677
+    .line 678
     :cond_1
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3141,7 +3141,7 @@
 
     invoke-virtual {v1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 678
+    .line 679
     :goto_2
     invoke-interface {p3, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -3155,45 +3155,45 @@
 
     goto :goto_1
 
-    .line 681
+    .line 682
     :cond_2
     new-instance p1, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;
 
     invoke-direct {p1, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;-><init>(Ljava/util/List;)V
 
-    .line 682
+    .line 683
     new-instance p2, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;
 
     invoke-direct {p2, v1}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;-><init>(Ljava/util/List;)V
 
-    .line 683
+    .line 684
     new-instance p3, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;
 
     invoke-direct {p3, v3}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;-><init>(Ljava/util/List;)V
 
-    .line 684
+    .line 685
     new-instance v0, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;
 
     invoke-direct {v0, v4}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;-><init>(Ljava/util/List;)V
 
-    .line 685
+    .line 686
     new-instance v1, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;
 
     invoke-direct {v1, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;-><init>(Ljava/util/List;)V
 
-    .line 687
+    .line 688
     invoke-virtual {p0, p3}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 688
+    .line 689
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 689
+    .line 690
     invoke-virtual {p0, v1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 690
+    .line 691
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 691
+    .line 692
     invoke-virtual {p0, p2}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3202,7 +3202,7 @@
 .method public setResistanceLevel(I)V
     .locals 1
 
-    .line 514
+    .line 515
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setResistanceLevel(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3211,7 +3211,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 516
+    .line 517
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3221,7 +3221,7 @@
 .method public setTMIntervalProgram(IIIIDD)V
     .locals 5
 
-    .line 619
+    .line 620
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3234,18 +3234,18 @@
 
     return-void
 
-    .line 622
+    .line 623
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 623
+    .line 624
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 624
+    .line 625
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -3257,42 +3257,42 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 628
+    .line 629
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p3}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 629
+    .line 630
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p4}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 631
+    .line 632
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p1}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 632
+    .line 633
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p2}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 634
+    .line 635
     new-instance v4, Ljava/lang/Double;
 
     invoke-direct {v4, p5, p6}, Ljava/lang/Double;-><init>(D)V
 
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 635
+    .line 636
     new-instance v4, Ljava/lang/Double;
 
     invoke-direct {v4, p7, p8}, Ljava/lang/Double;-><init>(D)V
@@ -3303,45 +3303,45 @@
 
     goto :goto_0
 
-    .line 638
+    .line 639
     :cond_1
     new-instance p1, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;
 
     invoke-direct {p1, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;-><init>(Ljava/util/List;)V
 
-    .line 639
+    .line 640
     new-instance p2, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;
 
     invoke-direct {p2, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;-><init>(Ljava/util/List;)V
 
-    .line 640
+    .line 641
     new-instance p3, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;
 
     invoke-direct {p3, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;-><init>(Ljava/util/List;)V
 
-    .line 641
+    .line 642
     new-instance p4, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;
 
     invoke-direct {p4, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;-><init>(Ljava/util/List;)V
 
-    .line 642
+    .line 643
     new-instance p5, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;
 
     invoke-direct {p5, v1}, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;-><init>(Ljava/util/List;)V
 
-    .line 644
+    .line 645
     invoke-virtual {p0, p3}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 645
+    .line 646
     invoke-virtual {p0, p4}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 646
+    .line 647
     invoke-virtual {p0, p5}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 647
+    .line 648
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 648
+    .line 649
     invoke-virtual {p0, p2}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3350,7 +3350,7 @@
 .method public setTMKeyLock(I)V
     .locals 1
 
-    .line 610
+    .line 611
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3363,13 +3363,13 @@
 
     return-void
 
-    .line 613
+    .line 614
     :cond_0
     new-instance v0, Lchangyow/ble4th/handler/treadmill/TMSetKeyLock;
 
     invoke-direct {v0, p1}, Lchangyow/ble4th/handler/treadmill/TMSetKeyLock;-><init>(I)V
 
-    .line 614
+    .line 615
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3378,7 +3378,7 @@
 .method public setWorkoutControlState(I)V
     .locals 1
 
-    .line 539
+    .line 540
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setWorkoutControlState(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3387,7 +3387,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 541
+    .line 542
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3397,7 +3397,7 @@
 .method public setWorkoutMode(I)V
     .locals 1
 
-    .line 596
+    .line 597
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setWorkoutMode(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3406,7 +3406,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 598
+    .line 599
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3416,7 +3416,7 @@
 .method public setWorkoutParam(IDIID)V
     .locals 8
 
-    .line 603
+    .line 604
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     move v1, p1
@@ -3435,7 +3435,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 605
+    .line 606
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3447,7 +3447,7 @@
 
     const/4 v0, 0x1
 
-    .line 572
+    .line 573
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void
@@ -3458,10 +3458,10 @@
 
     const/4 v0, 0x0
 
-    .line 549
+    .line 550
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 550
+    .line 551
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3472,7 +3472,7 @@
 
     if-nez v0, :cond_0
 
-    .line 551
+    .line 552
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3483,7 +3483,7 @@
 
     if-nez v0, :cond_0
 
-    .line 552
+    .line 553
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3494,7 +3494,7 @@
 
     if-nez v0, :cond_0
 
-    .line 553
+    .line 554
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3505,7 +3505,7 @@
 
     if-nez v0, :cond_0
 
-    .line 554
+    .line 555
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3516,7 +3516,7 @@
 
     if-nez v0, :cond_0
 
-    .line 555
+    .line 556
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3530,7 +3530,7 @@
     :cond_0
     const/4 v0, 0x3
 
-    .line 556
+    .line 557
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     :cond_1
@@ -3542,7 +3542,7 @@
 
     const/4 v0, 0x3
 
-    .line 577
+    .line 578
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void

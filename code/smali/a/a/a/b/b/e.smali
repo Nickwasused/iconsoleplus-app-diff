@@ -223,7 +223,7 @@
 
     const-string v0, "SystemAudioCapture"
 
-    const-string/jumbo v1, "stopAudioCapture() called"
+    const-string v1, "stopAudioCapture() called"
 
     .line 112
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
@@ -295,7 +295,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v1, "startAudioCapture() called "
+    const-string v1, "startAudioCapture() called "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

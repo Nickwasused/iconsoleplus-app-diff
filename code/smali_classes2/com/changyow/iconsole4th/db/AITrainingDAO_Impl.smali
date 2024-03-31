@@ -486,14 +486,14 @@
 
     move-result v3
 
-    const-string v4, "timeslotStart"
+    const-string/jumbo v4, "timeslotStart"
 
     .line 205
     invoke-static {v1, v4}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v4
 
-    const-string v5, "timeslotEnd"
+    const-string/jumbo v5, "timeslotEnd"
 
     .line 206
     invoke-static {v1, v5}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -637,14 +637,14 @@
 
     move-result v2
 
-    const-string v3, "timeslotStart"
+    const-string/jumbo v3, "timeslotStart"
 
     .line 243
     invoke-static {p1, v3}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v3
 
-    const-string v4, "timeslotEnd"
+    const-string/jumbo v4, "timeslotEnd"
 
     .line 244
     invoke-static {p1, v4}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -775,14 +775,14 @@
 
     move-result v3
 
-    const-string v4, "timeslotStart"
+    const-string/jumbo v4, "timeslotStart"
 
     .line 281
     invoke-static {p1, v4}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v4
 
-    const-string v5, "timeslotEnd"
+    const-string/jumbo v5, "timeslotEnd"
 
     .line 282
     invoke-static {p1, v5}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I

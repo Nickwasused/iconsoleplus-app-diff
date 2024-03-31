@@ -729,7 +729,7 @@
 
     move-result-object v1
 
-    const-string v2, "versionCode"
+    const-string/jumbo v2, "versionCode"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 
@@ -742,7 +742,7 @@
 
     move-result-object v1
 
-    const-string v2, "typeIn"
+    const-string/jumbo v2, "typeIn"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 
@@ -755,7 +755,7 @@
 
     move-result-object v1
 
-    const-string v2, "typeInArray"
+    const-string/jumbo v2, "typeInArray"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 
@@ -768,7 +768,7 @@
 
     move-result-object v1
 
-    const-string v2, "typeOut"
+    const-string/jumbo v2, "typeOut"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 
@@ -781,7 +781,7 @@
 
     move-result-object v1
 
-    const-string v2, "typeOutArray"
+    const-string/jumbo v2, "typeOutArray"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 

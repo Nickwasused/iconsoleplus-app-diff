@@ -77,7 +77,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0a0074
+    const v0, 0x7f0a0077
 
     .line 78
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     if-eqz v4, :cond_0
 
-    const v0, 0x7f0a009b
+    const v0, 0x7f0a009e
 
     .line 84
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     check-cast v6, Lcom/daimajia/swipe/SwipeLayout;
 
-    const v0, 0x7f0a055c
+    const v0, 0x7f0a0567
 
     .line 92
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     if-eqz v7, :cond_0
 
-    const v0, 0x7f0a057a
+    const v0, 0x7f0a0585
 
     .line 98
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;

@@ -1057,7 +1057,7 @@
 
     aput-object p1, v0, v1
 
-    const-string/jumbo p1, "{%s} %s"
+    const-string p1, "{%s} %s"
 
     invoke-static {p1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 

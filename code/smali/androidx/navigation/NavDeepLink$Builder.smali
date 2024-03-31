@@ -214,7 +214,7 @@
 .method public final setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
     .locals 1
 
-    const-string/jumbo v0, "uriPattern"
+    const-string v0, "uriPattern"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

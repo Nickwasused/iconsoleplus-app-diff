@@ -1404,7 +1404,7 @@
     .line 832
     iget-object v0, p1, Lcom/google/android/exoplayer2/source/dash/manifest/UtcTimingElement;->schemeIdUri:Ljava/lang/String;
 
-    const-string v1, "urn:mpeg:dash:utc:direct:2014"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:direct:2014"
 
     .line 833
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1413,7 +1413,7 @@
 
     if-nez v1, :cond_7
 
-    const-string v1, "urn:mpeg:dash:utc:direct:2012"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:direct:2012"
 
     .line 834
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1425,7 +1425,7 @@
     goto :goto_3
 
     :cond_0
-    const-string v1, "urn:mpeg:dash:utc:http-iso:2014"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:http-iso:2014"
 
     .line 836
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1434,7 +1434,7 @@
 
     if-nez v1, :cond_6
 
-    const-string v1, "urn:mpeg:dash:utc:http-iso:2012"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:http-iso:2012"
 
     .line 837
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1446,7 +1446,7 @@
     goto :goto_2
 
     :cond_1
-    const-string v1, "urn:mpeg:dash:utc:http-xsdate:2014"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:http-xsdate:2014"
 
     .line 839
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1455,7 +1455,7 @@
 
     if-nez v1, :cond_5
 
-    const-string v1, "urn:mpeg:dash:utc:http-xsdate:2012"
+    const-string/jumbo v1, "urn:mpeg:dash:utc:http-xsdate:2012"
 
     .line 840
     invoke-static {v0, v1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1467,7 +1467,7 @@
     goto :goto_1
 
     :cond_2
-    const-string p1, "urn:mpeg:dash:utc:ntp:2014"
+    const-string/jumbo p1, "urn:mpeg:dash:utc:ntp:2014"
 
     .line 842
     invoke-static {v0, p1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1476,7 +1476,7 @@
 
     if-nez p1, :cond_4
 
-    const-string p1, "urn:mpeg:dash:utc:ntp:2012"
+    const-string/jumbo p1, "urn:mpeg:dash:utc:ntp:2012"
 
     .line 843
     invoke-static {v0, p1}, Lcom/google/android/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z

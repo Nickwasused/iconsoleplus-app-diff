@@ -68,15 +68,15 @@
 
 .field public static final abc_toolbar_collapse_description:I = 0x7f12001a
 
-.field public static final rationale_ask:I = 0x7f120212
+.field public static final rationale_ask:I = 0x7f120214
 
-.field public static final rationale_ask_again:I = 0x7f120213
+.field public static final rationale_ask_again:I = 0x7f120215
 
-.field public static final search_menu_title:I = 0x7f120218
+.field public static final search_menu_title:I = 0x7f12021a
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
 
-.field public static final title_settings_dialog:I = 0x7f12046b
+.field public static final title_settings_dialog:I = 0x7f12046f
 
 
 # direct methods

@@ -461,7 +461,7 @@
     .line 266
     const-class v1, Landroid/location/LocationRequest;
 
-    const-string/jumbo v2, "setQuality"
+    const-string v2, "setQuality"
 
     new-array v3, v6, [Ljava/lang/Class;
 
@@ -562,7 +562,7 @@
     .line 284
     const-class v1, Landroid/location/LocationRequest;
 
-    const-string/jumbo v2, "setNumUpdates"
+    const-string v2, "setNumUpdates"
 
     new-array v3, v6, [Ljava/lang/Class;
 

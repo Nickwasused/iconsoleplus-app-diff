@@ -128,11 +128,11 @@
         }
     .end annotation
 
-    if-eqz p1, :cond_9
+    if-eqz p1, :cond_a
 
     const/4 v0, 0x1
 
-    if-eq p1, v0, :cond_8
+    if-eq p1, v0, :cond_9
 
     const/4 v1, 0x2
 
@@ -140,11 +140,11 @@
 
     const/4 v3, 0x0
 
-    if-eq p1, v1, :cond_5
+    if-eq p1, v1, :cond_6
 
     const/4 v1, 0x3
 
-    if-eq p1, v1, :cond_4
+    if-eq p1, v1, :cond_5
 
     const/4 v1, 0x5
 
@@ -158,7 +158,7 @@
 
     if-eq p1, v0, :cond_0
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     .line 208
     :cond_0
@@ -182,7 +182,7 @@
 
     invoke-virtual {v0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     .line 203
     :cond_1
@@ -198,7 +198,7 @@
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     .line 187
     :cond_2
@@ -226,20 +226,39 @@
 
     if-nez p1, :cond_3
 
+    move p1, v0
+
     goto :goto_0
 
     :cond_3
-    move v0, v3
+    move p1, v3
 
     .line 193
     :goto_0
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
-    move-result-object p1
+    move-result-object v4
 
-    invoke-virtual {p1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+
+    .line 194
+    invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    invoke-static {v4}, Lcom/changyow/iconsole4th/util/PlayServiceHelp;->isForceCnMode(Landroid/content/Context;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_4
+
+    goto :goto_1
+
+    :cond_4
+    move v0, p1
 
     .line 197
+    :goto_1
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object p1
@@ -271,10 +290,10 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/SettingListAdapter;->notifyDataSetChanged()V
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     .line 182
-    :cond_4
+    :cond_5
     new-instance p1, Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->mContext:Landroid/app/Activity;
@@ -285,10 +304,10 @@
 
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->startActivity(Landroid/content/Intent;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     .line 121
-    :cond_5
+    :cond_6
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object p1
@@ -329,10 +348,10 @@
     iput v1, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->selectedLang:I
 
     .line 125
-    :goto_1
+    :goto_2
     array-length v1, v0
 
-    if-ge v3, v1, :cond_7
+    if-ge v3, v1, :cond_8
 
     .line 127
     aget-object v1, v0, v3
@@ -345,13 +364,13 @@
 
     move-result v1
 
-    if-eqz v1, :cond_6
+    if-eqz v1, :cond_7
 
     .line 128
     iput v3, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->selectedLang:I
 
     .line 129
-    :cond_6
+    :cond_7
     aget-object v1, v0, v3
 
     invoke-virtual {v1}, Ljava/util/Locale;->getDisplayLanguage()Ljava/lang/String;
@@ -362,17 +381,17 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    goto :goto_1
+    goto :goto_2
 
     .line 131
-    :cond_7
+    :cond_8
     new-instance p1, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->mContext:Landroid/app/Activity;
 
     invoke-direct {p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1203c6
+    const v1, 0x7f1203ca
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -389,7 +408,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120279
+    const v1, 0x7f12027b
 
     new-instance v2, Lcom/changyow/iconsole4th/fragment/SettingsFragment$2;
 
@@ -403,16 +422,16 @@
     .line 177
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertDialog$Builder;->show()Landroidx/appcompat/app/AlertDialog;
 
-    goto :goto_2
+    goto :goto_3
 
     .line 114
-    :cond_8
+    :cond_9
     invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->getPermissions()V
 
-    goto :goto_2
+    goto :goto_3
 
     .line 107
-    :cond_9
+    :cond_a
     invoke-static {}, Lcom/changyow/iconsole4th/db/UserProfile;->getUserProfile()Lcom/changyow/iconsole4th/db/UserProfile;
 
     move-result-object p1
@@ -431,7 +450,7 @@
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/adapter/SettingListAdapter;->notifyDataSetChanged()V
 
-    :goto_2
+    :goto_3
     return-void
 .end method
 
@@ -453,7 +472,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a00af
+    const v1, 0x7f0a00b2
 
     if-eq v0, v1, :cond_0
 
@@ -504,15 +523,15 @@
 
     move-result-object p3
 
-    const-string v0, "user"
+    const-string/jumbo v0, "user"
 
-    const-string v1, "view"
+    const-string/jumbo v1, "view"
 
     invoke-virtual {p3, v0, v1}, Lorg/matomo/sdk/extra/TrackHelper;->event(Ljava/lang/String;Ljava/lang/String;)Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;
 
     move-result-object p3
 
-    const-string v0, "settings"
+    const-string/jumbo v0, "settings"
 
     invoke-virtual {p3, v0}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->name(Ljava/lang/String;)Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;
 
@@ -533,7 +552,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a02ca
+    const p2, 0x7f0a02d0
 
     .line 76
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -544,7 +563,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->lvSettingList:Landroid/widget/ListView;
 
-    const p2, 0x7f0a01a6
+    const p2, 0x7f0a01ab
 
     .line 77
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -555,7 +574,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a055c
+    const p2, 0x7f0a0567
 
     .line 78
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -566,7 +585,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a00af
+    const p2, 0x7f0a00b2
 
     .line 79
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -580,7 +599,7 @@
     .line 81
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/SettingsFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p3, 0x7f12029d
+    const p3, 0x7f12029f
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 

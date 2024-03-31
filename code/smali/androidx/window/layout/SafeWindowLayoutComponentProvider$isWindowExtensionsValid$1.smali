@@ -112,7 +112,7 @@
     .line 73
     sget-object v3, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
 
-    const-string/jumbo v4, "windowLayoutComponentClass"
+    const-string v4, "windowLayoutComponentClass"
 
     invoke-static {v2, v4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -104,11 +104,11 @@
 
     const-string v0, "position"
 
-    const-string/jumbo v1, "x"
+    const-string v1, "x"
 
-    const-string/jumbo v2, "y"
+    const-string v2, "y"
 
-    const-string/jumbo v3, "width"
+    const-string v3, "width"
 
     const-string v4, "height"
 
@@ -457,7 +457,7 @@
     goto :goto_1
 
     :sswitch_7
-    const-string/jumbo v4, "translationZ"
+    const-string v4, "translationZ"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -473,7 +473,7 @@
     goto :goto_1
 
     :sswitch_8
-    const-string/jumbo v4, "translationY"
+    const-string v4, "translationY"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -489,7 +489,7 @@
     goto :goto_1
 
     :sswitch_9
-    const-string/jumbo v4, "translationX"
+    const-string v4, "translationX"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -926,6 +926,8 @@
     :cond_1d
     return-void
 
+    nop
+
     :sswitch_data_0
     .sparse-switch
         -0x4a771f66 -> :sswitch_c
@@ -1182,7 +1184,7 @@
 
     move-result v0
 
-    const-string/jumbo v2, "translationZ"
+    const-string v2, "translationZ"
 
     if-eqz v0, :cond_1
 
@@ -1390,7 +1392,7 @@
 
     if-eqz v0, :cond_f
 
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     .line 129
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1407,7 +1409,7 @@
 
     if-eqz v0, :cond_10
 
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     .line 132
     invoke-virtual {p2, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z

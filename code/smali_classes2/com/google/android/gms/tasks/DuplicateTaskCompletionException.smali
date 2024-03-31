@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_3
-    const-string p0, "unknown issue"
+    const-string/jumbo p0, "unknown issue"
 
     .line 3
     :goto_0

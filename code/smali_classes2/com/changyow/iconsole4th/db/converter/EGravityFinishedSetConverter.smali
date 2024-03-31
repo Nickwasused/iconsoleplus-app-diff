@@ -20,7 +20,7 @@
         "Lkotlin/collections/ArrayList;",
         "getModelValue",
         "data",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {

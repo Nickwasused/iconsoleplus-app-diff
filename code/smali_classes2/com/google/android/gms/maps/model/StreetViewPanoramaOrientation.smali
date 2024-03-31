@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const-string v2, "tilt"
+    const-string/jumbo v2, "tilt"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;
 

@@ -981,7 +981,7 @@
         }
     .end annotation
 
-    const-string v0, "urn:mpeg:dash:adaptation-set-switching:2016"
+    const-string/jumbo v0, "urn:mpeg:dash:adaptation-set-switching:2016"
 
     .line 800
     invoke-static {p0, v0}, Lcom/google/android/exoplayer2/source/dash/DashMediaPeriod;->findDescriptor(Ljava/util/List;Ljava/lang/String;)Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;
@@ -1126,7 +1126,7 @@
     .line 840
     iget-object v7, v6, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v8, "urn:scte:dash:cc:cea-608:2015"
+    const-string/jumbo v8, "urn:scte:dash:cc:cea-608:2015"
 
     invoke-virtual {v8, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1187,7 +1187,7 @@
     :cond_0
     iget-object v7, v6, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v9, "urn:scte:dash:cc:cea-708:2015"
+    const-string/jumbo v9, "urn:scte:dash:cc:cea-708:2015"
 
     invoke-virtual {v9, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

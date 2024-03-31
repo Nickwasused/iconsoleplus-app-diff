@@ -172,7 +172,7 @@
 .method public tileProvider(Lcom/google/android/gms/maps/model/TileProvider;)Lcom/google/android/gms/maps/model/TileOverlayOptions;
     .locals 1
 
-    const-string v0, "tileProvider must not be null."
+    const-string/jumbo v0, "tileProvider must not be null."
 
     .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

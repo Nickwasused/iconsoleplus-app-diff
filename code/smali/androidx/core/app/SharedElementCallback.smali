@@ -191,7 +191,7 @@
 
     invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
 
-    const-string/jumbo p2, "sharedElement:snapshot:bitmap"
+    const-string p2, "sharedElement:snapshot:bitmap"
 
     .line 176
     invoke-virtual {p1, p2, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
@@ -205,7 +205,7 @@
 
     move-result-object p2
 
-    const-string/jumbo p3, "sharedElement:snapshot:imageScaleType"
+    const-string p3, "sharedElement:snapshot:imageScaleType"
 
     .line 177
     invoke-virtual {p1, p3, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
@@ -231,7 +231,7 @@
     .line 182
     invoke-virtual {p2, p3}, Landroid/graphics/Matrix;->getValues([F)V
 
-    const-string/jumbo p2, "sharedElement:snapshot:imageMatrix"
+    const-string p2, "sharedElement:snapshot:imageMatrix"
 
     .line 183
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putFloatArray(Ljava/lang/String;[F)V
@@ -364,7 +364,7 @@
     .line 259
     check-cast p2, Landroid/os/Bundle;
 
-    const-string/jumbo v0, "sharedElement:snapshot:bitmap"
+    const-string v0, "sharedElement:snapshot:bitmap"
 
     .line 260
     invoke-virtual {p2, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -386,7 +386,7 @@
     .line 266
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    const-string/jumbo p1, "sharedElement:snapshot:imageScaleType"
+    const-string p1, "sharedElement:snapshot:imageScaleType"
 
     .line 268
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -409,7 +409,7 @@
 
     if-ne p1, v0, :cond_2
 
-    const-string/jumbo p1, "sharedElement:snapshot:imageMatrix"
+    const-string p1, "sharedElement:snapshot:imageMatrix"
 
     .line 270
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getFloatArray(Ljava/lang/String;)[F

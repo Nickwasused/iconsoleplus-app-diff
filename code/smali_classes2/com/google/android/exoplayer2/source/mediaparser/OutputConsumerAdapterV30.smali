@@ -725,7 +725,7 @@
     throw v0
 
     :pswitch_0
-    const-string p0, "video/x-flv"
+    const-string/jumbo p0, "video/x-flv"
 
     return-object p0
 
@@ -740,7 +740,7 @@
     return-object p0
 
     :pswitch_3
-    const-string p0, "video/webm"
+    const-string/jumbo p0, "video/webm"
 
     return-object p0
 
@@ -760,7 +760,7 @@
     return-object p0
 
     :pswitch_7
-    const-string p0, "video/mp2p"
+    const-string/jumbo p0, "video/mp2p"
 
     return-object p0
 
@@ -775,7 +775,7 @@
     return-object p0
 
     :pswitch_a
-    const-string p0, "video/mp2t"
+    const-string/jumbo p0, "video/mp2t"
 
     return-object p0
 
@@ -785,9 +785,11 @@
     return-object p0
 
     :pswitch_c
-    const-string p0, "video/mp4"
+    const-string/jumbo p0, "video/mp4"
 
     return-object p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -1529,7 +1531,7 @@
 
     move-result-object p1
 
-    const-string v3, "subsample-offset-us-long"
+    const-string/jumbo v3, "subsample-offset-us-long"
 
     const-wide v6, 0x7fffffffffffffffL
 
@@ -1662,7 +1664,7 @@
     goto :goto_1
 
     :sswitch_0
-    const-string v1, "video"
+    const-string/jumbo v1, "video"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1694,7 +1696,7 @@
     goto :goto_1
 
     :sswitch_2
-    const-string v1, "text"
+    const-string/jumbo v1, "text"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1710,7 +1712,7 @@
     goto :goto_1
 
     :sswitch_3
-    const-string v1, "unknown"
+    const-string/jumbo v1, "unknown"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1765,8 +1767,6 @@
     const/4 p0, 0x5
 
     return p0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -2148,7 +2148,7 @@
     .line 279
     iget-object v0, p2, Landroid/media/MediaParser$TrackData;->mediaFormat:Landroid/media/MediaFormat;
 
-    const-string v1, "track-type-string"
+    const-string/jumbo v1, "track-type-string"
 
     invoke-virtual {v0, v1}, Landroid/media/MediaFormat;->getString(Ljava/lang/String;)Ljava/lang/String;
 

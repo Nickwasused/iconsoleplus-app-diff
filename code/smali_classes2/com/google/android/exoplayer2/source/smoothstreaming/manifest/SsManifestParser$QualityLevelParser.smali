@@ -343,7 +343,7 @@
 
     :cond_e
     :goto_5
-    const-string p0, "video/avc"
+    const-string/jumbo p0, "video/avc"
 
     return-object p0
 .end method
@@ -414,7 +414,7 @@
 
     move-result-object v2
 
-    const-string v3, "video/mp4"
+    const-string/jumbo v3, "video/mp4"
 
     .line 675
     invoke-virtual {v0, v3}, Lcom/google/android/exoplayer2/Format$Builder;->setContainerMimeType(Ljava/lang/String;)Lcom/google/android/exoplayer2/Format$Builder;

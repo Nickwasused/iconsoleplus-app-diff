@@ -261,7 +261,7 @@
 
     invoke-static {p0, p3, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/ListenableFuture;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
-    const-string/jumbo p0, "surfaceList"
+    const-string p0, "surfaceList"
 
     return-object p0
 .end method

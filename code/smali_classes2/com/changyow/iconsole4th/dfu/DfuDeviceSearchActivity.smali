@@ -467,7 +467,7 @@
     .line 143
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/ActionBar;->setDisplayShowCustomEnabled(Z)V
 
-    const v0, 0x7f0a055c
+    const v0, 0x7f0a0567
 
     .line 145
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0a01e7
+    const v2, 0x7f0a01ec
 
     .line 146
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,7 +485,7 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    const v3, 0x7f0a01e9
+    const v3, 0x7f0a01ee
 
     .line 147
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,12 +494,12 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f1201f4
+    const v3, 0x7f1201f6
 
     .line 149
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080190
+    const v0, 0x7f080192
 
     .line 150
     invoke-virtual {v2, v0}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -530,14 +530,14 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12032a
+    const v1, 0x7f12032d
 
     .line 328
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f120279
+    const v1, 0x7f12027b
 
     new-instance v2, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity$5;
 
@@ -829,7 +829,7 @@
     .line 43
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->setContentView(I)V
 
-    const p1, 0x7f0a02c5
+    const p1, 0x7f0a02cb
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->findViewById(I)Landroid/view/View;
@@ -840,7 +840,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->lvDevices:Landroid/widget/ListView;
 
-    const p1, 0x7f0a006a
+    const p1, 0x7f0a006b
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->findViewById(I)Landroid/view/View;
@@ -851,7 +851,7 @@
 
     iput-object p1, p0, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->avLoadingIndicatorView:Lcom/wang/avi/AVLoadingIndicatorView;
 
-    const p1, 0x7f0a03a6
+    const p1, 0x7f0a03ac
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/dfu/DfuDeviceSearchActivity;->findViewById(I)Landroid/view/View;

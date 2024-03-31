@@ -147,7 +147,7 @@
     move-result-object p1
 
     :goto_0
-    const-string/jumbo p2, "try {\n                co\u2026.toString()\n            }"
+    const-string p2, "try {\n                co\u2026.toString()\n            }"
 
     .line 657
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V

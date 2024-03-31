@@ -30,7 +30,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -64,7 +64,7 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    const-string v0, "summaryTextColor"
+    const-string/jumbo v0, "summaryTextColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -166,7 +166,7 @@
 .method public final copy(Ljava/lang/String;Ljava/lang/String;)Lcom/changyow/iconsole4th/models/MainMyTraining;
     .locals 1
 
-    const-string v0, "summaryTextColor"
+    const-string/jumbo v0, "summaryTextColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

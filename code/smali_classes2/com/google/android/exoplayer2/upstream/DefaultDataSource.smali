@@ -736,7 +736,7 @@
     goto :goto_2
 
     :cond_5
-    const-string v1, "udp"
+    const-string/jumbo v1, "udp"
 
     .line 191
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

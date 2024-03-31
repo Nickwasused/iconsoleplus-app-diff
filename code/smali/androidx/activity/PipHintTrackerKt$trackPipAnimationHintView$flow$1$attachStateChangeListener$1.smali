@@ -94,7 +94,7 @@
 .method public onViewAttachedToWindow(Landroid/view/View;)V
     .locals 1
 
-    const-string/jumbo v0, "v"
+    const-string v0, "v"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -133,7 +133,7 @@
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
     .locals 2
 
-    const-string/jumbo v0, "v"
+    const-string v0, "v"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

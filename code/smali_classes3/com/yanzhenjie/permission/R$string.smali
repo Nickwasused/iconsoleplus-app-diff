@@ -68,33 +68,33 @@
 
 .field public static final abc_toolbar_collapse_description:I = 0x7f12001a
 
-.field public static final permission_name_activity_recognition:I = 0x7f1201fb
+.field public static final permission_name_activity_recognition:I = 0x7f1201fd
 
-.field public static final permission_name_calendar:I = 0x7f1201fc
+.field public static final permission_name_calendar:I = 0x7f1201fe
 
-.field public static final permission_name_call_log:I = 0x7f1201fd
+.field public static final permission_name_call_log:I = 0x7f1201ff
 
-.field public static final permission_name_camera:I = 0x7f1201fe
+.field public static final permission_name_camera:I = 0x7f120200
 
-.field public static final permission_name_contacts:I = 0x7f1201ff
+.field public static final permission_name_contacts:I = 0x7f120201
 
-.field public static final permission_name_location:I = 0x7f120200
+.field public static final permission_name_location:I = 0x7f120202
 
-.field public static final permission_name_microphone:I = 0x7f120201
+.field public static final permission_name_microphone:I = 0x7f120203
 
-.field public static final permission_name_phone:I = 0x7f120202
+.field public static final permission_name_phone:I = 0x7f120204
 
-.field public static final permission_name_sensors:I = 0x7f120203
+.field public static final permission_name_sensors:I = 0x7f120205
 
-.field public static final permission_name_sms:I = 0x7f120204
+.field public static final permission_name_sms:I = 0x7f120206
 
-.field public static final permission_name_storage:I = 0x7f120205
+.field public static final permission_name_storage:I = 0x7f120207
 
-.field public static final permission_requesting:I = 0x7f120206
+.field public static final permission_requesting:I = 0x7f120208
 
-.field public static final search_menu_title:I = 0x7f120218
+.field public static final search_menu_title:I = 0x7f12021a
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
 
 
 # direct methods

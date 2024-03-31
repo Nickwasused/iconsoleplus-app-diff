@@ -26,9 +26,9 @@
 
     sput-object v0, Lcom/airbnb/lottie/parser/BlurEffectParser;->BLUR_EFFECT_NAMES:Lcom/airbnb/lottie/parser/moshi/JsonReader$Options;
 
-    const-string/jumbo v0, "ty"
+    const-string v0, "ty"
 
-    const-string/jumbo v1, "v"
+    const-string v1, "v"
 
     .line 16
     filled-new-array {v0, v1}, [Ljava/lang/String;

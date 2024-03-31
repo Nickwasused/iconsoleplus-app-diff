@@ -56,7 +56,7 @@
 
     move-object v0, p1
 
-    const-string/jumbo v8, "unable to setProgress"
+    const-string v8, "unable to setProgress"
 
     const-string v9, "ViewTimeCycle"
 
@@ -109,7 +109,7 @@
 
     move-result-object v3
 
-    const-string/jumbo v4, "setProgress"
+    const-string v4, "setProgress"
 
     new-array v5, v2, [Ljava/lang/Class;
 

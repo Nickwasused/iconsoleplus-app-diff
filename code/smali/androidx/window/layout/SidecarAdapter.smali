@@ -102,7 +102,7 @@
 .method public constructor <init>(Landroidx/window/core/SpecificationComputer$VerificationMode;)V
     .locals 1
 
-    const-string/jumbo v0, "verificationMode"
+    const-string v0, "verificationMode"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -380,7 +380,7 @@
 .method public final translate(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/WindowLayoutInfo;
     .locals 2
 
-    const-string/jumbo v0, "state"
+    const-string v0, "state"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -447,7 +447,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "sidecarDisplayFeatures"
+    const-string v0, "sidecarDisplayFeatures"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -74,9 +74,11 @@
     <string name="common_signin_button_text">登录</string>
     <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
     <string name="copy">复制</string>
+    <string name="creating_an_account_implies_agreeing_to_the_terms">创建帐户即表示同意使用条款与隐私政策</string>
     <string name="crop_image_activity_no_permissions">取消中，未授予所需权限</string>
     <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">裁切</string>
+    <string name="desc__please_check_the_privacy_agreement_checkbox">请先核取同意使用条款与隐私政策方块.</string>
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_open">Slider Menu Opened</string>
@@ -349,7 +351,7 @@
     <string name="strNoRouteFound">没有发现路线。</string>
     <string name="strNotification">通知书</string>
     <string name="strOFF">关闭</string>
-    <string name="strOK">好的</string>
+    <string name="strOK">确认</string>
     <string name="strON">启用</string>
     <string name="strOR">或</string>
     <string name="strPageTitleAiTraining">AI 训练</string>
@@ -485,7 +487,9 @@
     <string name="str_bai_tm">BAI™</string>
     <string name="str_bike">室内自行车</string>
     <string name="str_blebeltconnect__connect_hint">单击上方列表中的心率传感器，然后单击“完成”。</string>
+    <string name="str_cancel_delete_account">再想想</string>
     <string name="str_confirm_password">确认密码</string>
+    <string name="str_confirm_to_delete_account">残忍的注销</string>
     <string name="str_connect__interval_mode_is_not_compatible_with_a_manual_meter">手动脚踏车不支持间歇性训练模式。</string>
     <string name="str_connect__map_route_program_is_not_compatible_with_a_rower">规划运动路劲不适合此划船器.</string>
     <string name="str_connect__programs_mode_is_not_compatible_with_a_manual_meter">手拨设备不支持程序训练模式。</string>
@@ -512,6 +516,7 @@
     <string name="str_default_route_china_3">南京環玄武湖</string>
     <string name="str_default_route_china_4">昆明翠湖公園</string>
     <string name="str_default_route_china_5">長春南湖公園</string>
+    <string name="str_delete_account">注销帐号</string>
     <string name="str_direction_with_percent_mark">方向%:</string>
     <string name="str_elliptical">椭圆机</string>
     <string name="str_extremely_hard">相当困难</string>
@@ -563,7 +568,10 @@
     <string name="str_min_500m">分/500公尺</string>
     <string name="str_my_training__over_30s_recorded_only">仅记录30秒钟以上的累积练习</string>
     <string name="str_out">外</string>
+    <string name="str_please_check_your_email_to_confirm_delete">请检查您的邮箱以确认注销</string>
     <string name="str_privacy_ploicy">隐私政策</string>
+    <string name="str_privacy_policy__argeement">&lt;html> &lt;head> &lt;/head> &lt;body> 我已阅读并同意《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>隐私政策&lt;/a>》和《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>服务协议&lt;/a>》。 &lt;/body> &lt;/html></string>
+    <string name="str_proceed_to_delete_account">注销帐号?</string>
     <string name="str_programs">训练课程</string>
     <string name="str_programs__min">分</string>
     <string name="str_quick_start">快速开始</string>
@@ -726,6 +734,7 @@
     <string name="str_warning">警告</string>
     <string name="str_weight">体重</string>
     <string name="str_what_is_your_account_question_mark">您的帐号是?</string>
+    <string name="str_your_account_has_deleted">您的会员已被注销</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="title_activity_map_my_route">规划运动路径</string>
     <string name="title_activity_step_counter_setting">计步器设置</string>

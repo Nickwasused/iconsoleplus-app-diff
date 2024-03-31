@@ -297,7 +297,7 @@
     goto :goto_1
 
     :cond_0
-    const-string/jumbo v0, "w"
+    const-string v0, "w"
 
     .line 853
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -306,7 +306,7 @@
 
     if-nez v0, :cond_5
 
-    const-string/jumbo v0, "wt"
+    const-string v0, "wt"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -317,7 +317,7 @@
     goto :goto_0
 
     :cond_1
-    const-string/jumbo v0, "wa"
+    const-string v0, "wa"
 
     .line 857
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

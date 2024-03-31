@@ -131,7 +131,7 @@
     goto :goto_0
 
     :sswitch_5
-    const-string v2, "text/x-ssa"
+    const-string/jumbo v2, "text/x-ssa"
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -163,7 +163,7 @@
     goto :goto_0
 
     :sswitch_7
-    const-string v2, "text/vtt"
+    const-string/jumbo v2, "text/vtt"
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -393,7 +393,7 @@
     .line 76
     iget-object p1, p1, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
 
-    const-string v0, "text/vtt"
+    const-string/jumbo v0, "text/vtt"
 
     .line 77
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -402,7 +402,7 @@
 
     if-nez v0, :cond_1
 
-    const-string v0, "text/x-ssa"
+    const-string/jumbo v0, "text/x-ssa"
 
     .line 78
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

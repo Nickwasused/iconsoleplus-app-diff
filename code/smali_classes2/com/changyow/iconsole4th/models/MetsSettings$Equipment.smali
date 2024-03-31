@@ -63,7 +63,7 @@
     return v0
 
     :cond_0
-    const-string v1, "treadmill"
+    const-string/jumbo v1, "treadmill"
 
     .line 133
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -159,7 +159,7 @@
     return p0
 
     :cond_7
-    const-string v1, "stepper"
+    const-string/jumbo v1, "stepper"
 
     .line 147
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -220,7 +220,7 @@
     return-object p0
 
     :cond_0
-    const-string p0, "treadmill"
+    const-string/jumbo p0, "treadmill"
 
     return-object p0
 
@@ -235,7 +235,7 @@
     return-object p0
 
     :cond_3
-    const-string p0, "stepper"
+    const-string/jumbo p0, "stepper"
 
     return-object p0
 

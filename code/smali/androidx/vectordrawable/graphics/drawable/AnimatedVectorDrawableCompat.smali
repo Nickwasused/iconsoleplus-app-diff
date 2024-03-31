@@ -534,7 +534,7 @@
 
     if-nez v1, :cond_1
 
-    const-string/jumbo v1, "strokeColor"
+    const-string v1, "strokeColor"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1184,7 +1184,7 @@
     goto :goto_2
 
     :cond_4
-    const-string/jumbo v3, "target"
+    const-string v3, "target"
 
     .line 482
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

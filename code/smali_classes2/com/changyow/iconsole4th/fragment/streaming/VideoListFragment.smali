@@ -308,7 +308,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a055c
+    const v3, 0x7f0a0567
 
     .line 274
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -489,7 +489,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03d6
+    const p2, 0x7f0a03dc
 
     .line 62
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -557,7 +557,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a01e9
+    const v1, 0x7f0a01ee
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -570,7 +570,7 @@
     .line 79
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    const v1, 0x7f0803e5
+    const v1, 0x7f0803eb
 
     .line 80
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setImageResource(I)V
@@ -807,7 +807,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->mContext:Landroid/app/Activity;
 
-    const v3, 0x7f130187
+    const v3, 0x7f130188
 
     invoke-direct {v1, v2, v3}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -836,7 +836,7 @@
 
     invoke-virtual {p0, v2}, Lcom/changyow/iconsole4th/fragment/streaming/VideoListFragment;->applyThemeToStatusBar(Landroid/view/Window;)V
 
-    const v2, 0x7f0a028a
+    const v2, 0x7f0a028f
 
     .line 205
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -845,7 +845,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0a00c3
+    const v3, 0x7f0a00c6
 
     .line 206
     invoke-virtual {v1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -854,7 +854,7 @@
 
     check-cast v3, Landroid/widget/Button;
 
-    const v4, 0x7f0a009e
+    const v4, 0x7f0a00a1
 
     .line 207
     invoke-virtual {v1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -863,7 +863,7 @@
 
     check-cast v4, Landroid/widget/Button;
 
-    const v5, 0x7f0a029d
+    const v5, 0x7f0a02a2
 
     .line 208
     invoke-virtual {v1, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -872,7 +872,7 @@
 
     check-cast v5, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v6, 0x7f0a0265
+    const v6, 0x7f0a026a
 
     .line 209
     invoke-virtual {v1, v6}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -881,7 +881,7 @@
 
     check-cast v6, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v7, 0x7f0a0297
+    const v7, 0x7f0a029c
 
     .line 210
     invoke-virtual {v1, v7}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -890,7 +890,7 @@
 
     check-cast v7, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v8, 0x7f0a027b
+    const v8, 0x7f0a0280
 
     .line 211
     invoke-virtual {v1, v8}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -899,7 +899,7 @@
 
     check-cast v8, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v9, 0x7f0a0257
+    const v9, 0x7f0a025c
 
     .line 212
     invoke-virtual {v1, v9}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -908,7 +908,7 @@
 
     check-cast v9, Lcom/google/android/flexbox/FlexboxLayout;
 
-    const v10, 0x7f0a024c
+    const v10, 0x7f0a0251
 
     .line 213
     invoke-virtual {v1, v10}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -942,7 +942,7 @@
 
     invoke-virtual {v4, v2}, Landroid/widget/Button;->setTextColor(I)V
 
-    const-string v2, "type"
+    const-string/jumbo v2, "type"
 
     .line 227
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -960,7 +960,7 @@
 
     check-cast v3, Ljava/util/HashMap;
 
-    const-string v4, "time"
+    const-string/jumbo v4, "time"
 
     .line 229
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;

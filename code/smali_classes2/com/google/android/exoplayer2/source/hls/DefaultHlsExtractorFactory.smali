@@ -360,7 +360,7 @@
     or-int/lit8 p0, p0, 0x2
 
     :cond_2
-    const-string p2, "video/avc"
+    const-string/jumbo p2, "video/avc"
 
     .line 212
     invoke-static {p1, p2}, Lcom/google/android/exoplayer2/util/MimeTypes;->containsCodecsCorrespondingToMimeType(Ljava/lang/String;Ljava/lang/String;)Z

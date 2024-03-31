@@ -68,7 +68,7 @@
 .method public final getBounds(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
     .locals 1
 
-    const-string/jumbo v0, "windowMetrics"
+    const-string v0, "windowMetrics"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -77,7 +77,7 @@
 
     move-result-object p1
 
-    const-string/jumbo v0, "windowMetrics.bounds"
+    const-string v0, "windowMetrics.bounds"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

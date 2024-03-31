@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final nav_host_fragment_container:I = 0x7f0a0346
+.field public static final nav_host_fragment_container:I = 0x7f0a034c
 
-.field public static final sliding_pane_detail_container:I = 0x7f0a040d
+.field public static final sliding_pane_detail_container:I = 0x7f0a0414
 
-.field public static final sliding_pane_layout:I = 0x7f0a040e
+.field public static final sliding_pane_layout:I = 0x7f0a0415
 
 
 # direct methods

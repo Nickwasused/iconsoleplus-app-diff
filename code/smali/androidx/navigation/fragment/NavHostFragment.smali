@@ -451,7 +451,7 @@
 
     move-result-object v4
 
-    const-string/jumbo v5, "viewModelStore"
+    const-string v5, "viewModelStore"
 
     invoke-static {v4, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -904,7 +904,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    const-string/jumbo v0, "view"
+    const-string v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

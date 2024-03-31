@@ -45,7 +45,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string v1, "video/avc"
+    const-string/jumbo v1, "video/avc"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -120,8 +120,6 @@
     invoke-direct {v0, p1}, Lcom/google/android/exoplayer2/source/rtsp/reader/RtpAacReader;-><init>(Lcom/google/android/exoplayer2/source/rtsp/RtpPayloadFormat;)V
 
     return-object v0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

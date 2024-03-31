@@ -433,7 +433,7 @@
 
     if-eq v0, v4, :cond_0
 
-    const-string v0, "unknown"
+    const-string/jumbo v0, "unknown"
 
     goto :goto_0
 

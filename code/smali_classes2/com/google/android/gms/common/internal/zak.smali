@@ -827,7 +827,7 @@
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string v2, "unregisterConnectionCallbacks(): listener "
+    const-string/jumbo v2, "unregisterConnectionCallbacks(): listener "
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -914,7 +914,7 @@
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string v2, "unregisterConnectionFailedListener(): listener "
+    const-string/jumbo v2, "unregisterConnectionFailedListener(): listener "
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

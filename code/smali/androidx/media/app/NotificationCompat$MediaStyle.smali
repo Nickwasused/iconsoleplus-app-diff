@@ -532,7 +532,7 @@
 
     aput-object v1, v4, v2
 
-    const-string/jumbo v1, "setShowActionsInCompactView: action %d out of bounds (max %d)"
+    const-string v1, "setShowActionsInCompactView: action %d out of bounds (max %d)"
 
     .line 245
     invoke-static {v1, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

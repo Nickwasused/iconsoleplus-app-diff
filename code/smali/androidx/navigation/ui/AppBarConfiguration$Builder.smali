@@ -77,7 +77,7 @@
 .method public constructor <init>(Landroid/view/Menu;)V
     .locals 4
 
-    const-string/jumbo v0, "topLevelMenu"
+    const-string v0, "topLevelMenu"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -181,7 +181,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "topLevelDestinationIds"
+    const-string v0, "topLevelDestinationIds"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -208,7 +208,7 @@
 .method public varargs constructor <init>([I)V
     .locals 4
 
-    const-string/jumbo v0, "topLevelDestinationIds"
+    const-string v0, "topLevelDestinationIds"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

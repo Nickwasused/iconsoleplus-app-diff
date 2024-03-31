@@ -51,15 +51,15 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    const-string v0, "uniform mat4 uMvpMatrix;"
+    const-string/jumbo v0, "uniform mat4 uMvpMatrix;"
 
-    const-string v1, "uniform mat3 uTexMatrix;"
+    const-string/jumbo v1, "uniform mat3 uTexMatrix;"
 
     const-string v2, "attribute vec4 aPosition;"
 
     const-string v3, "attribute vec2 aTexCoords;"
 
-    const-string v4, "varying vec2 vTexCoords;"
+    const-string/jumbo v4, "varying vec2 vTexCoords;"
 
     const-string/jumbo v5, "void main() {"
 
@@ -80,9 +80,9 @@
 
     const-string v2, "precision mediump float;"
 
-    const-string v3, "uniform samplerExternalOES uTexture;"
+    const-string/jumbo v3, "uniform samplerExternalOES uTexture;"
 
-    const-string v4, "varying vec2 vTexCoords;"
+    const-string/jumbo v4, "varying vec2 vTexCoords;"
 
     const-string/jumbo v5, "void main() {"
 
@@ -135,6 +135,8 @@
     sput-object v0, Lcom/google/android/exoplayer2/video/spherical/ProjectionRenderer;->TEX_MATRIX_RIGHT:[F
 
     return-void
+
+    nop
 
     :array_0
     .array-data 4
@@ -466,7 +468,7 @@
 
     iput v0, p0, Lcom/google/android/exoplayer2/video/spherical/ProjectionRenderer;->program:I
 
-    const-string v1, "uMvpMatrix"
+    const-string/jumbo v1, "uMvpMatrix"
 
     .line 123
     invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
@@ -478,7 +480,7 @@
     .line 124
     iget v0, p0, Lcom/google/android/exoplayer2/video/spherical/ProjectionRenderer;->program:I
 
-    const-string v1, "uTexMatrix"
+    const-string/jumbo v1, "uTexMatrix"
 
     invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 
@@ -511,7 +513,7 @@
     .line 127
     iget v0, p0, Lcom/google/android/exoplayer2/video/spherical/ProjectionRenderer;->program:I
 
-    const-string v1, "uTexture"
+    const-string/jumbo v1, "uTexture"
 
     invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 

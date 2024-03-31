@@ -79,7 +79,7 @@
     .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    const-string v0, "transitions can\'t be null"
+    const-string/jumbo v0, "transitions can\'t be null"
 
     .line 3
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -103,7 +103,7 @@
     move v0, v2
 
     :goto_0
-    const-string v3, "transitions can\'t be empty."
+    const-string/jumbo v3, "transitions can\'t be empty."
 
     invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 

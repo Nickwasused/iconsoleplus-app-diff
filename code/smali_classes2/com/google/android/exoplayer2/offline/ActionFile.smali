@@ -128,7 +128,7 @@
     goto :goto_1
 
     :cond_3
-    const-string v0, "ss"
+    const-string/jumbo v0, "ss"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -151,7 +151,7 @@
 
     if-eq p0, v2, :cond_5
 
-    const-string p0, "video/x-unknown"
+    const-string/jumbo p0, "video/x-unknown"
 
     return-object p0
 
@@ -298,7 +298,7 @@
 
     if-nez v8, :cond_4
 
-    const-string v8, "ss"
+    const-string/jumbo v8, "ss"
 
     .line 130
     invoke-virtual {v8, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -409,7 +409,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "ss"
+    const-string/jumbo v0, "ss"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

@@ -232,7 +232,7 @@
     return-object v0
 
     :cond_2
-    const-string v0, "us"
+    const-string/jumbo v0, "us"
 
     return-object v0
 .end method
@@ -245,7 +245,7 @@
 
     move-result-object v0
 
-    const-string v1, "us"
+    const-string/jumbo v1, "us"
 
     .line 17
     invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z

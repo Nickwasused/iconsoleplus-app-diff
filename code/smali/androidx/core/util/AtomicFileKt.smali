@@ -139,7 +139,7 @@
     const/4 v1, 0x1
 
     :try_start_0
-    const-string/jumbo v2, "stream"
+    const-string v2, "stream"
 
     .line 35
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -190,7 +190,7 @@
     move-result-object v0
 
     :try_start_0
-    const-string/jumbo v1, "stream"
+    const-string v1, "stream"
 
     .line 86
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -221,7 +221,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "text"
+    const-string v0, "text"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

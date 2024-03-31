@@ -56,7 +56,7 @@
 
     sput-object v0, Landroidx/constraintlayout/core/motion/utils/Easing;->sDefault:Landroidx/constraintlayout/core/motion/utils/Easing;
 
-    const-string/jumbo v0, "standard"
+    const-string v0, "standard"
 
     const-string v1, "accelerate"
 
@@ -115,7 +115,7 @@
     return-object v0
 
     :cond_1
-    const-string/jumbo v0, "spline"
+    const-string v0, "spline"
 
     .line 51
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -163,7 +163,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string/jumbo v1, "standard"
+    const-string v1, "standard"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -266,7 +266,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v1, "transitionEasing syntax error syntax:transitionEasing=\"cubic(1.0,0.5,0.0,0.6)\" or "
+    const-string v1, "transitionEasing syntax error syntax:transitionEasing=\"cubic(1.0,0.5,0.0,0.6)\" or "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -350,6 +350,8 @@
     invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
 
     return-object p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

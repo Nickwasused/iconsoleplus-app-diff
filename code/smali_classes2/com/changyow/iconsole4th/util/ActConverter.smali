@@ -69,7 +69,7 @@
 
     const-string v1, "lateral_resistance"
 
-    const-string v2, "start_time_interval_since1970"
+    const-string/jumbo v2, "start_time_interval_since1970"
 
     .line 354
     invoke-virtual {p1, v2}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -257,7 +257,7 @@
 
     if-ne v2, v3, :cond_a
 
-    const-string v2, "video_id"
+    const-string/jumbo v2, "video_id"
 
     .line 371
     invoke-virtual {p1, v2}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -646,7 +646,7 @@
     invoke-virtual {v1, v0}, Lcom/changyow/iconsole4th/db/ActivityRecord;->setType(Ljava/lang/Integer;)V
 
     :cond_0
-    const-string v0, "user_comment"
+    const-string/jumbo v0, "user_comment"
 
     .line 442
     invoke-virtual {p1, v0}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -1424,7 +1424,7 @@
     .line 508
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/ActConverter;->mActivityRecord:Lcom/changyow/iconsole4th/db/ActivityRecord;
 
-    const-string v1, "total_mets"
+    const-string/jumbo v1, "total_mets"
 
     invoke-virtual {p1, v1}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
@@ -1625,7 +1625,7 @@
 
     move-result-object v1
 
-    const-string v2, "time_stamp"
+    const-string/jumbo v2, "time_stamp"
 
     .line 539
     invoke-virtual {v1, v2}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -1894,7 +1894,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addRpm(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_8
-    const-string v4, "spm"
+    const-string/jumbo v4, "spm"
 
     .line 593
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -1930,7 +1930,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addRpm(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_9
-    const-string v4, "speed_in_kmh"
+    const-string/jumbo v4, "speed_in_kmh"
 
     .line 600
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -1964,7 +1964,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addSpeed(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_a
-    const-string v4, "time500m_in_seconds"
+    const-string/jumbo v4, "time500m_in_seconds"
 
     .line 607
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -1998,7 +1998,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addTime500(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_b
-    const-string v4, "stroke"
+    const-string/jumbo v4, "stroke"
 
     .line 614
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -2032,7 +2032,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addStroke(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_c
-    const-string v4, "target_rpm"
+    const-string/jumbo v4, "target_rpm"
 
     .line 621
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -2066,7 +2066,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addRpmTarget(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_d
-    const-string v4, "target_spm"
+    const-string/jumbo v4, "target_spm"
 
     .line 628
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -2100,7 +2100,7 @@
     invoke-virtual {v4, v5}, Lcom/changyow/iconsole4th/db/ActivityRecord;->addRpmTarget(Lcom/changyow/iconsole4th/db/model/ValueStamp;)V
 
     :cond_e
-    const-string v4, "target_watt"
+    const-string/jumbo v4, "target_watt"
 
     .line 635
     invoke-virtual {v1, v4}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -2363,7 +2363,7 @@
     invoke-direct {p0, v0}, Lcom/changyow/iconsole4th/util/ActConverter;->getRoute(Lcom/google/gson/JsonArray;)V
 
     :cond_3
-    const-string v0, "stroke"
+    const-string/jumbo v0, "stroke"
 
     .line 434
     invoke-virtual {p1, v0}, Lcom/google/gson/JsonObject;->has(Ljava/lang/String;)Z
@@ -2481,7 +2481,7 @@
 
     move-result-object v1
 
-    const-string v2, "start_time_interval_since1970"
+    const-string/jumbo v2, "start_time_interval_since1970"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -2586,7 +2586,7 @@
 
     move-result-object v1
 
-    const-string v3, "video_id"
+    const-string/jumbo v3, "video_id"
 
     invoke-virtual {v0, v3, v1}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -2908,7 +2908,7 @@
 
     move-result-object v1
 
-    const-string v2, "user_comment"
+    const-string/jumbo v2, "user_comment"
 
     invoke-virtual {p1, v2, v1}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -3295,7 +3295,7 @@
 
     move-result-object v0
 
-    const-string v1, "total_mets"
+    const-string/jumbo v1, "total_mets"
 
     invoke-virtual {p1, v1, v0}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -3375,7 +3375,7 @@
 
     move-result-object v0
 
-    const-string v1, "stroke"
+    const-string/jumbo v1, "stroke"
 
     invoke-virtual {p1, v1, v0}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -3716,7 +3716,7 @@
 
     move-object/from16 v16, v2
 
-    const-string v2, "time_stamp"
+    const-string/jumbo v2, "time_stamp"
 
     invoke-virtual {v13, v2, v15}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -3835,7 +3835,7 @@
 
     move-result-object v2
 
-    const-string v12, "spm"
+    const-string/jumbo v12, "spm"
 
     invoke-virtual {v13, v12, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -3884,7 +3884,7 @@
 
     move-result-object v2
 
-    const-string v12, "speed_in_kmh"
+    const-string/jumbo v12, "speed_in_kmh"
 
     invoke-virtual {v13, v12, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -3993,7 +3993,7 @@
 
     move-result-object v2
 
-    const-string v12, "stroke"
+    const-string/jumbo v12, "stroke"
 
     invoke-virtual {v13, v12, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -4025,7 +4025,7 @@
 
     move-result-object v2
 
-    const-string v12, "time500m_in_seconds"
+    const-string/jumbo v12, "time500m_in_seconds"
 
     invoke-virtual {v13, v12, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -4127,7 +4127,7 @@
 
     move-result-object v2
 
-    const-string v14, "target_spm"
+    const-string/jumbo v14, "target_spm"
 
     invoke-virtual {v13, v14, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -4145,7 +4145,7 @@
 
     move-result-object v2
 
-    const-string v14, "target_rpm"
+    const-string/jumbo v14, "target_rpm"
 
     invoke-virtual {v13, v14, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 
@@ -4178,7 +4178,7 @@
 
     move-result-object v2
 
-    const-string v12, "target_watt"
+    const-string/jumbo v12, "target_watt"
 
     invoke-virtual {v13, v12, v2}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/Number;)V
 

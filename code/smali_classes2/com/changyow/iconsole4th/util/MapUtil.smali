@@ -75,24 +75,24 @@
         }
     .end annotation
 
-    .line 56
+    .line 69
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 41
+    .line 54
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
-    .line 42
+    .line 55
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
-    .line 43
+    .line 56
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -101,17 +101,17 @@
 
     const/4 v0, 0x0
 
-    .line 44
+    .line 57
     iput-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
-    .line 48
+    .line 61
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
 
     sget-object v1, Lokhttp3/Protocol;->HTTP_1_1:Lokhttp3/Protocol;
 
-    .line 49
+    .line 62
     invoke-static {v1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    .line 50
+    .line 63
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
@@ -129,21 +129,21 @@
 
     const-wide/16 v0, 0x0
 
-    .line 463
+    .line 476
     iput-wide v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
     const/4 v0, 0x0
 
-    .line 948
+    .line 961
     iput-boolean v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->bRequestingStringView:Z
 
-    .line 57
+    .line 70
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
 
-    .line 58
+    .line 71
     iput-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
-    .line 59
+    .line 72
     new-instance p1, Landroid/os/Handler;
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
@@ -162,7 +162,7 @@
 .method static synthetic access$000(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/lang/String;Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
     .locals 0
 
-    .line 39
+    .line 52
     invoke-direct {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/util/MapUtil;->handlePathResult(Ljava/lang/String;Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
 
     move-result-wide p0
@@ -173,7 +173,7 @@
 .method static synthetic access$100(Lcom/changyow/iconsole4th/util/MapUtil;)Lcom/changyow/iconsole4th/util/MapUtilListener;
     .locals 0
 
-    .line 39
+    .line 52
     iget-object p0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
     return-object p0
@@ -182,7 +182,7 @@
 .method static synthetic access$200(Lcom/changyow/iconsole4th/util/MapUtil;)Ljava/util/ArrayList;
     .locals 0
 
-    .line 39
+    .line 52
     iget-object p0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     return-object p0
@@ -191,7 +191,7 @@
 .method static synthetic access$300(Lcom/changyow/iconsole4th/util/MapUtil;)D
     .locals 2
 
-    .line 39
+    .line 52
     iget-wide v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
     return-wide v0
@@ -200,7 +200,7 @@
 .method static synthetic access$302(Lcom/changyow/iconsole4th/util/MapUtil;D)D
     .locals 0
 
-    .line 39
+    .line 52
     iput-wide p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
     return-wide p1
@@ -209,22 +209,106 @@
 .method static synthetic access$400(Lcom/changyow/iconsole4th/util/MapUtil;)Landroid/os/Handler;
     .locals 0
 
-    .line 39
+    .line 52
     iget-object p0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHandler:Landroid/os/Handler;
 
     return-object p0
 .end method
 
-.method static synthetic access$500(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/lang/String;)V
+.method static synthetic access$500(Lcom/changyow/iconsole4th/util/MapUtil;Lcom/amap/api/services/route/DriveRouteResult;I)D
     .locals 0
 
-    .line 39
+    .line 52
+    invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->handleAMapRouteResult(Lcom/amap/api/services/route/DriveRouteResult;I)D
+
+    move-result-wide p0
+
+    return-wide p0
+.end method
+
+.method static synthetic access$600(Lcom/changyow/iconsole4th/util/MapUtil;)Ljava/util/ArrayList;
+    .locals 0
+
+    .line 52
+    iget-object p0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
+
+    return-object p0
+.end method
+
+.method static synthetic access$700(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/lang/String;)V
+    .locals 0
+
+    .line 52
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->handleElevationPoint(Ljava/lang/String;)V
 
     return-void
 .end method
 
+.method static synthetic access$800(Lcom/changyow/iconsole4th/util/MapUtil;)Landroid/content/Context;
+    .locals 0
+
+    .line 52
+    iget-object p0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
+
+    return-object p0
+.end method
+
 .method private static calculateBearing(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "latLng1",
+            "latLng2"
+        }
+    .end annotation
+
+    .line 416
+    new-instance v0, Landroid/location/Location;
+
+    const-string v1, ""
+
+    invoke-direct {v0, v1}, Landroid/location/Location;-><init>(Ljava/lang/String;)V
+
+    .line 417
+    iget-wide v2, p0, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    invoke-virtual {v0, v2, v3}, Landroid/location/Location;->setLatitude(D)V
+
+    .line 418
+    iget-wide v2, p0, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    invoke-virtual {v0, v2, v3}, Landroid/location/Location;->setLongitude(D)V
+
+    .line 420
+    new-instance p0, Landroid/location/Location;
+
+    invoke-direct {p0, v1}, Landroid/location/Location;-><init>(Ljava/lang/String;)V
+
+    .line 421
+    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    invoke-virtual {p0, v1, v2}, Landroid/location/Location;->setLatitude(D)V
+
+    .line 422
+    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    invoke-virtual {p0, v1, v2}, Landroid/location/Location;->setLongitude(D)V
+
+    .line 424
+    invoke-virtual {v0, p0}, Landroid/location/Location;->bearingTo(Landroid/location/Location;)F
+
+    move-result p0
+
+    float-to-double p0, p0
+
+    return-wide p0
+.end method
+
+.method private static calculateDistance(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
     .locals 4
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
@@ -270,61 +354,6 @@
     invoke-virtual {p0, v1, v2}, Landroid/location/Location;->setLongitude(D)V
 
     .line 411
-    invoke-virtual {v0, p0}, Landroid/location/Location;->bearingTo(Landroid/location/Location;)F
-
-    move-result p0
-
-    float-to-double p0, p0
-
-    return-wide p0
-.end method
-
-.method private static calculateDistance(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
-    .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "latLng1",
-            "latLng2"
-        }
-    .end annotation
-
-    .line 390
-    new-instance v0, Landroid/location/Location;
-
-    const-string v1, ""
-
-    invoke-direct {v0, v1}, Landroid/location/Location;-><init>(Ljava/lang/String;)V
-
-    .line 391
-    iget-wide v2, p0, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
-
-    invoke-virtual {v0, v2, v3}, Landroid/location/Location;->setLatitude(D)V
-
-    .line 392
-    iget-wide v2, p0, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
-
-    invoke-virtual {v0, v2, v3}, Landroid/location/Location;->setLongitude(D)V
-
-    .line 394
-    new-instance p0, Landroid/location/Location;
-
-    invoke-direct {p0, v1}, Landroid/location/Location;-><init>(Ljava/lang/String;)V
-
-    .line 395
-    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
-
-    invoke-virtual {p0, v1, v2}, Landroid/location/Location;->setLatitude(D)V
-
-    .line 396
-    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
-
-    invoke-virtual {p0, v1, v2}, Landroid/location/Location;->setLongitude(D)V
-
-    .line 398
     invoke-virtual {v0, p0}, Landroid/location/Location;->distanceTo(Landroid/location/Location;)F
 
     move-result p0
@@ -356,12 +385,12 @@
         }
     .end annotation
 
-    .line 71
+    .line 84
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 76
+    .line 89
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -384,7 +413,7 @@
     :goto_1
     add-int/lit8 v8, v3, 0x1
 
-    .line 83
+    .line 96
     invoke-virtual {p1, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -426,7 +455,7 @@
     :goto_3
     add-int/lit8 v7, v8, 0x1
 
-    .line 94
+    .line 107
     invoke-virtual {p1, v8}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -454,7 +483,7 @@
     :cond_1
     add-int/2addr v5, v4
 
-    .line 101
+    .line 114
     new-instance v4, Lcom/google/android/gms/maps/model/LatLng;
 
     int-to-double v8, v3
@@ -469,15 +498,15 @@
 
     invoke-direct {v4, v8, v9, v12, v13}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
 
-    .line 103
+    .line 116
     new-instance v6, Lcom/changyow/iconsole4th/util/PathPoint;
 
     invoke-direct {v6}, Lcom/changyow/iconsole4th/util/PathPoint;-><init>()V
 
-    .line 104
+    .line 117
     invoke-virtual {v6, v4}, Lcom/changyow/iconsole4th/util/PathPoint;->setLatLng(Lcom/google/android/gms/maps/model/LatLng;)V
 
-    .line 105
+    .line 118
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     move v4, v3
@@ -511,7 +540,7 @@
         }
     .end annotation
 
-    .line 416
+    .line 429
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -529,7 +558,7 @@
 
     return v1
 
-    .line 425
+    .line 438
     :cond_0
     iget-object v2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -579,7 +608,7 @@
 .end method
 
 .method private getDirectionAMap(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;)V
-    .locals 0
+    .locals 8
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x10,
@@ -603,6 +632,94 @@
             ">;)V"
         }
     .end annotation
+
+    .line 295
+    new-instance v0, Lcom/amap/api/services/route/RouteSearch;
+
+    iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
+
+    invoke-direct {v0, v1}, Lcom/amap/api/services/route/RouteSearch;-><init>(Landroid/content/Context;)V
+
+    .line 296
+    new-instance v1, Lcom/changyow/iconsole4th/util/MapUtil$2;
+
+    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/util/MapUtil$2;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
+
+    invoke-virtual {v0, v1}, Lcom/amap/api/services/route/RouteSearch;->setRouteSearchListener(Lcom/amap/api/services/route/RouteSearch$OnRouteSearchListener;)V
+
+    .line 351
+    new-instance v5, Ljava/util/ArrayList;
+
+    invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
+
+    .line 352
+    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p3
+
+    :goto_0
+    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/google/android/gms/maps/model/LatLng;
+
+    .line 353
+    new-instance v2, Lcom/amap/api/services/core/LatLonPoint;
+
+    iget-wide v3, v1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    iget-wide v6, v1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    invoke-direct {v2, v3, v4, v6, v7}, Lcom/amap/api/services/core/LatLonPoint;-><init>(DD)V
+
+    invoke-virtual {v5, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    .line 355
+    :cond_0
+    new-instance v3, Lcom/amap/api/services/route/RouteSearch$FromAndTo;
+
+    new-instance p3, Lcom/amap/api/services/core/LatLonPoint;
+
+    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    iget-wide v6, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    invoke-direct {p3, v1, v2, v6, v7}, Lcom/amap/api/services/core/LatLonPoint;-><init>(DD)V
+
+    new-instance p1, Lcom/amap/api/services/core/LatLonPoint;
+
+    iget-wide v1, p2, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    iget-wide v6, p2, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    invoke-direct {p1, v1, v2, v6, v7}, Lcom/amap/api/services/core/LatLonPoint;-><init>(DD)V
+
+    invoke-direct {v3, p3, p1}, Lcom/amap/api/services/route/RouteSearch$FromAndTo;-><init>(Lcom/amap/api/services/core/LatLonPoint;Lcom/amap/api/services/core/LatLonPoint;)V
+
+    .line 356
+    new-instance p1, Lcom/amap/api/services/route/RouteSearch$DriveRouteQuery;
+
+    const/4 v4, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v7, ""
+
+    move-object v2, p1
+
+    invoke-direct/range {v2 .. v7}, Lcom/amap/api/services/route/RouteSearch$DriveRouteQuery;-><init>(Lcom/amap/api/services/route/RouteSearch$FromAndTo;ILjava/util/List;Ljava/util/List;Ljava/lang/String;)V
+
+    .line 357
+    invoke-virtual {v0, p1}, Lcom/amap/api/services/route/RouteSearch;->calculateDriveRouteAsyn(Lcom/amap/api/services/route/RouteSearch$DriveRouteQuery;)V
 
     return-void
 .end method
@@ -633,7 +750,7 @@
         }
     .end annotation
 
-    .line 130
+    .line 143
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -663,7 +780,7 @@
 
     const-string v0, "optimize:true|"
 
-    .line 134
+    .line 147
     :cond_0
     sget-object v5, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -700,7 +817,7 @@
     :cond_1
     const-string p3, "https://maps.googleapis.com/maps/api/directions/json"
 
-    .line 137
+    .line 150
     invoke-static {p3}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p3
@@ -711,9 +828,9 @@
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
 
-    const v5, 0x7f120151
+    const v5, 0x7f120153
 
-    .line 138
+    .line 151
     invoke-virtual {v1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -730,7 +847,7 @@
 
     iget-wide v6, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
-    .line 139
+    .line 152
     invoke-static {v6, v7}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v6
@@ -763,7 +880,7 @@
 
     iget-wide v7, p2, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
-    .line 140
+    .line 153
     invoke-static {v7, v8}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v5
@@ -792,7 +909,7 @@
 
     const-string/jumbo v2, "walking"
 
-    .line 141
+    .line 154
     invoke-virtual {p3, v1, v2}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p3
@@ -801,7 +918,7 @@
 
     const-string v2, "false"
 
-    .line 142
+    .line 155
     invoke-virtual {p3, v1, v2}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p3
@@ -810,36 +927,36 @@
 
     const-string/jumbo v1, "waypoints"
 
-    .line 145
+    .line 158
     invoke-virtual {p3, v1, v0}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
-    .line 147
+    .line 160
     :cond_2
     invoke-virtual {p3}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p3
 
-    .line 149
+    .line 162
     new-instance v0, Lokhttp3/Request$Builder;
 
     invoke-direct {v0}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 150
+    .line 163
     invoke-virtual {v0, p3}, Lokhttp3/Request$Builder;->url(Lokhttp3/HttpUrl;)Lokhttp3/Request$Builder;
 
     move-result-object p3
 
-    .line 151
+    .line 164
     invoke-virtual {p3}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p3
 
-    .line 152
+    .line 165
     invoke-virtual {p3}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p3
 
-    .line 154
+    .line 167
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {v0, p3}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
@@ -883,7 +1000,7 @@
         }
     .end annotation
 
-    .line 517
+    .line 530
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -892,7 +1009,7 @@
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 518
+    .line 531
     iget-wide v3, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -921,7 +1038,7 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 520
+    .line 533
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -943,7 +1060,7 @@
 
     new-array v5, v1, [Ljava/lang/Object;
 
-    .line 521
+    .line 534
     iget-wide v6, p3, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
     invoke-static {v6, v7}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -971,7 +1088,7 @@
     :cond_0
     new-array p1, v1, [Ljava/lang/Object;
 
-    .line 523
+    .line 536
     iget-wide v5, p2, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
     invoke-static {v5, v6}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -994,14 +1111,14 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 525
+    .line 538
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "https://maps.googleapis.com/maps/api/elevation/json"
 
-    .line 527
+    .line 540
     invoke-static {p2}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p2
@@ -1012,9 +1129,9 @@
 
     iget-object p3, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
 
-    const v0, 0x7f120151
+    const v0, 0x7f120153
 
-    .line 528
+    .line 541
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p3
@@ -1027,14 +1144,14 @@
 
     const-string p3, "path"
 
-    .line 529
+    .line 542
     invoke-virtual {p2, p3, p1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
     new-array p2, v3, [Ljava/lang/Object;
 
-    .line 530
+    .line 543
     invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -1057,46 +1174,46 @@
 
     const-string p3, "false"
 
-    .line 531
+    .line 544
     invoke-virtual {p1, p2, p3}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 533
+    .line 546
     invoke-virtual {p1}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p1
 
-    .line 535
+    .line 548
     new-instance p2, Lokhttp3/Request$Builder;
 
     invoke-direct {p2}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 536
+    .line 549
     invoke-virtual {p2, p1}, Lokhttp3/Request$Builder;->url(Lokhttp3/HttpUrl;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 537
+    .line 550
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 538
+    .line 551
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 540
+    .line 553
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
 
-    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$3;
+    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$4;
 
-    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$3;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
+    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$4;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
 
     invoke-interface {p1, p2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
@@ -1116,7 +1233,7 @@
         }
     .end annotation
 
-    .line 436
+    .line 449
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -1125,7 +1242,7 @@
 
     if-nez v0, :cond_0
 
-    .line 438
+    .line 451
     new-instance p1, Lcom/google/android/gms/maps/model/LatLng;
 
     const-wide/16 p2, 0x0
@@ -1139,7 +1256,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 442
+    .line 455
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {p2, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1154,7 +1271,7 @@
 
     return-object p1
 
-    .line 446
+    .line 459
     :cond_1
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -1176,7 +1293,7 @@
 
     add-int/lit8 v1, p1, 0x1
 
-    .line 447
+    .line 460
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1191,7 +1308,7 @@
 
     if-lez v0, :cond_2
 
-    .line 449
+    .line 462
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1204,7 +1321,7 @@
 
     move-result-wide v2
 
-    .line 450
+    .line 463
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1217,7 +1334,7 @@
 
     move-result-wide v4
 
-    .line 451
+    .line 464
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1230,7 +1347,7 @@
 
     move-result-object p1
 
-    .line 452
+    .line 465
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1243,7 +1360,7 @@
 
     move-result-object v0
 
-    .line 453
+    .line 466
     iget-wide v6, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
     sub-double/2addr p2, v2
@@ -1262,7 +1379,7 @@
 
     add-double/2addr v6, v8
 
-    .line 455
+    .line 468
     iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
 
     iget-wide v8, v0, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
@@ -1277,7 +1394,7 @@
 
     add-double/2addr v1, p2
 
-    .line 457
+    .line 470
     new-instance p1, Lcom/google/android/gms/maps/model/LatLng;
 
     invoke-direct {p1, v6, v7, v1, v2}, Lcom/google/android/gms/maps/model/LatLng;-><init>(DD)V
@@ -1288,6 +1405,268 @@
     const/4 p1, 0x0
 
     return-object p1
+.end method
+
+.method private handleAMapRouteResult(Lcom/amap/api/services/route/DriveRouteResult;I)D
+    .locals 11
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "driveRouteResult",
+            "resultCode"
+        }
+    .end annotation
+
+    const-wide/16 v0, 0x0
+
+    const/16 v2, 0x3e8
+
+    if-eq v2, p2, :cond_0
+
+    return-wide v0
+
+    .line 364
+    :cond_0
+    invoke-virtual {p1}, Lcom/amap/api/services/route/DriveRouteResult;->getPaths()Ljava/util/List;
+
+    move-result-object p2
+
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result p2
+
+    if-nez p2, :cond_1
+
+    return-wide v0
+
+    .line 367
+    :cond_1
+    invoke-virtual {p1}, Lcom/amap/api/services/route/DriveRouteResult;->getPaths()Ljava/util/List;
+
+    move-result-object p2
+
+    const/4 v2, 0x0
+
+    invoke-interface {p2, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Lcom/amap/api/services/route/DrivePath;
+
+    invoke-virtual {p2}, Lcom/amap/api/services/route/DrivePath;->getSteps()Ljava/util/List;
+
+    move-result-object p2
+
+    .line 368
+    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    :cond_2
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_3
+
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/amap/api/services/route/DriveStep;
+
+    .line 369
+    invoke-virtual {v3}, Lcom/amap/api/services/route/DriveStep;->getPolyline()Ljava/util/List;
+
+    move-result-object v3
+
+    invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v3
+
+    :goto_0
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/amap/api/services/core/LatLonPoint;
+
+    .line 370
+    iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    new-instance v6, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v4}, Lcom/amap/api/services/core/LatLonPoint;->getLatitude()D
+
+    move-result-wide v7
+
+    invoke-virtual {v4}, Lcom/amap/api/services/core/LatLonPoint;->getLongitude()D
+
+    move-result-wide v9
+
+    invoke-direct {v6, v7, v8, v9, v10}, Lcom/changyow/iconsole4th/util/PathPoint;-><init>(DD)V
+
+    invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    .line 373
+    :cond_3
+    iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+
+    move-result p2
+
+    .line 374
+    iget-object v3, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v3, v0, v1}, Lcom/changyow/iconsole4th/util/PathPoint;->setDistance(D)V
+
+    move v3, v2
+
+    :goto_1
+    if-ge v3, p2, :cond_5
+
+    .line 377
+    iget-object v4, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v4}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
+
+    move-result-object v4
+
+    add-int/lit8 v5, p2, -0x1
+
+    if-ne v3, v5, :cond_4
+
+    .line 382
+    iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    add-int/lit8 v6, v3, -0x1
+
+    invoke-virtual {v5, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v5}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
+
+    move-result-object v5
+
+    .line 383
+    invoke-static {v5, v4}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateBearing(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
+
+    move-result-wide v4
+
+    .line 384
+    iget-object v6, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {v6, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v6, v4, v5}, Lcom/changyow/iconsole4th/util/PathPoint;->setDegree(D)V
+
+    goto :goto_2
+
+    .line 388
+    :cond_4
+    iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    add-int/lit8 v6, v3, 0x1
+
+    invoke-virtual {v5, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v5}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
+
+    move-result-object v5
+
+    .line 389
+    invoke-static {v4, v5}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateDistance(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
+
+    move-result-wide v7
+
+    add-double/2addr v0, v7
+
+    .line 391
+    iget-object v7, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {v7, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v6, v0, v1}, Lcom/changyow/iconsole4th/util/PathPoint;->setDistance(D)V
+
+    .line 393
+    invoke-static {v4, v5}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateBearing(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
+
+    move-result-wide v4
+
+    .line 394
+    iget-object v6, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {v6, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    invoke-virtual {v6, v4, v5}, Lcom/changyow/iconsole4th/util/PathPoint;->setDegree(D)V
+
+    :goto_2
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_1
+
+    .line 398
+    :cond_5
+    invoke-virtual {p1}, Lcom/amap/api/services/route/DriveRouteResult;->getPaths()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/amap/api/services/route/DrivePath;
+
+    invoke-virtual {p1}, Lcom/amap/api/services/route/DrivePath;->getDistance()F
+
+    move-result p1
+
+    float-to-double p1, p1
+
+    return-wide p1
 .end method
 
 .method private handleElevationPoint(Ljava/lang/String;)V
@@ -1303,20 +1682,20 @@
 
     const-string v0, "OK"
 
-    const-string v1, "status"
+    const-string/jumbo v1, "status"
 
-    .line 558
+    .line 571
     iget-object v2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 562
+    .line 575
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 564
+    .line 577
     sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1343,7 +1722,7 @@
 
     invoke-virtual {p1, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 565
+    .line 578
     invoke-virtual {v2, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -1356,7 +1735,7 @@
 
     const-string p1, "results"
 
-    .line 569
+    .line 582
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
@@ -1367,7 +1746,7 @@
 
     move-wide v3, v1
 
-    .line 570
+    .line 583
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
@@ -1375,19 +1754,19 @@
 
     if-ge v0, v5, :cond_1
 
-    .line 572
+    .line 585
     invoke-virtual {p1, v0}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v5
 
-    .line 574
+    .line 587
     new-instance v6, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
     invoke-direct {v6}, Lcom/changyow/iconsole4th/util/ElevationPoint;-><init>()V
 
     const-string v7, "elevation"
 
-    .line 575
+    .line 588
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->getDouble(Ljava/lang/String;)D
 
     move-result-wide v7
@@ -1396,14 +1775,14 @@
 
     const-string v7, "location"
 
-    .line 576
+    .line 589
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v5
 
     const-string v7, "lat"
 
-    .line 577
+    .line 590
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->getDouble(Ljava/lang/String;)D
 
     move-result-wide v7
@@ -1412,26 +1791,26 @@
 
     const-string v7, "lng"
 
-    .line 578
+    .line 591
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->getDouble(Ljava/lang/String;)D
 
     move-result-wide v7
 
     invoke-virtual {v6, v7, v8}, Lcom/changyow/iconsole4th/util/ElevationPoint;->setLng(D)V
 
-    .line 580
+    .line 593
     iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     if-nez v0, :cond_0
 
-    .line 583
+    .line 596
     invoke-virtual {v6, v1, v2}, Lcom/changyow/iconsole4th/util/ElevationPoint;->setDistance(D)V
 
     goto :goto_1
 
-    .line 586
+    .line 599
     :cond_0
     iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
@@ -1443,7 +1822,7 @@
 
     check-cast v5, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
-    .line 587
+    .line 600
     invoke-virtual {v6}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v7
@@ -1458,7 +1837,7 @@
 
     add-double/2addr v3, v7
 
-    .line 588
+    .line 601
     invoke-virtual {v6, v3, v4}, Lcom/changyow/iconsole4th/util/ElevationPoint;->setDistance(D)V
 
     :goto_1
@@ -1466,7 +1845,7 @@
 
     goto :goto_0
 
-    .line 592
+    .line 605
     :cond_1
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
@@ -1484,7 +1863,7 @@
 
     if-ltz p1, :cond_2
 
-    .line 594
+    .line 607
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -1503,7 +1882,7 @@
 
     move-result-wide v0
 
-    .line 595
+    .line 608
     iget-wide v2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
     cmpg-double p1, v0, v2
@@ -1512,7 +1891,7 @@
 
     div-double/2addr v2, v0
 
-    .line 598
+    .line 611
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -1532,7 +1911,7 @@
 
     check-cast v0, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
-    .line 600
+    .line 613
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getDistance()D
 
     move-result-wide v4
@@ -1543,25 +1922,25 @@
 
     goto :goto_2
 
-    .line 606
+    .line 619
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
     if-eqz p1, :cond_3
 
-    .line 608
+    .line 621
     new-instance p1, Ljava/util/ArrayList;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 610
+    .line 623
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHandler:Landroid/os/Handler;
 
-    new-instance v1, Lcom/changyow/iconsole4th/util/MapUtil$4;
+    new-instance v1, Lcom/changyow/iconsole4th/util/MapUtil$5;
 
-    invoke-direct {v1, p0, p1}, Lcom/changyow/iconsole4th/util/MapUtil$4;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/util/List;)V
+    invoke-direct {v1, p0, p1}, Lcom/changyow/iconsole4th/util/MapUtil$5;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/util/List;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
     :try_end_0
@@ -1572,7 +1951,7 @@
     :catch_0
     move-exception p1
 
-    .line 622
+    .line 635
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
     :cond_3
@@ -1597,15 +1976,15 @@
 
     const-wide/16 v0, 0x0
 
-    .line 202
+    .line 215
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "status"
+    const-string/jumbo p1, "status"
 
-    .line 203
+    .line 216
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -1620,12 +1999,12 @@
 
     const-string p1, "routes"
 
-    .line 205
+    .line 218
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
 
-    .line 206
+    .line 219
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     move-result v2
@@ -1634,33 +2013,33 @@
 
     const/4 v2, 0x0
 
-    .line 208
+    .line 221
     invoke-virtual {p1, v2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string v3, "legs"
 
-    .line 209
+    .line 222
     invoke-virtual {p1, v3}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
 
-    .line 210
+    .line 223
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     move-result v3
 
     if-lez v3, :cond_7
 
-    .line 212
+    .line 225
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     move v4, v2
 
-    .line 213
+    .line 226
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
@@ -1668,19 +2047,19 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 215
+    .line 228
     invoke-virtual {p1, v4}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v5
 
-    const-string v6, "steps"
+    const-string/jumbo v6, "steps"
 
-    .line 216
+    .line 229
     invoke-virtual {v5, v6}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v5
 
-    .line 218
+    .line 231
     invoke-virtual {v5}, Lorg/json/JSONArray;->length()I
 
     move-result v6
@@ -1690,31 +2069,31 @@
     :goto_1
     if-ge v7, v6, :cond_1
 
-    .line 221
+    .line 234
     invoke-virtual {v5, v7}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v8
 
     const-string v9, "polyline"
 
-    .line 222
+    .line 235
     invoke-virtual {v8, v9}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v8
 
     const-string v9, "points"
 
-    .line 223
+    .line 236
     invoke-virtual {v8, v9}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 224
+    .line 237
     invoke-direct {p0, v8}, Lcom/changyow/iconsole4th/util/MapUtil;->decodePolylines(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v8
 
-    .line 226
+    .line 239
     iget-object v9, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v9, v8}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -1723,7 +2102,7 @@
 
     if-eqz v9, :cond_0
 
-    .line 229
+    .line 242
     invoke-interface {v8, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -1746,7 +2125,7 @@
 
     goto :goto_0
 
-    .line 234
+    .line 247
     :cond_2
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -1754,7 +2133,7 @@
 
     move-result p1
 
-    .line 235
+    .line 248
     iget-object v4, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v4, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1774,7 +2153,7 @@
     :goto_2
     if-ge v2, p1, :cond_4
 
-    .line 240
+    .line 253
     iget-object v6, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1795,7 +2174,7 @@
 
     if-eq p1, v7, :cond_3
 
-    .line 245
+    .line 258
     iget-object v7, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     add-int/lit8 v8, v2, -0x1
@@ -1810,12 +2189,12 @@
 
     move-result-object v7
 
-    .line 246
+    .line 259
     invoke-static {v7, v6}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateBearing(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
 
     move-result-wide v6
 
-    .line 247
+    .line 260
     iget-object v8, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v8, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1828,7 +2207,7 @@
 
     goto :goto_3
 
-    .line 251
+    .line 264
     :cond_3
     iget-object v7, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -1844,14 +2223,14 @@
 
     move-result-object v7
 
-    .line 252
+    .line 265
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateDistance(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
 
     move-result-wide v9
 
     add-double/2addr v4, v9
 
-    .line 254
+    .line 267
     iget-object v9, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v9, v8}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1862,12 +2241,12 @@
 
     invoke-virtual {v8, v4, v5}, Lcom/changyow/iconsole4th/util/PathPoint;->setDistance(D)V
 
-    .line 256
+    .line 269
     invoke-static {v6, v7}, Lcom/changyow/iconsole4th/util/MapUtil;->calculateBearing(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;)D
 
     move-result-wide v6
 
-    .line 257
+    .line 270
     iget-object v8, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v8, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1903,7 +2282,7 @@
 
     move p1, v2
 
-    .line 267
+    .line 280
     :cond_6
     invoke-direct {p0, p2, p3, v3, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->getElevationPoints(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;I)V
     :try_end_0
@@ -1914,7 +2293,7 @@
     :catch_0
     move-exception p1
 
-    .line 274
+    .line 287
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
     :cond_7
@@ -1947,7 +2326,7 @@
         }
     .end annotation
 
-    .line 730
+    .line 743
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1956,7 +2335,7 @@
 
     return-void
 
-    .line 733
+    .line 746
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1964,10 +2343,10 @@
 
     const-string v1, ",0x800080,1,,:"
 
-    .line 735
+    .line 748
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 736
+    .line 749
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1982,7 +2361,7 @@
 
     move v4, v3
 
-    .line 737
+    .line 750
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -1994,7 +2373,7 @@
 
     if-ge v4, v5, :cond_1
 
-    .line 739
+    .line 752
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -2003,7 +2382,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 740
+    .line 753
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/model/Path;->getLng()D
 
     move-result-wide v8
@@ -2034,7 +2413,7 @@
 
     goto :goto_0
 
-    .line 742
+    .line 755
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -2048,7 +2427,7 @@
 
     invoke-virtual {v0, v1, v4}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 745
+    .line 758
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -2059,14 +2438,14 @@
 
     if-nez p2, :cond_2
 
-    .line 752
+    .line 765
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/changyow/iconsole4th/db/model/Path;
 
-    .line 753
+    .line 766
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v8
@@ -2081,7 +2460,7 @@
 
     new-array v8, v7, [Ljava/lang/Object;
 
-    .line 754
+    .line 767
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/model/Path;->getLng()D
 
     move-result-wide v9
@@ -2108,7 +2487,7 @@
 
     new-array v5, v7, [Ljava/lang/Object;
 
-    .line 755
+    .line 768
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/model/Path;->getLng()D
 
     move-result-wide v8
@@ -2138,7 +2517,7 @@
     :cond_2
     new-array p1, v7, [Ljava/lang/Object;
 
-    .line 759
+    .line 772
     invoke-interface {p2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -2177,7 +2556,7 @@
 
     new-array p1, v7, [Ljava/lang/Object;
 
-    .line 760
+    .line 773
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v5
@@ -2231,26 +2610,26 @@
 
     if-eqz p2, :cond_4
 
-    .line 764
+    .line 777
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v5
 
     if-le v5, v7, :cond_4
 
-    .line 766
+    .line 779
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v5, ",0x0000FF,:"
 
-    .line 768
+    .line 781
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move v5, v2
 
-    .line 769
+    .line 782
     :goto_2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -2260,7 +2639,7 @@
 
     if-ge v5, v8, :cond_3
 
-    .line 771
+    .line 784
     invoke-interface {p2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -2269,7 +2648,7 @@
 
     new-array v9, v7, [Ljava/lang/Object;
 
-    .line 772
+    .line 785
     invoke-virtual {v8}, Lcom/changyow/iconsole4th/db/model/Path;->getLng()D
 
     move-result-wide v10
@@ -2300,7 +2679,7 @@
 
     goto :goto_2
 
-    .line 774
+    .line 787
     :cond_3
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
@@ -2314,12 +2693,12 @@
 
     invoke-virtual {v1, p2, v5}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 776
+    .line 789
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 779
+    .line 792
     :cond_4
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -2339,7 +2718,7 @@
 
     if-eqz v1, :cond_5
 
-    .line 781
+    .line 794
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2357,7 +2736,7 @@
     :cond_5
     const-string p2, "https://restapi.amap.com/v3/staticmap"
 
-    .line 783
+    .line 796
     invoke-static {p2}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p2
@@ -2368,21 +2747,21 @@
 
     const-string v1, "paths"
 
-    .line 784
+    .line 797
     invoke-virtual {p2, v1, v0}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p2
 
     const-string v0, "markers"
 
-    .line 785
+    .line 798
     invoke-virtual {p2, v0, p1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
     new-array p2, v2, [Ljava/lang/Object;
 
-    .line 786
+    .line 799
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -2401,11 +2780,11 @@
 
     move-result-object p1
 
-    const-string p2, "size"
+    const-string/jumbo p2, "size"
 
     const-string v0, "640*266"
 
-    .line 787
+    .line 800
     invoke-virtual {p1, p2, v0}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
@@ -2414,46 +2793,46 @@
 
     const-string v0, "4b7c3a6f397af7d3600743ea87a5ccb9"
 
-    .line 789
+    .line 802
     invoke-virtual {p1, p2, v0}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 791
+    .line 804
     invoke-virtual {p1}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p1
 
-    .line 793
+    .line 806
     new-instance p2, Lokhttp3/Request$Builder;
 
     invoke-direct {p2}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 794
+    .line 807
     invoke-virtual {p2, p1}, Lokhttp3/Request$Builder;->url(Lokhttp3/HttpUrl;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 795
+    .line 808
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 796
+    .line 809
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 798
+    .line 811
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
 
-    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$6;
+    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$7;
 
-    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$6;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
+    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$7;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
 
     invoke-interface {p1, p2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
@@ -2485,17 +2864,17 @@
         }
     .end annotation
 
-    .line 636
+    .line 649
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "color:0x800080ff"
 
-    .line 638
+    .line 651
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 640
+    .line 653
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -2510,7 +2889,7 @@
 
     move v4, v3
 
-    .line 641
+    .line 654
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2522,7 +2901,7 @@
 
     if-ge v4, v5, :cond_0
 
-    .line 643
+    .line 656
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -2531,7 +2910,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 644
+    .line 657
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/model/Path;->getLat()D
 
     move-result-wide v8
@@ -2562,7 +2941,7 @@
 
     goto :goto_0
 
-    .line 646
+    .line 659
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2578,7 +2957,7 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    .line 647
+    .line 660
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/db/model/Path;->getLat()D
 
     move-result-wide v8
@@ -2605,7 +2984,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 649
+    .line 662
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -2616,14 +2995,14 @@
 
     if-nez p2, :cond_1
 
-    .line 656
+    .line 669
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/changyow/iconsole4th/db/model/Path;
 
-    .line 657
+    .line 670
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v8
@@ -2638,7 +3017,7 @@
 
     new-array v8, v7, [Ljava/lang/Object;
 
-    .line 658
+    .line 671
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/db/model/Path;->getLat()D
 
     move-result-wide v9
@@ -2665,7 +3044,7 @@
 
     new-array v5, v7, [Ljava/lang/Object;
 
-    .line 659
+    .line 672
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/db/model/Path;->getLat()D
 
     move-result-wide v8
@@ -2695,7 +3074,7 @@
     :cond_1
     new-array p1, v7, [Ljava/lang/Object;
 
-    .line 663
+    .line 676
     invoke-interface {p2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -2734,7 +3113,7 @@
 
     new-array p1, v7, [Ljava/lang/Object;
 
-    .line 664
+    .line 677
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v5
@@ -2788,26 +3167,26 @@
 
     if-eqz p2, :cond_3
 
-    .line 668
+    .line 681
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v5
 
     if-le v5, v7, :cond_3
 
-    .line 670
+    .line 683
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v5, "color:blue|"
 
-    .line 672
+    .line 685
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move v5, v2
 
-    .line 674
+    .line 687
     :goto_2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -2817,7 +3196,7 @@
 
     if-ge v5, v8, :cond_2
 
-    .line 676
+    .line 689
     invoke-interface {p2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -2826,7 +3205,7 @@
 
     new-array v9, v7, [Ljava/lang/Object;
 
-    .line 677
+    .line 690
     invoke-virtual {v8}, Lcom/changyow/iconsole4th/db/model/Path;->getLat()D
 
     move-result-wide v10
@@ -2857,7 +3236,7 @@
 
     goto :goto_2
 
-    .line 680
+    .line 693
     :cond_2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -2866,7 +3245,7 @@
     :cond_3
     const-string p2, "https://maps.googleapis.com/maps/api/staticmap"
 
-    .line 683
+    .line 696
     invoke-static {p2}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p2
@@ -2877,9 +3256,9 @@
 
     iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
 
-    const v6, 0x7f120151
+    const v6, 0x7f120153
 
-    .line 684
+    .line 697
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v5
@@ -2892,26 +3271,26 @@
 
     const-string v5, "path"
 
-    .line 685
+    .line 698
     invoke-virtual {p2, v5, v0}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p2
 
     const-string v0, "markers"
 
-    .line 686
+    .line 699
     invoke-virtual {p2, v0, v4}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p2
 
-    .line 687
+    .line 700
     invoke-virtual {p2, v0, p1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
     new-array p2, v2, [Ljava/lang/Object;
 
-    .line 688
+    .line 701
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -2930,11 +3309,11 @@
 
     move-result-object p1
 
-    const-string p2, "size"
+    const-string/jumbo p2, "size"
 
     const-string v2, "640x266"
 
-    .line 689
+    .line 702
     invoke-virtual {p1, p2, v2}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
@@ -2943,52 +3322,52 @@
 
     const-string v2, "jpg"
 
-    .line 690
+    .line 703
     invoke-virtual {p1, p2, v2}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
     if-eqz v1, :cond_4
 
-    .line 693
+    .line 706
     invoke-virtual {p1, v0, v1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
-    .line 695
+    .line 708
     :cond_4
     invoke-virtual {p1}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p1
 
-    .line 697
+    .line 710
     new-instance p2, Lokhttp3/Request$Builder;
 
     invoke-direct {p2}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 698
+    .line 711
     invoke-virtual {p2, p1}, Lokhttp3/Request$Builder;->url(Lokhttp3/HttpUrl;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 699
+    .line 712
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 700
+    .line 713
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 702
+    .line 715
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
 
-    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$5;
+    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$6;
 
-    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$5;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
+    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$6;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
 
     invoke-interface {p1, p2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
@@ -3000,21 +3379,21 @@
 .method public clear()V
     .locals 1
 
-    .line 64
+    .line 77
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
-    .line 65
+    .line 78
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
-    .line 66
+    .line 79
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -3052,44 +3431,44 @@
         }
     .end annotation
 
-    .line 113
+    .line 126
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     const-wide/16 v0, 0x0
 
-    .line 114
+    .line 127
     iput-wide v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
-    .line 116
+    .line 129
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 117
+    .line 130
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 118
+    .line 131
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 119
+    .line 132
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     if-nez p4, :cond_0
 
-    .line 122
+    .line 135
     invoke-direct {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/util/MapUtil;->getDirectionGoogleMap(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 124
+    .line 137
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/util/MapUtil;->getDirectionAMap(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;)V
 
@@ -3108,7 +3487,7 @@
         }
     .end annotation
 
-    .line 1076
+    .line 1100
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     return-object v0
@@ -3125,7 +3504,7 @@
         }
     .end annotation
 
-    .line 826
+    .line 839
     new-instance v0, Lcom/changyow/iconsole4th/util/MapUtil$SearchClicked;
 
     invoke-direct {v0, p0, p1}, Lcom/changyow/iconsole4th/util/MapUtil$SearchClicked;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/lang/String;)V
@@ -3142,7 +3521,7 @@
 .method public getMaxAltitude()D
     .locals 6
 
-    .line 1091
+    .line 1115
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -3165,7 +3544,7 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/util/ElevationPoint;
 
-    .line 1092
+    .line 1116
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getElevation()D
 
     move-result-wide v4
@@ -3174,7 +3553,7 @@
 
     if-lez v4, :cond_0
 
-    .line 1093
+    .line 1117
     invoke-virtual {v3}, Lcom/changyow/iconsole4th/util/ElevationPoint;->getElevation()D
 
     move-result-wide v1
@@ -3196,19 +3575,19 @@
         }
     .end annotation
 
-    .line 1053
+    .line 1077
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     if-nez v0, :cond_0
 
-    .line 1054
+    .line 1078
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     return-object v0
 
-    .line 1056
+    .line 1080
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -3230,12 +3609,12 @@
         }
     .end annotation
 
-    .line 1044
+    .line 1068
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1045
+    .line 1069
     iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -3255,7 +3634,7 @@
 
     check-cast v2, Lcom/changyow/iconsole4th/util/PathPoint;
 
-    .line 1046
+    .line 1070
     invoke-virtual {v2}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v2
@@ -3285,12 +3664,12 @@
         }
     .end annotation
 
-    .line 952
+    .line 965
     const-class v0, Lcom/changyow/iconsole4th/util/MapUtil;
 
     monitor-enter v0
 
-    .line 954
+    .line 967
     :try_start_0
     iget-boolean v1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->bRequestingStringView:Z
 
@@ -3298,16 +3677,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 955
+    .line 968
     monitor-exit v0
 
     return-void
 
-    .line 956
+    .line 969
     :cond_0
     iput-boolean v2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->bRequestingStringView:Z
 
-    .line 957
+    .line 970
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -3316,19 +3695,19 @@
 
     mul-double/2addr p1, v0
 
-    .line 960
+    .line 973
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getBasePathPointIndex(D)I
 
     move-result v0
 
-    .line 961
+    .line 974
     invoke-direct {p0, v0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getRunnerLocation(ID)Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object p1
 
     if-lez v0, :cond_5
 
-    .line 963
+    .line 976
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     if-eqz p2, :cond_5
@@ -3341,7 +3720,7 @@
 
     goto/16 :goto_1
 
-    .line 966
+    .line 979
     :cond_1
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -3359,7 +3738,7 @@
 
     const-string p5, "https://maps.googleapis.com/maps/api/streetview"
 
-    .line 971
+    .line 984
     invoke-static {p5}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p5
@@ -3372,9 +3751,9 @@
 
     iget-object v4, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mAppContext:Landroid/content/Context;
 
-    const v5, 0x7f120151
+    const v5, 0x7f120153
 
-    .line 972
+    .line 985
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -3383,13 +3762,13 @@
 
     move-result-object p5
 
-    const-string v3, "size"
+    const-string/jumbo v3, "size"
 
     const-string v4, "%dx%d"
 
     new-array v5, v0, [Ljava/lang/Object;
 
-    .line 973
+    .line 986
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -3418,7 +3797,7 @@
 
     iget-wide v3, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
 
-    .line 974
+    .line 987
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -3447,7 +3826,7 @@
 
     new-array p5, v2, [Ljava/lang/Object;
 
-    .line 975
+    .line 988
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/PathPoint;->getDegree()D
 
     move-result-wide v2
@@ -3470,7 +3849,7 @@
 
     const-string p3, "false"
 
-    .line 976
+    .line 989
     invoke-virtual {p1, p2, p3}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
@@ -3496,7 +3875,7 @@
 
     move p4, p5
 
-    .line 987
+    .line 1000
     :cond_3
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/PathPoint;->getDegree()D
 
@@ -3511,7 +3890,7 @@
     :cond_4
     const-string p5, "https://api.map.baidu.com/panorama/v2"
 
-    .line 990
+    .line 1003
     invoke-static {p5}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
 
     move-result-object p5
@@ -3526,7 +3905,7 @@
 
     new-array v5, v2, [Ljava/lang/Object;
 
-    .line 991
+    .line 1004
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -3547,7 +3926,7 @@
 
     new-array v4, v2, [Ljava/lang/Object;
 
-    .line 992
+    .line 1005
     invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p4
@@ -3570,7 +3949,7 @@
 
     iget-wide v3, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
 
-    .line 993
+    .line 1006
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -3599,7 +3978,7 @@
 
     new-array p5, v2, [Ljava/lang/Object;
 
-    .line 994
+    .line 1007
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -3616,49 +3995,49 @@
 
     const-string p2, "ak"
 
-    const-string p3, "GGETkmsVnluX3oViWA0Q2IX6nLs0YxxG"
+    const-string/jumbo p3, "veULYwyGVwteTx18W9oKb2G5DlUGXHh0"
 
-    .line 996
+    .line 1009
     invoke-virtual {p1, p2, p3}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 999
+    .line 1012
     :goto_0
     invoke-virtual {p1}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
     move-result-object p1
 
-    .line 1001
+    .line 1014
     new-instance p2, Lokhttp3/Request$Builder;
 
     invoke-direct {p2}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 1002
+    .line 1015
     invoke-virtual {p2, p1}, Lokhttp3/Request$Builder;->url(Lokhttp3/HttpUrl;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 1003
+    .line 1016
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 1004
+    .line 1017
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 1006
+    .line 1019
     iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
 
-    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$7;
+    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$8;
 
-    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$7;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
+    invoke-direct {p2, p0}, Lcom/changyow/iconsole4th/util/MapUtil$8;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
 
     invoke-interface {p1, p2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
@@ -3669,7 +4048,7 @@
     :catchall_0
     move-exception p1
 
-    .line 957
+    .line 970
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -3678,10 +4057,69 @@
     throw p1
 .end method
 
+.method public getStreetViewRequset(DLcom/baidu/lbsapi/panoramaview/PanoramaView;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "distanceInKm",
+            "panoramaView"
+        }
+    .end annotation
+
+    const-wide v0, 0x408f400000000000L    # 1000.0
+
+    mul-double/2addr p1, v0
+
+    .line 1053
+    invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getBasePathPointIndex(D)I
+
+    move-result v0
+
+    .line 1054
+    invoke-direct {p0, v0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getRunnerLocation(ID)Lcom/google/android/gms/maps/model/LatLng;
+
+    move-result-object p1
+
+    .line 1055
+    iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
+
+    invoke-virtual {p2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Lcom/changyow/iconsole4th/util/PathPoint;
+
+    .line 1057
+    invoke-virtual {p2}, Lcom/changyow/iconsole4th/util/PathPoint;->getDegree()D
+
+    move-result-wide v0
+
+    double-to-float p2, v0
+
+    invoke-virtual {p3, p2}, Lcom/baidu/lbsapi/panoramaview/PanoramaView;->setPanoramaHeading(F)V
+
+    .line 1058
+    iget-wide v1, p1, Lcom/google/android/gms/maps/model/LatLng;->longitude:D
+
+    iget-wide v3, p1, Lcom/google/android/gms/maps/model/LatLng;->latitude:D
+
+    const/4 v5, 0x1
+
+    move-object v0, p3
+
+    invoke-virtual/range {v0 .. v5}, Lcom/baidu/lbsapi/panoramaview/PanoramaView;->setPanorama(DDI)V
+
+    return-void
+.end method
+
 .method public getTotalDistance()D
     .locals 2
 
-    .line 512
+    .line 525
     iget-wide v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
     return-wide v0
@@ -3698,7 +4136,7 @@
         }
     .end annotation
 
-    .line 1039
+    .line 1063
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     return-object v0
@@ -3733,12 +4171,12 @@
 
     if-nez p3, :cond_0
 
-    .line 629
+    .line 642
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->requestRouteImageGoogle(Ljava/util/List;Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 631
+    .line 644
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->requestRouteImageAMap(Ljava/util/List;Ljava/util/List;)V
 
@@ -3757,7 +4195,7 @@
         }
     .end annotation
 
-    .line 1081
+    .line 1105
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
@@ -3766,7 +4204,7 @@
 
     return-void
 
-    .line 1085
+    .line 1109
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mElevationPoints:Ljava/util/ArrayList;
 
@@ -3786,32 +4224,32 @@
         }
     .end annotation
 
-    .line 1061
+    .line 1085
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 1062
+    .line 1086
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     const-wide/16 v0, 0x0
 
-    .line 1063
+    .line 1087
     iput-wide v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mTotalDistanceInMeter:D
 
     if-nez p1, :cond_0
 
     return-void
 
-    .line 1067
+    .line 1091
     :cond_0
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 1068
+    .line 1092
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     const/4 v1, 0x0
@@ -3828,7 +4266,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1069
+    .line 1093
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mWaypoints:Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -3849,7 +4287,7 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1070
+    .line 1094
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -3858,7 +4296,7 @@
 
     if-lez p1, :cond_1
 
-    .line 1071
+    .line 1095
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -3898,7 +4336,7 @@
 
     mul-double/2addr p1, v0
 
-    .line 469
+    .line 482
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -3911,18 +4349,18 @@
 
     return-void
 
-    .line 472
+    .line 485
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getBasePathPointIndex(D)I
 
     move-result v0
 
-    .line 473
+    .line 486
     invoke-direct {p0, v0, p1, p2}, Lcom/changyow/iconsole4th/util/MapUtil;->getRunnerLocation(ID)Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v2
 
-    .line 475
+    .line 488
     iget-wide v3, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
     cmpl-double v3, v3, p1
@@ -3931,10 +4369,10 @@
 
     const-wide/16 v3, 0x0
 
-    .line 476
+    .line 489
     iput-wide v3, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
-    .line 478
+    .line 491
     :cond_1
     iget-object v3, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
@@ -3950,12 +4388,12 @@
 
     check-cast v3, Lcom/changyow/iconsole4th/util/PathPoint;
 
-    .line 479
+    .line 492
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 480
+    .line 493
     iget-wide v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
     sub-double v5, p1, v5
@@ -3978,7 +4416,7 @@
 
     if-ltz v3, :cond_4
 
-    .line 482
+    .line 495
     :cond_2
     iget-wide v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
@@ -3986,7 +4424,7 @@
 
     move-result v3
 
-    .line 483
+    .line 496
     iget-object v5, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v5, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -3995,12 +4433,12 @@
 
     check-cast v5, Lcom/changyow/iconsole4th/util/PathPoint;
 
-    .line 484
+    .line 497
     invoke-virtual {v5}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v5
 
-    .line 486
+    .line 499
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/2addr v3, v1
@@ -4008,7 +4446,7 @@
     :goto_0
     if-gt v3, v0, :cond_3
 
-    .line 489
+    .line 502
     iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mPathPoints:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -4017,7 +4455,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/util/PathPoint;
 
-    .line 490
+    .line 503
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/util/PathPoint;->getLatLng()Lcom/google/android/gms/maps/model/LatLng;
 
     move-result-object v1
@@ -4028,25 +4466,25 @@
 
     goto :goto_0
 
-    .line 492
+    .line 505
     :cond_3
     invoke-virtual {v4, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 494
+    .line 507
     iput-wide p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mLastUpdateDistance:D
 
-    .line 497
+    .line 510
     :cond_4
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mListener:Lcom/changyow/iconsole4th/util/MapUtilListener;
 
     if-eqz p1, :cond_5
 
-    .line 499
+    .line 512
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil;->mHandler:Landroid/os/Handler;
 
-    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$2;
+    new-instance p2, Lcom/changyow/iconsole4th/util/MapUtil$3;
 
-    invoke-direct {p2, p0, v2, v4}, Lcom/changyow/iconsole4th/util/MapUtil$2;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/ArrayList;)V
+    invoke-direct {p2, p0, v2, v4}, Lcom/changyow/iconsole4th/util/MapUtil$3;-><init>(Lcom/changyow/iconsole4th/util/MapUtil;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/ArrayList;)V
 
     invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

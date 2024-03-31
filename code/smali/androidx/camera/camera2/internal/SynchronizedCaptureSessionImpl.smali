@@ -150,7 +150,7 @@
     .line 106
     iput-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;->mEnabledFeature:Ljava/util/Set;
 
-    const-string/jumbo p2, "wait_for_request"
+    const-string p2, "wait_for_request"
 
     .line 108
     invoke-interface {p1, p2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -395,7 +395,7 @@
     .line 295
     iget-object v0, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;->mEnabledFeature:Ljava/util/Set;
 
-    const-string/jumbo v1, "wait_for_request"
+    const-string v1, "wait_for_request"
 
     invoke-interface {v0, v1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -606,7 +606,7 @@
     .line 155
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
-    const-string/jumbo v0, "wait_for_request"
+    const-string v0, "wait_for_request"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -950,7 +950,7 @@
     monitor-enter v0
 
     :try_start_0
-    const-string/jumbo v1, "wait_for_request"
+    const-string v1, "wait_for_request"
 
     .line 138
     iget-object v2, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;->mCaptureSessionRepository:Landroidx/camera/camera2/internal/CaptureSessionRepository;
@@ -1032,7 +1032,7 @@
     .line 235
     iget-object v0, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;->mEnabledFeature:Ljava/util/Set;
 
-    const-string/jumbo v1, "wait_for_request"
+    const-string v1, "wait_for_request"
 
     invoke-interface {v0, v1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 

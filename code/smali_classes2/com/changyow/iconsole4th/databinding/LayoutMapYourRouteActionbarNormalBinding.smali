@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0a0094
+    const v0, 0x7f0a0097
 
     .line 63
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f0a00d7
+    const v0, 0x7f0a00da
 
     .line 69
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;

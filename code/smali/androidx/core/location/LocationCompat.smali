@@ -242,7 +242,7 @@
     return v0
 
     :cond_1
-    const-string/jumbo v1, "speedAccuracy"
+    const-string v1, "speedAccuracy"
 
     .line 221
     invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;F)F
@@ -282,7 +282,7 @@
     return v0
 
     :cond_1
-    const-string/jumbo v1, "verticalAccuracy"
+    const-string v1, "verticalAccuracy"
 
     .line 156
     invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;F)F
@@ -362,7 +362,7 @@
     return p0
 
     :cond_1
-    const-string/jumbo v0, "speedAccuracy"
+    const-string v0, "speedAccuracy"
 
     .line 199
     invoke-virtual {p0, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
@@ -402,7 +402,7 @@
     return p0
 
     :cond_1
-    const-string/jumbo v0, "verticalAccuracy"
+    const-string v0, "verticalAccuracy"
 
     .line 134
     invoke-virtual {p0, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
@@ -661,7 +661,7 @@
     move-result-object v0
 
     :cond_1
-    const-string/jumbo p0, "speedAccuracy"
+    const-string p0, "speedAccuracy"
 
     .line 246
     invoke-virtual {v0, p0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
@@ -706,7 +706,7 @@
     move-result-object v0
 
     :cond_1
-    const-string/jumbo p0, "verticalAccuracy"
+    const-string p0, "verticalAccuracy"
 
     .line 181
     invoke-virtual {v0, p0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V

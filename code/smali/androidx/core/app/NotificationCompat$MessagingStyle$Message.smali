@@ -148,11 +148,11 @@
 .method static getMessageFromBundle(Landroid/os/Bundle;)Landroidx/core/app/NotificationCompat$MessagingStyle$Message;
     .locals 10
 
-    const-string/jumbo v0, "uri"
+    const-string v0, "uri"
 
     const-string v1, "extras"
 
-    const-string/jumbo v2, "type"
+    const-string v2, "type"
 
     const-string v3, "sender"
 
@@ -160,9 +160,9 @@
 
     const-string v5, "person"
 
-    const-string/jumbo v6, "time"
+    const-string v6, "time"
 
-    const-string/jumbo v7, "text"
+    const-string v7, "text"
 
     const/4 v8, 0x0
 
@@ -407,7 +407,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string/jumbo v2, "text"
+    const-string v2, "text"
 
     .line 4026
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
@@ -416,7 +416,7 @@
     :cond_0
     iget-wide v1, p0, Landroidx/core/app/NotificationCompat$MessagingStyle$Message;->mTimestamp:J
 
-    const-string/jumbo v3, "time"
+    const-string v3, "time"
 
     invoke-virtual {v0, v3, v1, v2}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
@@ -473,7 +473,7 @@
 
     if-eqz v1, :cond_3
 
-    const-string/jumbo v2, "type"
+    const-string v2, "type"
 
     .line 4042
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
@@ -484,7 +484,7 @@
 
     if-eqz v1, :cond_4
 
-    const-string/jumbo v2, "uri"
+    const-string v2, "uri"
 
     .line 4045
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V

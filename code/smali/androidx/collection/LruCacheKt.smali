@@ -78,7 +78,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "sizeOf"
+    const-string v0, "sizeOf"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -155,7 +155,7 @@
     :cond_2
     move-object v3, p3
 
-    const-string/jumbo p1, "sizeOf"
+    const-string p1, "sizeOf"
 
     invoke-static {v1, p1}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 

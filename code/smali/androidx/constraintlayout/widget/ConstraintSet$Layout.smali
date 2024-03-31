@@ -1756,7 +1756,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v5, "unused attribute 0x"
+    const-string v5, "unused attribute 0x"
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2513,8 +2513,6 @@
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1

@@ -205,7 +205,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "use Optional.orNull() instead of Optional.or(null)"
+    const-string v0, "use Optional.orNull() instead of Optional.or(null)"
 
     .line 47
     invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

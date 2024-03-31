@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final SmartRefreshStyle:I = 0x7f130186
+.field public static final SmartRefreshStyle:I = 0x7f130187
 
 
 # direct methods

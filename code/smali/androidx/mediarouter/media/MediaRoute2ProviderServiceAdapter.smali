@@ -1634,7 +1634,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v0, "setRouteVolume: Couldn\'t find a controller for routeId="
+    const-string v0, "setRouteVolume: Couldn\'t find a controller for routeId="
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1672,7 +1672,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v0, "updateRouteVolume: Couldn\'t find a controller for routeId="
+    const-string v0, "updateRouteVolume: Couldn\'t find a controller for routeId="
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

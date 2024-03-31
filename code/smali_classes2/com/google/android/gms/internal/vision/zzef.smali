@@ -475,7 +475,7 @@
     :cond_2
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
-    const-string v2, "size"
+    const-string/jumbo v2, "size"
 
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 

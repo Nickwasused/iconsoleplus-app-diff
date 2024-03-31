@@ -583,7 +583,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200a2
+    const v2, 0x7f1200a3
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -616,7 +616,7 @@
     .line 342
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/MetsSettings;->mets_goals:Lcom/changyow/iconsole4th/models/MetsSettings$Mets_goals;
 
-    const v1, 0x7f1200a0
+    const v1, 0x7f1200a1
 
     const/4 v2, 0x1
 
@@ -816,7 +816,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1200a3
+    const v1, 0x7f1200a4
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -839,7 +839,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1200a6
+    const v1, 0x7f1200a7
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -853,7 +853,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1200a8
+    const v1, 0x7f1200a9
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

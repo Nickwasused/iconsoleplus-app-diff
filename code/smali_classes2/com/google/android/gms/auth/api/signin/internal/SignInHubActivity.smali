@@ -217,7 +217,7 @@
 
     if-eqz p3, :cond_4
 
-    const-string v0, "signInAccount"
+    const-string/jumbo v0, "signInAccount"
 
     .line 2
     invoke-virtual {p3, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -457,7 +457,7 @@
     return-void
 
     :cond_5
-    const-string v0, "signingInGoogleApiClients"
+    const-string/jumbo v0, "signingInGoogleApiClients"
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
@@ -468,7 +468,7 @@
 
     if-eqz v0, :cond_6
 
-    const-string v0, "signInResultCode"
+    const-string/jumbo v0, "signInResultCode"
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
@@ -477,7 +477,7 @@
 
     iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/SignInHubActivity;->zbe:I
 
-    const-string v0, "signInResultData"
+    const-string/jumbo v0, "signInResultData"
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -519,7 +519,7 @@
 
     iget-boolean v0, p0, Lcom/google/android/gms/auth/api/signin/internal/SignInHubActivity;->zbd:Z
 
-    const-string v1, "signingInGoogleApiClients"
+    const-string/jumbo v1, "signingInGoogleApiClients"
 
     .line 2
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
@@ -530,14 +530,14 @@
 
     iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/SignInHubActivity;->zbe:I
 
-    const-string v1, "signInResultCode"
+    const-string/jumbo v1, "signInResultCode"
 
     .line 3
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/SignInHubActivity;->zbf:Landroid/content/Intent;
 
-    const-string v1, "signInResultData"
+    const-string/jumbo v1, "signInResultData"
 
     .line 4
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V

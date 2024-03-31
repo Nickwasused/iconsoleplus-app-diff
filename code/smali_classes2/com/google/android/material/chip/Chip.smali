@@ -699,7 +699,7 @@
     .line 826
     const-class p1, Landroidx/customview/widget/ExploreByTouchHelper;
 
-    const-string v5, "updateHoveredVirtualView"
+    const-string/jumbo v5, "updateHoveredVirtualView"
 
     new-array v6, v3, [Ljava/lang/Class;
 
@@ -1345,7 +1345,7 @@
 
     if-nez v1, :cond_4
 
-    const-string v1, "singleLine"
+    const-string/jumbo v1, "singleLine"
 
     const/4 v3, 0x1
 

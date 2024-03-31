@@ -280,7 +280,7 @@
 
     move-result-object p0
 
-    const-string/jumbo v0, "tree"
+    const-string v0, "tree"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

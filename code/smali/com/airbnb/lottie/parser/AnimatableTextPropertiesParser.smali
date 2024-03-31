@@ -30,9 +30,9 @@
 
     const-string v1, "sc"
 
-    const-string/jumbo v2, "sw"
+    const-string v2, "sw"
 
-    const-string/jumbo v3, "t"
+    const-string v3, "t"
 
     .line 14
     filled-new-array {v0, v1, v2, v3}, [Ljava/lang/String;

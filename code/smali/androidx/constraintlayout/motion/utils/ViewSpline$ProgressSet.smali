@@ -48,7 +48,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "unable to setProgress"
+    const-string v0, "unable to setProgress"
 
     const-string v1, "ViewSpline"
 
@@ -89,7 +89,7 @@
 
     move-result-object v5
 
-    const-string/jumbo v6, "setProgress"
+    const-string v6, "setProgress"
 
     new-array v7, v4, [Ljava/lang/Class;
 

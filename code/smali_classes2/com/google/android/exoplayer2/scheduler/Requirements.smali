@@ -181,7 +181,7 @@
     :cond_0
     const/4 v1, -0x1
 
-    const-string v2, "status"
+    const-string/jumbo v2, "status"
 
     .line 181
     invoke-virtual {p1, v2, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I

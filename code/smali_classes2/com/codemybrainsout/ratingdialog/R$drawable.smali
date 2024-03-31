@@ -158,37 +158,37 @@
 
 .field public static final abc_vector_test:I = 0x7f080055
 
-.field public static final edittext_background:I = 0x7f080130
+.field public static final edittext_background:I = 0x7f080131
 
-.field public static final notification_action_background:I = 0x7f08032a
+.field public static final notification_action_background:I = 0x7f08032e
 
-.field public static final notification_bg:I = 0x7f08032b
+.field public static final notification_bg:I = 0x7f08032f
 
-.field public static final notification_bg_low:I = 0x7f08032c
+.field public static final notification_bg_low:I = 0x7f080330
 
-.field public static final notification_bg_low_normal:I = 0x7f08032d
+.field public static final notification_bg_low_normal:I = 0x7f080331
 
-.field public static final notification_bg_low_pressed:I = 0x7f08032e
+.field public static final notification_bg_low_pressed:I = 0x7f080332
 
-.field public static final notification_bg_normal:I = 0x7f08032f
+.field public static final notification_bg_normal:I = 0x7f080333
 
-.field public static final notification_bg_normal_pressed:I = 0x7f080330
+.field public static final notification_bg_normal_pressed:I = 0x7f080334
 
-.field public static final notification_icon_background:I = 0x7f080331
+.field public static final notification_icon_background:I = 0x7f080335
 
-.field public static final notification_template_icon_bg:I = 0x7f080332
+.field public static final notification_template_icon_bg:I = 0x7f080336
 
-.field public static final notification_template_icon_low_bg:I = 0x7f080333
+.field public static final notification_template_icon_low_bg:I = 0x7f080337
 
-.field public static final notification_tile_bg:I = 0x7f080334
+.field public static final notification_tile_bg:I = 0x7f080338
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f080335
+.field public static final notify_panel_notification_icon_bg:I = 0x7f080339
 
-.field public static final rounded_rectangle:I = 0x7f08033f
+.field public static final rounded_rectangle:I = 0x7f080345
 
-.field public static final tooltip_frame_dark:I = 0x7f0803bf
+.field public static final tooltip_frame_dark:I = 0x7f0803c5
 
-.field public static final tooltip_frame_light:I = 0x7f0803c0
+.field public static final tooltip_frame_light:I = 0x7f0803c6
 
 
 # direct methods

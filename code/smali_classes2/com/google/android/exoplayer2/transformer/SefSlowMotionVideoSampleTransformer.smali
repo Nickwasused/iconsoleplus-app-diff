@@ -159,7 +159,7 @@
     .line 126
     iget-object v0, p1, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
 
-    const-string v1, "video/avc"
+    const-string/jumbo v1, "video/avc"
 
     .line 127
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

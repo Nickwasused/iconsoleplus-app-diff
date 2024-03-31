@@ -183,7 +183,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    const-string/jumbo v0, "uri"
+    const-string v0, "uri"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -354,7 +354,7 @@
 
     move-result v9
 
-    const-string/jumbo v10, "this as java.lang.String\u2026ing(startIndex, endIndex)"
+    const-string v10, "this as java.lang.String\u2026ing(startIndex, endIndex)"
 
     if-eqz v9, :cond_2
 
@@ -494,7 +494,7 @@
 
     move-result-object v9
 
-    const-string/jumbo v11, "this as java.lang.String).substring(startIndex)"
+    const-string v11, "this as java.lang.String).substring(startIndex)"
 
     invoke-static {v9, v11}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -557,7 +557,7 @@
 
     move-result-object v4
 
-    const-string/jumbo v1, "uriRegex.toString()"
+    const-string v1, "uriRegex.toString()"
 
     invoke-static {v4, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -630,7 +630,7 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string/jumbo v3, "|[*]+)/("
+    const-string v3, "|[*]+)/("
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -640,7 +640,7 @@
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string/jumbo v1, "|[*]+)$"
+    const-string v1, "|[*]+)$"
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -789,7 +789,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v3, "this as java.lang.String\u2026ing(startIndex, endIndex)"
+    const-string v3, "this as java.lang.String\u2026ing(startIndex, endIndex)"
 
     invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -826,7 +826,7 @@
 
     move-result-object p1
 
-    const-string/jumbo p3, "this as java.lang.String).substring(startIndex)"
+    const-string p3, "this as java.lang.String).substring(startIndex)"
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1347,7 +1347,7 @@
 
     check-cast v8, Landroidx/navigation/NavArgument;
 
-    const-string/jumbo v9, "value"
+    const-string v9, "value"
 
     .line 173
     invoke-static {v7, v9}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -1747,7 +1747,7 @@
 .method public final matches$navigation_common_release(Landroid/net/Uri;)Z
     .locals 2
 
-    const-string/jumbo v0, "uri"
+    const-string v0, "uri"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

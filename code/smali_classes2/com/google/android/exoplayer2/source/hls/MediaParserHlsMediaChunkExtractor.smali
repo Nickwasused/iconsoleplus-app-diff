@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const-string p2, "video/avc"
+    const-string/jumbo p2, "video/avc"
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

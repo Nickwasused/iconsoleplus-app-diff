@@ -140,7 +140,7 @@
 
     move-result-object p1
 
-    const-string/jumbo v2, "this as java.lang.String\u2026ing(startIndex, endIndex)"
+    const-string v2, "this as java.lang.String\u2026ing(startIndex, endIndex)"
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "this as java.lang.String).substring(startIndex)"
+    const-string v0, "this as java.lang.String).substring(startIndex)"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -707,7 +707,7 @@
 
     move-result-object v3
 
-    const-string/jumbo v7, "split-config"
+    const-string v7, "split-config"
 
     invoke-static {v7, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -958,6 +958,8 @@
 
     :catch_0
     return-object v1
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

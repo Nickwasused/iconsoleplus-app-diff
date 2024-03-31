@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/util/MapUtil;->getStreetViewRequset(DIII)V
+    value = Lcom/changyow/iconsole4th/util/MapUtil;->requestRouteImageAMap(Ljava/util/List;Ljava/util/List;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 1007
+    .line 812
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -78,25 +78,7 @@
         }
     .end annotation
 
-    .line 1016
-    const-class p1, Lcom/changyow/iconsole4th/util/MapUtil;
-
-    monitor-enter p1
-
-    .line 1018
-    :try_start_0
-    iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil$7;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
-
-    const/4 v1, 0x0
-
-    iput-boolean v1, v0, Lcom/changyow/iconsole4th/util/MapUtil;->bRequestingStringView:Z
-
-    .line 1019
-    monitor-exit p1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 1021
+    .line 821
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -105,7 +87,7 @@
 
     move-result-object p1
 
-    .line 1022
+    .line 822
     new-instance p2, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
@@ -116,15 +98,17 @@
 
     move-result-object v0
 
-    array-length v2, p1
+    array-length v1, p1
 
-    invoke-static {p1, v1, v2}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
+    const/4 v2, 0x0
+
+    invoke-static {p1, v2, v1}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     invoke-direct {p2, v0, p1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
-    .line 1024
+    .line 824
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/util/MapUtil;->access$100(Lcom/changyow/iconsole4th/util/MapUtil;)Lcom/changyow/iconsole4th/util/MapUtilListener;
@@ -133,7 +117,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1025
+    .line 825
     iget-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
 
     invoke-static {p1}, Lcom/changyow/iconsole4th/util/MapUtil;->access$400(Lcom/changyow/iconsole4th/util/MapUtil;)Landroid/os/Handler;
@@ -148,15 +132,4 @@
 
     :cond_0
     return-void
-
-    :catchall_0
-    move-exception p2
-
-    .line 1019
-    :try_start_1
-    monitor-exit p1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    throw p2
 .end method

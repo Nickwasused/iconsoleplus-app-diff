@@ -475,7 +475,7 @@
     goto :goto_2
 
     :sswitch_8
-    const-string/jumbo v4, "translationZ"
+    const-string v4, "translationZ"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -491,7 +491,7 @@
     goto :goto_2
 
     :sswitch_9
-    const-string/jumbo v4, "translationY"
+    const-string v4, "translationY"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -507,7 +507,7 @@
     goto :goto_2
 
     :sswitch_a
-    const-string/jumbo v4, "translationX"
+    const-string v4, "translationX"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -862,8 +862,6 @@
     :cond_11
     return-void
 
-    nop
-
     :sswitch_data_0
     .sparse-switch
         -0x4a771f66 -> :sswitch_d
@@ -1050,7 +1048,7 @@
 
     if-nez v0, :cond_7
 
-    const-string/jumbo v0, "translationX"
+    const-string v0, "translationX"
 
     .line 80
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1065,7 +1063,7 @@
 
     if-nez v0, :cond_8
 
-    const-string/jumbo v0, "translationY"
+    const-string v0, "translationY"
 
     .line 83
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1080,7 +1078,7 @@
 
     if-nez v0, :cond_9
 
-    const-string/jumbo v0, "translationZ"
+    const-string v0, "translationZ"
 
     .line 86
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -1492,7 +1490,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "translationX"
+    const-string v1, "translationX"
 
     invoke-virtual {p1, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1513,7 +1511,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "translationY"
+    const-string v1, "translationY"
 
     invoke-virtual {p1, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1534,7 +1532,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "translationZ"
+    const-string v1, "translationZ"
 
     invoke-virtual {p1, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

@@ -52,7 +52,7 @@
 
     iput-object v0, p0, Lcom/google/android/gms/location/ActivityTransitionResult;->zzb:Landroid/os/Bundle;
 
-    const-string v0, "transitionEvents list can\'t be null."
+    const-string/jumbo v0, "transitionEvents list can\'t be null."
 
     .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

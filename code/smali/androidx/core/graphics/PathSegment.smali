@@ -20,7 +20,7 @@
     .line 37
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string/jumbo v0, "start == null"
+    const-string v0, "start == null"
 
     .line 38
     invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

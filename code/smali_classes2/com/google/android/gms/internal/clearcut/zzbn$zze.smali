@@ -173,7 +173,7 @@
     return-void
 
     :cond_0
-    const-string p2, "value"
+    const-string/jumbo p2, "value"
 
     invoke-static {p1, p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 

@@ -657,7 +657,7 @@
 .method public static d(Landroid/content/Context;)I
     .locals 1
 
-    const-string/jumbo v0, "window"
+    const-string v0, "window"
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -682,7 +682,7 @@
 .method public static e(Landroid/content/Context;)I
     .locals 1
 
-    const-string/jumbo v0, "window"
+    const-string v0, "window"
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -707,7 +707,7 @@
 .method public static f(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    const-string/jumbo v0, "wifi"
+    const-string v0, "wifi"
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -794,7 +794,7 @@
 .method public static i(Landroid/content/Context;)Landroid/net/wifi/WifiManager$MulticastLock;
     .locals 1
 
-    const-string/jumbo v0, "wifi"
+    const-string v0, "wifi"
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

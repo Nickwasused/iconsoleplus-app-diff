@@ -46,7 +46,7 @@
     .line 50
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string/jumbo v0, "window"
+    const-string v0, "window"
 
     .line 51
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

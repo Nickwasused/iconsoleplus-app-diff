@@ -96,7 +96,7 @@
 
     packed-switch p1, :pswitch_data_0
 
-    const-string/jumbo p1, "undefined"
+    const-string p1, "undefined"
 
     return-object p1
 
@@ -106,7 +106,7 @@
     return-object p1
 
     :pswitch_1
-    const-string/jumbo p1, "start"
+    const-string p1, "start"
 
     return-object p1
 
@@ -121,7 +121,7 @@
     return-object p1
 
     :pswitch_4
-    const-string/jumbo p1, "top"
+    const-string p1, "top"
 
     return-object p1
 
@@ -134,6 +134,8 @@
     const-string p1, "left"
 
     return-object p1
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -1828,7 +1830,7 @@
     .line 363
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo p2, "unknown constraint"
+    const-string p2, "unknown constraint"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -1892,6 +1894,8 @@
 
     :goto_0
     return-object p0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -1980,7 +1984,7 @@
     .line 328
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo p2, "unknown constraint"
+    const-string p2, "unknown constraint"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -2045,6 +2049,8 @@
     :goto_0
     return-object p0
 
+    nop
+
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_6
@@ -2077,7 +2083,7 @@
     .line 293
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v0, "unknown constraint"
+    const-string v0, "unknown constraint"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -2229,6 +2235,8 @@
 
     :goto_0
     return-object p0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1

@@ -593,7 +593,7 @@
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo p2, "tag must not be null or empty"
+    const-string p2, "tag must not be null or empty"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -1381,7 +1381,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v0, "volumeProvider may not be null!"
+    const-string v0, "volumeProvider may not be null!"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

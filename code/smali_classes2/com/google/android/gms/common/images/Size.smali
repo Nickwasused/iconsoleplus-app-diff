@@ -103,7 +103,7 @@
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "string must not be null"
+    const-string/jumbo v0, "string must not be null"
 
     invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

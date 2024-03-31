@@ -48,7 +48,7 @@
 
     iget-object v1, p0, Lcom/google/android/gms/common/internal/StringResourceValueReader;->zzb:Ljava/lang/String;
 
-    const-string v2, "string"
+    const-string/jumbo v2, "string"
 
     invoke-virtual {v0, p1, v2, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 

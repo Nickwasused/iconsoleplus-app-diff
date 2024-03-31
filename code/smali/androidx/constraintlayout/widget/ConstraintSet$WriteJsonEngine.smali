@@ -260,7 +260,7 @@
 
     :cond_3
     :goto_0
-    const-string/jumbo p7, "}\n"
+    const-string p7, "}\n"
 
     const-string v2, ", "
 
@@ -591,7 +591,7 @@
 
     const/4 v0, -0x1
 
-    const-string/jumbo v1, "unknown"
+    const-string v1, "unknown"
 
     if-eq p1, v0, :cond_0
 
@@ -892,7 +892,7 @@
 
     move-result v0
 
-    const-string/jumbo v9, "}\n"
+    const-string v9, "}\n"
 
     if-eqz v0, :cond_1
 
@@ -978,7 +978,7 @@
 
     iget-boolean v7, v10, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedWidth:Z
 
-    const-string/jumbo v1, "width"
+    const-string v1, "width"
 
     invoke-direct/range {v0 .. v7}, Landroidx/constraintlayout/widget/ConstraintSet$WriteJsonEngine;->writeDimension(Ljava/lang/String;IIFIIZ)V
 

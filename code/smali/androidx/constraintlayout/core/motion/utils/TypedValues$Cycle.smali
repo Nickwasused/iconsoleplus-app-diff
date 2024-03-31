@@ -114,15 +114,15 @@
 
     const-string v0, "curveFit"
 
-    const-string/jumbo v1, "visibility"
+    const-string v1, "visibility"
 
     const-string v2, "alpha"
 
-    const-string/jumbo v3, "translationX"
+    const-string v3, "translationX"
 
-    const-string/jumbo v4, "translationY"
+    const-string v4, "translationY"
 
-    const-string/jumbo v5, "translationZ"
+    const-string v5, "translationZ"
 
     const-string v6, "elevation"
 
@@ -146,7 +146,7 @@
 
     const-string v16, "easing"
 
-    const-string/jumbo v17, "waveShape"
+    const-string v17, "waveShape"
 
     const-string v18, "customWave"
 

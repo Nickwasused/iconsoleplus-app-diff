@@ -856,7 +856,7 @@
     .line 755
     iget-object v1, v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VectorDrawableCompatState;->mVPathRenderer:Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;
 
-    const-string/jumbo v2, "tintMode"
+    const-string v2, "tintMode"
 
     const/4 v3, 0x6
 
@@ -876,7 +876,7 @@
 
     iput-object v2, v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VectorDrawableCompatState;->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
-    const-string/jumbo v2, "tint"
+    const-string v2, "tint"
 
     const/4 v3, 0x1
 
@@ -909,7 +909,7 @@
     .line 774
     iget v0, v1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mViewportWidth:F
 
-    const-string/jumbo v2, "viewportWidth"
+    const-string v2, "viewportWidth"
 
     invoke-static {p1, p2, v2, p3, v0}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
@@ -922,7 +922,7 @@
     .line 778
     iget v0, v1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mViewportHeight:F
 
-    const-string/jumbo v2, "viewportHeight"
+    const-string v2, "viewportHeight"
 
     invoke-static {p1, p2, v2, p3, v0}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 

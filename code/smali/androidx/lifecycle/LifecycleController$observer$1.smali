@@ -71,7 +71,7 @@
 .method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 2
 
-    const-string/jumbo v0, "source"
+    const-string v0, "source"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -84,7 +84,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "source.lifecycle"
+    const-string v0, "source.lifecycle"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

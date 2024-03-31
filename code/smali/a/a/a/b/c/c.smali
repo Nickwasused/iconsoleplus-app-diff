@@ -580,7 +580,7 @@
     .line 1
     iget-object v0, p0, La/a/a/b/c/c;->a:Landroid/content/Context;
 
-    const-string/jumbo v1, "update.sink"
+    const-string v1, "update.sink"
 
     invoke-static {v0, v1}, La/a/a/b/g/a;->a(Landroid/content/Context;Ljava/lang/String;)V
 

@@ -2194,7 +2194,7 @@
     goto :goto_0
 
     :cond_1
-    const-string p0, "video/dolby-vision"
+    const-string/jumbo p0, "video/dolby-vision"
 
     .line 396
     invoke-virtual {p2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2212,7 +2212,7 @@
 
     if-eqz p0, :cond_2
 
-    const-string p0, "video/hevcdv"
+    const-string/jumbo p0, "video/hevcdv"
 
     return-object p0
 
@@ -2236,7 +2236,7 @@
     if-eqz p0, :cond_6
 
     :cond_3
-    const-string p0, "video/dv_hevc"
+    const-string/jumbo p0, "video/dv_hevc"
 
     return-object p0
 
@@ -2326,7 +2326,7 @@
     .line 247
     iget-object v2, p0, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
 
-    const-string v3, "video/dolby-vision"
+    const-string/jumbo v3, "video/dolby-vision"
 
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2528,6 +2528,8 @@
     move-result-object p0
 
     return-object p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -2811,7 +2813,7 @@
 
     const-string v3, "secure-playback"
 
-    const-string v4, "tunneled-playback"
+    const-string/jumbo v4, "tunneled-playback"
 
     .line 282
     :try_start_0
@@ -5228,7 +5230,7 @@
 
     sget-object p0, Lcom/google/android/exoplayer2/util/Util;->DEVICE:Ljava/lang/String;
 
-    const-string v1, "t0"
+    const-string/jumbo v1, "t0"
 
     .line 505
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -5672,7 +5674,7 @@
 
     if-ne v0, v1, :cond_3
 
-    const-string v0, "video/avc"
+    const-string/jumbo v0, "video/avc"
 
     const/4 v1, 0x0
 

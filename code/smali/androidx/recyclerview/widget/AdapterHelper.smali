@@ -705,7 +705,7 @@
     :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v0, "should not dispatch add or move for pre layout"
+    const-string v0, "should not dispatch add or move for pre layout"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

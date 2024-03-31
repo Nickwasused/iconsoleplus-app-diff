@@ -210,7 +210,7 @@
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    const-string v3, "silentSignIn()"
+    const-string/jumbo v3, "silentSignIn()"
 
     invoke-virtual {v0, v3, v2}, Lcom/google/android/gms/common/logging/Logger;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
@@ -410,7 +410,7 @@
     :cond_9
     new-array p3, v1, [Ljava/lang/Object;
 
-    const-string v1, "trySilentSignIn()"
+    const-string/jumbo v1, "trySilentSignIn()"
 
     .line 20
     invoke-virtual {v0, v1, p3}, Lcom/google/android/gms/common/logging/Logger;->d(Ljava/lang/String;[Ljava/lang/Object;)V

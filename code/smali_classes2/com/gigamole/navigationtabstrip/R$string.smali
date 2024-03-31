@@ -50,7 +50,7 @@
 
 .field public static final app_name:I = 0x7f120024
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022d
+.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
 
 
 # direct methods

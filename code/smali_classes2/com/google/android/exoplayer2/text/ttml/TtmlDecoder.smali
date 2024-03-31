@@ -202,7 +202,7 @@
 .method private static isSupportedTag(Ljava/lang/String;)Z
     .locals 1
 
-    const-string v0, "tt"
+    const-string/jumbo v0, "tt"
 
     .line 715
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -247,7 +247,7 @@
 
     if-nez v0, :cond_1
 
-    const-string v0, "span"
+    const-string/jumbo v0, "span"
 
     .line 720
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -265,7 +265,7 @@
 
     if-nez v0, :cond_1
 
-    const-string v0, "style"
+    const-string/jumbo v0, "style"
 
     .line 722
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -274,7 +274,7 @@
 
     if-nez v0, :cond_1
 
-    const-string v0, "styling"
+    const-string/jumbo v0, "styling"
 
     .line 723
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -373,7 +373,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string v0, "start"
+    const-string/jumbo v0, "start"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -474,6 +474,8 @@
     sget-object p0, Landroid/text/Layout$Alignment;->ALIGN_CENTER:Landroid/text/Layout$Alignment;
 
     return-object p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -1055,7 +1057,7 @@
 
     iget v4, v3, Lcom/google/android/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->subFrameRate:I
 
-    const-string v5, "subFrameRate"
+    const-string/jumbo v5, "subFrameRate"
 
     .line 213
     invoke-interface {p0, v0, v5}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1073,7 +1075,7 @@
     :cond_3
     iget v3, v3, Lcom/google/android/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->tickRate:I
 
-    const-string v5, "tickRate"
+    const-string/jumbo v5, "tickRate"
 
     .line 219
     invoke-interface {p0, v0, v5}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1138,7 +1140,7 @@
     :cond_0
     invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
-    const-string v0, "style"
+    const-string/jumbo v0, "style"
 
     .line 284
     invoke-static {p0, v0}, Lcom/google/android/exoplayer2/util/XmlPullParserUtil;->isStartTag(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
@@ -1418,7 +1420,7 @@
     goto :goto_2
 
     :sswitch_1
-    const-string v7, "style"
+    const-string/jumbo v7, "style"
 
     invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1672,8 +1674,6 @@
     move-result-object v0
 
     return-object v0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -2221,7 +2221,7 @@
     goto :goto_9
 
     :sswitch_0
-    const-string v3, "tbrl"
+    const-string/jumbo v3, "tbrl"
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2237,7 +2237,7 @@
     goto :goto_9
 
     :sswitch_1
-    const-string v3, "tblr"
+    const-string/jumbo v3, "tblr"
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2253,7 +2253,7 @@
     goto :goto_9
 
     :sswitch_2
-    const-string v9, "tb"
+    const-string/jumbo v9, "tb"
 
     invoke-virtual {v0, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2438,6 +2438,8 @@
     invoke-static {v5, v0}, Lcom/google/android/exoplayer2/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -2674,7 +2676,7 @@
     goto/16 :goto_2
 
     :sswitch_3
-    const-string v5, "textEmphasis"
+    const-string/jumbo v5, "textEmphasis"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2706,7 +2708,7 @@
     goto/16 :goto_2
 
     :sswitch_5
-    const-string v5, "textCombine"
+    const-string/jumbo v5, "textCombine"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2722,7 +2724,7 @@
     goto/16 :goto_2
 
     :sswitch_6
-    const-string v5, "shear"
+    const-string/jumbo v5, "shear"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2802,7 +2804,7 @@
     goto :goto_2
 
     :sswitch_b
-    const-string v5, "textDecoration"
+    const-string/jumbo v5, "textDecoration"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2818,7 +2820,7 @@
     goto :goto_2
 
     :sswitch_c
-    const-string v5, "textAlign"
+    const-string/jumbo v5, "textAlign"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3178,7 +3180,7 @@
     goto :goto_7
 
     :sswitch_f
-    const-string v4, "text"
+    const-string/jumbo v4, "text"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3205,7 +3207,7 @@
     goto :goto_7
 
     :sswitch_11
-    const-string v4, "textContainer"
+    const-string/jumbo v4, "textContainer"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3326,7 +3328,7 @@
 
     move-result-object v4
 
-    const-string v5, "style"
+    const-string/jumbo v5, "style"
 
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3414,7 +3416,7 @@
     goto :goto_8
 
     :sswitch_17
-    const-string v4, "underline"
+    const-string/jumbo v4, "underline"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3550,6 +3552,8 @@
 
     :cond_21
     return-object p1
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -3915,7 +3919,7 @@
     goto :goto_2
 
     :sswitch_1
-    const-string v1, "t"
+    const-string/jumbo v1, "t"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -4057,6 +4061,8 @@
     invoke-direct {p1, p0}, Lcom/google/android/exoplayer2/text/SubtitleDecoderException;-><init>(Ljava/lang/String;)V
 
     throw p1
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -4319,7 +4325,7 @@
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    const-string v7, "tt"
+    const-string/jumbo v7, "tt"
 
     if-ne v0, v8, :cond_5
 

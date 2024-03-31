@@ -20,7 +20,7 @@
         "Lkotlin/collections/ArrayList;",
         "getModelValue",
         "data",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -75,7 +75,7 @@
 
     move-result-object p1
 
-    const-string v0, "this as java.lang.String).getBytes(charset)"
+    const-string/jumbo v0, "this as java.lang.String).getBytes(charset)"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

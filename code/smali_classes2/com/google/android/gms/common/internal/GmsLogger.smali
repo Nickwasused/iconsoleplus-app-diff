@@ -65,7 +65,7 @@
 
     aput-object v2, v4, v1
 
-    const-string v1, "tag \"%s\" is longer than the %d character maximum"
+    const-string/jumbo v1, "tag \"%s\" is longer than the %d character maximum"
 
     .line 5
     invoke-static {v0, v1, v4}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V

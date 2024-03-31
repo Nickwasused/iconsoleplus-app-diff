@@ -52,7 +52,7 @@
 
     iput-object v0, p0, Landroidx/appcompat/widget/ShareActionProvider;->mOnMenuItemClickListener:Landroidx/appcompat/widget/ShareActionProvider$ShareMenuItemOnMenuItemClickListener;
 
-    const-string/jumbo v0, "share_history.xml"
+    const-string v0, "share_history.xml"
 
     .line 185
     iput-object v0, p0, Landroidx/appcompat/widget/ShareActionProvider;->mShareHistoryFileName:Ljava/lang/String;

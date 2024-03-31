@@ -128,7 +128,7 @@
     move-object v0, v3
 
     :cond_2
-    const-string/jumbo v1, "supportsDynamicGroupRoute"
+    const-string v1, "supportsDynamicGroupRoute"
 
     .line 142
     invoke-virtual {p0, v1, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
@@ -224,7 +224,7 @@
 
     iget-boolean v1, p0, Landroidx/mediarouter/media/MediaRouteProviderDescriptor;->mSupportsDynamicGroupRoute:Z
 
-    const-string/jumbo v2, "supportsDynamicGroupRoute"
+    const-string v2, "supportsDynamicGroupRoute"
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 

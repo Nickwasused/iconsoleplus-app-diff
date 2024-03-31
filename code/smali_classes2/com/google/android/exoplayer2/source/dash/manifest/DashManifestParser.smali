@@ -422,7 +422,7 @@
 
     move-result-object p0
 
-    const-string p1, "text/vtt"
+    const-string/jumbo p1, "text/vtt"
 
     .line 1588
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -528,7 +528,7 @@
     .line 1662
     iget-object v2, v1, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v3, "urn:scte:dash:cc:cea-608:2015"
+    const-string/jumbo v3, "urn:scte:dash:cc:cea-608:2015"
 
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -643,7 +643,7 @@
     .line 1679
     iget-object v2, v1, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v3, "urn:scte:dash:cc:cea-708:2015"
+    const-string/jumbo v3, "urn:scte:dash:cc:cea-708:2015"
 
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -773,7 +773,7 @@
 
     move-result-object v0
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     const/4 v2, 0x0
 
@@ -813,7 +813,7 @@
 
     const/4 v0, 0x0
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     .line 1803
     invoke-interface {p0, v0, v1}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -932,8 +932,6 @@
     :pswitch_3
     return v3
 
-    nop
-
     :sswitch_data_0
     .sparse-switch
         0x185d7c -> :sswitch_3
@@ -1006,7 +1004,7 @@
     .line 1695
     iget-object v2, v1, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v3, "tag:dolby.com,2018:dash:EC3_ExtensionType:2018"
+    const-string/jumbo v3, "tag:dolby.com,2018:dash:EC3_ExtensionType:2018"
 
     .line 1696
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1027,7 +1025,7 @@
     if-nez v3, :cond_1
 
     :cond_0
-    const-string v3, "tag:dolby.com,2014:dash:DolbyDigitalPlusExtensionType:2014"
+    const-string/jumbo v3, "tag:dolby.com,2014:dash:DolbyDigitalPlusExtensionType:2014"
 
     .line 1698
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1271,7 +1269,7 @@
 .method protected static parseMpegChannelConfiguration(Lorg/xmlpull/v1/XmlPullParser;)I
     .locals 3
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     const/4 v1, -0x1
 
@@ -3171,7 +3169,7 @@
     goto :goto_1
 
     :sswitch_0
-    const-string v1, "urn:dolby:dash:audio_channel_configuration:2011"
+    const-string/jumbo v1, "urn:dolby:dash:audio_channel_configuration:2011"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3187,7 +3185,7 @@
     goto :goto_1
 
     :sswitch_1
-    const-string v1, "urn:mpeg:mpegB:cicp:ChannelConfiguration"
+    const-string/jumbo v1, "urn:mpeg:mpegB:cicp:ChannelConfiguration"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3203,7 +3201,7 @@
     goto :goto_1
 
     :sswitch_2
-    const-string v1, "tag:dolby.com,2014:dash:audio_channel_configuration:2011"
+    const-string/jumbo v1, "tag:dolby.com,2014:dash:audio_channel_configuration:2011"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3219,7 +3217,7 @@
     goto :goto_1
 
     :sswitch_3
-    const-string v1, "urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+    const-string/jumbo v1, "urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3254,7 +3252,7 @@
     goto :goto_2
 
     :pswitch_2
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     .line 1375
     invoke-static {p1, v0, v2}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseInt(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)I
@@ -3276,8 +3274,6 @@
     if-eqz v0, :cond_4
 
     return v2
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -3416,7 +3412,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string v4, "urn:mpeg:dash:mp4protection:2011"
+    const-string/jumbo v4, "urn:mpeg:dash:mp4protection:2011"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3432,7 +3428,7 @@
     goto :goto_0
 
     :sswitch_1
-    const-string v4, "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+    const-string/jumbo v4, "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3448,7 +3444,7 @@
     goto :goto_0
 
     :sswitch_2
-    const-string v4, "urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"
+    const-string/jumbo v4, "urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3467,7 +3463,7 @@
     goto :goto_3
 
     :pswitch_0
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     .line 553
     invoke-interface {p1, v0, v1}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -3719,7 +3715,7 @@
     .line 604
     new-instance v0, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;
 
-    const-string p1, "video/mp4"
+    const-string/jumbo p1, "video/mp4"
 
     invoke-direct {v0, v4, v5, p1, v3}, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;-><init>(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;[B)V
 
@@ -3730,8 +3726,6 @@
     move-result-object p1
 
     return-object p1
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -3786,7 +3780,7 @@
     goto :goto_0
 
     :cond_1
-    const-string v0, "video"
+    const-string/jumbo v0, "video"
 
     .line 528
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3800,7 +3794,7 @@
     goto :goto_0
 
     :cond_2
-    const-string v0, "text"
+    const-string/jumbo v0, "text"
 
     .line 529
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -4186,14 +4180,14 @@
 
     move-result-object v0
 
-    const-string v2, "value"
+    const-string/jumbo v2, "value"
 
     .line 1047
     invoke-static {p1, v2, v1}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseString(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    const-string v2, "timescale"
+    const-string/jumbo v2, "timescale"
 
     const-wide/16 v3, 0x1
 
@@ -4336,7 +4330,7 @@
 .method protected parseInitialization(Lorg/xmlpull/v1/XmlPullParser;)Lcom/google/android/exoplayer2/source/dash/manifest/RangedUri;
     .locals 2
 
-    const-string v0, "sourceURL"
+    const-string/jumbo v0, "sourceURL"
 
     const-string v1, "range"
 
@@ -4405,7 +4399,7 @@
 
     const/4 v0, 0x0
 
-    const-string v1, "type"
+    const-string/jumbo v1, "type"
 
     .line 116
     invoke-interface {v11, v0, v1}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -4438,7 +4432,7 @@
     :goto_0
     if-eqz v21, :cond_1
 
-    const-string v1, "timeShiftBufferDepth"
+    const-string/jumbo v1, "timeShiftBufferDepth"
 
     .line 121
     invoke-static {v11, v1, v12, v13}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseDuration(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
@@ -4455,7 +4449,7 @@
     :goto_1
     if-eqz v21, :cond_2
 
-    const-string v1, "suggestedPresentationDelay"
+    const-string/jumbo v1, "suggestedPresentationDelay"
 
     .line 123
     invoke-static {v11, v1, v12, v13}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseDuration(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
@@ -4923,7 +4917,7 @@
 
     move-result-object v16
 
-    const-string v0, "start"
+    const-string/jumbo v0, "start"
 
     move-wide/from16 v1, p3
 
@@ -6212,7 +6206,7 @@
     .line 1443
     iget-object v3, v2, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v4, "urn:mpeg:dash:role:2011"
+    const-string/jumbo v4, "urn:mpeg:dash:role:2011"
 
     invoke-static {v4, v3}, Lcom/google/common/base/Ascii;->equalsIgnoreCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
@@ -6236,7 +6230,7 @@
     :cond_0
     iget-object v3, v2, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v4, "urn:tva:metadata:cs:AudioPurposeCS:2007"
+    const-string/jumbo v4, "urn:tva:metadata:cs:AudioPurposeCS:2007"
 
     invoke-static {v4, v3}, Lcom/google/common/base/Ascii;->equalsIgnoreCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
@@ -6295,7 +6289,7 @@
     goto/16 :goto_0
 
     :sswitch_0
-    const-string v2, "supplementary"
+    const-string/jumbo v2, "supplementary"
 
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -6359,7 +6353,7 @@
     goto/16 :goto_0
 
     :sswitch_4
-    const-string v2, "sign"
+    const-string/jumbo v2, "sign"
 
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -6471,7 +6465,7 @@
     goto :goto_0
 
     :sswitch_b
-    const-string v2, "subtitle"
+    const-string/jumbo v2, "subtitle"
 
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -6535,8 +6529,6 @@
     const/16 p1, 0x80
 
     return p1
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -6656,7 +6648,7 @@
     .line 1430
     iget-object v3, v2, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v4, "urn:mpeg:dash:role:2011"
+    const-string/jumbo v4, "urn:mpeg:dash:role:2011"
 
     invoke-static {v4, v3}, Lcom/google/common/base/Ascii;->equalsIgnoreCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
@@ -6708,7 +6700,7 @@
     move-wide v4, v2
 
     :goto_0
-    const-string v6, "timescale"
+    const-string/jumbo v6, "timescale"
 
     invoke-static {v0, v6, v4, v5}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
 
@@ -6880,7 +6872,7 @@
     move-wide v2, v0
 
     :goto_0
-    const-string v4, "timescale"
+    const-string/jumbo v4, "timescale"
 
     invoke-static {v6, v4, v2, v3}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
 
@@ -6927,7 +6919,7 @@
     iget-wide v0, v7, Lcom/google/android/exoplayer2/source/dash/manifest/SegmentBase$SegmentList;->startNumber:J
 
     :cond_3
-    const-string v2, "startNumber"
+    const-string/jumbo v2, "startNumber"
 
     invoke-static {v6, v2, v0, v1}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
 
@@ -7134,7 +7126,7 @@
     move-wide v2, v0
 
     :goto_0
-    const-string v4, "timescale"
+    const-string/jumbo v4, "timescale"
 
     invoke-static {v6, v4, v2, v3}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
 
@@ -7181,7 +7173,7 @@
     iget-wide v0, v7, Lcom/google/android/exoplayer2/source/dash/manifest/SegmentBase$SegmentTemplate;->startNumber:J
 
     :cond_3
-    const-string v2, "startNumber"
+    const-string/jumbo v2, "startNumber"
 
     invoke-static {v6, v2, v0, v1}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
 
@@ -7414,7 +7406,7 @@
 
     if-eqz v2, :cond_3
 
-    const-string v2, "t"
+    const-string/jumbo v2, "t"
 
     .line 1196
     invoke-static {v0, v2, v12, v13}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
@@ -7607,7 +7599,7 @@
     .line 1401
     iget-object v3, v2, Lcom/google/android/exoplayer2/source/dash/manifest/Descriptor;->schemeIdUri:Ljava/lang/String;
 
-    const-string v4, "urn:mpeg:dash:role:2011"
+    const-string/jumbo v4, "urn:mpeg:dash:role:2011"
 
     invoke-static {v4, v3}, Lcom/google/common/base/Ascii;->equalsIgnoreCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
@@ -7675,7 +7667,7 @@
 
     if-eqz v12, :cond_0
 
-    const-string v4, "target"
+    const-string/jumbo v4, "target"
 
     .line 260
     invoke-static {v0, v4, v2, v3}, Lcom/google/android/exoplayer2/source/dash/manifest/DashManifestParser;->parseLong(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;J)J
@@ -7947,7 +7939,7 @@
 
     move-result-object v1
 
-    const-string v2, "value"
+    const-string/jumbo v2, "value"
 
     .line 242
     invoke-interface {p1, v0, v2}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

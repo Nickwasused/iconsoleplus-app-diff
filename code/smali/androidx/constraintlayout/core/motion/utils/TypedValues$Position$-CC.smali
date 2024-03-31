@@ -64,7 +64,7 @@
     goto :goto_1
 
     :sswitch_2
-    const-string/jumbo v0, "sizePercent"
+    const-string v0, "sizePercent"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -128,7 +128,7 @@
     goto :goto_1
 
     :sswitch_6
-    const-string/jumbo v0, "transitionEasing"
+    const-string v0, "transitionEasing"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

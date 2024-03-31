@@ -25,7 +25,7 @@
     .line 42
     new-instance v0, Ljava/util/ArrayList;
 
-    const-string/jumbo v1, "sunfish"
+    const-string v1, "sunfish"
 
     const-string v2, "bramble"
 

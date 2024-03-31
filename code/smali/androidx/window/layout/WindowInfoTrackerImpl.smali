@@ -73,11 +73,11 @@
 .method public constructor <init>(Landroidx/window/layout/WindowMetricsCalculator;Landroidx/window/layout/WindowBackend;)V
     .locals 1
 
-    const-string/jumbo v0, "windowMetricsCalculator"
+    const-string v0, "windowMetricsCalculator"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "windowBackend"
+    const-string v0, "windowBackend"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -107,7 +107,7 @@
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string p2, "url cannot be null"
+    const-string/jumbo p2, "url cannot be null"
 
     .line 4
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
@@ -126,7 +126,7 @@
     .line 6
     sget-object v0, Landroid/net/Uri;->EMPTY:Landroid/net/Uri;
 
-    const-string v1, "url"
+    const-string/jumbo v1, "url"
 
     invoke-virtual {p1, v1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
@@ -299,7 +299,7 @@
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     :try_start_0
-    const-string v1, "url"
+    const-string/jumbo v1, "url"
 
     iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 

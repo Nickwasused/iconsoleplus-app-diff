@@ -1057,7 +1057,7 @@
 
     const-string v0, "ImageCapture"
 
-    const-string/jumbo v1, "triggerAf"
+    const-string v1, "triggerAf"
 
     .line 1480
     invoke-static {v0, v1}, Landroidx/camera/core/Logger;->d(Ljava/lang/String;Ljava/lang/String;)V
@@ -2787,7 +2787,7 @@
     .line 1040
     invoke-virtual {p2, v0, p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->addCancellationListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    const-string/jumbo p1, "takePictureInternal"
+    const-string p1, "takePictureInternal"
 
     return-object p1
 .end method
@@ -3510,7 +3510,7 @@
 
     const-string v0, "ImageCapture"
 
-    const-string/jumbo v1, "triggerAePrecapture"
+    const-string v1, "triggerAePrecapture"
 
     .line 1490
     invoke-static {v0, v1}, Landroidx/camera/core/Logger;->d(Ljava/lang/String;Ljava/lang/String;)V

@@ -265,7 +265,7 @@
     goto/16 :goto_2
 
     :pswitch_2
-    const-string v11, "v"
+    const-string/jumbo v11, "v"
 
     invoke-virtual {v8, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -278,7 +278,7 @@
     goto/16 :goto_2
 
     :pswitch_3
-    const-string v11, "u"
+    const-string/jumbo v11, "u"
 
     invoke-virtual {v8, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -291,7 +291,7 @@
     goto/16 :goto_2
 
     :pswitch_4
-    const-string v11, "t"
+    const-string/jumbo v11, "t"
 
     invoke-virtual {v8, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -743,8 +743,6 @@
     invoke-direct {v0, p0}, Lcom/google/android/exoplayer2/ParserException;-><init>(Ljava/lang/Throwable;)V
 
     throw v0
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x61

@@ -155,7 +155,7 @@
 .method public constructor <init>(Landroidx/window/sidecar/SidecarInterface;Landroidx/window/layout/SidecarAdapter;)V
     .locals 1
 
-    const-string/jumbo v0, "sidecarAdapter"
+    const-string v0, "sidecarAdapter"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -477,7 +477,7 @@
 .method public final register(Landroid/os/IBinder;Landroid/app/Activity;)V
     .locals 1
 
-    const-string/jumbo v0, "windowToken"
+    const-string v0, "windowToken"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -626,7 +626,7 @@
     goto :goto_0
 
     :cond_1
-    const-string/jumbo v4, "setSidecarCallback"
+    const-string v4, "setSidecarCallback"
 
     new-array v5, v0, [Ljava/lang/Class;
 
@@ -874,7 +874,7 @@
     :try_start_2
     const-class v4, Landroidx/window/sidecar/SidecarDeviceState;
 
-    const-string/jumbo v5, "setPosture"
+    const-string v5, "setPosture"
 
     new-array v6, v0, [Ljava/lang/Class;
 

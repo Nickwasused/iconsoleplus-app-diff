@@ -59,7 +59,7 @@
 
     if-eqz v0, :cond_3
 
-    const-string/jumbo v2, "volume"
+    const-string v2, "volume"
 
     const-string v3, "memberRouteId"
 
@@ -238,7 +238,7 @@
     goto :goto_1
 
     :cond_2
-    const-string/jumbo p1, "unselectReason"
+    const-string p1, "unselectReason"
 
     .line 446
     invoke-virtual {p6, p1, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I

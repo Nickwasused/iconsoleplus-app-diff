@@ -1401,7 +1401,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "und"
+    const-string/jumbo v0, "und"
 
     invoke-static {p0, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 

@@ -652,7 +652,7 @@
     :try_start_0
     const-class v3, Landroid/content/res/Configuration;
 
-    const-string/jumbo v4, "windowConfiguration"
+    const-string v4, "windowConfiguration"
 
     .line 132
     invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
@@ -1056,7 +1056,7 @@
     :try_start_0
     const-class v1, Landroid/content/res/Configuration;
 
-    const-string/jumbo v2, "windowConfiguration"
+    const-string v2, "windowConfiguration"
 
     .line 93
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;

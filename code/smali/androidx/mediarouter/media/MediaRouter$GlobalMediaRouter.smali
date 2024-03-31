@@ -2909,7 +2909,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v5, "setSelectedRouteInternal is called while sGlobal is null: pkgName="
+    const-string v5, "setSelectedRouteInternal is called while sGlobal is null: pkgName="
 
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -3070,7 +3070,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v1, "setSelectedRouteInternal: Failed to create dynamic group route controller. route="
+    const-string v1, "setSelectedRouteInternal: Failed to create dynamic group route controller. route="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -100,7 +100,7 @@
         "setSwipeRightTextSize",
         "setSwipeRightTypeface",
         "Builder",
-        "icp4th-1.8.58_icpGlobalRelease"
+        "icp4th-1.8.69_icpCnRelease"
     }
     k = 0x1
     mv = {
@@ -264,7 +264,7 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "viewHolder"
+    const-string/jumbo v0, "viewHolder"
 
     move-object v4, p4
 
@@ -297,7 +297,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "viewHolder"
+    const-string/jumbo v0, "viewHolder"
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -393,7 +393,7 @@
 
     const/4 v9, 0x2
 
-    const-string v10, "viewHolder"
+    const-string/jumbo v10, "viewHolder"
 
     const/16 v16, 0x0
 
@@ -2352,7 +2352,7 @@
 .method public final setSwipeLeftTypeface(Landroid/graphics/Typeface;)V
     .locals 1
 
-    const-string v0, "typeface"
+    const-string/jumbo v0, "typeface"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -2582,7 +2582,7 @@
 .method public final setSwipeRightTypeface(Landroid/graphics/Typeface;)V
     .locals 1
 
-    const-string v0, "typeface"
+    const-string/jumbo v0, "typeface"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

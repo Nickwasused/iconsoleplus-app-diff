@@ -419,7 +419,7 @@
 
     if-eqz v0, :cond_1
 
-    const-string v1, "video/webm"
+    const-string/jumbo v1, "video/webm"
 
     .line 215
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z

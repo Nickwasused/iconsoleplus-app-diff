@@ -726,7 +726,7 @@
     if-eqz v0, :cond_4
 
     :cond_3
-    const-string v0, "und"
+    const-string/jumbo v0, "und"
 
     .line 21
     iput-object v0, p0, Lcom/google/android/gms/vision/text/TextBlock;->zzd:Ljava/lang/String;

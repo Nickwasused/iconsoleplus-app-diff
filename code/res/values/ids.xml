@@ -61,10 +61,13 @@
     <item type="id" name="activity_chooser_view_content" />
     <item type="id" name="activity_main" />
     <item type="id" name="alertTitle" />
+    <item type="id" name="amapMapView" />
     <item type="id" name="androidx_window_activity_scope" />
     <item type="id" name="aniView" />
     <item type="id" name="avLoadingIndicator" />
     <item type="id" name="avLoadingIndicatorView" />
+    <item type="id" name="baiduPanorama" />
+    <item type="id" name="banner_view" />
     <item type="id" name="bottomLayout" />
     <item type="id" name="bottom_wrapper" />
     <item type="id" name="browser_actions_header_text" />
@@ -193,6 +196,7 @@
     <item type="id" name="chronometer" />
     <item type="id" name="circle" />
     <item type="id" name="circle_center" />
+    <item type="id" name="ckPolicyAgreement" />
     <item type="id" name="clImage" />
     <item type="id" name="com_facebook_body_frame" />
     <item type="id" name="com_facebook_button_xout" />
@@ -242,6 +246,7 @@
     <item type="id" name="edittext" />
     <item type="id" name="elvWorkouts" />
     <item type="id" name="end_padder" />
+    <item type="id" name="error" />
     <item type="id" name="etComment" />
     <item type="id" name="etConfirmPassword" />
     <item type="id" name="etEmail" />
@@ -515,6 +520,7 @@
     <item type="id" name="linearLayout3" />
     <item type="id" name="linearLayout4" />
     <item type="id" name="linearLayout5" />
+    <item type="id" name="linearLayout6" />
     <item type="id" name="list" />
     <item type="id" name="listReports" />
     <item type="id" name="listView" />
@@ -771,6 +777,7 @@
     <item type="id" name="seekbar_value" />
     <item type="id" name="select_dialog_listview" />
     <item type="id" name="selection_type" />
+    <item type="id" name="shader_view" />
     <item type="id" name="shape_id" />
     <item type="id" name="shortcut" />
     <item type="id" name="slideText" />
@@ -849,7 +856,10 @@
     <item type="id" name="title" />
     <item type="id" name="titleDividerNoCustom" />
     <item type="id" name="title_template" />
+    <item type="id" name="toast_image" />
+    <item type="id" name="toast_layout" />
     <item type="id" name="toast_text" />
+    <item type="id" name="toast_view" />
     <item type="id" name="topPanel" />
     <item type="id" name="touch_outside" />
     <item type="id" name="transition_current_scene" />
@@ -1000,6 +1010,7 @@
     <item type="id" name="txvPrevStep" />
     <item type="id" name="txvPrevStepDuration" />
     <item type="id" name="txvPrevVo2Max" />
+    <item type="id" name="txvPrivacy" />
     <item type="id" name="txvProgramsDesc" />
     <item type="id" name="txvProgramsTitle" />
     <item type="id" name="txvQuickStartDesc" />

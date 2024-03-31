@@ -68,7 +68,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0a04f8
+    const v1, 0x7f0a0502
 
     .line 71
     invoke-static {p0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f0a0505
+    const v1, 0x7f0a050f
 
     .line 77
     invoke-static {p0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;

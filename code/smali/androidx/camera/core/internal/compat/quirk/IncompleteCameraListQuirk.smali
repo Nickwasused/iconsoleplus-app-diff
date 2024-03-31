@@ -27,7 +27,7 @@
 
     const-string v1, "a5y17lte"
 
-    const-string/jumbo v2, "tb-8704x"
+    const-string v2, "tb-8704x"
 
     const-string v3, "a7y17lte"
 
@@ -47,11 +47,11 @@
 
     const-string v11, "asus_z01h_1"
 
-    const-string/jumbo v12, "vox_alpha_plus"
+    const-string v12, "vox_alpha_plus"
 
     const-string v13, "a5y17ltecan"
 
-    const-string/jumbo v14, "x304l"
+    const-string v14, "x304l"
 
     const-string v15, "hero2qltevzw"
 
@@ -79,7 +79,7 @@
 
     const-string v27, "davinci"
 
-    const-string/jumbo v28, "vince"
+    const-string v28, "vince"
 
     const-string v29, "armor_x5"
 
