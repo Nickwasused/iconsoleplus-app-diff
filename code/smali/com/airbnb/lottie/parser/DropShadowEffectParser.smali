@@ -40,7 +40,7 @@
 
     const-string v0, "nm"
 
-    const-string v1, "v"
+    const-string/jumbo v1, "v"
 
     .line 17
     filled-new-array {v0, v1}, [Ljava/lang/String;

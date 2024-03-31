@@ -884,7 +884,7 @@
 
     check-cast p1, Ljava/lang/Class;
 
-    const-string/jumbo p2, "unexpectedEndOfInput"
+    const-string p2, "unexpectedEndOfInput"
 
     const/4 v0, 0x0
 

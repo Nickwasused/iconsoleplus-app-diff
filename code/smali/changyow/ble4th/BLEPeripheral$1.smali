@@ -77,7 +77,7 @@
 
     iget-object v0, v0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_a
 
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -142,9 +142,21 @@
 
     move-result v2
 
-    if-ge v2, v1, :cond_3
+    if-lt v2, v1, :cond_4
+
+    :cond_3
+    invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lchangyow/ble4th/WorkoutStatus;->getMeterID()B
+
+    move-result v2
+
+    if-gez v2, :cond_5
 
     .line 437
+    :cond_4
     iget-object v2, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v2}, Lchangyow/ble4th/BLEPeripheral;->ack()V
@@ -152,7 +164,7 @@
     goto :goto_0
 
     .line 439
-    :cond_3
+    :cond_5
     iget-object v2, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v2}, Lchangyow/ble4th/BLEPeripheral;->getWokroutStatus()V
@@ -161,21 +173,21 @@
 
     :catch_0
     :goto_0
-    if-nez v0, :cond_4
+    if-nez v0, :cond_6
 
     return-void
 
     .line 450
-    :cond_4
+    :cond_6
     instance-of v2, v0, Lchangyow/ble4th/handler/treadmill/TMGetWorkoutStatus;
 
-    if-nez v2, :cond_5
+    if-nez v2, :cond_7
 
     instance-of v2, v0, Lchangyow/ble4th/handler/iconsole/ICGetWorkoutStatus;
 
-    if-eqz v2, :cond_7
+    if-eqz v2, :cond_9
 
-    :cond_5
+    :cond_7
     iget-object v2, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v2, v2, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -184,7 +196,7 @@
 
     move-result v2
 
-    if-le v2, v1, :cond_7
+    if-le v2, v1, :cond_9
 
     .line 452
     iget-object v2, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
@@ -200,14 +212,14 @@
     .line 453
     instance-of v2, v1, Lchangyow/ble4th/handler/treadmill/TMGetWorkoutStatus;
 
-    if-nez v2, :cond_6
+    if-nez v2, :cond_8
 
     instance-of v2, v1, Lchangyow/ble4th/handler/iconsole/ICGetWorkoutStatus;
 
-    if-eqz v2, :cond_7
+    if-eqz v2, :cond_9
 
     .line 454
-    :cond_6
+    :cond_8
     iget-object v2, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v2, v2, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -215,7 +227,7 @@
     invoke-virtual {v2, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 459
-    :cond_7
+    :cond_9
     :try_start_1
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral$1;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -228,7 +240,7 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
     :catch_1
-    :cond_8
+    :cond_a
     :goto_1
     return-void
 .end method

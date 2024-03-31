@@ -465,7 +465,7 @@
 
     invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v3, "starting AutoManage for client "
+    const-string v3, "starting AutoManage for client "
 
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

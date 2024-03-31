@@ -373,7 +373,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 361
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -534,7 +534,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 375
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -580,7 +580,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 379
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -780,7 +780,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 442
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -876,7 +876,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 456
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -904,7 +904,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 460
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1189,7 +1189,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 283
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1287,7 +1287,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 297
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1315,7 +1315,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 301
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1384,7 +1384,7 @@
     return-object p0
 
     :pswitch_2
-    const-string/jumbo p0, "stepper"
+    const-string p0, "stepper"
 
     return-object p0
 
@@ -1394,7 +1394,7 @@
     return-object p0
 
     :pswitch_4
-    const-string/jumbo p0, "squat"
+    const-string p0, "squat"
 
     return-object p0
 
@@ -1414,7 +1414,7 @@
     return-object p0
 
     :pswitch_8
-    const-string/jumbo p0, "treadmill"
+    const-string p0, "treadmill"
 
     return-object p0
 
@@ -1437,6 +1437,8 @@
     const-string p0, "manual_bike"
 
     return-object p0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x4
@@ -1469,7 +1471,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 313
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1567,7 +1569,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 327
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1595,7 +1597,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 331
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1723,7 +1725,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 424
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1755,7 +1757,7 @@
 
     if-nez v0, :cond_6
 
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1812,7 +1814,7 @@
     return-object p0
 
     :cond_3
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 432
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

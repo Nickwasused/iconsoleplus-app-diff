@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/google/android/exoplayer2/transformer/Transformer$Builder;->muxerFactory:Lcom/google/android/exoplayer2/transformer/Muxer$Factory;
 
-    const-string/jumbo v0, "video/mp4"
+    const-string v0, "video/mp4"
 
     .line 102
     iput-object v0, p0, Lcom/google/android/exoplayer2/transformer/Transformer$Builder;->outputMimeType:Ljava/lang/String;

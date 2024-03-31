@@ -1361,7 +1361,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v1, "state="
+    const-string v1, "state="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1673,7 +1673,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "state"
+    const-string v0, "state"
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1954,7 +1954,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "shuffleModeEnabled"
+    const-string v0, "shuffleModeEnabled"
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1969,7 +1969,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "skipSilenceEnabled"
+    const-string v0, "skipSilenceEnabled"
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -2001,7 +2001,7 @@
 
     move-result v0
 
-    const-string/jumbo v1, "staticMetadata ["
+    const-string v1, "staticMetadata ["
 
     if-eqz v0, :cond_0
 
@@ -2112,7 +2112,7 @@
 
     move-result-object p2
 
-    const-string/jumbo p3, "surfaceSize"
+    const-string p3, "surfaceSize"
 
     invoke-direct {p0, p1, p3, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -2170,7 +2170,7 @@
 
     invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v3, "timeline ["
+    const-string v3, "timeline ["
 
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2391,7 +2391,7 @@
     :goto_0
     if-nez v1, :cond_1
 
-    const-string/jumbo v1, "tracks"
+    const-string v1, "tracks"
 
     const-string v2, "[]"
 
@@ -2405,7 +2405,7 @@
     :cond_1
     move-object/from16 v3, p1
 
-    const-string/jumbo v2, "tracks ["
+    const-string v2, "tracks ["
 
     .line 259
     invoke-direct/range {p0 .. p1}, Lcom/google/android/exoplayer2/util/EventLogger;->getEventTimeString(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;)Ljava/lang/String;
@@ -2983,7 +2983,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "upstreamDiscarded"
+    const-string v0, "upstreamDiscarded"
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -3001,7 +3001,7 @@
 .method public onVideoDecoderInitialized(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;J)V
     .locals 0
 
-    const-string/jumbo p3, "videoDecoderInitialized"
+    const-string p3, "videoDecoderInitialized"
 
     .line 431
     invoke-direct {p0, p1, p3, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
@@ -3020,7 +3020,7 @@
 .method public onVideoDecoderReleased(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;)V
     .locals 1
 
-    const-string/jumbo v0, "videoDecoderReleased"
+    const-string v0, "videoDecoderReleased"
 
     .line 447
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
@@ -3031,7 +3031,7 @@
 .method public onVideoDisabled(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V
     .locals 0
 
-    const-string/jumbo p2, "videoDisabled"
+    const-string p2, "videoDisabled"
 
     .line 452
     invoke-direct {p0, p1, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;)V
@@ -3042,7 +3042,7 @@
 .method public onVideoEnabled(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V
     .locals 0
 
-    const-string/jumbo p2, "videoEnabled"
+    const-string p2, "videoEnabled"
 
     .line 425
     invoke-direct {p0, p1, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;)V
@@ -3074,7 +3074,7 @@
 
     move-result-object p2
 
-    const-string/jumbo p3, "videoInputFormat"
+    const-string p3, "videoInputFormat"
 
     invoke-direct {p0, p1, p3, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -3115,7 +3115,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "videoSize"
+    const-string v0, "videoSize"
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/exoplayer2/util/EventLogger;->logd(Lcom/google/android/exoplayer2/analytics/AnalyticsListener$EventTime;Ljava/lang/String;Ljava/lang/String;)V
 

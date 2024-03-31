@@ -70,7 +70,7 @@
 .method private static mimeTypeToMuxerOutputFormat(Ljava/lang/String;)I
     .locals 3
 
-    const-string/jumbo v0, "video/mp4"
+    const-string v0, "video/mp4"
 
     .line 186
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -91,7 +91,7 @@
 
     if-lt v0, v1, :cond_1
 
-    const-string/jumbo v0, "video/webm"
+    const-string v0, "video/webm"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -370,7 +370,7 @@
     .line 87
     iget-object v2, p0, Lcom/google/android/exoplayer2/transformer/FrameworkMuxer;->outputMimeType:Ljava/lang/String;
 
-    const-string/jumbo v3, "video/mp4"
+    const-string v3, "video/mp4"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -386,7 +386,7 @@
 
     if-eqz v1, :cond_2
 
-    const-string/jumbo v0, "video/3gpp"
+    const-string v0, "video/3gpp"
 
     .line 89
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -395,7 +395,7 @@
 
     if-nez v0, :cond_1
 
-    const-string/jumbo v0, "video/avc"
+    const-string v0, "video/avc"
 
     .line 90
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -404,7 +404,7 @@
 
     if-nez v0, :cond_1
 
-    const-string/jumbo v0, "video/mp4v-es"
+    const-string v0, "video/mp4v-es"
 
     .line 91
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -417,7 +417,7 @@
 
     if-lt v0, v3, :cond_0
 
-    const-string/jumbo v0, "video/hevc"
+    const-string v0, "video/hevc"
 
     .line 92
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -478,7 +478,7 @@
     :cond_5
     iget-object v2, p0, Lcom/google/android/exoplayer2/transformer/FrameworkMuxer;->outputMimeType:Ljava/lang/String;
 
-    const-string/jumbo v6, "video/webm"
+    const-string v6, "video/webm"
 
     invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -494,7 +494,7 @@
 
     if-eqz v1, :cond_8
 
-    const-string/jumbo v0, "video/x-vnd.on2.vp8"
+    const-string v0, "video/x-vnd.on2.vp8"
 
     .line 100
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -507,7 +507,7 @@
 
     if-lt v0, v3, :cond_6
 
-    const-string/jumbo v0, "video/x-vnd.on2.vp9"
+    const-string v0, "video/x-vnd.on2.vp9"
 
     .line 101
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

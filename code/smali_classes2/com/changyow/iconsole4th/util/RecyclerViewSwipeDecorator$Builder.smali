@@ -79,7 +79,7 @@
         "setSwipeRightLabelColor",
         "setSwipeRightLabelTextSize",
         "setSwipeRightLabelTypeface",
-        "icp4th-1.8.57_icpCnRelease"
+        "icp4th-1.8.58_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -114,7 +114,7 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "viewHolder"
+    const-string v0, "viewHolder"
 
     move-object v4, p4
 
@@ -151,7 +151,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "viewHolder"
+    const-string v0, "viewHolder"
 
     move-object v4, p3
 
@@ -421,7 +421,7 @@
 .method public final setSwipeLeftLabelTypeface(Landroid/graphics/Typeface;)Lcom/changyow/iconsole4th/util/RecyclerViewSwipeDecorator$Builder;
     .locals 1
 
-    const-string/jumbo v0, "typeface"
+    const-string v0, "typeface"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -469,7 +469,7 @@
 .method public final setSwipeRightLabelTypeface(Landroid/graphics/Typeface;)Lcom/changyow/iconsole4th/util/RecyclerViewSwipeDecorator$Builder;
     .locals 1
 
-    const-string/jumbo v0, "typeface"
+    const-string v0, "typeface"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -378,7 +378,7 @@
 .method private static configureTunnelingV21(Landroid/media/MediaFormat;I)V
     .locals 2
 
-    const-string/jumbo v0, "tunneled-playback"
+    const-string v0, "tunneled-playback"
 
     const/4 v1, 0x1
 
@@ -2214,7 +2214,7 @@
     goto/16 :goto_4
 
     :sswitch_6b
-    const-string/jumbo v1, "taido_row"
+    const-string v1, "taido_row"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2374,7 +2374,7 @@
     goto/16 :goto_4
 
     :sswitch_75
-    const-string/jumbo v1, "tcl_eu"
+    const-string v1, "tcl_eu"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2582,7 +2582,7 @@
     goto/16 :goto_4
 
     :sswitch_82
-    const-string/jumbo v1, "vernee_M5"
+    const-string v1, "vernee_M5"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2919,6 +2919,8 @@
     :cond_98
     :goto_7
     return v8
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -3278,7 +3280,7 @@
     goto :goto_1
 
     :sswitch_0
-    const-string/jumbo v1, "video/x-vnd.on2.vp9"
+    const-string v1, "video/x-vnd.on2.vp9"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3294,7 +3296,7 @@
     goto :goto_1
 
     :sswitch_1
-    const-string/jumbo v1, "video/x-vnd.on2.vp8"
+    const-string v1, "video/x-vnd.on2.vp8"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3310,7 +3312,7 @@
     goto :goto_1
 
     :sswitch_2
-    const-string/jumbo v1, "video/avc"
+    const-string v1, "video/avc"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3326,7 +3328,7 @@
     goto :goto_1
 
     :sswitch_3
-    const-string/jumbo v1, "video/mp4v-es"
+    const-string v1, "video/mp4v-es"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3342,7 +3344,7 @@
     goto :goto_1
 
     :sswitch_4
-    const-string/jumbo v1, "video/hevc"
+    const-string v1, "video/hevc"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3358,7 +3360,7 @@
     goto :goto_1
 
     :sswitch_5
-    const-string/jumbo v1, "video/3gpp"
+    const-string v1, "video/3gpp"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3374,7 +3376,7 @@
     goto :goto_1
 
     :sswitch_6
-    const-string/jumbo v1, "video/dolby-vision"
+    const-string v1, "video/dolby-vision"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3489,8 +3491,6 @@
     :cond_9
     :goto_4
     return v0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -3745,7 +3745,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "video/dolby-vision"
+    const-string v2, "video/dolby-vision"
 
     .line 377
     invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3785,7 +3785,7 @@
 
     if-ne p1, v0, :cond_3
 
-    const-string/jumbo p1, "video/avc"
+    const-string p1, "video/avc"
 
     .line 393
     invoke-interface {p0, p1, p2, p3}, Lcom/google/android/exoplayer2/mediacodec/MediaCodecSelector;->getDecoderInfos(Ljava/lang/String;ZZ)Ljava/util/List;
@@ -3799,7 +3799,7 @@
 
     :cond_2
     :goto_0
-    const-string/jumbo p1, "video/hevc"
+    const-string p1, "video/hevc"
 
     .line 389
     invoke-interface {p0, p1, p2, p3}, Lcom/google/android/exoplayer2/mediacodec/MediaCodecSelector;->getDecoderInfos(Ljava/lang/String;ZZ)Ljava/util/List;
@@ -5128,7 +5128,7 @@
     .line 1313
     iget-object p2, p1, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
 
-    const-string/jumbo v1, "video/dolby-vision"
+    const-string v1, "video/dolby-vision"
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -7096,7 +7096,7 @@
 .method protected skipOutputBuffer(Lcom/google/android/exoplayer2/mediacodec/MediaCodecAdapter;IJ)V
     .locals 0
 
-    const-string/jumbo p3, "skipVideoBuffer"
+    const-string p3, "skipVideoBuffer"
 
     .line 1043
     invoke-static {p3}, Lcom/google/android/exoplayer2/util/TraceUtil;->beginSection(Ljava/lang/String;)V

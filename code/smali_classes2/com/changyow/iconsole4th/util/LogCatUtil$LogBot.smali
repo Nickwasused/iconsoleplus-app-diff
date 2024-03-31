@@ -103,7 +103,7 @@
 
     const-string v5, "-v"
 
-    const-string/jumbo v6, "threadtime"
+    const-string v6, "threadtime"
 
     filled-new-array {v4, v5, v6}, [Ljava/lang/String;
 

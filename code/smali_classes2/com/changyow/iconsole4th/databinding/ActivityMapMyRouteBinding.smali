@@ -7,11 +7,7 @@
 
 
 # instance fields
-.field public final amapMapView:Lcom/amap/api/maps2d/MapView;
-
 .field public final avLoadingIndicator:Lcom/wang/avi/AVLoadingIndicatorView;
-
-.field public final baiduPanorama:Lcom/baidu/lbsapi/panoramaview/PanoramaView;
 
 .field public final btnPin:Landroid/widget/ImageButton;
 
@@ -49,12 +45,10 @@
 
 
 # direct methods
-.method private constructor <init>(Landroid/widget/RelativeLayout;Lcom/amap/api/maps2d/MapView;Lcom/wang/avi/AVLoadingIndicatorView;Lcom/baidu/lbsapi/panoramaview/PanoramaView;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Lme/relex/circleindicator/CircleIndicator;Landroid/widget/ImageView;Landroid/widget/FrameLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroidx/viewpager/widget/ViewPager;Lcom/changyow/slideview/SlideView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;)V
+.method private constructor <init>(Landroid/widget/RelativeLayout;Lcom/wang/avi/AVLoadingIndicatorView;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Lme/relex/circleindicator/CircleIndicator;Landroid/widget/ImageView;Landroid/widget/FrameLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroidx/viewpager/widget/ViewPager;Lcom/changyow/slideview/SlideView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;)V
     .locals 2
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
-            0x0,
-            0x0,
             0x0,
             0x0,
             0x0,
@@ -76,9 +70,7 @@
         }
         names = {
             "rootView",
-            "amapMapView",
             "avLoadingIndicator",
-            "baiduPanorama",
             "btnPin",
             "btnReset",
             "btnSearch",
@@ -100,114 +92,104 @@
 
     move-object v0, p0
 
-    .line 98
+    .line 131
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move-object v1, p1
 
-    .line 99
+    .line 132
     iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->rootView:Landroid/widget/RelativeLayout;
 
     move-object v1, p2
 
-    .line 100
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->amapMapView:Lcom/amap/api/maps2d/MapView;
+    .line 133
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->avLoadingIndicator:Lcom/wang/avi/AVLoadingIndicatorView;
 
     move-object v1, p3
 
-    .line 101
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->avLoadingIndicator:Lcom/wang/avi/AVLoadingIndicatorView;
+    .line 134
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnPin:Landroid/widget/ImageButton;
 
     move-object v1, p4
 
-    .line 102
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->baiduPanorama:Lcom/baidu/lbsapi/panoramaview/PanoramaView;
+    .line 135
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnReset:Landroid/widget/ImageButton;
 
     move-object v1, p5
 
-    .line 103
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnPin:Landroid/widget/ImageButton;
+    .line 136
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnSearch:Landroid/widget/ImageButton;
 
     move-object v1, p6
 
-    .line 104
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnReset:Landroid/widget/ImageButton;
+    .line 137
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->etSearchBox:Landroid/widget/EditText;
 
     move-object v1, p7
 
-    .line 105
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->btnSearch:Landroid/widget/ImageButton;
+    .line 138
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->indicator:Lme/relex/circleindicator/CircleIndicator;
 
     move-object v1, p8
 
-    .line 106
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->etSearchBox:Landroid/widget/EditText;
+    .line 139
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->ivStreetView:Landroid/widget/ImageView;
 
     move-object v1, p9
 
-    .line 107
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->indicator:Lme/relex/circleindicator/CircleIndicator;
+    .line 140
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutBaiduPanorama:Landroid/widget/FrameLayout;
 
     move-object v1, p10
 
-    .line 108
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->ivStreetView:Landroid/widget/ImageView;
+    .line 141
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutInfoPane:Landroid/widget/RelativeLayout;
 
     move-object v1, p11
 
-    .line 109
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutBaiduPanorama:Landroid/widget/FrameLayout;
+    .line 142
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutSearchPane:Landroid/widget/RelativeLayout;
 
     move-object v1, p12
 
-    .line 110
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutInfoPane:Landroid/widget/RelativeLayout;
+    .line 143
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutSlider:Landroid/widget/RelativeLayout;
 
     move-object v1, p13
 
-    .line 111
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutSearchPane:Landroid/widget/RelativeLayout;
+    .line 144
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->rvDataPageer:Landroidx/viewpager/widget/ViewPager;
 
     move-object/from16 v1, p14
 
-    .line 112
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->layoutSlider:Landroid/widget/RelativeLayout;
+    .line 145
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->slideView:Lcom/changyow/slideview/SlideView;
 
     move-object/from16 v1, p15
 
-    .line 113
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->rvDataPageer:Landroidx/viewpager/widget/ViewPager;
+    .line 146
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->txvLevel:Landroid/widget/TextView;
 
     move-object/from16 v1, p16
 
-    .line 114
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->slideView:Lcom/changyow/slideview/SlideView;
+    .line 147
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->txvSlideToStartTitle:Landroid/widget/TextView;
 
     move-object/from16 v1, p17
 
-    .line 115
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->txvLevel:Landroid/widget/TextView;
+    .line 148
+    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->vPanoramaBlock:Landroid/view/View;
 
     move-object/from16 v1, p18
 
-    .line 116
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->txvSlideToStartTitle:Landroid/widget/TextView;
-
-    move-object/from16 v1, p19
-
-    .line 117
-    iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->vPanoramaBlock:Landroid/view/View;
-
-    move-object/from16 v1, p20
-
-    .line 118
+    .line 149
     iput-object v1, v0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->vPanoramaControlPanel:Landroid/view/View;
 
     return-void
 .end method
 
 .method public static bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;
-    .locals 24
+    .locals 22
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0
@@ -219,48 +201,48 @@
 
     move-object/from16 v0, p0
 
-    const v1, 0x7f0a005b
+    const v1, 0x7f0a0069
 
-    .line 149
+    .line 180
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v5, v2
 
-    check-cast v5, Lcom/amap/api/maps2d/MapView;
+    check-cast v5, Lcom/wang/avi/AVLoadingIndicatorView;
 
     if-eqz v5, :cond_0
 
-    const v1, 0x7f0a006a
+    const v1, 0x7f0a00bb
 
-    .line 155
+    .line 186
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v6, v2
 
-    check-cast v6, Lcom/wang/avi/AVLoadingIndicatorView;
+    check-cast v6, Landroid/widget/ImageButton;
 
     if-eqz v6, :cond_0
 
-    const v1, 0x7f0a006d
+    const v1, 0x7f0a00c3
 
-    .line 161
+    .line 192
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v7, v2
 
-    check-cast v7, Lcom/baidu/lbsapi/panoramaview/PanoramaView;
+    check-cast v7, Landroid/widget/ImageButton;
 
     if-eqz v7, :cond_0
 
-    const v1, 0x7f0a00be
+    const v1, 0x7f0a00c8
 
-    .line 167
+    .line 198
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -271,87 +253,85 @@
 
     if-eqz v8, :cond_0
 
-    const v1, 0x7f0a00c6
+    const v1, 0x7f0a016b
 
-    .line 173
+    .line 204
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v9, v2
 
-    check-cast v9, Landroid/widget/ImageButton;
+    check-cast v9, Landroid/widget/EditText;
 
     if-eqz v9, :cond_0
 
-    const v1, 0x7f0a00cb
+    const v1, 0x7f0a0200
 
-    .line 179
+    .line 210
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v10, v2
 
-    check-cast v10, Landroid/widget/ImageButton;
+    check-cast v10, Lme/relex/circleindicator/CircleIndicator;
 
     if-eqz v10, :cond_0
 
-    const v1, 0x7f0a016f
+    const v1, 0x7f0a022b
 
-    .line 185
+    .line 216
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v11, v2
 
-    check-cast v11, Landroid/widget/EditText;
+    check-cast v11, Landroid/widget/ImageView;
 
     if-eqz v11, :cond_0
 
-    const v1, 0x7f0a0204
+    const v1, 0x7f0a024a
 
-    .line 191
+    .line 222
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
-    move-result-object v2
+    move-result-object v1
 
-    move-object v12, v2
+    move-object v12, v1
 
-    check-cast v12, Lme/relex/circleindicator/CircleIndicator;
+    check-cast v12, Landroid/widget/FrameLayout;
 
-    if-eqz v12, :cond_0
+    const v1, 0x7f0a0278
 
-    const v1, 0x7f0a022f
-
-    .line 197
+    .line 225
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v13, v2
 
-    check-cast v13, Landroid/widget/ImageView;
+    check-cast v13, Landroid/widget/RelativeLayout;
 
     if-eqz v13, :cond_0
 
-    const v1, 0x7f0a024e
+    const v1, 0x7f0a028c
 
-    .line 203
+    .line 231
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object v14, v2
 
-    check-cast v14, Landroid/widget/FrameLayout;
+    check-cast v14, Landroid/widget/RelativeLayout;
 
     if-eqz v14, :cond_0
 
-    const v1, 0x7f0a027c
+    const v1, 0x7f0a0293
 
-    .line 209
+    .line 237
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
@@ -362,103 +342,73 @@
 
     if-eqz v15, :cond_0
 
-    const v1, 0x7f0a0290
+    const v1, 0x7f0a03cb
 
-    .line 215
+    .line 243
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object/from16 v16, v2
 
-    check-cast v16, Landroid/widget/RelativeLayout;
+    check-cast v16, Landroidx/viewpager/widget/ViewPager;
 
     if-eqz v16, :cond_0
 
-    const v1, 0x7f0a0297
+    const v1, 0x7f0a040b
 
-    .line 221
+    .line 249
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object/from16 v17, v2
 
-    check-cast v17, Landroid/widget/RelativeLayout;
+    check-cast v17, Lcom/changyow/slideview/SlideView;
 
     if-eqz v17, :cond_0
 
-    const v1, 0x7f0a03cf
+    const v1, 0x7f0a04ef
 
-    .line 227
+    .line 255
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object/from16 v18, v2
 
-    check-cast v18, Landroidx/viewpager/widget/ViewPager;
+    check-cast v18, Landroid/widget/TextView;
 
     if-eqz v18, :cond_0
 
-    const v1, 0x7f0a0410
+    const v1, 0x7f0a0534
 
-    .line 233
+    .line 261
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
     move-object/from16 v19, v2
 
-    check-cast v19, Lcom/changyow/slideview/SlideView;
+    check-cast v19, Landroid/widget/TextView;
 
     if-eqz v19, :cond_0
 
-    const v1, 0x7f0a04f7
+    const v1, 0x7f0a05a6
 
-    .line 239
+    .line 267
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
-    move-result-object v2
+    move-result-object v20
 
-    move-object/from16 v20, v2
+    const v1, 0x7f0a05a7
 
-    check-cast v20, Landroid/widget/TextView;
-
-    if-eqz v20, :cond_0
-
-    const v1, 0x7f0a053c
-
-    .line 245
+    .line 270
     invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
-    move-result-object v2
+    move-result-object v21
 
-    move-object/from16 v21, v2
-
-    check-cast v21, Landroid/widget/TextView;
-
-    if-eqz v21, :cond_0
-
-    const v1, 0x7f0a05ae
-
-    .line 251
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
-
-    move-result-object v22
-
-    if-eqz v22, :cond_0
-
-    const v1, 0x7f0a05af
-
-    .line 257
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
-
-    move-result-object v23
-
-    if-eqz v23, :cond_0
-
-    .line 262
+    .line 272
     new-instance v1, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;
 
     move-object v3, v1
@@ -467,11 +417,11 @@
 
     check-cast v4, Landroid/widget/RelativeLayout;
 
-    invoke-direct/range {v3 .. v23}, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;-><init>(Landroid/widget/RelativeLayout;Lcom/amap/api/maps2d/MapView;Lcom/wang/avi/AVLoadingIndicatorView;Lcom/baidu/lbsapi/panoramaview/PanoramaView;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Lme/relex/circleindicator/CircleIndicator;Landroid/widget/ImageView;Landroid/widget/FrameLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroidx/viewpager/widget/ViewPager;Lcom/changyow/slideview/SlideView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;)V
+    invoke-direct/range {v3 .. v21}, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;-><init>(Landroid/widget/RelativeLayout;Lcom/wang/avi/AVLoadingIndicatorView;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/EditText;Lme/relex/circleindicator/CircleIndicator;Landroid/widget/ImageView;Landroid/widget/FrameLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroidx/viewpager/widget/ViewPager;Lcom/changyow/slideview/SlideView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;)V
 
     return-object v1
 
-    .line 268
+    .line 277
     :cond_0
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -481,7 +431,7 @@
 
     move-result-object v0
 
-    .line 269
+    .line 278
     new-instance v1, Ljava/lang/NullPointerException;
 
     const-string v2, "Missing required view with ID: "
@@ -510,7 +460,7 @@
 
     const/4 v1, 0x0
 
-    .line 129
+    .line 160
     invoke-static {p0, v0, v1}, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;
 
     move-result-object p0
@@ -537,17 +487,17 @@
 
     const/4 v1, 0x0
 
-    .line 135
+    .line 166
     invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
-    .line 137
+    .line 168
     invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 139
+    .line 170
     :cond_0
     invoke-static {p0}, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->bind(Landroid/view/View;)Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;
 
@@ -561,7 +511,7 @@
 .method public bridge synthetic getRoot()Landroid/view/View;
     .locals 1
 
-    .line 28
+    .line 26
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->getRoot()Landroid/widget/RelativeLayout;
 
     move-result-object v0
@@ -572,7 +522,7 @@
 .method public getRoot()Landroid/widget/RelativeLayout;
     .locals 1
 
-    .line 124
+    .line 155
     iget-object v0, p0, Lcom/changyow/iconsole4th/databinding/ActivityMapMyRouteBinding;->rootView:Landroid/widget/RelativeLayout;
 
     return-object v0

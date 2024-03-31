@@ -62,7 +62,7 @@
     .line 3
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v1, "signature"
+    const-string v1, "signature"
 
     const/4 v2, 0x3
 

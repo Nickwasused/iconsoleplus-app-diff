@@ -86,7 +86,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "user-agent"
+    const-string v2, "user-agent"
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/exoplayer2/source/rtsp/RtspHeaders$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/exoplayer2/source/rtsp/RtspHeaders$Builder;
 
@@ -304,7 +304,7 @@
 
     if-nez v4, :cond_0
 
-    const-string/jumbo v4, "user-agent"
+    const-string v4, "user-agent"
 
     .line 352
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -471,7 +471,7 @@
 .method public sendSetupRequest(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    const-string/jumbo v0, "transport"
+    const-string v0, "transport"
 
     .line 319
     invoke-static {v0, p2}, Lcom/google/common/collect/ImmutableMap;->of(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;

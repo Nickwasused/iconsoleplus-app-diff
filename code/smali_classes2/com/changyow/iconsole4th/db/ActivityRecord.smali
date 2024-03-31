@@ -440,7 +440,7 @@
         "tickBAI",
         "toString",
         "Companion",
-        "icp4th-1.8.57_icpCnRelease"
+        "icp4th-1.8.58_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -4435,7 +4435,7 @@
 .method private static final markAsSynced$lambda-13(Lcom/changyow/iconsole4th/db/ActivityRecord;)V
     .locals 1
 
-    const-string/jumbo v0, "this$0"
+    const-string v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

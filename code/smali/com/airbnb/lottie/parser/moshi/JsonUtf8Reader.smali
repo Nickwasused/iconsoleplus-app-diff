@@ -107,7 +107,7 @@
 
     sput-object v0, Lcom/airbnb/lottie/parser/moshi/JsonUtf8Reader;->DOUBLE_QUOTE_OR_SLASH:Lokio/ByteString;
 
-    const-string v0, "{}[]:, \n\t\r\u000c/\\;#="
+    const-string/jumbo v0, "{}[]:, \n\t\r\u000c/\\;#="
 
     .line 33
     invoke-static {v0}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
@@ -148,7 +148,7 @@
     .line 79
     iput v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonUtf8Reader;->peeked:I
 
-    const-string v0, "source == null"
+    const-string/jumbo v0, "source == null"
 
     .line 102
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -1307,7 +1307,7 @@
     :goto_2
     const/4 v0, 0x5
 
-    const-string v2, "true"
+    const-string/jumbo v2, "true"
 
     const-string v3, "TRUE"
 

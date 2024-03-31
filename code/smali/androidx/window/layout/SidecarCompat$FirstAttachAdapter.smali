@@ -66,7 +66,7 @@
 .method public constructor <init>(Landroidx/window/layout/SidecarCompat;Landroid/app/Activity;)V
     .locals 1
 
-    const-string v0, "sidecarCompat"
+    const-string/jumbo v0, "sidecarCompat"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -95,7 +95,7 @@
 .method public onViewAttachedToWindow(Landroid/view/View;)V
     .locals 2
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -143,7 +143,7 @@
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

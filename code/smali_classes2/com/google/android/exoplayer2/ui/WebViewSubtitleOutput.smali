@@ -168,7 +168,7 @@
     return-object p0
 
     :cond_2
-    const-string/jumbo p0, "start"
+    const-string p0, "start"
 
     return-object p0
 .end method
@@ -197,7 +197,7 @@
 
     if-eq v0, v3, :cond_0
 
-    const-string/jumbo p0, "unset"
+    const-string p0, "unset"
 
     return-object p0
 
@@ -323,7 +323,7 @@
 
     if-nez p2, :cond_0
 
-    const-string/jumbo p1, "unset"
+    const-string p1, "unset"
 
     return-object p1
 
@@ -383,12 +383,12 @@
     return-object p0
 
     :cond_0
-    const-string/jumbo p0, "vertical-lr"
+    const-string p0, "vertical-lr"
 
     return-object p0
 
     :cond_1
-    const-string/jumbo p0, "vertical-rl"
+    const-string p0, "vertical-rl"
 
     return-object p0
 .end method
@@ -421,13 +421,13 @@
     goto :goto_0
 
     :cond_0
-    const-string/jumbo v0, "skewX"
+    const-string v0, "skewX"
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const-string/jumbo v0, "skewY"
+    const-string v0, "skewY"
 
     :goto_1
     new-array v2, v2, [Ljava/lang/Object;
@@ -846,7 +846,7 @@
 
     const-string v22, "left"
 
-    const-string/jumbo v23, "top"
+    const-string v23, "top"
 
     move/from16 v24, v15
 
@@ -1300,7 +1300,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v3, "text/html"
+    const-string v3, "text/html"
 
     const-string v4, "base64"
 

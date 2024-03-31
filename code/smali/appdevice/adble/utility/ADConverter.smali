@@ -16,7 +16,7 @@
 .method public static UUIDfrom16BitString(Ljava/lang/String;)Ljava/util/UUID;
     .locals 3
 
-    const-string v0, "uuid16 == null"
+    const-string/jumbo v0, "uuid16 == null"
 
     .line 33
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

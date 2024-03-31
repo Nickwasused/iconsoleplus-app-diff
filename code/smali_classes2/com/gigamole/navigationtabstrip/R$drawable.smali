@@ -130,7 +130,7 @@
 
 .field public static final abc_textfield_search_material:I = 0x7f080054
 
-.field public static final notification_template_icon_bg:I = 0x7f080336
+.field public static final notification_template_icon_bg:I = 0x7f080332
 
 
 # direct methods

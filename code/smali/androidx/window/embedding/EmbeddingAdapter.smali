@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    const-string v1, "splitInfo.primaryActivityStack"
+    const-string/jumbo v1, "splitInfo.primaryActivityStack"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -213,7 +213,7 @@
 
     move-result-object v0
 
-    const-string v2, "splitInfo.secondaryActivityStack"
+    const-string/jumbo v2, "splitInfo.secondaryActivityStack"
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -256,7 +256,7 @@
 .method private static final translateActivityIntentPredicates$lambda-3(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
     .locals 2
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -339,7 +339,7 @@
 .method private static final translateActivityPairPredicates$lambda-1(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
     .locals 2
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -558,7 +558,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "windowMetrics"
+    const-string/jumbo v0, "windowMetrics"
 
     .line 93
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -587,7 +587,7 @@
         }
     .end annotation
 
-    const-string v0, "splitInfoList"
+    const-string/jumbo v0, "splitInfoList"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -973,7 +973,7 @@
         }
     .end annotation
 
-    const-string v0, "splitPairFilters"
+    const-string/jumbo v0, "splitPairFilters"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1001,7 +1001,7 @@
         }
     .end annotation
 
-    const-string v0, "splitPairFilters"
+    const-string/jumbo v0, "splitPairFilters"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1078,7 +1078,7 @@
         }
     .end annotation
 
-    const-string v0, "splitRule"
+    const-string/jumbo v0, "splitRule"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

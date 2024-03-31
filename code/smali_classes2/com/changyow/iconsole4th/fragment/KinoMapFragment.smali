@@ -75,7 +75,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a00b2
+    const v1, 0x7f0a00af
 
     if-eq v0, v1, :cond_0
 
@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a00b2
+    const p2, 0x7f0a00af
 
     .line 36
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->btnMenu:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a0564
+    const p2, 0x7f0a055c
 
     .line 37
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a01aa
+    const p2, 0x7f0a01a6
 
     .line 38
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a05cc
+    const p2, 0x7f0a05c4
 
     .line 39
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,9 +184,6 @@
 
     .line 47
     invoke-virtual {p2, p3}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
-
-    .line 48
-    invoke-virtual {p2, p3}, Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)V
 
     const-string v0, "Mozilla/5.0 (X11;Linux86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24 iConsoleAndroid"
 

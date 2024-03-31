@@ -965,7 +965,9 @@
 
     move-result v0
 
-    if-nez v0, :cond_0
+    const/4 v1, 0x5
+
+    if-ge v0, v1, :cond_0
 
     return-void
 

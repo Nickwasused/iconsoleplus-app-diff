@@ -124,7 +124,7 @@
 .method public accept(Landroidx/window/extensions/layout/WindowLayoutInfo;)V
     .locals 3
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

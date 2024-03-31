@@ -302,7 +302,7 @@
 
     move-result v0
 
-    const-string/jumbo v1, "t"
+    const-string v1, "t"
 
     const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
 
@@ -480,7 +480,7 @@
     return p1
 
     :cond_0
-    const-string/jumbo v0, "video"
+    const-string v0, "video"
 
     .line 614
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -494,7 +494,7 @@
     return p1
 
     :cond_1
-    const-string/jumbo v0, "text"
+    const-string v0, "text"
 
     .line 616
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z

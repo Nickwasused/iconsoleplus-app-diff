@@ -308,7 +308,7 @@
 
     move-result-object p0
 
-    const-string/jumbo p1, "stop_reason"
+    const-string p1, "stop_reason"
 
     .line 319
     invoke-virtual {p0, p1, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
@@ -512,7 +512,7 @@
 
     move-result-object p0
 
-    const-string/jumbo p1, "stop_reason"
+    const-string p1, "stop_reason"
 
     .line 395
     invoke-virtual {p0, p1, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
@@ -1517,7 +1517,7 @@
     move v5, p2
 
     :goto_3
-    const-string/jumbo p3, "stop_reason"
+    const-string p3, "stop_reason"
 
     const-string v3, "DownloadService"
 
@@ -1773,6 +1773,8 @@
 
     :cond_14
     return v1
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

@@ -380,7 +380,7 @@
     .line 104
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v5, "type"
+    const-string v5, "type"
 
     const-string v6, "INTEGER"
 
@@ -396,7 +396,7 @@
 
     invoke-direct/range {v4 .. v10}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v4, "type"
+    const-string v4, "type"
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -454,7 +454,7 @@
     .line 108
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v6, "start_time"
+    const-string v6, "start_time"
 
     const-string v7, "INTEGER"
 
@@ -462,7 +462,7 @@
 
     invoke-direct/range {v5 .. v11}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v4, "start_time"
+    const-string v4, "start_time"
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -499,7 +499,7 @@
     .line 111
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v6, "total_distance"
+    const-string v6, "total_distance"
 
     const-string v7, "REAL"
 
@@ -507,14 +507,14 @@
 
     invoke-direct/range {v5 .. v11}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v4, "total_distance"
+    const-string v4, "total_distance"
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 112
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v6, "total_calories"
+    const-string v6, "total_calories"
 
     const-string v7, "REAL"
 
@@ -522,7 +522,7 @@
 
     invoke-direct/range {v5 .. v11}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v4, "total_calories"
+    const-string v4, "total_calories"
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -634,7 +634,7 @@
     .line 120
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v7, "standardDeviationWatt"
+    const-string v7, "standardDeviationWatt"
 
     const-string v8, "REAL"
 
@@ -648,14 +648,14 @@
 
     invoke-direct/range {v6 .. v12}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v5, "standardDeviationWatt"
+    const-string v5, "standardDeviationWatt"
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 121
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v7, "standardDeviationRpm"
+    const-string v7, "standardDeviationRpm"
 
     const-string v8, "REAL"
 
@@ -663,7 +663,7 @@
 
     invoke-direct/range {v6 .. v12}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v5, "standardDeviationRpm"
+    const-string v5, "standardDeviationRpm"
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -790,7 +790,7 @@
     .line 130
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v8, "speed"
+    const-string v8, "speed"
 
     const-string v9, "BLOB"
 
@@ -804,7 +804,7 @@
 
     invoke-direct/range {v7 .. v13}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v6, "speed"
+    const-string v6, "speed"
 
     invoke-virtual {v1, v6, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -826,7 +826,7 @@
     .line 132
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v8, "stroke"
+    const-string v8, "stroke"
 
     const-string v9, "BLOB"
 
@@ -834,7 +834,7 @@
 
     invoke-direct/range {v7 .. v13}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v6, "stroke"
+    const-string v6, "stroke"
 
     invoke-virtual {v1, v6, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -901,7 +901,7 @@
     .line 137
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v8, "time500"
+    const-string v8, "time500"
 
     const-string v9, "BLOB"
 
@@ -909,7 +909,7 @@
 
     invoke-direct/range {v7 .. v13}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v6, "time500"
+    const-string v6, "time500"
 
     invoke-virtual {v1, v6, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1372,7 +1372,7 @@
     .line 168
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v9, "video_id"
+    const-string v9, "video_id"
 
     const-string v10, "INTEGER"
 
@@ -1380,7 +1380,7 @@
 
     invoke-direct/range {v8 .. v14}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v7, "video_id"
+    const-string v7, "video_id"
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1462,7 +1462,7 @@
     .line 174
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v9, "total_mets"
+    const-string v9, "total_mets"
 
     const-string v10, "REAL"
 
@@ -1470,7 +1470,7 @@
 
     invoke-direct/range {v8 .. v14}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v7, "total_mets"
+    const-string v7, "total_mets"
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1507,7 +1507,7 @@
     .line 177
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v9, "syncToCloud"
+    const-string v9, "syncToCloud"
 
     const-string v10, "INTEGER"
 
@@ -1515,7 +1515,7 @@
 
     invoke-direct/range {v8 .. v14}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v7, "syncToCloud"
+    const-string v7, "syncToCloud"
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1617,7 +1617,7 @@
 
     const/16 v23, 0x1
 
-    const-string/jumbo v18, "userID"
+    const-string v18, "userID"
 
     const-string v19, "INTEGER"
 
@@ -1625,7 +1625,7 @@
 
     invoke-direct/range {v17 .. v23}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v10, "userID"
+    const-string v10, "userID"
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1802,7 +1802,7 @@
 
     const/4 v15, 0x1
 
-    const-string/jumbo v13, "unit"
+    const-string v13, "unit"
 
     const-string v14, "INTEGER"
 
@@ -1810,7 +1810,7 @@
 
     invoke-direct/range {v12 .. v18}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v11, "unit"
+    const-string v11, "unit"
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2168,7 +2168,7 @@
 
     const/4 v14, 0x0
 
-    const-string/jumbo v11, "timeslotStart"
+    const-string v11, "timeslotStart"
 
     const-string v12, "INTEGER"
 
@@ -2176,14 +2176,14 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "timeslotStart"
+    const-string v3, "timeslotStart"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 235
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v11, "timeslotEnd"
+    const-string v11, "timeslotEnd"
 
     const-string v12, "INTEGER"
 
@@ -2191,7 +2191,7 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "timeslotEnd"
+    const-string v3, "timeslotEnd"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2268,7 +2268,7 @@
 
     const/16 v16, 0x1
 
-    const-string/jumbo v11, "uid"
+    const-string v11, "uid"
 
     const-string v12, "INTEGER"
 
@@ -2276,7 +2276,7 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "uid"
+    const-string v3, "uid"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2300,7 +2300,7 @@
     .line 248
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v11, "startTimeIntervalSince1970"
+    const-string v11, "startTimeIntervalSince1970"
 
     const-string v12, "INTEGER"
 
@@ -2308,7 +2308,7 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "startTimeIntervalSince1970"
+    const-string v3, "startTimeIntervalSince1970"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2443,7 +2443,7 @@
 
     const/4 v13, 0x0
 
-    const-string/jumbo v11, "syncToCloud"
+    const-string v11, "syncToCloud"
 
     const-string v12, "INTEGER"
 
@@ -2559,7 +2559,7 @@
     .line 265
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v11, "userComment"
+    const-string v11, "userComment"
 
     const-string v12, "TEXT"
 
@@ -2567,7 +2567,7 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "userComment"
+    const-string v3, "userComment"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2679,7 +2679,7 @@
     .line 273
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v11, "strengthDistanceInMeter1"
+    const-string v11, "strengthDistanceInMeter1"
 
     const-string v12, "REAL"
 
@@ -2687,14 +2687,14 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "strengthDistanceInMeter1"
+    const-string v3, "strengthDistanceInMeter1"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 274
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
-    const-string/jumbo v11, "strengthDistanceInMeter2"
+    const-string v11, "strengthDistanceInMeter2"
 
     const-string v12, "REAL"
 
@@ -2702,7 +2702,7 @@
 
     invoke-direct/range {v10 .. v16}, Landroidx/room/util/TableInfo$Column;-><init>(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;I)V
 
-    const-string/jumbo v3, "strengthDistanceInMeter2"
+    const-string v3, "strengthDistanceInMeter2"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

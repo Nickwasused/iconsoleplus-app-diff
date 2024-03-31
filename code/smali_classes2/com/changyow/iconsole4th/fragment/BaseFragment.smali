@@ -218,7 +218,7 @@
 
     if-eqz v2, :cond_5
 
-    const v3, 0x7f0a01aa
+    const v3, 0x7f0a01a6
 
     .line 82
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
     invoke-virtual {v3, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
     :cond_0
-    const v0, 0x7f0a00b2
+    const v0, 0x7f0a00af
 
     .line 84
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_1
-    const v0, 0x7f0a00b3
+    const v0, 0x7f0a00b0
 
     .line 86
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -273,7 +273,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_2
-    const v0, 0x7f0a0564
+    const v0, 0x7f0a055c
 
     .line 88
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_3
-    const v0, 0x7f0a00a6
+    const v0, 0x7f0a00a3
 
     .line 90
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_4
-    const v0, 0x7f0a009e
+    const v0, 0x7f0a009b
 
     .line 92
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

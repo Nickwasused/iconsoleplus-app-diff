@@ -537,7 +537,7 @@
 
     move-result-object v3
 
-    const-string/jumbo v4, "userRecoveryIntent"
+    const-string v4, "userRecoveryIntent"
 
     .line 10
     invoke-virtual {v1, v4}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -726,7 +726,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "token retrieval"
+    const-string v1, "token retrieval"
 
     .line 11
     :try_start_0
@@ -991,7 +991,7 @@
     invoke-virtual {p0, v0}, Landroid/os/Bundle;->setClassLoader(Ljava/lang/ClassLoader;)V
 
     :cond_0
-    const-string/jumbo v1, "tokenDetails"
+    const-string v1, "tokenDetails"
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
@@ -1036,7 +1036,7 @@
     .line 8
     invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v1, "userRecoveryIntent"
+    const-string v1, "userRecoveryIntent"
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;

@@ -80,7 +80,7 @@
 
     if-eqz p1, :cond_0
 
-    const-string/jumbo p1, "video/avc"
+    const-string p1, "video/avc"
 
     .line 1022
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

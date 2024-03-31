@@ -86,12 +86,12 @@
 
     if-eq p0, v0, :cond_0
 
-    const-string/jumbo p0, "unknown"
+    const-string p0, "unknown"
 
     return-object p0
 
     :cond_0
-    const-string/jumbo p0, "start exceeds end"
+    const-string p0, "start exceeds end"
 
     return-object p0
 

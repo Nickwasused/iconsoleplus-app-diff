@@ -152,7 +152,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a0445
+    const p2, 0x7f0a0440
 
     .line 50
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoHomeFragment;->svFilterPanel:Landroid/widget/ScrollView;
 
-    const p2, 0x7f0a03da
+    const p2, 0x7f0a03d6
 
     .line 51
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoHomeFragment;->rvVideoList:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p2, 0x7f0a0518
+    const p2, 0x7f0a0510
 
     .line 52
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoHomeFragment;->txvPickedForYou:Landroid/widget/TextView;
 
-    const p2, 0x7f0a050b
+    const p2, 0x7f0a0503
 
     .line 53
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/streaming/VideoHomeFragment;->txvMostPopular:Landroid/widget/TextView;
 
-    const p2, 0x7f0a050c
+    const p2, 0x7f0a0504
 
     .line 54
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -607,7 +607,7 @@
     goto/16 :goto_3
 
     :sswitch_0
-    const-string/jumbo v6, "smart_exercise"
+    const-string v6, "smart_exercise"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -735,7 +735,7 @@
     goto :goto_3
 
     :sswitch_8
-    const-string/jumbo v6, "video_on_demand"
+    const-string v6, "video_on_demand"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -988,7 +988,7 @@
     invoke-virtual {p2, v0}, Landroid/widget/RelativeLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
-    const-string/jumbo p1, "title"
+    const-string p1, "title"
 
     .line 228
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
@@ -1211,7 +1211,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03b8
+    const p2, 0x7f0a03b4
 
     .line 108
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1222,7 +1222,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c1
+    const p2, 0x7f0a03bd
 
     .line 109
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1233,7 +1233,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c2
+    const p2, 0x7f0a03be
 
     .line 110
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1244,7 +1244,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b5
+    const p2, 0x7f0a03b1
 
     .line 111
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1255,7 +1255,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bd
+    const p2, 0x7f0a03b9
 
     .line 112
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1266,7 +1266,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b6
+    const p2, 0x7f0a03b2
 
     .line 113
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1277,7 +1277,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bf
+    const p2, 0x7f0a03bb
 
     .line 114
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1288,7 +1288,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoute:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b9
+    const p2, 0x7f0a03b5
 
     .line 115
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1299,7 +1299,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03be
+    const p2, 0x7f0a03ba
 
     .line 116
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1497,14 +1497,16 @@
 
     if-eqz v0, :cond_1
 
-    const-string v0, "cn"
+    const-string v0, "global"
 
     .line 269
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "cn"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -1527,14 +1529,16 @@
 .method public permissionForRouteAndroid12()V
     .locals 2
 
-    const-string v0, "cn"
+    const-string v0, "global"
 
     .line 279
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "cn"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 

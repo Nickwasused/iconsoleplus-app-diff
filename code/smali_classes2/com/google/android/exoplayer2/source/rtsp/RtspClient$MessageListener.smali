@@ -257,7 +257,7 @@
     .line 480
     iget-object v1, p1, Lcom/google/android/exoplayer2/source/rtsp/RtspResponse;->headers:Lcom/google/android/exoplayer2/source/rtsp/RtspHeaders;
 
-    const-string/jumbo v2, "transport"
+    const-string v2, "transport"
 
     invoke-virtual {v1, v2}, Lcom/google/android/exoplayer2/source/rtsp/RtspHeaders;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -426,8 +426,6 @@
     :goto_4
     :pswitch_5
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1

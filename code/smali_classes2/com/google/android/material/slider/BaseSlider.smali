@@ -3994,7 +3994,7 @@
 
     aput-object v3, v1, v2
 
-    const-string/jumbo v2, "valueFrom(%s) must be smaller than valueTo(%s)"
+    const-string v2, "valueFrom(%s) must be smaller than valueTo(%s)"
 
     .line 504
     invoke-static {v2, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -4049,7 +4049,7 @@
 
     aput-object v3, v1, v2
 
-    const-string/jumbo v2, "valueTo(%s) must be greater than valueFrom(%s)"
+    const-string v2, "valueTo(%s) must be greater than valueFrom(%s)"
 
     .line 512
     invoke-static {v2, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -4381,7 +4381,7 @@
 
     new-array v6, v4, [Ljava/lang/Object;
 
-    const-string/jumbo v7, "stepSize"
+    const-string v7, "stepSize"
 
     aput-object v7, v6, v3
 
@@ -4414,7 +4414,7 @@
 
     new-array v6, v4, [Ljava/lang/Object;
 
-    const-string/jumbo v7, "valueFrom"
+    const-string v7, "valueFrom"
 
     aput-object v7, v6, v3
 
@@ -4447,7 +4447,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const-string/jumbo v6, "valueTo"
+    const-string v6, "valueTo"
 
     aput-object v6, v4, v3
 

@@ -3,12 +3,12 @@
 .source "MapUtil.java"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lokhttp3/Callback;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/changyow/iconsole4th/util/MapUtil;->updateCurrentDistance(D)V
+    value = Lcom/changyow/iconsole4th/util/MapUtil;->getElevationPoints(Lcom/google/android/gms/maps/model/LatLng;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,39 +20,21 @@
 # instance fields
 .field final synthetic this$0:Lcom/changyow/iconsole4th/util/MapUtil;
 
-.field final synthetic val$location:Lcom/google/android/gms/maps/model/LatLng;
-
-.field final synthetic val$points:Ljava/util/ArrayList;
-
 
 # direct methods
-.method constructor <init>(Lcom/changyow/iconsole4th/util/MapUtil;Lcom/google/android/gms/maps/model/LatLng;Ljava/util/ArrayList;)V
+.method constructor <init>(Lcom/changyow/iconsole4th/util/MapUtil;)V
     .locals 0
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010
+            0x8010
         }
         names = {
-            "this$0",
-            "val$location",
-            "val$points"
+            "this$0"
         }
     .end annotation
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
-
-    .line 513
+    .line 541
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
-
-    iput-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->val$location:Lcom/google/android/gms/maps/model/LatLng;
-
-    iput-object p3, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->val$points:Ljava/util/ArrayList;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,21 +43,54 @@
 
 
 # virtual methods
-.method public run()V
-    .locals 3
+.method public onFailure(Lokhttp3/Call;Ljava/io/IOException;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "call",
+            "e"
+        }
+    .end annotation
 
-    .line 517
-    iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
+    return-void
+.end method
 
-    invoke-static {v0}, Lcom/changyow/iconsole4th/util/MapUtil;->access$100(Lcom/changyow/iconsole4th/util/MapUtil;)Lcom/changyow/iconsole4th/util/MapUtilListener;
+.method public onResponse(Lokhttp3/Call;Lokhttp3/Response;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "call",
+            "response"
+        }
+    .end annotation
 
-    move-result-object v0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->val$location:Lcom/google/android/gms/maps/model/LatLng;
+    .line 550
+    invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
-    iget-object v2, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->val$points:Ljava/util/ArrayList;
+    move-result-object p1
 
-    invoke-interface {v0, v1, v2}, Lcom/changyow/iconsole4th/util/MapUtilListener;->onUpdateLocation(Lcom/google/android/gms/maps/model/LatLng;Ljava/util/List;)V
+    invoke-virtual {p1}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 551
+    iget-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil$3;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
+
+    invoke-static {p2, p1}, Lcom/changyow/iconsole4th/util/MapUtil;->access$500(Lcom/changyow/iconsole4th/util/MapUtil;Ljava/lang/String;)V
 
     return-void
 .end method

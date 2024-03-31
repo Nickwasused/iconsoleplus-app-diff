@@ -43,7 +43,7 @@
         }
     .end annotation
 
-    .line 826
+    .line 1026
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7$1;->this$1:Lcom/changyow/iconsole4th/util/MapUtil$7;
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/util/MapUtil$7$1;->val$image:Landroid/graphics/drawable/Drawable;
@@ -58,7 +58,7 @@
 .method public run()V
     .locals 2
 
-    .line 830
+    .line 1030
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil$7$1;->this$1:Lcom/changyow/iconsole4th/util/MapUtil$7;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/util/MapUtil$7;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
@@ -69,7 +69,7 @@
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/util/MapUtil$7$1;->val$image:Landroid/graphics/drawable/Drawable;
 
-    invoke-interface {v0, v1}, Lcom/changyow/iconsole4th/util/MapUtilListener;->onRequestRouteImageFinished(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {v0, v1}, Lcom/changyow/iconsole4th/util/MapUtilListener;->onGetStreetView(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method

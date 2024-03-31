@@ -60,7 +60,7 @@
 
     new-instance v5, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v6, "support_context_feature_id"
+    const-string v6, "support_context_feature_id"
 
     .line 4
     invoke-direct {v5, v6, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V
@@ -89,7 +89,7 @@
 
     new-instance v8, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v9, "set_mock_mode_with_callback"
+    const-string v9, "set_mock_mode_with_callback"
 
     .line 7
     invoke-direct {v8, v9, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V
@@ -98,7 +98,7 @@
 
     new-instance v9, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v10, "set_mock_location_with_callback"
+    const-string v10, "set_mock_location_with_callback"
 
     .line 8
     invoke-direct {v9, v10, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V

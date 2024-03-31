@@ -78,7 +78,7 @@
 .method public constructor <init>(Landroidx/window/layout/SidecarAdapter;Landroidx/window/sidecar/SidecarInterface$SidecarCallback;)V
     .locals 1
 
-    const-string v0, "sidecarAdapter"
+    const-string/jumbo v0, "sidecarAdapter"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -178,7 +178,7 @@
 .method public onWindowLayoutChanged(Landroid/os/IBinder;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)V
     .locals 3
 
-    const-string v0, "token"
+    const-string/jumbo v0, "token"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

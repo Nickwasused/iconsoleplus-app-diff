@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .line 192
+    .line 179
     iput-object p1, p0, Lcom/changyow/iconsole4th/util/MapUtil$1$1;->this$1:Lcom/changyow/iconsole4th/util/MapUtil$1;
 
     iput-wide p2, p0, Lcom/changyow/iconsole4th/util/MapUtil$1$1;->val$distanceInKm:D
@@ -64,7 +64,7 @@
 .method public run()V
     .locals 4
 
-    .line 196
+    .line 183
     iget-object v0, p0, Lcom/changyow/iconsole4th/util/MapUtil$1$1;->this$1:Lcom/changyow/iconsole4th/util/MapUtil$1;
 
     iget-object v0, v0, Lcom/changyow/iconsole4th/util/MapUtil$1;->this$0:Lcom/changyow/iconsole4th/util/MapUtil;
