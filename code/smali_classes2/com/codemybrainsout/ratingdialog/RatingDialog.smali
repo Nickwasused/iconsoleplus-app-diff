@@ -149,7 +149,7 @@
 
     iput-object v1, p0, Lcom/codemybrainsout/ratingdialog/RatingDialog;->sharedpreferences:Landroid/content/SharedPreferences;
 
-    const-string/jumbo v2, "show_never"
+    const-string v2, "show_never"
 
     .line 296
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
@@ -949,7 +949,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "show_never"
+    const-string v1, "show_never"
 
     const/4 v2, 0x1
 

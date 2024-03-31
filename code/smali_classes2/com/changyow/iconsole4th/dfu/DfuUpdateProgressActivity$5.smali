@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200ca
+    const v0, 0x7f1200c8
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200cc
+    const v0, 0x7f1200ca
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -206,7 +206,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200c5
+    const v0, 0x7f1200c3
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -244,7 +244,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08019b
+    const v0, 0x7f08019a
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -266,7 +266,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200c8
+    const v0, 0x7f1200c6
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -277,7 +277,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120338
+    const v0, 0x7f120340
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -346,7 +346,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200d3
+    const v0, 0x7f1200d1
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200d5
+    const v0, 0x7f1200d3
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -474,7 +474,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1200da
+    const v0, 0x7f1200d8
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -558,7 +558,7 @@
 
     iget-object p2, p0, Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity$5;->this$0:Lcom/changyow/iconsole4th/dfu/DfuUpdateProgressActivity;
 
-    const v0, 0x7f1200d9
+    const v0, 0x7f1200d7
 
     const/4 v1, 0x2
 
@@ -592,7 +592,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1200d7
+    const p2, 0x7f1200d5
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -233,7 +233,6 @@
 
     goto/16 :goto_1
 
-    .line 289
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -243,7 +242,6 @@
 
     throw p1
 
-    .line 273
     :cond_1
     iget v1, p0, Lkotlin/text/Regex$splitToSequence$1;->I$0:I
 

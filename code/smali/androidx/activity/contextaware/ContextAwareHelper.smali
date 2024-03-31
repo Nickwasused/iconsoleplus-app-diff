@@ -38,14 +38,6 @@
 # virtual methods
 .method public addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "listener"
-        }
-    .end annotation
 
     .line 73
     iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->mContext:Landroid/content/Context;
@@ -79,14 +71,6 @@
 
 .method public dispatchOnContextAvailable(Landroid/content/Context;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 97
     iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareHelper;->mContext:Landroid/content/Context;
@@ -131,14 +115,6 @@
 
 .method public removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "listener"
-        }
-    .end annotation
 
     .line 87
     iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->mListeners:Ljava/util/Set;

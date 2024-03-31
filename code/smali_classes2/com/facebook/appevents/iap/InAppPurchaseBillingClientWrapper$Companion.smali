@@ -165,7 +165,7 @@
 
     aput-object v1, v7, v6
 
-    const-string/jumbo v8, "setListener"
+    const-string v8, "setListener"
 
     .line 353
     invoke-static {v0, v8, v7}, Lcom/facebook/appevents/iap/InAppPurchaseUtils;->getMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;

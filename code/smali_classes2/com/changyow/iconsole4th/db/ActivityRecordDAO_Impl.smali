@@ -1866,7 +1866,7 @@
 
     move-result v0
 
-    const-string/jumbo v7, "type"
+    const-string v7, "type"
 
     .line 1894
     invoke-static {v6, v7}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -1894,7 +1894,7 @@
 
     move-result v10
 
-    const-string/jumbo v11, "start_time"
+    const-string v11, "start_time"
 
     .line 1898
     invoke-static {v6, v11}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -1915,14 +1915,14 @@
 
     move-result v13
 
-    const-string/jumbo v14, "total_distance"
+    const-string v14, "total_distance"
 
     .line 1901
     invoke-static {v6, v14}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v14
 
-    const-string/jumbo v15, "total_calories"
+    const-string v15, "total_calories"
 
     .line 1902
     invoke-static {v6, v15}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -1992,7 +1992,7 @@
 
     move/from16 v20, v1
 
-    const-string/jumbo v1, "standardDeviationWatt"
+    const-string v1, "standardDeviationWatt"
 
     .line 1910
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2001,7 +2001,7 @@
 
     move/from16 v21, v1
 
-    const-string/jumbo v1, "standardDeviationRpm"
+    const-string v1, "standardDeviationRpm"
 
     .line 1911
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2073,7 +2073,7 @@
 
     move/from16 v29, v1
 
-    const-string/jumbo v1, "watt"
+    const-string v1, "watt"
 
     .line 1919
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2082,7 +2082,7 @@
 
     move/from16 v30, v1
 
-    const-string/jumbo v1, "speed"
+    const-string v1, "speed"
 
     .line 1920
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2100,7 +2100,7 @@
 
     move/from16 v32, v1
 
-    const-string/jumbo v1, "stroke"
+    const-string v1, "stroke"
 
     .line 1922
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2136,7 +2136,7 @@
 
     move/from16 v36, v1
 
-    const-string/jumbo v1, "wattTarget"
+    const-string v1, "wattTarget"
 
     .line 1926
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2145,7 +2145,7 @@
 
     move/from16 v37, v1
 
-    const-string/jumbo v1, "time500"
+    const-string v1, "time500"
 
     .line 1927
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2163,7 +2163,7 @@
 
     move/from16 v39, v1
 
-    const-string/jumbo v1, "waypoint"
+    const-string v1, "waypoint"
 
     .line 1929
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2172,7 +2172,7 @@
 
     move/from16 v40, v1
 
-    const-string/jumbo v1, "warmup_duration"
+    const-string v1, "warmup_duration"
 
     .line 1930
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2316,7 +2316,7 @@
 
     move/from16 v56, v1
 
-    const-string/jumbo v1, "workout_source"
+    const-string v1, "workout_source"
 
     .line 1946
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2325,7 +2325,7 @@
 
     move/from16 v57, v1
 
-    const-string/jumbo v1, "workout_version"
+    const-string v1, "workout_version"
 
     .line 1947
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2379,7 +2379,7 @@
 
     move/from16 v63, v1
 
-    const-string/jumbo v1, "vo2Max"
+    const-string v1, "vo2Max"
 
     .line 1953
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2388,7 +2388,7 @@
 
     move/from16 v64, v1
 
-    const-string/jumbo v1, "wgUid"
+    const-string v1, "wgUid"
 
     .line 1954
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2397,7 +2397,7 @@
 
     move/from16 v65, v1
 
-    const-string/jumbo v1, "wgType"
+    const-string v1, "wgType"
 
     .line 1955
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2406,7 +2406,7 @@
 
     move/from16 v66, v1
 
-    const-string/jumbo v1, "wgTarget"
+    const-string v1, "wgTarget"
 
     .line 1956
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2415,7 +2415,7 @@
 
     move/from16 v67, v1
 
-    const-string/jumbo v1, "wgOrder"
+    const-string v1, "wgOrder"
 
     .line 1957
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2424,7 +2424,7 @@
 
     move/from16 v68, v1
 
-    const-string/jumbo v1, "video_id"
+    const-string v1, "video_id"
 
     .line 1958
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2442,7 +2442,7 @@
 
     move/from16 v70, v1
 
-    const-string/jumbo v1, "vp_id"
+    const-string v1, "vp_id"
 
     .line 1960
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2451,7 +2451,7 @@
 
     move/from16 v71, v1
 
-    const-string/jumbo v1, "vp_uniqid"
+    const-string v1, "vp_uniqid"
 
     .line 1961
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2478,7 +2478,7 @@
 
     move/from16 v74, v1
 
-    const-string/jumbo v1, "total_mets"
+    const-string v1, "total_mets"
 
     .line 1964
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -2505,7 +2505,7 @@
 
     move/from16 v77, v1
 
-    const-string/jumbo v1, "syncToCloud"
+    const-string v1, "syncToCloud"
 
     .line 1967
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4667,7 +4667,7 @@
 
     move-result v0
 
-    const-string/jumbo v6, "type"
+    const-string v6, "type"
 
     .line 497
     invoke-static {v5, v6}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4695,7 +4695,7 @@
 
     move-result v9
 
-    const-string/jumbo v10, "start_time"
+    const-string v10, "start_time"
 
     .line 501
     invoke-static {v5, v10}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4716,14 +4716,14 @@
 
     move-result v12
 
-    const-string/jumbo v13, "total_distance"
+    const-string v13, "total_distance"
 
     .line 504
     invoke-static {v5, v13}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v13
 
-    const-string/jumbo v14, "total_calories"
+    const-string v14, "total_calories"
 
     .line 505
     invoke-static {v5, v14}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4793,7 +4793,7 @@
 
     move/from16 v19, v1
 
-    const-string/jumbo v1, "standardDeviationWatt"
+    const-string v1, "standardDeviationWatt"
 
     .line 513
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4802,7 +4802,7 @@
 
     move/from16 v20, v1
 
-    const-string/jumbo v1, "standardDeviationRpm"
+    const-string v1, "standardDeviationRpm"
 
     .line 514
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4874,7 +4874,7 @@
 
     move/from16 v28, v1
 
-    const-string/jumbo v1, "watt"
+    const-string v1, "watt"
 
     .line 522
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4883,7 +4883,7 @@
 
     move/from16 v29, v1
 
-    const-string/jumbo v1, "speed"
+    const-string v1, "speed"
 
     .line 523
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4901,7 +4901,7 @@
 
     move/from16 v31, v1
 
-    const-string/jumbo v1, "stroke"
+    const-string v1, "stroke"
 
     .line 525
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4937,7 +4937,7 @@
 
     move/from16 v35, v1
 
-    const-string/jumbo v1, "wattTarget"
+    const-string v1, "wattTarget"
 
     .line 529
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4946,7 +4946,7 @@
 
     move/from16 v36, v1
 
-    const-string/jumbo v1, "time500"
+    const-string v1, "time500"
 
     .line 530
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4964,7 +4964,7 @@
 
     move/from16 v38, v1
 
-    const-string/jumbo v1, "waypoint"
+    const-string v1, "waypoint"
 
     .line 532
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -4973,7 +4973,7 @@
 
     move/from16 v39, v1
 
-    const-string/jumbo v1, "warmup_duration"
+    const-string v1, "warmup_duration"
 
     .line 533
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5117,7 +5117,7 @@
 
     move/from16 v55, v1
 
-    const-string/jumbo v1, "workout_source"
+    const-string v1, "workout_source"
 
     .line 549
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5126,7 +5126,7 @@
 
     move/from16 v56, v1
 
-    const-string/jumbo v1, "workout_version"
+    const-string v1, "workout_version"
 
     .line 550
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5180,7 +5180,7 @@
 
     move/from16 v62, v1
 
-    const-string/jumbo v1, "vo2Max"
+    const-string v1, "vo2Max"
 
     .line 556
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5189,7 +5189,7 @@
 
     move/from16 v63, v1
 
-    const-string/jumbo v1, "wgUid"
+    const-string v1, "wgUid"
 
     .line 557
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5198,7 +5198,7 @@
 
     move/from16 v64, v1
 
-    const-string/jumbo v1, "wgType"
+    const-string v1, "wgType"
 
     .line 558
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5207,7 +5207,7 @@
 
     move/from16 v65, v1
 
-    const-string/jumbo v1, "wgTarget"
+    const-string v1, "wgTarget"
 
     .line 559
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5216,7 +5216,7 @@
 
     move/from16 v66, v1
 
-    const-string/jumbo v1, "wgOrder"
+    const-string v1, "wgOrder"
 
     .line 560
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5225,7 +5225,7 @@
 
     move/from16 v67, v1
 
-    const-string/jumbo v1, "video_id"
+    const-string v1, "video_id"
 
     .line 561
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5243,7 +5243,7 @@
 
     move/from16 v69, v1
 
-    const-string/jumbo v1, "vp_id"
+    const-string v1, "vp_id"
 
     .line 563
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5252,7 +5252,7 @@
 
     move/from16 v70, v1
 
-    const-string/jumbo v1, "vp_uniqid"
+    const-string v1, "vp_uniqid"
 
     .line 564
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5279,7 +5279,7 @@
 
     move/from16 v73, v1
 
-    const-string/jumbo v1, "total_mets"
+    const-string v1, "total_mets"
 
     .line 567
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -5306,7 +5306,7 @@
 
     move/from16 v76, v1
 
-    const-string/jumbo v1, "syncToCloud"
+    const-string v1, "syncToCloud"
 
     .line 570
     invoke-static {v5, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8113,7 +8113,7 @@
 
     move-result v0
 
-    const-string/jumbo v7, "type"
+    const-string v7, "type"
 
     .line 1147
     invoke-static {v6, v7}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8141,7 +8141,7 @@
 
     move-result v10
 
-    const-string/jumbo v11, "start_time"
+    const-string v11, "start_time"
 
     .line 1151
     invoke-static {v6, v11}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8162,14 +8162,14 @@
 
     move-result v13
 
-    const-string/jumbo v14, "total_distance"
+    const-string v14, "total_distance"
 
     .line 1154
     invoke-static {v6, v14}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v14
 
-    const-string/jumbo v15, "total_calories"
+    const-string v15, "total_calories"
 
     .line 1155
     invoke-static {v6, v15}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8239,7 +8239,7 @@
 
     move/from16 v19, v1
 
-    const-string/jumbo v1, "standardDeviationWatt"
+    const-string v1, "standardDeviationWatt"
 
     .line 1163
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8248,7 +8248,7 @@
 
     move/from16 v20, v1
 
-    const-string/jumbo v1, "standardDeviationRpm"
+    const-string v1, "standardDeviationRpm"
 
     .line 1164
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8320,7 +8320,7 @@
 
     move/from16 v28, v1
 
-    const-string/jumbo v1, "watt"
+    const-string v1, "watt"
 
     .line 1172
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8329,7 +8329,7 @@
 
     move/from16 v29, v1
 
-    const-string/jumbo v1, "speed"
+    const-string v1, "speed"
 
     .line 1173
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8347,7 +8347,7 @@
 
     move/from16 v31, v1
 
-    const-string/jumbo v1, "stroke"
+    const-string v1, "stroke"
 
     .line 1175
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8383,7 +8383,7 @@
 
     move/from16 v35, v1
 
-    const-string/jumbo v1, "wattTarget"
+    const-string v1, "wattTarget"
 
     .line 1179
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8392,7 +8392,7 @@
 
     move/from16 v36, v1
 
-    const-string/jumbo v1, "time500"
+    const-string v1, "time500"
 
     .line 1180
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8410,7 +8410,7 @@
 
     move/from16 v38, v1
 
-    const-string/jumbo v1, "waypoint"
+    const-string v1, "waypoint"
 
     .line 1182
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8419,7 +8419,7 @@
 
     move/from16 v39, v1
 
-    const-string/jumbo v1, "warmup_duration"
+    const-string v1, "warmup_duration"
 
     .line 1183
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8563,7 +8563,7 @@
 
     move/from16 v55, v1
 
-    const-string/jumbo v1, "workout_source"
+    const-string v1, "workout_source"
 
     .line 1199
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8572,7 +8572,7 @@
 
     move/from16 v56, v1
 
-    const-string/jumbo v1, "workout_version"
+    const-string v1, "workout_version"
 
     .line 1200
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8626,7 +8626,7 @@
 
     move/from16 v62, v1
 
-    const-string/jumbo v1, "vo2Max"
+    const-string v1, "vo2Max"
 
     .line 1206
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8635,7 +8635,7 @@
 
     move/from16 v63, v1
 
-    const-string/jumbo v1, "wgUid"
+    const-string v1, "wgUid"
 
     .line 1207
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8644,7 +8644,7 @@
 
     move/from16 v64, v1
 
-    const-string/jumbo v1, "wgType"
+    const-string v1, "wgType"
 
     .line 1208
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8653,7 +8653,7 @@
 
     move/from16 v65, v1
 
-    const-string/jumbo v1, "wgTarget"
+    const-string v1, "wgTarget"
 
     .line 1209
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8662,7 +8662,7 @@
 
     move/from16 v66, v1
 
-    const-string/jumbo v1, "wgOrder"
+    const-string v1, "wgOrder"
 
     .line 1210
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8671,7 +8671,7 @@
 
     move/from16 v67, v1
 
-    const-string/jumbo v1, "video_id"
+    const-string v1, "video_id"
 
     .line 1211
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8689,7 +8689,7 @@
 
     move/from16 v69, v1
 
-    const-string/jumbo v1, "vp_id"
+    const-string v1, "vp_id"
 
     .line 1213
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8698,7 +8698,7 @@
 
     move/from16 v70, v1
 
-    const-string/jumbo v1, "vp_uniqid"
+    const-string v1, "vp_uniqid"
 
     .line 1214
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8725,7 +8725,7 @@
 
     move/from16 v73, v1
 
-    const-string/jumbo v1, "total_mets"
+    const-string v1, "total_mets"
 
     .line 1217
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -8752,7 +8752,7 @@
 
     move/from16 v76, v1
 
-    const-string/jumbo v1, "syncToCloud"
+    const-string v1, "syncToCloud"
 
     .line 1220
     invoke-static {v6, v1}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I

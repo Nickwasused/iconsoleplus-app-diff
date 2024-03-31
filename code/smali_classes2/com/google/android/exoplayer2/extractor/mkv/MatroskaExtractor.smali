@@ -4654,7 +4654,7 @@
 
     iget-object v5, v5, Lcom/google/android/exoplayer2/extractor/TrackOutput$CryptoData;->encryptionKey:[B
 
-    const-string/jumbo v6, "video/webm"
+    const-string v6, "video/webm"
 
     invoke-direct {v3, v4, v6, v5}, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;-><init>(Ljava/util/UUID;Ljava/lang/String;[B)V
 
@@ -6653,7 +6653,7 @@
     goto :goto_0
 
     :cond_2
-    const-string/jumbo p1, "webm"
+    const-string p1, "webm"
 
     .line 1097
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

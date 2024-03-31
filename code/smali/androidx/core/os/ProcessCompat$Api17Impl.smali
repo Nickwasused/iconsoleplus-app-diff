@@ -117,7 +117,12 @@
 
     if-eqz p0, :cond_1
 
-    goto :goto_0
+    .line 109
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p0
+
+    return p0
 
     .line 107
     :cond_1
@@ -146,10 +151,9 @@
     :catch_0
     move-exception p0
 
-    .line 111
+    .line 112
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2
-    :goto_0
     return v0
 .end method

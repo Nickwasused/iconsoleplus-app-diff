@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n1#1,83:1\n66#1,16:84\n66#1,16:100\n66#1,16:116\n66#1,16:132\n66#1,16:148\n*S KotlinDebug\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n28#1:84,16\n36#1:100,16\n44#1:116,16\n52#1:132,16\n60#1:148,16\n*E\n"
+    value = "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n1#1,86:1\n69#1,16:87\n69#1,16:103\n69#1,16:119\n69#1,16:135\n69#1,16:151\n*S KotlinDebug\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n31#1:87,16\n39#1:103,16\n47#1:119,16\n55#1:135,16\n63#1:151,16\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -37,7 +37,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -104,7 +104,7 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 73
+    .line 76
     new-instance v0, Landroidx/core/transition/TransitionKt$addListener$listener$1;
 
     move-object v1, v0
@@ -121,7 +121,7 @@
 
     invoke-direct/range {v1 .. v6}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
 
-    .line 80
+    .line 83
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -136,7 +136,7 @@
 
     if-eqz p7, :cond_0
 
-    .line 67
+    .line 70
     sget-object p1, Landroidx/core/transition/TransitionKt$addListener$1;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$1;
 
     check-cast p1, Lkotlin/jvm/functions/Function1;
@@ -146,7 +146,7 @@
 
     if-eqz p7, :cond_1
 
-    .line 68
+    .line 71
     sget-object p2, Landroidx/core/transition/TransitionKt$addListener$2;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$2;
 
     check-cast p2, Lkotlin/jvm/functions/Function1;
@@ -158,7 +158,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 69
+    .line 72
     sget-object p2, Landroidx/core/transition/TransitionKt$addListener$3;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$3;
 
     move-object p3, p2
@@ -172,7 +172,7 @@
 
     if-eqz p2, :cond_3
 
-    .line 70
+    .line 73
     sget-object p2, Landroidx/core/transition/TransitionKt$addListener$4;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$4;
 
     move-object p4, p2
@@ -184,7 +184,7 @@
 
     if-eqz p2, :cond_4
 
-    .line 71
+    .line 74
     sget-object p2, Landroidx/core/transition/TransitionKt$addListener$5;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$5;
 
     move-object p5, p2
@@ -194,7 +194,7 @@
     :cond_4
     const-string p2, "<this>"
 
-    .line 66
+    .line 69
     invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "onEnd"
@@ -217,7 +217,7 @@
 
     invoke-static {p5, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 73
+    .line 76
     new-instance v1, Landroidx/core/transition/TransitionKt$addListener$listener$1;
 
     move-object p2, v1
@@ -228,7 +228,7 @@
 
     invoke-direct/range {p2 .. p7}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
 
-    .line 80
+    .line 83
     check-cast v1, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v1}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -259,12 +259,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 123
+    .line 126
     new-instance v0, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;
 
     invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
-    .line 130
+    .line 133
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -295,12 +295,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 91
+    .line 94
     new-instance v0, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;
 
     invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
-    .line 98
+    .line 101
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -331,12 +331,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 155
+    .line 158
     new-instance v0, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;
 
     invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
-    .line 162
+    .line 165
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -367,12 +367,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 139
+    .line 142
     new-instance v0, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;
 
     invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
-    .line 146
+    .line 149
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -403,12 +403,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 107
+    .line 110
     new-instance v0, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;
 
     invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
-    .line 114
+    .line 117
     check-cast v0, Landroid/transition/Transition$TransitionListener;
 
     invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;

@@ -24,7 +24,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -85,10 +85,8 @@
     :catchall_0
     move-exception p1
 
-    .line 41
     invoke-static {p2}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 40
     invoke-virtual {p0}, Landroid/graphics/Picture;->endRecording()V
 
     invoke-static {p2}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V

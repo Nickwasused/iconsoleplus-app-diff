@@ -3,13 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <fragment android:id="@id/google_map" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.gms.maps.SupportMapFragment"
       xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
-    <com.amap.api.maps2d.MapView android:id="@id/amapMapView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <ImageView android:id="@id/ivStreetView" android:background="@android:color/black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <FrameLayout android:id="@id/layoutBaiduPanorama" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.baidu.lbsapi.panoramaview.PanoramaView android:id="@id/baiduPanorama" android:background="@android:color/black" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <View android:id="@id/vPanoramaBlock" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <View android:id="@id/vPanoramaControlPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
     <RelativeLayout android:id="@id/layoutSearchPane" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_margin="8.0dip" android:layout_centerHorizontal="true">
         <EditText android:textSize="18.0sp" android:textColor="#ff1c1c1c" android:textColorHint="#ffc0c0c0" android:id="@id/etSearchBox" android:background="@drawable/iroute_inputbox" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/str_search_a_location" android:maxLines="1" android:layout_centerVertical="true" android:inputType="text" android:fontFamily="@font/ff_dinpro_regular" android:paddingStart="15.0dip" android:layout_marginEnd="50.0dip" />
         <ImageButton android:id="@id/btnSearch" android:background="@null" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search" android:layout_alignTop="@id/etSearchBox" android:layout_alignBottom="@id/etSearchBox" android:layout_centerVertical="true" android:layout_marginEnd="60.0dip" android:layout_alignParentEnd="true" />

@@ -646,7 +646,7 @@
 
     move-result-object v12
 
-    const-string v13, "translationX"
+    const-string/jumbo v13, "translationX"
 
     invoke-virtual {v8, v13, v12}, Landroidx/constraintlayout/motion/widget/KeyAttributes;->setValue(Ljava/lang/String;Ljava/lang/Object;)V
 
@@ -699,7 +699,7 @@
 
     move-result-object v13
 
-    const-string v14, "translationY"
+    const-string/jumbo v14, "translationY"
 
     invoke-virtual {v9, v14, v13}, Landroidx/constraintlayout/motion/widget/KeyAttributes;->setValue(Ljava/lang/String;Ljava/lang/Object;)V
 

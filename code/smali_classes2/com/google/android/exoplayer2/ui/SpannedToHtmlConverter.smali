@@ -1048,7 +1048,7 @@
     return-object p0
 
     :cond_0
-    const-string/jumbo p0, "under left"
+    const-string p0, "under left"
 
     return-object p0
 .end method
@@ -1096,7 +1096,7 @@
 
     if-eq p0, p1, :cond_2
 
-    const-string/jumbo p0, "unset"
+    const-string p0, "unset"
 
     .line 276
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

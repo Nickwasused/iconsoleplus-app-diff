@@ -373,7 +373,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 361
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -534,7 +534,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 375
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -580,7 +580,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 379
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -680,7 +680,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202c5
+    const v2, 0x7f1202cd
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -693,7 +693,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202b8
+    const v2, 0x7f1202c0
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -706,7 +706,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202b9
+    const v2, 0x7f1202c1
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -719,7 +719,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202b7
+    const v2, 0x7f1202bf
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -732,7 +732,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202bd
+    const v2, 0x7f1202c5
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -745,7 +745,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202bb
+    const v2, 0x7f1202c3
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -758,7 +758,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202c1
+    const v2, 0x7f1202c9
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -780,7 +780,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 442
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -876,7 +876,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 456
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -904,7 +904,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 460
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1018,7 +1018,7 @@
 
     if-ne p0, v0, :cond_0
 
-    const p0, 0x7f1202c5
+    const p0, 0x7f1202cd
 
     return p0
 
@@ -1027,7 +1027,7 @@
 
     if-ne p0, v0, :cond_1
 
-    const p0, 0x7f1202b9
+    const p0, 0x7f1202c1
 
     return p0
 
@@ -1036,14 +1036,14 @@
 
     if-ne p0, v0, :cond_2
 
-    const p0, 0x7f1202b8
+    const p0, 0x7f1202c0
 
     return p0
 
     :cond_2
     const/4 v0, 0x5
 
-    const v1, 0x7f1202b7
+    const v1, 0x7f1202bf
 
     if-ne p0, v0, :cond_3
 
@@ -1054,7 +1054,7 @@
 
     if-ne p0, v0, :cond_4
 
-    const p0, 0x7f1202bd
+    const p0, 0x7f1202c5
 
     return p0
 
@@ -1063,7 +1063,7 @@
 
     if-ne p0, v0, :cond_5
 
-    const p0, 0x7f1202bb
+    const p0, 0x7f1202c3
 
     return p0
 
@@ -1083,7 +1083,7 @@
 
     if-ne p0, v0, :cond_7
 
-    const p0, 0x7f1202c2
+    const p0, 0x7f1202ca
 
     return p0
 
@@ -1092,7 +1092,7 @@
 
     if-ne p0, v0, :cond_8
 
-    const p0, 0x7f1202c7
+    const p0, 0x7f1202cf
 
     return p0
 
@@ -1101,7 +1101,7 @@
 
     if-ne p0, v0, :cond_9
 
-    const p0, 0x7f1202c3
+    const p0, 0x7f1202cb
 
     return p0
 
@@ -1110,7 +1110,7 @@
 
     if-ne p0, v0, :cond_a
 
-    const p0, 0x7f1202c0
+    const p0, 0x7f1202c8
 
     return p0
 
@@ -1119,7 +1119,7 @@
 
     if-ne p0, v0, :cond_b
 
-    const p0, 0x7f1202c4
+    const p0, 0x7f1202cc
 
     return p0
 
@@ -1128,7 +1128,7 @@
 
     if-ne p0, v0, :cond_c
 
-    const p0, 0x7f1202c6
+    const p0, 0x7f1202ce
 
     return p0
 
@@ -1137,7 +1137,7 @@
 
     if-ne p0, v0, :cond_d
 
-    const p0, 0x7f1202bc
+    const p0, 0x7f1202c4
 
     return p0
 
@@ -1146,7 +1146,7 @@
 
     if-ne p0, v0, :cond_e
 
-    const p0, 0x7f1202b6
+    const p0, 0x7f1202be
 
     return p0
 
@@ -1155,7 +1155,7 @@
 
     if-ne p0, v0, :cond_f
 
-    const p0, 0x7f1203b6
+    const p0, 0x7f1203bf
 
     return p0
 
@@ -1164,7 +1164,7 @@
 
     if-ne p0, v0, :cond_10
 
-    const p0, 0x7f1203c6
+    const p0, 0x7f1203cf
 
     return p0
 
@@ -1173,7 +1173,7 @@
 
     :cond_11
     :goto_0
-    const p0, 0x7f1202c1
+    const p0, 0x7f1202c9
 
     return p0
 .end method
@@ -1189,14 +1189,14 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 283
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    const v1, 0x7f1202c5
+    const v1, 0x7f1202cd
 
     if-eqz v0, :cond_0
 
@@ -1212,7 +1212,7 @@
 
     if-eqz v0, :cond_1
 
-    const p0, 0x7f1202b9
+    const p0, 0x7f1202c1
 
     return p0
 
@@ -1226,7 +1226,7 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f1202b8
+    const p0, 0x7f1202c0
 
     return p0
 
@@ -1240,7 +1240,7 @@
 
     if-eqz v0, :cond_3
 
-    const p0, 0x7f1202b7
+    const p0, 0x7f1202bf
 
     return p0
 
@@ -1254,7 +1254,7 @@
 
     if-eqz v0, :cond_4
 
-    const p0, 0x7f1202bd
+    const p0, 0x7f1202c5
 
     return p0
 
@@ -1268,7 +1268,7 @@
 
     if-eqz v0, :cond_5
 
-    const p0, 0x7f1202bb
+    const p0, 0x7f1202c3
 
     return p0
 
@@ -1282,12 +1282,12 @@
 
     if-eqz v0, :cond_6
 
-    const p0, 0x7f1202c1
+    const p0, 0x7f1202c9
 
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 297
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1296,7 +1296,7 @@
 
     if-eqz v0, :cond_7
 
-    const p0, 0x7f1202c2
+    const p0, 0x7f1202ca
 
     return p0
 
@@ -1310,12 +1310,12 @@
 
     if-eqz v0, :cond_8
 
-    const p0, 0x7f1202c7
+    const p0, 0x7f1202cf
 
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 301
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1324,7 +1324,7 @@
 
     if-eqz v0, :cond_9
 
-    const p0, 0x7f1202c3
+    const p0, 0x7f1202cb
 
     return p0
 
@@ -1338,7 +1338,7 @@
 
     if-eqz v0, :cond_a
 
-    const p0, 0x7f1202c0
+    const p0, 0x7f1202c8
 
     return p0
 
@@ -1352,7 +1352,7 @@
 
     if-eqz p0, :cond_b
 
-    const p0, 0x7f1203c6
+    const p0, 0x7f1203cf
 
     return p0
 
@@ -1384,7 +1384,7 @@
     return-object p0
 
     :pswitch_2
-    const-string/jumbo p0, "stepper"
+    const-string p0, "stepper"
 
     return-object p0
 
@@ -1394,7 +1394,7 @@
     return-object p0
 
     :pswitch_4
-    const-string/jumbo p0, "squat"
+    const-string p0, "squat"
 
     return-object p0
 
@@ -1414,7 +1414,7 @@
     return-object p0
 
     :pswitch_8
-    const-string/jumbo p0, "treadmill"
+    const-string p0, "treadmill"
 
     return-object p0
 
@@ -1437,6 +1437,8 @@
     const-string p0, "manual_bike"
 
     return-object p0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x4
@@ -1469,7 +1471,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 313
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1567,7 +1569,7 @@
     return p0
 
     :cond_6
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     .line 327
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1595,7 +1597,7 @@
     return p0
 
     :cond_8
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 331
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1723,7 +1725,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "treadmill"
+    const-string v0, "treadmill"
 
     .line 424
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1737,7 +1739,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d4
+    const v0, 0x7f1202dc
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1755,7 +1757,7 @@
 
     if-nez v0, :cond_6
 
-    const-string/jumbo v0, "stepper"
+    const-string v0, "stepper"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1780,7 +1782,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d3
+    const v0, 0x7f1202db
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1803,7 +1805,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d7
+    const v0, 0x7f1202df
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1812,7 +1814,7 @@
     return-object p0
 
     :cond_3
-    const-string/jumbo v0, "squat"
+    const-string v0, "squat"
 
     .line 432
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1826,7 +1828,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d5
+    const v0, 0x7f1202dd
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1849,7 +1851,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d1
+    const v0, 0x7f1202d9
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1863,7 +1865,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d2
+    const v0, 0x7f1202da
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1878,7 +1880,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202d6
+    const v0, 0x7f1202de
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

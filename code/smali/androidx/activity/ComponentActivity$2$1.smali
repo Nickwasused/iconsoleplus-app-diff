@@ -28,20 +28,8 @@
 # direct methods
 .method constructor <init>(Landroidx/activity/ComponentActivity$2;ILandroidx/activity/result/contract/ActivityResultContract$SynchronousResult;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            "this$1",
-            "val$requestCode",
-            "val$synchronousResult"
-        }
-    .end annotation
 
-    .line 159
+    .line 191
     iput-object p1, p0, Landroidx/activity/ComponentActivity$2$1;->this$1:Landroidx/activity/ComponentActivity$2;
 
     iput p2, p0, Landroidx/activity/ComponentActivity$2$1;->val$requestCode:I
@@ -58,7 +46,7 @@
 .method public run()V
     .locals 3
 
-    .line 162
+    .line 194
     iget-object v0, p0, Landroidx/activity/ComponentActivity$2$1;->this$1:Landroidx/activity/ComponentActivity$2;
 
     iget v1, p0, Landroidx/activity/ComponentActivity$2$1;->val$requestCode:I

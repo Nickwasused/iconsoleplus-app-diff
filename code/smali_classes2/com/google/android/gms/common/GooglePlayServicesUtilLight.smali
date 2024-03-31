@@ -953,7 +953,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string/jumbo v0, "user"
+    const-string v0, "user"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -981,7 +981,7 @@
 
     move-result-object p0
 
-    const-string/jumbo v0, "true"
+    const-string v0, "true"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

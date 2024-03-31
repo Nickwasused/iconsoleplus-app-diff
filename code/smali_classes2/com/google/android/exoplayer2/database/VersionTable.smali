@@ -87,7 +87,7 @@
     :cond_0
     const-string v3, "ExoPlayerVersions"
 
-    const-string/jumbo v0, "version"
+    const-string v0, "version"
 
     .line 145
     filled-new-array {v0}, [Ljava/lang/String;
@@ -277,7 +277,7 @@
     .line 97
     invoke-virtual {v0, p1, p2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string/jumbo p1, "version"
+    const-string p1, "version"
 
     .line 98
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

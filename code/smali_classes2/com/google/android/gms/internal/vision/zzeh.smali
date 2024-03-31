@@ -150,7 +150,7 @@
     .line 6
     new-instance v0, Ljava/lang/AssertionError;
 
-    const-string/jumbo v1, "should never be called"
+    const-string v1, "should never be called"
 
     invoke-direct {v0, v1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
 

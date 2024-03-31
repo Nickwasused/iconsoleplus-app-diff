@@ -68,10 +68,6 @@
 
 .field public static final accent_material_light:I = 0x7f060028
 
-.field public static final androidx_core_ripple_material_light:I = 0x7f060029
-
-.field public static final androidx_core_secondary_text_default_material_light:I = 0x7f06002a
-
 .field public static final background_floating_material_dark:I = 0x7f06002c
 
 .field public static final background_floating_material_light:I = 0x7f06002d
@@ -139,10 +135,6 @@
 .field public static final material_grey_850:I = 0x7f0600b9
 
 .field public static final material_grey_900:I = 0x7f0600ba
-
-.field public static final notification_action_color_filter:I = 0x7f060116
-
-.field public static final notification_icon_bg_color:I = 0x7f060117
 
 .field public static final primary_dark_material_dark:I = 0x7f06011a
 

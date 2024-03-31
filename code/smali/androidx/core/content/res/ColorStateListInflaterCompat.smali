@@ -386,13 +386,13 @@
     .line 171
     :cond_4
     :goto_2
-    invoke-static {}, Landroidx/core/os/BuildCompat;->isAtLeastS()Z
+    sget v12, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v12
+    const/16 v13, 0x1f
 
-    const/high16 v13, -0x40800000    # -1.0f
+    const/high16 v14, -0x40800000    # -1.0f
 
-    if-eqz v12, :cond_5
+    if-lt v12, v13, :cond_5
 
     sget v12, Landroidx/core/R$styleable;->ColorStateListItem_android_lStar:I
 
@@ -406,7 +406,7 @@
     .line 173
     sget v12, Landroidx/core/R$styleable;->ColorStateListItem_android_lStar:I
 
-    invoke-virtual {v9, v12, v13}, Landroid/content/res/TypedArray;->getFloat(IF)F
+    invoke-virtual {v9, v12, v14}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result v12
 
@@ -416,7 +416,7 @@
     :cond_5
     sget v12, Landroidx/core/R$styleable;->ColorStateListItem_lStar:I
 
-    invoke-virtual {v9, v12, v13}, Landroid/content/res/TypedArray;->getFloat(IF)F
+    invoke-virtual {v9, v12, v14}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result v12
 

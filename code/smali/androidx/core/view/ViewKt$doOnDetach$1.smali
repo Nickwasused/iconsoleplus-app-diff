@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 View.kt\nandroidx/core/view/ViewKt$doOnDetach$1\n*L\n1#1,411:1\n*E\n"
+    value = "SMAP\nView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 View.kt\nandroidx/core/view/ViewKt$doOnDetach$1\n*L\n1#1,432:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -37,10 +37,10 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
-    xi = 0x30
+    xi = 0xb0
 .end annotation
 
 
@@ -78,7 +78,7 @@
 
     iput-object p2, p0, Landroidx/core/view/ViewKt$doOnDetach$1;->$action:Lkotlin/jvm/functions/Function1;
 
-    .line 121
+    .line 123
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -89,7 +89,7 @@
 .method public onViewAttachedToWindow(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -99,11 +99,11 @@
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
     .locals 2
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 125
+    .line 127
     iget-object v0, p0, Landroidx/core/view/ViewKt$doOnDetach$1;->$this_doOnDetach:Landroid/view/View;
 
     move-object v1, p0
@@ -112,7 +112,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
-    .line 126
+    .line 128
     iget-object v0, p0, Landroidx/core/view/ViewKt$doOnDetach$1;->$action:Lkotlin/jvm/functions/Function1;
 
     invoke-interface {v0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;

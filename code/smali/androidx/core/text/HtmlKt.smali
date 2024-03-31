@@ -25,7 +25,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -107,7 +107,7 @@
 
     move-result-object p0
 
-    const-string p1, "toHtml(this, option)"
+    const-string/jumbo p1, "toHtml(this, option)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -134,7 +134,7 @@
 
     move-result-object p0
 
-    const-string p1, "toHtml(this, option)"
+    const-string/jumbo p1, "toHtml(this, option)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

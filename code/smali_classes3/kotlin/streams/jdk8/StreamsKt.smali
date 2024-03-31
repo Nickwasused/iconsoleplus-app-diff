@@ -36,10 +36,10 @@
 
 
 # direct methods
-.method public static synthetic $r8$lambda$bdU4-xB_0bnfvMo-xyX7v8aTfMQ(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
+.method public static synthetic $r8$lambda$D6rJ2g9z2pCQAEMFkqgtKPOz0JA(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
     .locals 0
 
-    invoke-static {p0}, Lkotlin/streams/jdk8/StreamsKt;->asStream$lambda-4(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
+    invoke-static {p0}, Lkotlin/streams/jdk8/StreamsKt;->asStream$lambda$4(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
 
     move-result-object p0
 
@@ -193,7 +193,7 @@
     return-object p0
 .end method
 
-.method private static final asStream$lambda-4(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
+.method private static final asStream$lambda$4(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
     .locals 1
 
     const-string v0, "$this_asStream"

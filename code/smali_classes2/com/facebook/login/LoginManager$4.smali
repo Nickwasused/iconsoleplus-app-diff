@@ -112,7 +112,7 @@
 
     move-result-object v5
 
-    const-string/jumbo v0, "signed request"
+    const-string v0, "signed request"
 
     .line 1235
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;

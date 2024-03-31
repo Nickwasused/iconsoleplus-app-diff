@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHalf.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Half.kt\nandroidx/core/util/HalfKt\n*L\n1#1,58:1\n41#1:59\n*S KotlinDebug\n*F\n+ 1 Half.kt\nandroidx/core/util/HalfKt\n*L\n49#1:59\n*E\n"
+    value = "SMAP\nHalf.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Half.kt\nandroidx/core/util/HalfKt\n*L\n1#1,60:1\n43#1:61\n*S KotlinDebug\n*F\n+ 1 Half.kt\nandroidx/core/util/HalfKt\n*L\n51#1:61\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -24,7 +24,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -37,12 +37,12 @@
 
     double-to-float p0, p0
 
-    .line 59
+    .line 61
     invoke-static {p0}, Landroid/util/Half;->valueOf(F)Landroid/util/Half;
 
     move-result-object p0
 
-    const-string p1, "valueOf(this)"
+    const-string/jumbo p1, "valueOf(this)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -52,12 +52,12 @@
 .method public static final toHalf(F)Landroid/util/Half;
     .locals 1
 
-    .line 41
+    .line 43
     invoke-static {p0}, Landroid/util/Half;->valueOf(F)Landroid/util/Half;
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -71,12 +71,12 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 57
+    .line 59
     invoke-static {p0}, Landroid/util/Half;->valueOf(Ljava/lang/String;)Landroid/util/Half;
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -86,12 +86,12 @@
 .method public static final toHalf(S)Landroid/util/Half;
     .locals 1
 
-    .line 33
+    .line 35
     invoke-static {p0}, Landroid/util/Half;->valueOf(S)Landroid/util/Half;
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

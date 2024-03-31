@@ -822,7 +822,7 @@
 
     sget-object v5, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v6, "tryOpenCamera(%s) [Available Cameras: %d, Already Open: %b (Previous state: %s)]"
+    const-string/jumbo v6, "tryOpenCamera(%s) [Available Cameras: %d, Already Open: %b (Previous state: %s)]"
 
     const/4 v7, 0x4
 

@@ -142,7 +142,7 @@
     :try_start_1
     invoke-virtual {v2, v3}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
 
-    const-string/jumbo v5, "version"
+    const-string v5, "version"
 
     .line 8
     invoke-virtual {v2, v5, v4}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

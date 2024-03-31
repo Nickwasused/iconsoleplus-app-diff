@@ -26,7 +26,7 @@
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u001c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010(\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\u0008\u0017\u0018\u0000 \u00172\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0017B\"\u0008\u0000\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0006\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0007J\u0013\u0010\r\u001a\u00020\u000e2\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u0010H\u0096\u0002J\u0008\u0010\u0011\u001a\u00020\u0006H\u0016J\u0008\u0010\u0012\u001a\u00020\u000eH\u0016J\u0012\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0014H\u0086\u0002\u00f8\u0001\u0000J\u0008\u0010\u0015\u001a\u00020\u0016H\u0016R\u0013\u0010\u0008\u001a\u00020\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\n\u0002\u0010\tR\u0013\u0010\n\u001a\u00020\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\n\u0002\u0010\tR\u0011\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000b\u0010\u000c\u00f8\u0001\u0000\u0082\u0002\u0008\n\u0002\u0008\u0019\n\u0002\u0008!\u00a8\u0006\u0018"
+        "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u001c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\t\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010(\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\u0008\u0017\u0018\u0000 \u00192\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0019B\"\u0008\u0000\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0006\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0007J\u0013\u0010\u000f\u001a\u00020\u00102\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0096\u0002J\u0008\u0010\u0013\u001a\u00020\u0006H\u0016J\u0008\u0010\u0014\u001a\u00020\u0010H\u0016J\u0012\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0016H\u0086\u0002\u00f8\u0001\u0000J\u0008\u0010\u0017\u001a\u00020\u0018H\u0016R\u0019\u0010\u0008\u001a\u00020\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\n\n\u0002\u0010\u000b\u001a\u0004\u0008\t\u0010\nR\u0019\u0010\u000c\u001a\u00020\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\n\n\u0002\u0010\u000b\u001a\u0004\u0008\r\u0010\nR\u0011\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\n\u00f8\u0001\u0000\u0082\u0002\u0008\n\u0002\u0008\u0019\n\u0002\u0008!\u00a8\u0006\u001a"
     }
     d2 = {
         "Lkotlin/ranges/UIntProgression;",
@@ -38,10 +38,12 @@
         "",
         "(IIILkotlin/jvm/internal/DefaultConstructorMarker;)V",
         "first",
+        "getFirst-pVg5ArA",
+        "()I",
         "I",
         "last",
+        "getLast-pVg5ArA",
         "getStep",
-        "()I",
         "equals",
         "",
         "other",
@@ -95,7 +97,7 @@
 .method private constructor <init>(III)V
     .locals 1
 
-    .line 50
+    .line 59
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p3, :cond_1
@@ -104,22 +106,22 @@
 
     if-eq p3, v0, :cond_0
 
-    .line 66
+    .line 75
     iput p1, p0, Lkotlin/ranges/UIntProgression;->first:I
 
-    .line 71
+    .line 80
     invoke-static {p1, p2, p3}, Lkotlin/internal/UProgressionUtilKt;->getProgressionLastElement-Nkh28Cs(III)I
 
     move-result p1
 
     iput p1, p0, Lkotlin/ranges/UIntProgression;->last:I
 
-    .line 76
+    .line 85
     iput p3, p0, Lkotlin/ranges/UIntProgression;->step:I
 
     return-void
 
-    .line 60
+    .line 69
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -129,7 +131,7 @@
 
     throw p1
 
-    .line 59
+    .line 68
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -153,7 +155,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 89
+    .line 98
     instance-of v0, p1, Lkotlin/ranges/UIntProgression;
 
     if-eqz v0, :cond_2
@@ -174,7 +176,7 @@
 
     if-nez v0, :cond_1
 
-    .line 90
+    .line 99
     :cond_0
     iget v0, p0, Lkotlin/ranges/UIntProgression;->first:I
 
@@ -211,7 +213,7 @@
 .method public final getFirst-pVg5ArA()I
     .locals 1
 
-    .line 66
+    .line 75
     iget v0, p0, Lkotlin/ranges/UIntProgression;->first:I
 
     return v0
@@ -220,7 +222,7 @@
 .method public final getLast-pVg5ArA()I
     .locals 1
 
-    .line 71
+    .line 80
     iget v0, p0, Lkotlin/ranges/UIntProgression;->last:I
 
     return v0
@@ -229,7 +231,7 @@
 .method public final getStep()I
     .locals 1
 
-    .line 76
+    .line 85
     iget v0, p0, Lkotlin/ranges/UIntProgression;->step:I
 
     return v0
@@ -238,7 +240,7 @@
 .method public hashCode()I
     .locals 2
 
-    .line 93
+    .line 102
     invoke-virtual {p0}, Lkotlin/ranges/UIntProgression;->isEmpty()Z
 
     move-result v0
@@ -271,7 +273,7 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 86
+    .line 95
     iget v0, p0, Lkotlin/ranges/UIntProgression;->step:I
 
     const/4 v1, 0x1
@@ -323,7 +325,7 @@
         }
     .end annotation
 
-    .line 78
+    .line 87
     new-instance v0, Lkotlin/ranges/UIntProgressionIterator;
 
     iget v1, p0, Lkotlin/ranges/UIntProgression;->first:I
@@ -344,7 +346,7 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 95
+    .line 104
     iget v0, p0, Lkotlin/ranges/UIntProgression;->step:I
 
     const-string v1, " step "

@@ -73,8 +73,6 @@
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string name="copy">Copia</string>
-    <string name="crop_image_activity_no_permissions">Annullamento in corso, autorizzazione richieste non concesse</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Ritaglia</string>
     <string name="error_icon_content_description">Errore</string>
     <string name="exo_controls_cc_disabled_description">Attiva i sottotitoli</string>
@@ -213,7 +211,9 @@
     <string name="nav_app_bar_open_drawer_description">Apri riquadro di navigazione</string>
     <string name="not_set">Non impostato</string>
     <string name="password_toggle_content_description">Mostra password</string>
-    <string name="pick_image_intent_chooser_title">Seleziona origine</string>
+    <string name="pick_image_camera">Fotocamera</string>
+    <string name="pick_image_chooser_title">Seleziona origine</string>
+    <string name="pick_image_gallery">Galleria</string>
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
     <string name="search_menu_title">Cerca</string>
     <string name="status_bar_notification_info_overflow">999+</string>

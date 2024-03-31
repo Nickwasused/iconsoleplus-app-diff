@@ -144,7 +144,7 @@
     throw v0
 
     :pswitch_0
-    const-string/jumbo p0, "video/avc"
+    const-string p0, "video/avc"
 
     return-object p0
 
@@ -157,8 +157,6 @@
     const-string p0, "audio/mp4a-latm"
 
     return-object p0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

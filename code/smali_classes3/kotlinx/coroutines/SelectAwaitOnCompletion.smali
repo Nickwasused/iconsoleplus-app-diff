@@ -89,13 +89,13 @@
         }
     .end annotation
 
-    .line 1436
+    .line 1437
     invoke-direct {p0}, Lkotlinx/coroutines/JobNode;-><init>()V
 
-    .line 1434
+    .line 1435
     iput-object p1, p0, Lkotlinx/coroutines/SelectAwaitOnCompletion;->select:Lkotlinx/coroutines/selects/SelectInstance;
 
-    .line 1435
+    .line 1436
     iput-object p2, p0, Lkotlinx/coroutines/SelectAwaitOnCompletion;->block:Lkotlin/jvm/functions/Function2;
 
     return-void
@@ -106,7 +106,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1433
+    .line 1434
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/SelectAwaitOnCompletion;->invoke(Ljava/lang/Throwable;)V
@@ -119,7 +119,7 @@
 .method public invoke(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1438
+    .line 1439
     iget-object p1, p0, Lkotlinx/coroutines/SelectAwaitOnCompletion;->select:Lkotlinx/coroutines/selects/SelectInstance;
 
     invoke-interface {p1}, Lkotlinx/coroutines/selects/SelectInstance;->trySelect()Z
@@ -128,7 +128,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1439
+    .line 1440
     invoke-virtual {p0}, Lkotlinx/coroutines/SelectAwaitOnCompletion;->getJob()Lkotlinx/coroutines/JobSupport;
 
     move-result-object p1

@@ -75,7 +75,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a00b2
+    const v1, 0x7f0a00b1
 
     if-eq v0, v1, :cond_0
 
@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a00b2
+    const p2, 0x7f0a00b1
 
     .line 36
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->btnMenu:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a0567
+    const p2, 0x7f0a055e
 
     .line 37
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a01ab
+    const p2, 0x7f0a01a9
 
     .line 38
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/KinoMapFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a05cf
+    const p2, 0x7f0a05c7
 
     .line 39
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

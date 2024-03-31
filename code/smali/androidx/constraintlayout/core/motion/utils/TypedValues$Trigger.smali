@@ -72,27 +72,27 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    const-string v0, "viewTransitionOnCross"
+    const-string/jumbo v0, "viewTransitionOnCross"
 
-    const-string v1, "viewTransitionOnPositiveCross"
+    const-string/jumbo v1, "viewTransitionOnPositiveCross"
 
-    const-string v2, "viewTransitionOnNegativeCross"
+    const-string/jumbo v2, "viewTransitionOnNegativeCross"
 
     const-string v3, "postLayout"
 
-    const-string v4, "triggerSlack"
+    const-string/jumbo v4, "triggerSlack"
 
-    const-string v5, "triggerCollisionView"
+    const-string/jumbo v5, "triggerCollisionView"
 
-    const-string v6, "triggerCollisionId"
+    const-string/jumbo v6, "triggerCollisionId"
 
-    const-string v7, "triggerID"
+    const-string/jumbo v7, "triggerID"
 
     const-string v8, "positiveCross"
 
     const-string v9, "negativeCross"
 
-    const-string v10, "triggerReceiver"
+    const-string/jumbo v10, "triggerReceiver"
 
     const-string v11, "CROSS"
 

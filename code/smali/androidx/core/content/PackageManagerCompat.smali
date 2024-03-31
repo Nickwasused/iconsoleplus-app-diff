@@ -103,7 +103,7 @@
 .method public static getPermissionRevocationVerifierApp(Landroid/content/pm/PackageManager;)Ljava/lang/String;
     .locals 4
 
-    .line 222
+    .line 223
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.AUTO_REVOKE_PERMISSIONS"
@@ -116,7 +116,7 @@
 
     const/4 v3, 0x0
 
-    .line 224
+    .line 225
     invoke-static {v1, v2, v3}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
@@ -127,12 +127,12 @@
 
     const/4 v1, 0x0
 
-    .line 227
+    .line 228
     invoke-virtual {p0, v0, v1}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 232
+    .line 233
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -150,14 +150,14 @@
 
     check-cast v1, Landroid/content/pm/ResolveInfo;
 
-    .line 233
+    .line 234
     iget-object v1, v1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v1, v1, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     const-string v2, "android.permission.PACKAGE_VERIFICATION_AGENT"
 
-    .line 234
+    .line 235
     invoke-virtual {p0, v2, v1}, Landroid/content/pm/PackageManager;->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v2

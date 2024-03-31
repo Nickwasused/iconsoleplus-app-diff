@@ -55,7 +55,7 @@
 
     const-string v2, ""
 
-    .line 158
+    .line 160
     invoke-static {v2, v1}, Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v1
@@ -66,7 +66,7 @@
 
     const-string v1, ".."
 
-    .line 159
+    .line 161
     invoke-static {v1, v0}, Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v0
@@ -79,7 +79,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 157
+    .line 159
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -98,22 +98,22 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 163
+    .line 165
     invoke-interface {p2}, Ljava/nio/file/Path;->normalize()Ljava/nio/file/Path;
 
     move-result-object p2
 
-    .line 164
+    .line 166
     invoke-interface {p1}, Ljava/nio/file/Path;->normalize()Ljava/nio/file/Path;
 
     move-result-object p1
 
-    .line 165
+    .line 167
     invoke-interface {p2, p1}, Ljava/nio/file/Path;->relativize(Ljava/nio/file/Path;)Ljava/nio/file/Path;
 
     move-result-object v0
 
-    .line 167
+    .line 169
     invoke-interface {p2}, Ljava/nio/file/Path;->getNameCount()I
 
     move-result v1
@@ -133,7 +133,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 168
+    .line 170
     invoke-interface {p2, v3}, Ljava/nio/file/Path;->getName(I)Ljava/nio/file/Path;
 
     move-result-object v4
@@ -146,7 +146,7 @@
 
     if-eqz v4, :cond_1
 
-    .line 169
+    .line 171
     invoke-interface {p1, v3}, Ljava/nio/file/Path;->getName(I)Ljava/nio/file/Path;
 
     move-result-object v4
@@ -170,7 +170,7 @@
 
     throw p1
 
-    .line 172
+    .line 174
     :cond_1
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -188,13 +188,13 @@
 
     goto :goto_1
 
-    .line 175
+    .line 177
     :cond_2
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 177
+    .line 179
     invoke-interface {v0}, Ljava/nio/file/Path;->getFileSystem()Ljava/nio/file/FileSystem;
 
     move-result-object p2
@@ -217,7 +217,7 @@
 
     if-eqz p2, :cond_3
 
-    .line 178
+    .line 180
     invoke-interface {v0}, Ljava/nio/file/Path;->getFileSystem()Ljava/nio/file/FileSystem;
 
     move-result-object p2
@@ -252,7 +252,7 @@
     :goto_1
     const-string p2, "r"
 
-    .line 182
+    .line 184
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1

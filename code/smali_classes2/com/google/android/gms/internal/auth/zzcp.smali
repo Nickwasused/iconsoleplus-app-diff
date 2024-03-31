@@ -47,7 +47,7 @@
 
     if-nez v3, :cond_0
 
-    const-string/jumbo v3, "userdebug"
+    const-string v3, "userdebug"
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -65,7 +65,7 @@
 
     if-nez v1, :cond_2
 
-    const-string/jumbo v1, "test-keys"
+    const-string v1, "test-keys"
 
     invoke-virtual {v2, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 

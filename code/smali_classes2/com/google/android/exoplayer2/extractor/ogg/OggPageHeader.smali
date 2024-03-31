@@ -135,7 +135,7 @@
     :cond_1
     new-instance p1, Lcom/google/android/exoplayer2/ParserException;
 
-    const-string/jumbo p2, "unsupported bit stream revision"
+    const-string p2, "unsupported bit stream revision"
 
     invoke-direct {p1, p2}, Lcom/google/android/exoplayer2/ParserException;-><init>(Ljava/lang/String;)V
 

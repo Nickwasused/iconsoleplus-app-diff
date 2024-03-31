@@ -12,7 +12,9 @@
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Target;
-    value = {}
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE_USE:Ljava/lang/annotation/ElementType;
+    }
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -27,7 +29,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30

@@ -32,7 +32,7 @@
         "Ljava/util/ArrayList;",
         "Lcom/changyow/iconsole4th/activity/retrainer/EGravitySamplingData;",
         "Lkotlin/collections/ArrayList;",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {

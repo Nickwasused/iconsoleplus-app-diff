@@ -1,6 +1,6 @@
 .class public abstract Lkotlin/collections/FloatIterator;
 .super Ljava/lang/Object;
-.source "Iterators.kt"
+.source "PrimitiveIterators.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;

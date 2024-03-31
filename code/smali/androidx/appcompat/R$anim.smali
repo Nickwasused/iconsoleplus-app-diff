@@ -62,8 +62,6 @@
 
 .field public static final btn_radio_to_on_mtrl_ring_outer_path_animation:I = 0x7f01001c
 
-.field public static final fragment_fast_out_extra_slow_in:I = 0x7f010022
-
 
 # direct methods
 .method private constructor <init>()V

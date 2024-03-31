@@ -163,7 +163,7 @@
 
     iput-object p2, p0, Lcom/google/android/exoplayer2/video/spherical/SphericalGLSurfaceView;->touchTracker:Lcom/google/android/exoplayer2/video/spherical/TouchTracker;
 
-    const-string/jumbo v1, "window"
+    const-string v1, "window"
 
     .line 120
     invoke-virtual {p1, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

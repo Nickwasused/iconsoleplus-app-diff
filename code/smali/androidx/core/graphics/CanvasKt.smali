@@ -44,7 +44,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -103,10 +103,8 @@
     :catchall_0
     move-exception p2
 
-    .line 201
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 200
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -165,10 +163,8 @@
     :catchall_0
     move-exception p2
 
-    .line 181
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 180
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -231,10 +227,8 @@
     :catchall_0
     move-exception p2
 
-    .line 218
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 217
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -297,10 +291,8 @@
     :catchall_0
     move-exception p2
 
-    .line 144
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 143
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -363,10 +355,8 @@
     :catchall_0
     move-exception p2
 
-    .line 161
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 160
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -429,10 +419,8 @@
     :catchall_0
     move-exception p2
 
-    .line 127
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 126
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -494,10 +482,8 @@
     :catchall_0
     move-exception p1
 
-    .line 127
     invoke-static {p4}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 126
     invoke-virtual {p0, p3}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p4}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -556,10 +542,8 @@
     :catchall_0
     move-exception p2
 
-    .line 72
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 71
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -630,10 +614,8 @@
     :catchall_0
     move-exception p2
 
-    .line 72
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 71
     invoke-virtual {p0, p5}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -688,10 +670,8 @@
     :catchall_0
     move-exception p1
 
-    .line 35
     invoke-static {v1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 34
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {v1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -750,10 +730,8 @@
     :catchall_0
     move-exception p2
 
-    .line 92
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 91
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -833,10 +811,8 @@
     :catchall_0
     move-exception p2
 
-    .line 92
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 91
     invoke-virtual {p0, p6}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -895,10 +871,8 @@
     :catchall_0
     move-exception p2
 
-    .line 110
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 109
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -962,10 +936,8 @@
     :catchall_0
     move-exception p2
 
-    .line 110
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 109
     invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -1024,10 +996,8 @@
     :catchall_0
     move-exception p2
 
-    .line 53
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 52
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -1091,10 +1061,8 @@
     :catchall_0
     move-exception p2
 
-    .line 53
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 52
     invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V

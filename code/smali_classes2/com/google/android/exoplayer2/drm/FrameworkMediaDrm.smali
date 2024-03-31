@@ -468,7 +468,7 @@
 
     if-eqz p0, :cond_1
 
-    const-string/jumbo p0, "video/mp4"
+    const-string p0, "video/mp4"
 
     .line 408
     invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

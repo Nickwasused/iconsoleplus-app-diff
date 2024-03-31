@@ -346,7 +346,7 @@
     .line 207
     iput-object p6, p0, Lcom/facebook/internal/WebDialog;->onCompleteListener:Lcom/facebook/internal/WebDialog$OnCompleteListener;
 
-    const-string/jumbo p1, "share"
+    const-string p1, "share"
 
     .line 209
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z

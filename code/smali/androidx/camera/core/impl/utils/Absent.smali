@@ -194,7 +194,7 @@
 
     move-result-object p1
 
-    const-string v0, "use Optional.orNull() instead of a Supplier that returns null"
+    const-string/jumbo v0, "use Optional.orNull() instead of a Supplier that returns null"
 
     .line 63
     invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -221,7 +221,7 @@
         }
     .end annotation
 
-    const-string v0, "use Optional.orNull() instead of Optional.or(null)"
+    const-string/jumbo v0, "use Optional.orNull() instead of Optional.or(null)"
 
     .line 51
     invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

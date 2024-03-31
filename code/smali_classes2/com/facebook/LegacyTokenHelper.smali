@@ -407,7 +407,7 @@
     goto/16 :goto_a
 
     :cond_5
-    const-string/jumbo v2, "short"
+    const-string v2, "short"
 
     .line 245
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -428,7 +428,7 @@
     goto/16 :goto_a
 
     :cond_6
-    const-string/jumbo v2, "short[]"
+    const-string v2, "short[]"
 
     .line 247
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1335,7 +1335,7 @@
 
     invoke-virtual {v1, v3, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    const-string/jumbo p2, "short"
+    const-string p2, "short"
 
     goto :goto_0
 
@@ -1561,7 +1561,7 @@
     goto :goto_2
 
     :cond_c
-    const-string/jumbo v0, "short[]"
+    const-string v0, "short[]"
 
     goto/16 :goto_b
 

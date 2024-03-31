@@ -60,9 +60,7 @@
     .end annotation
 
     .line 21
-    invoke-virtual {p0}, Lkotlinx/coroutines/flow/internal/AbortFlowException;->getOwner()Lkotlinx/coroutines/flow/FlowCollector;
-
-    move-result-object v0
+    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/AbortFlowException;->owner:Lkotlinx/coroutines/flow/FlowCollector;
 
     if-ne v0, p1, :cond_0
 

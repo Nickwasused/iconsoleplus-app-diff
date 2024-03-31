@@ -68,59 +68,59 @@
 
 .field public static final abc_toolbar_collapse_description:I = 0x7f12001a
 
-.field public static final mr_button_content_description:I = 0x7f12018c
+.field public static final mr_button_content_description:I = 0x7f120192
 
-.field public static final mr_cast_button_connected:I = 0x7f12018d
+.field public static final mr_cast_button_connected:I = 0x7f120193
 
-.field public static final mr_cast_button_connecting:I = 0x7f12018e
+.field public static final mr_cast_button_connecting:I = 0x7f120194
 
-.field public static final mr_cast_button_disconnected:I = 0x7f12018f
+.field public static final mr_cast_button_disconnected:I = 0x7f120195
 
-.field public static final mr_cast_dialog_title_view_placeholder:I = 0x7f120190
+.field public static final mr_cast_dialog_title_view_placeholder:I = 0x7f120196
 
-.field public static final mr_chooser_searching:I = 0x7f120191
+.field public static final mr_chooser_searching:I = 0x7f120197
 
-.field public static final mr_chooser_title:I = 0x7f120192
+.field public static final mr_chooser_title:I = 0x7f120198
 
-.field public static final mr_controller_album_art:I = 0x7f120193
+.field public static final mr_controller_album_art:I = 0x7f120199
 
-.field public static final mr_controller_casting_screen:I = 0x7f120194
+.field public static final mr_controller_casting_screen:I = 0x7f12019a
 
-.field public static final mr_controller_close_description:I = 0x7f120195
+.field public static final mr_controller_close_description:I = 0x7f12019b
 
-.field public static final mr_controller_collapse_group:I = 0x7f120196
+.field public static final mr_controller_collapse_group:I = 0x7f12019c
 
-.field public static final mr_controller_disconnect:I = 0x7f120197
+.field public static final mr_controller_disconnect:I = 0x7f12019d
 
-.field public static final mr_controller_expand_group:I = 0x7f120198
+.field public static final mr_controller_expand_group:I = 0x7f12019e
 
-.field public static final mr_controller_no_info_available:I = 0x7f120199
+.field public static final mr_controller_no_info_available:I = 0x7f12019f
 
-.field public static final mr_controller_no_media_selected:I = 0x7f12019a
+.field public static final mr_controller_no_media_selected:I = 0x7f1201a0
 
-.field public static final mr_controller_pause:I = 0x7f12019b
+.field public static final mr_controller_pause:I = 0x7f1201a1
 
-.field public static final mr_controller_play:I = 0x7f12019c
+.field public static final mr_controller_play:I = 0x7f1201a2
 
-.field public static final mr_controller_stop:I = 0x7f12019d
+.field public static final mr_controller_stop:I = 0x7f1201a3
 
-.field public static final mr_controller_stop_casting:I = 0x7f12019e
+.field public static final mr_controller_stop_casting:I = 0x7f1201a4
 
-.field public static final mr_controller_volume_slider:I = 0x7f12019f
+.field public static final mr_controller_volume_slider:I = 0x7f1201a5
 
-.field public static final mr_dialog_default_group_name:I = 0x7f1201a0
+.field public static final mr_dialog_default_group_name:I = 0x7f1201a6
 
-.field public static final mr_dialog_groupable_header:I = 0x7f1201a1
+.field public static final mr_dialog_groupable_header:I = 0x7f1201a7
 
-.field public static final mr_dialog_transferable_header:I = 0x7f1201a2
+.field public static final mr_dialog_transferable_header:I = 0x7f1201a8
 
-.field public static final mr_system_route_name:I = 0x7f1201a3
+.field public static final mr_system_route_name:I = 0x7f1201a9
 
-.field public static final mr_user_route_category_name:I = 0x7f1201a4
+.field public static final mr_user_route_category_name:I = 0x7f1201aa
 
-.field public static final search_menu_title:I = 0x7f12021a
+.field public static final search_menu_title:I = 0x7f120222
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
+.field public static final status_bar_notification_info_overflow:I = 0x7f120237
 
 
 # direct methods

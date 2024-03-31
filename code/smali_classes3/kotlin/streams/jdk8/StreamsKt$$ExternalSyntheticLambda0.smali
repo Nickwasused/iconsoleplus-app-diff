@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lkotlin/streams/jdk8/StreamsKt$$ExternalSyntheticLambda0;->f$0:Lkotlin/sequences/Sequence;
 
-    invoke-static {v0}, Lkotlin/streams/jdk8/StreamsKt;->$r8$lambda$bdU4-xB_0bnfvMo-xyX7v8aTfMQ(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
+    invoke-static {v0}, Lkotlin/streams/jdk8/StreamsKt;->$r8$lambda$D6rJ2g9z2pCQAEMFkqgtKPOz0JA(Lkotlin/sequences/Sequence;)Ljava/util/Spliterator;
 
     move-result-object v0
 

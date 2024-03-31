@@ -42,7 +42,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -73,7 +73,7 @@
 
     iput-object p1, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
-    .line 52
+    .line 54
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -89,7 +89,7 @@
         }
     .end annotation
 
-    .line 52
+    .line 54
     invoke-static {p0, p1}, Lkotlin/ranges/ClosedRange$DefaultImpls;->contains(Lkotlin/ranges/ClosedRange;Ljava/lang/Comparable;)Z
 
     move-result p1
@@ -105,7 +105,7 @@
         }
     .end annotation
 
-    .line 53
+    .line 55
     iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
     invoke-virtual {v0}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
@@ -123,7 +123,7 @@
         }
     .end annotation
 
-    .line 54
+    .line 56
     iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
     invoke-virtual {v0}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
@@ -136,7 +136,7 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 52
+    .line 54
     invoke-static {p0}, Lkotlin/ranges/ClosedRange$DefaultImpls;->isEmpty(Lkotlin/ranges/ClosedRange;)Z
 
     move-result v0

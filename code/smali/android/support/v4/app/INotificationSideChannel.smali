@@ -9,10 +9,15 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/app/INotificationSideChannel$_Parcel;,
         Landroid/support/v4/app/INotificationSideChannel$Stub;,
         Landroid/support/v4/app/INotificationSideChannel$Default;
     }
 .end annotation
+
+
+# static fields
+.field public static final DESCRIPTOR:Ljava/lang/String; = "android.support.v4.app.INotificationSideChannel"
 
 
 # virtual methods

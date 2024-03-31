@@ -14,17 +14,17 @@
 
 
 # static fields
-.field public static final bottom:I = 0x7f0a0075
+.field public static final bottom:I = 0x7f0a0073
 
-.field public static final lay_down:I = 0x7f0a0245
+.field public static final lay_down:I = 0x7f0a023f
 
-.field public static final left:I = 0x7f0a02ab
+.field public static final left:I = 0x7f0a02a5
 
-.field public static final pull_out:I = 0x7f0a039d
+.field public static final pull_out:I = 0x7f0a0397
 
-.field public static final right:I = 0x7f0a03b3
+.field public static final right:I = 0x7f0a03ad
 
-.field public static final top:I = 0x7f0a0486
+.field public static final top:I = 0x7f0a047d
 
 
 # direct methods

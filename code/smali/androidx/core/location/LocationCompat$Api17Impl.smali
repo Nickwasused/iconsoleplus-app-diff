@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 449
+    .line 501
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static getElapsedRealtimeNanos(Landroid/location/Location;)J
     .locals 2
 
-    .line 453
+    .line 505
     invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeNanos()J
 
     move-result-wide v0

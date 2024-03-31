@@ -501,7 +501,7 @@
 
     sget-object v0, Landroid/os/Build;->TYPE:Ljava/lang/String;
 
-    const-string/jumbo v1, "user"
+    const-string v1, "user"
 
     .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

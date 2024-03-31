@@ -97,7 +97,7 @@
 .method public dispatchYield(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 131
+    .line 150
     invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/CoroutineDispatcher;->dispatch(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
     return-void
@@ -137,7 +137,7 @@
         }
     .end annotation
 
-    .line 140
+    .line 159
     new-instance v0, Lkotlinx/coroutines/internal/DispatchedContinuation;
 
     invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/internal/DispatchedContinuation;-><init>(Lkotlinx/coroutines/CoroutineDispatcher;Lkotlin/coroutines/Continuation;)V
@@ -158,10 +158,10 @@
 .method public limitedParallelism(I)Lkotlinx/coroutines/CoroutineDispatcher;
     .locals 1
 
-    .line 100
+    .line 106
     invoke-static {p1}, Lkotlinx/coroutines/internal/LimitedDispatcherKt;->checkParallelism(I)V
 
-    .line 101
+    .line 107
     new-instance v0, Lkotlinx/coroutines/internal/LimitedDispatcher;
 
     invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/internal/LimitedDispatcher;-><init>(Lkotlinx/coroutines/CoroutineDispatcher;I)V
@@ -210,10 +210,10 @@
         }
     .end annotation
 
-    .line 147
+    .line 166
     check-cast p1, Lkotlinx/coroutines/internal/DispatchedContinuation;
 
-    .line 148
+    .line 167
     invoke-virtual {p1}, Lkotlinx/coroutines/internal/DispatchedContinuation;->release()V
 
     return-void
@@ -222,7 +222,7 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 166
+    .line 185
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

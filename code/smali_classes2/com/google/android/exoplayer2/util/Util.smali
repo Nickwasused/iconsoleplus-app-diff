@@ -208,7 +208,7 @@
 
     const-string v1, "alb"
 
-    const-string/jumbo v2, "sq"
+    const-string v2, "sq"
 
     const-string v3, "arm"
 
@@ -222,7 +222,7 @@
 
     const-string v8, "my"
 
-    const-string/jumbo v9, "tib"
+    const-string v9, "tib"
 
     const-string v10, "bo"
 
@@ -282,11 +282,11 @@
 
     const-string v38, "hbs-srp"
 
-    const-string/jumbo v39, "slo"
+    const-string v39, "slo"
 
-    const-string/jumbo v40, "sk"
+    const-string v40, "sk"
 
-    const-string/jumbo v41, "wel"
+    const-string v41, "wel"
 
     const-string v42, "cy"
 
@@ -330,11 +330,11 @@
 
     const-string v62, "no-nno"
 
-    const-string/jumbo v63, "tw"
+    const-string v63, "tw"
 
     const-string v64, "ak-twi"
 
-    const-string/jumbo v65, "twi"
+    const-string v65, "twi"
 
     const-string v66, "ak-twi"
 
@@ -354,11 +354,11 @@
 
     const-string v74, "hbs-hrv"
 
-    const-string/jumbo v75, "sr"
+    const-string v75, "sr"
 
     const-string v76, "hbs-srp"
 
-    const-string/jumbo v77, "srp"
+    const-string v77, "srp"
 
     const-string v78, "hbs-srp"
 
@@ -447,6 +447,8 @@
     sput-object v0, Lcom/google/android/exoplayer2/util/Util;->CRC8_BYTES_MSBF:[I
 
     return-void
+
+    nop
 
     :array_0
     .array-data 4
@@ -2791,7 +2793,7 @@
     :goto_0
     if-nez v0, :cond_1
 
-    const-string/jumbo v0, "window"
+    const-string v0, "window"
 
     .line 2257
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -2893,7 +2895,7 @@
 
     if-ge v0, p0, :cond_1
 
-    const-string/jumbo p0, "sys.display-size"
+    const-string p0, "sys.display-size"
 
     .line 2295
     invoke-static {p0}, Lcom/google/android/exoplayer2/util/Util;->getSystemProperty(Ljava/lang/String;)Ljava/lang/String;
@@ -2903,7 +2905,7 @@
     goto :goto_0
 
     :cond_1
-    const-string/jumbo p0, "vendor.display-size"
+    const-string p0, "vendor.display-size"
 
     .line 2296
     invoke-static {p0}, Lcom/google/android/exoplayer2/util/Util;->getSystemProperty(Ljava/lang/String;)Ljava/lang/String;
@@ -3199,7 +3201,7 @@
     goto :goto_0
 
     :sswitch_1
-    const-string/jumbo v1, "widevine"
+    const-string v1, "widevine"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3263,6 +3265,8 @@
     sget-object p0, Lcom/google/android/exoplayer2/C;->PLAYREADY_UUID:Ljava/util/UUID;
 
     return-object p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -4035,12 +4039,12 @@
     return-object p0
 
     :cond_4
-    const-string/jumbo p0, "text"
+    const-string p0, "text"
 
     return-object p0
 
     :cond_5
-    const-string/jumbo p0, "video"
+    const-string p0, "video"
 
     return-object p0
 
@@ -4911,7 +4915,7 @@
 
     move-result-object p0
 
-    const-string/jumbo v0, "uimode"
+    const-string v0, "uimode"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -5382,7 +5386,7 @@
 
     if-nez v1, :cond_2
 
-    const-string/jumbo v1, "und"
+    const-string v1, "und"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -6987,9 +6991,9 @@
 
     aput-object p1, v1, v2
 
-    const-string/jumbo p1, "sqlite_master"
+    const-string p1, "sqlite_master"
 
-    const-string/jumbo v3, "tbl_name = ?"
+    const-string v3, "tbl_name = ?"
 
     .line 2387
     invoke-static {p0, p1, v3, v1}, Landroid/database/DatabaseUtils;->queryNumEntries(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)J

@@ -7,6 +7,12 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkotlinx/parcelize/TypeParceler$Container;
+    }
+.end annotation
+
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -17,6 +23,10 @@
         "Ljava/lang/Object;",
         "Ljava/lang/annotation/Annotation;"
     }
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Repeatable;
+    value = Lkotlinx/parcelize/TypeParceler$Container;
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Retention;
@@ -44,7 +54,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30

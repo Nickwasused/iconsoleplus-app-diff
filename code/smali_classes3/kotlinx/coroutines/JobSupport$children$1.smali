@@ -34,7 +34,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nJobSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/JobSupport$children$1\n+ 2 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListHead\n*L\n1#1,1478:1\n645#2,6:1479\n*S KotlinDebug\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/JobSupport$children$1\n*L\n954#1:1479,6\n*E\n"
+    value = "SMAP\nJobSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/JobSupport$children$1\n+ 2 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListHead\n*L\n1#1,1479:1\n645#2,6:1480\n*S KotlinDebug\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/JobSupport$children$1\n*L\n954#1:1480,6\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -300,7 +300,7 @@
     .line 954
     check-cast v1, Lkotlinx/coroutines/internal/LockFreeLinkedListHead;
 
-    .line 1479
+    .line 1480
     invoke-virtual {v1}, Lkotlinx/coroutines/internal/LockFreeLinkedListHead;->getNext()Ljava/lang/Object;
 
     move-result-object v3
@@ -317,7 +317,7 @@
 
     move-object v1, v6
 
-    .line 1480
+    .line 1481
     :goto_0
     invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -325,7 +325,7 @@
 
     if-nez v5, :cond_5
 
-    .line 1481
+    .line 1482
     instance-of v5, v1, Lkotlinx/coroutines/ChildHandleNode;
 
     if-eqz v5, :cond_4
@@ -353,7 +353,7 @@
 
     return-object v0
 
-    .line 1482
+    .line 1483
     :cond_4
     :goto_1
     invoke-virtual {v1}, Lkotlinx/coroutines/internal/LockFreeLinkedListNode;->getNextNode()Lkotlinx/coroutines/internal/LockFreeLinkedListNode;

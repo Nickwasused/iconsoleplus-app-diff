@@ -127,7 +127,7 @@
 
     const-string v0, "00001000"
 
-    const-string v1, "this as java.lang.String\u2026ing(startIndex, endIndex)"
+    const-string/jumbo v1, "this as java.lang.String\u2026ing(startIndex, endIndex)"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -205,7 +205,7 @@
 
     move-result-object v4
 
-    const-string v5, "this as java.lang.String).toUpperCase(Locale.ROOT)"
+    const-string/jumbo v5, "this as java.lang.String).toUpperCase(Locale.ROOT)"
 
     invoke-static {v4, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -355,7 +355,7 @@
 .method private static final initialize$lambda-1$lambda-0(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -376,7 +376,7 @@
 .method private static final initialize$lambda-11$lambda-10(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -397,7 +397,7 @@
 .method private static final initialize$lambda-3$lambda-2(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -418,7 +418,7 @@
 .method private static final initialize$lambda-5$lambda-4(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -439,7 +439,7 @@
 .method private static final initialize$lambda-7$lambda-6(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -460,7 +460,7 @@
 .method private static final initialize$lambda-9$lambda-8(Lchangyow/ble4th/retrainer/BenchBleManager;Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

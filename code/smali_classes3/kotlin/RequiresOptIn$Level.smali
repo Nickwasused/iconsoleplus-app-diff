@@ -77,7 +77,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 42
+    .line 39
     new-instance v0, Lkotlin/RequiresOptIn$Level;
 
     const-string v1, "WARNING"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lkotlin/RequiresOptIn$Level;->WARNING:Lkotlin/RequiresOptIn$Level;
 
-    .line 45
+    .line 42
     new-instance v0, Lkotlin/RequiresOptIn$Level;
 
     const-string v1, "ERROR"
@@ -116,7 +116,7 @@
         }
     .end annotation
 
-    .line 40
+    .line 37
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

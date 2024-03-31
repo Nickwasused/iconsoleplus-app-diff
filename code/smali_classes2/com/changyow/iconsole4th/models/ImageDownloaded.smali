@@ -24,7 +24,7 @@
         "LaunchScreen",
         "MainMyTraining",
         "MainGetStarted",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -86,7 +86,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 201
+    .line 202
     new-instance v0, Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
     const-string v1, "LOGO"
@@ -144,7 +144,7 @@
         }
     .end annotation
 
-    .line 200
+    .line 201
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

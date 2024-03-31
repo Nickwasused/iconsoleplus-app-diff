@@ -22,7 +22,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -65,8 +65,6 @@
 
     aget-object v3, p0, v2
 
-    add-int/lit8 v2, v2, 0x1
-
     invoke-virtual {v3}, Lkotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v4
@@ -82,7 +80,7 @@
     .line 31
     invoke-virtual {v0, v4}, Landroid/content/ContentValues;->putNull(Ljava/lang/String;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 32
     :cond_0
@@ -94,7 +92,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 33
     :cond_1
@@ -106,7 +104,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 34
     :cond_2
@@ -118,7 +116,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 35
     :cond_3
@@ -130,7 +128,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 36
     :cond_4
@@ -142,7 +140,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Float;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 37
     :cond_5
@@ -154,7 +152,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Double;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 38
     :cond_6
@@ -166,7 +164,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;[B)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 39
     :cond_7
@@ -178,7 +176,7 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Byte;)V
 
-    goto :goto_0
+    goto :goto_1
 
     .line 40
     :cond_8
@@ -189,6 +187,9 @@
     check-cast v3, Ljava/lang/Short;
 
     invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Short;)V
+
+    :goto_1
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
@@ -213,7 +214,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p0, " for key \""
 

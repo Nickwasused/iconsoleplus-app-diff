@@ -73,9 +73,7 @@
     <string name="common_signin_button_text">साइन इन करें</string>
     <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
     <string name="copy">कॉपी करें</string>
-    <string name="crop_image_activity_no_permissions">रद्द करना, आवश्यक अनुमतियां नहीं दी गई हैं</string>
-    <string name="crop_image_activity_title" />
-    <string name="crop_image_menu_crop">फ़सल</string>
+    <string name="crop_image_menu_crop">काटे</string>
     <string name="error_icon_content_description">गड़बड़ी</string>
     <string name="exo_controls_cc_disabled_description">सबटाइटल चालू करें</string>
     <string name="exo_controls_cc_enabled_description">सबटाइटल बंद करें</string>
@@ -213,7 +211,7 @@
     <string name="nav_app_bar_open_drawer_description">नेविगेशन पैनल खोलें</string>
     <string name="not_set">सेट नहीं है</string>
     <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
-    <string name="pick_image_intent_chooser_title">सोर्स चुनें</string>
+    <string name="pick_image_chooser_title">सोर्स चुनें</string>
     <string name="preference_copied">\"%1$s\" क्लिपबोर्ड पर कॉपी किया गया.</string>
     <string name="search_menu_title">खोजें</string>
     <string name="status_bar_notification_info_overflow">999+</string>

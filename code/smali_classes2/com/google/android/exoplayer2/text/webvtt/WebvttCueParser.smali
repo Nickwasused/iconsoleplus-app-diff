@@ -134,7 +134,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "white"
+    const-string v3, "white"
 
     invoke-interface {v0, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -867,7 +867,7 @@
     goto :goto_0
 
     :sswitch_2
-    const-string/jumbo v3, "v"
+    const-string v3, "v"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -883,7 +883,7 @@
     goto :goto_0
 
     :sswitch_3
-    const-string/jumbo v3, "u"
+    const-string v3, "u"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1573,7 +1573,7 @@
     goto :goto_0
 
     :sswitch_3
-    const-string/jumbo v0, "v"
+    const-string v0, "v"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1589,7 +1589,7 @@
     goto :goto_0
 
     :sswitch_4
-    const-string/jumbo v0, "u"
+    const-string v0, "u"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2088,7 +2088,7 @@
     goto :goto_0
 
     :cond_2
-    const-string/jumbo v3, "size"
+    const-string v3, "size"
 
     .line 376
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2107,7 +2107,7 @@
     goto :goto_0
 
     :cond_3
-    const-string/jumbo v3, "vertical"
+    const-string v3, "vertical"
 
     .line 378
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2589,7 +2589,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string/jumbo v0, "start"
+    const-string v0, "start"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2694,8 +2694,6 @@
 
     :pswitch_2
     return v2
-
-    nop
 
     :sswitch_data_0
     .sparse-switch
@@ -2812,7 +2810,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string/jumbo v0, "start"
+    const-string v0, "start"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2950,8 +2948,6 @@
     :pswitch_2
     return v3
 
-    nop
-
     :sswitch_data_0
     .sparse-switch
         -0x6dd215c0 -> :sswitch_5
@@ -3045,7 +3041,7 @@
     goto :goto_0
 
     :sswitch_0
-    const-string/jumbo v0, "start"
+    const-string v0, "start"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3186,8 +3182,6 @@
 
     :pswitch_4
     return v5
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

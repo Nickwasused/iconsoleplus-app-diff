@@ -5,15 +5,10 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nWithLifecycleState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WithLifecycleState.kt\nandroidx/lifecycle/WithLifecycleStateKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n*L\n1#1,206:1\n154#1,8:207\n154#1,8:215\n154#1,8:223\n154#1,8:231\n43#1,5:239\n154#1,8:244\n154#1,8:252\n154#1,8:260\n154#1,8:268\n308#2,11:276\n*E\n*S KotlinDebug\n*F\n+ 1 WithLifecycleState.kt\nandroidx/lifecycle/WithLifecycleStateKt\n*L\n47#1,8:207\n58#1,8:215\n71#1,8:223\n84#1,8:231\n98#1,5:239\n98#1,8:244\n111#1,8:252\n124#1,8:260\n137#1,8:268\n177#1,11:276\n*E\n"
+    value = "SMAP\nWithLifecycleState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WithLifecycleState.kt\nandroidx/lifecycle/WithLifecycleStateKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n*L\n1#1,206:1\n154#1,8:207\n154#1,8:215\n154#1,8:223\n154#1,8:231\n43#1,5:239\n154#1,8:244\n43#1,5:252\n154#1,8:257\n154#1,8:265\n154#1,8:273\n154#1,8:281\n314#2,11:289\n*S KotlinDebug\n*F\n+ 1 WithLifecycleState.kt\nandroidx/lifecycle/WithLifecycleStateKt\n*L\n47#1:207,8\n58#1:215,8\n71#1:223,8\n84#1:231,8\n98#1:239,5\n98#1:244,8\n98#1:252,5\n98#1:257,8\n111#1:265,8\n124#1:273,8\n137#1:281,8\n177#1:289,11\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
     d1 = {
         "\u0000,\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u001aA\u0010\u0000\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\u00082\u000c\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0081@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u000b\u001a+\u0010\u000c\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\r\u001a+\u0010\u000c\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u000e2\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u000f\u001a+\u0010\u0010\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\r\u001a+\u0010\u0010\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u000e2\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u000f\u001a+\u0010\u0011\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\r\u001a+\u0010\u0011\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u000e2\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u000f\u001a3\u0010\u0012\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u00042\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0013\u001a3\u0010\u0012\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u000e2\u0006\u0010\u0003\u001a\u00020\u00042\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0014\u001a3\u0010\u0015\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u0001*\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u00042\u000e\u0008\u0004\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00010\nH\u0081H\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0013\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0016"
     }
@@ -45,15 +40,16 @@
     k = 0x2
     mv = {
         0x1,
-        0x4,
-        0x1
+        0x6,
+        0x0
     }
+    xi = 0x30
 .end annotation
 
 
 # direct methods
 .method public static final suspendWithStateAtLeastUnchecked(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;ZLkotlinx/coroutines/CoroutineDispatcher;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
-    .locals 12
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
@@ -71,10 +67,10 @@
         }
     .end annotation
 
-    .line 277
+    .line 290
     new-instance v0, Lkotlinx/coroutines/CancellableContinuationImpl;
 
-    invoke-static/range {p5 .. p5}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->intercepted(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    invoke-static {p5}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->intercepted(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
 
     move-result-object v1
 
@@ -82,120 +78,71 @@
 
     invoke-direct {v0, v1, v2}, Lkotlinx/coroutines/CancellableContinuationImpl;-><init>(Lkotlin/coroutines/Continuation;I)V
 
-    .line 283
+    .line 296
     invoke-virtual {v0}, Lkotlinx/coroutines/CancellableContinuationImpl;->initCancellability()V
 
-    .line 284
+    .line 297
     move-object v1, v0
 
     check-cast v1, Lkotlinx/coroutines/CancellableContinuation;
 
     .line 178
-    new-instance v10, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$1;
+    new-instance v2, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;
 
-    move-object v3, v10
-
-    move-object v4, v1
-
-    move-object v5, p0
-
-    move-object v6, p1
-
-    move-object/from16 v7, p4
-
-    move v8, p2
-
-    move-object v9, p3
-
-    invoke-direct/range {v3 .. v9}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$1;-><init>(Lkotlinx/coroutines/CancellableContinuation;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;ZLkotlinx/coroutines/CoroutineDispatcher;)V
+    invoke-direct {v2, p1, p0, v1, p4}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;-><init>(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle;Lkotlinx/coroutines/CancellableContinuation;Lkotlin/jvm/functions/Function0;)V
 
     if-eqz p2, :cond_0
 
     .line 192
-    sget-object v2, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
+    sget-object p1, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
 
-    move-object v9, v2
-
-    check-cast v9, Lkotlin/coroutines/CoroutineContext;
-
-    .line 193
-    new-instance v11, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$2;
-
-    move-object v2, v11
-
-    move-object v3, v10
-
-    move-object v4, p0
-
-    move-object v5, p1
-
-    move-object/from16 v6, p4
-
-    move v7, p2
-
-    move-object v8, p3
-
-    invoke-direct/range {v2 .. v8}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$2;-><init>(Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$1;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;ZLkotlinx/coroutines/CoroutineDispatcher;)V
-
-    check-cast v11, Ljava/lang/Runnable;
+    check-cast p1, Lkotlin/coroutines/CoroutineContext;
 
     .line 191
-    invoke-virtual {p3, v9, v11}, Lkotlinx/coroutines/CoroutineDispatcher;->dispatch(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
+    new-instance p2, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$1;
+
+    invoke-direct {p2, p0, v2}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;)V
+
+    check-cast p2, Ljava/lang/Runnable;
+
+    invoke-virtual {p3, p1, p2}, Lkotlinx/coroutines/CoroutineDispatcher;->dispatch(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
     goto :goto_0
 
-    :cond_0
-    move-object v8, p3
-
     .line 195
-    move-object v2, v10
+    :cond_0
+    move-object p1, v2
 
-    check-cast v2, Landroidx/lifecycle/LifecycleObserver;
+    check-cast p1, Landroidx/lifecycle/LifecycleObserver;
 
-    move-object v4, p0
-
-    invoke-virtual {p0, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 197
     :goto_0
-    new-instance v9, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$3;
+    new-instance p1, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$2;
 
-    move-object v2, v9
+    invoke-direct {p1, p3, p0, v2}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$2;-><init>(Lkotlinx/coroutines/CoroutineDispatcher;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;)V
 
-    move-object v3, v10
+    check-cast p1, Lkotlin/jvm/functions/Function1;
 
-    move-object v4, p0
+    invoke-interface {v1, p1}, Lkotlinx/coroutines/CancellableContinuation;->invokeOnCancellation(Lkotlin/jvm/functions/Function1;)V
 
-    move-object v5, p1
-
-    move-object/from16 v6, p4
-
-    move v7, p2
-
-    move-object v8, p3
-
-    invoke-direct/range {v2 .. v8}, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$3;-><init>(Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$1;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;ZLkotlinx/coroutines/CoroutineDispatcher;)V
-
-    check-cast v9, Lkotlin/jvm/functions/Function1;
-
-    invoke-interface {v1, v9}, Lkotlinx/coroutines/CancellableContinuation;->invokeOnCancellation(Lkotlin/jvm/functions/Function1;)V
-
-    .line 285
+    .line 298
     invoke-virtual {v0}, Lkotlinx/coroutines/CancellableContinuationImpl;->getResult()Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object p0
 
-    .line 276
+    .line 289
     invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
 
-    move-result-object v1
+    move-result-object p1
 
-    if-ne v0, v1, :cond_1
+    if-ne p0, p1, :cond_1
 
-    invoke-static/range {p5 .. p5}, Lkotlin/coroutines/jvm/internal/DebugProbesKt;->probeCoroutineSuspended(Lkotlin/coroutines/Continuation;)V
+    invoke-static {p5}, Lkotlin/coroutines/jvm/internal/DebugProbesKt;->probeCoroutineSuspended(Lkotlin/coroutines/Continuation;)V
 
     :cond_1
-    return-object v0
+    return-object p0
 .end method
 
 .method public static final withCreated(Landroidx/lifecycle/Lifecycle;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
@@ -273,8 +220,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 222
@@ -331,7 +276,7 @@
     .line 112
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 252
+    .line 265
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -340,7 +285,7 @@
 
     move-result-object p0
 
-    .line 253
+    .line 266
     invoke-interface {p2}, Lkotlin/coroutines/Continuation;->getContext()Lkotlin/coroutines/CoroutineContext;
 
     move-result-object v2
@@ -351,7 +296,7 @@
 
     if-nez v2, :cond_1
 
-    .line 255
+    .line 268
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -360,7 +305,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 256
+    .line 269
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -381,17 +326,15 @@
 
     goto :goto_0
 
-    .line 255
+    .line 268
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 259
+    .line 272
     :cond_1
     move-object v3, p0
 
@@ -417,6 +360,19 @@
 
 .method private static final withCreated$$forInline(Landroidx/lifecycle/Lifecycle;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/Lifecycle;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 59
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
@@ -483,8 +439,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 222
@@ -523,6 +477,19 @@
 
 .method private static final withCreated$$forInline(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 111
     invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -536,7 +503,7 @@
     .line 112
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 252
+    .line 265
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -547,7 +514,7 @@
 
     const/4 v2, 0x3
 
-    .line 253
+    .line 266
     invoke-static {v2}, Lkotlin/jvm/internal/InlineMarker;->mark(I)V
 
     const/4 v2, 0x0
@@ -562,7 +529,7 @@
 
     if-nez v2, :cond_1
 
-    .line 255
+    .line 268
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -571,7 +538,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 256
+    .line 269
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -592,17 +559,15 @@
 
     goto :goto_0
 
-    .line 255
+    .line 268
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 259
+    .line 272
     :cond_1
     move-object v3, p0
 
@@ -709,8 +674,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 238
@@ -767,7 +730,7 @@
     .line 138
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 268
+    .line 281
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -776,7 +739,7 @@
 
     move-result-object p0
 
-    .line 269
+    .line 282
     invoke-interface {p2}, Lkotlin/coroutines/Continuation;->getContext()Lkotlin/coroutines/CoroutineContext;
 
     move-result-object v2
@@ -787,7 +750,7 @@
 
     if-nez v2, :cond_1
 
-    .line 271
+    .line 284
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -796,7 +759,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 272
+    .line 285
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -817,17 +780,15 @@
 
     goto :goto_0
 
-    .line 271
+    .line 284
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 275
+    .line 288
     :cond_1
     move-object v3, p0
 
@@ -853,6 +814,19 @@
 
 .method private static final withResumed$$forInline(Landroidx/lifecycle/Lifecycle;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/Lifecycle;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 85
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
@@ -919,8 +893,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 238
@@ -959,6 +931,19 @@
 
 .method private static final withResumed$$forInline(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 137
     invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -972,7 +957,7 @@
     .line 138
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 268
+    .line 281
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -983,7 +968,7 @@
 
     const/4 v2, 0x3
 
-    .line 269
+    .line 282
     invoke-static {v2}, Lkotlin/jvm/internal/InlineMarker;->mark(I)V
 
     const/4 v2, 0x0
@@ -998,7 +983,7 @@
 
     if-nez v2, :cond_1
 
-    .line 271
+    .line 284
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1007,7 +992,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 272
+    .line 285
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1028,17 +1013,15 @@
 
     goto :goto_0
 
-    .line 271
+    .line 284
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 275
+    .line 288
     :cond_1
     move-object v3, p0
 
@@ -1145,8 +1128,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 230
@@ -1203,7 +1184,7 @@
     .line 125
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 260
+    .line 273
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -1212,7 +1193,7 @@
 
     move-result-object p0
 
-    .line 261
+    .line 274
     invoke-interface {p2}, Lkotlin/coroutines/Continuation;->getContext()Lkotlin/coroutines/CoroutineContext;
 
     move-result-object v2
@@ -1223,7 +1204,7 @@
 
     if-nez v2, :cond_1
 
-    .line 263
+    .line 276
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1232,7 +1213,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 264
+    .line 277
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1253,17 +1234,15 @@
 
     goto :goto_0
 
-    .line 263
+    .line 276
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 267
+    .line 280
     :cond_1
     move-object v3, p0
 
@@ -1289,6 +1268,19 @@
 
 .method private static final withStarted$$forInline(Landroidx/lifecycle/Lifecycle;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/Lifecycle;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 72
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
@@ -1355,8 +1347,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 230
@@ -1395,6 +1385,19 @@
 
 .method private static final withStarted$$forInline(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 124
     invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -1408,7 +1411,7 @@
     .line 125
     sget-object v1, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 260
+    .line 273
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -1419,7 +1422,7 @@
 
     const/4 v2, 0x3
 
-    .line 261
+    .line 274
     invoke-static {v2}, Lkotlin/jvm/internal/InlineMarker;->mark(I)V
 
     const/4 v2, 0x0
@@ -1434,7 +1437,7 @@
 
     if-nez v2, :cond_1
 
-    .line 263
+    .line 276
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1443,7 +1446,7 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 264
+    .line 277
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -1464,17 +1467,15 @@
 
     goto :goto_0
 
-    .line 263
+    .line 276
     :cond_0
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 267
+    .line 280
     :cond_1
     move-object v3, p0
 
@@ -1600,8 +1601,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 214
@@ -1637,7 +1636,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1655,8 +1654,6 @@
     move-result-object p0
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    check-cast p1, Ljava/lang/Throwable;
 
     throw p1
 .end method
@@ -1764,8 +1761,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 251
@@ -1799,7 +1794,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1818,13 +1813,25 @@
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    check-cast p1, Ljava/lang/Throwable;
-
     throw p1
 .end method
 
 .method private static final withStateAtLeast$$forInline(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/Lifecycle;",
+            "Landroidx/lifecycle/Lifecycle$State;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 43
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
@@ -1913,8 +1920,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 214
@@ -1954,7 +1959,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1973,13 +1978,25 @@
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    check-cast p1, Ljava/lang/Throwable;
-
     throw p1
 .end method
 
 .method private static final withStateAtLeast$$forInline(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Landroidx/lifecycle/Lifecycle$State;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 98
     invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -1990,7 +2007,7 @@
 
     invoke-static {v0, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 239
+    .line 252
     sget-object p0, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
     check-cast p0, Ljava/lang/Enum;
@@ -2015,7 +2032,7 @@
     :goto_0
     if-eqz p0, :cond_3
 
-    .line 244
+    .line 257
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
 
     move-result-object p0
@@ -2026,7 +2043,7 @@
 
     const/4 v2, 0x3
 
-    .line 245
+    .line 258
     invoke-static {v2}, Lkotlin/jvm/internal/InlineMarker;->mark(I)V
 
     const/4 v2, 0x0
@@ -2041,7 +2058,7 @@
 
     if-nez v2, :cond_2
 
-    .line 247
+    .line 260
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -2050,7 +2067,7 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 248
+    .line 261
     invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     move-result-object v3
@@ -2071,17 +2088,15 @@
 
     goto :goto_1
 
-    .line 247
+    .line 260
     :cond_1
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
-    .line 251
+    .line 264
     :cond_2
     move-object v3, p0
 
@@ -2110,13 +2125,13 @@
     :goto_1
     return-object p0
 
-    .line 240
+    .line 253
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "target state must be CREATED or greater, found "
+    const-string/jumbo p2, "target state must be CREATED or greater, found "
 
     invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2126,7 +2141,7 @@
 
     move-result-object p0
 
-    .line 239
+    .line 252
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -2134,8 +2149,6 @@
     move-result-object p0
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    check-cast p1, Ljava/lang/Throwable;
 
     throw p1
 .end method
@@ -2213,8 +2226,6 @@
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
 
-    check-cast p0, Ljava/lang/Throwable;
-
     throw p0
 
     .line 161
@@ -2246,6 +2257,20 @@
 
 .method private static final withStateAtLeastUnchecked$$forInline(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
     .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/lifecycle/Lifecycle;",
+            "Landroidx/lifecycle/Lifecycle$State;",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TR;>;",
+            "Lkotlin/coroutines/Continuation<",
+            "-TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 154
     invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
@@ -2308,8 +2333,6 @@
     new-instance p0, Landroidx/lifecycle/LifecycleDestroyedException;
 
     invoke-direct {p0}, Landroidx/lifecycle/LifecycleDestroyedException;-><init>()V
-
-    check-cast p0, Ljava/lang/Throwable;
 
     throw p0
 

@@ -128,7 +128,7 @@
     goto :goto_1
 
     :sswitch_6
-    const-string v0, "transitionEasing"
+    const-string/jumbo v0, "transitionEasing"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -180,6 +180,8 @@
     const/16 p0, 0x1f5
 
     return p0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

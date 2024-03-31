@@ -38,15 +38,6 @@
 
 .method public launch(Ljava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TI;)V"
@@ -62,17 +53,6 @@
 .end method
 
 .method public abstract launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "options"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TI;",

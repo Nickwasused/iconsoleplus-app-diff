@@ -28,7 +28,7 @@
 .method public static insertOrUpdate(Lcom/changyow/iconsole4th/db/UserProfileDAO;Lcom/changyow/iconsole4th/db/UserProfile;)J
     .locals 4
 
-    const-string/jumbo v0, "userProfile"
+    const-string v0, "userProfile"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

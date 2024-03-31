@@ -20,7 +20,7 @@
     .line 1
     new-instance p0, Ljava/lang/IllegalStateException;
 
-    const-string/jumbo p1, "world-readable shared preferences should only be used by apk"
+    const-string p1, "world-readable shared preferences should only be used by apk"
 
     invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 

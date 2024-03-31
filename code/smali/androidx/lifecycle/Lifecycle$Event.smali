@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 133
+    .line 99
     new-instance v0, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v1, "ON_CREATE"
@@ -55,7 +55,7 @@
 
     sput-object v0, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 137
+    .line 103
     new-instance v1, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v3, "ON_START"
@@ -66,7 +66,7 @@
 
     sput-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 141
+    .line 107
     new-instance v3, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v5, "ON_RESUME"
@@ -77,7 +77,7 @@
 
     sput-object v3, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 145
+    .line 111
     new-instance v5, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v7, "ON_PAUSE"
@@ -88,7 +88,7 @@
 
     sput-object v5, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 149
+    .line 115
     new-instance v7, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v9, "ON_STOP"
@@ -99,7 +99,7 @@
 
     sput-object v7, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 153
+    .line 119
     new-instance v9, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v11, "ON_DESTROY"
@@ -110,7 +110,7 @@
 
     sput-object v9, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
-    .line 157
+    .line 123
     new-instance v11, Landroidx/lifecycle/Lifecycle$Event;
 
     const-string v13, "ON_ANY"
@@ -139,7 +139,7 @@
 
     aput-object v11, v13, v14
 
-    .line 128
+    .line 94
     sput-object v13, Landroidx/lifecycle/Lifecycle$Event;->$VALUES:[Landroidx/lifecycle/Lifecycle$Event;
 
     return-void
@@ -153,7 +153,7 @@
         }
     .end annotation
 
-    .line 129
+    .line 95
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -162,7 +162,7 @@
 .method public static downFrom(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 169
+    .line 135
     sget-object v0, Landroidx/lifecycle/Lifecycle$1;->$SwitchMap$androidx$lifecycle$Lifecycle$State:[I
 
     invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle$State;->ordinal()I
@@ -187,19 +187,19 @@
 
     return-object p0
 
-    .line 175
+    .line 141
     :cond_0
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 173
+    .line 139
     :cond_1
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 171
+    .line 137
     :cond_2
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
@@ -209,7 +209,7 @@
 .method public static downTo(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 191
+    .line 157
     sget-object v0, Landroidx/lifecycle/Lifecycle$1;->$SwitchMap$androidx$lifecycle$Lifecycle$State:[I
 
     invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle$State;->ordinal()I
@@ -234,19 +234,19 @@
 
     return-object p0
 
-    .line 193
+    .line 159
     :cond_0
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 197
+    .line 163
     :cond_1
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 195
+    .line 161
     :cond_2
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
@@ -256,7 +256,7 @@
 .method public static upFrom(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 213
+    .line 179
     sget-object v0, Landroidx/lifecycle/Lifecycle$1;->$SwitchMap$androidx$lifecycle$Lifecycle$State:[I
 
     invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle$State;->ordinal()I
@@ -281,19 +281,19 @@
 
     return-object p0
 
-    .line 215
+    .line 181
     :cond_0
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 219
+    .line 185
     :cond_1
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 217
+    .line 183
     :cond_2
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;
 
@@ -303,7 +303,7 @@
 .method public static upTo(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 235
+    .line 201
     sget-object v0, Landroidx/lifecycle/Lifecycle$1;->$SwitchMap$androidx$lifecycle$Lifecycle$State:[I
 
     invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle$State;->ordinal()I
@@ -328,19 +328,19 @@
 
     return-object p0
 
-    .line 241
+    .line 207
     :cond_0
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 239
+    .line 205
     :cond_1
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;
 
     return-object p0
 
-    .line 237
+    .line 203
     :cond_2
     sget-object p0, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
@@ -350,7 +350,7 @@
 .method public static valueOf(Ljava/lang/String;)Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 128
+    .line 94
     const-class v0, Landroidx/lifecycle/Lifecycle$Event;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -365,7 +365,7 @@
 .method public static values()[Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
 
-    .line 128
+    .line 94
     sget-object v0, Landroidx/lifecycle/Lifecycle$Event;->$VALUES:[Landroidx/lifecycle/Lifecycle$Event;
 
     invoke-virtual {v0}, [Landroidx/lifecycle/Lifecycle$Event;->clone()Ljava/lang/Object;
@@ -382,7 +382,7 @@
 .method public getTargetState()Landroidx/lifecycle/Lifecycle$State;
     .locals 3
 
-    .line 258
+    .line 224
     sget-object v0, Landroidx/lifecycle/Lifecycle$1;->$SwitchMap$androidx$lifecycle$Lifecycle$Event:[I
 
     invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle$Event;->ordinal()I
@@ -393,7 +393,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 272
+    .line 238
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -414,25 +414,25 @@
 
     throw v0
 
-    .line 268
+    .line 234
     :pswitch_0
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
 
     return-object v0
 
-    .line 266
+    .line 232
     :pswitch_1
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
 
     return-object v0
 
-    .line 264
+    .line 230
     :pswitch_2
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
     return-object v0
 
-    .line 261
+    .line 227
     :pswitch_3
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 

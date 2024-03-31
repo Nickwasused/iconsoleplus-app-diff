@@ -1,6 +1,6 @@
 .class public final Lkotlin/ranges/IntRange$Companion;
 .super Ljava/lang/Object;
-.source "Ranges.kt"
+.source "PrimitiveRanges.kt"
 
 
 # annotations
@@ -41,7 +41,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 66
+    .line 84
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +60,7 @@
 .method public final getEMPTY()Lkotlin/ranges/IntRange;
     .locals 1
 
-    .line 68
+    .line 86
     invoke-static {}, Lkotlin/ranges/IntRange;->access$getEMPTY$cp()Lkotlin/ranges/IntRange;
 
     move-result-object v0

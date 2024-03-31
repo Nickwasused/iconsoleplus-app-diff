@@ -146,7 +146,7 @@
 
     new-instance v13, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v14, "work_account_client_is_whitelisted"
+    const-string v14, "work_account_client_is_whitelisted"
 
     .line 12
     invoke-direct {v13, v14, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V

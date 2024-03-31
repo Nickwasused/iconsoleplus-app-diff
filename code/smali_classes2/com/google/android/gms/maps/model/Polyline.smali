@@ -761,7 +761,7 @@
 .method public setStartCap(Lcom/google/android/gms/maps/model/Cap;)V
     .locals 1
 
-    const-string/jumbo v0, "startCap must not be null"
+    const-string v0, "startCap must not be null"
 
     .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

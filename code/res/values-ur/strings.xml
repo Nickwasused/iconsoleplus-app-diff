@@ -50,8 +50,6 @@
     <string name="common_signin_button_text">سائن ان کریں</string>
     <string name="common_signin_button_text_long">‏Google کے ساتھ سائن ان کریں</string>
     <string name="copy">کاپی کریں</string>
-    <string name="crop_image_activity_no_permissions">منسوخ کرنا، ضروری اجازت نہیں دی جاتی ہیں</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">فصل</string>
     <string name="error_icon_content_description">خرابی</string>
     <string name="exo_controls_cc_disabled_description">سب ٹائٹلز کو فعال کریں</string>
@@ -186,7 +184,7 @@
     <string name="nav_app_bar_open_drawer_description">نیویگیشن دراز کھولیں</string>
     <string name="not_set">سیٹ نہیں ہے</string>
     <string name="password_toggle_content_description">پاس ورڈ دکھائیں</string>
-    <string name="pick_image_intent_chooser_title">ذریعہ منتخب کریں</string>
+    <string name="pick_image_chooser_title">ذریعہ منتخب کریں</string>
     <string name="preference_copied">\"%1$s\" کلپ بورڈ میں کاپی ہو گیا۔</string>
     <string name="search_menu_title">تلاش کریں</string>
     <string name="status_bar_notification_info_overflow">+999</string>

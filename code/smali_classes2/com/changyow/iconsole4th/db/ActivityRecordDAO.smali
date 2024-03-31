@@ -41,7 +41,7 @@
         "insertAll",
         "markAsSynced",
         "arStarttimes",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {

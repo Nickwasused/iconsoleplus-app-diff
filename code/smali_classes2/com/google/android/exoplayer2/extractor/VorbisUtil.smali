@@ -768,7 +768,7 @@
     :cond_5
     new-instance p0, Lcom/google/android/exoplayer2/ParserException;
 
-    const-string/jumbo p1, "to reserved bits must be zero after mapping coupling steps"
+    const-string p1, "to reserved bits must be zero after mapping coupling steps"
 
     invoke-direct {p0, p1}, Lcom/google/android/exoplayer2/ParserException;-><init>(Ljava/lang/String;)V
 
@@ -1439,7 +1439,7 @@
 
     invoke-direct {v0, p2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo p2, "too short header: "
+    const-string p2, "too short header: "
 
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

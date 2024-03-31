@@ -21,7 +21,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArrayDeque.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 3 ArrayIntrinsics.kt\nkotlin/ArrayIntrinsicsKt\n*L\n1#1,583:1\n467#1,51:588\n467#1,51:639\n37#2:584\n36#2,3:585\n26#3:690\n*S KotlinDebug\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n*L\n462#1:588,51\n464#1:639,51\n47#1:584\n47#1:585,3\n562#1:690\n*E\n"
+    value = "SMAP\nArrayDeque.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 3 ArrayIntrinsics.kt\nkotlin/ArrayIntrinsicsKt\n*L\n1#1,583:1\n467#1,51:586\n467#1,51:637\n37#2,2:584\n26#3:688\n*S KotlinDebug\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n*L\n462#1:586,51\n464#1:637,51\n47#1:584,2\n562#1:688\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -245,7 +245,7 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 587
+    .line 585
     invoke-interface {p1, v1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -2169,7 +2169,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 588
+    .line 586
     invoke-virtual {p0}, Lkotlin/collections/ArrayDeque;->isEmpty()Z
 
     move-result v0
@@ -2198,7 +2198,7 @@
 
     goto/16 :goto_8
 
-    .line 591
+    .line 589
     :cond_1
     iget v0, p0, Lkotlin/collections/ArrayDeque;->head:I
 
@@ -2212,7 +2212,7 @@
 
     move-result v0
 
-    .line 592
+    .line 590
     iget v3, p0, Lkotlin/collections/ArrayDeque;->head:I
 
     const/4 v4, 0x0
@@ -2224,7 +2224,7 @@
     :goto_1
     if-ge v3, v0, :cond_3
 
-    .line 597
+    .line 595
     iget-object v6, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v6, v6, v3
@@ -2238,7 +2238,7 @@
 
     if-eqz v7, :cond_2
 
-    .line 601
+    .line 599
     iget-object v7, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     add-int/lit8 v8, v5, 0x1
@@ -2257,7 +2257,7 @@
 
     goto :goto_1
 
-    .line 606
+    .line 604
     :cond_3
     iget-object p1, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
@@ -2265,7 +2265,7 @@
 
     goto :goto_7
 
-    .line 609
+    .line 607
     :cond_4
     iget-object v5, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
@@ -2278,12 +2278,12 @@
     :goto_3
     if-ge v3, v5, :cond_6
 
-    .line 610
+    .line 608
     iget-object v8, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v9, v8, v3
 
-    .line 611
+    .line 609
     aput-object v4, v8, v3
 
     .line 462
@@ -2295,7 +2295,7 @@
 
     if-eqz v8, :cond_5
 
-    .line 615
+    .line 613
     iget-object v8, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     add-int/lit8 v10, v6, 0x1
@@ -2314,7 +2314,7 @@
 
     goto :goto_3
 
-    .line 620
+    .line 618
     :cond_6
     invoke-direct {p0, v6}, Lkotlin/collections/ArrayDeque;->positiveMod(I)I
 
@@ -2325,12 +2325,12 @@
     :goto_5
     if-ge v1, v0, :cond_8
 
-    .line 623
+    .line 621
     iget-object v3, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v6, v3, v1
 
-    .line 624
+    .line 622
     aput-object v4, v3, v1
 
     .line 462
@@ -2342,12 +2342,12 @@
 
     if-eqz v3, :cond_7
 
-    .line 628
+    .line 626
     iget-object v3, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aput-object v6, v3, v5
 
-    .line 629
+    .line 627
     invoke-direct {p0, v5}, Lkotlin/collections/ArrayDeque;->incremented(I)I
 
     move-result v5
@@ -2368,7 +2368,7 @@
     :goto_7
     if-eqz v1, :cond_9
 
-    .line 636
+    .line 634
     iget p1, p0, Lkotlin/collections/ArrayDeque;->head:I
 
     sub-int/2addr v5, p1
@@ -2782,7 +2782,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 639
+    .line 637
     invoke-virtual {p0}, Lkotlin/collections/ArrayDeque;->isEmpty()Z
 
     move-result v0
@@ -2811,7 +2811,7 @@
 
     goto/16 :goto_8
 
-    .line 642
+    .line 640
     :cond_1
     iget v0, p0, Lkotlin/collections/ArrayDeque;->head:I
 
@@ -2825,7 +2825,7 @@
 
     move-result v0
 
-    .line 643
+    .line 641
     iget v3, p0, Lkotlin/collections/ArrayDeque;->head:I
 
     const/4 v4, 0x0
@@ -2837,7 +2837,7 @@
     :goto_1
     if-ge v3, v0, :cond_3
 
-    .line 648
+    .line 646
     iget-object v6, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v6, v6, v3
@@ -2849,7 +2849,7 @@
 
     if-eqz v7, :cond_2
 
-    .line 652
+    .line 650
     iget-object v7, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     add-int/lit8 v8, v5, 0x1
@@ -2868,7 +2868,7 @@
 
     goto :goto_1
 
-    .line 657
+    .line 655
     :cond_3
     iget-object p1, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
@@ -2876,7 +2876,7 @@
 
     goto :goto_7
 
-    .line 660
+    .line 658
     :cond_4
     iget-object v5, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
@@ -2889,12 +2889,12 @@
     :goto_3
     if-ge v3, v5, :cond_6
 
-    .line 661
+    .line 659
     iget-object v8, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v9, v8, v3
 
-    .line 662
+    .line 660
     aput-object v4, v8, v3
 
     .line 464
@@ -2904,7 +2904,7 @@
 
     if-eqz v8, :cond_5
 
-    .line 666
+    .line 664
     iget-object v8, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     add-int/lit8 v10, v6, 0x1
@@ -2923,7 +2923,7 @@
 
     goto :goto_3
 
-    .line 671
+    .line 669
     :cond_6
     invoke-direct {p0, v6}, Lkotlin/collections/ArrayDeque;->positiveMod(I)I
 
@@ -2934,12 +2934,12 @@
     :goto_5
     if-ge v1, v0, :cond_8
 
-    .line 674
+    .line 672
     iget-object v3, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aget-object v6, v3, v1
 
-    .line 675
+    .line 673
     aput-object v4, v3, v1
 
     .line 464
@@ -2949,12 +2949,12 @@
 
     if-eqz v3, :cond_7
 
-    .line 679
+    .line 677
     iget-object v3, p0, Lkotlin/collections/ArrayDeque;->elementData:[Ljava/lang/Object;
 
     aput-object v6, v3, v5
 
-    .line 680
+    .line 678
     invoke-direct {p0, v5}, Lkotlin/collections/ArrayDeque;->incremented(I)I
 
     move-result v5
@@ -2975,7 +2975,7 @@
     :goto_7
     if-eqz v1, :cond_9
 
-    .line 687
+    .line 685
     iget p1, p0, Lkotlin/collections/ArrayDeque;->head:I
 
     sub-int/2addr v5, p1

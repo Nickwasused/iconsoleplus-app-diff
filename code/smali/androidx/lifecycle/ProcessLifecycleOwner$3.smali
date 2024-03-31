@@ -22,7 +22,7 @@
 .method constructor <init>(Landroidx/lifecycle/ProcessLifecycleOwner;)V
     .locals 0
 
-    .line 161
+    .line 163
     iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
@@ -35,14 +35,14 @@
 .method public onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 1
 
-    .line 189
+    .line 192
     sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x1d
 
     if-ge p2, v0, :cond_0
 
-    .line 190
+    .line 193
     invoke-static {p1}, Landroidx/lifecycle/ReportFragment;->get(Landroid/app/Activity;)Landroidx/lifecycle/ReportFragment;
 
     move-result-object p1
@@ -60,7 +60,7 @@
 .method public onActivityPaused(Landroid/app/Activity;)V
     .locals 0
 
-    .line 196
+    .line 199
     iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityPaused()V
@@ -71,7 +71,7 @@
 .method public onActivityPreCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 171
+    .line 174
     new-instance p2, Landroidx/lifecycle/ProcessLifecycleOwner$3$1;
 
     invoke-direct {p2, p0}, Landroidx/lifecycle/ProcessLifecycleOwner$3$1;-><init>(Landroidx/lifecycle/ProcessLifecycleOwner$3;)V
@@ -84,7 +84,7 @@
 .method public onActivityStopped(Landroid/app/Activity;)V
     .locals 0
 
-    .line 201
+    .line 204
     iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStopped()V

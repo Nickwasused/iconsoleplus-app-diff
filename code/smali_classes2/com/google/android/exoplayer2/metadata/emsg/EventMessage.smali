@@ -354,7 +354,7 @@
     goto :goto_0
 
     :sswitch_2
-    const-string/jumbo v1, "urn:scte:scte35:2014:bin"
+    const-string v1, "urn:scte:scte35:2014:bin"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -385,6 +385,8 @@
     sget-object v0, Lcom/google/android/exoplayer2/metadata/emsg/EventMessage;->SCTE35_FORMAT:Lcom/google/android/exoplayer2/Format;
 
     return-object v0
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

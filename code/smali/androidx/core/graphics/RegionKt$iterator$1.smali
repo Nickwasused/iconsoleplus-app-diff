@@ -47,7 +47,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -55,8 +55,6 @@
 
 
 # instance fields
-.field final synthetic $this_iterator:Landroid/graphics/Region;
-
 .field private hasMore:Z
 
 .field private final iterator:Landroid/graphics/RegionIterator;
@@ -67,8 +65,6 @@
 # direct methods
 .method constructor <init>(Landroid/graphics/Region;)V
     .locals 1
-
-    iput-object p1, p0, Landroidx/core/graphics/RegionKt$iterator$1;->$this_iterator:Landroid/graphics/Region;
 
     .line 142
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

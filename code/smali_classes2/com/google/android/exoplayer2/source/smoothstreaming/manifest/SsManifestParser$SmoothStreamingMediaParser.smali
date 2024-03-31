@@ -178,7 +178,7 @@
 
     iget-object v6, v6, Lcom/google/android/exoplayer2/source/smoothstreaming/manifest/SsManifest$ProtectionElement;->data:[B
 
-    const-string/jumbo v7, "video/mp4"
+    const-string v7, "video/mp4"
 
     invoke-direct {v4, v5, v7, v6}, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;-><init>(Ljava/util/UUID;Ljava/lang/String;[B)V
 

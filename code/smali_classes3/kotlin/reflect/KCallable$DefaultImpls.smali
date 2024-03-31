@@ -25,6 +25,12 @@
 
 
 # direct methods
+.method public static synthetic getName$annotations()V
+    .locals 0
+
+    return-void
+.end method
+
 .method public static synthetic getTypeParameters$annotations()V
     .locals 0
 

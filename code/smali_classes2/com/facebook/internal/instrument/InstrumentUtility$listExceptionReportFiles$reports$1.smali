@@ -91,7 +91,7 @@
 
     const/4 v1, 0x1
 
-    const-string/jumbo v2, "shield_log_"
+    const-string v2, "shield_log_"
 
     aput-object v2, v0, v1
 

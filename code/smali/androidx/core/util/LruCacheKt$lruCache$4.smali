@@ -50,10 +50,10 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
-    xi = 0x30
+    xi = 0xb0
 .end annotation
 
 
@@ -66,8 +66,6 @@
         }
     .end annotation
 .end field
-
-.field final synthetic $maxSize:I
 
 .field final synthetic $onEntryRemoved:Lkotlin/jvm/functions/Function4;
     .annotation system Ldalvik/annotation/Signature;
@@ -94,11 +92,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;I)V
+.method public constructor <init>(ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(",
+            "(I",
             "Lkotlin/jvm/functions/Function2<",
             "-TK;-TV;",
             "Ljava/lang/Integer;",
@@ -110,20 +108,18 @@
             "Ljava/lang/Boolean;",
             "-TK;-TV;-TV;",
             "Lkotlin/Unit;",
-            ">;I)V"
+            ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Lkotlin/jvm/functions/Function2;
+    iput-object p2, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Lkotlin/jvm/functions/Function2;
 
-    iput-object p2, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Lkotlin/jvm/functions/Function1;
+    iput-object p3, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Lkotlin/jvm/functions/Function1;
 
-    iput-object p3, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Lkotlin/jvm/functions/Function4;
-
-    iput p4, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$maxSize:I
+    iput-object p4, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Lkotlin/jvm/functions/Function4;
 
     .line 46
-    invoke-direct {p0, p4}, Landroid/util/LruCache;-><init>(I)V
+    invoke-direct {p0, p1}, Landroid/util/LruCache;-><init>(I)V
 
     return-void
 .end method
@@ -192,7 +188,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

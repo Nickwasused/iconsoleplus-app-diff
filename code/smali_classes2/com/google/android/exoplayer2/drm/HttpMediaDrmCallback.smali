@@ -471,7 +471,7 @@
 
     if-eqz v2, :cond_2
 
-    const-string/jumbo v2, "text/xml"
+    const-string v2, "text/xml"
 
     goto :goto_0
 

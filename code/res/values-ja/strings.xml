@@ -27,7 +27,6 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
-    <string name="app_name">iConsole+</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
@@ -74,8 +73,6 @@
     <string name="common_signin_button_text">ログイン</string>
     <string name="common_signin_button_text_long">Googleにログイン</string>
     <string name="copy">コピー</string>
-    <string name="crop_image_activity_no_permissions">必要な権限がありません、キャンセルしています。</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">切り取り</string>
     <string name="error_icon_content_description">エラー</string>
     <string name="exo_controls_cc_disabled_description">字幕の有効化</string>
@@ -268,7 +265,7 @@
     <string name="pageTitleMapMyRoute">マイルートを作る</string>
     <string name="pageTitleWorkoutHistory">トレーニング履歴</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
-    <string name="pick_image_intent_chooser_title">画像を選択</string>
+    <string name="pick_image_chooser_title">画像を選択</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="search_menu_title">検索</string>
     <string name="status_bar_notification_info_overflow">999+</string>

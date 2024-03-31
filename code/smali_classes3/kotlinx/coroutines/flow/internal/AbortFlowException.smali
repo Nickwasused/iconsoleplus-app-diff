@@ -10,7 +10,7 @@
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0003\n\u0000\u0008\u0000\u0018\u00002\u00060\u0001j\u0002`\u0002B\u0011\u0012\n\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u0004\u00a2\u0006\u0002\u0010\u0005J\u0008\u0010\u0008\u001a\u00020\tH\u0016R\u0015\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u0004\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\n"
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0003\n\u0000\u0008\u0000\u0018\u00002\u00060\u0001j\u0002`\u0002B\u0011\u0012\n\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u0004\u00a2\u0006\u0002\u0010\u0005J\u0008\u0010\u0006\u001a\u00020\u0007H\u0016R\u0014\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u00048\u0006X\u0087\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0008"
     }
     d2 = {
         "Lkotlinx/coroutines/flow/internal/AbortFlowException;",
@@ -19,8 +19,6 @@
         "owner",
         "Lkotlinx/coroutines/flow/FlowCollector;",
         "(Lkotlinx/coroutines/flow/FlowCollector;)V",
-        "getOwner",
-        "()Lkotlinx/coroutines/flow/FlowCollector;",
         "fillInStackTrace",
         "",
         "kotlinx-coroutines-core"
@@ -36,7 +34,7 @@
 
 
 # instance fields
-.field private final owner:Lkotlinx/coroutines/flow/FlowCollector;
+.field public final transient owner:Lkotlinx/coroutines/flow/FlowCollector;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlinx/coroutines/flow/FlowCollector<",
@@ -103,22 +101,6 @@
     move-object v0, p0
 
     check-cast v0, Ljava/lang/Throwable;
-
-    return-object v0
-.end method
-
-.method public final getOwner()Lkotlinx/coroutines/flow/FlowCollector;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lkotlinx/coroutines/flow/FlowCollector<",
-            "*>;"
-        }
-    .end annotation
-
-    .line 11
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/AbortFlowException;->owner:Lkotlinx/coroutines/flow/FlowCollector;
 
     return-object v0
 .end method

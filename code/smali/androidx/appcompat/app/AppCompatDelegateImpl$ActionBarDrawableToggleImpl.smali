@@ -25,7 +25,7 @@
 .method constructor <init>(Landroidx/appcompat/app/AppCompatDelegateImpl;)V
     .locals 0
 
-    .line 3320
+    .line 3437
     iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public getActionBarThemedContext()Landroid/content/Context;
     .locals 1
 
-    .line 3334
+    .line 3451
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->getActionBarThemedContext()Landroid/content/Context;
@@ -51,7 +51,7 @@
 .method public getThemeUpIndicator()Landroid/graphics/drawable/Drawable;
     .locals 4
 
-    .line 3326
+    .line 3443
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->getActionBarThemedContext()Landroid/content/Context;
 
     move-result-object v0
@@ -68,17 +68,17 @@
 
     const/4 v2, 0x0
 
-    .line 3325
+    .line 3442
     invoke-static {v0, v2, v1}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[I)Landroidx/appcompat/widget/TintTypedArray;
 
     move-result-object v0
 
-    .line 3327
+    .line 3444
     invoke-virtual {v0, v3}, Landroidx/appcompat/widget/TintTypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 3328
+    .line 3445
     invoke-virtual {v0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
 
     return-object v1
@@ -87,7 +87,7 @@
 .method public isNavigationVisible()Z
     .locals 1
 
-    .line 3339
+    .line 3456
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
@@ -96,7 +96,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 3340
+    .line 3457
     invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar;->getDisplayOptions()I
 
     move-result v0
@@ -119,7 +119,7 @@
 .method public setActionBarDescription(I)V
     .locals 1
 
-    .line 3354
+    .line 3471
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
@@ -128,7 +128,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 3356
+    .line 3473
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/ActionBar;->setHomeActionContentDescription(I)V
 
     :cond_0
@@ -138,7 +138,7 @@
 .method public setActionBarUpIndicator(Landroid/graphics/drawable/Drawable;I)V
     .locals 1
 
-    .line 3345
+    .line 3462
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
@@ -147,10 +147,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 3347
+    .line 3464
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/ActionBar;->setHomeAsUpIndicator(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3348
+    .line 3465
     invoke-virtual {v0, p2}, Landroidx/appcompat/app/ActionBar;->setHomeActionContentDescription(I)V
 
     :cond_0

@@ -16,15 +16,15 @@
 # static fields
 .field public static final action:I = 0x7f040002
 
-.field public static final data:I = 0x7f04017c
+.field public static final data:I = 0x7f040186
 
-.field public static final dataPattern:I = 0x7f04017d
+.field public static final dataPattern:I = 0x7f040187
 
-.field public static final graph:I = 0x7f040223
+.field public static final graph:I = 0x7f040230
 
-.field public static final navGraph:I = 0x7f040391
+.field public static final navGraph:I = 0x7f04039e
 
-.field public static final targetPackage:I = 0x7f04050a
+.field public static final targetPackage:I = 0x7f040544
 
 
 # direct methods

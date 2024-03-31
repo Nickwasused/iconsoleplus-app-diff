@@ -346,7 +346,7 @@
 
     if-nez p1, :cond_0
 
-    const-string p1, "unknown"
+    const-string/jumbo p1, "unknown"
 
     .line 3
     iput-object p1, p0, La/a/a/b/d/a;->c:Ljava/lang/String;
@@ -519,7 +519,7 @@
 
     const-string v0, "CodeReceiver"
 
-    const-string v1, "stop() called"
+    const-string/jumbo v1, "stop() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I

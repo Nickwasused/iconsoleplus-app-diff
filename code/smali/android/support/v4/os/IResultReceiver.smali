@@ -9,10 +9,15 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/support/v4/os/IResultReceiver$_Parcel;,
         Landroid/support/v4/os/IResultReceiver$Stub;,
         Landroid/support/v4/os/IResultReceiver$Default;
     }
 .end annotation
+
+
+# static fields
+.field public static final DESCRIPTOR:Ljava/lang/String; = "android.support.v4.os.IResultReceiver"
 
 
 # virtual methods

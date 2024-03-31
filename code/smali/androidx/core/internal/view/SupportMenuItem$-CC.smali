@@ -8,7 +8,7 @@
     .locals 0
     .param p0, "_this"    # Landroidx/core/internal/view/SupportMenuItem;
 
-    .line 39
+    .line 41
     invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setContentDescription(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
 
     move-result-object p1
@@ -20,7 +20,7 @@
     .locals 0
     .param p0, "_this"    # Landroidx/core/internal/view/SupportMenuItem;
 
-    .line 39
+    .line 41
     invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setTooltipText(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
 
     move-result-object p1

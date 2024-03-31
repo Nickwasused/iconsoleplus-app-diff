@@ -250,7 +250,7 @@
 
     invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
 
-    const-string/jumbo v6, "streamurl"
+    const-string v6, "streamurl"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -258,7 +258,7 @@
 
     if-nez v6, :cond_2
 
-    const-string/jumbo v6, "streamtitle"
+    const-string v6, "streamtitle"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

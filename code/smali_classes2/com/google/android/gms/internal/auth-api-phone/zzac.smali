@@ -22,7 +22,7 @@
     .line 1
     new-instance v0, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v1, "sms_code_autofill"
+    const-string v1, "sms_code_autofill"
 
     const-wide/16 v2, 0x2
 
@@ -32,7 +32,7 @@
 
     new-instance v1, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v4, "sms_code_browser"
+    const-string v4, "sms_code_browser"
 
     .line 2
     invoke-direct {v1, v4, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V
@@ -41,7 +41,7 @@
 
     new-instance v2, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v3, "sms_retrieve"
+    const-string v3, "sms_retrieve"
 
     const-wide/16 v4, 0x1
 
@@ -52,7 +52,7 @@
 
     new-instance v3, Lcom/google/android/gms/common/Feature;
 
-    const-string/jumbo v4, "user_consent"
+    const-string v4, "user_consent"
 
     const-wide/16 v5, 0x3
 

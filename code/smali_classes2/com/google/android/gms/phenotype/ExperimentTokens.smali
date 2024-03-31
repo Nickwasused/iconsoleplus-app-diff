@@ -586,7 +586,7 @@
 
     iget-object v4, p0, Lcom/google/android/gms/phenotype/ExperimentTokens;->zzv:[I
 
-    const-string/jumbo v5, "weak"
+    const-string v5, "weak"
 
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

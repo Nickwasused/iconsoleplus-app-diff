@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 5007
+    .line 5012
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method public static getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
     .locals 1
 
-    .line 5013
+    .line 5018
     invoke-virtual {p0}, Landroid/view/View;->getRootWindowInsets()Landroid/view/WindowInsets;
 
     move-result-object v0
@@ -38,16 +38,16 @@
 
     return-object p0
 
-    .line 5016
+    .line 5021
     :cond_0
     invoke-static {v0}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;)Landroidx/core/view/WindowInsetsCompat;
 
     move-result-object v0
 
-    .line 5019
+    .line 5024
     invoke-virtual {v0, v0}, Landroidx/core/view/WindowInsetsCompat;->setRootWindowInsets(Landroidx/core/view/WindowInsetsCompat;)V
 
-    .line 5020
+    .line 5025
     invoke-virtual {p0}, Landroid/view/View;->getRootView()Landroid/view/View;
 
     move-result-object p0
@@ -60,7 +60,7 @@
 .method static getScrollIndicators(Landroid/view/View;)I
     .locals 0
 
-    .line 5036
+    .line 5041
     invoke-virtual {p0}, Landroid/view/View;->getScrollIndicators()I
 
     move-result p0
@@ -71,7 +71,7 @@
 .method static setScrollIndicators(Landroid/view/View;I)V
     .locals 0
 
-    .line 5026
+    .line 5031
     invoke-virtual {p0, p1}, Landroid/view/View;->setScrollIndicators(I)V
 
     return-void
@@ -80,7 +80,7 @@
 .method static setScrollIndicators(Landroid/view/View;II)V
     .locals 0
 
-    .line 5031
+    .line 5036
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->setScrollIndicators(II)V
 
     return-void

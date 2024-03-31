@@ -22,7 +22,7 @@
 .method private constructor <init>(Lchangyow/ble4th/BLEPeripheral;)V
     .locals 0
 
-    .line 117
+    .line 119
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-direct {p0}, Lno/nordicsemi/android/ble/BleManager$BleManagerGattCallback;-><init>()V
@@ -33,7 +33,7 @@
 .method synthetic constructor <init>(Lchangyow/ble4th/BLEPeripheral;Lchangyow/ble4th/BLEPeripheral$1;)V
     .locals 0
 
-    .line 117
+    .line 119
     invoke-direct {p0, p1}, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;-><init>(Lchangyow/ble4th/BLEPeripheral;)V
 
     return-void
@@ -44,7 +44,7 @@
 .method protected initialize()V
     .locals 3
 
-    .line 129
+    .line 131
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-static {v0}, Lchangyow/ble4th/BLEPeripheral;->access$500(Lchangyow/ble4th/BLEPeripheral;)Lno/nordicsemi/android/ble/RequestQueue;
@@ -55,7 +55,7 @@
 
     const/16 v2, 0x1e
 
-    .line 130
+    .line 132
     invoke-static {v1, v2}, Lchangyow/ble4th/BLEPeripheral;->access$400(Lchangyow/ble4th/BLEPeripheral;I)Lno/nordicsemi/android/ble/MtuRequest;
 
     move-result-object v1
@@ -64,7 +64,7 @@
 
     invoke-direct {v2, p0}, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback$$ExternalSyntheticLambda11;-><init>(Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;)V
 
-    .line 131
+    .line 133
     invoke-virtual {v1, v2}, Lno/nordicsemi/android/ble/MtuRequest;->with(Lno/nordicsemi/android/ble/callback/MtuCallback;)Lno/nordicsemi/android/ble/MtuRequest;
 
     move-result-object v1
@@ -73,12 +73,12 @@
 
     invoke-direct {v2, p0}, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback$$ExternalSyntheticLambda8;-><init>(Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;)V
 
-    .line 132
+    .line 134
     invoke-virtual {v1, v2}, Lno/nordicsemi/android/ble/MtuRequest;->fail(Lno/nordicsemi/android/ble/callback/FailCallback;)Lno/nordicsemi/android/ble/MtuRequest;
 
     move-result-object v1
 
-    .line 130
+    .line 132
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/RequestQueue;->add(Lno/nordicsemi/android/ble/Operation;)Lno/nordicsemi/android/ble/RequestQueue;
 
     move-result-object v0
@@ -87,7 +87,7 @@
 
     const/4 v2, 0x1
 
-    .line 133
+    .line 135
     invoke-static {v1, v2}, Lchangyow/ble4th/BLEPeripheral;->access$300(Lchangyow/ble4th/BLEPeripheral;I)Lno/nordicsemi/android/ble/ConnectionPriorityRequest;
 
     move-result-object v1
@@ -96,17 +96,17 @@
 
     move-result-object v0
 
-    .line 137
+    .line 139
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/RequestQueue;->enqueue()V
 
-    .line 139
+    .line 141
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, v0, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     if-eqz v0, :cond_0
 
-    .line 141
+    .line 143
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -121,7 +121,7 @@
 
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 144
+    .line 146
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -132,7 +132,7 @@
 
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 145
+    .line 147
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -149,10 +149,10 @@
 
     move-result-object v0
 
-    .line 147
+    .line 149
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/ReadRequest;->enqueue()V
 
-    .line 150
+    .line 152
     :cond_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -160,7 +160,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 152
+    .line 154
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -175,7 +175,7 @@
 
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 155
+    .line 157
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -196,15 +196,15 @@
 
     invoke-direct {v1, p0}, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback$$ExternalSyntheticLambda9;-><init>(Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;)V
 
-    .line 158
+    .line 160
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/WriteRequest;->fail(Lno/nordicsemi/android/ble/callback/FailCallback;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v0
 
-    .line 160
+    .line 162
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 162
+    .line 164
     :cond_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -212,7 +212,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 164
+    .line 166
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -227,7 +227,7 @@
 
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/ValueChangedCallback;->with(Lno/nordicsemi/android/ble/callback/DataReceivedCallback;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
-    .line 167
+    .line 169
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -248,15 +248,15 @@
 
     invoke-direct {v1, p0}, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback$$ExternalSyntheticLambda10;-><init>(Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;)V
 
-    .line 169
+    .line 171
     invoke-virtual {v0, v1}, Lno/nordicsemi/android/ble/WriteRequest;->fail(Lno/nordicsemi/android/ble/callback/FailCallback;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object v0
 
-    .line 171
+    .line 173
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/WriteRequest;->enqueue()V
 
-    .line 174
+    .line 176
     :cond_2
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -270,7 +270,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 175
+    .line 177
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -287,10 +287,10 @@
 
     move-result-object v0
 
-    .line 183
+    .line 185
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/ReadRequest;->enqueue()V
 
-    .line 184
+    .line 186
     :cond_3
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -304,7 +304,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 185
+    .line 187
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v1, v0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    .line 193
+    .line 195
     invoke-virtual {v0}, Lno/nordicsemi/android/ble/ReadRequest;->enqueue()V
 
     :cond_4
@@ -331,12 +331,12 @@
 .method protected isRequiredServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
     .locals 1
 
-    .line 122
+    .line 124
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-static {v0, p1}, Lchangyow/ble4th/BLEPeripheral;->access$102(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGatt;)Landroid/bluetooth/BluetoothGatt;
 
-    .line 123
+    .line 125
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-static {v0, p1}, Lchangyow/ble4th/BLEPeripheral;->access$200(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGatt;)Z
@@ -349,7 +349,7 @@
 .method synthetic lambda$initialize$0$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;I)V
     .locals 2
 
-    .line 131
+    .line 133
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -376,7 +376,7 @@
 .method synthetic lambda$initialize$1$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;I)V
     .locals 2
 
-    .line 132
+    .line 134
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -403,7 +403,7 @@
 .method synthetic lambda$initialize$10$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 2
 
-    .line 178
+    .line 180
     :try_start_0
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -428,7 +428,7 @@
 .method synthetic lambda$initialize$11$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 2
 
-    .line 188
+    .line 190
     :try_start_0
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
@@ -453,7 +453,7 @@
 .method synthetic lambda$initialize$2$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    .line 142
+    .line 144
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, p1, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -470,7 +470,7 @@
 .method synthetic lambda$initialize$3$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    .line 146
+    .line 148
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, p1, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -487,7 +487,7 @@
 .method synthetic lambda$initialize$4$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    .line 153
+    .line 155
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, p1, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -508,7 +508,7 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 156
+    .line 158
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -525,7 +525,7 @@
 
     invoke-static {v0, v1, p1}, Lappdevice/adble/utility/ADLog;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 157
+    .line 159
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object p1, p1, Lchangyow/ble4th/BLEPeripheral;->mHandler:Landroid/os/Handler;
@@ -548,7 +548,7 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 159
+    .line 161
     iget-object p2, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {p2}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -571,7 +571,7 @@
 .method synthetic lambda$initialize$7$changyow-ble4th-BLEPeripheral$BLEPeripheralBleManagerGattCallback(Landroid/bluetooth/BluetoothDevice;Lno/nordicsemi/android/ble/data/Data;)V
     .locals 1
 
-    .line 165
+    .line 167
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, p1, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
@@ -592,7 +592,7 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 168
+    .line 170
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -619,7 +619,7 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 170
+    .line 172
     iget-object p2, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {p2}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -646,7 +646,7 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 199
+    .line 201
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v1}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
@@ -663,19 +663,19 @@
 
     invoke-static {v1, v2, v0}, Lappdevice/adble/utility/ADLog;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 200
+    .line 202
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     invoke-virtual {v0}, Lchangyow/ble4th/BLEPeripheral;->reset()V
 
-    .line 201
+    .line 203
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, v0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     if-eqz v0, :cond_0
 
-    .line 202
+    .line 204
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;->this$0:Lchangyow/ble4th/BLEPeripheral;
 
     iget-object v0, v0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;

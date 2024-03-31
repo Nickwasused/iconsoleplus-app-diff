@@ -63,7 +63,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0a0215
+    const v0, 0x7f0a020f
 
     .line 68
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     check-cast v0, Landroid/widget/RelativeLayout;
 
-    const v2, 0x7f0a050f
+    const v2, 0x7f0a0506
 
     .line 76
     invoke-static {p0, v2}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;

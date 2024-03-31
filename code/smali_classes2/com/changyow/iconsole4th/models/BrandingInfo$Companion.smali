@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBrandingInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo$Companion\n+ 2 Klaxon.kt\ncom/beust/klaxon/Klaxon\n*L\n1#1,203:1\n43#2:204\n142#2:205\n121#2:206\n*S KotlinDebug\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo$Companion\n*L\n49#1:204\n49#1:205\n49#1:206\n*E\n"
+    value = "SMAP\nBrandingInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo$Companion\n+ 2 Klaxon.kt\ncom/beust/klaxon/Klaxon\n*L\n1#1,204:1\n43#2:205\n142#2:206\n121#2:207\n*S KotlinDebug\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo$Companion\n*L\n50#1:205\n50#1:206\n50#1:207\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -32,7 +32,7 @@
         "getBitmap",
         "Landroid/graphics/Bitmap;",
         "url",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -48,7 +48,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 48
+    .line 49
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,12 +71,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 49
+    .line 50
     invoke-static {}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityProfliePackKt;->getSharedKlaxonInstance()Lcom/beust/klaxon/Klaxon;
 
     move-result-object v0
 
-    .line 204
+    .line 205
     const-class v1, Lcom/changyow/iconsole4th/models/BrandingInfo;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
@@ -113,7 +113,7 @@
 
     check-cast p1, Lcom/beust/klaxon/JsonObject;
 
-    .line 206
+    .line 207
     const-class v1, Lcom/changyow/iconsole4th/models/BrandingInfo;
 
     const-class v2, Lcom/changyow/iconsole4th/models/BrandingInfo;
@@ -138,7 +138,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 52
+    .line 53
     move-object v1, p1
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -161,7 +161,7 @@
 
     goto :goto_1
 
-    .line 55
+    .line 56
     :cond_1
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    .line 56
+    .line 57
     new-instance v2, Ljava/io/File;
 
     const/4 v3, 0x2
@@ -184,7 +184,7 @@
 
     invoke-direct {v2, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 57
+    .line 58
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -193,18 +193,18 @@
 
     return-object v0
 
-    .line 59
+    .line 60
     :cond_2
     new-instance p1, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {p1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 60
+    .line 61
     sget-object v0, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v0, p1, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 61
+    .line 62
     invoke-virtual {v2}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v0

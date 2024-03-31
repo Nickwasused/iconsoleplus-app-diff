@@ -939,7 +939,7 @@
 
     sget-object p1, Lcom/google/android/exoplayer2/util/Util;->DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v0, "tilapia"
+    const-string v0, "tilapia"
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1142,7 +1142,7 @@
 
     sget-object v0, Lcom/google/android/exoplayer2/util/Util;->DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v1, "stvm8"
+    const-string v1, "stvm8"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3874,7 +3874,7 @@
 
     if-eqz v2, :cond_0
 
-    const-string/jumbo v2, "width"
+    const-string v2, "width"
 
     .line 1949
     invoke-virtual {v1, v2}, Landroid/media/MediaFormat;->getInteger(Ljava/lang/String;)I

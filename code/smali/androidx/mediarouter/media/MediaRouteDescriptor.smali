@@ -248,7 +248,7 @@
     .line 130
     iget-object v0, p0, Landroidx/mediarouter/media/MediaRouteDescriptor;->mBundle:Landroid/os/Bundle;
 
-    const-string v1, "status"
+    const-string/jumbo v1, "status"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
     .line 271
     iget-object v0, p0, Landroidx/mediarouter/media/MediaRouteDescriptor;->mBundle:Landroid/os/Bundle;
 
-    const-string v1, "volume"
+    const-string/jumbo v1, "volume"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
@@ -488,7 +488,7 @@
     .line 289
     iget-object v0, p0, Landroidx/mediarouter/media/MediaRouteDescriptor;->mBundle:Landroid/os/Bundle;
 
-    const-string v1, "volumeHandling"
+    const-string/jumbo v1, "volumeHandling"
 
     const/4 v2, 0x0
 
@@ -505,7 +505,7 @@
     .line 278
     iget-object v0, p0, Landroidx/mediarouter/media/MediaRouteDescriptor;->mBundle:Landroid/os/Bundle;
 
-    const-string v1, "volumeMax"
+    const-string/jumbo v1, "volumeMax"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 

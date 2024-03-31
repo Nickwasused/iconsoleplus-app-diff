@@ -1092,7 +1092,7 @@
 
     const/4 v0, 0x1
 
-    .line 410
+    .line 419
     :try_start_0
     invoke-static {p1, v0}, Lkotlin/time/DurationKt;->access$parseDuration(Ljava/lang/String;Z)J
 
@@ -1105,7 +1105,7 @@
     :catch_0
     move-exception v0
 
-    .line 412
+    .line 421
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1142,7 +1142,7 @@
 
     const/4 v0, 0x1
 
-    .line 438
+    .line 449
     :try_start_0
     invoke-static {p1, v0}, Lkotlin/time/DurationKt;->access$parseDuration(Ljava/lang/String;Z)J
 
@@ -1159,7 +1159,7 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 440
+    .line 451
     move-object v0, p1
 
     check-cast v0, Lkotlin/time/Duration;
@@ -1177,7 +1177,7 @@
 
     const/4 v0, 0x0
 
-    .line 427
+    .line 436
     :try_start_0
     invoke-static {p1, v0}, Lkotlin/time/DurationKt;->access$parseDuration(Ljava/lang/String;Z)J
 
@@ -1194,7 +1194,7 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 429
+    .line 438
     move-object v0, p1
 
     check-cast v0, Lkotlin/time/Duration;

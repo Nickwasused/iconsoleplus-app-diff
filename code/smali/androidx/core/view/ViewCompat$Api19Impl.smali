@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 5203
+    .line 5208
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static getAccessibilityLiveRegion(Landroid/view/View;)I
     .locals 0
 
-    .line 5224
+    .line 5229
     invoke-virtual {p0}, Landroid/view/View;->getAccessibilityLiveRegion()I
 
     move-result p0
@@ -38,7 +38,7 @@
 .method static isAttachedToWindow(Landroid/view/View;)Z
     .locals 0
 
-    .line 5214
+    .line 5219
     invoke-virtual {p0}, Landroid/view/View;->isAttachedToWindow()Z
 
     move-result p0
@@ -49,7 +49,7 @@
 .method static isLaidOut(Landroid/view/View;)Z
     .locals 0
 
-    .line 5209
+    .line 5214
     invoke-virtual {p0}, Landroid/view/View;->isLaidOut()Z
 
     move-result p0
@@ -60,7 +60,7 @@
 .method static isLayoutDirectionResolved(Landroid/view/View;)Z
     .locals 0
 
-    .line 5219
+    .line 5224
     invoke-virtual {p0}, Landroid/view/View;->isLayoutDirectionResolved()Z
 
     move-result p0
@@ -71,7 +71,7 @@
 .method static notifySubtreeAccessibilityStateChanged(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)V
     .locals 0
 
-    .line 5240
+    .line 5245
     invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;->notifySubtreeAccessibilityStateChanged(Landroid/view/View;Landroid/view/View;I)V
 
     return-void
@@ -80,7 +80,7 @@
 .method static setAccessibilityLiveRegion(Landroid/view/View;I)V
     .locals 0
 
-    .line 5229
+    .line 5234
     invoke-virtual {p0, p1}, Landroid/view/View;->setAccessibilityLiveRegion(I)V
 
     return-void
@@ -89,7 +89,7 @@
 .method static setContentChangeTypes(Landroid/view/accessibility/AccessibilityEvent;I)V
     .locals 0
 
-    .line 5234
+    .line 5239
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setContentChangeTypes(I)V
 
     return-void

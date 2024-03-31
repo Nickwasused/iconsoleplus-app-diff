@@ -27,14 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/app/PendingIntent;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pendingIntent"
-        }
-    .end annotation
 
     .line 199
     invoke-virtual {p1}, Landroid/app/PendingIntent;->getIntentSender()Landroid/content/IntentSender;
@@ -48,14 +40,6 @@
 
 .method public constructor <init>(Landroid/content/IntentSender;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "intentSender"
-        }
-    .end annotation
 
     .line 187
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -89,14 +73,6 @@
 
 .method public setFillInIntent(Landroid/content/Intent;)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fillInIntent"
-        }
-    .end annotation
 
     .line 211
     iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->mFillInIntent:Landroid/content/Intent;
@@ -106,16 +82,6 @@
 
 .method public setFlags(II)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "values",
-            "mask"
-        }
-    .end annotation
 
     .line 227
     iput p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->mFlagsValues:I

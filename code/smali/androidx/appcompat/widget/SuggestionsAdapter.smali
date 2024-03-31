@@ -905,7 +905,7 @@
 
     const-string p1, "SuggestionsAdapter"
 
-    const-string v1, "unexpected error retrieving valid column from cursor, did the remote process die?"
+    const-string/jumbo v1, "unexpected error retrieving valid column from cursor, did the remote process die?"
 
     .line 685
     invoke-static {p1, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
@@ -1263,7 +1263,7 @@
 
     if-eqz p1, :cond_2
 
-    const-string v0, "suggest_text_1"
+    const-string/jumbo v0, "suggest_text_1"
 
     .line 225
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1272,7 +1272,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mText1Col:I
 
-    const-string v0, "suggest_text_2"
+    const-string/jumbo v0, "suggest_text_2"
 
     .line 226
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1281,7 +1281,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mText2Col:I
 
-    const-string v0, "suggest_text_2_url"
+    const-string/jumbo v0, "suggest_text_2_url"
 
     .line 227
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1290,7 +1290,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mText2UrlCol:I
 
-    const-string v0, "suggest_icon_1"
+    const-string/jumbo v0, "suggest_icon_1"
 
     .line 228
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1299,7 +1299,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mIconName1Col:I
 
-    const-string v0, "suggest_icon_2"
+    const-string/jumbo v0, "suggest_icon_2"
 
     .line 229
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1308,7 +1308,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mIconName2Col:I
 
-    const-string v0, "suggest_flags"
+    const-string/jumbo v0, "suggest_flags"
 
     .line 230
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
@@ -1360,7 +1360,7 @@
     return-object v0
 
     :cond_0
-    const-string v1, "suggest_intent_query"
+    const-string/jumbo v1, "suggest_intent_query"
 
     .line 418
     invoke-static {p1, v1}, Landroidx/appcompat/widget/SuggestionsAdapter;->getColumnString(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;
@@ -1381,7 +1381,7 @@
 
     if-eqz v1, :cond_2
 
-    const-string v1, "suggest_intent_data"
+    const-string/jumbo v1, "suggest_intent_data"
 
     .line 424
     invoke-static {p1, v1}, Landroidx/appcompat/widget/SuggestionsAdapter;->getColumnString(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;
@@ -1402,7 +1402,7 @@
 
     if-eqz v1, :cond_3
 
-    const-string v1, "suggest_text_1"
+    const-string/jumbo v1, "suggest_text_1"
 
     .line 431
     invoke-static {p1, v1}, Landroidx/appcompat/widget/SuggestionsAdapter;->getColumnString(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;

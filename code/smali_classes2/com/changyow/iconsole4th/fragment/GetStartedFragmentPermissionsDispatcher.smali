@@ -27,15 +27,15 @@
 
 .field private static final PERMISSION_RLROUTEPRESSED:[Ljava/lang/String;
 
-.field private static final REQUEST_PERMISSIONFORROUTEANDROID11ANDBELOW:I = 0x1
+.field private static final REQUEST_PERMISSIONFORROUTEANDROID11ANDBELOW:I = 0x3
 
-.field private static final REQUEST_PERMISSIONFORROUTEANDROID12:I = 0x2
+.field private static final REQUEST_PERMISSIONFORROUTEANDROID12:I = 0x4
 
-.field private static final REQUEST_PERMISSIONSANDROID11ANDBELOW:I = 0x3
+.field private static final REQUEST_PERMISSIONSANDROID11ANDBELOW:I = 0x5
 
-.field private static final REQUEST_PERMISSIONSANDROID12:I = 0x4
+.field private static final REQUEST_PERMISSIONSANDROID12:I = 0x6
 
-.field private static final REQUEST_RLROUTEPRESSED:I = 0x5
+.field private static final REQUEST_RLROUTEPRESSED:I = 0x7
 
 
 # direct methods
@@ -134,25 +134,25 @@
         }
     .end annotation
 
-    const/4 v0, 0x1
+    const/4 v0, 0x3
 
     if-eq p1, v0, :cond_6
 
-    const/4 v0, 0x2
+    const/4 v0, 0x4
 
     if-eq p1, v0, :cond_5
 
-    const/4 v0, 0x3
+    const/4 v0, 0x5
 
     const/4 v1, 0x0
 
     if-eq p1, v0, :cond_3
 
-    const/4 v0, 0x4
+    const/4 v0, 0x6
 
     if-eq p1, v0, :cond_1
 
-    const/4 v0, 0x5
+    const/4 v0, 0x7
 
     if-eq p1, v0, :cond_0
 
@@ -274,7 +274,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v0, 0x1
+    const/4 v0, 0x3
 
     .line 65
     invoke-virtual {p0, v1, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -313,7 +313,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v0, 0x2
+    const/4 v0, 0x4
 
     .line 73
     invoke-virtual {p0, v1, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -363,7 +363,7 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->PENDING_PERMISSIONSANDROID11ANDBELOW:Lpermissions/dispatcher/GrantableRequest;
 
-    const/4 p1, 0x3
+    const/4 p1, 0x5
 
     .line 46
     invoke-virtual {p0, v1, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -413,7 +413,7 @@
 
     sput-object v0, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->PENDING_PERMISSIONSANDROID12:Lpermissions/dispatcher/GrantableRequest;
 
-    const/4 p1, 0x4
+    const/4 p1, 0x6
 
     .line 56
     invoke-virtual {p0, v1, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V
@@ -452,7 +452,7 @@
     goto :goto_0
 
     :cond_0
-    const/4 v0, 0x5
+    const/4 v0, 0x7
 
     .line 81
     invoke-virtual {p0, v1, v0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->requestPermissions([Ljava/lang/String;I)V

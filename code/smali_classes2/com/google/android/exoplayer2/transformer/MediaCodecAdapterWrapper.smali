@@ -349,7 +349,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string/jumbo v1, "width"
+    const-string v1, "width"
 
     .line 326
     invoke-virtual {p0, v1}, Landroid/media/MediaFormat;->getInteger(Ljava/lang/String;)I

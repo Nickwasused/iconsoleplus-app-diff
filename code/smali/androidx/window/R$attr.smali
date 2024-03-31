@@ -20,27 +20,27 @@
 
 .field public static final alwaysExpand:I = 0x7f04003a
 
-.field public static final clearTop:I = 0x7f0400e3
+.field public static final clearTop:I = 0x7f0400e6
 
-.field public static final finishPrimaryWithSecondary:I = 0x7f0401ec
+.field public static final finishPrimaryWithSecondary:I = 0x7f0401f7
 
-.field public static final finishSecondaryWithPrimary:I = 0x7f0401ed
+.field public static final finishSecondaryWithPrimary:I = 0x7f0401f8
 
-.field public static final placeholderActivityName:I = 0x7f0403d0
+.field public static final placeholderActivityName:I = 0x7f0403dd
 
-.field public static final primaryActivityName:I = 0x7f0403f1
+.field public static final primaryActivityName:I = 0x7f0403fe
 
-.field public static final secondaryActivityAction:I = 0x7f040444
+.field public static final secondaryActivityAction:I = 0x7f040451
 
-.field public static final secondaryActivityName:I = 0x7f040445
+.field public static final secondaryActivityName:I = 0x7f040452
 
-.field public static final splitLayoutDirection:I = 0x7f04047f
+.field public static final splitLayoutDirection:I = 0x7f04048c
 
-.field public static final splitMinSmallestWidth:I = 0x7f040480
+.field public static final splitMinSmallestWidth:I = 0x7f04048d
 
-.field public static final splitMinWidth:I = 0x7f040481
+.field public static final splitMinWidth:I = 0x7f04048e
 
-.field public static final splitRatio:I = 0x7f040482
+.field public static final splitRatio:I = 0x7f04048f
 
 
 # direct methods

@@ -24,16 +24,8 @@
 # direct methods
 .method constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
-    .line 123
+    .line 153
     iput-object p1, p0, Landroidx/activity/ComponentActivity$1;->this$0:Landroidx/activity/ComponentActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +38,7 @@
 .method public run()V
     .locals 3
 
-    .line 130
+    .line 161
     :try_start_0
     iget-object v0, p0, Landroidx/activity/ComponentActivity$1;->this$0:Landroidx/activity/ComponentActivity;
 
@@ -59,7 +51,7 @@
     :catch_0
     move-exception v0
 
-    .line 132
+    .line 163
     invoke-virtual {v0}, Ljava/lang/IllegalStateException;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -75,7 +67,7 @@
     :goto_0
     return-void
 
-    .line 134
+    .line 165
     :cond_0
     throw v0
 .end method

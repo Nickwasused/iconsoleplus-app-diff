@@ -1321,7 +1321,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v0, "unable to interpolate "
+    const-string/jumbo v0, "unable to interpolate "
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1457,8 +1457,6 @@
 
     :goto_1
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x384

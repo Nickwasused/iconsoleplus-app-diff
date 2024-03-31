@@ -101,7 +101,7 @@
     .line 740
     new-instance p1, Ljava/lang/RuntimeException;
 
-    const-string/jumbo p2, "unsupported field type."
+    const-string p2, "unsupported field type."
 
     invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
@@ -298,8 +298,6 @@
     move-result-object p1
 
     return-object p1
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1

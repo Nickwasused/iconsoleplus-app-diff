@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 308
+    .line 309
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static getRealSize(Landroid/view/Display;Landroid/graphics/Point;)V
     .locals 0
 
-    .line 311
+    .line 312
     invoke-virtual {p0, p1}, Landroid/view/Display;->getRealSize(Landroid/graphics/Point;)V
 
     return-void

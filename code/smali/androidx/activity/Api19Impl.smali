@@ -21,7 +21,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -48,7 +48,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 99
+    .line 98
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,11 +59,11 @@
 .method public final isAttachedToWindow(Landroid/view/View;)Z
     .locals 1
 
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 101
+    .line 100
     invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
 
     move-result p1

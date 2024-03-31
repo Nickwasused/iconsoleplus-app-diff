@@ -25,7 +25,7 @@
 
 
 # instance fields
-.field private mActivities:Ljava/util/ArrayList;
+.field private final mActivities:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",

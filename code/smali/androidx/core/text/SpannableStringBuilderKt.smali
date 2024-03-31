@@ -43,7 +43,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -255,7 +255,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "span"
+    const-string/jumbo v0, "span"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -304,7 +304,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "spans"
+    const-string/jumbo v0, "spans"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -330,8 +330,6 @@
 
     aget-object v2, p1, v1
 
-    add-int/lit8 v1, v1, 0x1
-
     invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result v3
@@ -339,6 +337,8 @@
     const/16 v4, 0x11
 
     invoke-virtual {p0, v2, v0, v3, v4}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 

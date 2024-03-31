@@ -110,7 +110,7 @@
     .line 93
     iget-object v14, v13, Lcom/google/android/exoplayer2/extractor/jpeg/MotionPhotoDescription$ContainerItem;->mime:Ljava/lang/String;
 
-    const-string/jumbo v3, "video/mp4"
+    const-string v3, "video/mp4"
 
     invoke-virtual {v3, v14}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

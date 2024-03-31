@@ -60,7 +60,7 @@
         "bmp",
         "filename",
         "saveLogo",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -308,7 +308,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string/jumbo v0, "view"
+    const-string v0, "view"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -444,7 +444,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string/jumbo v0, "view"
+    const-string v0, "view"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -465,7 +465,7 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
-    const-string/jumbo v0, "view"
+    const-string v0, "view"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -778,7 +778,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0801fa
+    const v1, 0x7f0801f8
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -831,7 +831,7 @@
 .end method
 
 .method public static final getThemeColor()Ljava/lang/String;
-    .locals 1
+    .locals 6
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
@@ -858,8 +858,49 @@
 
     return-object v0
 
+    .line 62
     :cond_0
-    const-string v0, "#ff541e"
+    sget-object v0, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
+
+    const/4 v0, 0x1
+
+    new-array v1, v0, [Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    const v3, 0xffffff
+
+    invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    const/high16 v5, 0x7f060000
+
+    invoke-virtual {v4, v5}, Landroid/content/Context;->getColor(I)I
+
+    move-result v4
+
+    and-int/2addr v3, v4
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+
+    move-result-object v0
+
+    const-string v1, "#%06X"
+
+    invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "format(format, *args)"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

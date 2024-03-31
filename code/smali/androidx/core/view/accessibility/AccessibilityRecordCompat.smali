@@ -3,6 +3,15 @@
 .source "AccessibilityRecordCompat.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api15Impl;,
+        Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api16Impl;
+    }
+.end annotation
+
+
 # instance fields
 .field private final mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
@@ -13,10 +22,10 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 43
+    .line 48
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 44
+    .line 49
     check-cast p1, Landroid/view/accessibility/AccessibilityRecord;
 
     iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
@@ -27,15 +36,15 @@
 .method public static getMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;)I
     .locals 2
 
-    .line 482
+    .line 489
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xf
 
     if-lt v0, v1, :cond_0
 
-    .line 483
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;->getMaxScrollX()I
+    .line 490
+    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api15Impl;->getMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;)I
 
     move-result p0
 
@@ -50,15 +59,15 @@
 .method public static getMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;)I
     .locals 2
 
-    .line 532
+    .line 539
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xf
 
     if-lt v0, v1, :cond_0
 
-    .line 533
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;->getMaxScrollY()I
+    .line 540
+    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api15Impl;->getMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;)I
 
     move-result p0
 
@@ -75,7 +84,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 84
+    .line 89
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
     invoke-static {}, Landroid/view/accessibility/AccessibilityRecord;->obtain()Landroid/view/accessibility/AccessibilityRecord;
@@ -92,7 +101,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 70
+    .line 75
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
     iget-object p0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
@@ -109,15 +118,15 @@
 .method public static setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
     .locals 2
 
-    .line 508
+    .line 515
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xf
 
     if-lt v0, v1, :cond_0
 
-    .line 509
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollX(I)V
+    .line 516
+    invoke-static {p0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api15Impl;->setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
 
     :cond_0
     return-void
@@ -126,15 +135,15 @@
 .method public static setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
     .locals 2
 
-    .line 558
+    .line 565
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xf
 
     if-lt v0, v1, :cond_0
 
-    .line 559
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollY(I)V
+    .line 566
+    invoke-static {p0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api15Impl;->setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
 
     :cond_0
     return-void
@@ -143,15 +152,15 @@
 .method public static setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
     .locals 2
 
-    .line 139
+    .line 145
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x10
 
     if-lt v0, v1, :cond_0
 
-    .line 140
-    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityRecord;->setSource(Landroid/view/View;I)V
+    .line 146
+    invoke-static {p0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityRecordCompat$Api16Impl;->setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
 
     :cond_0
     return-void
@@ -170,7 +179,7 @@
 
     return v0
 
-    .line 766
+    .line 773
     :cond_0
     instance-of v1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
@@ -180,36 +189,37 @@
 
     return v2
 
-    .line 769
+    .line 776
     :cond_1
     check-cast p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
-    .line 770
+    .line 777
     iget-object v1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    if-nez v1, :cond_2
+    if-nez v1, :cond_3
 
-    .line 771
+    .line 778
     iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    if-eqz p1, :cond_3
+    if-nez p1, :cond_2
 
-    return v2
+    goto :goto_0
 
-    .line 774
     :cond_2
+    move v0, v2
+
+    :goto_0
+    return v0
+
+    .line 780
+    :cond_3
     iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    if-nez p1, :cond_3
-
-    return v2
-
-    :cond_3
-    return v0
+    return p1
 .end method
 
 .method public getAddedCount()I
@@ -217,7 +227,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 572
+    .line 579
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getAddedCount()I
@@ -232,7 +242,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 663
+    .line 670
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getBeforeText()Ljava/lang/CharSequence;
@@ -247,7 +257,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 624
+    .line 631
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getClassName()Ljava/lang/CharSequence;
@@ -262,7 +272,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 689
+    .line 696
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getContentDescription()Ljava/lang/CharSequence;
@@ -277,7 +287,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 340
+    .line 347
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getCurrentItemIndex()I
@@ -292,7 +302,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 369
+    .line 376
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getFromIndex()I
@@ -307,7 +317,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 55
+    .line 60
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     return-object v0
@@ -318,7 +328,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 314
+    .line 321
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getItemCount()I
@@ -333,7 +343,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 472
+    .line 479
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->getMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;)I
@@ -348,7 +358,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 522
+    .line 529
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->getMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;)I
@@ -363,7 +373,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 715
+    .line 722
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getParcelableData()Landroid/os/Parcelable;
@@ -378,7 +388,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 598
+    .line 605
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getRemovedCount()I
@@ -393,7 +403,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 424
+    .line 431
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getScrollX()I
@@ -408,7 +418,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 448
+    .line 455
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getScrollY()I
@@ -423,7 +433,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 160
+    .line 167
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getSource()Landroid/view/accessibility/AccessibilityNodeInfo;
@@ -451,7 +461,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 651
+    .line 658
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
@@ -466,7 +476,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 399
+    .line 406
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getToIndex()I
@@ -481,7 +491,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 172
+    .line 179
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getWindowId()I
@@ -496,7 +506,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 754
+    .line 761
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     if-nez v0, :cond_0
@@ -519,7 +529,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 184
+    .line 191
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isChecked()Z
@@ -534,7 +544,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 210
+    .line 217
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isEnabled()Z
@@ -549,7 +559,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 262
+    .line 269
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isFullScreen()Z
@@ -564,7 +574,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 236
+    .line 243
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isPassword()Z
@@ -579,7 +589,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 288
+    .line 295
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isScrollable()Z
@@ -594,7 +604,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 745
+    .line 752
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->recycle()V
@@ -607,7 +617,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 586
+    .line 593
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setAddedCount(I)V
@@ -620,7 +630,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 677
+    .line 684
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setBeforeText(Ljava/lang/CharSequence;)V
@@ -633,7 +643,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 198
+    .line 205
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setChecked(Z)V
@@ -646,7 +656,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 638
+    .line 645
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
@@ -659,7 +669,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 703
+    .line 710
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setContentDescription(Ljava/lang/CharSequence;)V
@@ -672,7 +682,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 354
+    .line 361
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setCurrentItemIndex(I)V
@@ -685,7 +695,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 224
+    .line 231
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setEnabled(Z)V
@@ -698,7 +708,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 386
+    .line 393
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setFromIndex(I)V
@@ -711,7 +721,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 276
+    .line 283
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setFullScreen(Z)V
@@ -724,7 +734,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 328
+    .line 335
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setItemCount(I)V
@@ -737,7 +747,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 498
+    .line 505
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
@@ -750,7 +760,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 548
+    .line 555
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
@@ -763,7 +773,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 729
+    .line 736
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setParcelableData(Landroid/os/Parcelable;)V
@@ -776,7 +786,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 250
+    .line 257
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setPassword(Z)V
@@ -789,7 +799,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 612
+    .line 619
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setRemovedCount(I)V
@@ -802,7 +812,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 436
+    .line 443
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollX(I)V
@@ -815,7 +825,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 460
+    .line 467
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollY(I)V
@@ -828,7 +838,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 302
+    .line 309
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollable(Z)V
@@ -841,7 +851,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 98
+    .line 104
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setSource(Landroid/view/View;)V
@@ -854,7 +864,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 119
+    .line 125
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
@@ -867,7 +877,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 412
+    .line 419
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setToIndex(I)V

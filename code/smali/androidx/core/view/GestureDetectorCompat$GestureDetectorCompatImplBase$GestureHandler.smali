@@ -22,10 +22,10 @@
 .method constructor <init>(Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;)V
     .locals 0
 
-    .line 103
+    .line 106
     iput-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
-    .line 104
+    .line 107
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
     return-void
@@ -34,10 +34,10 @@
 .method constructor <init>(Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;Landroid/os/Handler;)V
     .locals 0
 
-    .line 107
+    .line 110
     iput-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
-    .line 108
+    .line 111
     invoke-virtual {p2}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
 
     move-result-object p1
@@ -52,7 +52,7 @@
 .method public handleMessage(Landroid/os/Message;)V
     .locals 3
 
-    .line 113
+    .line 116
     iget v0, p1, Landroid/os/Message;->what:I
 
     const/4 v1, 0x1
@@ -67,21 +67,21 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 124
+    .line 127
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
     iget-object p1, p1, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;->mDoubleTapListener:Landroid/view/GestureDetector$OnDoubleTapListener;
 
     if-eqz p1, :cond_4
 
-    .line 125
+    .line 128
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
     iget-boolean p1, p1, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;->mStillDown:Z
 
     if-nez p1, :cond_0
 
-    .line 126
+    .line 129
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
     iget-object p1, p1, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;->mDoubleTapListener:Landroid/view/GestureDetector$OnDoubleTapListener;
@@ -94,7 +94,7 @@
 
     goto :goto_0
 
-    .line 128
+    .line 131
     :cond_0
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
@@ -102,7 +102,7 @@
 
     goto :goto_0
 
-    .line 134
+    .line 137
     :cond_1
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -124,7 +124,7 @@
 
     throw v0
 
-    .line 119
+    .line 122
     :cond_2
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 
@@ -132,7 +132,7 @@
 
     goto :goto_0
 
-    .line 115
+    .line 118
     :cond_3
     iget-object p1, p0, Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler;->this$0:Landroidx/core/view/GestureDetectorCompat$GestureDetectorCompatImplBase;
 

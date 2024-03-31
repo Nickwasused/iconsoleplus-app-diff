@@ -1761,7 +1761,7 @@
     goto :goto_0
 
     :cond_0
-    const-string/jumbo v0, "the API"
+    const-string v0, "the API"
 
     .line 3
     :goto_0
@@ -1885,7 +1885,7 @@
     goto :goto_0
 
     :cond_0
-    const-string/jumbo v0, "the API"
+    const-string v0, "the API"
 
     .line 3
     :goto_0

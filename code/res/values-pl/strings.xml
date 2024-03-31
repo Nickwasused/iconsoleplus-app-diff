@@ -73,8 +73,6 @@
     <string name="common_signin_button_text">Zaloguj się</string>
     <string name="common_signin_button_text_long">Zaloguj się przez Google</string>
     <string name="copy">Kopiuj</string>
-    <string name="crop_image_activity_no_permissions">Przerywaniem, potrzebne uprawnienia nie zostały nadane</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Przytnij</string>
     <string name="error_icon_content_description">Błąd</string>
     <string name="exo_controls_cc_disabled_description">Włącz napisy</string>
@@ -213,7 +211,7 @@
     <string name="nav_app_bar_open_drawer_description">Otwórz panel nawigacji</string>
     <string name="not_set">Nie ustawiono</string>
     <string name="password_toggle_content_description">Pokaż hasło</string>
-    <string name="pick_image_intent_chooser_title">Wybierz źródło</string>
+    <string name="pick_image_chooser_title">Wybierz źródło</string>
     <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
     <string name="search_menu_title">Szukaj</string>
     <string name="status_bar_notification_info_overflow">999+</string>

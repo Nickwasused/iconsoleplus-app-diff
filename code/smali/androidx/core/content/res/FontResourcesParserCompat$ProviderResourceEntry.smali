@@ -33,7 +33,7 @@
 
     const/4 v0, 0x0
 
-    .line 95
+    .line 97
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;-><init>(Landroidx/core/provider/FontRequest;IILjava/lang/String;)V
 
     return-void
@@ -42,19 +42,19 @@
 .method public constructor <init>(Landroidx/core/provider/FontRequest;IILjava/lang/String;)V
     .locals 0
 
-    .line 86
+    .line 88
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 87
+    .line 89
     iput-object p1, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mRequest:Landroidx/core/provider/FontRequest;
 
-    .line 88
+    .line 90
     iput p2, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mStrategy:I
 
-    .line 89
+    .line 91
     iput p3, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mTimeoutMs:I
 
-    .line 90
+    .line 92
     iput-object p4, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mSystemFontFamilyName:Ljava/lang/String;
 
     return-void
@@ -65,7 +65,7 @@
 .method public getFetchStrategy()I
     .locals 1
 
-    .line 103
+    .line 105
     iget v0, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mStrategy:I
 
     return v0
@@ -74,7 +74,7 @@
 .method public getRequest()Landroidx/core/provider/FontRequest;
     .locals 1
 
-    .line 99
+    .line 101
     iget-object v0, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mRequest:Landroidx/core/provider/FontRequest;
 
     return-object v0
@@ -83,7 +83,7 @@
 .method public getSystemFontFamilyName()Ljava/lang/String;
     .locals 1
 
-    .line 113
+    .line 115
     iget-object v0, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mSystemFontFamilyName:Ljava/lang/String;
 
     return-object v0
@@ -92,7 +92,7 @@
 .method public getTimeout()I
     .locals 1
 
-    .line 107
+    .line 109
     iget v0, p0, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->mTimeoutMs:I
 
     return v0

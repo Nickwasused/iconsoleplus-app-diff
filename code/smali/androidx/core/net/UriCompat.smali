@@ -32,7 +32,7 @@
 
     if-eqz v0, :cond_8
 
-    const-string v4, "tel"
+    const-string/jumbo v4, "tel"
 
     .line 43
     invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -49,7 +49,7 @@
 
     if-nez v4, :cond_4
 
-    const-string v4, "sms"
+    const-string/jumbo v4, "sms"
 
     .line 44
     invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -58,7 +58,7 @@
 
     if-nez v4, :cond_4
 
-    const-string v4, "smsto"
+    const-string/jumbo v4, "smsto"
 
     invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 

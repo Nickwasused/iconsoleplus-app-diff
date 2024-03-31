@@ -52,20 +52,6 @@
 
 .method constructor <init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "intentSender",
-            "intent",
-            "flagsMask",
-            "flagsValues"
-        }
-    .end annotation
 
     .line 77
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -87,14 +73,6 @@
 
 .method constructor <init>(Landroid/os/Parcel;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
 
     .line 124
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -194,16 +172,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dest",
-            "flags"
-        }
-    .end annotation
 
     .line 151
     iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->mIntentSender:Landroid/content/IntentSender;

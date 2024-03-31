@@ -661,7 +661,7 @@
     .line 2406
     new-instance p0, Landroid/util/Pair;
 
-    const-string/jumbo v0, "video/divx"
+    const-string v0, "video/divx"
 
     invoke-direct {p0, v0, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -677,7 +677,7 @@
     .line 2408
     new-instance p0, Landroid/util/Pair;
 
-    const-string/jumbo v0, "video/3gpp"
+    const-string v0, "video/3gpp"
 
     invoke-direct {p0, v0, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -747,7 +747,7 @@
     .line 2421
     new-instance v0, Landroid/util/Pair;
 
-    const-string/jumbo v1, "video/wvc1"
+    const-string v1, "video/wvc1"
 
     invoke-static {p0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
@@ -785,7 +785,7 @@
     .line 2431
     new-instance p0, Landroid/util/Pair;
 
-    const-string/jumbo v0, "video/x-unknown"
+    const-string v0, "video/x-unknown"
 
     invoke-direct {p0, v0, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1646,7 +1646,7 @@
 
     const-string v12, "application/vobsub"
 
-    const-string/jumbo v13, "text/x-ssa"
+    const-string v13, "text/x-ssa"
 
     const-string v14, "application/x-subrip"
 
@@ -1762,7 +1762,7 @@
     goto/16 :goto_4
 
     :pswitch_3
-    const-string/jumbo v16, "video/mpeg2"
+    const-string v16, "video/mpeg2"
 
     goto/16 :goto_4
 
@@ -1802,7 +1802,7 @@
     .line 2096
     iget-object v1, v1, Lcom/google/android/exoplayer2/video/HevcConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v16, "video/hevc"
+    const-string v16, "video/hevc"
 
     goto/16 :goto_7
 
@@ -1974,7 +1974,7 @@
     goto :goto_2
 
     :pswitch_a
-    const-string/jumbo v16, "video/x-unknown"
+    const-string v16, "video/x-unknown"
 
     goto :goto_4
 
@@ -1988,12 +1988,12 @@
     goto :goto_5
 
     :pswitch_c
-    const-string/jumbo v16, "video/x-vnd.on2.vp9"
+    const-string v16, "video/x-vnd.on2.vp9"
 
     goto :goto_4
 
     :pswitch_d
-    const-string/jumbo v16, "video/x-vnd.on2.vp8"
+    const-string v16, "video/x-vnd.on2.vp8"
 
     :goto_4
     move v7, v10
@@ -2008,7 +2008,7 @@
     goto/16 :goto_e
 
     :pswitch_e
-    const-string/jumbo v16, "video/av01"
+    const-string v16, "video/av01"
 
     goto :goto_4
 
@@ -2115,7 +2115,7 @@
     .line 2089
     iget-object v1, v1, Lcom/google/android/exoplayer2/video/AvcConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v16, "video/avc"
+    const-string v16, "video/avc"
 
     :goto_7
     move v7, v10
@@ -2344,7 +2344,7 @@
     move-result-object v1
 
     :goto_d
-    const-string/jumbo v16, "video/mp4v-es"
+    const-string v16, "video/mp4v-es"
 
     goto/16 :goto_8
 
@@ -2371,7 +2371,7 @@
     .line 2254
     iget-object v3, v4, Lcom/google/android/exoplayer2/video/DolbyVisionConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v16, "video/dolby-vision"
+    const-string v16, "video/dolby-vision"
 
     :cond_27
     move-object/from16 v4, v16

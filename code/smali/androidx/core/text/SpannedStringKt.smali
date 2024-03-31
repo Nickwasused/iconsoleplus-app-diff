@@ -25,7 +25,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -138,7 +138,7 @@
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

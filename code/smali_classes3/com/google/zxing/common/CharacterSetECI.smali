@@ -423,7 +423,7 @@
     .line 50
     new-instance v1, Lcom/google/zxing/common/CharacterSetECI;
 
-    const-string v8, "windows-1250"
+    const-string/jumbo v8, "windows-1250"
 
     filled-new-array {v8}, [Ljava/lang/String;
 
@@ -444,7 +444,7 @@
     .line 51
     new-instance v7, Lcom/google/zxing/common/CharacterSetECI;
 
-    const-string v8, "windows-1251"
+    const-string/jumbo v8, "windows-1251"
 
     filled-new-array {v8}, [Ljava/lang/String;
 
@@ -465,7 +465,7 @@
     .line 52
     new-instance v1, Lcom/google/zxing/common/CharacterSetECI;
 
-    const-string v8, "windows-1252"
+    const-string/jumbo v8, "windows-1252"
 
     filled-new-array {v8}, [Ljava/lang/String;
 
@@ -486,7 +486,7 @@
     .line 53
     new-instance v3, Lcom/google/zxing/common/CharacterSetECI;
 
-    const-string v8, "windows-1256"
+    const-string/jumbo v8, "windows-1256"
 
     filled-new-array {v8}, [Ljava/lang/String;
 

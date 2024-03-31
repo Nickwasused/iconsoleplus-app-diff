@@ -144,19 +144,19 @@
 
     const-string v21, "s"
 
-    const-string v22, "t"
+    const-string/jumbo v22, "t"
 
-    const-string v23, "u"
+    const-string/jumbo v23, "u"
 
-    const-string v24, "v"
+    const-string/jumbo v24, "v"
 
-    const-string v25, "w"
+    const-string/jumbo v25, "w"
 
-    const-string v26, "x"
+    const-string/jumbo v26, "x"
 
-    const-string v27, "y"
+    const-string/jumbo v27, "y"
 
-    const-string v28, "z"
+    const-string/jumbo v28, "z"
 
     const-string v29, "CTRL_US"
 
@@ -223,11 +223,11 @@
 
     const-string v25, "`"
 
-    const-string v26, "|"
+    const-string/jumbo v26, "|"
 
-    const-string v27, "~"
+    const-string/jumbo v27, "~"
 
-    const-string v28, "\u007f"
+    const-string/jumbo v28, "\u007f"
 
     const-string v29, "CTRL_LL"
 
@@ -302,9 +302,9 @@
 
     const-string v29, "]"
 
-    const-string v30, "{"
+    const-string/jumbo v30, "{"
 
-    const-string v31, "}"
+    const-string/jumbo v31, "}"
 
     const-string v32, "CTRL_UL"
 

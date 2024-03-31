@@ -272,7 +272,7 @@
     goto :goto_2
 
     :cond_3
-    const-string/jumbo v2, "video/avc"
+    const-string v2, "video/avc"
 
     invoke-virtual {v5, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -558,7 +558,7 @@
         }
     .end annotation
 
-    const-string/jumbo v0, "sprop-parameter-sets"
+    const-string v0, "sprop-parameter-sets"
 
     .line 173
     invoke-virtual {p1, v0}, Lcom/google/common/collect/ImmutableMap;->containsKey(Ljava/lang/Object;)Z

@@ -585,7 +585,7 @@
     .line 145
     iget-object v2, v0, Lcom/google/android/gms/vision/CameraSource;->zza:Landroid/content/Context;
 
-    const-string/jumbo v5, "window"
+    const-string v5, "window"
 
     invoke-virtual {v2, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 

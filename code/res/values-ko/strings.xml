@@ -27,7 +27,6 @@
     <string name="abc_shareactionprovider_share_with">공유 대상:</string>
     <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
-    <string name="app_name">iConsole+</string>
     <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
@@ -74,8 +73,6 @@
     <string name="common_signin_button_text">로그인</string>
     <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
     <string name="copy">복사</string>
-    <string name="crop_image_activity_no_permissions">필수 권한이 없어서 취소합니다.</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">자르기</string>
     <string name="error_icon_content_description">오류</string>
     <string name="exo_controls_cc_disabled_description">자막 사용 설정</string>
@@ -268,7 +265,7 @@
     <string name="pageTitleMapMyRoute">이동경로 계획</string>
     <string name="pageTitleWorkoutHistory">트레이닝 기록</string>
     <string name="password_toggle_content_description">비밀번호 표시</string>
-    <string name="pick_image_intent_chooser_title">이미지 선택</string>
+    <string name="pick_image_chooser_title">이미지 선택</string>
     <string name="preference_copied">"'%1$s'이(가) 클립보드에 복사되었습니다."</string>
     <string name="search_menu_title">검색</string>
     <string name="status_bar_notification_info_overflow">999+</string>

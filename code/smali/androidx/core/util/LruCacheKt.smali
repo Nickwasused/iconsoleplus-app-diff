@@ -36,7 +36,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -85,7 +85,7 @@
     .line 46
     new-instance v0, Landroidx/core/util/LruCacheKt$lruCache$4;
 
-    invoke-direct {v0, p1, p2, p3, p0}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;I)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;)V
 
     check-cast v0, Landroid/util/LruCache;
 
@@ -141,7 +141,7 @@
     .line 46
     new-instance p4, Landroidx/core/util/LruCacheKt$lruCache$4;
 
-    invoke-direct {p4, p1, p2, p3, p0}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;I)V
+    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function4;)V
 
     check-cast p4, Landroid/util/LruCache;
 

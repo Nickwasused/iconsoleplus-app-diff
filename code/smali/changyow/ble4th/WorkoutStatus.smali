@@ -62,13 +62,13 @@
 
 .field private mMaxLevel:I
 
-.field private mMaxSpeed:I
+.field private mMaxSpeed:D
 
 .field private mMeterID:B
 
 .field private mMinLevel:I
 
-.field private mMinSpeed:I
+.field private mMinSpeed:D
 
 .field private mModClientID:B
 
@@ -113,7 +113,7 @@
 .end method
 
 .method public constructor <init>()V
-    .locals 8
+    .locals 7
 
     .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -147,13 +147,15 @@
     .line 85
     iput v2, p0, Lchangyow/ble4th/WorkoutStatus;->mMinLevel:I
 
-    const/16 v3, 0x14
+    const-wide/high16 v3, 0x4034000000000000L    # 20.0
 
     .line 86
-    iput v3, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:I
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:D
+
+    const-wide/16 v3, 0x0
 
     .line 87
-    iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:I
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:D
 
     .line 88
     iput v2, p0, Lchangyow/ble4th/WorkoutStatus;->mWorkoutMode:I
@@ -167,16 +169,14 @@
     .line 92
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mDuration:I
 
-    const-wide/16 v4, 0x0
-
     .line 93
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mDistance:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mDistance:D
 
     .line 94
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mCalories:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mCalories:D
 
     .line 95
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mSpeed:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mSpeed:D
 
     .line 96
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mRPM:I
@@ -185,7 +185,7 @@
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mPulse:I
 
     .line 98
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mWatt:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mWatt:D
 
     .line 99
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mTime500:I
@@ -199,24 +199,26 @@
     .line 104
     iput v2, p0, Lchangyow/ble4th/WorkoutStatus;->mDirecton:I
 
-    const-wide/high16 v6, 0x4010000000000000L    # 4.0
+    const-wide/high16 v5, 0x4010000000000000L    # 4.0
 
     .line 105
-    iput-wide v6, p0, Lchangyow/ble4th/WorkoutStatus;->mSpeedRatio:D
+    iput-wide v5, p0, Lchangyow/ble4th/WorkoutStatus;->mSpeedRatio:D
 
     .line 106
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mWattTable:I
 
-    const-wide v6, 0x4053800000000000L    # 78.0
+    const-wide v5, 0x4053800000000000L    # 78.0
 
     .line 107
-    iput-wide v6, p0, Lchangyow/ble4th/WorkoutStatus;->mWheelDiameter:D
+    iput-wide v5, p0, Lchangyow/ble4th/WorkoutStatus;->mWheelDiameter:D
 
     .line 108
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mIsManual:I
 
+    const/16 v2, 0x14
+
     .line 111
-    iput v3, p0, Lchangyow/ble4th/WorkoutStatus;->mAge:I
+    iput v2, p0, Lchangyow/ble4th/WorkoutStatus;->mAge:I
 
     .line 112
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mSex:I
@@ -234,10 +236,10 @@
     .line 117
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->bleHrBeltValue:I
 
-    const-wide/16 v2, 0x0
+    const-wide/16 v5, 0x0
 
     .line 118
-    iput-wide v2, p0, Lchangyow/ble4th/WorkoutStatus;->bleHrBeltTimestamp:J
+    iput-wide v5, p0, Lchangyow/ble4th/WorkoutStatus;->bleHrBeltTimestamp:J
 
     .line 121
     iput v1, p0, Lchangyow/ble4th/WorkoutStatus;->bleBatteryLevel:I
@@ -246,10 +248,10 @@
     iput v0, p0, Lchangyow/ble4th/WorkoutStatus;->mKeptDurtaion:I
 
     .line 124
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mKeptDistance:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mKeptDistance:D
 
     .line 125
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mKeptCalories:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mKeptCalories:D
 
     .line 128
     iput-boolean v0, p0, Lchangyow/ble4th/WorkoutStatus;->mDistanceEnabled:Z
@@ -258,7 +260,7 @@
     iput-boolean v0, p0, Lchangyow/ble4th/WorkoutStatus;->mIBikingHasPulse:Z
 
     .line 133
-    iput-wide v4, p0, Lchangyow/ble4th/WorkoutStatus;->mTargetDistance:D
+    iput-wide v3, p0, Lchangyow/ble4th/WorkoutStatus;->mTargetDistance:D
 
     return-void
 .end method
@@ -306,14 +308,14 @@
 .method public availableLevel(I)I
     .locals 1
 
-    .line 698
+    .line 708
     iget v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxLevel:I
 
     if-le p1, v0, :cond_0
 
     return v0
 
-    .line 700
+    .line 710
     :cond_0
     iget v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMinLevel:I
 
@@ -328,7 +330,7 @@
 .method public availableLevelByPercent(I)I
     .locals 2
 
-    .line 686
+    .line 696
     invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMaxLevel()I
 
     move-result v0
@@ -359,7 +361,7 @@
 
     float-to-int p1, v0
 
-    .line 687
+    .line 697
     invoke-virtual {p0, p1}, Lchangyow/ble4th/WorkoutStatus;->availableLevel(I)I
 
     move-result p1
@@ -367,10 +369,48 @@
     return p1
 .end method
 
+.method public availableSpeed(D)D
+    .locals 2
+
+    .line 717
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMaxSpeed()D
+
+    move-result-wide v0
+
+    cmpl-double v0, p1, v0
+
+    if-lez v0, :cond_0
+
+    .line 718
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMaxSpeed()D
+
+    move-result-wide p1
+
+    return-wide p1
+
+    .line 719
+    :cond_0
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMinSpeed()D
+
+    move-result-wide v0
+
+    cmpg-double v0, p1, v0
+
+    if-gez v0, :cond_1
+
+    .line 720
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMinSpeed()D
+
+    move-result-wide p1
+
+    :cond_1
+    return-wide p1
+.end method
+
 .method public availableSpeedByPercent(I)D
     .locals 4
 
-    .line 692
+    .line 702
     invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->getMaxSpeed()D
 
     move-result-wide v0
@@ -622,9 +662,7 @@
     .locals 2
 
     .line 244
-    iget v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:I
-
-    int-to-double v0, v0
+    iget-wide v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:D
 
     return-wide v0
 .end method
@@ -651,9 +689,7 @@
     .locals 2
 
     .line 254
-    iget v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:I
-
-    int-to-double v0, v0
+    iget-wide v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:D
 
     return-wide v0
 .end method
@@ -834,7 +870,7 @@
 .method public isCurveTreadmill()Z
     .locals 1
 
-    .line 648
+    .line 658
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isCurveTreadmill(B)Z
@@ -886,7 +922,7 @@
 .method public isExternalLevelAdjustRower()Z
     .locals 1
 
-    .line 598
+    .line 608
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isExternalLevelAdjustRower(B)Z
@@ -917,7 +953,7 @@
 .method public isIBiking()Z
     .locals 4
 
-    .line 574
+    .line 584
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     const/4 v1, 0x1
@@ -944,7 +980,7 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    .line 578
+    .line 588
     iget-byte v3, p0, Lchangyow/ble4th/WorkoutStatus;->mClientID:B
 
     add-int/2addr v3, v1
@@ -955,7 +991,7 @@
 
     iput-byte v1, p0, Lchangyow/ble4th/WorkoutStatus;->mModClientID:B
 
-    .line 579
+    .line 589
     iput-byte v2, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     :cond_2
@@ -974,7 +1010,7 @@
 .method public isLateral()Z
     .locals 2
 
-    .line 631
+    .line 641
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isLateral(B)Z
@@ -983,7 +1019,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 634
+    .line 644
     iget-byte v1, p0, Lchangyow/ble4th/WorkoutStatus;->mClientID:B
 
     add-int/lit8 v1, v1, 0x1
@@ -996,7 +1032,7 @@
 
     const/16 v1, -0x80
 
-    .line 635
+    .line 645
     iput-byte v1, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     :cond_0
@@ -1037,13 +1073,26 @@
 
     const/4 v1, 0x1
 
-    if-ne v0, v1, :cond_0
+    if-eq v0, v1, :cond_1
+
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->isManualRower()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->isManualBikeWithWatt()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
 
     goto :goto_0
 
     :cond_0
     const/4 v1, 0x0
 
+    :cond_1
     :goto_0
     return v1
 .end method
@@ -1051,7 +1100,7 @@
 .method public isManualBikeWithWatt()Z
     .locals 1
 
-    .line 670
+    .line 680
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isManualBikeWithWatt(B)Z
@@ -1082,7 +1131,7 @@
 .method public isManualRower()Z
     .locals 2
 
-    .line 608
+    .line 618
     invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->isRower()Z
 
     move-result v0
@@ -1093,13 +1142,21 @@
 
     iget v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxLevel:I
 
-    if-ne v0, v1, :cond_0
+    if-eq v0, v1, :cond_2
+
+    :cond_0
+    invoke-virtual {p0}, Lchangyow/ble4th/WorkoutStatus;->isExternalLevelAdjustRower()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
     const/4 v1, 0x0
 
+    :cond_2
     :goto_0
     return v1
 .end method
@@ -1107,7 +1164,7 @@
 .method public isRollerWheel()Z
     .locals 2
 
-    .line 620
+    .line 630
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isRollerWheel(B)Z
@@ -1116,7 +1173,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 623
+    .line 633
     iget-byte v1, p0, Lchangyow/ble4th/WorkoutStatus;->mClientID:B
 
     add-int/lit8 v1, v1, 0x1
@@ -1129,7 +1186,7 @@
 
     const/16 v1, -0x4c
 
-    .line 624
+    .line 634
     iput-byte v1, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     :cond_0
@@ -1139,7 +1196,7 @@
 .method public isRollerWheel(B)Z
     .locals 1
 
-    .line 613
+    .line 623
     iget-byte p1, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     const/16 v0, -0x4c
@@ -1168,7 +1225,7 @@
 .method public isRower()Z
     .locals 1
 
-    .line 586
+    .line 596
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isRower(B)Z
@@ -1185,7 +1242,7 @@
 
     if-eq p1, v0, :cond_1
 
-    .line 593
+    .line 603
     invoke-virtual {p0, p1}, Lchangyow/ble4th/WorkoutStatus;->isExternalLevelAdjustRower(B)Z
 
     move-result p1
@@ -1210,7 +1267,7 @@
 .method public isSki()Z
     .locals 1
 
-    .line 659
+    .line 669
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isSki(B)Z
@@ -1241,7 +1298,7 @@
 .method public isStepCounter()Z
     .locals 2
 
-    .line 681
+    .line 691
     iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
 
     const/16 v1, -0x70
@@ -1284,6 +1341,37 @@
     .locals 1
 
     const/16 v0, -0x2e
+
+    if-ne p1, v0, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method public isTreadmillD5()Z
+    .locals 1
+
+    .line 574
+    iget-byte v0, p0, Lchangyow/ble4th/WorkoutStatus;->mMeterID:B
+
+    invoke-virtual {p0, v0}, Lchangyow/ble4th/WorkoutStatus;->isTreadmillD5(B)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isTreadmillD5(B)Z
+    .locals 1
+
+    const/16 v0, -0x2b
 
     if-ne p1, v0, :cond_0
 
@@ -1611,11 +1699,11 @@
     return-void
 .end method
 
-.method public setMaxSpeed(I)V
+.method public setMaxSpeed(D)V
     .locals 0
 
     .line 249
-    iput p1, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:I
+    iput-wide p1, p0, Lchangyow/ble4th/WorkoutStatus;->mMaxSpeed:D
 
     return-void
 .end method
@@ -1638,11 +1726,11 @@
     return-void
 .end method
 
-.method public setMinSpeed(I)V
+.method public setMinSpeed(D)V
     .locals 0
 
     .line 259
-    iput p1, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:I
+    iput-wide p1, p0, Lchangyow/ble4th/WorkoutStatus;->mMinSpeed:D
 
     return-void
 .end method

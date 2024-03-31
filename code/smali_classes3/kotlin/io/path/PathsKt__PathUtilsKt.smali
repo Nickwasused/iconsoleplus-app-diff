@@ -5,12 +5,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPathUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PathUtils.kt\nkotlin/io/path/PathsKt__PathUtilsKt\n+ 2 ArrayIntrinsics.kt\nkotlin/ArrayIntrinsicsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,999:1\n26#2:1000\n26#2:1004\n1#3:1001\n1851#4,2:1002\n*S KotlinDebug\n*F\n+ 1 PathUtils.kt\nkotlin/io/path/PathsKt__PathUtilsKt\n*L\n219#1:1000\n572#1:1004\n438#1:1002,2\n*E\n"
+    value = "SMAP\nPathUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PathUtils.kt\nkotlin/io/path/PathsKt__PathUtilsKt\n+ 2 ArrayIntrinsics.kt\nkotlin/ArrayIntrinsicsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1132:1\n26#2:1133\n26#2:1137\n1#3:1134\n1851#4,2:1135\n*S KotlinDebug\n*F\n+ 1 PathUtils.kt\nkotlin/io/path/PathsKt__PathUtilsKt\n*L\n221#1:1133\n574#1:1137\n440#1:1135,2\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000\u00b2\u0001\n\u0000\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0017\n\u0002\u0010\u0011\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0001\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010 \n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010$\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u001a\u0011\u0010\u0016\u001a\u00020\u00022\u0006\u0010\u0017\u001a\u00020\u0001H\u0087\u0008\u001a*\u0010\u0016\u001a\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u00012\u0012\u0010\u0019\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00010\u001a\"\u00020\u0001H\u0087\u0008\u00a2\u0006\u0002\u0010\u001b\u001a?\u0010\u001c\u001a\u00020\u00022\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0007\u00a2\u0006\u0002\u0010!\u001a6\u0010\u001c\u001a\u00020\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010\"\u001aK\u0010#\u001a\u00020\u00022\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\n\u0008\u0002\u0010$\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0007\u00a2\u0006\u0002\u0010%\u001aB\u0010#\u001a\u00020\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\n\u0008\u0002\u0010$\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010&\u001a\u001c\u0010\'\u001a\u00020(2\u0006\u0010\u0017\u001a\u00020\u00022\n\u0010)\u001a\u0006\u0012\u0002\u0008\u00030*H\u0001\u001a\r\u0010+\u001a\u00020\u0002*\u00020\u0002H\u0087\u0008\u001a\r\u0010,\u001a\u00020\u0001*\u00020\u0002H\u0087\u0008\u001a.\u0010-\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u0002000\u001a\"\u000200H\u0087\u0008\u00a2\u0006\u0002\u00101\u001a\u001f\u0010-\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u00022\u0008\u0008\u0002\u00102\u001a\u000203H\u0087\u0008\u001a.\u00104\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u00105\u001a.\u00106\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u00105\u001a.\u00107\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u00105\u001a\u0015\u00108\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u0002H\u0087\u0008\u001a6\u00109\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010:\u001a\r\u0010;\u001a\u00020<*\u00020\u0002H\u0087\u0008\u001a\r\u0010=\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a\u0015\u0010>\u001a\u00020\u0002*\u00020\u00022\u0006\u0010?\u001a\u00020\u0002H\u0087\n\u001a\u0015\u0010>\u001a\u00020\u0002*\u00020\u00022\u0006\u0010?\u001a\u00020\u0001H\u0087\n\u001a&\u0010@\u001a\u000203*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010B\u001a2\u0010C\u001a\u0002HD\"\n\u0008\u0000\u0010D\u0018\u0001*\u00020E*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010F\u001a4\u0010G\u001a\u0004\u0018\u0001HD\"\n\u0008\u0000\u0010D\u0018\u0001*\u00020E*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010F\u001a\r\u0010H\u001a\u00020I*\u00020\u0002H\u0087\u0008\u001a\r\u0010J\u001a\u00020K*\u00020\u0002H\u0087\u0008\u001a.\u0010L\u001a\u00020<*\u00020\u00022\u0008\u0008\u0002\u0010M\u001a\u00020\u00012\u0012\u0010N\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020<0OH\u0087\u0008\u00f8\u0001\u0000\u001a0\u0010P\u001a\u0004\u0018\u00010Q*\u00020\u00022\u0006\u0010R\u001a\u00020\u00012\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010S\u001a&\u0010T\u001a\u00020U*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010V\u001a(\u0010W\u001a\u0004\u0018\u00010X*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010Y\u001a,\u0010Z\u001a\u0008\u0012\u0004\u0012\u00020\\0[*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010]\u001a&\u0010^\u001a\u000203*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010B\u001a\r\u0010_\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a\r\u0010`\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a\r\u0010a\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a&\u0010b\u001a\u000203*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010B\u001a\u0015\u0010c\u001a\u000203*\u00020\u00022\u0006\u0010?\u001a\u00020\u0002H\u0087\u0008\u001a\r\u0010d\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a\r\u0010e\u001a\u000203*\u00020\u0002H\u0087\u0008\u001a\u001c\u0010f\u001a\u0008\u0012\u0004\u0012\u00020\u00020g*\u00020\u00022\u0008\u0008\u0002\u0010M\u001a\u00020\u0001H\u0007\u001a.\u0010h\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u0002000\u001a\"\u000200H\u0087\u0008\u00a2\u0006\u0002\u00101\u001a\u001f\u0010h\u001a\u00020\u0002*\u00020\u00022\u0006\u0010.\u001a\u00020\u00022\u0008\u0008\u0002\u00102\u001a\u000203H\u0087\u0008\u001a&\u0010i\u001a\u000203*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010B\u001a2\u0010j\u001a\u0002Hk\"\n\u0008\u0000\u0010k\u0018\u0001*\u00020l*\u00020\u00022\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010m\u001a<\u0010j\u001a\u0010\u0012\u0004\u0012\u00020\u0001\u0012\u0006\u0012\u0004\u0018\u00010Q0n*\u00020\u00022\u0006\u0010\u001f\u001a\u00020\u00012\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010o\u001a\r\u0010p\u001a\u00020\u0002*\u00020\u0002H\u0087\u0008\u001a\u0014\u0010q\u001a\u00020\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a\u0016\u0010r\u001a\u0004\u0018\u00010\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a\u0014\u0010s\u001a\u00020\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a8\u0010t\u001a\u00020\u0002*\u00020\u00022\u0006\u0010R\u001a\u00020\u00012\u0008\u0010u\u001a\u0004\u0018\u00010Q2\u0012\u0010/\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020A0\u001a\"\u00020AH\u0087\u0008\u00a2\u0006\u0002\u0010v\u001a\u0015\u0010w\u001a\u00020\u0002*\u00020\u00022\u0006\u0010u\u001a\u00020UH\u0087\u0008\u001a\u0015\u0010x\u001a\u00020\u0002*\u00020\u00022\u0006\u0010u\u001a\u00020XH\u0087\u0008\u001a\u001b\u0010y\u001a\u00020\u0002*\u00020\u00022\u000c\u0010u\u001a\u0008\u0012\u0004\u0012\u00020\\0[H\u0087\u0008\u001a\r\u0010z\u001a\u00020\u0002*\u00020{H\u0087\u0008\u001a@\u0010|\u001a\u0002H}\"\u0004\u0008\u0000\u0010}*\u00020\u00022\u0008\u0008\u0002\u0010M\u001a\u00020\u00012\u0018\u0010~\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u007f\u0012\u0004\u0012\u0002H}0OH\u0087\u0008\u00f8\u0001\u0000\u00a2\u0006\u0003\u0010\u0080\u0001\"\u001e\u0010\u0000\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\"\u001f\u0010\u0007\u001a\u00020\u0001*\u00020\u00028\u00c6\u0002X\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0008\u0010\u0004\u001a\u0004\u0008\t\u0010\u0006\"\u001e\u0010\n\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000b\u0010\u0004\u001a\u0004\u0008\u000c\u0010\u0006\"\u001e\u0010\r\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000e\u0010\u0004\u001a\u0004\u0008\u000f\u0010\u0006\"\u001e\u0010\u0010\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0011\u0010\u0004\u001a\u0004\u0008\u0012\u0010\u0006\"\u001f\u0010\u0013\u001a\u00020\u0001*\u00020\u00028\u00c6\u0002X\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0014\u0010\u0004\u001a\u0004\u0008\u0015\u0010\u0006\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001\u00a8\u0006\u0081\u0001"
+        "\u0000\u00cc\u0001\n\u0000\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0017\n\u0002\u0010\u0011\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0001\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010 \n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010$\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u001a\u0011\u0010\u0016\u001a\u00020\u00022\u0006\u0010\u0017\u001a\u00020\u0001H\u0087\u0008\u001a*\u0010\u0016\u001a\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u00012\u0012\u0010\u0019\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00010\u001a\"\u00020\u0001H\u0087\u0008\u00a2\u0006\u0002\u0010\u001b\u001a?\u0010\u001c\u001a\u00020\u00022\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0007\u00a2\u0006\u0002\u0010!\u001a6\u0010\u001c\u001a\u00020\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010\"\u001aK\u0010#\u001a\u00020\u00022\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\n\u0008\u0002\u0010$\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0007\u00a2\u0006\u0002\u0010%\u001aB\u0010#\u001a\u00020\u00022\n\u0008\u0002\u0010\u001e\u001a\u0004\u0018\u00010\u00012\n\u0008\u0002\u0010$\u001a\u0004\u0018\u00010\u00012\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010&\u001a\u001c\u0010\'\u001a\u00020(2\u0006\u0010\u0017\u001a\u00020\u00022\n\u0010)\u001a\u0006\u0012\u0002\u0008\u00030*H\u0001\u001a4\u0010+\u001a\u0008\u0012\u0004\u0012\u00020\u00020,2\u0017\u0010-\u001a\u0013\u0012\u0004\u0012\u00020/\u0012\u0004\u0012\u0002000.\u00a2\u0006\u0002\u00081H\u0007\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0001 \u0001\u001a\r\u00102\u001a\u00020\u0002*\u00020\u0002H\u0087\u0008\u001a\r\u00103\u001a\u00020\u0001*\u00020\u0002H\u0087\u0008\u001a.\u00104\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u0002070\u001a\"\u000207H\u0087\u0008\u00a2\u0006\u0002\u00108\u001a\u001f\u00104\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u00022\u0008\u0008\u0002\u00109\u001a\u00020:H\u0087\u0008\u001a.\u0010;\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010<\u001a.\u0010=\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010<\u001a.\u0010>\u001a\u00020\u0002*\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010<\u001a\u0015\u0010?\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u0002H\u0087\u0008\u001a6\u0010@\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u00022\u001a\u0010\u001f\u001a\u000e\u0012\n\u0008\u0001\u0012\u0006\u0012\u0002\u0008\u00030 0\u001a\"\u0006\u0012\u0002\u0008\u00030 H\u0087\u0008\u00a2\u0006\u0002\u0010A\u001a\r\u0010B\u001a\u000200*\u00020\u0002H\u0087\u0008\u001a\r\u0010C\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a\u0015\u0010D\u001a\u00020\u0002*\u00020\u00022\u0006\u0010E\u001a\u00020\u0002H\u0087\n\u001a\u0015\u0010D\u001a\u00020\u0002*\u00020\u00022\u0006\u0010E\u001a\u00020\u0001H\u0087\n\u001a&\u0010F\u001a\u00020:*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010H\u001a2\u0010I\u001a\u0002HJ\"\n\u0008\u0000\u0010J\u0018\u0001*\u00020K*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010L\u001a4\u0010M\u001a\u0004\u0018\u0001HJ\"\n\u0008\u0000\u0010J\u0018\u0001*\u00020K*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010L\u001a\r\u0010N\u001a\u00020O*\u00020\u0002H\u0087\u0008\u001a\r\u0010P\u001a\u00020Q*\u00020\u0002H\u0087\u0008\u001a.\u0010R\u001a\u000200*\u00020\u00022\u0008\u0008\u0002\u0010S\u001a\u00020\u00012\u0012\u0010T\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u0002000.H\u0087\u0008\u00f8\u0001\u0000\u001a0\u0010U\u001a\u0004\u0018\u00010V*\u00020\u00022\u0006\u0010W\u001a\u00020\u00012\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010X\u001a&\u0010Y\u001a\u00020Z*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010[\u001a(\u0010\\\u001a\u0004\u0018\u00010]*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010^\u001a,\u0010_\u001a\u0008\u0012\u0004\u0012\u00020a0`*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010b\u001a&\u0010c\u001a\u00020:*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010H\u001a\r\u0010d\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a\r\u0010e\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a\r\u0010f\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a&\u0010g\u001a\u00020:*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010H\u001a\u0015\u0010h\u001a\u00020:*\u00020\u00022\u0006\u0010E\u001a\u00020\u0002H\u0087\u0008\u001a\r\u0010i\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a\r\u0010j\u001a\u00020:*\u00020\u0002H\u0087\u0008\u001a\u001c\u0010k\u001a\u0008\u0012\u0004\u0012\u00020\u00020l*\u00020\u00022\u0008\u0008\u0002\u0010S\u001a\u00020\u0001H\u0007\u001a.\u0010m\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u0002070\u001a\"\u000207H\u0087\u0008\u00a2\u0006\u0002\u00108\u001a\u001f\u0010m\u001a\u00020\u0002*\u00020\u00022\u0006\u00105\u001a\u00020\u00022\u0008\u0008\u0002\u00109\u001a\u00020:H\u0087\u0008\u001a&\u0010n\u001a\u00020:*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010H\u001a2\u0010o\u001a\u0002Hp\"\n\u0008\u0000\u0010p\u0018\u0001*\u00020q*\u00020\u00022\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010r\u001a<\u0010o\u001a\u0010\u0012\u0004\u0012\u00020\u0001\u0012\u0006\u0012\u0004\u0018\u00010V0s*\u00020\u00022\u0006\u0010\u001f\u001a\u00020\u00012\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010t\u001a\r\u0010u\u001a\u00020\u0002*\u00020\u0002H\u0087\u0008\u001a\u0014\u0010v\u001a\u00020\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a\u0016\u0010w\u001a\u0004\u0018\u00010\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a\u0014\u0010x\u001a\u00020\u0002*\u00020\u00022\u0006\u0010\u0018\u001a\u00020\u0002H\u0007\u001a8\u0010y\u001a\u00020\u0002*\u00020\u00022\u0006\u0010W\u001a\u00020\u00012\u0008\u0010z\u001a\u0004\u0018\u00010V2\u0012\u00106\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020G0\u001a\"\u00020GH\u0087\u0008\u00a2\u0006\u0002\u0010{\u001a\u0015\u0010|\u001a\u00020\u0002*\u00020\u00022\u0006\u0010z\u001a\u00020ZH\u0087\u0008\u001a\u0015\u0010}\u001a\u00020\u0002*\u00020\u00022\u0006\u0010z\u001a\u00020]H\u0087\u0008\u001a\u001b\u0010~\u001a\u00020\u0002*\u00020\u00022\u000c\u0010z\u001a\u0008\u0012\u0004\u0012\u00020a0`H\u0087\u0008\u001a\u000e\u0010\u007f\u001a\u00020\u0002*\u00030\u0080\u0001H\u0087\u0008\u001aF\u0010\u0081\u0001\u001a\u0003H\u0082\u0001\"\u0005\u0008\u0000\u0010\u0082\u0001*\u00020\u00022\u0008\u0008\u0002\u0010S\u001a\u00020\u00012\u001b\u0010\u0083\u0001\u001a\u0016\u0012\u000b\u0012\t\u0012\u0004\u0012\u00020\u00020\u0084\u0001\u0012\u0005\u0012\u0003H\u0082\u00010.H\u0087\u0008\u00f8\u0001\u0000\u00a2\u0006\u0003\u0010\u0085\u0001\u001a3\u0010\u0086\u0001\u001a\u000200*\u00020\u00022\r\u0010\u0087\u0001\u001a\u0008\u0012\u0004\u0012\u00020\u00020,2\n\u0008\u0002\u0010\u0088\u0001\u001a\u00030\u0089\u00012\t\u0008\u0002\u0010\u008a\u0001\u001a\u00020:H\u0007\u001aJ\u0010\u0086\u0001\u001a\u000200*\u00020\u00022\n\u0008\u0002\u0010\u0088\u0001\u001a\u00030\u0089\u00012\t\u0008\u0002\u0010\u008a\u0001\u001a\u00020:2\u0017\u0010-\u001a\u0013\u0012\u0004\u0012\u00020/\u0012\u0004\u0012\u0002000.\u00a2\u0006\u0002\u00081H\u0007\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0003 \u0001\u001a0\u0010\u008b\u0001\u001a\t\u0012\u0004\u0012\u00020\u00020\u0084\u0001*\u00020\u00022\u0014\u00106\u001a\u000b\u0012\u0007\u0008\u0001\u0012\u00030\u008c\u00010\u001a\"\u00030\u008c\u0001H\u0007\u00a2\u0006\u0003\u0010\u008d\u0001\"\u001e\u0010\u0000\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\"\u001f\u0010\u0007\u001a\u00020\u0001*\u00020\u00028\u00c6\u0002X\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0008\u0010\u0004\u001a\u0004\u0008\t\u0010\u0006\"\u001e\u0010\n\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000b\u0010\u0004\u001a\u0004\u0008\u000c\u0010\u0006\"\u001e\u0010\r\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u000e\u0010\u0004\u001a\u0004\u0008\u000f\u0010\u0006\"\u001e\u0010\u0010\u001a\u00020\u0001*\u00020\u00028FX\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0011\u0010\u0004\u001a\u0004\u0008\u0012\u0010\u0006\"\u001f\u0010\u0013\u001a\u00020\u0001*\u00020\u00028\u00c6\u0002X\u0087\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0014\u0010\u0004\u001a\u0004\u0008\u0015\u0010\u0006\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001\u00a8\u0006\u008e\u0001"
     }
     d2 = {
         "extension",
@@ -56,6 +56,13 @@
         "",
         "attributeViewClass",
         "Ljava/lang/Class;",
+        "fileVisitor",
+        "Ljava/nio/file/FileVisitor;",
+        "builderAction",
+        "Lkotlin/Function1;",
+        "Lkotlin/io/path/FileVisitorBuilder;",
+        "",
+        "Lkotlin/ExtensionFunctionType;",
         "absolute",
         "absolutePathString",
         "copyTo",
@@ -73,7 +80,6 @@
         "createSymbolicLinkPointingTo",
         "(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;",
         "deleteExisting",
-        "",
         "deleteIfExists",
         "div",
         "other",
@@ -92,7 +98,6 @@
         "forEachDirectoryEntry",
         "glob",
         "action",
-        "Lkotlin/Function1;",
         "getAttribute",
         "",
         "attribute",
@@ -142,6 +147,14 @@
         "block",
         "Lkotlin/sequences/Sequence;",
         "(Ljava/nio/file/Path;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;",
+        "visitFileTree",
+        "visitor",
+        "maxDepth",
+        "",
+        "followLinks",
+        "walk",
+        "Lkotlin/io/path/PathWalkOption;",
+        "(Ljava/nio/file/Path;[Lkotlin/io/path/PathWalkOption;)Lkotlin/sequences/Sequence;",
         "kotlin-stdlib-jdk7"
     }
     k = 0x5
@@ -175,7 +188,7 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 975
+    .line 977
     invoke-static {p0, v0}, Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -198,7 +211,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 987
+    .line 989
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -225,7 +238,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 94
+    .line 96
     invoke-interface {p0}, Ljava/nio/file/Path;->toAbsolutePath()Ljava/nio/file/Path;
 
     move-result-object p0
@@ -244,7 +257,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 108
+    .line 110
     invoke-interface {p0}, Ljava/nio/file/Path;->toAbsolutePath()Ljava/nio/file/Path;
 
     move-result-object p0
@@ -280,7 +293,7 @@
 
     new-array p2, p2, [Ljava/nio/file/CopyOption;
 
-    .line 219
+    .line 221
     sget-object v1, Ljava/nio/file/StandardCopyOption;->REPLACE_EXISTING:Ljava/nio/file/StandardCopyOption;
 
     check-cast v1, Ljava/nio/file/CopyOption;
@@ -292,12 +305,12 @@
     :cond_0
     new-array p2, v0, [Ljava/nio/file/CopyOption;
 
-    .line 1000
+    .line 1133
     check-cast p2, [Ljava/lang/Object;
 
     check-cast p2, [Ljava/nio/file/CopyOption;
 
-    .line 220
+    .line 222
     :goto_0
     array-length v0, p2
 
@@ -338,7 +351,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 259
+    .line 261
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -377,7 +390,7 @@
     :cond_0
     const-string p3, "<this>"
 
-    .line 218
+    .line 220
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p3, "target"
@@ -390,7 +403,7 @@
 
     new-array p2, p2, [Ljava/nio/file/CopyOption;
 
-    .line 219
+    .line 221
     sget-object p3, Ljava/nio/file/StandardCopyOption;->REPLACE_EXISTING:Ljava/nio/file/StandardCopyOption;
 
     check-cast p3, Ljava/nio/file/CopyOption;
@@ -402,12 +415,12 @@
     :cond_1
     new-array p2, p4, [Ljava/nio/file/CopyOption;
 
-    .line 1000
+    .line 1133
     check-cast p2, [Ljava/lang/Object;
 
     check-cast p2, [Ljava/nio/file/CopyOption;
 
-    .line 220
+    .line 222
     :goto_0
     array-length p3, p2
 
@@ -455,7 +468,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 529
+    .line 531
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -502,7 +515,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 507
+    .line 509
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -549,7 +562,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 859
+    .line 861
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -585,7 +598,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 804
+    .line 806
     invoke-static {p0, p1}, Ljava/nio/file/Files;->createLink(Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -629,7 +642,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 824
+    .line 826
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -672,7 +685,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 919
+    .line 921
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -718,7 +731,7 @@
 
     if-eqz p0, :cond_0
 
-    .line 939
+    .line 941
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -737,7 +750,7 @@
 
     goto :goto_0
 
-    .line 941
+    .line 943
     :cond_0
     array-length p0, p2
 
@@ -776,10 +789,10 @@
     :cond_0
     const-string p2, "attributes"
 
-    .line 918
+    .line 920
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 919
+    .line 921
     array-length p2, p1
 
     invoke-static {p1, p2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -813,7 +826,7 @@
 
     const/4 p1, 0x0
 
-    .line 937
+    .line 939
     :cond_0
     invoke-static {p0, p1, p2}, Lkotlin/io/path/PathsKt;->createTempDirectory(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;
 
@@ -846,7 +859,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 878
+    .line 880
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -893,7 +906,7 @@
 
     if-eqz p0, :cond_0
 
-    .line 899
+    .line 901
     array-length v0, p3
 
     invoke-static {p3, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -912,7 +925,7 @@
 
     goto :goto_0
 
-    .line 901
+    .line 903
     :cond_0
     array-length p0, p3
 
@@ -960,10 +973,10 @@
     :cond_1
     const-string p3, "attributes"
 
-    .line 877
+    .line 879
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 878
+    .line 880
     array-length p3, p2
 
     invoke-static {p2, p3}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1006,7 +1019,7 @@
 
     move-object p2, v0
 
-    .line 897
+    .line 899
     :cond_1
     invoke-static {p0, p1, p2, p3}, Lkotlin/io/path/PathsKt;->createTempFile(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;
 
@@ -1027,7 +1040,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 467
+    .line 469
     invoke-static {p0}, Ljava/nio/file/Files;->delete(Ljava/nio/file/Path;)V
 
     return-void
@@ -1045,7 +1058,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 484
+    .line 486
     invoke-static {p0}, Ljava/nio/file/Files;->deleteIfExists(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -1064,7 +1077,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 963
+    .line 965
     invoke-interface {p0, p1}, Ljava/nio/file/Path;->resolve(Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1087,7 +1100,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 952
+    .line 954
     invoke-interface {p0, p1}, Ljava/nio/file/Path;->resolve(Ljava/nio/file/Path;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1110,7 +1123,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 275
+    .line 277
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1146,7 +1159,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 664
+    .line 666
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1204,7 +1217,7 @@
 
     const-string v1, "V"
 
-    .line 660
+    .line 662
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->reifiedOperationMarker(ILjava/lang/String;)V
 
     const-class v2, Ljava/nio/file/attribute/FileAttributeView;
@@ -1277,7 +1290,7 @@
 
     const-string v1, "V"
 
-    .line 644
+    .line 646
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->reifiedOperationMarker(ILjava/lang/String;)V
 
     const-class v0, Ljava/nio/file/attribute/FileAttributeView;
@@ -1313,7 +1326,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 452
+    .line 454
     invoke-static {p0}, Ljava/nio/file/Files;->size(Ljava/nio/file/Path;)J
 
     move-result-wide v0
@@ -1333,7 +1346,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 586
+    .line 588
     invoke-static {p0}, Ljava/nio/file/Files;->getFileStore(Ljava/nio/file/Path;)Ljava/nio/file/FileStore;
 
     move-result-object p0
@@ -1341,6 +1354,40 @@
     const-string v0, "getFileStore(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public static final fileVisitor(Lkotlin/jvm/functions/Function1;)Ljava/nio/file/FileVisitor;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
+            "Lkotlin/io/path/FileVisitorBuilder;",
+            "Lkotlin/Unit;",
+            ">;)",
+            "Ljava/nio/file/FileVisitor<",
+            "Ljava/nio/file/Path;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "builderAction"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1130
+    new-instance v0, Lkotlin/io/path/FileVisitorBuilderImpl;
+
+    invoke-direct {v0}, Lkotlin/io/path/FileVisitorBuilderImpl;-><init>()V
+
+    invoke-interface {p0, v0}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    invoke-virtual {v0}, Lkotlin/io/path/FileVisitorBuilderImpl;->build()Ljava/nio/file/FileVisitor;
+
+    move-result-object p0
 
     return-object p0
 .end method
@@ -1378,7 +1425,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 438
+    .line 440
     invoke-static {p0, p1}, Ljava/nio/file/Files;->newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;
 
     move-result-object p0
@@ -1398,7 +1445,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 1002
+    .line 1135
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1418,7 +1465,7 @@
 
     goto :goto_0
 
-    .line 438
+    .line 440
     :cond_0
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
     :try_end_0
@@ -1473,7 +1520,7 @@
     :cond_0
     const-string p3, "<this>"
 
-    .line 437
+    .line 439
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p3, "glob"
@@ -1484,7 +1531,7 @@
 
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 438
+    .line 440
     invoke-static {p0, p1}, Ljava/nio/file/Files;->newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;
 
     move-result-object p0
@@ -1504,7 +1551,7 @@
 
     check-cast p3, Ljava/lang/Iterable;
 
-    .line 1002
+    .line 1135
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -1524,7 +1571,7 @@
 
     goto :goto_0
 
-    .line 438
+    .line 440
     :cond_1
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
     :try_end_0
@@ -1578,7 +1625,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 606
+    .line 608
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1601,7 +1648,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 45
+    .line 47
     invoke-interface {p0}, Ljava/nio/file/Path;->getFileName()Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1647,7 +1694,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 79
+    .line 81
     invoke-static {p0}, Lkotlin/io/path/PathsKt;->getInvariantSeparatorsPathString(Ljava/nio/file/Path;)Ljava/lang/String;
 
     move-result-object p0
@@ -1676,7 +1723,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 69
+    .line 71
     invoke-interface {p0}, Ljava/nio/file/Path;->getFileSystem()Ljava/nio/file/FileSystem;
 
     move-result-object v0
@@ -1687,7 +1734,7 @@
 
     const-string v0, "/"
 
-    .line 70
+    .line 72
     invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -1747,7 +1794,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 715
+    .line 717
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1774,7 +1821,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 27
+    .line 29
     invoke-interface {p0}, Ljava/nio/file/Path;->getFileName()Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1812,7 +1859,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 36
+    .line 38
     invoke-interface {p0}, Ljava/nio/file/Path;->getFileName()Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1866,7 +1913,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 743
+    .line 745
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1889,7 +1936,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 59
+    .line 61
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1932,7 +1979,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 771
+    .line 773
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1963,7 +2010,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 316
+    .line 318
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -1986,7 +2033,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 336
+    .line 338
     invoke-static {p0}, Ljava/nio/file/Files;->isExecutable(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2006,7 +2053,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 350
+    .line 352
     invoke-static {p0}, Ljava/nio/file/Files;->isHidden(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2021,7 +2068,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 360
+    .line 362
     invoke-static {p0}, Ljava/nio/file/Files;->isReadable(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2040,7 +2087,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 302
+    .line 304
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -2072,7 +2119,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 381
+    .line 383
     invoke-static {p0, p1}, Ljava/nio/file/Files;->isSameFile(Ljava/nio/file/Path;Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2087,7 +2134,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 326
+    .line 328
     invoke-static {p0}, Ljava/nio/file/Files;->isSymbolicLink(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2102,7 +2149,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 370
+    .line 372
     invoke-static {p0}, Ljava/nio/file/Files;->isWritable(Ljava/nio/file/Path;)Z
 
     move-result p0
@@ -2138,7 +2185,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 398
+    .line 400
     invoke-static {p0, p1}, Ljava/nio/file/Files;->newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;
 
     move-result-object p0
@@ -2198,7 +2245,7 @@
 
     const-string p1, "*"
 
-    .line 397
+    .line 399
     :cond_0
     invoke-static {p0, p1}, Lkotlin/io/path/PathsKt;->listDirectoryEntries(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/util/List;
 
@@ -2231,7 +2278,7 @@
 
     new-array p2, p2, [Ljava/nio/file/CopyOption;
 
-    .line 572
+    .line 574
     sget-object v1, Ljava/nio/file/StandardCopyOption;->REPLACE_EXISTING:Ljava/nio/file/StandardCopyOption;
 
     check-cast v1, Ljava/nio/file/CopyOption;
@@ -2243,12 +2290,12 @@
     :cond_0
     new-array p2, v0, [Ljava/nio/file/CopyOption;
 
-    .line 1004
+    .line 1137
     check-cast p2, [Ljava/lang/Object;
 
     check-cast p2, [Ljava/nio/file/CopyOption;
 
-    .line 573
+    .line 575
     :goto_0
     array-length v0, p2
 
@@ -2289,7 +2336,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 551
+    .line 553
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -2328,7 +2375,7 @@
     :cond_0
     const-string p3, "<this>"
 
-    .line 571
+    .line 573
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p3, "target"
@@ -2341,7 +2388,7 @@
 
     new-array p2, p2, [Ljava/nio/file/CopyOption;
 
-    .line 572
+    .line 574
     sget-object p3, Ljava/nio/file/StandardCopyOption;->REPLACE_EXISTING:Ljava/nio/file/StandardCopyOption;
 
     check-cast p3, Ljava/nio/file/CopyOption;
@@ -2353,12 +2400,12 @@
     :cond_1
     new-array p2, p4, [Ljava/nio/file/CopyOption;
 
-    .line 1004
+    .line 1137
     check-cast p2, [Ljava/lang/Object;
 
     check-cast p2, [Ljava/nio/file/CopyOption;
 
-    .line 573
+    .line 575
     :goto_0
     array-length p3, p2
 
@@ -2390,7 +2437,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 290
+    .line 292
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -2438,7 +2485,7 @@
 
     const-string v1, "A"
 
-    .line 679
+    .line 681
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->reifiedOperationMarker(ILjava/lang/String;)V
 
     const-class v0, Ljava/nio/file/attribute/BasicFileAttributes;
@@ -2505,7 +2552,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 701
+    .line 703
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -2537,7 +2584,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 840
+    .line 842
     invoke-static {p0}, Ljava/nio/file/Files;->readSymbolicLink(Ljava/nio/file/Path;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -2560,7 +2607,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 123
+    .line 125
     :try_start_0
     sget-object v0, Lkotlin/io/path/PathRelativizer;->INSTANCE:Lkotlin/io/path/PathRelativizer;
 
@@ -2575,7 +2622,7 @@
     :catch_0
     move-exception v0
 
-    .line 125
+    .line 127
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2622,7 +2669,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 152
+    .line 154
     :try_start_0
     sget-object v0, Lkotlin/io/path/PathRelativizer;->INSTANCE:Lkotlin/io/path/PathRelativizer;
 
@@ -2637,7 +2684,7 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 154
+    .line 156
     move-object p1, p0
 
     check-cast p1, Ljava/nio/file/Path;
@@ -2657,7 +2704,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 139
+    .line 141
     invoke-static {p0, p1}, Lkotlin/io/path/PathsKt;->relativeToOrNull(Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljava/nio/file/Path;
 
     move-result-object p1
@@ -2693,7 +2740,7 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 628
+    .line 630
     array-length v0, p3
 
     invoke-static {p3, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -2729,7 +2776,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 729
+    .line 731
     invoke-static {p0, p1}, Ljava/nio/file/Files;->setLastModifiedTime(Ljava/nio/file/Path;Ljava/nio/file/attribute/FileTime;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -2757,7 +2804,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 757
+    .line 759
     invoke-static {p0, p1}, Ljava/nio/file/Files;->setOwner(Ljava/nio/file/Path;Ljava/nio/file/attribute/UserPrincipal;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -2797,7 +2844,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 785
+    .line 787
     invoke-static {p0, p1}, Ljava/nio/file/Files;->setPosixFilePermissions(Ljava/nio/file/Path;Ljava/util/Set;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -2816,7 +2863,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 998
+    .line 1000
     invoke-static {p0}, Ljava/nio/file/Paths;->get(Ljava/net/URI;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -2864,7 +2911,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 419
+    .line 421
     invoke-static {p0, p1}, Ljava/nio/file/Files;->newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;
 
     move-result-object p0
@@ -2943,7 +2990,7 @@
     :cond_0
     const-string p3, "<this>"
 
-    .line 418
+    .line 420
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p3, "glob"
@@ -2954,7 +3001,7 @@
 
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 419
+    .line 421
     invoke-static {p0, p1}, Ljava/nio/file/Files;->newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;
 
     move-result-object p0
@@ -3010,4 +3057,159 @@
     invoke-static {p4}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
 
     throw p2
+.end method
+
+.method public static final visitFileTree(Ljava/nio/file/Path;IZLkotlin/jvm/functions/Function1;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/nio/file/Path;",
+            "IZ",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
+            "Lkotlin/io/path/FileVisitorBuilder;",
+            "Lkotlin/Unit;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "builderAction"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1083
+    invoke-static {p3}, Lkotlin/io/path/PathsKt;->fileVisitor(Lkotlin/jvm/functions/Function1;)Ljava/nio/file/FileVisitor;
+
+    move-result-object p3
+
+    invoke-static {p0, p3, p1, p2}, Lkotlin/io/path/PathsKt;->visitFileTree(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;IZ)V
+
+    return-void
+.end method
+
+.method public static final visitFileTree(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;IZ)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/nio/file/Path;",
+            "Ljava/nio/file/FileVisitor<",
+            "Ljava/nio/file/Path;",
+            ">;IZ)V"
+        }
+    .end annotation
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "visitor"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-eqz p3, :cond_0
+
+    .line 1035
+    sget-object p3, Ljava/nio/file/FileVisitOption;->FOLLOW_LINKS:Ljava/nio/file/FileVisitOption;
+
+    invoke-static {p3}, Lkotlin/collections/SetsKt;->setOf(Ljava/lang/Object;)Ljava/util/Set;
+
+    move-result-object p3
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {}, Lkotlin/collections/SetsKt;->emptySet()Ljava/util/Set;
+
+    move-result-object p3
+
+    .line 1036
+    :goto_0
+    invoke-static {p0, p3, p2, p1}, Ljava/nio/file/Files;->walkFileTree(Ljava/nio/file/Path;Ljava/util/Set;ILjava/nio/file/FileVisitor;)Ljava/nio/file/Path;
+
+    return-void
+.end method
+
+.method public static synthetic visitFileTree$default(Ljava/nio/file/Path;IZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x1
+
+    if-eqz p5, :cond_0
+
+    const p1, 0x7fffffff
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x2
+
+    if-eqz p4, :cond_1
+
+    const/4 p2, 0x0
+
+    .line 1077
+    :cond_1
+    invoke-static {p0, p1, p2, p3}, Lkotlin/io/path/PathsKt;->visitFileTree(Ljava/nio/file/Path;IZLkotlin/jvm/functions/Function1;)V
+
+    return-void
+.end method
+
+.method public static synthetic visitFileTree$default(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;IZILjava/lang/Object;)V
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x2
+
+    if-eqz p5, :cond_0
+
+    const p2, 0x7fffffff
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x4
+
+    if-eqz p4, :cond_1
+
+    const/4 p3, 0x0
+
+    .line 1034
+    :cond_1
+    invoke-static {p0, p1, p2, p3}, Lkotlin/io/path/PathsKt;->visitFileTree(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;IZ)V
+
+    return-void
+.end method
+
+.method public static final varargs walk(Ljava/nio/file/Path;[Lkotlin/io/path/PathWalkOption;)Lkotlin/sequences/Sequence;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/nio/file/Path;",
+            "[",
+            "Lkotlin/io/path/PathWalkOption;",
+            ")",
+            "Lkotlin/sequences/Sequence<",
+            "Ljava/nio/file/Path;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "options"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1019
+    new-instance v0, Lkotlin/io/path/PathTreeWalk;
+
+    invoke-direct {v0, p0, p1}, Lkotlin/io/path/PathTreeWalk;-><init>(Ljava/nio/file/Path;[Lkotlin/io/path/PathWalkOption;)V
+
+    check-cast v0, Lkotlin/sequences/Sequence;
+
+    return-object v0
 .end method

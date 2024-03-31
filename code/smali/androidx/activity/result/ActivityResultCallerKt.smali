@@ -29,7 +29,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -37,6 +37,22 @@
 
 
 # direct methods
+.method public static synthetic $r8$lambda$IxsKVMp9hSCX4lNHsExE1MpniBw(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda-1(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static synthetic $r8$lambda$iuyrlw5W9LCXAzBi34UVLjiGmDs(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda-0(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
 .method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/activity/result/ActivityResultRegistry;Lkotlin/jvm/functions/Function1;)Landroidx/activity/result/ActivityResultLauncher;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
@@ -77,17 +93,15 @@
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
-    new-instance v0, Landroidx/activity/result/ActivityResultCallerKt$registerForActivityResult$resultLauncher$1;
+    new-instance v0, Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda1;
 
-    invoke-direct {v0, p4}, Landroidx/activity/result/ActivityResultCallerKt$registerForActivityResult$resultLauncher$1;-><init>(Lkotlin/jvm/functions/Function1;)V
-
-    check-cast v0, Landroidx/activity/result/ActivityResultCallback;
+    invoke-direct {v0, p4}, Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda1;-><init>(Lkotlin/jvm/functions/Function1;)V
 
     invoke-interface {p0, p1, p3, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p0
 
-    const-string p3, "callback: (O) -> Unit\n): ActivityResultLauncher<Unit> {\n    val resultLauncher = registerForActivityResult(contract, registry) { callback(it) }"
+    const-string p3, "registerForActivityResul\u2026egistry) { callback(it) }"
 
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -136,17 +150,15 @@
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 53
-    new-instance v0, Landroidx/activity/result/ActivityResultCallerKt$registerForActivityResult$resultLauncher$2;
+    new-instance v0, Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda0;
 
-    invoke-direct {v0, p3}, Landroidx/activity/result/ActivityResultCallerKt$registerForActivityResult$resultLauncher$2;-><init>(Lkotlin/jvm/functions/Function1;)V
-
-    check-cast v0, Landroidx/activity/result/ActivityResultCallback;
+    invoke-direct {v0, p3}, Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda0;-><init>(Lkotlin/jvm/functions/Function1;)V
 
     invoke-interface {p0, p1, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p0
 
-    const-string p3, "callback: (O) -> Unit\n): ActivityResultLauncher<Unit> {\n    val resultLauncher = registerForActivityResult(contract) { callback(it) }"
+    const-string p3, "registerForActivityResul\u2026ontract) { callback(it) }"
 
     invoke-static {p0, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -158,4 +170,30 @@
     check-cast p3, Landroidx/activity/result/ActivityResultLauncher;
 
     return-object p3
+.end method
+
+.method private static final registerForActivityResult$lambda-0(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+    .locals 1
+
+    const-string v0, "$callback"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 37
+    invoke-interface {p0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method private static final registerForActivityResult$lambda-1(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)V
+    .locals 1
+
+    const-string v0, "$callback"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 53
+    invoke-interface {p0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
 .end method

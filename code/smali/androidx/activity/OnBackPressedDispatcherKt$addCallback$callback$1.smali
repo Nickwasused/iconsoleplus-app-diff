@@ -27,7 +27,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -35,8 +35,6 @@
 
 
 # instance fields
-.field final synthetic $enabled:Z
-
 .field final synthetic $onBackPressed:Lkotlin/jvm/functions/Function1;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -50,25 +48,23 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/functions/Function1;Z)V
+.method constructor <init>(ZLkotlin/jvm/functions/Function1;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(",
+            "(Z",
             "Lkotlin/jvm/functions/Function1<",
             "-",
             "Landroidx/activity/OnBackPressedCallback;",
             "Lkotlin/Unit;",
-            ">;Z)V"
+            ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Lkotlin/jvm/functions/Function1;
-
-    iput-boolean p2, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$enabled:Z
+    iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Lkotlin/jvm/functions/Function1;
 
     .line 35
-    invoke-direct {p0, p2}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
+    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
 
     return-void
 .end method

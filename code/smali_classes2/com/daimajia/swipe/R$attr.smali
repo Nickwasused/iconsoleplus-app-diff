@@ -16,17 +16,17 @@
 # static fields
 .field public static final bottomEdgeSwipeOffset:I = 0x7f040076
 
-.field public static final clickToClose:I = 0x7f0400e6
+.field public static final clickToClose:I = 0x7f0400e9
 
-.field public static final drag_edge:I = 0x7f0401a1
+.field public static final drag_edge:I = 0x7f0401ab
 
-.field public static final leftEdgeSwipeOffset:I = 0x7f0402eb
+.field public static final leftEdgeSwipeOffset:I = 0x7f0402f8
 
-.field public static final rightEdgeSwipeOffset:I = 0x7f04040e
+.field public static final rightEdgeSwipeOffset:I = 0x7f04041b
 
-.field public static final show_mode:I = 0x7f040464
+.field public static final show_mode:I = 0x7f040471
 
-.field public static final topEdgeSwipeOffset:I = 0x7f040563
+.field public static final topEdgeSwipeOffset:I = 0x7f04059d
 
 
 # direct methods

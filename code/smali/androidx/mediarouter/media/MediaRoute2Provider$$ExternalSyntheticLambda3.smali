@@ -36,9 +36,9 @@
 .method public final test(Ljava/lang/Object;)Z
     .locals 0
 
-    check-cast p1, Landroid/media/MediaRoute2Info;
+    check-cast p1, Landroidx/mediarouter/media/MediaRouteDescriptor;
 
-    invoke-static {p1}, Landroidx/mediarouter/media/MediaRoute2Provider;->lambda$refreshRoutes$0(Landroid/media/MediaRoute2Info;)Z
+    invoke-static {p1}, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticBackport0;->m(Ljava/lang/Object;)Z
 
     move-result p1
 

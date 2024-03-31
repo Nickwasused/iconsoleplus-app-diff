@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "userRecoveryIntent"
+    const-string v1, "userRecoveryIntent"
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;

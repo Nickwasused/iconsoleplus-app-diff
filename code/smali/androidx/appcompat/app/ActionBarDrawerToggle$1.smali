@@ -25,7 +25,7 @@
 .method constructor <init>(Landroidx/appcompat/app/ActionBarDrawerToggle;)V
     .locals 0
 
-    .line 198
+    .line 200
     iput-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,21 +38,21 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 201
+    .line 203
     iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     iget-boolean v0, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;->mDrawerIndicatorEnabled:Z
 
     if-eqz v0, :cond_0
 
-    .line 202
+    .line 204
     iget-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     invoke-virtual {p1}, Landroidx/appcompat/app/ActionBarDrawerToggle;->toggle()V
 
     goto :goto_0
 
-    .line 203
+    .line 205
     :cond_0
     iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
@@ -60,7 +60,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 204
+    .line 206
     iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     iget-object v0, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;->mToolbarNavigationClickListener:Landroid/view/View$OnClickListener;

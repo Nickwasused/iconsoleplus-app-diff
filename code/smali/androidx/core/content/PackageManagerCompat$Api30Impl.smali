@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 260
+    .line 261
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static areUnusedAppRestrictionsEnabled(Landroid/content/Context;)Z
     .locals 0
 
-    .line 264
+    .line 265
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0

@@ -32,7 +32,7 @@
     goto/16 :goto_1
 
     :sswitch_0
-    const-string v0, "staggered"
+    const-string/jumbo v0, "staggered"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -80,7 +80,7 @@
     goto :goto_1
 
     :sswitch_3
-    const-string v0, "to"
+    const-string/jumbo v0, "to"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -144,7 +144,7 @@
     goto :goto_1
 
     :sswitch_7
-    const-string v0, "transitionFlags"
+    const-string/jumbo v0, "transitionFlags"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -201,8 +201,6 @@
     const/16 p0, 0x2c3
 
     return p0
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

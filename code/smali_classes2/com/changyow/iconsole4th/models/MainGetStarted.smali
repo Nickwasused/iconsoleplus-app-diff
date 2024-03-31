@@ -28,7 +28,7 @@
         "",
         "toString",
         "",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -76,10 +76,10 @@
         }
     .end annotation
 
-    .line 177
+    .line 178
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 178
+    .line 179
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/MainGetStarted;->enabledModes:Ljava/util/List;
 
     return-void
@@ -94,7 +94,7 @@
 
     const/4 p1, 0x0
 
-    .line 177
+    .line 178
     :cond_0
     invoke-direct {p0, p1}, Lcom/changyow/iconsole4th/models/MainGetStarted;-><init>(Ljava/util/List;)V
 
@@ -212,7 +212,7 @@
         }
     .end annotation
 
-    .line 179
+    .line 180
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/MainGetStarted;->enabledModes:Ljava/util/List;
 
     return-object v0

@@ -22,7 +22,7 @@
 .method constructor <init>(Landroidx/lifecycle/ProcessLifecycleOwner$3;)V
     .locals 0
 
-    .line 171
+    .line 174
     iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3$1;->this$1:Landroidx/lifecycle/ProcessLifecycleOwner$3;
 
     invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
@@ -35,7 +35,7 @@
 .method public onActivityPostResumed(Landroid/app/Activity;)V
     .locals 0
 
-    .line 179
+    .line 182
     iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3$1;->this$1:Landroidx/lifecycle/ProcessLifecycleOwner$3;
 
     iget-object p1, p1, Landroidx/lifecycle/ProcessLifecycleOwner$3;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
@@ -48,7 +48,7 @@
 .method public onActivityPostStarted(Landroid/app/Activity;)V
     .locals 0
 
-    .line 174
+    .line 177
     iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$3$1;->this$1:Landroidx/lifecycle/ProcessLifecycleOwner$3;
 
     iget-object p1, p1, Landroidx/lifecycle/ProcessLifecycleOwner$3;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;

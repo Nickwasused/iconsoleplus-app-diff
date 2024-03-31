@@ -83,7 +83,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 63
+    .line 62
     invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$entries$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -101,7 +101,7 @@
         }
     .end annotation
 
-    .line 63
+    .line 62
     new-instance v0, Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$Entry;
 
     invoke-direct {v0, p1, p2}, Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$Entry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V

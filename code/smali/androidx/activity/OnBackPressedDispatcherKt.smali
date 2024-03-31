@@ -25,7 +25,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -61,7 +61,7 @@
     .line 35
     new-instance v0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;
 
-    invoke-direct {v0, p3, p2}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;-><init>(Lkotlin/jvm/functions/Function1;Z)V
+    invoke-direct {v0, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;-><init>(ZLkotlin/jvm/functions/Function1;)V
 
     if-eqz p1, :cond_0
 

@@ -173,7 +173,7 @@
     .line 172
     check-cast p2, Lorg/xmlpull/v1/XmlPullParser;
 
-    const-string v1, "slideEdge"
+    const-string/jumbo v1, "slideEdge"
 
     const/4 v2, 0x0
 

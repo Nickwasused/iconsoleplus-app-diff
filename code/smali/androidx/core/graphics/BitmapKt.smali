@@ -42,7 +42,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -73,19 +73,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 42
+    .line 43
     new-instance v0, Landroid/graphics/Canvas;
 
     invoke-direct {v0, p0}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 43
+    .line 44
     invoke-interface {p1, v0}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 .end method
 
 .method public static final contains(Landroid/graphics/Bitmap;Landroid/graphics/Point;)Z
-    .locals 2
+    .locals 4
 
     const-string v0, "<this>"
 
@@ -95,22 +95,34 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 128
-    iget v0, p1, Landroid/graphics/Point;->x:I
-
-    if-ltz v0, :cond_0
-
-    iget v0, p1, Landroid/graphics/Point;->x:I
-
+    .line 130
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
-    move-result v1
+    move-result v0
 
-    if-ge v0, v1, :cond_0
+    iget v1, p1, Landroid/graphics/Point;->x:I
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    if-ltz v1, :cond_0
+
+    if-ge v1, v0, :cond_0
+
+    move v0, v2
+
+    goto :goto_0
+
+    :cond_0
+    move v0, v3
+
+    :goto_0
+    if-eqz v0, :cond_1
 
     iget v0, p1, Landroid/graphics/Point;->y:I
 
-    if-ltz v0, :cond_0
+    if-ltz v0, :cond_1
 
     iget p1, p1, Landroid/graphics/Point;->y:I
 
@@ -118,17 +130,15 @@
 
     move-result p0
 
-    if-ge p1, p0, :cond_0
+    if-ge p1, p0, :cond_1
 
-    const/4 p0, 0x1
+    goto :goto_1
 
-    goto :goto_0
+    :cond_1
+    move v2, v3
 
-    :cond_0
-    const/4 p0, 0x0
-
-    :goto_0
-    return p0
+    :goto_1
+    return v2
 .end method
 
 .method public static final contains(Landroid/graphics/Bitmap;Landroid/graphics/PointF;)Z
@@ -142,7 +152,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 137
+    .line 139
     iget v0, p1, Landroid/graphics/PointF;->x:F
 
     const/4 v1, 0x0
@@ -199,7 +209,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 94
+    .line 95
     invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -222,12 +232,12 @@
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 118
+    .line 120
     invoke-static {p0, p1, p2, p3, p4}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
-    const-string p1, "createBitmap(width, height, config, hasAlpha, colorSpace)"
+    const-string p1, "createBitmap(width, heig\u2026ig, hasAlpha, colorSpace)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -241,16 +251,16 @@
 
     if-eqz p3, :cond_0
 
-    .line 92
+    .line 93
     sget-object p2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     :cond_0
     const-string p3, "config"
 
-    .line 89
+    .line 90
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 94
+    .line 95
     invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -269,7 +279,7 @@
 
     if-eqz p6, :cond_0
 
-    .line 114
+    .line 116
     sget-object p2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     :cond_0
@@ -284,7 +294,7 @@
 
     if-eqz p5, :cond_2
 
-    .line 116
+    .line 118
     sget-object p4, Landroid/graphics/ColorSpace$Named;->SRGB:Landroid/graphics/ColorSpace$Named;
 
     invoke-static {p4}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
@@ -298,19 +308,19 @@
     :cond_2
     const-string p5, "config"
 
-    .line 111
+    .line 113
     invoke-static {p2, p5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "colorSpace"
 
     invoke-static {p4, p5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 118
+    .line 120
     invoke-static {p0, p1, p2, p3, p4}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
-    const-string p1, "createBitmap(width, height, config, hasAlpha, colorSpace)"
+    const-string p1, "createBitmap(width, heig\u2026ig, hasAlpha, colorSpace)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -324,7 +334,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 51
+    .line 52
     invoke-virtual {p0, p1, p2}, Landroid/graphics/Bitmap;->getPixel(II)I
 
     move-result p0
@@ -339,7 +349,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 76
+    .line 77
     invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -363,10 +373,10 @@
     :cond_0
     const-string p4, "<this>"
 
-    .line 75
+    .line 76
     invoke-static {p0, p4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 76
+    .line 77
     invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -385,7 +395,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 62
+    .line 63
     invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->setPixel(III)V
 
     return-void

@@ -22,10 +22,10 @@
 .method constructor <init>(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;)V
     .locals 0
 
-    .line 1131
+    .line 1195
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1132
+    .line 1196
     iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     return-void
@@ -43,17 +43,17 @@
         }
     .end annotation
 
-    .line 1123
+    .line 1187
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1124
+    .line 1188
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
     if-lt v0, v1, :cond_0
 
-    .line 1125
+    .line 1189
     new-instance v0, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-direct {v0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;-><init>(Ljava/util/Map;)V
@@ -65,7 +65,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1127
+    .line 1191
     iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     :goto_0
@@ -77,14 +77,14 @@
 .method public getRegionAt(I)Landroid/graphics/Region;
     .locals 2
 
-    .line 1165
+    .line 1229
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
     if-lt v0, v1, :cond_0
 
-    .line 1166
+    .line 1230
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;->getRegionAt(I)Landroid/graphics/Region;
@@ -102,14 +102,14 @@
 .method public getRegionCount()I
     .locals 2
 
-    .line 1146
+    .line 1210
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
     if-lt v0, v1, :cond_0
 
-    .line 1147
+    .line 1211
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;->getRegionCount()I
@@ -127,14 +127,14 @@
 .method public getTargetForRegion(Landroid/graphics/Region;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
     .locals 2
 
-    .line 1193
+    .line 1257
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
     if-lt v0, v1, :cond_0
 
-    .line 1194
+    .line 1258
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;->getTargetForRegion(Landroid/graphics/Region;)Landroid/view/accessibility/AccessibilityNodeInfo;
@@ -143,7 +143,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1196
+    .line 1260
     invoke-static {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     move-result-object p1

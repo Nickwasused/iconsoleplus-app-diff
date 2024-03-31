@@ -53,7 +53,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 72
+    .line 71
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkotlin/io/LinesSequence;->reader:Ljava/io/BufferedReader;
@@ -64,7 +64,7 @@
 .method public static final synthetic access$getReader$p(Lkotlin/io/LinesSequence;)Ljava/io/BufferedReader;
     .locals 0
 
-    .line 72
+    .line 71
     iget-object p0, p0, Lkotlin/io/LinesSequence;->reader:Ljava/io/BufferedReader;
 
     return-object p0
@@ -83,7 +83,7 @@
         }
     .end annotation
 
-    .line 74
+    .line 73
     new-instance v0, Lkotlin/io/LinesSequence$iterator$1;
 
     invoke-direct {v0, p0}, Lkotlin/io/LinesSequence$iterator$1;-><init>(Lkotlin/io/LinesSequence;)V

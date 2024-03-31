@@ -173,7 +173,7 @@
     goto/16 :goto_1
 
     :sswitch_0
-    const-string/jumbo v2, "video/x-matroska"
+    const-string v2, "video/x-matroska"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -269,7 +269,7 @@
     goto/16 :goto_1
 
     :sswitch_6
-    const-string/jumbo v2, "video/mp4"
+    const-string v2, "video/mp4"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -381,7 +381,7 @@
     goto/16 :goto_1
 
     :sswitch_d
-    const-string/jumbo v2, "video/x-flv"
+    const-string v2, "video/x-flv"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -429,7 +429,7 @@
     goto/16 :goto_1
 
     :sswitch_10
-    const-string/jumbo v2, "text/vtt"
+    const-string v2, "text/vtt"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -493,7 +493,7 @@
     goto :goto_1
 
     :sswitch_14
-    const-string/jumbo v2, "video/webm"
+    const-string v2, "video/webm"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -509,7 +509,7 @@
     goto :goto_1
 
     :sswitch_15
-    const-string/jumbo v2, "video/mp2t"
+    const-string v2, "video/mp2t"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -525,7 +525,7 @@
     goto :goto_1
 
     :sswitch_16
-    const-string/jumbo v2, "video/mp2p"
+    const-string v2, "video/mp2p"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -600,6 +600,8 @@
 
     :pswitch_d
     return v16
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

@@ -163,7 +163,7 @@
 
     check-cast v1, Ljava/util/EnumSet;
 
-    const-string v1, ""
+    const-string v1, "fromInt$lambda$1"
 
     .line 23
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V

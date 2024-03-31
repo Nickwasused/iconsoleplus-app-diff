@@ -21,7 +21,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -85,10 +85,8 @@
     :catchall_0
     move-exception p1
 
-    .line 39
     invoke-static {p0}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 38
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
 
     invoke-static {p0}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V

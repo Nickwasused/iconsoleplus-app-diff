@@ -156,7 +156,7 @@
 
     if-nez p0, :cond_2
 
-    const-string/jumbo p1, "shardPreferences"
+    const-string p1, "shardPreferences"
 
     invoke-static {p1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
@@ -347,7 +347,7 @@
 
     if-nez v2, :cond_2
 
-    const-string/jumbo v4, "shardPreferences"
+    const-string v4, "shardPreferences"
 
     .line 54
     invoke-static {v4}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
@@ -364,7 +364,7 @@
     move-object v0, v2
 
     :cond_3
-    const-string/jumbo v2, "shardPreferences.getStri\u2026EVENTS_HISTORY, \"\") ?: \"\""
+    const-string v2, "shardPreferences.getStri\u2026EVENTS_HISTORY, \"\") ?: \"\""
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

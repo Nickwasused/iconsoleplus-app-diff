@@ -205,7 +205,7 @@
     goto :goto_2
 
     :cond_4
-    const-string/jumbo p1, "start index"
+    const-string p1, "start index"
 
     .line 1
     invoke-static {p0, p2, p1}, Lcom/google/android/gms/internal/location/zzbr;->zzd(IILjava/lang/String;)Ljava/lang/String;

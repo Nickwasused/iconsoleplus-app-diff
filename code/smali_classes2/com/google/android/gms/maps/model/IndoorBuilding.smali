@@ -28,7 +28,7 @@
 
     iput-object p1, p0, Lcom/google/android/gms/maps/model/IndoorBuilding;->zza:Lcom/google/android/gms/internal/maps/zzr;
 
-    const-string/jumbo p1, "shim"
+    const-string p1, "shim"
 
     .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

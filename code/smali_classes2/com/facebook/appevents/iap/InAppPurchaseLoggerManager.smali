@@ -177,7 +177,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const-string/jumbo v6, "sharedPreferences"
+    const-string v6, "sharedPreferences"
 
     if-nez v2, :cond_1
 
@@ -486,7 +486,7 @@
 
     if-nez v0, :cond_2
 
-    const-string/jumbo v3, "sharedPreferences"
+    const-string v3, "sharedPreferences"
 
     .line 64
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
@@ -756,7 +756,7 @@
 
     if-nez v0, :cond_4
 
-    const-string/jumbo v1, "sharedPreferences"
+    const-string v1, "sharedPreferences"
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
@@ -823,7 +823,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const-string/jumbo v4, "sharedPreferences"
+    const-string v4, "sharedPreferences"
 
     if-nez v3, :cond_1
 

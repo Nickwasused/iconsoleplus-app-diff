@@ -72,7 +72,7 @@
     .line 70
     iget v1, p0, Lcom/google/android/exoplayer2/Format;->width:I
 
-    const-string/jumbo v2, "width"
+    const-string v2, "width"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/exoplayer2/util/MediaFormatUtil;->maybeSetInteger(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 

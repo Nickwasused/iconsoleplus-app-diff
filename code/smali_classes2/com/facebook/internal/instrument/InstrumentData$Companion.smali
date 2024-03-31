@@ -99,7 +99,7 @@
     return-object p1
 
     :cond_0
-    const-string/jumbo v0, "shield_log_"
+    const-string v0, "shield_log_"
 
     .line 250
     invoke-static {p1, v0, v1, v2, v3}, Lkotlin/text/StringsKt;->startsWith$default(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z

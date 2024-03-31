@@ -1027,7 +1027,7 @@
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v2, "settingsJSON"
+    const-string v2, "settingsJSON"
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1189,7 +1189,7 @@
 
     move-object v5, v7
 
-    const-string/jumbo v8, "settingsJSON.optString(A\u2026_SETTING_NUX_CONTENT, \"\")"
+    const-string v8, "settingsJSON.optString(A\u2026_SETTING_NUX_CONTENT, \"\")"
 
     invoke-static {v7, v8}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1247,7 +1247,7 @@
 
     move-object/from16 v17, v12
 
-    const-string/jumbo v13, "settingsJSON.optString(S\u2026_LOGIN_BOOKMARK_ICON_URL)"
+    const-string v13, "settingsJSON.optString(S\u2026_LOGIN_BOOKMARK_ICON_URL)"
 
     move-object/from16 v0, v17
 
@@ -1264,7 +1264,7 @@
 
     move-object/from16 v23, v2
 
-    const-string/jumbo v2, "settingsJSON.optString(SMART_LOGIN_MENU_ICON_URL)"
+    const-string v2, "settingsJSON.optString(SMART_LOGIN_MENU_ICON_URL)"
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1277,7 +1277,7 @@
 
     move-object/from16 v17, v0
 
-    const-string/jumbo v2, "settingsJSON.optString(SDK_UPDATE_MESSAGE)"
+    const-string v2, "settingsJSON.optString(SDK_UPDATE_MESSAGE)"
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -70,7 +70,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/collection/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v1, "success"
+    const-string v1, "success"
 
     const/4 v2, 0x4
 

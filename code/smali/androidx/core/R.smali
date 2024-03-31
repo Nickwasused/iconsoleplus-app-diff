@@ -12,7 +12,6 @@
         Landroidx/core/R$id;,
         Landroidx/core/R$integer;,
         Landroidx/core/R$layout;,
-        Landroidx/core/R$menu;,
         Landroidx/core/R$string;,
         Landroidx/core/R$style;,
         Landroidx/core/R$styleable;

@@ -160,9 +160,9 @@
     .line 90
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance p2, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda1;
+    new-instance p2, Landroidx/emoji2/text/ConcurrencyHelpers$$ExternalSyntheticLambda0;
 
-    invoke-direct {p2, p1}, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda1;-><init>(Landroid/os/Handler;)V
+    invoke-direct {p2, p1}, Landroidx/emoji2/text/ConcurrencyHelpers$$ExternalSyntheticLambda0;-><init>(Landroid/os/Handler;)V
 
     iput-object p2, p0, Landroidx/mediarouter/media/MediaRoute2Provider;->mHandlerExecutor:Ljava/util/concurrent/Executor;
 
@@ -632,7 +632,7 @@
 
     move-result-object v0
 
-    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda3;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda3;
+    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda2;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda2;
 
     .line 158
     invoke-interface {v0, v1}, Ljava/util/stream/Stream;->filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
@@ -757,14 +757,14 @@
 
     move-result-object v0
 
-    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda2;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda2;
+    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda1;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda1;
 
     .line 179
     invoke-interface {v0, v1}, Ljava/util/stream/Stream;->map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
 
     move-result-object v0
 
-    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda4;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda4;
+    sget-object v1, Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda3;->INSTANCE:Landroidx/mediarouter/media/MediaRoute2Provider$$ExternalSyntheticLambda3;
 
     .line 180
     invoke-interface {v0, v1}, Ljava/util/stream/Stream;->filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
@@ -1189,7 +1189,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "transferTo: Specified route not found. routeId="
+    const-string/jumbo v1, "transferTo: Specified route not found. routeId="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

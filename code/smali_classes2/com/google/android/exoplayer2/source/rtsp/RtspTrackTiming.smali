@@ -151,7 +151,7 @@
     goto :goto_3
 
     :cond_1
-    const-string/jumbo v1, "url"
+    const-string v1, "url"
 
     invoke-virtual {v11, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

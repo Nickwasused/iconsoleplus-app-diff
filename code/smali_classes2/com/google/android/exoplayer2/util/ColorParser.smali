@@ -1431,7 +1431,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "sienna"
+    const-string v2, "sienna"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1442,7 +1442,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "silver"
+    const-string v2, "silver"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1453,7 +1453,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "skyblue"
+    const-string v2, "skyblue"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1464,7 +1464,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "slateblue"
+    const-string v2, "slateblue"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1475,11 +1475,11 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "slategray"
+    const-string v2, "slategray"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v2, "slategrey"
+    const-string v2, "slategrey"
 
     .line 253
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -1491,7 +1491,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "snow"
+    const-string v2, "snow"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1502,7 +1502,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "springgreen"
+    const-string v2, "springgreen"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1513,7 +1513,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "steelblue"
+    const-string v2, "steelblue"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1524,7 +1524,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "tan"
+    const-string v2, "tan"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1535,7 +1535,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "teal"
+    const-string v2, "teal"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1546,7 +1546,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "thistle"
+    const-string v2, "thistle"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1557,7 +1557,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "tomato"
+    const-string v2, "tomato"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1568,7 +1568,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "transparent"
+    const-string v2, "transparent"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1579,7 +1579,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "turquoise"
+    const-string v2, "turquoise"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1590,7 +1590,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "violet"
+    const-string v2, "violet"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1601,7 +1601,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "wheat"
+    const-string v2, "wheat"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1612,7 +1612,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "white"
+    const-string v2, "white"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1623,7 +1623,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "whitesmoke"
+    const-string v2, "whitesmoke"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

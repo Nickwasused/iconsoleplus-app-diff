@@ -22,17 +22,17 @@
 .method public constructor <init>(Landroid/content/ClipData;I)V
     .locals 2
 
-    .line 514
+    .line 517
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 515
+    .line 518
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
-    .line 516
+    .line 519
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
 
     invoke-direct {v0, p1, p2}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;-><init>(Landroid/content/ClipData;I)V
@@ -41,7 +41,7 @@
 
     goto :goto_0
 
-    .line 518
+    .line 521
     :cond_0
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
 
@@ -56,17 +56,17 @@
 .method public constructor <init>(Landroidx/core/view/ContentInfoCompat;)V
     .locals 2
 
-    .line 500
+    .line 503
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 501
+    .line 504
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
-    .line 502
+    .line 505
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
 
     invoke-direct {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;-><init>(Landroidx/core/view/ContentInfoCompat;)V
@@ -75,7 +75,7 @@
 
     goto :goto_0
 
-    .line 504
+    .line 507
     :cond_0
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
 
@@ -92,7 +92,7 @@
 .method public build()Landroidx/core/view/ContentInfoCompat;
     .locals 1
 
-    .line 589
+    .line 592
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->build()Landroidx/core/view/ContentInfoCompat;
@@ -105,7 +105,7 @@
 .method public setClip(Landroid/content/ClipData;)Landroidx/core/view/ContentInfoCompat$Builder;
     .locals 1
 
-    .line 530
+    .line 533
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setClip(Landroid/content/ClipData;)V
@@ -116,7 +116,7 @@
 .method public setExtras(Landroid/os/Bundle;)Landroidx/core/view/ContentInfoCompat$Builder;
     .locals 1
 
-    .line 580
+    .line 583
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setExtras(Landroid/os/Bundle;)V
@@ -127,7 +127,7 @@
 .method public setFlags(I)Landroidx/core/view/ContentInfoCompat$Builder;
     .locals 1
 
-    .line 555
+    .line 558
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setFlags(I)V
@@ -138,7 +138,7 @@
 .method public setLinkUri(Landroid/net/Uri;)Landroidx/core/view/ContentInfoCompat$Builder;
     .locals 1
 
-    .line 568
+    .line 571
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setLinkUri(Landroid/net/Uri;)V
@@ -149,7 +149,7 @@
 .method public setSource(I)Landroidx/core/view/ContentInfoCompat$Builder;
     .locals 1
 
-    .line 542
+    .line 545
     iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setSource(I)V

@@ -238,7 +238,7 @@
     goto :goto_0
 
     :cond_1
-    const-string/jumbo v0, "shield_log_"
+    const-string v0, "shield_log_"
 
     goto :goto_0
 

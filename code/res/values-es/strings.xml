@@ -3,7 +3,7 @@
     <string name="abc_action_bar_home_description">Ir a inicio</string>
     <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
     <string name="abc_action_menu_overflow_description">Más opciones</string>
-    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_action_mode_done">Hecho</string>
     <string name="abc_activity_chooser_view_see_all">Ver todo</string>
     <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
     <string name="abc_capital_off">DESACTIVADO</string>
@@ -27,7 +27,6 @@
     <string name="abc_shareactionprovider_share_with">Compartir con</string>
     <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
     <string name="abc_toolbar_collapse_description">Ocultar</string>
-    <string name="app_name">iConsole+</string>
     <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
     <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
@@ -74,8 +73,6 @@
     <string name="common_signin_button_text">Iniciar sesión</string>
     <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
     <string name="copy">Copiar</string>
-    <string name="crop_image_activity_no_permissions">Cancelando, los permisos requeridos no han sido otorgados</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Cortar</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exo_controls_cc_disabled_description">Habilitar subtítulos</string>
@@ -143,8 +140,8 @@
     <string name="fmt_rwquickstart__res_in_seconds" formatted="false">%d Repeticiones, en %d segundos</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ic_flip_24">Dar la vuelta</string>
-    <string name="ic_flip_24_horizontally">Voltear horizontalmente</string>
-    <string name="ic_flip_24_vertically">Voltear verticalmente</string>
+    <string name="ic_flip_24_horizontally">Girar horizontalmente</string>
+    <string name="ic_flip_24_vertically">Girar verticalmente</string>
     <string name="ic_rotate_left_24">Rotar a la izquierda</string>
     <string name="ic_rotate_right_24">Rotar a la derecha</string>
     <string name="icon_content_description">Icono del cuadro de diálogo</string>
@@ -268,7 +265,9 @@
     <string name="pageTitleMapMyRoute">Traza Mi Ruta</string>
     <string name="pageTitleWorkoutHistory">Historial de Entrenamientos</string>
     <string name="password_toggle_content_description">Mostrar contraseña</string>
-    <string name="pick_image_intent_chooser_title">Seleccionar fuente</string>
+    <string name="pick_image_camera">Cámara</string>
+    <string name="pick_image_chooser_title">Seleccionar fuente</string>
+    <string name="pick_image_gallery">Galería</string>
     <string name="preference_copied">\"%1$s\" se ha copiado en el portapapeles.</string>
     <string name="rating_dialog_cancel">Cancelar</string>
     <string name="rating_dialog_experience">Cómo fue su experiencia con nosotros?</string>

@@ -1060,7 +1060,7 @@
 
     move-result-object v3
 
-    const-string/jumbo v4, "sharable"
+    const-string v4, "sharable"
 
     .line 186
     invoke-virtual {p0}, Lcom/facebook/share/model/ShareMessengerGenericTemplateContent;->getIsSharable()Z

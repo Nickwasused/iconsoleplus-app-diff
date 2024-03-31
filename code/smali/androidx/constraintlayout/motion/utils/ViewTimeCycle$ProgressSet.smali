@@ -56,7 +56,7 @@
 
     move-object v0, p1
 
-    const-string v8, "unable to setProgress"
+    const-string/jumbo v8, "unable to setProgress"
 
     const-string v9, "ViewTimeCycle"
 

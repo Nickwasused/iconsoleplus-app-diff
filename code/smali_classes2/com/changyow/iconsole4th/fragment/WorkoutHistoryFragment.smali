@@ -64,21 +64,21 @@
 
     invoke-direct {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f120263
+    const v0, 0x7f12026b
 
     .line 167
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const v0, 0x7f1201aa
+    const v0, 0x7f1201b0
 
     .line 168
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const v0, 0x7f12027b
+    const v0, 0x7f120283
 
     new-instance v1, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment$3;
 
@@ -211,15 +211,15 @@
 
     move-result v0
 
-    const v1, 0x7f0a009e
+    const v1, 0x7f0a009d
 
     if-eq v0, v1, :cond_3
 
-    const v1, 0x7f0a00a6
+    const v1, 0x7f0a00a5
 
     if-eq v0, v1, :cond_2
 
-    const v1, 0x7f0a00b2
+    const v1, 0x7f0a00b1
 
     if-eq v0, v1, :cond_0
 
@@ -301,15 +301,15 @@
 
     move-result-object p3
 
-    const-string/jumbo v0, "user"
+    const-string v0, "user"
 
-    const-string/jumbo v1, "view"
+    const-string v1, "view"
 
     invoke-virtual {p3, v0, v1}, Lorg/matomo/sdk/extra/TrackHelper;->event(Ljava/lang/String;Ljava/lang/String;)Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;
 
     move-result-object p3
 
-    const-string/jumbo v0, "training_history"
+    const-string v0, "training_history"
 
     invoke-virtual {p3, v0}, Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;->name(Ljava/lang/String;)Lorg/matomo/sdk/extra/TrackHelper$EventBuilder;
 
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03d3
+    const p2, 0x7f0a03cd
 
     .line 64
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->rvHistory:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p2, 0x7f0a01ab
+    const p2, 0x7f0a01a9
 
     .line 65
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->fakeActionBar:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a00a6
+    const p2, 0x7f0a00a5
 
     .line 66
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->btnFilter:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a009e
+    const p2, 0x7f0a009d
 
     .line 67
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->btnDelete:Landroid/widget/ImageButton;
 
-    const p2, 0x7f0a0567
+    const p2, 0x7f0a055e
 
     .line 68
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p2, 0x7f0a00b2
+    const p2, 0x7f0a00b1
 
     .line 69
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -399,7 +399,7 @@
     .line 71
     iget-object p2, p0, Lcom/changyow/iconsole4th/fragment/WorkoutHistoryFragment;->txvTitle:Landroid/widget/TextView;
 
-    const p3, 0x7f1201f7
+    const p3, 0x7f1201fd
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -447,7 +447,7 @@
 
     invoke-virtual {p2}, Lcom/changyow/iconsole4th/adapter/WorkoutHistoryAdapter;->refresh()V
 
-    const p2, 0x7f0a03ac
+    const p2, 0x7f0a03a6
 
     .line 80
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

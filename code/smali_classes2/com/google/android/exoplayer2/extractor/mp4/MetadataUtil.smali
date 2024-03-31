@@ -512,7 +512,7 @@
     .line 468
     new-instance p1, Lcom/google/android/exoplayer2/metadata/id3/CommentFrame;
 
-    const-string/jumbo v0, "und"
+    const-string v0, "und"
 
     invoke-direct {p1, v0, p0, p0}, Lcom/google/android/exoplayer2/metadata/id3/CommentFrame;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1804,7 +1804,7 @@
 
     move-result-object p2
 
-    const-string/jumbo p3, "und"
+    const-string p3, "und"
 
     invoke-direct {p0, p3, p1, p2}, Lcom/google/android/exoplayer2/metadata/id3/CommentFrame;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 

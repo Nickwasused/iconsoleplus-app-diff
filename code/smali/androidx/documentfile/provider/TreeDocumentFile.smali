@@ -114,7 +114,7 @@
 
     iget-object v1, p0, Landroidx/documentfile/provider/TreeDocumentFile;->mUri:Landroid/net/Uri;
 
-    const-string v2, "vnd.android.document/directory"
+    const-string/jumbo v2, "vnd.android.document/directory"
 
     invoke-static {v0, v1, v2, p1}, Landroidx/documentfile/provider/TreeDocumentFile;->createFile(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 

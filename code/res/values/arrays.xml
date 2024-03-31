@@ -705,4 +705,32 @@
         <item>@string/strTitleMyTraining</item>
         <item>@string/strTitleGetStarted</item>
     </string-array>
+    <string-array name="step_counter_setting_sensor_seekbar_double">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&lt; 75 kg</item>
+        <item></item>
+        <item>&lt; 90 kg</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="step_counter_setting_sensor_seekbar_signle">
+        <item></item>
+        <item></item>
+        <item>&lt; 75 kg</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&lt; 90 kg</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
 </resources>

@@ -50,8 +50,6 @@
     <string name="common_signin_button_text">Logi sisse</string>
     <string name="common_signin_button_text_long">"Logi sisse Google'i kontoga"</string>
     <string name="copy">Kopeerimine</string>
-    <string name="crop_image_activity_no_permissions">Tühistamine, nõutavaid õiguseid ei antud</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Lõika</string>
     <string name="error_icon_content_description">Viga</string>
     <string name="exo_controls_cc_disabled_description">Luba subtiitrid</string>
@@ -190,7 +188,7 @@
     <string name="nav_app_bar_open_drawer_description">Navigeerimissahtli avamine</string>
     <string name="not_set">Määramata</string>
     <string name="password_toggle_content_description">Parooli kuvamine</string>
-    <string name="pick_image_intent_chooser_title">Valige allikas</string>
+    <string name="pick_image_chooser_title">Valige allikas</string>
     <string name="preference_copied">„%1$s” on lõikelauale kopeeritud.</string>
     <string name="search_menu_title">Otsing</string>
     <string name="status_bar_notification_info_overflow">999+</string>

@@ -24,7 +24,7 @@
 
     const-string v0, "StartupLogger"
 
-    .line 62
+    .line 71
     invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
@@ -37,6 +37,17 @@
 
     .line 52
     invoke-static {v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    return-void
+.end method
+
+.method public static w(Ljava/lang/String;)V
+    .locals 1
+
+    const-string v0, "StartupLogger"
+
+    .line 61
+    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method

@@ -1047,12 +1047,12 @@
 
     const/4 v1, 0x3
 
-    .line 2252
+    .line 2256
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 92
+    .line 96
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
@@ -1065,7 +1065,7 @@
 
     const/4 v4, 0x1
 
-    .line 2251
+    .line 2255
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -1076,7 +1076,7 @@
 
     const/4 v7, 0x6
 
-    .line 2252
+    .line 2256
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -1085,7 +1085,7 @@
 
     const/4 v8, 0x2
 
-    .line 2254
+    .line 2258
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v9
@@ -1094,14 +1094,14 @@
 
     const/16 v10, 0x8
 
-    .line 2252
+    .line 2256
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v11
 
     aput-object v11, v3, v1
 
-    .line 2251
+    .line 2255
     invoke-static {v3}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
@@ -1114,7 +1114,7 @@
 
     const/4 v12, 0x7
 
-    .line 2254
+    .line 2258
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
@@ -1129,14 +1129,14 @@
 
     const/4 v14, 0x5
 
-    .line 2255
+    .line 2259
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v15
 
     aput-object v15, v3, v1
 
-    .line 2253
+    .line 2257
     invoke-static {v3}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
@@ -1145,7 +1145,7 @@
 
     new-array v3, v1, [I
 
-    .line 2896
+    .line 2900
     fill-array-data v3, :array_0
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->BITS_PER_SAMPLE_RGB:[I
@@ -1154,47 +1154,47 @@
 
     aput v0, v3, v6
 
-    .line 2901
+    .line 2905
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->BITS_PER_SAMPLE_GREYSCALE_1:[I
 
     new-array v3, v4, [I
 
     aput v10, v3, v6
 
-    .line 2906
+    .line 2910
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->BITS_PER_SAMPLE_GREYSCALE_2:[I
 
     new-array v3, v1, [B
 
-    .line 2958
+    .line 2962
     fill-array-data v3, :array_1
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->JPEG_SIGNATURE:[B
 
     new-array v3, v0, [B
 
-    .line 2962
+    .line 2966
     fill-array-data v3, :array_2
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->HEIF_TYPE_FTYP:[B
 
     new-array v3, v0, [B
 
-    .line 2963
+    .line 2967
     fill-array-data v3, :array_3
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->HEIF_BRAND_MIF1:[B
 
     new-array v3, v0, [B
 
-    .line 2964
+    .line 2968
     fill-array-data v3, :array_4
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->HEIF_BRAND_HEIC:[B
 
     new-array v3, v7, [B
 
-    .line 2972
+    .line 2976
     fill-array-data v3, :array_5
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->ORF_MAKER_NOTE_HEADER_1:[B
@@ -1203,68 +1203,68 @@
 
     new-array v12, v3, [B
 
-    .line 2974
+    .line 2978
     fill-array-data v12, :array_6
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->ORF_MAKER_NOTE_HEADER_2:[B
 
     new-array v12, v10, [B
 
-    .line 2990
+    .line 2994
     fill-array-data v12, :array_7
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->PNG_SIGNATURE:[B
 
     new-array v12, v0, [B
 
-    .line 2994
+    .line 2998
     fill-array-data v12, :array_8
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_EXIF:[B
 
     new-array v12, v0, [B
 
-    .line 2996
+    .line 3000
     fill-array-data v12, :array_9
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_IHDR:[B
 
     new-array v12, v0, [B
 
-    .line 2998
+    .line 3002
     fill-array-data v12, :array_a
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_IEND:[B
 
     new-array v12, v0, [B
 
-    .line 3004
+    .line 3008
     fill-array-data v12, :array_b
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_1:[B
 
     new-array v12, v0, [B
 
-    .line 3005
+    .line 3009
     fill-array-data v12, :array_c
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_2:[B
 
     new-array v12, v0, [B
 
-    .line 3007
+    .line 3011
     fill-array-data v12, :array_d
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_EXIF:[B
 
     new-array v12, v1, [B
 
-    .line 3009
+    .line 3013
     fill-array-data v12, :array_e
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->WEBP_VP8_SIGNATURE:[B
 
-    .line 3012
+    .line 3016
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v12
@@ -1277,7 +1277,7 @@
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8X:[B
 
-    .line 3013
+    .line 3017
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v3
@@ -1290,7 +1290,7 @@
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8L:[B
 
-    .line 3014
+    .line 3018
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v3
@@ -1303,7 +1303,7 @@
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8:[B
 
-    .line 3015
+    .line 3019
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v3
@@ -1316,7 +1316,7 @@
 
     sput-object v3, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_ANIM:[B
 
-    .line 3016
+    .line 3020
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v3
@@ -1357,7 +1357,7 @@
 
     const-string v29, "IFD"
 
-    .line 3056
+    .line 3060
     filled-new-array/range {v16 .. v29}, [Ljava/lang/String;
 
     move-result-object v3
@@ -1368,14 +1368,14 @@
 
     new-array v12, v3, [I
 
-    .line 3061
+    .line 3065
     fill-array-data v12, :array_f
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->IFD_FORMAT_BYTES_PER_FORMAT:[I
 
     new-array v12, v10, [B
 
-    .line 3066
+    .line 3070
     fill-array-data v12, :array_10
 
     sput-object v12, Landroidx/exifinterface/media/ExifInterface;->EXIF_ASCII_PREFIX:[B
@@ -1384,7 +1384,7 @@
 
     new-array v12, v12, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3521
+    .line 3525
     new-instance v3, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v10, "NewSubfileType"
@@ -1877,7 +1877,7 @@
 
     new-array v3, v3, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3571
+    .line 3575
     new-instance v6, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v7, "ExposureTime"
@@ -2778,7 +2778,7 @@
 
     new-array v4, v4, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3649
+    .line 3653
     new-instance v6, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v7, "GPSVersionID"
@@ -3125,7 +3125,7 @@
 
     new-array v6, v0, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3686
+    .line 3690
     new-instance v7, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v10, "InteroperabilityIndex"
@@ -3138,11 +3138,11 @@
 
     sput-object v6, Landroidx/exifinterface/media/ExifInterface;->IFD_INTEROPERABILITY_TAGS:[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    const/16 v7, 0x26
+    const/16 v7, 0x25
 
     new-array v7, v7, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3690
+    .line 3694
     new-instance v10, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v14, "NewSubfileType"
@@ -3551,20 +3551,6 @@
 
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    const-string v1, "Xmp"
-
-    const/16 v8, 0x2bc
-
-    const/4 v10, 0x1
-
-    invoke-direct {v0, v1, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;II)V
-
-    const/16 v1, 0x20
-
-    aput-object v0, v7, v1
-
-    new-instance v0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-
     const-string v1, "Copyright"
 
     const v8, 0x8298
@@ -3573,7 +3559,7 @@
 
     invoke-direct {v0, v1, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;II)V
 
-    const/16 v1, 0x21
+    const/16 v1, 0x20
 
     aput-object v0, v7, v1
 
@@ -3587,7 +3573,7 @@
 
     invoke-direct {v0, v1, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;II)V
 
-    const/16 v1, 0x22
+    const/16 v1, 0x21
 
     aput-object v0, v7, v1
 
@@ -3599,7 +3585,7 @@
 
     invoke-direct {v0, v1, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;II)V
 
-    const/16 v1, 0x23
+    const/16 v1, 0x22
 
     aput-object v0, v7, v1
 
@@ -3613,7 +3599,7 @@
 
     invoke-direct {v0, v1, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;II)V
 
-    const/16 v1, 0x24
+    const/16 v1, 0x23
 
     aput-object v0, v7, v1
 
@@ -3629,13 +3615,13 @@
 
     invoke-direct {v0, v1, v8, v14, v10}, Landroidx/exifinterface/media/ExifInterface$ExifTag;-><init>(Ljava/lang/String;III)V
 
-    const/16 v1, 0x25
+    const/16 v1, 0x24
 
     aput-object v0, v7, v1
 
     sput-object v7, Landroidx/exifinterface/media/ExifInterface;->IFD_THUMBNAIL_TAGS:[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3734
+    .line 3737
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v1, "StripOffsets"
@@ -3648,7 +3634,7 @@
 
     new-array v0, v14, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3738
+    .line 3741
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v8, "ThumbnailImage"
@@ -3693,7 +3679,7 @@
 
     new-array v1, v8, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3743
+    .line 3746
     new-instance v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v10, "PreviewImageStart"
@@ -3724,7 +3710,7 @@
 
     new-array v8, v10, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3747
+    .line 3750
     new-instance v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v14, "AspectFrame"
@@ -3747,7 +3733,7 @@
 
     new-array v14, v11, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3751
+    .line 3754
     new-instance v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v10, "ColorSpace"
@@ -3804,12 +3790,12 @@
 
     aput-object v14, v10, v0
 
-    .line 3779
+    .line 3782
     sput-object v10, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     new-array v0, v3, [Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3785
+    .line 3788
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     const-string v3, "SubIFDPointer"
@@ -3884,21 +3870,21 @@
 
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_POINTER_TAGS:[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 3796
+    .line 3799
     array-length v0, v10
 
     new-array v0, v0, [Ljava/util/HashMap;
 
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForReading:[Ljava/util/HashMap;
 
-    .line 3800
+    .line 3803
     array-length v0, v10
 
     new-array v0, v0, [Ljava/util/HashMap;
 
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForWriting:[Ljava/util/HashMap;
 
-    .line 3802
+    .line 3805
     new-instance v0, Ljava/util/HashSet;
 
     const-string v1, "FNumber"
@@ -3923,7 +3909,7 @@
 
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->sTagSetForCompatibility:Ljava/util/HashSet;
 
-    .line 3807
+    .line 3810
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -3932,7 +3918,7 @@
 
     const-string v0, "US-ASCII"
 
-    .line 3814
+    .line 3817
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -3941,7 +3927,7 @@
 
     const-string v1, "Exif\u0000\u0000"
 
-    .line 3816
+    .line 3819
     invoke-virtual {v1, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object v1
@@ -3950,19 +3936,19 @@
 
     const-string v1, "http://ns.adobe.com/xap/1.0/\u0000"
 
-    .line 3819
+    .line 3822
     invoke-virtual {v1, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object v0
 
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_XMP_APP1:[B
 
-    .line 3861
+    .line 3864
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v2, "yyyy:MM:dd HH:mm:ss"
+    const-string/jumbo v2, "yyyy:MM:dd HH:mm:ss"
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -3970,19 +3956,19 @@
 
     const-string v1, "UTC"
 
-    .line 3862
+    .line 3865
     invoke-static {v1}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->setTimeZone(Ljava/util/TimeZone;)V
 
-    .line 3863
+    .line 3866
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v2, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v2, "yyyy-MM-dd HH:mm:ss"
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -3990,7 +3976,7 @@
 
     const-string v1, "UTC"
 
-    .line 3864
+    .line 3867
     invoke-static {v1}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v1
@@ -3999,7 +3985,7 @@
 
     const/4 v7, 0x0
 
-    .line 3867
+    .line 3870
     :goto_0
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -4007,7 +3993,7 @@
 
     if-ge v7, v1, :cond_1
 
-    .line 3868
+    .line 3871
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForReading:[Ljava/util/HashMap;
 
     new-instance v2, Ljava/util/HashMap;
@@ -4016,7 +4002,7 @@
 
     aput-object v2, v1, v7
 
-    .line 3869
+    .line 3872
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForWriting:[Ljava/util/HashMap;
 
     new-instance v2, Ljava/util/HashMap;
@@ -4025,7 +4011,7 @@
 
     aput-object v2, v1, v7
 
-    .line 3870
+    .line 3873
     aget-object v0, v0, v7
 
     array-length v1, v0
@@ -4037,7 +4023,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3871
+    .line 3874
     sget-object v4, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForReading:[Ljava/util/HashMap;
 
     aget-object v4, v4, v7
@@ -4050,7 +4036,7 @@
 
     invoke-virtual {v4, v6, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3872
+    .line 3875
     sget-object v4, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForWriting:[Ljava/util/HashMap;
 
     aget-object v4, v4, v7
@@ -4068,7 +4054,7 @@
 
     goto :goto_0
 
-    .line 3877
+    .line 3880
     :cond_1
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->sExifPointerTagMap:Ljava/util/HashMap;
 
@@ -4088,7 +4074,7 @@
 
     const/4 v2, 0x1
 
-    .line 3878
+    .line 3881
     aget-object v2, v1, v2
 
     iget v2, v2, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
@@ -4101,7 +4087,7 @@
 
     const/4 v2, 0x2
 
-    .line 3879
+    .line 3882
     aget-object v2, v1, v2
 
     iget v2, v2, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
@@ -4114,7 +4100,7 @@
 
     const/4 v2, 0x3
 
-    .line 3880
+    .line 3883
     aget-object v2, v1, v2
 
     iget v2, v2, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
@@ -4129,7 +4115,7 @@
 
     const/4 v2, 0x4
 
-    .line 3881
+    .line 3884
     aget-object v2, v1, v2
 
     iget v2, v2, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
@@ -4144,7 +4130,7 @@
 
     const/4 v2, 0x5
 
-    .line 3882
+    .line 3885
     aget-object v1, v1, v2
 
     iget v1, v1, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
@@ -4159,7 +4145,7 @@
 
     const-string v0, ".*[1-9].*"
 
-    .line 3913
+    .line 3916
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -4168,7 +4154,7 @@
 
     const-string v0, "^(\\d{2}):(\\d{2}):(\\d{2})$"
 
-    .line 3916
+    .line 3919
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -4177,7 +4163,7 @@
 
     const-string v0, "^(\\d{4}):(\\d{2}):(\\d{2})\\s(\\d{2}):(\\d{2}):(\\d{2})$"
 
-    .line 3919
+    .line 3922
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -4186,7 +4172,7 @@
 
     const-string v0, "^(\\d{4})-(\\d{2})-(\\d{2})\\s(\\d{2}):(\\d{2}):(\\d{2})$"
 
-    .line 3922
+    .line 3925
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -4369,10 +4355,10 @@
         }
     .end annotation
 
-    .line 3933
+    .line 3936
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3890
+    .line 3893
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v1, v0
@@ -4381,7 +4367,7 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
-    .line 3892
+    .line 3895
     new-instance v1, Ljava/util/HashSet;
 
     array-length v0, v0
@@ -4390,17 +4376,17 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
-    .line 3893
+    .line 3896
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     const-string v0, "file cannot be null"
 
-    .line 3935
+    .line 3938
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3937
+    .line 3940
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object p1
@@ -4418,10 +4404,10 @@
         }
     .end annotation
 
-    .line 3964
+    .line 3967
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3890
+    .line 3893
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v1, v0
@@ -4430,7 +4416,7 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
-    .line 3892
+    .line 3895
     new-instance v1, Ljava/util/HashSet;
 
     array-length v0, v0
@@ -4439,27 +4425,27 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
-    .line 3893
+    .line 3896
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     const-string v0, "fileDescriptor cannot be null"
 
-    .line 3966
+    .line 3969
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
-    .line 3968
+    .line 3971
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 3969
+    .line 3972
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 3972
+    .line 3975
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x15
@@ -4472,10 +4458,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3973
+    .line 3976
     iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
-    .line 3978
+    .line 3981
     :try_start_0
     invoke-static {p1}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->dup(Ljava/io/FileDescriptor;)Ljava/io/FileDescriptor;
 
@@ -4490,7 +4476,7 @@
     :catch_0
     move-exception p1
 
-    .line 3981
+    .line 3984
     new-instance v0, Ljava/io/IOException;
 
     const-string v1, "Failed to duplicate file descriptor"
@@ -4499,11 +4485,11 @@
 
     throw v0
 
-    .line 3984
+    .line 3987
     :cond_0
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
-    .line 3988
+    .line 3991
     :goto_0
     :try_start_1
     new-instance v2, Ljava/io/FileInputStream;
@@ -4512,18 +4498,18 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3989
+    .line 3992
     :try_start_2
     invoke-direct {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->loadAttributes(Ljava/io/InputStream;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 3991
+    .line 3994
     invoke-static {v2}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     if-eqz v1, :cond_1
 
-    .line 3993
+    .line 3996
     invoke-static {p1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeFileDescriptor(Ljava/io/FileDescriptor;)V
 
     :cond_1
@@ -4543,16 +4529,16 @@
 
     move-object v0, v4
 
-    .line 3991
+    .line 3994
     :goto_1
     invoke-static {v2}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     if-eqz v1, :cond_2
 
-    .line 3993
+    .line 3996
     invoke-static {p1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeFileDescriptor(Ljava/io/FileDescriptor;)V
 
-    .line 3995
+    .line 3998
     :cond_2
     throw v0
 .end method
@@ -4567,7 +4553,7 @@
 
     const/4 v0, 0x0
 
-    .line 4008
+    .line 4011
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;-><init>(Ljava/io/InputStream;I)V
 
     return-void
@@ -4581,10 +4567,10 @@
         }
     .end annotation
 
-    .line 4024
+    .line 4027
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3890
+    .line 3893
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v1, v0
@@ -4593,7 +4579,7 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
-    .line 3892
+    .line 3895
     new-instance v1, Ljava/util/HashSet;
 
     array-length v0, v0
@@ -4602,19 +4588,19 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
-    .line 3893
+    .line 3896
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     const-string v0, "inputStream cannot be null"
 
-    .line 4026
+    .line 4029
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
-    .line 4028
+    .line 4031
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -4631,7 +4617,7 @@
     :goto_0
     if-eqz p2, :cond_2
 
-    .line 4032
+    .line 4035
     new-instance p2, Ljava/io/BufferedInputStream;
 
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
@@ -4640,7 +4626,7 @@
 
     invoke-direct {p2, p1, v2}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;I)V
 
-    .line 4033
+    .line 4036
     move-object p1, p2
 
     check-cast p1, Ljava/io/BufferedInputStream;
@@ -4655,44 +4641,44 @@
 
     const-string p2, "Given data does not follow the structure of an Exif-only data."
 
-    .line 4034
+    .line 4037
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
-    .line 4037
+    .line 4040
     :cond_1
     iput-boolean v1, p0, Landroidx/exifinterface/media/ExifInterface;->mIsExifDataOnly:Z
 
-    .line 4038
+    .line 4041
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 4039
+    .line 4042
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     move-object p1, p2
 
     goto :goto_1
 
-    .line 4041
+    .line 4044
     :cond_2
     instance-of p2, p1, Landroid/content/res/AssetManager$AssetInputStream;
 
     if-eqz p2, :cond_3
 
-    .line 4042
+    .line 4045
     move-object p2, p1
 
     check-cast p2, Landroid/content/res/AssetManager$AssetInputStream;
 
     iput-object p2, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 4043
+    .line 4046
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     goto :goto_1
 
-    .line 4044
+    .line 4047
     :cond_3
     instance-of p2, p1, Ljava/io/FileInputStream;
 
@@ -4702,7 +4688,7 @@
 
     check-cast p2, Ljava/io/FileInputStream;
 
-    .line 4045
+    .line 4048
     invoke-virtual {p2}, Ljava/io/FileInputStream;->getFD()Ljava/io/FileDescriptor;
 
     move-result-object v1
@@ -4713,10 +4699,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 4046
+    .line 4049
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 4047
+    .line 4050
     invoke-virtual {p2}, Ljava/io/FileInputStream;->getFD()Ljava/io/FileDescriptor;
 
     move-result-object p2
@@ -4725,14 +4711,14 @@
 
     goto :goto_1
 
-    .line 4049
+    .line 4052
     :cond_4
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 4050
+    .line 4053
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
-    .line 4053
+    .line 4056
     :goto_1
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->loadAttributes(Ljava/io/InputStream;)V
 
@@ -4747,10 +4733,10 @@
         }
     .end annotation
 
-    .line 3948
+    .line 3951
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3890
+    .line 3893
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v1, v0
@@ -4759,7 +4745,7 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
-    .line 3892
+    .line 3895
     new-instance v1, Ljava/util/HashSet;
 
     array-length v0, v0
@@ -4768,17 +4754,17 @@
 
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
-    .line 3893
+    .line 3896
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     const-string v0, "filename cannot be null"
 
-    .line 3950
+    .line 3953
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3952
+    .line 3955
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->initForFilename(Ljava/lang/String;)V
 
     return-void
@@ -4789,7 +4775,7 @@
 
     const-string v0, "DateTimeOriginal"
 
-    .line 6726
+    .line 6725
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -4800,30 +4786,30 @@
 
     const-string v2, "DateTime"
 
-    .line 6727
+    .line 6726
     invoke-virtual {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 6728
+    .line 6727
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v1
 
-    .line 6729
+    .line 6728
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createString(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
 
-    .line 6728
+    .line 6727
     invoke-virtual {v3, v2, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     const-string v0, "ImageWidth"
 
-    .line 6733
+    .line 6732
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -4832,82 +4818,82 @@
 
     if-nez v2, :cond_1
 
-    .line 6734
+    .line 6733
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, v1
 
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6735
+    .line 6734
     invoke-static {v3, v4, v5}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v5
 
-    .line 6734
+    .line 6733
     invoke-virtual {v2, v0, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
     const-string v0, "ImageLength"
 
-    .line 6737
+    .line 6736
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-nez v2, :cond_2
 
-    .line 6738
+    .line 6737
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, v1
 
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6739
+    .line 6738
     invoke-static {v3, v4, v5}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v5
 
-    .line 6738
+    .line 6737
     invoke-virtual {v2, v0, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
     const-string v0, "Orientation"
 
-    .line 6741
+    .line 6740
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-nez v2, :cond_3
 
-    .line 6742
+    .line 6741
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v2, v1
 
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6743
+    .line 6742
     invoke-static {v3, v4, v2}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v2
 
-    .line 6742
+    .line 6741
     invoke-virtual {v1, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_3
     const-string v0, "LightSource"
 
-    .line 6745
+    .line 6744
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-nez v1, :cond_4
 
-    .line 6746
+    .line 6745
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v2, 0x1
@@ -4916,12 +4902,12 @@
 
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6747
+    .line 6746
     invoke-static {v3, v4, v2}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v2
 
-    .line 6746
+    .line 6745
     invoke-virtual {v1, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_4
@@ -4957,12 +4943,12 @@
 
     mul-double/2addr p1, v2
 
-    .line 5336
+    .line 5335
     invoke-static {p1, p2}, Ljava/lang/Math;->round(D)J
 
     move-result-wide p1
 
-    .line 5337
+    .line 5336
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -5000,21 +4986,21 @@
 
     const/4 v2, -0x1
 
-    .line 5303
+    .line 5302
     invoke-virtual {p0, v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
     const/4 v1, 0x0
 
-    .line 5306
+    .line 5305
     aget-object v3, p0, v1
 
     invoke-virtual {v3, v0, v2}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5307
+    .line 5306
     aget-object v4, v3, v1
 
     invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -5029,7 +5015,7 @@
 
     aget-object v3, v3, v6
 
-    .line 5308
+    .line 5307
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v3
@@ -5040,14 +5026,14 @@
 
     div-double/2addr v4, v7
 
-    .line 5310
+    .line 5309
     aget-object v3, p0, v6
 
     invoke-virtual {v3, v0, v2}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5311
+    .line 5310
     aget-object v7, v3, v1
 
     invoke-virtual {v7}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -5060,7 +5046,7 @@
 
     aget-object v3, v3, v6
 
-    .line 5312
+    .line 5311
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v3
@@ -5073,14 +5059,14 @@
 
     const/4 v3, 0x2
 
-    .line 5314
+    .line 5313
     aget-object p0, p0, v3
 
     invoke-virtual {p0, v0, v2}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5315
+    .line 5314
     aget-object v0, p0, v1
 
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -5093,7 +5079,7 @@
 
     aget-object p0, p0, v6
 
-    .line 5316
+    .line 5315
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
@@ -5118,7 +5104,7 @@
 
     const-string p0, "S"
 
-    .line 5319
+    .line 5318
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -5138,7 +5124,7 @@
     :cond_0
     const-string p0, "N"
 
-    .line 5321
+    .line 5320
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -5155,7 +5141,7 @@
 
     goto :goto_0
 
-    .line 5325
+    .line 5324
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -5176,7 +5162,7 @@
 
     return-wide p0
 
-    .line 5329
+    .line 5328
     :catch_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -5198,14 +5184,14 @@
 
     new-array v1, v0, [B
 
-    .line 6689
+    .line 6688
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v2
 
     if-eq v2, v0, :cond_2
 
-    .line 6690
+    .line 6689
     new-instance p1, Ljava/io/IOException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -5230,7 +5216,7 @@
 
     goto :goto_0
 
-    .line 6692
+    .line 6691
     :cond_1
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -5261,11 +5247,11 @@
 
     throw p1
 
-    .line 6695
+    .line 6694
     :cond_2
     invoke-direct {p0, p1, p2, v1}, Landroidx/exifinterface/media/ExifInterface;->copyWebPChunk(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;[B)V
 
-    .line 6696
+    .line 6695
     invoke-static {v1, p3}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v0
@@ -5274,7 +5260,7 @@
 
     if-eqz p4, :cond_0
 
-    .line 6697
+    .line 6696
     invoke-static {v1, p4}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v0
@@ -5293,18 +5279,18 @@
         }
     .end annotation
 
-    .line 6705
+    .line 6704
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v0
 
-    .line 6706
+    .line 6705
     invoke-virtual {p2, p3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6707
+    .line 6706
     invoke-virtual {p2, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 6709
+    .line 6708
     rem-int/lit8 p3, v0, 0x2
 
     const/4 v1, 0x1
@@ -5322,21 +5308,21 @@
 .method private getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
     .locals 2
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 4099
+    .line 4102
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "ISOSpeedRatings"
 
-    .line 4102
+    .line 4105
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 4103
+    .line 4106
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz p1, :cond_0
@@ -5345,7 +5331,7 @@
 
     const-string v0, "getExifAttribute: Replacing TAG_ISO_SPEED_RATINGS with TAG_PHOTOGRAPHIC_SENSITIVITY."
 
-    .line 4104
+    .line 4107
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
@@ -5354,7 +5340,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4111
+    .line 4114
     :goto_0
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -5362,7 +5348,7 @@
 
     if-ge v0, v1, :cond_3
 
-    .line 4112
+    .line 4115
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, v0
@@ -5396,21 +5382,21 @@
         }
     .end annotation
 
-    const-string v0, "yes"
+    const-string/jumbo v0, "yes"
 
-    .line 5821
+    .line 5820
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1c
 
     if-lt v1, v2, :cond_e
 
-    .line 5822
+    .line 5821
     new-instance v1, Landroid/media/MediaMetadataRetriever;
 
     invoke-direct {v1}, Landroid/media/MediaMetadataRetriever;-><init>()V
 
-    .line 5824
+    .line 5823
     :try_start_0
     new-instance v2, Landroidx/exifinterface/media/ExifInterface$1;
 
@@ -5420,33 +5406,33 @@
 
     const/16 v2, 0x21
 
-    .line 5877
+    .line 5876
     invoke-virtual {v1, v2}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0x22
 
-    .line 5879
+    .line 5878
     invoke-virtual {v1, v3}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v3
 
     const/16 v4, 0x1a
 
-    .line 5881
+    .line 5880
     invoke-virtual {v1, v4}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v4
 
     const/16 v5, 0x11
 
-    .line 5883
+    .line 5882
     invoke-virtual {v1, v5}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5893
+    .line 5892
     invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -5457,28 +5443,28 @@
 
     const/16 v0, 0x1d
 
-    .line 5894
+    .line 5893
     invoke-virtual {v1, v0}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v6
 
     const/16 v0, 0x1e
 
-    .line 5896
+    .line 5895
     invoke-virtual {v1, v0}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v0
 
     const/16 v4, 0x1f
 
-    .line 5898
+    .line 5897
     invoke-virtual {v1, v4}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v4
 
     goto :goto_0
 
-    .line 5900
+    .line 5899
     :cond_0
     invoke-virtual {v0, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -5488,21 +5474,21 @@
 
     const/16 v0, 0x12
 
-    .line 5901
+    .line 5900
     invoke-virtual {v1, v0}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v6
 
     const/16 v0, 0x13
 
-    .line 5903
+    .line 5902
     invoke-virtual {v1, v0}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v0
 
     const/16 v4, 0x18
 
-    .line 5905
+    .line 5904
     invoke-virtual {v1, v4}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
 
     move-result-object v4
@@ -5519,14 +5505,14 @@
 
     if-eqz v6, :cond_2
 
-    .line 5910
+    .line 5909
     iget-object v7, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v5
 
     const-string v8, "ImageWidth"
 
-    .line 5911
+    .line 5910
     invoke-static {v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v9
@@ -5537,20 +5523,20 @@
 
     move-result-object v9
 
-    .line 5910
+    .line 5909
     invoke-virtual {v7, v8, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 5915
+    .line 5914
     iget-object v7, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v5
 
     const-string v8, "ImageLength"
 
-    .line 5916
+    .line 5915
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v9
@@ -5561,7 +5547,7 @@
 
     move-result-object v9
 
-    .line 5915
+    .line 5914
     invoke-virtual {v7, v8, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_3
@@ -5571,7 +5557,7 @@
 
     const/4 v8, 0x1
 
-    .line 5923
+    .line 5922
     invoke-static {v4}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v9
@@ -5603,7 +5589,7 @@
     :cond_6
     move v8, v7
 
-    .line 5935
+    .line 5934
     :goto_1
     iget-object v9, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -5613,12 +5599,12 @@
 
     iget-object v11, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 5936
+    .line 5935
     invoke-static {v8, v11}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v8
 
-    .line 5935
+    .line 5934
     invoke-virtual {v9, v10, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_7
@@ -5626,12 +5612,12 @@
 
     if-eqz v3, :cond_c
 
-    .line 5940
+    .line 5939
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v2
 
-    .line 5941
+    .line 5940
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v3
@@ -5640,12 +5626,12 @@
 
     int-to-long v8, v2
 
-    .line 5945
+    .line 5944
     invoke-virtual {p1, v8, v9}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     new-array v8, v7, [B
 
-    .line 5947
+    .line 5946
     invoke-virtual {p1, v8}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->read([B)I
 
     move-result v9
@@ -5656,7 +5642,7 @@
 
     add-int/lit8 v3, v3, -0x6
 
-    .line 5952
+    .line 5951
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     invoke-static {v8, v7}, Ljava/util/Arrays;->equals([B[B)Z
@@ -5665,25 +5651,25 @@
 
     if-eqz v7, :cond_9
 
-    .line 5957
+    .line 5956
     new-array v7, v3, [B
 
-    .line 5958
+    .line 5957
     invoke-virtual {p1, v7}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->read([B)I
 
     move-result p1
 
     if-ne p1, v3, :cond_8
 
-    .line 5962
+    .line 5961
     iput v2, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
-    .line 5963
+    .line 5962
     invoke-direct {p0, v7, v5}, Landroidx/exifinterface/media/ExifInterface;->readExifSegment([BI)V
 
     goto :goto_2
 
-    .line 5959
+    .line 5958
     :cond_8
     new-instance p1, Ljava/io/IOException;
 
@@ -5693,7 +5679,7 @@
 
     throw p1
 
-    .line 5953
+    .line 5952
     :cond_9
     new-instance p1, Ljava/io/IOException;
 
@@ -5703,7 +5689,7 @@
 
     throw p1
 
-    .line 5948
+    .line 5947
     :cond_a
     new-instance p1, Ljava/io/IOException;
 
@@ -5713,7 +5699,7 @@
 
     throw p1
 
-    .line 5943
+    .line 5942
     :cond_b
     new-instance p1, Ljava/io/IOException;
 
@@ -5723,7 +5709,7 @@
 
     throw p1
 
-    .line 5966
+    .line 5965
     :cond_c
     :goto_2
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -5732,7 +5718,7 @@
 
     const-string p1, "ExifInterface"
 
-    .line 5967
+    .line 5966
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -5743,7 +5729,7 @@
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v3, "x"
+    const-string/jumbo v3, "x"
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -5764,7 +5750,7 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5973
+    .line 5972
     :cond_d
     invoke-virtual {v1}, Landroid/media/MediaMetadataRetriever;->release()V
 
@@ -5775,7 +5761,7 @@
 
     goto :goto_3
 
-    .line 5970
+    .line 5969
     :catch_0
     :try_start_1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -5788,14 +5774,14 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5973
+    .line 5972
     :goto_3
     invoke-virtual {v1}, Landroid/media/MediaMetadataRetriever;->release()V
 
-    .line 5974
+    .line 5973
     throw p1
 
-    .line 5976
+    .line 5975
     :cond_e
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -5820,14 +5806,14 @@
 
     move/from16 v2, p3
 
-    .line 5582
+    .line 5581
     sget-boolean v3, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     const-string v4, "ExifInterface"
 
     if-eqz v3, :cond_0
 
-    .line 5583
+    .line 5582
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -5844,13 +5830,13 @@
 
     invoke-static {v4, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5586
+    .line 5585
     :cond_0
     sget-object v3, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 5591
+    .line 5590
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result v3
@@ -5861,7 +5847,7 @@
 
     if-ne v3, v6, :cond_11
 
-    .line 5595
+    .line 5594
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result v7
@@ -5874,7 +5860,7 @@
 
     move v5, v3
 
-    .line 5600
+    .line 5599
     :goto_0
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
@@ -5886,17 +5872,17 @@
 
     add-int/2addr v5, v7
 
-    .line 5605
+    .line 5604
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result v8
 
-    .line 5606
+    .line 5605
     sget-boolean v9, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v9, :cond_1
 
-    .line 5607
+    .line 5606
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -5932,7 +5918,7 @@
 
     goto/16 :goto_8
 
-    .line 5616
+    .line 5615
     :cond_2
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
@@ -5944,7 +5930,7 @@
 
     if-eqz v9, :cond_3
 
-    .line 5619
+    .line 5618
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -6007,11 +5993,11 @@
 
     goto/16 :goto_7
 
-    .line 5685
+    .line 5684
     :pswitch_0
     invoke-virtual {v1, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 5686
+    .line 5685
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v2
@@ -6027,7 +6013,7 @@
     :cond_4
     const-string v11, "ThumbnailImageLength"
 
-    .line 5688
+    .line 5687
     :goto_2
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
@@ -6041,10 +6027,10 @@
 
     move-result-object v12
 
-    .line 5686
+    .line 5685
     invoke-virtual {v7, v11, v12}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5689
+    .line 5688
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v2
@@ -6058,7 +6044,7 @@
     :cond_5
     const-string v8, "ThumbnailImageWidth"
 
-    .line 5691
+    .line 5690
     :goto_3
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
@@ -6072,18 +6058,18 @@
 
     move-result-object v11
 
-    .line 5689
+    .line 5688
     invoke-virtual {v7, v8, v11}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v10, v10, -0x5
 
     goto :goto_1
 
-    .line 5660
+    .line 5659
     :cond_6
     new-array v8, v10, [B
 
-    .line 5661
+    .line 5660
     invoke-virtual {v1, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v11
@@ -6092,14 +6078,14 @@
 
     const-string v10, "UserComment"
 
-    .line 5665
+    .line 5664
     invoke-virtual {v0, v10}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v11
 
     if-nez v11, :cond_7
 
-    .line 5666
+    .line 5665
     iget-object v11, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v11, v7
@@ -6121,7 +6107,7 @@
 
     goto/16 :goto_6
 
-    .line 5662
+    .line 5661
     :cond_8
     new-instance v1, Ljava/io/IOException;
 
@@ -6131,16 +6117,16 @@
 
     throw v1
 
-    .line 5628
+    .line 5627
     :cond_9
     new-array v8, v10, [B
 
-    .line 5629
+    .line 5628
     invoke-virtual {v1, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readFully([B)V
 
     add-int v11, v5, v10
 
-    .line 5633
+    .line 5632
     sget-object v13, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     invoke-static {v8, v13}, Landroidx/exifinterface/media/ExifInterfaceUtils;->startsWith([B[B)Z
@@ -6149,7 +6135,7 @@
 
     if-eqz v14, :cond_a
 
-    .line 5634
+    .line 5633
     array-length v7, v13
 
     invoke-static {v8, v7, v10}, Ljava/util/Arrays;->copyOfRange([BII)[B
@@ -6158,17 +6144,17 @@
 
     add-int v5, p2, v5
 
-    .line 5637
+    .line 5636
     array-length v8, v13
 
     add-int/2addr v5, v8
 
     iput v5, v0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
-    .line 5640
+    .line 5639
     invoke-direct {v0, v7, v2}, Landroidx/exifinterface/media/ExifInterface;->readExifSegment([BI)V
 
-    .line 5642
+    .line 5641
     new-instance v5, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {v5, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
@@ -6177,7 +6163,7 @@
 
     goto :goto_4
 
-    .line 5643
+    .line 5642
     :cond_a
     sget-object v13, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_XMP_APP1:[B
 
@@ -6187,12 +6173,12 @@
 
     if-eqz v14, :cond_b
 
-    .line 5645
+    .line 5644
     array-length v14, v13
 
     add-int/2addr v5, v14
 
-    .line 5646
+    .line 5645
     array-length v13, v13
 
     invoke-static {v8, v13, v10}, Ljava/util/Arrays;->copyOfRange([BII)[B
@@ -6201,14 +6187,14 @@
 
     const-string v10, "Xmp"
 
-    .line 5650
+    .line 5649
     invoke-virtual {v0, v10}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
     if-nez v13, :cond_b
 
-    .line 5651
+    .line 5650
     iget-object v13, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v13, v13, v12
@@ -6241,7 +6227,7 @@
 
     invoke-virtual {v13, v10, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5653
+    .line 5652
     iput-boolean v7, v0, Landroidx/exifinterface/media/ExifInterface;->mXmpIsFromSeparateMarker:Z
 
     goto :goto_5
@@ -6259,7 +6245,7 @@
     :goto_7
     if-ltz v10, :cond_c
 
-    .line 5703
+    .line 5702
     invoke-virtual {v1, v10}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     add-int/2addr v5, v10
@@ -6272,7 +6258,7 @@
 
     goto/16 :goto_0
 
-    .line 5701
+    .line 5700
     :cond_c
     new-instance v1, Ljava/io/IOException;
 
@@ -6280,7 +6266,7 @@
 
     throw v1
 
-    .line 5623
+    .line 5622
     :cond_d
     new-instance v1, Ljava/io/IOException;
 
@@ -6288,7 +6274,7 @@
 
     throw v1
 
-    .line 5707
+    .line 5706
     :cond_e
     :goto_8
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
@@ -6297,7 +6283,7 @@
 
     return-void
 
-    .line 5602
+    .line 5601
     :cond_f
     new-instance v1, Ljava/io/IOException;
 
@@ -6325,7 +6311,7 @@
 
     throw v1
 
-    .line 5596
+    .line 5595
     :cond_10
     new-instance v1, Ljava/io/IOException;
 
@@ -6351,7 +6337,7 @@
 
     throw v1
 
-    .line 5592
+    .line 5591
     :cond_11
     new-instance v1, Ljava/io/IOException;
 
@@ -6419,18 +6405,18 @@
 
     const/16 v0, 0x1388
 
-    .line 5342
+    .line 5341
     invoke-virtual {p1, v0}, Ljava/io/BufferedInputStream;->mark(I)V
 
     new-array v0, v0, [B
 
-    .line 5344
+    .line 5343
     invoke-virtual {p1, v0}, Ljava/io/BufferedInputStream;->read([B)I
 
-    .line 5345
+    .line 5344
     invoke-virtual {p1}, Ljava/io/BufferedInputStream;->reset()V
 
-    .line 5346
+    .line 5345
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterface;->isJpegFormat([B)Z
 
     move-result p1
@@ -6441,7 +6427,7 @@
 
     return p1
 
-    .line 5348
+    .line 5347
     :cond_0
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isRafFormat([B)Z
 
@@ -6453,7 +6439,7 @@
 
     return p1
 
-    .line 5350
+    .line 5349
     :cond_1
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isHeifFormat([B)Z
 
@@ -6465,7 +6451,7 @@
 
     return p1
 
-    .line 5352
+    .line 5351
     :cond_2
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isOrfFormat([B)Z
 
@@ -6477,7 +6463,7 @@
 
     return p1
 
-    .line 5354
+    .line 5353
     :cond_3
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isRw2Format([B)Z
 
@@ -6489,7 +6475,7 @@
 
     return p1
 
-    .line 5356
+    .line 5355
     :cond_4
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isPngFormat([B)Z
 
@@ -6501,7 +6487,7 @@
 
     return p1
 
-    .line 5358
+    .line 5357
     :cond_5
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isWebpFormat([B)Z
 
@@ -6527,10 +6513,10 @@
         }
     .end annotation
 
-    .line 6004
+    .line 6003
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getRawAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
-    .line 6009
+    .line 6008
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v0, 0x1
@@ -6539,7 +6525,7 @@
 
     const-string v1, "MakerNote"
 
-    .line 6010
+    .line 6009
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -6548,44 +6534,44 @@
 
     if-eqz p1, :cond_6
 
-    .line 6013
+    .line 6012
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;
 
     iget-object p1, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     invoke-direct {v1, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;-><init>([B)V
 
-    .line 6015
+    .line 6014
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 6019
+    .line 6018
     sget-object p1, Landroidx/exifinterface/media/ExifInterface;->ORF_MAKER_NOTE_HEADER_1:[B
 
     array-length v2, p1
 
     new-array v2, v2, [B
 
-    .line 6020
+    .line 6019
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readFully([B)V
 
     const-wide/16 v3, 0x0
 
-    .line 6021
+    .line 6020
     invoke-virtual {v1, v3, v4}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
-    .line 6022
+    .line 6021
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->ORF_MAKER_NOTE_HEADER_2:[B
 
     array-length v4, v3
 
     new-array v4, v4, [B
 
-    .line 6023
+    .line 6022
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readFully([B)V
 
-    .line 6025
+    .line 6024
     invoke-static {v2, p1}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result p1
@@ -6594,12 +6580,12 @@
 
     const-wide/16 v2, 0x8
 
-    .line 6026
+    .line 6025
     invoke-virtual {v1, v2, v3}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     goto :goto_0
 
-    .line 6027
+    .line 6026
     :cond_0
     invoke-static {v4, v3}, Ljava/util/Arrays;->equals([B[B)Z
 
@@ -6609,17 +6595,17 @@
 
     const-wide/16 v2, 0xc
 
-    .line 6028
+    .line 6027
     invoke-virtual {v1, v2, v3}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     :cond_1
     :goto_0
     const/4 p1, 0x6
 
-    .line 6032
+    .line 6031
     invoke-direct {p0, v1, p1}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
-    .line 6035
+    .line 6034
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v1, 0x7
@@ -6628,21 +6614,21 @@
 
     const-string v2, "PreviewImageStart"
 
-    .line 6036
+    .line 6035
     invoke-virtual {p1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 6037
+    .line 6036
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v2, v1
 
     const-string v2, "PreviewImageLength"
 
-    .line 6038
+    .line 6037
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -6653,7 +6639,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 6041
+    .line 6040
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v3, 0x5
@@ -6664,7 +6650,7 @@
 
     invoke-virtual {v2, v4, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6043
+    .line 6042
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p1, p1, v3
@@ -6673,7 +6659,7 @@
 
     invoke-virtual {p1, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6050
+    .line 6049
     :cond_2
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -6683,7 +6669,7 @@
 
     const-string v1, "AspectFrame"
 
-    .line 6051
+    .line 6050
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -6692,7 +6678,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 6053
+    .line 6052
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
@@ -6703,7 +6689,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 6054
+    .line 6053
     array-length v1, p1
 
     const/4 v2, 0x4
@@ -6715,7 +6701,7 @@
     :cond_3
     const/4 v1, 0x2
 
-    .line 6059
+    .line 6058
     aget v2, p1, v1
 
     const/4 v3, 0x0
@@ -6732,7 +6718,7 @@
 
     if-le v4, v5, :cond_6
 
-    .line 6061
+    .line 6060
     aget v1, p1, v1
 
     aget v4, p1, v3
@@ -6741,7 +6727,7 @@
 
     add-int/2addr v1, v0
 
-    .line 6062
+    .line 6061
     aget v2, p1, v2
 
     aget p1, p1, v0
@@ -6758,24 +6744,24 @@
 
     sub-int/2addr v1, v2
 
-    .line 6069
+    .line 6068
     :cond_4
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6070
+    .line 6069
     invoke-static {v1, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
 
-    .line 6071
+    .line 6070
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6072
+    .line 6071
     invoke-static {v2, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
 
-    .line 6074
+    .line 6073
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, v3
@@ -6784,7 +6770,7 @@
 
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6075
+    .line 6074
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p1, p1, v3
@@ -6795,7 +6781,7 @@
 
     goto :goto_2
 
-    .line 6055
+    .line 6054
     :cond_5
     :goto_1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -6806,7 +6792,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6056
+    .line 6055
     invoke-static {p1}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
 
     move-result-object p1
@@ -6819,7 +6805,7 @@
 
     const-string v0, "ExifInterface"
 
-    .line 6055
+    .line 6054
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_6
@@ -6835,12 +6821,12 @@
         }
     .end annotation
 
-    .line 6114
+    .line 6113
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 6115
+    .line 6114
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6859,27 +6845,27 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6120
+    .line 6119
     :cond_0
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 6125
+    .line 6124
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->PNG_SIGNATURE:[B
 
     array-length v1, v0
 
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 6126
+    .line 6125
     array-length v0, v0
 
     const/4 v1, 0x0
 
     add-int/2addr v0, v1
 
-    .line 6140
+    .line 6139
     :goto_0
     :try_start_0
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
@@ -6892,7 +6878,7 @@
 
     new-array v4, v3, [B
 
-    .line 6144
+    .line 6143
     invoke-virtual {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v5
@@ -6905,7 +6891,7 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 6151
+    .line 6150
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_IHDR:[B
 
     invoke-static {v4, v3}, Ljava/util/Arrays;->equals([B[B)Z
@@ -6916,7 +6902,7 @@
 
     goto :goto_1
 
-    .line 6152
+    .line 6151
     :cond_1
     new-instance p1, Ljava/io/IOException;
 
@@ -6926,7 +6912,7 @@
 
     throw p1
 
-    .line 6156
+    .line 6155
     :cond_2
     :goto_1
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_IEND:[B
@@ -6939,7 +6925,7 @@
 
     goto :goto_2
 
-    .line 6159
+    .line 6158
     :cond_3
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_EXIF:[B
 
@@ -6949,33 +6935,33 @@
 
     if-eqz v3, :cond_6
 
-    .line 6161
+    .line 6160
     new-array v3, v2, [B
 
-    .line 6162
+    .line 6161
     invoke-virtual {p1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v5
 
     if-ne v5, v2, :cond_5
 
-    .line 6168
+    .line 6167
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result p1
 
-    .line 6170
+    .line 6169
     new-instance v2, Ljava/util/zip/CRC32;
 
     invoke-direct {v2}, Ljava/util/zip/CRC32;-><init>()V
 
-    .line 6171
+    .line 6170
     invoke-virtual {v2, v4}, Ljava/util/zip/CRC32;->update([B)V
 
-    .line 6172
+    .line 6171
     invoke-virtual {v2, v3}, Ljava/util/zip/CRC32;->update([B)V
 
-    .line 6173
+    .line 6172
     invoke-virtual {v2}, Ljava/util/zip/CRC32;->getValue()J
 
     move-result-wide v4
@@ -6984,16 +6970,16 @@
 
     if-ne v4, p1, :cond_4
 
-    .line 6179
+    .line 6178
     iput v0, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
-    .line 6180
+    .line 6179
     invoke-direct {p0, v3, v1}, Landroidx/exifinterface/media/ExifInterface;->readExifSegment([BI)V
 
-    .line 6181
+    .line 6180
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->validateImages()V
 
-    .line 6183
+    .line 6182
     new-instance p1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {p1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
@@ -7003,7 +6989,7 @@
     :goto_2
     return-void
 
-    .line 6174
+    .line 6173
     :cond_4
     new-instance v0, Ljava/io/IOException;
 
@@ -7021,7 +7007,7 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6176
+    .line 6175
     invoke-virtual {v2}, Ljava/util/zip/CRC32;->getValue()J
 
     move-result-wide v2
@@ -7036,7 +7022,7 @@
 
     throw v0
 
-    .line 6163
+    .line 6162
     :cond_5
     new-instance p1, Ljava/io/IOException;
 
@@ -7048,7 +7034,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6164
+    .line 6163
     invoke-static {v4}, Landroidx/exifinterface/media/ExifInterfaceUtils;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v1
@@ -7066,14 +7052,14 @@
     :cond_6
     add-int/lit8 v2, v2, 0x4
 
-    .line 6187
+    .line 6186
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     add-int/2addr v0, v2
 
     goto/16 :goto_0
 
-    .line 6145
+    .line 6144
     :cond_7
     new-instance p1, Ljava/io/IOException;
 
@@ -7085,7 +7071,7 @@
     :try_end_0
     .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6194
+    .line 6193
     :catch_0
     new-instance p1, Ljava/io/IOException;
 
@@ -7104,14 +7090,14 @@
         }
     .end annotation
 
-    .line 5762
+    .line 5761
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     const-string v1, "ExifInterface"
 
     if-eqz v0, :cond_0
 
-    .line 5763
+    .line 5762
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -7131,7 +7117,7 @@
     :cond_0
     const/16 v2, 0x54
 
-    .line 5766
+    .line 5765
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     const/4 v2, 0x4
@@ -7142,16 +7128,16 @@
 
     new-array v2, v2, [B
 
-    .line 5770
+    .line 5769
     invoke-virtual {p1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 5771
+    .line 5770
     invoke-virtual {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 5772
+    .line 5771
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 5773
+    .line 5772
     invoke-static {v3}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v3
@@ -7160,7 +7146,7 @@
 
     move-result v3
 
-    .line 5774
+    .line 5773
     invoke-static {v4}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v4
@@ -7169,7 +7155,7 @@
 
     move-result v4
 
-    .line 5775
+    .line 5774
     invoke-static {v2}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v2
@@ -7178,10 +7164,10 @@
 
     move-result v2
 
-    .line 5777
+    .line 5776
     new-array v4, v4, [B
 
-    .line 5778
+    .line 5777
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->position()I
 
     move-result v5
@@ -7190,20 +7176,20 @@
 
     invoke-virtual {p1, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 5779
+    .line 5778
     invoke-virtual {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 5782
+    .line 5781
     new-instance v5, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {v5, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
 
     const/4 v4, 0x5
 
-    .line 5783
+    .line 5782
     invoke-direct {p0, v5, v3, v4}, Landroidx/exifinterface/media/ExifInterface;->getJpegAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;II)V
 
-    .line 5786
+    .line 5785
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->position()I
 
     move-result v3
@@ -7212,19 +7198,19 @@
 
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 5789
+    .line 5788
     sget-object v2, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 5790
+    .line 5789
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v2
 
     if-eqz v0, :cond_1
 
-    .line 5792
+    .line 5791
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7249,50 +7235,50 @@
     :goto_0
     if-ge v3, v2, :cond_4
 
-    .line 5798
+    .line 5797
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v4
 
-    .line 5799
+    .line 5798
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v5
 
-    .line 5800
+    .line 5799
     sget-object v6, Landroidx/exifinterface/media/ExifInterface;->TAG_RAF_IMAGE_SIZE:Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     iget v6, v6, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
 
     if-ne v4, v6, :cond_3
 
-    .line 5801
+    .line 5800
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readShort()S
 
     move-result v2
 
-    .line 5802
+    .line 5801
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readShort()S
 
     move-result p1
 
-    .line 5803
+    .line 5802
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 5804
+    .line 5803
     invoke-static {v2, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v3
 
-    .line 5805
+    .line 5804
     iget-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 5806
+    .line 5805
     invoke-static {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 5807
+    .line 5806
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v5, v5, v0
@@ -7301,7 +7287,7 @@
 
     invoke-virtual {v5, v6, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5808
+    .line 5807
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v3, v0
@@ -7310,12 +7296,12 @@
 
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5809
+    .line 5808
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_2
 
-    .line 5810
+    .line 5809
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7341,7 +7327,7 @@
     :cond_2
     return-void
 
-    .line 5814
+    .line 5813
     :cond_3
     invoke-virtual {p1, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
@@ -7361,38 +7347,38 @@
         }
     .end annotation
 
-    .line 5712
+    .line 5711
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->parseTiffHeaders(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
     const/4 v0, 0x0
 
-    .line 5715
+    .line 5714
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
-    .line 5718
+    .line 5717
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->updateImageSizeValues(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
     const/4 v0, 0x5
 
-    .line 5719
+    .line 5718
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->updateImageSizeValues(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
     const/4 v0, 0x4
 
-    .line 5720
+    .line 5719
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->updateImageSizeValues(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
-    .line 5723
+    .line 5722
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->validateImages()V
 
-    .line 5725
+    .line 5724
     iget p1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
     const/16 v0, 0x8
 
     if-ne p1, v0, :cond_0
 
-    .line 5728
+    .line 5727
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v0, 0x1
@@ -7401,7 +7387,7 @@
 
     const-string v1, "MakerNote"
 
-    .line 5729
+    .line 5728
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -7410,36 +7396,36 @@
 
     if-eqz p1, :cond_0
 
-    .line 5732
+    .line 5731
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;
 
     iget-object p1, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     invoke-direct {v1, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;-><init>([B)V
 
-    .line 5734
+    .line 5733
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
     const/4 p1, 0x6
 
-    .line 5737
+    .line 5736
     invoke-virtual {v1, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->skipFully(I)V
 
     const/16 p1, 0x9
 
-    .line 5740
+    .line 5739
     invoke-direct {p0, v1, p1}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
-    .line 5743
+    .line 5742
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p1, v1, p1
 
     const-string v1, "ColorSpace"
 
-    .line 5744
+    .line 5743
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -7448,7 +7434,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 5746
+    .line 5745
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v2, v0
@@ -7467,12 +7453,12 @@
         }
     .end annotation
 
-    .line 6085
+    .line 6084
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 6086
+    .line 6085
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7491,11 +7477,11 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6089
+    .line 6088
     :cond_0
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getRawAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
-    .line 6092
+    .line 6091
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v0, 0x0
@@ -7504,7 +7490,7 @@
 
     const-string v1, "JpgFromRaw"
 
-    .line 6093
+    .line 6092
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -7513,14 +7499,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 6095
+    .line 6094
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     iget-object v2, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     invoke-direct {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
 
-    .line 6097
+    .line 6096
     iget-wide v2, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytesOffset:J
 
     long-to-int p1, v2
@@ -7529,7 +7515,7 @@
 
     invoke-direct {p0, v1, p1, v2}, Landroidx/exifinterface/media/ExifInterface;->getJpegAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;II)V
 
-    .line 6102
+    .line 6101
     :cond_1
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -7537,14 +7523,14 @@
 
     const-string v0, "ISO"
 
-    .line 6103
+    .line 6102
     invoke-virtual {p1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 6104
+    .line 6103
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v1, 0x1
@@ -7553,7 +7539,7 @@
 
     const-string v2, "PhotographicSensitivity"
 
-    .line 6105
+    .line 6104
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -7564,7 +7550,7 @@
 
     if-nez v0, :cond_2
 
-    .line 6108
+    .line 6107
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, v1
@@ -7583,31 +7569,31 @@
         }
     .end annotation
 
-    .line 5982
+    .line 5981
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     array-length v1, v0
 
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 5984
+    .line 5983
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->available()I
 
     move-result v1
 
     new-array v1, v1, [B
 
-    .line 5985
+    .line 5984
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readFully([B)V
 
-    .line 5987
+    .line 5986
     array-length p1, v0
 
     iput p1, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
     const/4 p1, 0x0
 
-    .line 5988
+    .line 5987
     invoke-direct {p0, v1, p1}, Landroidx/exifinterface/media/ExifInterface;->readExifSegment([BI)V
 
     return-void
@@ -7621,12 +7607,12 @@
         }
     .end annotation
 
-    .line 6202
+    .line 6201
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 6203
+    .line 6202
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7645,34 +7631,34 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6207
+    .line 6206
     :cond_0
     sget-object v0, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 6209
+    .line 6208
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_1:[B
 
     array-length v0, v0
 
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 6212
+    .line 6211
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x8
 
-    .line 6215
+    .line 6214
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_2:[B
 
     array-length v2, v1
 
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 6216
+    .line 6215
     array-length v1, v1
 
     add-int/lit8 v1, v1, 0x8
@@ -7683,7 +7669,7 @@
     :try_start_0
     new-array v3, v2, [B
 
-    .line 6231
+    .line 6230
     invoke-virtual {p1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v4
@@ -7692,14 +7678,14 @@
 
     add-int/2addr v1, v2
 
-    .line 6237
+    .line 6236
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v4
 
     add-int/2addr v1, v2
 
-    .line 6240
+    .line 6239
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_EXIF:[B
 
     invoke-static {v2, v3}, Ljava/util/Arrays;->equals([B[B)Z
@@ -7708,25 +7694,25 @@
 
     if-eqz v2, :cond_2
 
-    .line 6242
+    .line 6241
     new-array v0, v4, [B
 
-    .line 6243
+    .line 6242
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result p1
 
     if-ne p1, v4, :cond_1
 
-    .line 6248
+    .line 6247
     iput v1, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
     const/4 p1, 0x0
 
-    .line 6249
+    .line 6248
     invoke-direct {p0, v0, p1}, Landroidx/exifinterface/media/ExifInterface;->readExifSegment([BI)V
 
-    .line 6251
+    .line 6250
     new-instance p1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
@@ -7735,7 +7721,7 @@
 
     goto :goto_1
 
-    .line 6244
+    .line 6243
     :cond_1
     new-instance p1, Ljava/io/IOException;
 
@@ -7747,7 +7733,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6245
+    .line 6244
     invoke-static {v3}, Landroidx/exifinterface/media/ExifInterfaceUtils;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v1
@@ -7762,7 +7748,7 @@
 
     throw p1
 
-    .line 6255
+    .line 6254
     :cond_2
     rem-int/lit8 v2, v4, 0x2
 
@@ -7783,12 +7769,12 @@
     :cond_4
     if-gt v1, v0, :cond_5
 
-    .line 6266
+    .line 6265
     invoke-virtual {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     goto :goto_0
 
-    .line 6262
+    .line 6261
     :cond_5
     new-instance p1, Ljava/io/IOException;
 
@@ -7798,7 +7784,7 @@
 
     throw p1
 
-    .line 6232
+    .line 6231
     :cond_6
     new-instance p1, Ljava/io/IOException;
 
@@ -7810,7 +7796,7 @@
     :try_end_0
     .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6273
+    .line 6272
     :catch_0
     new-instance p1, Ljava/io/IOException;
 
@@ -7837,7 +7823,7 @@
 
     const-string v0, ","
 
-    .line 7603
+    .line 7602
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -7848,7 +7834,7 @@
 
     const/4 v4, 0x2
 
-    .line 7652
+    .line 7651
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -7861,19 +7847,19 @@
 
     if-eqz v1, :cond_9
 
-    .line 7604
+    .line 7603
     invoke-virtual {p0, v0, v6}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 7605
+    .line 7604
     aget-object v0, p0, v2
 
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterface;->guessDataFormat(Ljava/lang/String;)Landroid/util/Pair;
 
     move-result-object v0
 
-    .line 7606
+    .line 7605
     iget-object v1, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Integer;
@@ -7886,21 +7872,21 @@
 
     return-object v0
 
-    .line 7609
+    .line 7608
     :cond_0
     :goto_0
     array-length v1, p0
 
     if-ge v3, v1, :cond_8
 
-    .line 7610
+    .line 7609
     aget-object v1, p0, v3
 
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterface;->guessDataFormat(Ljava/lang/String;)Landroid/util/Pair;
 
     move-result-object v1
 
-    .line 7612
+    .line 7611
     iget-object v2, v1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/Integer;
@@ -7919,7 +7905,7 @@
 
     iget-object v4, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 7613
+    .line 7612
     invoke-virtual {v2, v4}, Ljava/lang/Integer;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -7933,7 +7919,7 @@
 
     goto :goto_2
 
-    .line 7614
+    .line 7613
     :cond_2
     :goto_1
     iget-object v2, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
@@ -7944,7 +7930,7 @@
 
     move-result v2
 
-    .line 7616
+    .line 7615
     :goto_2
     iget-object v4, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
@@ -7974,14 +7960,14 @@
 
     iget-object v4, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 7617
+    .line 7616
     invoke-virtual {v1, v4}, Ljava/lang/Integer;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 7618
+    .line 7617
     :cond_3
     iget-object v1, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
@@ -8001,7 +7987,7 @@
 
     if-ne v1, v6, :cond_5
 
-    .line 7621
+    .line 7620
     new-instance p0, Landroid/util/Pair;
 
     invoke-direct {p0, v5, v7}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -8011,7 +7997,7 @@
     :cond_5
     if-ne v2, v6, :cond_6
 
-    .line 7624
+    .line 7623
     new-instance v0, Landroid/util/Pair;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -8025,7 +8011,7 @@
     :cond_6
     if-ne v1, v6, :cond_7
 
-    .line 7628
+    .line 7627
     new-instance v0, Landroid/util/Pair;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -8046,7 +8032,7 @@
     :cond_9
     const-string v0, "/"
 
-    .line 7635
+    .line 7634
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -8055,17 +8041,17 @@
 
     if-eqz v1, :cond_f
 
-    .line 7636
+    .line 7635
     invoke-virtual {p0, v0, v6}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 7637
+    .line 7636
     array-length v0, p0
 
     if-ne v0, v4, :cond_e
 
-    .line 7639
+    .line 7638
     :try_start_0
     aget-object v0, p0, v2
 
@@ -8075,7 +8061,7 @@
 
     double-to-long v0, v0
 
-    .line 7640
+    .line 7639
     aget-object p0, p0, v3
 
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
@@ -8111,7 +8097,7 @@
 
     goto :goto_5
 
-    .line 7647
+    .line 7646
     :cond_b
     new-instance p0, Landroid/util/Pair;
 
@@ -8127,7 +8113,7 @@
 
     return-object p0
 
-    .line 7645
+    .line 7644
     :cond_c
     :goto_5
     new-instance p0, Landroid/util/Pair;
@@ -8140,7 +8126,7 @@
 
     return-object p0
 
-    .line 7642
+    .line 7641
     :cond_d
     :goto_6
     new-instance p0, Landroid/util/Pair;
@@ -8155,7 +8141,7 @@
 
     return-object p0
 
-    .line 7652
+    .line 7651
     :catch_0
     :cond_e
     new-instance p0, Landroid/util/Pair;
@@ -8164,7 +8150,7 @@
 
     return-object p0
 
-    .line 7655
+    .line 7654
     :cond_f
     :try_start_1
     invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -8175,7 +8161,7 @@
 
     move-result-object v0
 
-    .line 7656
+    .line 7655
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v1
@@ -8196,7 +8182,7 @@
 
     if-gtz v1, :cond_10
 
-    .line 7657
+    .line 7656
     new-instance v0, Landroid/util/Pair;
 
     const/4 v1, 0x3
@@ -8213,7 +8199,7 @@
 
     return-object v0
 
-    .line 7659
+    .line 7658
     :cond_10
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
@@ -8223,7 +8209,7 @@
 
     if-gez v0, :cond_11
 
-    .line 7660
+    .line 7659
     new-instance v0, Landroid/util/Pair;
 
     const/16 v1, 0x9
@@ -8236,7 +8222,7 @@
 
     return-object v0
 
-    .line 7662
+    .line 7661
     :cond_11
     new-instance v0, Landroid/util/Pair;
 
@@ -8250,12 +8236,12 @@
 
     return-object v0
 
-    .line 7667
+    .line 7666
     :catch_1
     :try_start_2
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
-    .line 7668
+    .line 7667
     new-instance p0, Landroid/util/Pair;
 
     const/16 v0, 0xc
@@ -8270,7 +8256,7 @@
 
     return-object p0
 
-    .line 7672
+    .line 7671
     :catch_2
     new-instance p0, Landroid/util/Pair;
 
@@ -8289,7 +8275,7 @@
 
     const-string v0, "JPEGInterchangeFormat"
 
-    .line 7085
+    .line 7084
     invoke-virtual {p2, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -8298,7 +8284,7 @@
 
     const-string v1, "JPEGInterchangeFormatLength"
 
-    .line 7087
+    .line 7086
     invoke-virtual {p2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -8309,28 +8295,28 @@
 
     if-eqz p2, :cond_3
 
-    .line 7090
+    .line 7089
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v0
 
-    .line 7091
+    .line 7090
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {p2, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result p2
 
-    .line 7093
+    .line 7092
     iget v1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
     const/4 v2, 0x7
 
     if-ne v1, v2, :cond_0
 
-    .line 7095
+    .line 7094
     iget v1, p0, Landroidx/exifinterface/media/ExifInterface;->mOrfMakerNoteOffset:I
 
     add-int/2addr v0, v1
@@ -8342,10 +8328,10 @@
 
     const/4 v1, 0x1
 
-    .line 7099
+    .line 7098
     iput-boolean v1, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
-    .line 7100
+    .line 7099
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     if-nez v1, :cond_1
@@ -8358,34 +8344,34 @@
 
     if-nez v1, :cond_1
 
-    .line 7104
+    .line 7103
     new-array v1, p2, [B
 
     int-to-long v2, v0
 
-    .line 7105
+    .line 7104
     invoke-virtual {p1, v2, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skip(J)J
 
-    .line 7106
+    .line 7105
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 7107
+    .line 7106
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
-    .line 7109
+    .line 7108
     :cond_1
     iput v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailOffset:I
 
-    .line 7110
+    .line 7109
     iput p2, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailLength:I
 
-    .line 7112
+    .line 7111
     :cond_2
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz p1, :cond_3
 
-    .line 7113
+    .line 7112
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -8430,7 +8416,7 @@
 
     const-string v3, "StripOffsets"
 
-    .line 7123
+    .line 7122
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -8439,7 +8425,7 @@
 
     const-string v4, "StripByteCounts"
 
-    .line 7125
+    .line 7124
     invoke-virtual {v2, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -8450,10 +8436,10 @@
 
     if-eqz v2, :cond_b
 
-    .line 7128
+    .line 7127
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7129
+    .line 7128
     invoke-virtual {v3, v4}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
 
     move-result-object v3
@@ -8462,10 +8448,10 @@
 
     move-result-object v3
 
-    .line 7130
+    .line 7129
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7131
+    .line 7130
     invoke-virtual {v2, v4}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
 
     move-result-object v2
@@ -8478,7 +8464,7 @@
 
     if-eqz v3, :cond_a
 
-    .line 7133
+    .line 7132
     array-length v5, v3
 
     if-nez v5, :cond_0
@@ -8488,14 +8474,14 @@
     :cond_0
     if-eqz v2, :cond_9
 
-    .line 7137
+    .line 7136
     array-length v5, v2
 
     if-nez v5, :cond_1
 
     goto/16 :goto_2
 
-    .line 7141
+    .line 7140
     :cond_1
     array-length v5, v3
 
@@ -8503,9 +8489,9 @@
 
     if-eq v5, v6, :cond_2
 
-    const-string v1, "stripOffsets and stripByteCounts should have same length."
+    const-string/jumbo v1, "stripOffsets and stripByteCounts should have same length."
 
-    .line 7142
+    .line 7141
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -8513,7 +8499,7 @@
     :cond_2
     const-wide/16 v5, 0x0
 
-    .line 7147
+    .line 7146
     array-length v7, v2
 
     const/4 v8, 0x0
@@ -8534,12 +8520,12 @@
     :cond_3
     long-to-int v5, v5
 
-    .line 7153
+    .line 7152
     new-array v6, v5, [B
 
     const/4 v7, 0x1
 
-    .line 7157
+    .line 7156
     iput-boolean v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAreThumbnailStripsConsecutive:Z
 
     iput-boolean v7, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnailStrips:Z
@@ -8552,23 +8538,23 @@
 
     move v11, v10
 
-    .line 7158
+    .line 7157
     :goto_1
     array-length v12, v3
 
     if-ge v9, v12, :cond_8
 
-    .line 7159
+    .line 7158
     aget-wide v12, v3, v9
 
     long-to-int v12, v12
 
-    .line 7160
+    .line 7159
     aget-wide v13, v2, v9
 
     long-to-int v13, v13
 
-    .line 7164
+    .line 7163
     array-length v14, v3
 
     sub-int/2addr v14, v7
@@ -8587,7 +8573,7 @@
 
     if-eqz v14, :cond_4
 
-    .line 7166
+    .line 7165
     iput-boolean v8, v0, Landroidx/exifinterface/media/ExifInterface;->mAreThumbnailStripsConsecutive:Z
 
     :cond_4
@@ -8597,7 +8583,7 @@
 
     const-string v1, "Invalid strip offset value"
 
-    .line 7172
+    .line 7171
     invoke-static {v4, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -8605,7 +8591,7 @@
     :cond_5
     int-to-long v14, v12
 
-    .line 7175
+    .line 7174
     invoke-virtual {v1, v14, v15}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skip(J)J
 
     move-result-wide v16
@@ -8616,7 +8602,7 @@
 
     if-eqz v14, :cond_6
 
-    .line 7176
+    .line 7175
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -8640,17 +8626,17 @@
     :cond_6
     add-int/2addr v10, v12
 
-    .line 7181
+    .line 7180
     new-array v12, v13, [B
 
-    .line 7182
+    .line 7181
     invoke-virtual {v1, v12}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v14
 
     if-eq v14, v13, :cond_7
 
-    .line 7183
+    .line 7182
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -8674,7 +8660,7 @@
     :cond_7
     add-int/2addr v10, v13
 
-    .line 7189
+    .line 7188
     invoke-static {v12, v8, v6, v11, v13}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int/2addr v11, v13
@@ -8683,41 +8669,41 @@
 
     goto :goto_1
 
-    .line 7193
+    .line 7192
     :cond_8
     iput-object v6, v0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
-    .line 7195
+    .line 7194
     iget-boolean v1, v0, Landroidx/exifinterface/media/ExifInterface;->mAreThumbnailStripsConsecutive:Z
 
     if-eqz v1, :cond_b
 
-    .line 7196
+    .line 7195
     aget-wide v1, v3, v8
 
     long-to-int v1, v1
 
     iput v1, v0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailOffset:I
 
-    .line 7197
+    .line 7196
     iput v5, v0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailLength:I
 
     goto :goto_4
 
     :cond_9
     :goto_2
-    const-string v1, "stripByteCounts should not be null or have zero length."
+    const-string/jumbo v1, "stripByteCounts should not be null or have zero length."
 
-    .line 7138
+    .line 7137
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     :cond_a
     :goto_3
-    const-string v1, "stripOffsets should not be null or have zero length."
+    const-string/jumbo v1, "stripOffsets should not be null or have zero length."
 
-    .line 7134
+    .line 7133
     invoke-static {v4, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_b
@@ -8735,18 +8721,18 @@
 
     const-string v0, "filename cannot be null"
 
-    .line 5283
+    .line 5282
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
-    .line 5286
+    .line 5285
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
 
-    .line 5287
+    .line 5286
     iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
-    .line 5289
+    .line 5288
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -8754,7 +8740,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5290
+    .line 5289
     :try_start_1
     invoke-virtual {v1}, Ljava/io/FileInputStream;->getFD()Ljava/io/FileDescriptor;
 
@@ -8766,7 +8752,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 5291
+    .line 5290
     invoke-virtual {v1}, Ljava/io/FileInputStream;->getFD()Ljava/io/FileDescriptor;
 
     move-result-object p1
@@ -8775,17 +8761,17 @@
 
     goto :goto_0
 
-    .line 5293
+    .line 5292
     :cond_0
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
-    .line 5295
+    .line 5294
     :goto_0
     invoke-direct {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->loadAttributes(Ljava/io/InputStream;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5297
+    .line 5296
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     return-void
@@ -8803,7 +8789,7 @@
     :goto_1
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 5298
+    .line 5297
     throw p1
 .end method
 
@@ -8815,29 +8801,29 @@
         }
     .end annotation
 
-    .line 5557
+    .line 5556
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     array-length v1, v0
 
     invoke-virtual {p0, v1}, Ljava/io/BufferedInputStream;->mark(I)V
 
-    .line 5558
+    .line 5557
     array-length v0, v0
 
     new-array v0, v0, [B
 
-    .line 5559
+    .line 5558
     invoke-virtual {p0, v0}, Ljava/io/BufferedInputStream;->read([B)I
 
-    .line 5560
+    .line 5559
     invoke-virtual {p0}, Ljava/io/BufferedInputStream;->reset()V
 
     const/4 p0, 0x0
 
     move v1, p0
 
-    .line 5561
+    .line 5560
     :goto_0
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
@@ -8845,7 +8831,7 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 5562
+    .line 5561
     aget-byte v3, v0, v1
 
     aget-byte v2, v2, v1
@@ -8877,7 +8863,7 @@
 
     const/4 v1, 0x0
 
-    .line 5397
+    .line 5396
     :try_start_0
     new-instance v2, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
@@ -8886,7 +8872,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5399
+    .line 5398
     :try_start_1
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
@@ -8898,10 +8884,10 @@
 
     new-array v5, v1, [B
 
-    .line 5401
+    .line 5400
     invoke-virtual {v2, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 5403
+    .line 5402
     sget-object v6, Landroidx/exifinterface/media/ExifInterface;->HEIF_TYPE_FTYP:[B
 
     invoke-static {v5, v6}, Ljava/util/Arrays;->equals([B[B)Z
@@ -8913,7 +8899,7 @@
 
     if-nez v5, :cond_0
 
-    .line 5458
+    .line 5457
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     return v0
@@ -8929,7 +8915,7 @@
 
     if-nez v7, :cond_1
 
-    .line 5411
+    .line 5410
     :try_start_2
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readLong()J
 
@@ -8942,7 +8928,7 @@
 
     if-gez v7, :cond_2
 
-    .line 5458
+    .line 5457
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     return v0
@@ -8950,7 +8936,7 @@
     :cond_1
     move-wide v8, v10
 
-    .line 5420
+    .line 5419
     :cond_2
     :try_start_3
     array-length v7, p1
@@ -8961,7 +8947,7 @@
 
     if-lez v7, :cond_3
 
-    .line 5421
+    .line 5420
     array-length p1, p1
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
@@ -8976,7 +8962,7 @@
 
     if-gez p1, :cond_4
 
-    .line 5458
+    .line 5457
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     return v0
@@ -8994,14 +8980,14 @@
     :goto_0
     const-wide/16 v11, 0x4
 
-    .line 5435
+    .line 5434
     div-long v11, v3, v11
 
     cmp-long v11, v7, v11
 
     if-gez v11, :cond_a
 
-    .line 5436
+    .line 5435
     invoke-virtual {v2, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v11
@@ -9011,7 +8997,7 @@
 
     if-eq v11, v1, :cond_5
 
-    .line 5458
+    .line 5457
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     return v0
@@ -9023,7 +9009,7 @@
 
     goto :goto_2
 
-    .line 5443
+    .line 5442
     :cond_6
     :try_start_5
     sget-object v11, Landroidx/exifinterface/media/ExifInterface;->HEIF_BRAND_MIF1:[B
@@ -9040,7 +9026,7 @@
 
     goto :goto_1
 
-    .line 5445
+    .line 5444
     :cond_7
     sget-object v11, Landroidx/exifinterface/media/ExifInterface;->HEIF_BRAND_HEIC:[B
 
@@ -9061,7 +9047,7 @@
 
     if-eqz v10, :cond_9
 
-    .line 5458
+    .line 5457
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     return v12
@@ -9099,7 +9085,7 @@
     :catch_1
     move-exception p1
 
-    .line 5453
+    .line 5452
     :goto_3
     :try_start_6
     sget-boolean v2, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -9110,7 +9096,7 @@
 
     const-string v3, "Exception parsing HEIF file type box."
 
-    .line 5454
+    .line 5453
     invoke-static {v2, v3, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
@@ -9118,7 +9104,7 @@
     :cond_b
     if-eqz v1, :cond_c
 
-    .line 5458
+    .line 5457
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     :cond_c
@@ -9130,7 +9116,7 @@
 
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
-    .line 5461
+    .line 5460
     :cond_d
     throw p1
 .end method
@@ -9147,7 +9133,7 @@
 
     move v1, v0
 
-    .line 5370
+    .line 5369
     :goto_0
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->JPEG_SIGNATURE:[B
 
@@ -9155,7 +9141,7 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 5371
+    .line 5370
     aget-byte v3, p0, v1
 
     aget-byte v2, v2, v1
@@ -9187,7 +9173,7 @@
 
     const/4 v1, 0x0
 
-    .line 5477
+    .line 5476
     :try_start_0
     new-instance v2, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
@@ -9196,7 +9182,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5480
+    .line 5479
     :try_start_1
     invoke-direct {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->readByteOrder(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)Ljava/nio/ByteOrder;
 
@@ -9204,10 +9190,10 @@
 
     iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 5482
+    .line 5481
     invoke-virtual {v2, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 5484
+    .line 5483
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readShort()S
 
     move-result p1
@@ -9226,7 +9212,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 5490
+    .line 5489
     :cond_1
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
@@ -9252,7 +9238,7 @@
 
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
-    .line 5492
+    .line 5491
     :cond_2
     throw p1
 
@@ -9260,7 +9246,7 @@
     :goto_1
     if-eqz v1, :cond_3
 
-    .line 5490
+    .line 5489
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     :cond_3
@@ -9279,7 +9265,7 @@
 
     move v1, v0
 
-    .line 5528
+    .line 5527
     :goto_0
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->PNG_SIGNATURE:[B
 
@@ -9287,7 +9273,7 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 5529
+    .line 5528
     aget-byte v3, p1, v1
 
     aget-byte v2, v2, v1
@@ -9315,7 +9301,7 @@
         }
     .end annotation
 
-    .line 5385
+    .line 5384
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -9330,13 +9316,13 @@
 
     move v2, v1
 
-    .line 5386
+    .line 5385
     :goto_0
     array-length v3, v0
 
     if-ge v2, v3, :cond_1
 
-    .line 5387
+    .line 5386
     aget-byte v3, p1, v2
 
     aget-byte v4, v0, v2
@@ -9368,7 +9354,7 @@
 
     const/4 v1, 0x0
 
-    .line 5504
+    .line 5503
     :try_start_0
     new-instance v2, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
@@ -9377,7 +9363,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5507
+    .line 5506
     :try_start_1
     invoke-direct {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->readByteOrder(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)Ljava/nio/ByteOrder;
 
@@ -9385,10 +9371,10 @@
 
     iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 5509
+    .line 5508
     invoke-virtual {v2, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 5511
+    .line 5510
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readShort()S
 
     move-result p1
@@ -9402,7 +9388,7 @@
 
     const/4 v0, 0x1
 
-    .line 5517
+    .line 5516
     :cond_0
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
@@ -9428,7 +9414,7 @@
 
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
-    .line 5519
+    .line 5518
     :cond_1
     throw p1
 
@@ -9436,7 +9422,7 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 5517
+    .line 5516
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
 
     :cond_2
@@ -9446,7 +9432,7 @@
 .method private static isSeekableFD(Ljava/io/FileDescriptor;)Z
     .locals 4
 
-    .line 4635
+    .line 4638
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -9457,7 +9443,7 @@
 
     const-wide/16 v2, 0x0
 
-    .line 4637
+    .line 4640
     :try_start_0
     sget v0, Landroid/system/OsConstants;->SEEK_CUR:I
 
@@ -9469,7 +9455,7 @@
 
     return p0
 
-    .line 4640
+    .line 4643
     :catch_0
     sget-boolean p0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
@@ -9479,7 +9465,7 @@
 
     const-string v0, "The file descriptor for the given input is not seekable"
 
-    .line 4641
+    .line 4644
     invoke-static {p0, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
@@ -9496,7 +9482,7 @@
 
     const-string v0, "BitsPerSample"
 
-    .line 7205
+    .line 7204
     invoke-virtual {p1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -9505,7 +9491,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 7207
+    .line 7206
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
@@ -9514,7 +9500,7 @@
 
     check-cast v0, [I
 
-    .line 7209
+    .line 7208
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->BITS_PER_SAMPLE_RGB:[I
 
     invoke-static {v1, v0}, Ljava/util/Arrays;->equals([I[I)Z
@@ -9527,7 +9513,7 @@
 
     return v3
 
-    .line 7214
+    .line 7213
     :cond_0
     iget v2, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -9537,7 +9523,7 @@
 
     const-string v2, "PhotometricInterpretation"
 
-    .line 7216
+    .line 7215
     invoke-virtual {p1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -9546,20 +9532,20 @@
 
     if-eqz p1, :cond_3
 
-    .line 7218
+    .line 7217
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7219
+    .line 7218
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result p1
 
     if-ne p1, v3, :cond_1
 
-    .line 7220
+    .line 7219
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->BITS_PER_SAMPLE_GREYSCALE_2:[I
 
-    .line 7221
+    .line 7220
     invoke-static {v0, v2}, Ljava/util/Arrays;->equals([I[I)Z
 
     move-result v2
@@ -9571,7 +9557,7 @@
 
     if-ne p1, v2, :cond_3
 
-    .line 7223
+    .line 7222
     invoke-static {v0, v1}, Ljava/util/Arrays;->equals([I[I)Z
 
     move-result p1
@@ -9581,7 +9567,7 @@
     :cond_2
     return v3
 
-    .line 7231
+    .line 7230
     :cond_3
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
@@ -9591,7 +9577,7 @@
 
     const-string v0, "Unsupported data type value"
 
-    .line 7232
+    .line 7231
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_4
@@ -9613,13 +9599,7 @@
 
     const/16 v0, 0xe
 
-    if-eq p0, v0, :cond_1
-
-    const/4 v0, 0x3
-
-    if-eq p0, v0, :cond_1
-
-    if-nez p0, :cond_0
+    if-ne p0, v0, :cond_0
 
     goto :goto_0
 
@@ -9640,10 +9620,10 @@
 
     const-string v0, "mimeType shouldn\'t be null"
 
-    .line 4064
+    .line 4067
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4067
+    .line 4070
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -9961,7 +9941,7 @@
 
     const-string v0, "ImageLength"
 
-    .line 7240
+    .line 7239
     invoke-virtual {p1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -9970,7 +9950,7 @@
 
     const-string v1, "ImageWidth"
 
-    .line 7241
+    .line 7240
     invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -9981,14 +9961,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 7244
+    .line 7243
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v0
 
-    .line 7245
+    .line 7244
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
@@ -10023,7 +10003,7 @@
 
     move v1, v0
 
-    .line 5542
+    .line 5541
     :goto_0
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_1:[B
 
@@ -10031,7 +10011,7 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 5543
+    .line 5542
     aget-byte v3, p1, v1
 
     aget-byte v2, v2, v1
@@ -10048,7 +10028,7 @@
     :cond_1
     move v1, v0
 
-    .line 5547
+    .line 5546
     :goto_1
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_2:[B
 
@@ -10056,7 +10036,7 @@
 
     if-ge v1, v3, :cond_3
 
-    .line 5548
+    .line 5547
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_1:[B
 
     array-length v3, v3
@@ -10089,14 +10069,14 @@
 
     const-string v0, "inputstream shouldn\'t be null"
 
-    .line 4571
+    .line 4574
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
     move v1, v0
 
-    .line 4575
+    .line 4578
     :goto_0
     :try_start_0
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
@@ -10105,7 +10085,7 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 4576
+    .line 4579
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     new-instance v3, Ljava/util/HashMap;
@@ -10118,20 +10098,20 @@
 
     goto :goto_0
 
-    .line 4580
+    .line 4583
     :cond_0
     iget-boolean v1, p0, Landroidx/exifinterface/media/ExifInterface;->mIsExifDataOnly:Z
 
     if-nez v1, :cond_1
 
-    .line 4581
+    .line 4584
     new-instance v1, Ljava/io/BufferedInputStream;
 
     const/16 v2, 0x1388
 
     invoke-direct {v1, p1, v2}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;I)V
 
-    .line 4582
+    .line 4585
     move-object p1, v1
 
     check-cast p1, Ljava/io/BufferedInputStream;
@@ -10144,7 +10124,7 @@
 
     move-object p1, v1
 
-    .line 4585
+    .line 4588
     :cond_1
     iget v1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -10154,22 +10134,22 @@
 
     if-eqz v1, :cond_6
 
-    .line 4586
+    .line 4589
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;
 
     invoke-direct {v0, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 4588
+    .line 4591
     iget-boolean p1, p0, Landroidx/exifinterface/media/ExifInterface;->mIsExifDataOnly:Z
 
     if-eqz p1, :cond_2
 
-    .line 4589
+    .line 4592
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getStandaloneAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
     goto :goto_1
 
-    .line 4591
+    .line 4594
     :cond_2
     iget p1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -10177,7 +10157,7 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 4592
+    .line 4595
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getHeifAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
     goto :goto_1
@@ -10187,7 +10167,7 @@
 
     if-ne p1, v1, :cond_4
 
-    .line 4594
+    .line 4597
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getOrfAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
     goto :goto_1
@@ -10197,16 +10177,16 @@
 
     if-ne p1, v1, :cond_5
 
-    .line 4596
+    .line 4599
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getRw2Attributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
     goto :goto_1
 
-    .line 4598
+    .line 4601
     :cond_5
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getRawAttributes(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;)V
 
-    .line 4602
+    .line 4605
     :goto_1
     iget p1, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
@@ -10214,25 +10194,25 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
-    .line 4603
+    .line 4606
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->setThumbnailData(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
     goto :goto_2
 
-    .line 4605
+    .line 4608
     :cond_6
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {v1, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 4606
+    .line 4609
     iget p1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
     const/4 v2, 0x4
 
     if-ne p1, v2, :cond_7
 
-    .line 4607
+    .line 4610
     invoke-direct {p0, v1, v0, v0}, Landroidx/exifinterface/media/ExifInterface;->getJpegAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;II)V
 
     goto :goto_2
@@ -10242,7 +10222,7 @@
 
     if-ne p1, v0, :cond_8
 
-    .line 4610
+    .line 4613
     invoke-direct {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getPngAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
     goto :goto_2
@@ -10252,7 +10232,7 @@
 
     if-ne p1, v0, :cond_9
 
-    .line 4612
+    .line 4615
     invoke-direct {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getRafAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
     goto :goto_2
@@ -10262,19 +10242,19 @@
 
     if-ne p1, v0, :cond_a
 
-    .line 4614
+    .line 4617
     invoke-direct {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getWebpAttributes(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/UnsupportedOperationException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4626
+    .line 4629
     :cond_a
     :goto_2
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->addDefaultValuesForCompatibility()V
 
-    .line 4628
+    .line 4631
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz p1, :cond_c
@@ -10294,7 +10274,7 @@
     :catch_1
     move-exception p1
 
-    .line 4620
+    .line 4623
     :goto_3
     :try_start_1
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -10305,37 +10285,37 @@
 
     const-string v2, "Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface."
 
-    .line 4621
+    .line 4624
     invoke-static {v1, v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4626
+    .line 4629
     :cond_b
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->addDefaultValuesForCompatibility()V
 
     if-eqz v0, :cond_c
 
-    .line 4629
+    .line 4632
     :goto_4
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->printAttributes()V
 
     :cond_c
     return-void
 
-    .line 4626
+    .line 4629
     :goto_5
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->addDefaultValuesForCompatibility()V
 
-    .line 4628
+    .line 4631
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_d
 
-    .line 4629
+    .line 4632
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->printAttributes()V
 
-    .line 4631
+    .line 4634
     :cond_d
     throw p1
 .end method
@@ -10347,7 +10327,7 @@
 
     if-eqz p0, :cond_6
 
-    .line 5213
+    .line 5212
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->NON_ZERO_TIME_PATTERN:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -10362,7 +10342,7 @@
 
     goto/16 :goto_1
 
-    .line 5217
+    .line 5216
     :cond_0
     new-instance v1, Ljava/text/ParsePosition;
 
@@ -10370,7 +10350,7 @@
 
     invoke-direct {v1, v2}, Ljava/text/ParsePosition;-><init>(I)V
 
-    .line 5221
+    .line 5220
     :try_start_0
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->sFormatterPrimary:Ljava/text/SimpleDateFormat;
 
@@ -10380,7 +10360,7 @@
 
     if-nez v3, :cond_1
 
-    .line 5223
+    .line 5222
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->sFormatterSecondary:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v3, p0, v1}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;
@@ -10391,7 +10371,7 @@
 
     return-object v0
 
-    .line 5228
+    .line 5227
     :cond_1
     invoke-virtual {v3}, Ljava/util/Date;->getTime()J
 
@@ -10401,14 +10381,14 @@
 
     const/4 p0, 0x1
 
-    .line 5230
+    .line 5229
     invoke-virtual {p2, v2, p0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
     const/4 v2, 0x3
 
-    .line 5231
+    .line 5230
     invoke-virtual {p2, p0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
@@ -10421,7 +10401,7 @@
 
     const/4 v7, 0x4
 
-    .line 5232
+    .line 5231
     invoke-virtual {p2, v7, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
@@ -10432,7 +10412,7 @@
 
     const-string v8, "+"
 
-    .line 5233
+    .line 5232
     invoke-virtual {v8, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
@@ -10453,7 +10433,7 @@
     :cond_2
     const-string v8, ":"
 
-    .line 5234
+    .line 5233
     invoke-virtual {p2, v2, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p2
@@ -10476,7 +10456,7 @@
 
     mul-int/lit16 v5, v5, 0x3e8
 
-    .line 5236
+    .line 5235
     invoke-virtual {v9, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -10498,14 +10478,14 @@
     :cond_4
     if-eqz p1, :cond_5
 
-    .line 5241
+    .line 5240
     invoke-static {p1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->parseSubSeconds(Ljava/lang/String;)J
 
     move-result-wide p0
 
     add-long/2addr v3, p0
 
-    .line 5243
+    .line 5242
     :cond_5
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -10529,22 +10509,22 @@
         }
     .end annotation
 
-    .line 6773
+    .line 6772
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->readByteOrder(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)Ljava/nio/ByteOrder;
 
     move-result-object v0
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6775
+    .line 6774
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
-    .line 6778
+    .line 6777
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v0
 
-    .line 6779
+    .line 6778
     iget v1, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
     const/4 v2, 0x7
@@ -10561,7 +10541,7 @@
 
     goto :goto_0
 
-    .line 6780
+    .line 6779
     :cond_0
     new-instance p1, Ljava/io/IOException;
 
@@ -10587,7 +10567,7 @@
 
     throw p1
 
-    .line 6784
+    .line 6783
     :cond_1
     :goto_0
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
@@ -10602,13 +10582,13 @@
 
     if-lez v0, :cond_2
 
-    .line 6790
+    .line 6789
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     :cond_2
     return-void
 
-    .line 6786
+    .line 6785
     :cond_3
     new-instance p1, Ljava/io/IOException;
 
@@ -10636,7 +10616,7 @@
 
     const/4 v0, 0x0
 
-    .line 4651
+    .line 4654
     :goto_0
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -10644,7 +10624,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 4652
+    .line 4655
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -10677,7 +10657,7 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4653
+    .line 4656
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, v0
@@ -10703,19 +10683,19 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 4654
+    .line 4657
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 4655
+    .line 4658
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v6, "tagName: "
+    const-string/jumbo v6, "tagName: "
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -10743,7 +10723,7 @@
 
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4656
+    .line 4659
     invoke-virtual {v4, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getStringValue(Ljava/nio/ByteOrder;)Ljava/lang/String;
 
     move-result-object v3
@@ -10758,7 +10738,7 @@
 
     move-result-object v3
 
-    .line 4655
+    .line 4658
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1
@@ -10780,7 +10760,7 @@
         }
     .end annotation
 
-    .line 6754
+    .line 6753
     invoke-virtual {p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readShort()S
 
     move-result p1
@@ -10795,23 +10775,23 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 6762
+    .line 6761
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz p1, :cond_0
 
     const-string p1, "readExifSegment: Byte Align MM"
 
-    .line 6763
+    .line 6762
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6765
+    .line 6764
     :cond_0
     sget-object p1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     return-object p1
 
-    .line 6767
+    .line 6766
     :cond_1
     new-instance v0, Ljava/io/IOException;
 
@@ -10837,7 +10817,7 @@
 
     throw v0
 
-    .line 6757
+    .line 6756
     :cond_2
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
@@ -10845,10 +10825,10 @@
 
     const-string p1, "readExifSegment: Byte Align II"
 
-    .line 6758
+    .line 6757
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6760
+    .line 6759
     :cond_3
     sget-object p1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
@@ -10863,15 +10843,15 @@
         }
     .end annotation
 
-    .line 6714
+    .line 6713
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;
 
     invoke-direct {v0, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;-><init>([B)V
 
-    .line 6718
+    .line 6717
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->parseTiffHeaders(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
-    .line 6721
+    .line 6720
     invoke-direct {p0, v0, p2}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
     return-void
@@ -10891,7 +10871,7 @@
 
     move/from16 v2, p2
 
-    .line 6798
+    .line 6797
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
     iget v4, v1, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mPosition:I
@@ -10902,19 +10882,19 @@
 
     invoke-interface {v3, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 6801
+    .line 6800
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readShort()S
 
     move-result v3
 
-    .line 6802
+    .line 6801
     sget-boolean v4, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     const-string v5, "ExifInterface"
 
     if-eqz v4, :cond_0
 
-    .line 6803
+    .line 6802
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -10946,22 +10926,22 @@
 
     if-ge v6, v3, :cond_23
 
-    .line 6812
+    .line 6811
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v12
 
-    .line 6813
+    .line 6812
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v13
 
-    .line 6814
+    .line 6813
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readInt()I
 
     move-result v15
 
-    .line 6816
+    .line 6815
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->position()I
 
     move-result v14
@@ -10972,7 +10952,7 @@
 
     add-long v8, v8, v18
 
-    .line 6819
+    .line 6818
     sget-object v14, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForReading:[Ljava/util/HashMap;
 
     aget-object v14, v14, v2
@@ -10987,7 +10967,7 @@
 
     check-cast v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 6821
+    .line 6820
     sget-boolean v14, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     const/4 v10, 0x3
@@ -10996,7 +10976,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 6823
+    .line 6822
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v23
@@ -11013,7 +10993,7 @@
 
     if-eqz v11, :cond_2
 
-    .line 6824
+    .line 6823
     iget-object v4, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     goto :goto_1
@@ -11042,7 +11022,7 @@
 
     const-string v4, "ifdType: %d, tagNumber: %d, tagName: %s, dataFormat: %d, numberOfComponents: %d"
 
-    .line 6822
+    .line 6821
     invoke-static {v4, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -11056,7 +11036,7 @@
 
     if-eqz v14, :cond_4
 
-    .line 6831
+    .line 6830
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -11084,7 +11064,7 @@
     :cond_5
     if-lez v13, :cond_b
 
-    .line 6833
+    .line 6832
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->IFD_FORMAT_BYTES_PER_FORMAT:[I
 
     array-length v10, v7
@@ -11093,7 +11073,7 @@
 
     goto :goto_4
 
-    .line 6837
+    .line 6836
     :cond_6
     invoke-virtual {v11, v13}, Landroidx/exifinterface/media/ExifInterface$ExifTag;->isFormatCompatible(I)Z
 
@@ -11103,7 +11083,7 @@
 
     if-eqz v14, :cond_4
 
-    .line 6839
+    .line 6838
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -11137,7 +11117,7 @@
     :cond_7
     if-ne v13, v4, :cond_8
 
-    .line 6845
+    .line 6844
     iget v13, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     :cond_8
@@ -11145,7 +11125,7 @@
 
     int-to-long v4, v15
 
-    .line 6847
+    .line 6846
     aget v7, v7, v13
 
     move/from16 v25, v6
@@ -11177,7 +11157,7 @@
     :goto_3
     if-eqz v14, :cond_d
 
-    .line 6850
+    .line 6849
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -11204,7 +11184,7 @@
 
     if-eqz v14, :cond_c
 
-    .line 6835
+    .line 6834
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -11232,7 +11212,7 @@
     :goto_7
     if-nez v6, :cond_e
 
-    .line 6858
+    .line 6857
     invoke-virtual {v1, v8, v9}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     move/from16 v26, v3
@@ -11248,7 +11228,7 @@
 
     if-lez v6, :cond_12
 
-    .line 6865
+    .line 6864
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readInt()I
 
     move-result v6
@@ -11257,7 +11237,7 @@
 
     if-eqz v14, :cond_f
 
-    .line 6867
+    .line 6866
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -11281,7 +11261,7 @@
     :cond_f
     move-wide/from16 v27, v8
 
-    .line 6869
+    .line 6868
     :goto_8
     iget v3, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -11289,7 +11269,7 @@
 
     if-ne v3, v8, :cond_11
 
-    .line 6870
+    .line 6869
     iget-object v3, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     const-string v8, "MakerNote"
@@ -11300,7 +11280,7 @@
 
     if-eqz v3, :cond_10
 
-    .line 6872
+    .line 6871
     iput v6, v0, Landroidx/exifinterface/media/ExifInterface;->mOrfMakerNoteOffset:I
 
     goto :goto_9
@@ -11310,33 +11290,33 @@
 
     if-ne v2, v3, :cond_11
 
-    .line 6873
+    .line 6872
     iget-object v8, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     const-string v9, "ThumbnailImage"
 
-    .line 6874
+    .line 6873
     invoke-virtual {v9, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
 
     if-eqz v8, :cond_11
 
-    .line 6876
+    .line 6875
     iput v6, v0, Landroidx/exifinterface/media/ExifInterface;->mOrfThumbnailOffset:I
 
-    .line 6877
+    .line 6876
     iput v15, v0, Landroidx/exifinterface/media/ExifInterface;->mOrfThumbnailLength:I
 
-    .line 6879
+    .line 6878
     iget-object v8, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6880
+    .line 6879
     invoke-static {v3, v8}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v3
 
-    .line 6881
+    .line 6880
     iget v8, v0, Landroidx/exifinterface/media/ExifInterface;->mOrfThumbnailOffset:I
 
     int-to-long v8, v8
@@ -11345,12 +11325,12 @@
 
     iget-object v15, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6882
+    .line 6881
     invoke-static {v8, v9, v15}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v8
 
-    .line 6883
+    .line 6882
     iget v9, v0, Landroidx/exifinterface/media/ExifInterface;->mOrfThumbnailLength:I
 
     move-object/from16 v24, v10
@@ -11359,12 +11339,12 @@
 
     iget-object v15, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6884
+    .line 6883
     invoke-static {v9, v10, v15}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v9
 
-    .line 6886
+    .line 6885
     iget-object v10, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v15, 0x4
@@ -11373,7 +11353,7 @@
 
     invoke-virtual {v10, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6887
+    .line 6886
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v15
@@ -11382,7 +11362,7 @@
 
     invoke-virtual {v3, v10, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6889
+    .line 6888
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v15
@@ -11402,7 +11382,7 @@
     :goto_a
     int-to-long v8, v6
 
-    .line 6893
+    .line 6892
     invoke-virtual {v1, v8, v9}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     goto :goto_b
@@ -11416,7 +11396,7 @@
 
     move/from16 v18, v15
 
-    .line 6897
+    .line 6896
     :goto_b
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->sExifPointerTagMap:Ljava/util/HashMap;
 
@@ -11432,7 +11412,7 @@
 
     if-eqz v14, :cond_13
 
-    .line 6899
+    .line 6898
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -11489,7 +11469,7 @@
 
     goto :goto_e
 
-    .line 6920
+    .line 6919
     :cond_14
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readInt()I
 
@@ -11497,7 +11477,7 @@
 
     goto :goto_d
 
-    .line 6911
+    .line 6910
     :cond_15
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readShort()S
 
@@ -11505,7 +11485,7 @@
 
     goto :goto_d
 
-    .line 6915
+    .line 6914
     :cond_16
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readUnsignedInt()J
 
@@ -11513,7 +11493,7 @@
 
     goto :goto_e
 
-    .line 6907
+    .line 6906
     :cond_17
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readUnsignedShort()I
 
@@ -11529,7 +11509,7 @@
 
     new-array v6, v6, [Ljava/lang/Object;
 
-    .line 6929
+    .line 6928
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v7
@@ -11559,7 +11539,7 @@
 
     if-lez v6, :cond_1a
 
-    .line 6936
+    .line 6935
     iget-object v6, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
     long-to-int v7, v4
@@ -11574,10 +11554,10 @@
 
     if-nez v6, :cond_19
 
-    .line 6937
+    .line 6936
     invoke-virtual {v1, v4, v5}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
-    .line 6938
+    .line 6937
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
 
     move-result v3
@@ -11589,7 +11569,7 @@
     :cond_19
     if-eqz v14, :cond_1b
 
-    .line 6941
+    .line 6940
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -11621,7 +11601,7 @@
     :cond_1a
     if-eqz v14, :cond_1b
 
-    .line 6947
+    .line 6946
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -11642,7 +11622,7 @@
     :goto_f
     move-wide/from16 v9, v27
 
-    .line 6951
+    .line 6950
     invoke-virtual {v1, v9, v10}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     goto/16 :goto_10
@@ -11650,7 +11630,7 @@
     :cond_1c
     move-wide/from16 v9, v27
 
-    .line 6955
+    .line 6954
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->position()I
 
     move-result v3
@@ -11661,13 +11641,13 @@
 
     long-to-int v4, v4
 
-    .line 6956
+    .line 6955
     new-array v4, v4, [B
 
-    .line 6957
+    .line 6956
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readFully([B)V
 
-    .line 6958
+    .line 6957
     new-instance v5, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     int-to-long v14, v3
@@ -11688,7 +11668,7 @@
 
     invoke-direct/range {v14 .. v19}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(IIJ[B)V
 
-    .line 6960
+    .line 6959
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v2
@@ -11697,7 +11677,7 @@
 
     invoke-virtual {v3, v4, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6965
+    .line 6964
     iget-object v3, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     const-string v4, "DNGVersion"
@@ -11710,10 +11690,10 @@
 
     const/4 v3, 0x3
 
-    .line 6966
+    .line 6965
     iput v3, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
-    .line 6972
+    .line 6971
     :cond_1d
     iget-object v3, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
@@ -11738,7 +11718,7 @@
     :cond_1e
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6973
+    .line 6972
     invoke-virtual {v5, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getStringValue(Ljava/nio/ByteOrder;)Ljava/lang/String;
 
     move-result-object v3
@@ -11754,7 +11734,7 @@
     :cond_1f
     iget-object v3, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
-    .line 6974
+    .line 6973
     invoke-virtual {v7, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -11763,7 +11743,7 @@
 
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 6975
+    .line 6974
     invoke-virtual {v5, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v3
@@ -11772,11 +11752,11 @@
 
     if-ne v3, v4, :cond_21
 
-    .line 6976
+    .line 6975
     :cond_20
     iput v6, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
-    .line 6980
+    .line 6979
     :cond_21
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->position()I
 
@@ -11788,7 +11768,7 @@
 
     if-eqz v3, :cond_22
 
-    .line 6981
+    .line 6980
     invoke-virtual {v1, v9, v10}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
     :cond_22
@@ -11808,12 +11788,12 @@
     :cond_23
     move-object v8, v5
 
-    .line 6985
+    .line 6984
     invoke-virtual/range {p1 .. p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->readInt()I
 
     move-result v2
 
-    .line 6986
+    .line 6985
     sget-boolean v3, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v3, :cond_24
@@ -11822,7 +11802,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    .line 6987
+    .line 6986
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -11848,7 +11828,7 @@
 
     if-lez v6, :cond_27
 
-    .line 6993
+    .line 6992
     iget-object v6, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributesOffsets:Ljava/util/Set;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -11861,10 +11841,10 @@
 
     if-nez v6, :cond_26
 
-    .line 6994
+    .line 6993
     invoke-virtual {v1, v4, v5}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
-    .line 6995
+    .line 6994
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v3, 0x4
@@ -11877,12 +11857,12 @@
 
     if-eqz v2, :cond_25
 
-    .line 6997
+    .line 6996
     invoke-direct {v0, v1, v3}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
     goto :goto_11
 
-    .line 6998
+    .line 6997
     :cond_25
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -11894,7 +11874,7 @@
 
     if-eqz v2, :cond_28
 
-    .line 6999
+    .line 6998
     invoke-direct {v0, v1, v7}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
     goto :goto_11
@@ -11902,7 +11882,7 @@
     :cond_26
     if-eqz v3, :cond_28
 
-    .line 7003
+    .line 7002
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -11924,7 +11904,7 @@
     :cond_27
     if-eqz v3, :cond_28
 
-    .line 7009
+    .line 7008
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -11951,7 +11931,7 @@
 
     const/4 v0, 0x0
 
-    .line 4560
+    .line 4563
     :goto_0
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -11959,7 +11939,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 4561
+    .line 4564
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, v0
@@ -11977,7 +11957,7 @@
 .method private replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 8056
+    .line 8055
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, p1
@@ -11988,7 +11968,7 @@
 
     if-nez v0, :cond_0
 
-    .line 8057
+    .line 8056
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, p1
@@ -11999,22 +11979,22 @@
 
     if-eqz v0, :cond_0
 
-    .line 8058
+    .line 8057
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v0, p1
 
     aget-object v0, v0, p1
 
-    .line 8059
+    .line 8058
     invoke-virtual {v0, p2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 8058
+    .line 8057
     invoke-virtual {v1, p3, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8060
+    .line 8059
     iget-object p3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p1, p3, p1
@@ -12033,28 +12013,28 @@
         }
     .end annotation
 
-    .line 7024
+    .line 7023
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, p2
 
     const-string v1, "ImageLength"
 
-    .line 7025
+    .line 7024
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7026
+    .line 7025
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, p2
 
     const-string v2, "ImageWidth"
 
-    .line 7027
+    .line 7026
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -12065,7 +12045,7 @@
 
     if-nez v1, :cond_1
 
-    .line 7031
+    .line 7030
     :cond_0
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -12073,21 +12053,21 @@
 
     const-string v1, "JPEGInterchangeFormat"
 
-    .line 7032
+    .line 7031
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7033
+    .line 7032
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, p2
 
     const-string v2, "JPEGInterchangeFormatLength"
 
-    .line 7034
+    .line 7033
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -12098,34 +12078,34 @@
 
     if-eqz v1, :cond_1
 
-    .line 7037
+    .line 7036
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7038
+    .line 7037
     invoke-virtual {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v1
 
-    .line 7039
+    .line 7038
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7040
+    .line 7039
     invoke-virtual {v0, v2}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v0
 
     int-to-long v2, v1
 
-    .line 7043
+    .line 7042
     invoke-virtual {p1, v2, v3}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->seek(J)V
 
-    .line 7044
+    .line 7043
     new-array v0, v0, [B
 
-    .line 7045
+    .line 7044
     invoke-virtual {p1, v0}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->read([B)I
 
-    .line 7046
+    .line 7045
     new-instance p1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
@@ -12144,12 +12124,12 @@
         }
     .end annotation
 
-    .line 6281
+    .line 6280
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 6282
+    .line 6281
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -12178,20 +12158,20 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6285
+    .line 6284
     :cond_0
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 6286
+    .line 6285
     new-instance p1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
 
     sget-object v1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-direct {p1, p2, v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6288
+    .line 6287
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result p2
@@ -12202,10 +12182,10 @@
 
     if-ne p2, v2, :cond_d
 
-    .line 6291
+    .line 6290
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6292
+    .line 6291
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result p2
@@ -12214,14 +12194,14 @@
 
     if-ne p2, v3, :cond_c
 
-    .line 6295
+    .line 6294
     invoke-virtual {p1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
     const/4 p2, 0x0
 
     const-string v3, "Xmp"
 
-    .line 6301
+    .line 6300
     invoke-virtual {p0, v3}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -12234,7 +12214,7 @@
 
     if-eqz v4, :cond_1
 
-    .line 6302
+    .line 6301
     iget-object p2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p2, p2, v5
@@ -12245,21 +12225,21 @@
 
     check-cast p2, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 6306
+    .line 6305
     :cond_1
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
     const/16 v4, -0x1f
 
-    .line 6307
+    .line 6306
     invoke-virtual {p1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6308
+    .line 6307
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
     if-eqz p2, :cond_2
 
-    .line 6312
+    .line 6311
     iget-object v6, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v6, v6, v5
@@ -12271,7 +12251,7 @@
 
     new-array v3, p2, [B
 
-    .line 6318
+    .line 6317
     :cond_3
     :goto_0
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
@@ -12280,7 +12260,7 @@
 
     if-ne v6, v2, :cond_b
 
-    .line 6322
+    .line 6321
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result v6
@@ -12297,18 +12277,18 @@
 
     if-eq v6, v4, :cond_5
 
-    .line 6366
+    .line 6365
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6367
+    .line 6366
     invoke-virtual {p1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6368
+    .line 6367
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
     move-result v6
 
-    .line 6369
+    .line 6368
     invoke-virtual {p1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
     add-int/lit8 v6, v6, -0x2
@@ -12318,26 +12298,26 @@
     :goto_1
     if-lez v6, :cond_3
 
-    .line 6376
+    .line 6375
     invoke-static {v6, p2}, Ljava/lang/Math;->min(II)I
 
     move-result v7
 
-    .line 6375
+    .line 6374
     invoke-virtual {v0, v3, v5, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([BII)I
 
     move-result v7
 
     if-ltz v7, :cond_3
 
-    .line 6377
+    .line 6376
     invoke-virtual {p1, v3, v5, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([BII)V
 
     sub-int/2addr v6, v7
 
     goto :goto_1
 
-    .line 6372
+    .line 6371
     :cond_4
     new-instance p1, Ljava/io/IOException;
 
@@ -12345,7 +12325,7 @@
 
     throw p1
 
-    .line 6325
+    .line 6324
     :cond_5
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readUnsignedShort()I
 
@@ -12361,14 +12341,14 @@
 
     if-lt v8, v7, :cond_7
 
-    .line 6331
+    .line 6330
     invoke-virtual {v0, v9}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v10
 
     if-ne v10, v7, :cond_6
 
-    .line 6334
+    .line 6333
     sget-object v10, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     invoke-static {v9, v10}, Ljava/util/Arrays;->equals([B[B)Z
@@ -12379,12 +12359,12 @@
 
     add-int/lit8 v8, v8, -0x6
 
-    .line 6336
+    .line 6335
     invoke-virtual {v0, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     goto :goto_0
 
-    .line 6332
+    .line 6331
     :cond_6
     new-instance p1, Ljava/io/IOException;
 
@@ -12394,49 +12374,49 @@
 
     throw p1
 
-    .line 6341
+    .line 6340
     :cond_7
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6342
+    .line 6341
     invoke-virtual {p1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
     add-int/lit8 v6, v8, 0x2
 
-    .line 6343
+    .line 6342
     invoke-virtual {p1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
     if-lt v8, v7, :cond_8
 
     add-int/lit8 v8, v8, -0x6
 
-    .line 6346
+    .line 6345
     invoke-virtual {p1, v9}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
     :cond_8
     :goto_2
     if-lez v8, :cond_3
 
-    .line 6350
+    .line 6349
     invoke-static {v8, p2}, Ljava/lang/Math;->min(II)I
 
     move-result v6
 
-    .line 6349
+    .line 6348
     invoke-virtual {v0, v3, v5, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([BII)I
 
     move-result v6
 
     if-ltz v6, :cond_3
 
-    .line 6351
+    .line 6350
     invoke-virtual {p1, v3, v5, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([BII)V
 
     sub-int/2addr v8, v6
 
     goto :goto_2
 
-    .line 6327
+    .line 6326
     :cond_9
     new-instance p1, Ljava/io/IOException;
 
@@ -12444,19 +12424,19 @@
 
     throw p1
 
-    .line 6358
+    .line 6357
     :cond_a
     invoke-virtual {p1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6359
+    .line 6358
     invoke-virtual {p1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 6361
+    .line 6360
     invoke-static {v0, p1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
 
     return-void
 
-    .line 6320
+    .line 6319
     :cond_b
     new-instance p1, Ljava/io/IOException;
 
@@ -12464,7 +12444,7 @@
 
     throw p1
 
-    .line 6293
+    .line 6292
     :cond_c
     new-instance p1, Ljava/io/IOException;
 
@@ -12472,7 +12452,7 @@
 
     throw p1
 
-    .line 6289
+    .line 6288
     :cond_d
     new-instance p1, Ljava/io/IOException;
 
@@ -12489,12 +12469,12 @@
         }
     .end annotation
 
-    .line 6388
+    .line 6387
     sget-boolean v0, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 6389
+    .line 6388
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -12523,51 +12503,51 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6392
+    .line 6391
     :cond_0
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
     invoke-direct {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 6393
+    .line 6392
     new-instance p1, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
 
     sget-object v1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-direct {p1, p2, v1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6397
+    .line 6396
     sget-object p2, Landroidx/exifinterface/media/ExifInterface;->PNG_SIGNATURE:[B
 
     array-length v1, p2
 
     invoke-static {v0, p1, v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
-    .line 6405
+    .line 6404
     iget v1, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
     const/4 v2, 0x4
 
     if-nez v1, :cond_1
 
-    .line 6407
+    .line 6406
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result p2
 
-    .line 6408
+    .line 6407
     invoke-virtual {p1, p2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
     add-int/2addr p2, v2
 
     add-int/2addr p2, v2
 
-    .line 6409
+    .line 6408
     invoke-static {v0, p1, p2}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
     goto :goto_0
 
-    .line 6413
+    .line 6412
     :cond_1
     array-length p2, p2
 
@@ -12577,10 +12557,10 @@
 
     sub-int/2addr v1, v2
 
-    .line 6416
+    .line 6415
     invoke-static {v0, p1, v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
-    .line 6419
+    .line 6418
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result p2
@@ -12589,13 +12569,13 @@
 
     add-int/2addr p2, v2
 
-    .line 6420
+    .line 6419
     invoke-virtual {v0, p2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
     :goto_0
     const/4 p2, 0x0
 
-    .line 6429
+    .line 6428
     :try_start_0
     new-instance v1, Ljava/io/ByteArrayOutputStream;
 
@@ -12603,7 +12583,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 6430
+    .line 6429
     :try_start_1
     new-instance p2, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
 
@@ -12611,35 +12591,35 @@
 
     invoke-direct {p2, v1, v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6435
+    .line 6434
     invoke-direct {p0, p2}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
-    .line 6436
+    .line 6435
     iget-object p2, p2, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->mOutputStream:Ljava/io/OutputStream;
 
     check-cast p2, Ljava/io/ByteArrayOutputStream;
 
-    .line 6437
+    .line 6436
     invoke-virtual {p2}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p2
 
-    .line 6440
+    .line 6439
     invoke-virtual {p1, p2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6443
+    .line 6442
     new-instance v3, Ljava/util/zip/CRC32;
 
     invoke-direct {v3}, Ljava/util/zip/CRC32;-><init>()V
 
-    .line 6444
+    .line 6443
     array-length v4, p2
 
     sub-int/2addr v4, v2
 
     invoke-virtual {v3, p2, v2, v4}, Ljava/util/zip/CRC32;->update([BII)V
 
-    .line 6445
+    .line 6444
     invoke-virtual {v3}, Ljava/util/zip/CRC32;->getValue()J
 
     move-result-wide v2
@@ -12650,10 +12630,10 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6447
+    .line 6446
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 6451
+    .line 6450
     invoke-static {v0, p1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
 
     return-void
@@ -12668,11 +12648,11 @@
     :catchall_1
     move-exception p1
 
-    .line 6447
+    .line 6446
     :goto_1
     invoke-static {p2}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 6448
+    .line 6447
     throw p1
 .end method
 
@@ -12690,12 +12670,12 @@
 
     move-object/from16 v2, p2
 
-    .line 6488
+    .line 6487
     sget-boolean v3, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v3, :cond_0
 
-    .line 6489
+    .line 6488
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -12724,7 +12704,7 @@
 
     invoke-static {v4, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6492
+    .line 6491
     :cond_0
     new-instance v3, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;
 
@@ -12732,21 +12712,21 @@
 
     invoke-direct {v3, v0, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6494
+    .line 6493
     new-instance v4, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
 
     sget-object v5, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-direct {v4, v2, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6498
+    .line 6497
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_1:[B
 
     array-length v5, v2
 
     invoke-static {v3, v4, v5}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
-    .line 6500
+    .line 6499
     sget-object v5, Landroidx/exifinterface/media/ExifInterface;->WEBP_SIGNATURE_2:[B
 
     array-length v6, v5
@@ -12759,7 +12739,7 @@
 
     const/4 v6, 0x0
 
-    .line 6505
+    .line 6504
     :try_start_0
     new-instance v8, Ljava/io/ByteArrayOutputStream;
 
@@ -12768,7 +12748,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 6506
+    .line 6505
     :try_start_1
     new-instance v9, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
 
@@ -12776,12 +12756,12 @@
 
     invoke-direct {v9, v8, v10}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
 
-    .line 6510
+    .line 6509
     iget v10, v1, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
 
     if-eqz v10, :cond_1
 
-    .line 6513
+    .line 6512
     array-length v0, v2
 
     add-int/2addr v0, v7
@@ -12796,21 +12776,21 @@
 
     sub-int/2addr v10, v7
 
-    .line 6515
+    .line 6514
     invoke-static {v3, v9, v10}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
-    .line 6520
+    .line 6519
     invoke-virtual {v3, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 6521
+    .line 6520
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v0
 
-    .line 6522
+    .line 6521
     invoke-virtual {v3, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->skipFully(I)V
 
-    .line 6525
+    .line 6524
     invoke-direct {v1, v9}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
     goto/16 :goto_6
@@ -12818,14 +12798,14 @@
     :cond_1
     new-array v2, v7, [B
 
-    .line 6529
+    .line 6528
     invoke-virtual {v3, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v5
 
     if-ne v5, v7, :cond_10
 
-    .line 6534
+    .line 6533
     sget-object v5, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8X:[B
 
     invoke-static {v2, v5}, Ljava/util/Arrays;->equals([B[B)Z
@@ -12840,12 +12820,12 @@
 
     if-eqz v10, :cond_6
 
-    .line 6536
+    .line 6535
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v2
 
-    .line 6538
+    .line 6537
     rem-int/lit8 v10, v2, 0x2
 
     if-ne v10, v12, :cond_2
@@ -12860,10 +12840,10 @@
     :goto_0
     new-array v10, v10, [B
 
-    .line 6539
+    .line 6538
     invoke-virtual {v3, v10}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
-    .line 6542
+    .line 6541
     aget-byte v14, v10, v13
 
     or-int/2addr v11, v14
@@ -12872,7 +12852,7 @@
 
     aput-byte v11, v10, v13
 
-    .line 6545
+    .line 6544
     aget-byte v11, v10, v13
 
     shr-int/2addr v11, v12
@@ -12886,19 +12866,19 @@
     :cond_3
     move v12, v13
 
-    .line 6548
+    .line 6547
     :goto_1
     invoke-virtual {v9, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6549
+    .line 6548
     invoke-virtual {v9, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 6550
+    .line 6549
     invoke-virtual {v9, v10}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
     if-eqz v12, :cond_5
 
-    .line 6560
+    .line 6559
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_ANIM:[B
 
     invoke-direct {v1, v3, v9, v2, v6}, Landroidx/exifinterface/media/ExifInterface;->copyChunksUpToGivenChunkType(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;[B[B)V
@@ -12906,10 +12886,10 @@
     :goto_2
     new-array v2, v7, [B
 
-    .line 6566
+    .line 6565
     invoke-virtual {v0, v2}, Ljava/io/InputStream;->read([B)I
 
-    .line 6567
+    .line 6566
     sget-object v5, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_ANMF:[B
 
     invoke-static {v2, v5}, Ljava/util/Arrays;->equals([B[B)Z
@@ -12918,18 +12898,18 @@
 
     if-nez v5, :cond_4
 
-    .line 6569
+    .line 6568
     invoke-direct {v1, v9}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
     goto/16 :goto_6
 
-    .line 6572
+    .line 6571
     :cond_4
     invoke-direct {v1, v3, v9, v2}, Landroidx/exifinterface/media/ExifInterface;->copyWebPChunk(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;[B)V
 
     goto :goto_2
 
-    .line 6576
+    .line 6575
     :cond_5
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8:[B
 
@@ -12937,12 +12917,12 @@
 
     invoke-direct {v1, v3, v9, v0, v2}, Landroidx/exifinterface/media/ExifInterface;->copyChunksUpToGivenChunkType(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;[B[B)V
 
-    .line 6578
+    .line 6577
     invoke-direct {v1, v9}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
     goto/16 :goto_6
 
-    .line 6580
+    .line 6579
     :cond_6
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8:[B
 
@@ -12954,20 +12934,20 @@
 
     sget-object v6, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8L:[B
 
-    .line 6581
+    .line 6580
     invoke-static {v2, v6}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v6
 
     if-eqz v6, :cond_f
 
-    .line 6582
+    .line 6581
     :cond_7
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v6
 
-    .line 6585
+    .line 6584
     rem-int/lit8 v10, v6, 0x2
 
     if-ne v10, v12, :cond_8
@@ -12984,7 +12964,7 @@
 
     new-array v15, v14, [B
 
-    .line 6597
+    .line 6596
     invoke-static {v2, v0}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v16
@@ -12993,12 +12973,12 @@
 
     if-eqz v16, :cond_a
 
-    .line 6598
+    .line 6597
     invoke-virtual {v3, v15}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     new-array v12, v14, [B
 
-    .line 6602
+    .line 6601
     invoke-virtual {v3, v12}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->read([B)I
 
     move-result v11
@@ -13007,14 +12987,14 @@
 
     sget-object v11, Landroidx/exifinterface/media/ExifInterface;->WEBP_VP8_SIGNATURE:[B
 
-    .line 6603
+    .line 6602
     invoke-static {v11, v12}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v11
 
     if-eqz v11, :cond_9
 
-    .line 6609
+    .line 6608
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v11
@@ -13033,7 +13013,7 @@
 
     goto :goto_4
 
-    .line 6604
+    .line 6603
     :cond_9
     new-instance v0, Ljava/io/IOException;
 
@@ -13043,7 +13023,7 @@
 
     throw v0
 
-    .line 6613
+    .line 6612
     :cond_a
     sget-object v11, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8L:[B
 
@@ -13053,14 +13033,14 @@
 
     if-eqz v11, :cond_c
 
-    .line 6615
+    .line 6614
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readByte()B
 
     move-result v11
 
     if-ne v11, v7, :cond_b
 
-    .line 6622
+    .line 6621
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->readInt()I
 
     move-result v11
@@ -13089,7 +13069,7 @@
 
     goto :goto_4
 
-    .line 6617
+    .line 6616
     :cond_b
     new-instance v0, Ljava/io/IOException;
 
@@ -13108,13 +13088,13 @@
 
     move/from16 v17, v14
 
-    .line 6633
+    .line 6632
     :goto_4
     invoke-virtual {v9, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
     const/16 v5, 0xa
 
-    .line 6634
+    .line 6633
     invoke-virtual {v9, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
     new-array v5, v5, [B
@@ -13187,36 +13167,36 @@
 
     aput-byte v12, v5, v7
 
-    .line 6649
+    .line 6648
     invoke-virtual {v9, v5}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6652
+    .line 6651
     invoke-virtual {v9, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6653
+    .line 6652
     invoke-virtual {v9, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 6654
+    .line 6653
     invoke-static {v2, v0}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v0
 
     if-eqz v0, :cond_d
 
-    .line 6655
+    .line 6654
     invoke-virtual {v9, v15}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6656
+    .line 6655
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->WEBP_VP8_SIGNATURE:[B
 
     invoke-virtual {v9, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6657
+    .line 6656
     invoke-virtual {v9, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
     goto :goto_5
 
-    .line 6658
+    .line 6657
     :cond_d
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_VP8L:[B
 
@@ -13228,26 +13208,26 @@
 
     const/16 v0, 0x2f
 
-    .line 6659
+    .line 6658
     invoke-virtual {v9, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write(I)V
 
-    .line 6660
+    .line 6659
     invoke-virtual {v9, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 6662
+    .line 6661
     :cond_e
     :goto_5
     invoke-static {v3, v9, v10}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;I)V
 
-    .line 6665
+    .line 6664
     invoke-direct {v1, v9}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
-    .line 6670
+    .line 6669
     :cond_f
     :goto_6
     invoke-static {v3, v9}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
 
-    .line 6673
+    .line 6672
     invoke-virtual {v8}, Ljava/io/ByteArrayOutputStream;->size()I
 
     move-result v0
@@ -13260,21 +13240,21 @@
 
     invoke-virtual {v4, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 6675
+    .line 6674
     invoke-virtual {v4, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 6676
+    .line 6675
     invoke-virtual {v8, v4}, Ljava/io/ByteArrayOutputStream;->writeTo(Ljava/io/OutputStream;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6680
+    .line 6679
     invoke-static {v8}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     return-void
 
-    .line 6530
+    .line 6529
     :cond_10
     :try_start_2
     new-instance v0, Ljava/io/IOException;
@@ -13310,7 +13290,7 @@
     :catch_1
     move-exception v0
 
-    .line 6678
+    .line 6677
     :goto_7
     :try_start_3
     new-instance v2, Ljava/io/IOException;
@@ -13323,11 +13303,11 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 6680
+    .line 6679
     :goto_8
     invoke-static {v6}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 6681
+    .line 6680
     throw v0
 .end method
 
@@ -13339,7 +13319,7 @@
         }
     .end annotation
 
-    .line 7054
+    .line 7053
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v1, 0x4
@@ -13348,7 +13328,7 @@
 
     const-string v1, "Compression"
 
-    .line 7057
+    .line 7056
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -13359,7 +13339,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 7059
+    .line 7058
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
@@ -13380,13 +13360,13 @@
 
     goto :goto_0
 
-    .line 7062
+    .line 7061
     :cond_0
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->handleThumbnailFromJfif(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Ljava/util/HashMap;)V
 
     goto :goto_0
 
-    .line 7067
+    .line 7066
     :cond_1
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->isSupportedDataType(Ljava/util/HashMap;)Z
 
@@ -13394,16 +13374,16 @@
 
     if-eqz v1, :cond_3
 
-    .line 7068
+    .line 7067
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->handleThumbnailFromStrips(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Ljava/util/HashMap;)V
 
     goto :goto_0
 
-    .line 7075
+    .line 7074
     :cond_2
     iput v2, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailCompression:I
 
-    .line 7076
+    .line 7075
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->handleThumbnailFromJfif(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;Ljava/util/HashMap;)V
 
     :cond_3
@@ -13452,7 +13432,7 @@
         }
     .end annotation
 
-    .line 8016
+    .line 8015
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, p1
@@ -13477,7 +13457,7 @@
 
     goto/16 :goto_3
 
-    .line 8023
+    .line 8022
     :cond_0
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -13485,45 +13465,45 @@
 
     const-string v2, "ImageLength"
 
-    .line 8024
+    .line 8023
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 8025
+    .line 8024
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, p1
 
     const-string v4, "ImageWidth"
 
-    .line 8026
+    .line 8025
     invoke-virtual {v3, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 8027
+    .line 8026
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v5, v5, p2
 
-    .line 8028
+    .line 8027
     invoke-virtual {v5, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 8029
+    .line 8028
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v5, v5, p2
 
-    .line 8030
+    .line 8029
     invoke-virtual {v5, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -13543,7 +13523,7 @@
 
     goto :goto_0
 
-    .line 8041
+    .line 8040
     :cond_2
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
@@ -13551,21 +13531,21 @@
 
     move-result v0
 
-    .line 8042
+    .line 8041
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v3, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v1
 
-    .line 8043
+    .line 8042
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v2, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v2
 
-    .line 8044
+    .line 8043
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v4, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
@@ -13576,22 +13556,22 @@
 
     if-ge v1, v3, :cond_5
 
-    .line 8048
+    .line 8047
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v0, p1
 
-    .line 8049
+    .line 8048
     aget-object v2, v0, p2
 
     aput-object v2, v0, p1
 
-    .line 8050
+    .line 8049
     aput-object v1, v0, p2
 
     goto :goto_2
 
-    .line 8037
+    .line 8036
     :cond_3
     :goto_0
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -13600,12 +13580,12 @@
 
     const-string p1, "Second image does not contain valid size information"
 
-    .line 8038
+    .line 8037
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_2
 
-    .line 8033
+    .line 8032
     :cond_4
     :goto_1
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -13614,14 +13594,14 @@
 
     const-string p1, "First image does not contain valid size information"
 
-    .line 8034
+    .line 8033
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_5
     :goto_2
     return-void
 
-    .line 8017
+    .line 8016
     :cond_6
     :goto_3
     sget-boolean p1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
@@ -13630,7 +13610,7 @@
 
     const-string p1, "Cannot perform swap since only one image data exists"
 
-    .line 8018
+    .line 8017
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_7
@@ -13645,70 +13625,70 @@
         }
     .end annotation
 
-    .line 7312
+    .line 7311
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v0, v0, p2
 
     const-string v1, "DefaultCropSize"
 
-    .line 7313
+    .line 7312
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7315
+    .line 7314
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, p2
 
     const-string v2, "SensorTopBorder"
 
-    .line 7316
+    .line 7315
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7317
+    .line 7316
     iget-object v2, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, p2
 
     const-string v3, "SensorLeftBorder"
 
-    .line 7318
+    .line 7317
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7319
+    .line 7318
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, p2
 
     const-string v4, "SensorBottomBorder"
 
-    .line 7320
+    .line 7319
     invoke-virtual {v3, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7321
+    .line 7320
     iget-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, p2
 
     const-string v5, "SensorRightBorder"
 
-    .line 7322
+    .line 7321
     invoke-virtual {v4, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -13721,7 +13701,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 7327
+    .line 7326
     iget p1, v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->format:I
 
     const/4 v1, 0x5
@@ -13738,10 +13718,10 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 7328
+    .line 7327
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7329
+    .line 7328
     invoke-virtual {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
 
     move-result-object p1
@@ -13750,37 +13730,37 @@
 
     if-eqz p1, :cond_1
 
-    .line 7330
+    .line 7329
     array-length v0, p1
 
     if-eq v0, v4, :cond_0
 
     goto :goto_0
 
-    .line 7335
+    .line 7334
     :cond_0
     aget-object v0, p1, v3
 
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7336
+    .line 7335
     invoke-static {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createURational(Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
 
-    .line 7337
+    .line 7336
     aget-object p1, p1, v2
 
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7338
+    .line 7337
     invoke-static {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createURational(Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 7331
+    .line 7330
     :cond_1
     :goto_0
     new-instance p2, Ljava/lang/StringBuilder;
@@ -13789,7 +13769,7 @@
 
     invoke-virtual {p2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7332
+    .line 7331
     invoke-static {p1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -13800,16 +13780,16 @@
 
     move-result-object p1
 
-    .line 7331
+    .line 7330
     invoke-static {v8, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
-    .line 7340
+    .line 7339
     :cond_2
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7341
+    .line 7340
     invoke-virtual {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getValue(Ljava/nio/ByteOrder;)Ljava/lang/Object;
 
     move-result-object p1
@@ -13818,35 +13798,35 @@
 
     if-eqz p1, :cond_4
 
-    .line 7342
+    .line 7341
     array-length v0, p1
 
     if-eq v0, v4, :cond_3
 
     goto :goto_2
 
-    .line 7347
+    .line 7346
     :cond_3
     aget v0, p1, v3
 
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7348
+    .line 7347
     invoke-static {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
 
-    .line 7349
+    .line 7348
     aget p1, p1, v2
 
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7350
+    .line 7349
     invoke-static {p1, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
 
-    .line 7352
+    .line 7351
     :goto_1
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -13854,7 +13834,7 @@
 
     invoke-virtual {v1, v6, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7353
+    .line 7352
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p2, v0, p2
@@ -13863,7 +13843,7 @@
 
     goto :goto_3
 
-    .line 7343
+    .line 7342
     :cond_4
     :goto_2
     new-instance p2, Ljava/lang/StringBuilder;
@@ -13872,7 +13852,7 @@
 
     invoke-virtual {p2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7344
+    .line 7343
     invoke-static {p1}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
 
     move-result-object p1
@@ -13883,7 +13863,7 @@
 
     move-result-object p1
 
-    .line 7343
+    .line 7342
     invoke-static {v8, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -13897,28 +13877,28 @@
 
     if-eqz v4, :cond_6
 
-    .line 7357
+    .line 7356
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result p1
 
-    .line 7358
+    .line 7357
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v3, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v0
 
-    .line 7359
+    .line 7358
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v4, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v1
 
-    .line 7360
+    .line 7359
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v2, v3}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
@@ -13933,30 +13913,30 @@
 
     sub-int/2addr v1, v2
 
-    .line 7364
+    .line 7363
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7365
+    .line 7364
     invoke-static {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
 
-    .line 7366
+    .line 7365
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7367
+    .line 7366
     invoke-static {v1, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
 
-    .line 7368
+    .line 7367
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v1, v1, p2
 
     invoke-virtual {v1, v5, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7369
+    .line 7368
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object p1, p1, p2
@@ -13965,7 +13945,7 @@
 
     goto :goto_3
 
-    .line 7372
+    .line 7371
     :cond_6
     invoke-direct {p0, p1, p2}, Landroidx/exifinterface/media/ExifInterface;->retrieveJpegImageSize(Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;I)V
 
@@ -13986,18 +13966,18 @@
 
     const/4 v1, 0x5
 
-    .line 7256
+    .line 7255
     invoke-direct {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->swapBasedOnImageSize(II)V
 
     const/4 v2, 0x4
 
-    .line 7257
+    .line 7256
     invoke-direct {p0, v0, v2}, Landroidx/exifinterface/media/ExifInterface;->swapBasedOnImageSize(II)V
 
-    .line 7258
+    .line 7257
     invoke-direct {p0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->swapBasedOnImageSize(II)V
 
-    .line 7264
+    .line 7263
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     const/4 v4, 0x1
@@ -14006,21 +13986,21 @@
 
     const-string v5, "PixelXDimension"
 
-    .line 7265
+    .line 7264
     invoke-virtual {v3, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7266
+    .line 7265
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v5, v4
 
     const-string v5, "PixelYDimension"
 
-    .line 7267
+    .line 7266
     invoke-virtual {v4, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -14035,21 +14015,21 @@
 
     if-eqz v4, :cond_0
 
-    .line 7269
+    .line 7268
     iget-object v7, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v0
 
     invoke-virtual {v7, v6, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7270
+    .line 7269
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v0
 
     invoke-virtual {v3, v5, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7275
+    .line 7274
     :cond_0
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14061,7 +14041,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 7276
+    .line 7275
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v1
@@ -14072,21 +14052,21 @@
 
     if-eqz v3, :cond_1
 
-    .line 7277
+    .line 7276
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v3, v1
 
     aput-object v4, v3, v2
 
-    .line 7278
+    .line 7277
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
     aput-object v4, v3, v1
 
-    .line 7283
+    .line 7282
     :cond_1
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14102,7 +14082,7 @@
 
     const-string v4, "No image meets the size requirements of a thumbnail image."
 
-    .line 7284
+    .line 7283
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_2
@@ -14110,35 +14090,35 @@
 
     const-string v4, "Orientation"
 
-    .line 7288
+    .line 7287
     invoke-direct {p0, v0, v3, v4}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
     const-string v7, "ThumbnailImageLength"
 
-    .line 7289
+    .line 7288
     invoke-direct {p0, v0, v7, v5}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
     const-string v8, "ThumbnailImageWidth"
 
-    .line 7290
+    .line 7289
     invoke-direct {p0, v0, v8, v6}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7291
+    .line 7290
     invoke-direct {p0, v1, v3, v4}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7292
+    .line 7291
     invoke-direct {p0, v1, v7, v5}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7293
+    .line 7292
     invoke-direct {p0, v1, v8, v6}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7294
+    .line 7293
     invoke-direct {p0, v2, v4, v3}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7295
+    .line 7294
     invoke-direct {p0, v2, v5, v7}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 7296
+    .line 7295
     invoke-direct {p0, v2, v6, v8}, Landroidx/exifinterface/media/ExifInterface;->replaceInvalidTags(ILjava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -14156,19 +14136,19 @@
 
     move-object/from16 v1, p1
 
-    .line 7379
+    .line 7378
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v3, v2
 
     new-array v3, v3, [I
 
-    .line 7380
+    .line 7379
     array-length v2, v2
 
     new-array v2, v2, [I
 
-    .line 7383
+    .line 7382
     sget-object v4, Landroidx/exifinterface/media/ExifInterface;->EXIF_POINTER_TAGS:[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
     array-length v5, v4
@@ -14182,7 +14162,7 @@
 
     aget-object v8, v4, v7
 
-    .line 7384
+    .line 7383
     iget-object v8, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     invoke-direct {v0, v8}, Landroidx/exifinterface/media/ExifInterface;->removeAttribute(Ljava/lang/String;)V
@@ -14191,7 +14171,7 @@
 
     goto :goto_0
 
-    .line 7387
+    .line 7386
     :cond_0
     iget-boolean v4, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
@@ -14205,31 +14185,31 @@
 
     if-eqz v4, :cond_2
 
-    .line 7388
+    .line 7387
     iget-boolean v4, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnailStrips:Z
 
     if-eqz v4, :cond_1
 
-    .line 7389
+    .line 7388
     invoke-direct {v0, v8}, Landroidx/exifinterface/media/ExifInterface;->removeAttribute(Ljava/lang/String;)V
 
-    .line 7390
+    .line 7389
     invoke-direct {v0, v5}, Landroidx/exifinterface/media/ExifInterface;->removeAttribute(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 7392
+    .line 7391
     :cond_1
     invoke-direct {v0, v9}, Landroidx/exifinterface/media/ExifInterface;->removeAttribute(Ljava/lang/String;)V
 
-    .line 7393
+    .line 7392
     invoke-direct {v0, v7}, Landroidx/exifinterface/media/ExifInterface;->removeAttribute(Ljava/lang/String;)V
 
     :cond_2
     :goto_1
     move v4, v6
 
-    .line 7398
+    .line 7397
     :goto_2
     sget-object v10, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -14237,7 +14217,7 @@
 
     if-ge v4, v10, :cond_5
 
-    .line 7399
+    .line 7398
     iget-object v10, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v10, v10, v4
@@ -14259,17 +14239,17 @@
 
     aget-object v13, v10, v12
 
-    .line 7400
+    .line 7399
     check-cast v13, Ljava/util/Map$Entry;
 
-    .line 7401
+    .line 7400
     invoke-interface {v13}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v14
 
     if-nez v14, :cond_3
 
-    .line 7402
+    .line 7401
     iget-object v14, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v14, v14, v4
@@ -14290,7 +14270,7 @@
 
     goto :goto_2
 
-    .line 7409
+    .line 7408
     :cond_5
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14306,7 +14286,7 @@
 
     if-nez v4, :cond_6
 
-    .line 7410
+    .line 7409
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v6
@@ -14319,15 +14299,15 @@
 
     iget-object v14, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7411
+    .line 7410
     invoke-static {v11, v12, v14}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v14
 
-    .line 7410
+    .line 7409
     invoke-virtual {v4, v13, v14}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7413
+    .line 7412
     :cond_6
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14341,7 +14321,7 @@
 
     if-nez v4, :cond_7
 
-    .line 7414
+    .line 7413
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v6
@@ -14354,15 +14334,15 @@
 
     iget-object v15, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7415
+    .line 7414
     invoke-static {v11, v12, v15}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v15
 
-    .line 7414
+    .line 7413
     invoke-virtual {v4, v14, v15}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7417
+    .line 7416
     :cond_7
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14376,7 +14356,7 @@
 
     if-nez v4, :cond_8
 
-    .line 7418
+    .line 7417
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v10
@@ -14389,15 +14369,15 @@
 
     iget-object v14, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7419
+    .line 7418
     invoke-static {v11, v12, v14}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v14
 
-    .line 7418
+    .line 7417
     invoke-virtual {v4, v15, v14}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7421
+    .line 7420
     :cond_8
     iget-boolean v4, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
@@ -14405,27 +14385,27 @@
 
     if-eqz v4, :cond_a
 
-    .line 7422
+    .line 7421
     iget-boolean v4, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnailStrips:Z
 
     if-eqz v4, :cond_9
 
-    .line 7423
+    .line 7422
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v14
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7424
+    .line 7423
     invoke-static {v6, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7423
+    .line 7422
     invoke-virtual {v4, v8, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7425
+    .line 7424
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v14
@@ -14434,17 +14414,17 @@
 
     iget-object v15, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7426
+    .line 7425
     invoke-static {v7, v15}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7425
+    .line 7424
     invoke-virtual {v4, v5, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_4
 
-    .line 7428
+    .line 7427
     :cond_9
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14452,15 +14432,15 @@
 
     iget-object v5, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7429
+    .line 7428
     invoke-static {v11, v12, v5}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v5
 
-    .line 7428
+    .line 7427
     invoke-virtual {v4, v9, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7430
+    .line 7429
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v4, v4, v14
@@ -14471,19 +14451,19 @@
 
     iget-object v5, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7431
+    .line 7430
     invoke-static {v11, v12, v5}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v5
 
-    .line 7430
+    .line 7429
     invoke-virtual {v4, v7, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_a
     :goto_4
     move v4, v6
 
-    .line 7437
+    .line 7436
     :goto_5
     sget-object v5, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -14491,7 +14471,7 @@
 
     if-ge v4, v5, :cond_d
 
-    .line 7439
+    .line 7438
     iget-object v5, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v5, v5, v4
@@ -14520,14 +14500,14 @@
 
     check-cast v11, Ljava/util/Map$Entry;
 
-    .line 7440
+    .line 7439
     invoke-interface {v11}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7441
+    .line 7440
     invoke-virtual {v11}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->size()I
 
     move-result v11
@@ -14538,7 +14518,7 @@
 
     goto :goto_6
 
-    .line 7446
+    .line 7445
     :cond_c
     aget v5, v2, v4
 
@@ -14555,7 +14535,7 @@
 
     move v5, v6
 
-    .line 7453
+    .line 7452
     :goto_7
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -14563,7 +14543,7 @@
 
     if-ge v5, v7, :cond_f
 
-    .line 7454
+    .line 7453
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v5
@@ -14574,10 +14554,10 @@
 
     if-nez v7, :cond_e
 
-    .line 7455
+    .line 7454
     aput v4, v3, v5
 
-    .line 7456
+    .line 7455
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v5
@@ -14603,35 +14583,35 @@
 
     goto :goto_7
 
-    .line 7459
+    .line 7458
     :cond_f
     iget-boolean v5, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     if-eqz v5, :cond_11
 
-    .line 7461
+    .line 7460
     iget-boolean v5, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnailStrips:Z
 
     if-eqz v5, :cond_10
 
-    .line 7462
+    .line 7461
     iget-object v5, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v5, v5, v14
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7463
+    .line 7462
     invoke-static {v4, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7462
+    .line 7461
     invoke-virtual {v5, v8, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_8
 
-    .line 7465
+    .line 7464
     :cond_10
     iget-object v5, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14641,24 +14621,24 @@
 
     iget-object v11, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7466
+    .line 7465
     invoke-static {v7, v8, v11}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7465
+    .line 7464
     invoke-virtual {v5, v9, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7468
+    .line 7467
     :goto_8
     iput v4, v0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailOffset:I
 
-    .line 7469
+    .line 7468
     iget v5, v0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailLength:I
 
     add-int/2addr v4, v5
 
-    .line 7473
+    .line 7472
     :cond_11
     iget v5, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -14666,7 +14646,7 @@
 
     add-int/lit8 v4, v4, 0x8
 
-    .line 7477
+    .line 7476
     :cond_12
     sget-boolean v5, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
@@ -14674,7 +14654,7 @@
 
     move v5, v6
 
-    .line 7478
+    .line 7477
     :goto_9
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -14686,7 +14666,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 7480
+    .line 7479
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -14717,7 +14697,7 @@
 
     aget v8, v2, v5
 
-    .line 7481
+    .line 7480
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -14734,7 +14714,7 @@
 
     const-string v8, "index: %d, offsets: %d, tag count: %d, data sizes: %d, total size: %d"
 
-    .line 7479
+    .line 7478
     invoke-static {v8, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v7
@@ -14747,7 +14727,7 @@
 
     goto :goto_9
 
-    .line 7486
+    .line 7485
     :cond_13
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14759,7 +14739,7 @@
 
     if-nez v2, :cond_14
 
-    .line 7487
+    .line 7486
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, v6
@@ -14776,15 +14756,15 @@
 
     iget-object v9, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7488
+    .line 7487
     invoke-static {v7, v8, v9}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7487
+    .line 7486
     invoke-virtual {v2, v5, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7490
+    .line 7489
     :cond_14
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14796,7 +14776,7 @@
 
     if-nez v2, :cond_15
 
-    .line 7491
+    .line 7490
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, v6
@@ -14813,15 +14793,15 @@
 
     iget-object v9, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 7492
+    .line 7491
     invoke-static {v7, v8, v9}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v7
 
-    .line 7491
+    .line 7490
     invoke-virtual {v2, v5, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7494
+    .line 7493
     :cond_15
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -14835,7 +14815,7 @@
 
     if-nez v2, :cond_16
 
-    .line 7495
+    .line 7494
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v2, v2, v10
@@ -14858,7 +14838,7 @@
 
     invoke-virtual {v2, v7, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7499
+    .line 7498
     :cond_16
     iget v2, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -14874,38 +14854,38 @@
 
     goto :goto_a
 
-    .line 7512
+    .line 7511
     :cond_17
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->WEBP_CHUNK_TYPE_EXIF:[B
 
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 7513
+    .line 7512
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
     goto :goto_a
 
-    .line 7507
+    .line 7506
     :cond_18
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
 
-    .line 7508
+    .line 7507
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->PNG_CHUNK_TYPE_EXIF:[B
 
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
     goto :goto_a
 
-    .line 7502
+    .line 7501
     :cond_19
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
-    .line 7503
+    .line 7502
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->IDENTIFIER_EXIF_APP1:[B
 
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 7518
+    .line 7517
     :goto_a
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
@@ -14923,24 +14903,24 @@
     :goto_b
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeShort(S)V
 
-    .line 7520
+    .line 7519
     iget-object v2, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->setByteOrder(Ljava/nio/ByteOrder;)V
 
     const/16 v2, 0x2a
 
-    .line 7521
+    .line 7520
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
     const-wide/16 v7, 0x8
 
-    .line 7522
+    .line 7521
     invoke-virtual {v1, v7, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedInt(J)V
 
     move v2, v6
 
-    .line 7525
+    .line 7524
     :goto_c
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -14948,7 +14928,7 @@
 
     if-ge v2, v7, :cond_22
 
-    .line 7526
+    .line 7525
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v2
@@ -14959,7 +14939,7 @@
 
     if-nez v7, :cond_20
 
-    .line 7529
+    .line 7528
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v2
@@ -14970,7 +14950,7 @@
 
     invoke-virtual {v1, v7}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
-    .line 7532
+    .line 7531
     aget v7, v3, v2
 
     add-int/2addr v7, v13
@@ -14989,7 +14969,7 @@
 
     add-int/2addr v7, v14
 
-    .line 7533
+    .line 7532
     iget-object v8, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v8, v8, v2
@@ -15015,7 +14995,7 @@
 
     check-cast v9, Ljava/util/Map$Entry;
 
-    .line 7535
+    .line 7534
     sget-object v11, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForWriting:[Ljava/util/HashMap;
 
     aget-object v11, v11, v2
@@ -15030,30 +15010,30 @@
 
     check-cast v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
-    .line 7536
+    .line 7535
     iget v11, v11, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
 
-    .line 7537
+    .line 7536
     invoke-interface {v9}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7538
+    .line 7537
     invoke-virtual {v9}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->size()I
 
     move-result v12
 
-    .line 7540
+    .line 7539
     invoke-virtual {v1, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
-    .line 7541
+    .line 7540
     iget v11, v9, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->format:I
 
     invoke-virtual {v1, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedShort(I)V
 
-    .line 7542
+    .line 7541
     iget v11, v9, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->numberOfComponents:I
 
     invoke-virtual {v1, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
@@ -15062,14 +15042,14 @@
 
     int-to-long v10, v7
 
-    .line 7544
+    .line 7543
     invoke-virtual {v1, v10, v11}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedInt(J)V
 
     add-int/2addr v7, v12
 
     goto :goto_f
 
-    .line 7547
+    .line 7546
     :cond_1b
     iget-object v9, v9, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
@@ -15080,7 +15060,7 @@
     :goto_e
     if-ge v12, v14, :cond_1c
 
-    .line 7551
+    .line 7550
     invoke-virtual {v1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
     add-int/lit8 v12, v12, 0x1
@@ -15096,7 +15076,7 @@
     :cond_1d
     if-nez v2, :cond_1e
 
-    .line 7560
+    .line 7559
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v7, v7, v14
@@ -15107,7 +15087,7 @@
 
     if-nez v7, :cond_1e
 
-    .line 7561
+    .line 7560
     aget v7, v3, v14
 
     int-to-long v7, v7
@@ -15121,10 +15101,10 @@
     :cond_1e
     const-wide/16 v7, 0x0
 
-    .line 7563
+    .line 7562
     invoke-virtual {v1, v7, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeUnsignedInt(J)V
 
-    .line 7567
+    .line 7566
     :goto_10
     iget-object v9, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -15152,21 +15132,21 @@
 
     check-cast v10, Ljava/util/Map$Entry;
 
-    .line 7568
+    .line 7567
     invoke-interface {v10}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v10
 
     check-cast v10, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 7570
+    .line 7569
     iget-object v11, v10, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     array-length v11, v11
 
     if-le v11, v14, :cond_1f
 
-    .line 7571
+    .line 7570
     iget-object v11, v10, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     iget-object v10, v10, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
@@ -15187,20 +15167,20 @@
 
     goto/16 :goto_c
 
-    .line 7578
+    .line 7577
     :cond_22
     iget-boolean v2, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     if-eqz v2, :cond_23
 
-    .line 7579
+    .line 7578
     invoke-virtual/range {p0 .. p0}, Landroidx/exifinterface/media/ExifInterface;->getThumbnailBytes()[B
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
-    .line 7583
+    .line 7582
     :cond_23
     iget v2, v0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -15212,10 +15192,10 @@
 
     if-ne v2, v3, :cond_24
 
-    .line 7584
+    .line 7583
     invoke-virtual {v1, v6}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeByte(I)V
 
-    .line 7588
+    .line 7587
     :cond_24
     sget-object v2, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
@@ -15233,7 +15213,7 @@
 
     const/4 v1, 0x1
 
-    .line 4470
+    .line 4473
     invoke-virtual {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v2
@@ -15277,7 +15257,7 @@
     :pswitch_6
     const/4 v1, 0x2
 
-    .line 4502
+    .line 4505
     :goto_0
     :pswitch_7
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -15308,7 +15288,7 @@
 
     const/4 v1, 0x1
 
-    .line 4431
+    .line 4434
     invoke-virtual {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v2
@@ -15352,7 +15332,7 @@
     :pswitch_6
     const/4 v1, 0x4
 
-    .line 4463
+    .line 4466
     :goto_0
     :pswitch_7
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -15383,7 +15363,7 @@
 
     const-wide/high16 v1, -0x4010000000000000L    # -1.0
 
-    .line 5110
+    .line 5109
     invoke-virtual {p0, v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttributeDouble(Ljava/lang/String;D)D
 
     move-result-wide v0
@@ -15392,7 +15372,7 @@
 
     const/4 v3, -0x1
 
-    .line 5111
+    .line 5110
     invoke-virtual {p0, v2, v3}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v2
@@ -15428,12 +15408,12 @@
 .method public getAttribute(Ljava/lang/String;)Ljava/lang/String;
     .locals 5
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 4129
+    .line 4132
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4131
+    .line 4134
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v0
@@ -15442,7 +15422,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 4133
+    .line 4136
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->sTagSetForCompatibility:Ljava/util/HashSet;
 
     invoke-virtual {v2, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -15451,7 +15431,7 @@
 
     if-nez v2, :cond_0
 
-    .line 4134
+    .line 4137
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v0, p1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getStringValue(Ljava/nio/ByteOrder;)Ljava/lang/String;
@@ -15463,14 +15443,14 @@
     :cond_0
     const-string v2, "GPSTimeStamp"
 
-    .line 4136
+    .line 4139
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 4138
+    .line 4141
     iget p1, v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->format:I
 
     const/4 v2, 0x5
@@ -15485,7 +15465,7 @@
 
     if-eq p1, v2, :cond_1
 
-    .line 4140
+    .line 4143
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -15506,7 +15486,7 @@
 
     return-object v1
 
-    .line 4143
+    .line 4146
     :cond_1
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
@@ -15518,7 +15498,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 4144
+    .line 4147
     array-length v0, p1
 
     const/4 v2, 0x3
@@ -15532,7 +15512,7 @@
 
     const/4 v1, 0x0
 
-    .line 4148
+    .line 4151
     aget-object v2, p1, v1
 
     iget-wide v2, v2, Landroidx/exifinterface/media/ExifInterface$Rational;->numerator:J
@@ -15549,7 +15529,7 @@
 
     float-to-int v2, v2
 
-    .line 4149
+    .line 4152
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -15574,7 +15554,7 @@
 
     float-to-int v2, v2
 
-    .line 4150
+    .line 4153
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -15599,7 +15579,7 @@
 
     float-to-int p1, v2
 
-    .line 4151
+    .line 4154
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -15608,14 +15588,14 @@
 
     const-string p1, "%02d:%02d:%02d"
 
-    .line 4148
+    .line 4151
     invoke-static {p1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4145
+    .line 4148
     :cond_3
     :goto_0
     new-instance v0, Ljava/lang/StringBuilder;
@@ -15640,7 +15620,7 @@
 
     return-object v1
 
-    .line 4154
+    .line 4157
     :cond_4
     :try_start_0
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
@@ -15665,19 +15645,19 @@
 .method public getAttributeBytes(Ljava/lang/String;)[B
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 5001
+    .line 5000
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5003
+    .line 5002
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 5005
+    .line 5004
     iget-object p1, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytes:[B
 
     return-object p1
@@ -15691,12 +15671,12 @@
 .method public getAttributeDouble(Ljava/lang/String;D)D
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 4196
+    .line 4199
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4198
+    .line 4201
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
@@ -15705,7 +15685,7 @@
 
     return-wide p2
 
-    .line 4204
+    .line 4207
     :cond_0
     :try_start_0
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
@@ -15725,12 +15705,12 @@
 .method public getAttributeInt(Ljava/lang/String;I)I
     .locals 1
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 4172
+    .line 4175
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4174
+    .line 4177
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
@@ -15739,7 +15719,7 @@
 
     return p2
 
-    .line 4180
+    .line 4183
     :cond_0
     :try_start_0
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
@@ -15759,17 +15739,17 @@
 .method public getAttributeRange(Ljava/lang/String;)[J
     .locals 4
 
-    const-string v0, "tag shouldn\'t be null"
+    const-string/jumbo v0, "tag shouldn\'t be null"
 
-    .line 4976
+    .line 4975
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4978
+    .line 4977
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mModified:Z
 
     if-nez v0, :cond_1
 
-    .line 4983
+    .line 4982
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
@@ -15782,7 +15762,7 @@
 
     const/4 v1, 0x0
 
-    .line 4985
+    .line 4984
     iget-wide v2, p1, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->bytesOffset:J
 
     aput-wide v2, v0, v1
@@ -15804,7 +15784,7 @@
 
     return-object p1
 
-    .line 4979
+    .line 4978
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -15820,26 +15800,26 @@
 
     const-string v0, "DateTime"
 
-    .line 5168
+    .line 5167
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "SubSecTime"
 
-    .line 5169
+    .line 5168
     invoke-virtual {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "OffsetTime"
 
-    .line 5170
+    .line 5169
     invoke-virtual {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5168
+    .line 5167
     invoke-static {v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->parseDateTime(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object v0
@@ -15852,26 +15832,26 @@
 
     const-string v0, "DateTimeDigitized"
 
-    .line 5187
+    .line 5186
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "SubSecTimeDigitized"
 
-    .line 5188
+    .line 5187
     invoke-virtual {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "OffsetTimeDigitized"
 
-    .line 5189
+    .line 5188
     invoke-virtual {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5187
+    .line 5186
     invoke-static {v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->parseDateTime(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object v0
@@ -15884,26 +15864,26 @@
 
     const-string v0, "DateTimeOriginal"
 
-    .line 5206
+    .line 5205
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "SubSecTimeOriginal"
 
-    .line 5207
+    .line 5206
     invoke-virtual {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "OffsetTimeOriginal"
 
-    .line 5208
+    .line 5207
     invoke-virtual {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5206
+    .line 5205
     invoke-static {v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->parseDateTime(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object v0
@@ -15916,14 +15896,14 @@
 
     const-string v0, "GPSDateStamp"
 
-    .line 5256
+    .line 5255
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "GPSTimeStamp"
 
-    .line 5257
+    .line 5256
     invoke-virtual {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -15934,10 +15914,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 5258
+    .line 5257
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->NON_ZERO_TIME_PATTERN:Ljava/util/regex/Pattern;
 
-    .line 5259
+    .line 5258
     invoke-virtual {v3, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v4
@@ -15948,7 +15928,7 @@
 
     if-nez v4, :cond_0
 
-    .line 5260
+    .line 5259
     invoke-virtual {v3, v1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v3
@@ -15961,7 +15941,7 @@
 
     goto :goto_0
 
-    .line 5264
+    .line 5263
     :cond_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -15979,14 +15959,14 @@
 
     move-result-object v0
 
-    .line 5266
+    .line 5265
     new-instance v1, Ljava/text/ParsePosition;
 
     const/4 v3, 0x0
 
     invoke-direct {v1, v3}, Ljava/text/ParsePosition;-><init>(I)V
 
-    .line 5268
+    .line 5267
     :try_start_0
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->sFormatterPrimary:Ljava/text/SimpleDateFormat;
 
@@ -15996,7 +15976,7 @@
 
     if-nez v3, :cond_1
 
-    .line 5270
+    .line 5269
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->sFormatterSecondary:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v3, v0, v1}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;
@@ -16007,7 +15987,7 @@
 
     return-object v2
 
-    .line 5275
+    .line 5274
     :cond_1
     invoke-virtual {v3}, Ljava/util/Date;->getTime()J
 
@@ -16032,7 +16012,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5019
+    .line 5018
     invoke-virtual {p0}, Landroidx/exifinterface/media/ExifInterface;->getLatLong()[D
 
     move-result-object v0
@@ -16043,7 +16023,7 @@
 
     return v1
 
-    .line 5024
+    .line 5023
     :cond_0
     aget-wide v2, v0, v1
 
@@ -16053,7 +16033,7 @@
 
     const/4 v1, 0x1
 
-    .line 5025
+    .line 5024
     aget-wide v2, v0, v1
 
     double-to-float v0, v2
@@ -16068,28 +16048,28 @@
 
     const-string v0, "GPSLatitude"
 
-    .line 5038
+    .line 5037
     invoke-virtual {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "GPSLatitudeRef"
 
-    .line 5039
+    .line 5038
     invoke-virtual {p0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "GPSLongitude"
 
-    .line 5040
+    .line 5039
     invoke-virtual {p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "GPSLongitudeRef"
 
-    .line 5041
+    .line 5040
     invoke-virtual {p0, v3}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -16108,13 +16088,13 @@
 
     const/4 v6, 0x0
 
-    .line 5045
+    .line 5044
     :try_start_0
     invoke-static {v0, v1}, Landroidx/exifinterface/media/ExifInterface;->convertRationalLatLonToDouble(Ljava/lang/String;Ljava/lang/String;)D
 
     move-result-wide v7
 
-    .line 5046
+    .line 5045
     invoke-static {v2, v3}, Landroidx/exifinterface/media/ExifInterface;->convertRationalLatLonToDouble(Ljava/lang/String;Ljava/lang/String;)D
 
     move-result-wide v9
@@ -16129,7 +16109,7 @@
 
     return-object v11
 
-    .line 5049
+    .line 5048
     :catch_0
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -16155,7 +16135,7 @@
 
     const-string v0, "latValue=%s, latRef=%s, lngValue=%s, lngRef=%s"
 
-    .line 5050
+    .line 5049
     invoke-static {v0, v8}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -16168,7 +16148,7 @@
 
     const-string v1, "ExifInterface"
 
-    .line 5049
+    .line 5048
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
@@ -16184,7 +16164,7 @@
 
     const/4 v1, 0x1
 
-    .line 4535
+    .line 4538
     invoke-virtual {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -16226,7 +16206,7 @@
 .method public getThumbnail()[B
     .locals 2
 
-    .line 4815
+    .line 4814
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailCompression:I
 
     const/4 v1, 0x6
@@ -16244,7 +16224,7 @@
 
     return-object v0
 
-    .line 4816
+    .line 4815
     :cond_1
     :goto_0
     invoke-virtual {p0}, Landroidx/exifinterface/media/ExifInterface;->getThumbnailBytes()[B
@@ -16257,7 +16237,7 @@
 .method public getThumbnailBitmap()Landroid/graphics/Bitmap;
     .locals 9
 
-    .line 4891
+    .line 4890
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     const/4 v1, 0x0
@@ -16266,20 +16246,20 @@
 
     return-object v1
 
-    .line 4893
+    .line 4892
     :cond_0
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
     if-nez v0, :cond_1
 
-    .line 4894
+    .line 4893
     invoke-virtual {p0}, Landroidx/exifinterface/media/ExifInterface;->getThumbnailBytes()[B
 
     move-result-object v0
 
     iput-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
-    .line 4897
+    .line 4896
     :cond_1
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailCompression:I
 
@@ -16300,7 +16280,7 @@
 
     if-ne v0, v2, :cond_4
 
-    .line 4900
+    .line 4899
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
     array-length v0, v0
@@ -16314,7 +16294,7 @@
     :goto_0
     if-ge v4, v0, :cond_3
 
-    .line 4903
+    .line 4902
     iget-object v5, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
     mul-int/lit8 v6, v4, 0x3
@@ -16345,7 +16325,7 @@
 
     goto :goto_0
 
-    .line 4907
+    .line 4906
     :cond_3
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -16355,21 +16335,21 @@
 
     const-string v4, "ThumbnailImageLength"
 
-    .line 4908
+    .line 4907
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
-    .line 4909
+    .line 4908
     iget-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v4, v3
 
     const-string v4, "ThumbnailImageWidth"
 
-    .line 4910
+    .line 4909
     invoke-virtual {v3, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -16380,21 +16360,21 @@
 
     if-eqz v3, :cond_4
 
-    .line 4912
+    .line 4911
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v0, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v0
 
-    .line 4913
+    .line 4912
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
     invoke-virtual {v3, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->getIntValue(Ljava/nio/ByteOrder;)I
 
     move-result v1
 
-    .line 4914
+    .line 4913
     sget-object v3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-static {v2, v1, v0, v3}, Landroid/graphics/Bitmap;->createBitmap([IIILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
@@ -16406,7 +16386,7 @@
     :cond_4
     return-object v1
 
-    .line 4898
+    .line 4897
     :cond_5
     :goto_1
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
@@ -16425,7 +16405,7 @@
 
     const-string v0, "ExifInterface"
 
-    .line 4827
+    .line 4826
     iget-boolean v1, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     const/4 v2, 0x0
@@ -16434,7 +16414,7 @@
 
     return-object v2
 
-    .line 4830
+    .line 4829
     :cond_0
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
@@ -16442,7 +16422,7 @@
 
     return-object v1
 
-    .line 4838
+    .line 4837
     :cond_1
     :try_start_0
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mAssetInputStream:Landroid/content/res/AssetManager$AssetInputStream;
@@ -16452,7 +16432,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 4840
+    .line 4839
     :try_start_1
     invoke-virtual {v1}, Ljava/io/InputStream;->markSupported()Z
 
@@ -16460,7 +16440,7 @@
 
     if-eqz v3, :cond_2
 
-    .line 4841
+    .line 4840
     invoke-virtual {v1}, Ljava/io/InputStream;->reset()V
 
     :goto_0
@@ -16471,13 +16451,13 @@
     :cond_2
     const-string v3, "Cannot read thumbnail from inputstream without mark/reset support"
 
-    .line 4843
+    .line 4842
     invoke-static {v0, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4877
+    .line 4876
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     return-object v2
@@ -16498,14 +16478,14 @@
 
     goto/16 :goto_2
 
-    .line 4846
+    .line 4845
     :cond_3
     :try_start_2
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     if-eqz v1, :cond_4
 
-    .line 4847
+    .line 4846
     new-instance v1, Ljava/io/FileInputStream;
 
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
@@ -16514,7 +16494,7 @@
 
     goto :goto_0
 
-    .line 4851
+    .line 4850
     :cond_4
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -16522,7 +16502,7 @@
 
     if-lt v1, v3, :cond_5
 
-    .line 4852
+    .line 4851
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->dup(Ljava/io/FileDescriptor;)Ljava/io/FileDescriptor;
@@ -16534,13 +16514,13 @@
 
     const-wide/16 v3, 0x0
 
-    .line 4853
+    .line 4852
     :try_start_3
     sget v5, Landroid/system/OsConstants;->SEEK_SET:I
 
     invoke-static {v1, v3, v4, v5}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->lseek(Ljava/io/FileDescriptor;JI)J
 
-    .line 4854
+    .line 4853
     new-instance v3, Ljava/io/FileInputStream;
 
     invoke-direct {v3, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V
@@ -16582,7 +16562,7 @@
     :goto_1
     if-eqz v1, :cond_9
 
-    .line 4862
+    .line 4861
     :try_start_4
     iget v4, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailOffset:I
 
@@ -16613,13 +16593,13 @@
 
     if-nez v4, :cond_8
 
-    .line 4867
+    .line 4866
     :try_start_5
     iget v4, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailLength:I
 
     new-array v4, v4, [B
 
-    .line 4868
+    .line 4867
     invoke-virtual {v1, v4}, Ljava/io/InputStream;->read([B)I
 
     move-result v6
@@ -16628,24 +16608,24 @@
 
     if-ne v6, v7, :cond_7
 
-    .line 4871
+    .line 4870
     iput-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_2
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
-    .line 4877
+    .line 4876
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     if-eqz v3, :cond_6
 
-    .line 4879
+    .line 4878
     invoke-static {v3}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeFileDescriptor(Ljava/io/FileDescriptor;)V
 
     :cond_6
     return-object v4
 
-    .line 4869
+    .line 4868
     :cond_7
     :try_start_6
     new-instance v4, Ljava/io/IOException;
@@ -16654,7 +16634,7 @@
 
     throw v4
 
-    .line 4864
+    .line 4863
     :cond_8
     new-instance v4, Ljava/io/IOException;
 
@@ -16667,7 +16647,7 @@
 
     goto :goto_2
 
-    .line 4859
+    .line 4858
     :cond_9
     new-instance v4, Ljava/io/FileNotFoundException;
 
@@ -16698,17 +16678,17 @@
     :try_start_7
     const-string v5, "Encountered exception while getting thumbnail"
 
-    .line 4875
+    .line 4874
     invoke-static {v0, v5, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_3
 
-    .line 4877
+    .line 4876
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     if-eqz v3, :cond_a
 
-    .line 4879
+    .line 4878
     invoke-static {v3}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeFileDescriptor(Ljava/io/FileDescriptor;)V
 
     :cond_a
@@ -16720,16 +16700,16 @@
     :goto_3
     move-object v2, v1
 
-    .line 4877
+    .line 4876
     :goto_4
     invoke-static {v2}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     if-eqz v3, :cond_b
 
-    .line 4879
+    .line 4878
     invoke-static {v3}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeFileDescriptor(Ljava/io/FileDescriptor;)V
 
-    .line 4881
+    .line 4880
     :cond_b
     throw v0
 .end method
@@ -16737,19 +16717,19 @@
 .method public getThumbnailRange()[J
     .locals 4
 
-    .line 4949
+    .line 4948
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mModified:Z
 
     if-nez v0, :cond_2
 
-    .line 4954
+    .line 4953
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 4955
+    .line 4954
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnailStrips:Z
 
     if-eqz v0, :cond_0
@@ -16767,7 +16747,7 @@
 
     const/4 v1, 0x0
 
-    .line 4958
+    .line 4957
     iget v2, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailOffset:I
 
     iget v3, p0, Landroidx/exifinterface/media/ExifInterface;->mOffsetToExifData:I
@@ -16791,7 +16771,7 @@
     :cond_1
     return-object v1
 
-    .line 4950
+    .line 4949
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -16805,7 +16785,7 @@
 .method public hasAttribute(Ljava/lang/String;)Z
     .locals 0
 
-    .line 4804
+    .line 4803
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->getExifAttribute(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object p1
@@ -16826,7 +16806,7 @@
 .method public hasThumbnail()Z
     .locals 1
 
-    .line 4795
+    .line 4794
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     return v0
@@ -16839,7 +16819,7 @@
 
     const/4 v1, 0x1
 
-    .line 4511
+    .line 4514
     invoke-virtual {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -16871,7 +16851,7 @@
 .method public isThumbnailCompressed()Z
     .locals 3
 
-    .line 4926
+    .line 4925
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     const/4 v1, 0x0
@@ -16880,7 +16860,7 @@
 
     return v1
 
-    .line 4929
+    .line 4928
     :cond_0
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailCompression:I
 
@@ -16909,7 +16889,7 @@
 
     const/4 v0, 0x1
 
-    .line 4393
+    .line 4396
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -16924,7 +16904,7 @@
 .method public rotate(I)V
     .locals 6
 
-    .line 4403
+    .line 4406
     rem-int/lit8 v0, p1, 0x5a
 
     if-nez v0, :cond_4
@@ -16933,12 +16913,12 @@
 
     const-string v1, "Orientation"
 
-    .line 4407
+    .line 4410
     invoke-virtual {p0, v1, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 4410
+    .line 4413
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->ROTATION_ORDER:Ljava/util/List;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -16955,7 +16935,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 4411
+    .line 4414
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -16964,7 +16944,7 @@
 
     move-result v0
 
-    .line 4412
+    .line 4415
     div-int/lit8 p1, p1, 0x5a
 
     add-int/2addr v0, p1
@@ -16978,7 +16958,7 @@
     :cond_0
     add-int/2addr v0, v4
 
-    .line 4414
+    .line 4417
     invoke-interface {v2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -16991,7 +16971,7 @@
 
     goto :goto_0
 
-    .line 4415
+    .line 4418
     :cond_1
     sget-object v2, Landroidx/exifinterface/media/ExifInterface;->FLIPPED_ROTATION_ORDER:Ljava/util/List;
 
@@ -17005,7 +16985,7 @@
 
     if-eqz v3, :cond_3
 
-    .line 4416
+    .line 4419
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -17014,7 +16994,7 @@
 
     move-result v0
 
-    .line 4417
+    .line 4420
     div-int/lit8 p1, p1, 0x5a
 
     add-int/2addr v0, p1
@@ -17028,7 +17008,7 @@
     :cond_2
     add-int/2addr v0, v4
 
-    .line 4419
+    .line 4422
     invoke-interface {v2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -17039,7 +17019,7 @@
 
     move-result v4
 
-    .line 4424
+    .line 4427
     :cond_3
     :goto_0
     invoke-static {v4}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -17050,7 +17030,7 @@
 
     return-void
 
-    .line 4404
+    .line 4407
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -17069,16 +17049,16 @@
         }
     .end annotation
 
-    .line 4679
+    .line 4682
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterface;->isSupportedFormatForSavingAttributes(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_10
+    if-eqz v0, :cond_e
 
-    .line 4683
+    .line 4686
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     if-nez v0, :cond_1
@@ -17089,7 +17069,7 @@
 
     goto :goto_0
 
-    .line 4684
+    .line 4687
     :cond_0
     new-instance v0, Ljava/io/IOException;
 
@@ -17099,7 +17079,7 @@
 
     throw v0
 
-    .line 4687
+    .line 4690
     :cond_1
     :goto_0
     iget-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
@@ -17116,7 +17096,7 @@
 
     goto :goto_1
 
-    .line 4688
+    .line 4691
     :cond_2
     new-instance v0, Ljava/io/IOException;
 
@@ -17130,10 +17110,10 @@
     :goto_1
     const/4 v0, 0x1
 
-    .line 4694
+    .line 4697
     iput-boolean v0, p0, Landroidx/exifinterface/media/ExifInterface;->mModified:Z
 
-    .line 4697
+    .line 4700
     invoke-virtual {p0}, Landroidx/exifinterface/media/ExifInterface;->getThumbnail()[B
 
     move-result-object v1
@@ -17143,16 +17123,16 @@
     const/4 v1, 0x0
 
     :try_start_0
-    const-string v2, "temp"
+    const-string/jumbo v2, "temp"
 
-    const-string v3, "tmp"
+    const-string/jumbo v3, "tmp"
 
-    .line 4704
+    .line 4707
     invoke-static {v2, v3}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v2
 
-    .line 4705
+    .line 4708
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     const-wide/16 v4, 0x0
@@ -17161,7 +17141,7 @@
 
     if-eqz v3, :cond_4
 
-    .line 4706
+    .line 4709
     new-instance v3, Ljava/io/FileInputStream;
 
     iget-object v7, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
@@ -17170,20 +17150,20 @@
 
     goto :goto_2
 
-    .line 4710
+    .line 4713
     :cond_4
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v3, v6, :cond_5
 
-    .line 4711
+    .line 4714
     iget-object v3, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     sget v7, Landroid/system/OsConstants;->SEEK_SET:I
 
     invoke-static {v3, v4, v5, v7}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->lseek(Ljava/io/FileDescriptor;JI)J
 
-    .line 4712
+    .line 4715
     new-instance v3, Ljava/io/FileInputStream;
 
     iget-object v7, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
@@ -17198,7 +17178,7 @@
     :cond_5
     move-object v3, v1
 
-    .line 4715
+    .line 4718
     :goto_2
     :try_start_1
     new-instance v7, Ljava/io/FileOutputStream;
@@ -17208,22 +17188,22 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_8
     .catchall {:try_start_1 .. :try_end_1} :catchall_7
 
-    .line 4716
+    .line 4719
     :try_start_2
     invoke-static {v3, v7}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_7
     .catchall {:try_start_2 .. :try_end_2} :catchall_6
 
-    .line 4720
+    .line 4723
     invoke-static {v3}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4721
+    .line 4724
     invoke-static {v7}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     const/4 v3, 0x0
 
-    .line 4731
+    .line 4734
     :try_start_3
     new-instance v7, Ljava/io/FileInputStream;
 
@@ -17232,13 +17212,13 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_4
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 4732
+    .line 4735
     :try_start_4
     iget-object v8, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
     if-eqz v8, :cond_6
 
-    .line 4733
+    .line 4736
     new-instance v8, Ljava/io/FileOutputStream;
 
     iget-object v9, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
@@ -17247,20 +17227,20 @@
 
     goto :goto_3
 
-    .line 4737
+    .line 4740
     :cond_6
     sget v8, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v8, v6, :cond_7
 
-    .line 4738
+    .line 4741
     iget-object v8, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     sget v9, Landroid/system/OsConstants;->SEEK_SET:I
 
     invoke-static {v8, v4, v5, v9}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->lseek(Ljava/io/FileDescriptor;JI)J
 
-    .line 4739
+    .line 4742
     new-instance v8, Ljava/io/FileOutputStream;
 
     iget-object v9, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
@@ -17275,7 +17255,7 @@
     :cond_7
     move-object v8, v1
 
-    .line 4742
+    .line 4745
     :goto_3
     :try_start_5
     new-instance v9, Ljava/io/BufferedInputStream;
@@ -17285,7 +17265,7 @@
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_2
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    .line 4743
+    .line 4746
     :try_start_6
     new-instance v10, Ljava/io/BufferedOutputStream;
 
@@ -17294,7 +17274,7 @@
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_1
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 4744
+    .line 4747
     :try_start_7
     iget v11, p0, Landroidx/exifinterface/media/ExifInterface;->mMimeType:I
 
@@ -17302,7 +17282,7 @@
 
     if-ne v11, v12, :cond_8
 
-    .line 4745
+    .line 4748
     invoke-direct {p0, v9, v10}, Landroidx/exifinterface/media/ExifInterface;->saveJpegAttributes(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
     goto :goto_4
@@ -17312,7 +17292,7 @@
 
     if-ne v11, v12, :cond_9
 
-    .line 4747
+    .line 4750
     invoke-direct {p0, v9, v10}, Landroidx/exifinterface/media/ExifInterface;->savePngAttributes(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
     goto :goto_4
@@ -17322,44 +17302,24 @@
 
     if-ne v11, v12, :cond_a
 
-    .line 4749
+    .line 4752
     invoke-direct {p0, v9, v10}, Landroidx/exifinterface/media/ExifInterface;->saveWebpAttributes(Ljava/io/InputStream;Ljava/io/OutputStream;)V
-
-    goto :goto_4
-
-    :cond_a
-    const/4 v12, 0x3
-
-    if-eq v11, v12, :cond_b
-
-    if-nez v11, :cond_c
-
-    .line 4751
-    :cond_b
-    new-instance v11, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;
-
-    sget-object v12, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
-
-    invoke-direct {v11, v10, v12}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V
-
-    .line 4753
-    invoke-direct {p0, v11}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
     :try_end_7
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_0
     .catchall {:try_start_7 .. :try_end_7} :catchall_5
 
-    .line 4780
-    :cond_c
+    .line 4779
+    :cond_a
     :goto_4
     invoke-static {v9}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4781
+    .line 4780
     invoke-static {v10}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4783
+    .line 4782
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
-    .line 4788
+    .line 4787
     iput-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mThumbnailBytes:[B
 
     return-void
@@ -17438,7 +17398,7 @@
 
     move-object v8, v10
 
-    .line 4758
+    .line 4757
     :goto_6
     :try_start_8
     new-instance v11, Ljava/io/FileInputStream;
@@ -17448,25 +17408,25 @@
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_6
     .catchall {:try_start_8 .. :try_end_8} :catchall_3
 
-    .line 4759
+    .line 4758
     :try_start_9
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
 
-    if-nez v1, :cond_d
+    if-nez v1, :cond_b
 
-    .line 4764
+    .line 4763
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    if-lt v1, v6, :cond_e
+    if-lt v1, v6, :cond_c
 
-    .line 4765
+    .line 4764
     iget-object v1, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
 
     sget v6, Landroid/system/OsConstants;->SEEK_SET:I
 
     invoke-static {v1, v4, v5, v6}, Landroidx/exifinterface/media/ExifInterfaceUtils$Api21Impl;->lseek(Ljava/io/FileDescriptor;JI)J
 
-    .line 4766
+    .line 4765
     new-instance v1, Ljava/io/FileOutputStream;
 
     iget-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mSeekableFileDescriptor:Ljava/io/FileDescriptor;
@@ -17475,8 +17435,8 @@
 
     goto :goto_7
 
-    .line 4760
-    :cond_d
+    .line 4759
+    :cond_b
     new-instance v1, Ljava/io/FileOutputStream;
 
     iget-object v4, p0, Landroidx/exifinterface/media/ExifInterface;->mFilename:Ljava/lang/String;
@@ -17486,21 +17446,21 @@
     :goto_7
     move-object v8, v1
 
-    .line 4769
-    :cond_e
+    .line 4768
+    :cond_c
     invoke-static {v11, v8}, Landroidx/exifinterface/media/ExifInterfaceUtils;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
     :try_end_9
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_5
     .catchall {:try_start_9 .. :try_end_9} :catchall_2
 
-    .line 4775
+    .line 4774
     :try_start_a
     invoke-static {v11}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4776
+    .line 4775
     invoke-static {v8}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4778
+    .line 4777
     new-instance v0, Ljava/io/IOException;
 
     const-string v1, "Failed to save new file"
@@ -17533,7 +17493,7 @@
 
     move-object v1, v3
 
-    .line 4772
+    .line 4771
     :goto_8
     :try_start_b
     new-instance v3, Ljava/io/IOException;
@@ -17546,7 +17506,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4773
+    .line 4772
     invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v5
@@ -17573,15 +17533,15 @@
     :goto_9
     move-object v1, v11
 
-    .line 4775
+    .line 4774
     :goto_a
     :try_start_c
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4776
+    .line 4775
     invoke-static {v8}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4777
+    .line 4776
     throw v0
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_5
@@ -17592,20 +17552,20 @@
     :goto_b
     move-object v1, v9
 
-    .line 4780
+    .line 4779
     :goto_c
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4781
+    .line 4780
     invoke-static {v10}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    if-nez v3, :cond_f
+    if-nez v3, :cond_d
 
-    .line 4783
+    .line 4782
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
-    .line 4785
-    :cond_f
+    .line 4784
+    :cond_d
     throw v0
 
     :catchall_6
@@ -17650,7 +17610,7 @@
 
     move-object v7, v1
 
-    .line 4718
+    .line 4721
     :goto_f
     :try_start_d
     new-instance v2, Ljava/io/IOException;
@@ -17666,21 +17626,21 @@
     :catchall_9
     move-exception v0
 
-    .line 4720
+    .line 4723
     :goto_10
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4721
+    .line 4724
     invoke-static {v7}, Landroidx/exifinterface/media/ExifInterfaceUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 4722
+    .line 4725
     throw v0
 
-    .line 4680
-    :cond_10
+    .line 4683
+    :cond_e
     new-instance v0, Ljava/io/IOException;
 
-    const-string v1, "ExifInterface only supports saving attributes for JPEG, PNG, WebP, and DNG formats."
+    const-string v1, "ExifInterface only supports saving attributes for JPEG, PNG, and WebP formats."
 
     invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
@@ -17703,7 +17663,7 @@
     :cond_0
     const-string v0, "1"
 
-    .line 5125
+    .line 5124
     :goto_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface$Rational;
 
@@ -17723,7 +17683,7 @@
 
     const-string p1, "GPSAltitudeRef"
 
-    .line 5126
+    .line 5125
     invoke-virtual {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -17738,14 +17698,14 @@
 
     move-object/from16 v2, p2
 
-    const-string v3, "tag shouldn\'t be null"
+    const-string/jumbo v3, "tag shouldn\'t be null"
 
-    .line 4219
+    .line 4222
     invoke-static {v1, v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v3, "DateTime"
 
-    .line 4222
+    .line 4225
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -17768,7 +17728,7 @@
 
     const-string v3, "DateTimeDigitized"
 
-    .line 4223
+    .line 4226
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -17778,7 +17738,7 @@
     :cond_0
     if-eqz v2, :cond_3
 
-    .line 4225
+    .line 4228
     sget-object v3, Landroidx/exifinterface/media/ExifInterface;->DATETIME_PRIMARY_FORMAT_PATTERN:Ljava/util/regex/Pattern;
 
     invoke-virtual {v3, v2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -17789,7 +17749,7 @@
 
     move-result v3
 
-    .line 4226
+    .line 4229
     sget-object v7, Landroidx/exifinterface/media/ExifInterface;->DATETIME_SECONDARY_FORMAT_PATTERN:Ljava/util/regex/Pattern;
 
     invoke-virtual {v7, v2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -17800,7 +17760,7 @@
 
     move-result v7
 
-    .line 4228
+    .line 4231
     invoke-virtual/range {p2 .. p2}, Ljava/lang/String;->length()I
 
     move-result v8
@@ -17822,14 +17782,14 @@
 
     const-string v7, ":"
 
-    .line 4239
+    .line 4242
     invoke-virtual {v2, v3, v7}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_1
 
-    .line 4230
+    .line 4233
     :cond_2
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
@@ -17856,21 +17816,21 @@
     :goto_1
     const-string v3, "ISOSpeedRatings"
 
-    .line 4244
+    .line 4247
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_5
 
-    .line 4245
+    .line 4248
     sget-boolean v1, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v1, :cond_4
 
     const-string v1, "setAttribute: Replacing TAG_ISO_SPEED_RATINGS with TAG_PHOTOGRAPHIC_SENSITIVITY."
 
-    .line 4246
+    .line 4249
     invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_4
@@ -17883,7 +17843,7 @@
 
     if-eqz v2, :cond_8
 
-    .line 4252
+    .line 4255
     sget-object v8, Landroidx/exifinterface/media/ExifInterface;->sTagSetForCompatibility:Ljava/util/HashSet;
 
     invoke-virtual {v8, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -17894,28 +17854,28 @@
 
     const-string v8, "GPSTimeStamp"
 
-    .line 4253
+    .line 4256
     invoke-virtual {v1, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
 
     if-eqz v8, :cond_7
 
-    .line 4254
+    .line 4257
     sget-object v8, Landroidx/exifinterface/media/ExifInterface;->GPS_TIMESTAMP_PATTERN:Ljava/util/regex/Pattern;
 
     invoke-virtual {v8, v2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v8
 
-    .line 4255
+    .line 4258
     invoke-virtual {v8}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v9
 
     if-nez v9, :cond_6
 
-    .line 4256
+    .line 4259
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -17936,7 +17896,7 @@
 
     return-void
 
-    .line 4259
+    .line 4262
     :cond_6
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -17970,7 +17930,7 @@
 
     const/4 v4, 0x3
 
-    .line 4260
+    .line 4263
     invoke-virtual {v8, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -17991,14 +17951,14 @@
 
     goto :goto_2
 
-    .line 4263
+    .line 4266
     :cond_7
     :try_start_0
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v8
 
-    .line 4264
+    .line 4267
     new-instance v10, Landroidx/exifinterface/media/ExifInterface$Rational;
 
     invoke-direct {v10, v8, v9}, Landroidx/exifinterface/media/ExifInterface$Rational;-><init>(D)V
@@ -18011,7 +17971,7 @@
 
     goto :goto_2
 
-    .line 4266
+    .line 4269
     :catch_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -18039,7 +17999,7 @@
 
     move v5, v4
 
-    .line 4272
+    .line 4275
     :goto_3
     sget-object v8, Landroidx/exifinterface/media/ExifInterface;->EXIF_TAGS:[[Landroidx/exifinterface/media/ExifInterface$ExifTag;
 
@@ -18051,14 +18011,14 @@
 
     if-ne v5, v8, :cond_9
 
-    .line 4273
+    .line 4276
     iget-boolean v8, v0, Landroidx/exifinterface/media/ExifInterface;->mHasThumbnail:Z
 
     if-nez v8, :cond_9
 
     goto/16 :goto_10
 
-    .line 4276
+    .line 4279
     :cond_9
     sget-object v8, Landroidx/exifinterface/media/ExifInterface;->sExifTagMapsForWriting:[Ljava/util/HashMap;
 
@@ -18074,7 +18034,7 @@
 
     if-nez v2, :cond_a
 
-    .line 4279
+    .line 4282
     iget-object v8, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v8, v8, v5
@@ -18083,13 +18043,13 @@
 
     goto/16 :goto_10
 
-    .line 4282
+    .line 4285
     :cond_a
     invoke-static {v2}, Landroidx/exifinterface/media/ExifInterface;->guessDataFormat(Ljava/lang/String;)Landroid/util/Pair;
 
     move-result-object v9
 
-    .line 4284
+    .line 4287
     iget v10, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     iget-object v11, v9, Landroid/util/Pair;->first:Ljava/lang/Object;
@@ -18118,7 +18078,7 @@
 
     goto/16 :goto_7
 
-    .line 4286
+    .line 4289
     :cond_b
     iget v10, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
@@ -18142,20 +18102,20 @@
 
     check-cast v11, Ljava/lang/Integer;
 
-    .line 4287
+    .line 4290
     invoke-virtual {v11}, Ljava/lang/Integer;->intValue()I
 
     move-result v11
 
     if-ne v10, v11, :cond_d
 
-    .line 4288
+    .line 4291
     :cond_c
     iget v8, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
     goto/16 :goto_8
 
-    .line 4289
+    .line 4292
     :cond_d
     iget v10, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
@@ -18173,13 +18133,13 @@
 
     goto/16 :goto_6
 
-    .line 4294
+    .line 4297
     :cond_e
     sget-boolean v10, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v10, :cond_19
 
-    .line 4295
+    .line 4298
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -18202,7 +18162,7 @@
 
     invoke-virtual {v10, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4298
+    .line 4301
     iget v13, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
     const-string v14, ""
@@ -18215,7 +18175,7 @@
 
     goto :goto_4
 
-    .line 4299
+    .line 4302
     :cond_f
     new-instance v13, Ljava/lang/StringBuilder;
 
@@ -18244,7 +18204,7 @@
 
     check-cast v8, Ljava/lang/Integer;
 
-    .line 4300
+    .line 4303
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result v8
@@ -18265,7 +18225,7 @@
 
     goto :goto_5
 
-    .line 4301
+    .line 4304
     :cond_10
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -18300,19 +18260,19 @@
 
     move-result-object v8
 
-    .line 4295
+    .line 4298
     invoke-static {v6, v8}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_10
 
-    .line 4292
+    .line 4295
     :cond_11
     :goto_6
     iget v8, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     goto :goto_8
 
-    .line 4285
+    .line 4288
     :cond_12
     :goto_7
     iget v8, v8, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
@@ -18327,12 +18287,12 @@
     :pswitch_0
     move v15, v7
 
-    .line 4380
+    .line 4383
     sget-boolean v3, Landroidx/exifinterface/media/ExifInterface;->DEBUG:Z
 
     if-eqz v3, :cond_1a
 
-    .line 4381
+    .line 4384
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -18351,26 +18311,26 @@
 
     goto/16 :goto_11
 
-    .line 4370
+    .line 4373
     :pswitch_1
     invoke-virtual {v2, v10, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v8
 
-    .line 4371
+    .line 4374
     array-length v9, v8
 
     new-array v9, v9, [D
 
     move v10, v4
 
-    .line 4372
+    .line 4375
     :goto_9
     array-length v11, v8
 
     if-ge v10, v11, :cond_13
 
-    .line 4373
+    .line 4376
     aget-object v11, v8, v10
 
     invoke-static {v11}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
@@ -18383,7 +18343,7 @@
 
     goto :goto_9
 
-    .line 4375
+    .line 4378
     :cond_13
     iget-object v8, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -18391,43 +18351,43 @@
 
     iget-object v10, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4376
+    .line 4379
     invoke-static {v9, v10}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createDouble([DLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v9
 
-    .line 4375
+    .line 4378
     invoke-virtual {v8, v1, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_10
 
-    .line 4358
+    .line 4361
     :pswitch_2
     invoke-virtual {v2, v10, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v8
 
-    .line 4359
+    .line 4362
     array-length v10, v8
 
     new-array v10, v10, [Landroidx/exifinterface/media/ExifInterface$Rational;
 
     move v11, v4
 
-    .line 4360
+    .line 4363
     :goto_a
     array-length v13, v8
 
     if-ge v11, v13, :cond_14
 
-    .line 4361
+    .line 4364
     aget-object v13, v8, v11
 
     invoke-virtual {v13, v9, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v13
 
-    .line 4362
+    .line 4365
     new-instance v14, Landroidx/exifinterface/media/ExifInterface$Rational;
 
     aget-object v15, v13, v4
@@ -18442,7 +18402,7 @@
 
     move-object/from16 v16, v8
 
-    .line 4363
+    .line 4366
     invoke-static {v13}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v7
@@ -18465,7 +18425,7 @@
 
     goto :goto_a
 
-    .line 4365
+    .line 4368
     :cond_14
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -18473,36 +18433,36 @@
 
     iget-object v4, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4366
+    .line 4369
     invoke-static {v10, v4}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createSRational([Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 4365
+    .line 4368
     invoke-virtual {v3, v1, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_c
 
-    .line 4326
+    .line 4329
     :pswitch_3
     invoke-virtual {v2, v10, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4327
+    .line 4330
     array-length v4, v3
 
     new-array v4, v4, [I
 
     const/4 v7, 0x0
 
-    .line 4328
+    .line 4331
     :goto_b
     array-length v8, v3
 
     if-ge v7, v8, :cond_15
 
-    .line 4329
+    .line 4332
     aget-object v8, v3, v7
 
     invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -18515,7 +18475,7 @@
 
     goto :goto_b
 
-    .line 4331
+    .line 4334
     :cond_15
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -18523,12 +18483,12 @@
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4332
+    .line 4335
     invoke-static {v4, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createSLong([ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 4331
+    .line 4334
     invoke-virtual {v3, v1, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_c
@@ -18536,33 +18496,33 @@
 
     goto/16 :goto_11
 
-    .line 4346
+    .line 4349
     :pswitch_4
     invoke-virtual {v2, v10, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4347
+    .line 4350
     array-length v4, v3
 
     new-array v4, v4, [Landroidx/exifinterface/media/ExifInterface$Rational;
 
     const/4 v7, 0x0
 
-    .line 4348
+    .line 4351
     :goto_d
     array-length v8, v3
 
     if-ge v7, v8, :cond_16
 
-    .line 4349
+    .line 4352
     aget-object v8, v3, v7
 
     invoke-virtual {v8, v9, v12}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v8
 
-    .line 4350
+    .line 4353
     new-instance v10, Landroidx/exifinterface/media/ExifInterface$Rational;
 
     const/4 v11, 0x0
@@ -18579,7 +18539,7 @@
 
     aget-object v8, v8, v15
 
-    .line 4351
+    .line 4354
     invoke-static {v8}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v11
@@ -18599,19 +18559,19 @@
     :cond_16
     const/4 v15, 0x1
 
-    .line 4353
+    .line 4356
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v5
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4354
+    .line 4357
     invoke-static {v4, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createURational([Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 4353
+    .line 4356
     invoke-virtual {v3, v1, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_11
@@ -18621,25 +18581,25 @@
 
     move v3, v12
 
-    .line 4336
+    .line 4339
     invoke-virtual {v2, v10, v3}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4337
+    .line 4340
     array-length v4, v3
 
     new-array v4, v4, [J
 
     const/4 v7, 0x0
 
-    .line 4338
+    .line 4341
     :goto_e
     array-length v8, v3
 
     if-ge v7, v8, :cond_17
 
-    .line 4339
+    .line 4342
     aget-object v8, v3, v7
 
     invoke-static {v8}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -18652,7 +18612,7 @@
 
     goto :goto_e
 
-    .line 4341
+    .line 4344
     :cond_17
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -18660,12 +18620,12 @@
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4342
+    .line 4345
     invoke-static {v4, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createULong([JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 4341
+    .line 4344
     invoke-virtual {v3, v1, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_11
@@ -18675,25 +18635,25 @@
 
     move v3, v12
 
-    .line 4316
+    .line 4319
     invoke-virtual {v2, v10, v3}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4317
+    .line 4320
     array-length v4, v3
 
     new-array v4, v4, [I
 
     const/4 v7, 0x0
 
-    .line 4318
+    .line 4321
     :goto_f
     array-length v8, v3
 
     if-ge v7, v8, :cond_18
 
-    .line 4319
+    .line 4322
     aget-object v8, v3, v7
 
     invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -18706,7 +18666,7 @@
 
     goto :goto_f
 
-    .line 4321
+    .line 4324
     :cond_18
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
@@ -18714,12 +18674,12 @@
 
     iget-object v7, v0, Landroidx/exifinterface/media/ExifInterface;->mExifByteOrder:Ljava/nio/ByteOrder;
 
-    .line 4322
+    .line 4325
     invoke-static {v4, v7}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;->createUShort([ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
 
     move-result-object v4
 
-    .line 4321
+    .line 4324
     invoke-virtual {v3, v1, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_11
@@ -18727,7 +18687,7 @@
     :pswitch_7
     move v15, v7
 
-    .line 4312
+    .line 4315
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v5
@@ -18743,7 +18703,7 @@
     :pswitch_8
     move v15, v7
 
-    .line 4307
+    .line 4310
     iget-object v3, v0, Landroidx/exifinterface/media/ExifInterface;->mAttributes:[Ljava/util/HashMap;
 
     aget-object v3, v3, v5
@@ -18775,6 +18735,8 @@
     :cond_1b
     return-void
 
+    nop
+
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_8
@@ -18797,10 +18759,10 @@
 
     const-string v0, "Timestamp should not be null."
 
-    .line 5138
+    .line 5137
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5141
+    .line 5140
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v0
@@ -18811,7 +18773,7 @@
 
     if-ltz v0, :cond_1
 
-    .line 5145
+    .line 5144
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v0
@@ -18820,12 +18782,12 @@
 
     rem-long/2addr v0, v2
 
-    .line 5146
+    .line 5145
     invoke-static {v0, v1}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5147
+    .line 5146
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -18835,7 +18797,7 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 5148
+    .line 5147
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -18854,7 +18816,7 @@
 
     goto :goto_0
 
-    .line 5150
+    .line 5149
     :cond_0
     sget-object v1, Landroidx/exifinterface/media/ExifInterface;->sFormatterPrimary:Ljava/text/SimpleDateFormat;
 
@@ -18876,12 +18838,12 @@
 
     const-string p1, "SubSecTime"
 
-    .line 5151
+    .line 5150
     invoke-virtual {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 5142
+    .line 5141
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -18899,7 +18861,7 @@
 
     return-void
 
-    .line 5067
+    .line 5066
     :cond_0
     invoke-virtual {p1}, Landroid/location/Location;->getProvider()Ljava/lang/String;
 
@@ -18909,7 +18871,7 @@
 
     invoke-virtual {p0, v1, v0}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5068
+    .line 5067
     invoke-virtual {p1}, Landroid/location/Location;->getLatitude()D
 
     move-result-wide v0
@@ -18920,7 +18882,7 @@
 
     invoke-virtual {p0, v0, v1, v2, v3}, Landroidx/exifinterface/media/ExifInterface;->setLatLong(DD)V
 
-    .line 5069
+    .line 5068
     invoke-virtual {p1}, Landroid/location/Location;->getAltitude()D
 
     move-result-wide v0
@@ -18931,10 +18893,10 @@
 
     const-string v1, "K"
 
-    .line 5071
+    .line 5070
     invoke-virtual {p0, v0, v1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5072
+    .line 5071
     new-instance v0, Landroidx/exifinterface/media/ExifInterface$Rational;
 
     invoke-virtual {p1}, Landroid/location/Location;->getSpeed()F
@@ -18945,7 +18907,7 @@
 
     const-wide/16 v3, 0x1
 
-    .line 5073
+    .line 5072
     invoke-virtual {v2, v3, v4}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
 
     move-result-wide v2
@@ -18968,22 +18930,22 @@
 
     const-string v1, "GPSSpeed"
 
-    .line 5072
+    .line 5071
     invoke-virtual {p0, v1, v0}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5074
+    .line 5073
     sget-object v0, Landroidx/exifinterface/media/ExifInterface;->sFormatterPrimary:Ljava/text/SimpleDateFormat;
 
     new-instance v1, Ljava/util/Date;
 
-    .line 5075
+    .line 5074
     invoke-virtual {p1}, Landroid/location/Location;->getTime()J
 
     move-result-wide v2
 
     invoke-direct {v1, v2, v3}, Ljava/util/Date;-><init>(J)V
 
-    .line 5074
+    .line 5073
     invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object p1
@@ -18992,14 +18954,14 @@
 
     const-string v1, "\\s+"
 
-    .line 5075
+    .line 5074
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    .line 5076
+    .line 5075
     aget-object v0, p1, v0
 
     const-string v1, "GPSDateStamp"
@@ -19008,7 +18970,7 @@
 
     const/4 v0, 0x1
 
-    .line 5077
+    .line 5076
     aget-object p1, p1, v0
 
     const-string v0, "GPSTimeStamp"
@@ -19035,7 +18997,7 @@
 
     if-gtz v0, :cond_3
 
-    .line 5091
+    .line 5090
     invoke-static {p1, p2}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -19054,7 +19016,7 @@
 
     if-gtz v0, :cond_2
 
-    .line 5094
+    .line 5093
     invoke-static {p3, p4}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -19077,10 +19039,10 @@
     :goto_0
     const-string v3, "GPSLatitudeRef"
 
-    .line 5097
+    .line 5096
     invoke-virtual {p0, v3, v2}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5098
+    .line 5097
     invoke-static {p1, p2}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p1
@@ -19107,10 +19069,10 @@
     :goto_1
     const-string p2, "GPSLongitudeRef"
 
-    .line 5099
+    .line 5098
     invoke-virtual {p0, p2, p1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5100
+    .line 5099
     invoke-static {p3, p4}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p1
@@ -19125,7 +19087,7 @@
 
     return-void
 
-    .line 5095
+    .line 5094
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -19149,7 +19111,7 @@
 
     throw p1
 
-    .line 5092
+    .line 5091
     :cond_3
     new-instance p3, Ljava/lang/IllegalArgumentException;
 

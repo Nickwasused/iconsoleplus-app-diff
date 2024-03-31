@@ -614,7 +614,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
-    const-string/jumbo p2, "toIndex < fromIndex"
+    const-string p2, "toIndex < fromIndex"
 
     .line 2
     invoke-direct {p1, p2}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V

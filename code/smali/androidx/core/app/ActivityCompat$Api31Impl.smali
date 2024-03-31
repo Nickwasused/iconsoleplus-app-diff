@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 763
+    .line 790
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static isLaunchedFromBubble(Landroid/app/Activity;)Z
     .locals 0
 
-    .line 768
+    .line 796
     invoke-virtual {p0}, Landroid/app/Activity;->isLaunchedFromBubble()Z
 
     move-result p0

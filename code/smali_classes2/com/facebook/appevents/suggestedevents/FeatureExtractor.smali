@@ -1032,7 +1032,7 @@
 
     move-result-object v13
 
-    const-string/jumbo v9, "siblings.getJSONObject(i)"
+    const-string v9, "siblings.getJSONObject(i)"
 
     invoke-static {v13, v9}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -46,7 +46,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 97
+    .line 106
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +65,7 @@
 .method public final fromClosedRange-7ftBX0g(JJJ)Lkotlin/ranges/ULongProgression;
     .locals 9
 
-    .line 106
+    .line 115
     new-instance v8, Lkotlin/ranges/ULongProgression;
 
     const/4 v7, 0x0

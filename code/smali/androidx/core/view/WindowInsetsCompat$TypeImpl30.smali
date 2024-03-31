@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2063
+    .line 2062
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -74,7 +74,7 @@
 
     goto :goto_2
 
-    .line 2097
+    .line 2096
     :cond_0
     invoke-static {}, Landroid/view/WindowInsets$Type;->displayCutout()I
 
@@ -82,7 +82,7 @@
 
     goto :goto_1
 
-    .line 2094
+    .line 2093
     :cond_1
     invoke-static {}, Landroid/view/WindowInsets$Type;->tappableElement()I
 
@@ -90,7 +90,7 @@
 
     goto :goto_1
 
-    .line 2091
+    .line 2090
     :cond_2
     invoke-static {}, Landroid/view/WindowInsets$Type;->mandatorySystemGestures()I
 
@@ -98,7 +98,7 @@
 
     goto :goto_1
 
-    .line 2088
+    .line 2087
     :cond_3
     invoke-static {}, Landroid/view/WindowInsets$Type;->systemGestures()I
 
@@ -106,7 +106,7 @@
 
     goto :goto_1
 
-    .line 2085
+    .line 2084
     :cond_4
     invoke-static {}, Landroid/view/WindowInsets$Type;->ime()I
 
@@ -114,7 +114,7 @@
 
     goto :goto_1
 
-    .line 2082
+    .line 2081
     :cond_5
     invoke-static {}, Landroid/view/WindowInsets$Type;->captionBar()I
 
@@ -122,7 +122,7 @@
 
     goto :goto_1
 
-    .line 2079
+    .line 2078
     :cond_6
     invoke-static {}, Landroid/view/WindowInsets$Type;->navigationBars()I
 
@@ -130,7 +130,7 @@
 
     goto :goto_1
 
-    .line 2076
+    .line 2075
     :cond_7
     invoke-static {}, Landroid/view/WindowInsets$Type;->statusBars()I
 

@@ -318,7 +318,7 @@
 
     if-nez v0, :cond_1
 
-    const-string/jumbo v2, "sharedPreferences"
+    const-string v2, "sharedPreferences"
 
     invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
     :try_end_0
@@ -818,7 +818,7 @@
 
     if-nez v1, :cond_2
 
-    const-string/jumbo v2, "sharedPreferences"
+    const-string v2, "sharedPreferences"
 
     .line 192
     invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
@@ -840,7 +840,7 @@
     const-string v1, ""
 
     :goto_0
-    const-string/jumbo v2, "sharedPreferences.getStr\u2026(USER_DATA_KEY, \"\") ?: \"\""
+    const-string v2, "sharedPreferences.getStr\u2026(USER_DATA_KEY, \"\") ?: \"\""
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -849,7 +849,7 @@
 
     if-nez v2, :cond_4
 
-    const-string/jumbo v3, "sharedPreferences"
+    const-string v3, "sharedPreferences"
 
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
@@ -870,7 +870,7 @@
     const-string v2, ""
 
     :goto_1
-    const-string/jumbo v3, "sharedPreferences.getStr\u2026_USER_DATA_KEY, \"\") ?: \"\""
+    const-string v3, "sharedPreferences.getStr\u2026_USER_DATA_KEY, \"\") ?: \"\""
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -40,14 +40,6 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Landroidx/activity/result/IntentSenderRequest;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
 
     .line 135
     new-instance v0, Landroidx/activity/result/IntentSenderRequest;
@@ -59,14 +51,6 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "in"
-        }
-    .end annotation
 
     .line 132
     invoke-virtual {p0, p1}, Landroidx/activity/result/IntentSenderRequest$1;->createFromParcel(Landroid/os/Parcel;)Landroidx/activity/result/IntentSenderRequest;
@@ -78,14 +62,6 @@
 
 .method public newArray(I)[Landroidx/activity/result/IntentSenderRequest;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 140
     new-array p1, p1, [Landroidx/activity/result/IntentSenderRequest;
@@ -95,14 +71,6 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 132
     invoke-virtual {p0, p1}, Landroidx/activity/result/IntentSenderRequest$1;->newArray(I)[Landroidx/activity/result/IntentSenderRequest;

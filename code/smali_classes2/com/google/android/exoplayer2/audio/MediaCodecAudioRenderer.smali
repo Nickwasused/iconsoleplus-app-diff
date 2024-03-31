@@ -1419,7 +1419,7 @@
     goto :goto_0
 
     :cond_3
-    const-string/jumbo v0, "v-bits-per-sample"
+    const-string v0, "v-bits-per-sample"
 
     .line 449
     invoke-virtual {p2, v0}, Landroid/media/MediaFormat;->containsKey(Ljava/lang/String;)Z

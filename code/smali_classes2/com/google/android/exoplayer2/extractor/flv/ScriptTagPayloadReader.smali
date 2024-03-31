@@ -575,7 +575,7 @@
 
     move-result-object p2
 
-    const-string/jumbo v0, "times"
+    const-string v0, "times"
 
     .line 113
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;

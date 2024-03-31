@@ -18,8 +18,26 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 3235
+    .line 3310
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static setBigPicture(Landroid/app/Notification$BigPictureStyle;Landroid/graphics/drawable/Icon;)V
+    .locals 0
+
+    .line 3336
+    invoke-virtual {p0, p1}, Landroid/app/Notification$BigPictureStyle;->bigPicture(Landroid/graphics/drawable/Icon;)Landroid/app/Notification$BigPictureStyle;
+
+    return-void
+.end method
+
+.method static setContentDescription(Landroid/app/Notification$BigPictureStyle;Ljava/lang/CharSequence;)V
+    .locals 0
+
+    .line 3328
+    invoke-virtual {p0, p1}, Landroid/app/Notification$BigPictureStyle;->setContentDescription(Ljava/lang/CharSequence;)Landroid/app/Notification$BigPictureStyle;
 
     return-void
 .end method
@@ -27,7 +45,7 @@
 .method static showBigPictureWhenCollapsed(Landroid/app/Notification$BigPictureStyle;Z)V
     .locals 0
 
-    .line 3244
+    .line 3319
     invoke-virtual {p0, p1}, Landroid/app/Notification$BigPictureStyle;->showBigPictureWhenCollapsed(Z)Landroid/app/Notification$BigPictureStyle;
 
     return-void

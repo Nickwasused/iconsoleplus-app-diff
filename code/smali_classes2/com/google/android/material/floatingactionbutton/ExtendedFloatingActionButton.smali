@@ -125,7 +125,7 @@
 
     const-class v1, Ljava/lang/Float;
 
-    const-string/jumbo v2, "width"
+    const-string v2, "width"
 
     invoke-direct {v0, v1, v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$4;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 

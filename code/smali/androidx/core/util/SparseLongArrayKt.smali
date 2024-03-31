@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSparseLongArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,109:1\n89#1,4:111\n1#2:110\n*S KotlinDebug\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n*L\n84#1:111,4\n*E\n"
+    value = "SMAP\nSparseLongArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,125:1\n103#1,4:127\n1#2:126\n*S KotlinDebug\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n*L\n97#1:127,4\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -51,7 +51,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -66,7 +66,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 30
+    .line 33
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     move-result p0
@@ -91,7 +91,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 47
+    .line 53
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     move-result p0
@@ -116,7 +116,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 51
+    .line 58
     invoke-virtual {p0, p1, p2}, Landroid/util/SparseLongArray;->indexOfValue(J)I
 
     move-result p0
@@ -135,7 +135,7 @@
 .end method
 
 .method public static final forEach(Landroid/util/SparseLongArray;Lkotlin/jvm/functions/Function2;)V
-    .locals 6
+    .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -158,48 +158,40 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 89
+    .line 103
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     move-result v0
 
-    if-lez v0, :cond_1
-
     const/4 v1, 0x0
 
     :goto_0
-    add-int/lit8 v2, v1, 0x1
+    if-ge v1, v0, :cond_0
 
-    .line 90
+    .line 104
     invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;->keyAt(I)I
 
-    move-result v3
+    move-result v2
 
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    move-result-object v3
+    move-result-object v2
 
     invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
-    move-result-wide v4
+    move-result-wide v3
 
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    move-result-object v1
+    move-result-object v3
 
-    invoke-interface {p1, v3, v1}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-lt v2, v0, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    move v1, v2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    :cond_1
-    :goto_1
+    :cond_0
     return-void
 .end method
 
@@ -210,7 +202,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 56
+    .line 64
     invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->get(IJ)J
 
     move-result-wide p0
@@ -239,7 +231,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 61
+    .line 70
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     move-result p1
@@ -274,7 +266,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 26
+    .line 28
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     move-result p0
@@ -289,7 +281,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 65
+    .line 75
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     move-result p0
@@ -314,7 +306,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 69
+    .line 80
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     move-result p0
@@ -339,7 +331,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 96
+    .line 111
     new-instance v0, Landroidx/core/util/SparseLongArrayKt$keyIterator$1;
 
     invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$keyIterator$1;-><init>(Landroid/util/SparseLongArray;)V
@@ -360,7 +352,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 39
+    .line 44
     new-instance v0, Landroid/util/SparseLongArray;
 
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
@@ -375,17 +367,17 @@
 
     invoke-direct {v0, v1}, Landroid/util/SparseLongArray;-><init>(I)V
 
-    .line 40
+    .line 45
     invoke-static {v0, p0}, Landroidx/core/util/SparseLongArrayKt;->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
 
-    .line 41
+    .line 46
     invoke-static {v0, p1}, Landroidx/core/util/SparseLongArrayKt;->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
 
     return-object v0
 .end method
 
 .method public static final putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
-    .locals 6
+    .locals 5
 
     const-string v0, "<this>"
 
@@ -395,41 +387,33 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 111
+    .line 127
     invoke-virtual {p1}, Landroid/util/SparseLongArray;->size()I
 
     move-result v0
 
-    if-lez v0, :cond_1
-
     const/4 v1, 0x0
 
     :goto_0
-    add-int/lit8 v2, v1, 0x1
+    if-ge v1, v0, :cond_0
 
-    .line 112
+    .line 128
     invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;->keyAt(I)I
 
-    move-result v3
+    move-result v2
 
     invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
-    move-result-wide v4
+    move-result-wide v3
 
-    .line 84
-    invoke-virtual {p0, v3, v4, v5}, Landroid/util/SparseLongArray;->put(IJ)V
+    .line 97
+    invoke-virtual {p0, v2, v3, v4}, Landroid/util/SparseLongArray;->put(IJ)V
 
-    if-lt v2, v0, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    move v1, v2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    :cond_1
-    :goto_1
+    :cond_0
     return-void
 .end method
 
@@ -440,14 +424,14 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 74
+    .line 86
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
-    .line 75
+    .line 87
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     move-result-wide v0
@@ -456,7 +440,7 @@
 
     if-nez p2, :cond_0
 
-    .line 76
+    .line 88
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->removeAt(I)V
 
     const/4 p0, 0x1
@@ -476,7 +460,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 34
+    .line 38
     invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->put(IJ)V
 
     return-void
@@ -489,7 +473,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 104
+    .line 120
     new-instance v0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
 
     invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;-><init>(Landroid/util/SparseLongArray;)V

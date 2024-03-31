@@ -77,7 +77,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 37
+    .line 36
     new-instance v0, Lkotlin/Experimental$Level;
 
     const-string v1, "WARNING"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lkotlin/Experimental$Level;->WARNING:Lkotlin/Experimental$Level;
 
-    .line 39
+    .line 38
     new-instance v0, Lkotlin/Experimental$Level;
 
     const-string v1, "ERROR"
@@ -116,7 +116,7 @@
         }
     .end annotation
 
-    .line 35
+    .line 34
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

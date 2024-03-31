@@ -64,7 +64,7 @@
 
     const/4 v2, 0x7
 
-    const/16 v3, 0xa
+    const/16 v3, 0x14
 
     invoke-direct {v0, v1, v2, v3}, Lkotlin/KotlinVersion;-><init>(III)V
 

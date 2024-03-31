@@ -23,7 +23,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -93,10 +93,8 @@
     :catchall_0
     move-exception p2
 
-    .line 41
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 40
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     invoke-static {p1}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V
@@ -161,10 +159,8 @@
     :catchall_0
     move-exception p1
 
-    .line 41
     invoke-static {p4}, Lkotlin/jvm/internal/InlineMarker;->finallyStart(I)V
 
-    .line 40
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     invoke-static {p4}, Lkotlin/jvm/internal/InlineMarker;->finallyEnd(I)V

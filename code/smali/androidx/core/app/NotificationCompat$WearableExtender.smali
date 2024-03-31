@@ -161,10 +161,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 5465
+    .line 5608
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5445
+    .line 5588
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -173,10 +173,10 @@
 
     const/4 v0, 0x1
 
-    .line 5446
+    .line 5589
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
-    .line 5448
+    .line 5591
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -185,22 +185,22 @@
 
     const v0, 0x800005
 
-    .line 5451
+    .line 5594
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
     const/4 v0, -0x1
 
-    .line 5452
+    .line 5595
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
     const/4 v0, 0x0
 
-    .line 5453
+    .line 5596
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
     const/16 v0, 0x50
 
-    .line 5456
+    .line 5599
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
     return-void
@@ -209,10 +209,10 @@
 .method public constructor <init>(Landroid/app/Notification;)V
     .locals 12
 
-    .line 5469
+    .line 5612
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5445
+    .line 5588
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -221,10 +221,10 @@
 
     const/4 v0, 0x1
 
-    .line 5446
+    .line 5589
     iput v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
-    .line 5448
+    .line 5591
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -233,25 +233,25 @@
 
     const v1, 0x800005
 
-    .line 5451
+    .line 5594
     iput v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
     const/4 v2, -0x1
 
-    .line 5452
+    .line 5595
     iput v2, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
     const/4 v3, 0x0
 
-    .line 5453
+    .line 5596
     iput v3, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
     const/16 v4, 0x50
 
-    .line 5456
+    .line 5599
     iput v4, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
-    .line 5470
+    .line 5613
     invoke-static {p1}, Landroidx/core/app/NotificationCompat;->getExtras(Landroid/app/Notification;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -260,7 +260,7 @@
 
     const-string v5, "android.wearable.EXTENSIONS"
 
-    .line 5471
+    .line 5614
     invoke-virtual {p1, v5}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -275,12 +275,12 @@
 
     const-string v5, "actions"
 
-    .line 5475
+    .line 5618
     invoke-virtual {p1, v5}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 5476
+    .line 5619
     sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v7, 0x10
@@ -289,7 +289,7 @@
 
     if-eqz v5, :cond_4
 
-    .line 5477
+    .line 5620
     invoke-virtual {v5}, Ljava/util/ArrayList;->size()I
 
     move-result v6
@@ -301,21 +301,21 @@
     :goto_1
     if-ge v9, v6, :cond_3
 
-    .line 5479
+    .line 5622
     sget v10, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v11, 0x14
 
     if-lt v10, v11, :cond_1
 
-    .line 5481
+    .line 5624
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v10
 
     check-cast v10, Landroid/app/Notification$Action;
 
-    .line 5480
+    .line 5623
     invoke-static {v10}, Landroidx/core/app/NotificationCompat;->getActionCompatFromAction(Landroid/app/Notification$Action;)Landroidx/core/app/NotificationCompat$Action;
 
     move-result-object v10
@@ -324,20 +324,20 @@
 
     goto :goto_2
 
-    .line 5482
+    .line 5625
     :cond_1
     sget v10, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v10, v7, :cond_2
 
-    .line 5484
+    .line 5627
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v10
 
     check-cast v10, Landroid/os/Bundle;
 
-    .line 5483
+    .line 5626
     invoke-static {v10}, Landroidx/core/app/NotificationCompatJellybean;->getActionFromBundle(Landroid/os/Bundle;)Landroidx/core/app/NotificationCompat$Action;
 
     move-result-object v10
@@ -350,7 +350,7 @@
 
     goto :goto_1
 
-    .line 5487
+    .line 5630
     :cond_3
     iget-object v5, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
@@ -359,7 +359,7 @@
     :cond_4
     const-string v5, "flags"
 
-    .line 5490
+    .line 5633
     invoke-virtual {p1, v5, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -368,7 +368,7 @@
 
     const-string v0, "displayIntent"
 
-    .line 5491
+    .line 5634
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object v0
@@ -379,14 +379,14 @@
 
     const-string v0, "pages"
 
-    .line 5493
+    .line 5636
     invoke-static {p1, v0}, Landroidx/core/app/NotificationCompat;->getNotificationArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/app/Notification;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    .line 5496
+    .line 5639
     iget-object v5, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
     invoke-static {v5, v0}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
@@ -394,7 +394,7 @@
     :cond_5
     const-string v0, "background"
 
-    .line 5499
+    .line 5642
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object v0
@@ -405,7 +405,7 @@
 
     const-string v0, "contentIcon"
 
-    .line 5500
+    .line 5643
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v0
@@ -414,7 +414,7 @@
 
     const-string v0, "contentIconGravity"
 
-    .line 5501
+    .line 5644
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -423,7 +423,7 @@
 
     const-string v0, "contentActionIndex"
 
-    .line 5503
+    .line 5646
     invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -432,7 +432,7 @@
 
     const-string v0, "customSizePreset"
 
-    .line 5505
+    .line 5648
     invoke-virtual {p1, v0, v3}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -441,7 +441,7 @@
 
     const-string v0, "customContentHeight"
 
-    .line 5507
+    .line 5650
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v0
@@ -450,7 +450,7 @@
 
     const-string v0, "gravity"
 
-    .line 5508
+    .line 5651
     invoke-virtual {p1, v0, v4}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -459,7 +459,7 @@
 
     const-string v0, "hintScreenTimeout"
 
-    .line 5509
+    .line 5652
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v0
@@ -468,7 +468,7 @@
 
     const-string v0, "dismissalId"
 
-    .line 5510
+    .line 5653
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -477,7 +477,7 @@
 
     const-string v0, "bridgeTag"
 
-    .line 5511
+    .line 5654
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -491,7 +491,7 @@
 .method private static getActionFromActionCompat(Landroidx/core/app/NotificationCompat$Action;)Landroid/app/Notification$Action;
     .locals 5
 
-    .line 5591
+    .line 5734
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -500,12 +500,12 @@
 
     if-lt v0, v2, :cond_1
 
-    .line 5592
+    .line 5735
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
 
     move-result-object v0
 
-    .line 5593
+    .line 5736
     new-instance v2, Landroid/app/Notification$Action$Builder;
 
     if-nez v0, :cond_0
@@ -514,7 +514,7 @@
 
     goto :goto_0
 
-    .line 5594
+    .line 5737
     :cond_0
     invoke-virtual {v0}, Landroidx/core/graphics/drawable/IconCompat;->toIcon()Landroid/graphics/drawable/Icon;
 
@@ -525,7 +525,7 @@
 
     move-result-object v3
 
-    .line 5595
+    .line 5738
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getActionIntent()Landroid/app/PendingIntent;
 
     move-result-object v4
@@ -534,7 +534,7 @@
 
     goto :goto_2
 
-    .line 5597
+    .line 5740
     :cond_1
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
 
@@ -542,7 +542,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 5599
+    .line 5742
     invoke-virtual {v0}, Landroidx/core/graphics/drawable/IconCompat;->getType()I
 
     move-result v2
@@ -551,7 +551,7 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 5600
+    .line 5743
     invoke-virtual {v0}, Landroidx/core/graphics/drawable/IconCompat;->getResId()I
 
     move-result v0
@@ -561,11 +561,11 @@
     :cond_2
     move v0, v1
 
-    .line 5602
+    .line 5745
     :goto_1
     new-instance v2, Landroid/app/Notification$Action$Builder;
 
-    .line 5603
+    .line 5746
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getTitle()Ljava/lang/CharSequence;
 
     move-result-object v3
@@ -576,7 +576,7 @@
 
     invoke-direct {v2, v0, v3, v4}, Landroid/app/Notification$Action$Builder;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
-    .line 5606
+    .line 5749
     :goto_2
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getExtras()Landroid/os/Bundle;
 
@@ -584,7 +584,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 5607
+    .line 5750
     new-instance v0, Landroid/os/Bundle;
 
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getExtras()Landroid/os/Bundle;
@@ -595,13 +595,13 @@
 
     goto :goto_3
 
-    .line 5609
+    .line 5752
     :cond_3
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 5612
+    .line 5755
     :goto_3
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getAllowGeneratedReplies()Z
 
@@ -609,56 +609,71 @@
 
     const-string v4, "android.support.allowGeneratedReplies"
 
-    .line 5611
+    .line 5754
     invoke-virtual {v0, v4, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 5613
+    .line 5756
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v4, 0x18
 
     if-lt v3, v4, :cond_4
 
-    .line 5614
+    .line 5757
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getAllowGeneratedReplies()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Landroid/app/Notification$Action$Builder;->setAllowGeneratedReplies(Z)Landroid/app/Notification$Action$Builder;
 
-    .line 5616
+    .line 5759
     :cond_4
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v4, 0x1f
+
+    if-lt v3, v4, :cond_5
+
+    .line 5760
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->isAuthenticationRequired()Z
+
+    move-result v3
+
+    invoke-virtual {v2, v3}, Landroid/app/Notification$Action$Builder;->setAuthenticationRequired(Z)Landroid/app/Notification$Action$Builder;
+
+    .line 5762
+    :cond_5
     invoke-virtual {v2, v0}, Landroid/app/Notification$Action$Builder;->addExtras(Landroid/os/Bundle;)Landroid/app/Notification$Action$Builder;
 
-    .line 5617
+    .line 5763
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     move-result-object p0
 
-    if-eqz p0, :cond_5
+    if-eqz p0, :cond_6
 
-    .line 5619
+    .line 5765
     invoke-static {p0}, Landroidx/core/app/RemoteInput;->fromCompat([Landroidx/core/app/RemoteInput;)[Landroid/app/RemoteInput;
 
     move-result-object p0
 
-    .line 5620
+    .line 5766
     array-length v0, p0
 
     :goto_4
-    if-ge v1, v0, :cond_5
+    if-ge v1, v0, :cond_6
 
     aget-object v3, p0, v1
 
-    .line 5621
+    .line 5767
     invoke-virtual {v2, v3}, Landroid/app/Notification$Action$Builder;->addRemoteInput(Landroid/app/RemoteInput;)Landroid/app/Notification$Action$Builder;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_4
 
-    .line 5624
-    :cond_5
+    .line 5770
+    :cond_6
     invoke-virtual {v2}, Landroid/app/Notification$Action$Builder;->build()Landroid/app/Notification$Action;
 
     move-result-object p0
@@ -671,7 +686,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 6244
+    .line 6390
     iget p2, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     or-int/2addr p1, p2
@@ -680,7 +695,7 @@
 
     goto :goto_0
 
-    .line 6246
+    .line 6392
     :cond_0
     iget p2, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
@@ -699,7 +714,7 @@
 .method public addAction(Landroidx/core/app/NotificationCompat$Action;)Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 1
 
-    .line 5661
+    .line 5807
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -719,7 +734,7 @@
         }
     .end annotation
 
-    .line 5678
+    .line 5824
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -732,7 +747,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5760
+    .line 5906
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -755,7 +770,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5777
+    .line 5923
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -766,7 +781,7 @@
 .method public clearActions()Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 1
 
-    .line 5688
+    .line 5834
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
@@ -779,7 +794,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5789
+    .line 5935
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
@@ -790,12 +805,12 @@
 .method public clone()Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 3
 
-    .line 5630
+    .line 5776
     new-instance v0, Landroidx/core/app/NotificationCompat$WearableExtender;
 
     invoke-direct {v0}, Landroidx/core/app/NotificationCompat$WearableExtender;-><init>()V
 
-    .line 5631
+    .line 5777
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v2, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
@@ -804,17 +819,17 @@
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
-    .line 5632
+    .line 5778
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
-    .line 5633
+    .line 5779
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDisplayIntent:Landroid/app/PendingIntent;
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDisplayIntent:Landroid/app/PendingIntent;
 
-    .line 5634
+    .line 5780
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v2, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
@@ -823,52 +838,52 @@
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
-    .line 5635
+    .line 5781
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBackground:Landroid/graphics/Bitmap;
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBackground:Landroid/graphics/Bitmap;
 
-    .line 5636
+    .line 5782
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIcon:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIcon:I
 
-    .line 5637
+    .line 5783
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
-    .line 5638
+    .line 5784
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
-    .line 5639
+    .line 5785
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
-    .line 5640
+    .line 5786
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomContentHeight:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomContentHeight:I
 
-    .line 5641
+    .line 5787
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
-    .line 5642
+    .line 5788
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mHintScreenTimeout:I
 
     iput v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mHintScreenTimeout:I
 
-    .line 5643
+    .line 5789
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDismissalId:Ljava/lang/String;
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDismissalId:Ljava/lang/String;
 
-    .line 5644
+    .line 5790
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBridgeTag:Ljava/lang/String;
 
     iput-object v1, v0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBridgeTag:Ljava/lang/String;
@@ -884,7 +899,7 @@
         }
     .end annotation
 
-    .line 5320
+    .line 5463
     invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$WearableExtender;->clone()Landroidx/core/app/NotificationCompat$WearableExtender;
 
     move-result-object v0
@@ -895,12 +910,12 @@
 .method public extend(Landroidx/core/app/NotificationCompat$Builder;)Landroidx/core/app/NotificationCompat$Builder;
     .locals 8
 
-    .line 5524
+    .line 5667
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 5526
+    .line 5669
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -909,7 +924,7 @@
 
     if-nez v1, :cond_4
 
-    .line 5527
+    .line 5670
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const-string v2, "actions"
@@ -918,7 +933,7 @@
 
     if-lt v1, v3, :cond_3
 
-    .line 5528
+    .line 5671
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v4, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
@@ -929,7 +944,7 @@
 
     invoke-direct {v1, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 5529
+    .line 5672
     iget-object v4, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -950,30 +965,30 @@
 
     check-cast v5, Landroidx/core/app/NotificationCompat$Action;
 
-    .line 5530
+    .line 5673
     sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v7, 0x14
 
     if-lt v6, v7, :cond_1
 
-    .line 5532
+    .line 5675
     invoke-static {v5}, Landroidx/core/app/NotificationCompat$WearableExtender;->getActionFromActionCompat(Landroidx/core/app/NotificationCompat$Action;)Landroid/app/Notification$Action;
 
     move-result-object v5
 
-    .line 5531
+    .line 5674
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5533
+    .line 5676
     :cond_1
     sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v6, v3, :cond_0
 
-    .line 5534
+    .line 5677
     invoke-static {v5}, Landroidx/core/app/NotificationCompatJellybean;->getBundleForAction(Landroidx/core/app/NotificationCompat$Action;)Landroid/os/Bundle;
 
     move-result-object v5
@@ -982,7 +997,7 @@
 
     goto :goto_0
 
-    .line 5537
+    .line 5680
     :cond_2
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelableArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
@@ -991,10 +1006,10 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 5539
+    .line 5682
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelableArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 5542
+    .line 5685
     :cond_4
     :goto_1
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
@@ -1005,10 +1020,10 @@
 
     const-string v2, "flags"
 
-    .line 5543
+    .line 5686
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5545
+    .line 5688
     :cond_5
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDisplayIntent:Landroid/app/PendingIntent;
 
@@ -1016,10 +1031,10 @@
 
     const-string v2, "displayIntent"
 
-    .line 5546
+    .line 5689
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 5548
+    .line 5691
     :cond_6
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
@@ -1029,17 +1044,17 @@
 
     if-nez v1, :cond_7
 
-    .line 5549
+    .line 5692
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
-    .line 5550
+    .line 5693
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     new-array v2, v2, [Landroid/app/Notification;
 
-    .line 5549
+    .line 5692
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1050,7 +1065,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
-    .line 5552
+    .line 5695
     :cond_7
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBackground:Landroid/graphics/Bitmap;
 
@@ -1058,10 +1073,10 @@
 
     const-string v2, "background"
 
-    .line 5553
+    .line 5696
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 5555
+    .line 5698
     :cond_8
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIcon:I
 
@@ -1069,10 +1084,10 @@
 
     const-string v2, "contentIcon"
 
-    .line 5556
+    .line 5699
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5558
+    .line 5701
     :cond_9
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
@@ -1082,10 +1097,10 @@
 
     const-string v2, "contentIconGravity"
 
-    .line 5559
+    .line 5702
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5561
+    .line 5704
     :cond_a
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
@@ -1095,10 +1110,10 @@
 
     const-string v2, "contentActionIndex"
 
-    .line 5562
+    .line 5705
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5565
+    .line 5708
     :cond_b
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
@@ -1106,10 +1121,10 @@
 
     const-string v2, "customSizePreset"
 
-    .line 5566
+    .line 5709
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5568
+    .line 5711
     :cond_c
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomContentHeight:I
 
@@ -1117,10 +1132,10 @@
 
     const-string v2, "customContentHeight"
 
-    .line 5569
+    .line 5712
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5571
+    .line 5714
     :cond_d
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
@@ -1130,10 +1145,10 @@
 
     const-string v2, "gravity"
 
-    .line 5572
+    .line 5715
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5574
+    .line 5717
     :cond_e
     iget v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mHintScreenTimeout:I
 
@@ -1141,10 +1156,10 @@
 
     const-string v2, "hintScreenTimeout"
 
-    .line 5575
+    .line 5718
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5577
+    .line 5720
     :cond_f
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDismissalId:Ljava/lang/String;
 
@@ -1152,10 +1167,10 @@
 
     const-string v2, "dismissalId"
 
-    .line 5578
+    .line 5721
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5580
+    .line 5723
     :cond_10
     iget-object v1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBridgeTag:Ljava/lang/String;
 
@@ -1163,10 +1178,10 @@
 
     const-string v2, "bridgeTag"
 
-    .line 5581
+    .line 5724
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5584
+    .line 5727
     :cond_11
     invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Builder;->getExtras()Landroid/os/Bundle;
 
@@ -1190,7 +1205,7 @@
         }
     .end annotation
 
-    .line 5696
+    .line 5842
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mActions:Ljava/util/ArrayList;
 
     return-object v0
@@ -1201,7 +1216,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5833
+    .line 5979
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBackground:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -1210,7 +1225,7 @@
 .method public getBridgeTag()Ljava/lang/String;
     .locals 1
 
-    .line 6239
+    .line 6385
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBridgeTag:Ljava/lang/String;
 
     return-object v0
@@ -1219,7 +1234,7 @@
 .method public getContentAction()I
     .locals 1
 
-    .line 5909
+    .line 6055
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
     return v0
@@ -1230,7 +1245,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5854
+    .line 6000
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIcon:I
 
     return v0
@@ -1241,7 +1256,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5881
+    .line 6027
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
     return v0
@@ -1250,7 +1265,7 @@
 .method public getContentIntentAvailableOffline()Z
     .locals 2
 
-    .line 6037
+    .line 6183
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     const/4 v1, 0x1
@@ -1273,7 +1288,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5996
+    .line 6142
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomContentHeight:I
 
     return v0
@@ -1284,7 +1299,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5968
+    .line 6114
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
     return v0
@@ -1293,7 +1308,7 @@
 .method public getDismissalId()Ljava/lang/String;
     .locals 1
 
-    .line 6218
+    .line 6364
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDismissalId:Ljava/lang/String;
 
     return-object v0
@@ -1304,7 +1319,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5744
+    .line 5890
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDisplayIntent:Landroid/app/PendingIntent;
 
     return-object v0
@@ -1315,7 +1330,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5936
+    .line 6082
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
     return v0
@@ -1326,7 +1341,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6173
+    .line 6319
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x20
@@ -1349,7 +1364,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6118
+    .line 6264
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x10
@@ -1370,7 +1385,7 @@
 .method public getHintContentIntentLaunchesActivity()Z
     .locals 1
 
-    .line 6196
+    .line 6342
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x40
@@ -1393,7 +1408,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6062
+    .line 6208
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x2
@@ -1416,7 +1431,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6146
+    .line 6292
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mHintScreenTimeout:I
 
     return v0
@@ -1427,7 +1442,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6087
+    .line 6233
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x4
@@ -1459,7 +1474,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5803
+    .line 5949
     iget-object v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mPages:Ljava/util/ArrayList;
 
     return-object v0
@@ -1468,7 +1483,7 @@
 .method public getStartScrollBottom()Z
     .locals 1
 
-    .line 6015
+    .line 6161
     iget v0, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mFlags:I
 
     and-int/lit8 v0, v0, 0x8
@@ -1491,7 +1506,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5818
+    .line 5964
     iput-object p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBackground:Landroid/graphics/Bitmap;
 
     return-object p0
@@ -1500,7 +1515,7 @@
 .method public setBridgeTag(Ljava/lang/String;)Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 0
 
-    .line 6230
+    .line 6376
     iput-object p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mBridgeTag:Ljava/lang/String;
 
     return-object p0
@@ -1509,7 +1524,7 @@
 .method public setContentAction(I)Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 0
 
-    .line 5895
+    .line 6041
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentActionIndex:I
 
     return-object p0
@@ -1520,7 +1535,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5843
+    .line 5989
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIcon:I
 
     return-object p0
@@ -1531,7 +1546,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5867
+    .line 6013
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mContentIconGravity:I
 
     return-object p0
@@ -1542,7 +1557,7 @@
 
     const/4 v0, 0x1
 
-    .line 6026
+    .line 6172
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1553,7 +1568,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5982
+    .line 6128
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomContentHeight:I
 
     return-object p0
@@ -1564,7 +1579,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5952
+    .line 6098
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mCustomSizePreset:I
 
     return-object p0
@@ -1573,7 +1588,7 @@
 .method public setDismissalId(Ljava/lang/String;)Landroidx/core/app/NotificationCompat$WearableExtender;
     .locals 0
 
-    .line 6209
+    .line 6355
     iput-object p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDismissalId:Ljava/lang/String;
 
     return-object p0
@@ -1584,7 +1599,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5732
+    .line 5878
     iput-object p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mDisplayIntent:Landroid/app/PendingIntent;
 
     return-object p0
@@ -1595,7 +1610,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5922
+    .line 6068
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mGravity:I
 
     return-object p0
@@ -1608,7 +1623,7 @@
 
     const/16 v0, 0x20
 
-    .line 6159
+    .line 6305
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1621,7 +1636,7 @@
 
     const/16 v0, 0x10
 
-    .line 6103
+    .line 6249
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1632,7 +1647,7 @@
 
     const/16 v0, 0x40
 
-    .line 6185
+    .line 6331
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1645,7 +1660,7 @@
 
     const/4 v0, 0x2
 
-    .line 6049
+    .line 6195
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1656,7 +1671,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 6132
+    .line 6278
     iput p1, p0, Landroidx/core/app/NotificationCompat$WearableExtender;->mHintScreenTimeout:I
 
     return-object p0
@@ -1669,7 +1684,7 @@
 
     const/4 v0, 0x4
 
-    .line 6074
+    .line 6220
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0
@@ -1680,7 +1695,7 @@
 
     const/16 v0, 0x8
 
-    .line 6005
+    .line 6151
     invoke-direct {p0, v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;->setFlag(IZ)V
 
     return-object p0

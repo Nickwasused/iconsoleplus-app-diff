@@ -23,17 +23,17 @@
         }
     .end annotation
 
-    .line 7690
+    .line 7689
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 7691
+    .line 7690
     invoke-virtual {p1}, Ljava/io/InputStream;->markSupported()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 7699
+    .line 7698
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mDataInputStream:Ljava/io/DataInputStream;
 
     const v0, 0x7fffffff
@@ -42,7 +42,7 @@
 
     return-void
 
-    .line 7692
+    .line 7691
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -61,10 +61,10 @@
         }
     .end annotation
 
-    .line 7679
+    .line 7678
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>([B)V
 
-    .line 7682
+    .line 7681
     iget-object p1, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mDataInputStream:Ljava/io/DataInputStream;
 
     const v0, 0x7fffffff
@@ -84,7 +84,7 @@
         }
     .end annotation
 
-    .line 7707
+    .line 7706
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mPosition:I
 
     int-to-long v0, v0
@@ -95,17 +95,17 @@
 
     const/4 v0, 0x0
 
-    .line 7708
+    .line 7707
     iput v0, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mPosition:I
 
-    .line 7709
+    .line 7708
     iget-object v0, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mDataInputStream:Ljava/io/DataInputStream;
 
     invoke-virtual {v0}, Ljava/io/DataInputStream;->reset()V
 
     goto :goto_0
 
-    .line 7711
+    .line 7710
     :cond_0
     iget v0, p0, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->mPosition:I
 
@@ -116,7 +116,7 @@
     :goto_0
     long-to-int p1, p1
 
-    .line 7713
+    .line 7712
     invoke-virtual {p0, p1}, Landroidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream;->skipFully(I)V
 
     return-void

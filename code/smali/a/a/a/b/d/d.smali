@@ -156,7 +156,7 @@
 
     const-string v0, "CommandServer"
 
-    const-string v1, "stopClient() called"
+    const-string/jumbo v1, "stopClient() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
@@ -581,7 +581,7 @@
 
     const-string v0, "CommandServer"
 
-    const-string v1, "stop() called"
+    const-string/jumbo v1, "stop() called"
 
     .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I

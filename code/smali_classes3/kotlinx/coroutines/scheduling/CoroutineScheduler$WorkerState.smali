@@ -104,7 +104,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 942
+    .line 943
     new-instance v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const-string v1, "CPU_ACQUIRED"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    .line 947
+    .line 948
     new-instance v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const-string v1, "BLOCKING"
@@ -126,7 +126,7 @@
 
     sput-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    .line 952
+    .line 953
     new-instance v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const-string v1, "PARKING"
@@ -137,7 +137,7 @@
 
     sput-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    .line 957
+    .line 958
     new-instance v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const-string v1, "DORMANT"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    .line 962
+    .line 963
     new-instance v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const-string v1, "TERMINATED"
@@ -176,7 +176,7 @@
         }
     .end annotation
 
-    .line 938
+    .line 939
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

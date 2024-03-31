@@ -15,7 +15,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBuilders.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Builders.common.kt\nkotlinx/coroutines/DispatchedCoroutine\n+ 2 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n*L\n1#1,269:1\n351#2,2:270\n351#2,2:272\n*S KotlinDebug\n*F\n+ 1 Builders.common.kt\nkotlinx/coroutines/DispatchedCoroutine\n*L\n229#1:270,2\n239#1:272,2\n*E\n"
+    value = "SMAP\nBuilders.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Builders.common.kt\nkotlinx/coroutines/DispatchedCoroutine\n+ 2 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n*L\n1#1,272:1\n351#2,2:273\n351#2,2:275\n*S KotlinDebug\n*F\n+ 1 Builders.common.kt\nkotlinx/coroutines/DispatchedCoroutine\n*L\n232#1:273,2\n242#1:275,2\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -92,12 +92,12 @@
         }
     .end annotation
 
-    .line 223
+    .line 226
     invoke-direct {p0, p1, p2}, Lkotlinx/coroutines/internal/ScopeCoroutine;-><init>(Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/Continuation;)V
 
     const/4 p1, 0x0
 
-    .line 226
+    .line 229
     iput p1, p0, Lkotlinx/coroutines/DispatchedCoroutine;->_decision:I
 
     return-void
@@ -106,7 +106,7 @@
 .method private final tryResume()Z
     .locals 4
 
-    .line 273
+    .line 276
     :cond_0
     iget v0, p0, Lkotlinx/coroutines/DispatchedCoroutine;->_decision:I
 
@@ -120,13 +120,13 @@
 
     return v1
 
-    .line 242
+    .line 245
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Already resumed"
 
-    .line 243
+    .line 246
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -135,7 +135,7 @@
 
     throw v0
 
-    .line 241
+    .line 244
     :cond_2
     sget-object v0, Lkotlinx/coroutines/DispatchedCoroutine;->_decision$FU:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -153,7 +153,7 @@
 .method private final trySuspend()Z
     .locals 3
 
-    .line 271
+    .line 274
     :cond_0
     iget v0, p0, Lkotlinx/coroutines/DispatchedCoroutine;->_decision:I
 
@@ -167,13 +167,13 @@
 
     return v1
 
-    .line 232
+    .line 235
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Already suspended"
 
-    .line 233
+    .line 236
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -182,7 +182,7 @@
 
     throw v0
 
-    .line 231
+    .line 234
     :cond_2
     sget-object v0, Lkotlinx/coroutines/DispatchedCoroutine;->_decision$FU:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -202,7 +202,7 @@
 .method protected afterCompletion(Ljava/lang/Object;)V
     .locals 0
 
-    .line 251
+    .line 254
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/DispatchedCoroutine;->afterResume(Ljava/lang/Object;)V
 
     return-void
@@ -211,7 +211,7 @@
 .method protected afterResume(Ljava/lang/Object;)V
     .locals 3
 
-    .line 255
+    .line 258
     invoke-direct {p0}, Lkotlinx/coroutines/DispatchedCoroutine;->tryResume()Z
 
     move-result v0
@@ -220,7 +220,7 @@
 
     return-void
 
-    .line 257
+    .line 260
     :cond_0
     iget-object v0, p0, Lkotlinx/coroutines/DispatchedCoroutine;->uCont:Lkotlin/coroutines/Continuation;
 
@@ -246,7 +246,7 @@
 .method public final getResult()Ljava/lang/Object;
     .locals 2
 
-    .line 261
+    .line 264
     invoke-direct {p0}, Lkotlinx/coroutines/DispatchedCoroutine;->trySuspend()Z
 
     move-result v0
@@ -259,7 +259,7 @@
 
     return-object v0
 
-    .line 263
+    .line 266
     :cond_0
     invoke-virtual {p0}, Lkotlinx/coroutines/DispatchedCoroutine;->getState$kotlinx_coroutines_core()Ljava/lang/Object;
 
@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    .line 264
+    .line 267
     instance-of v1, v0, Lkotlinx/coroutines/CompletedExceptionally;
 
     if-nez v1, :cond_1

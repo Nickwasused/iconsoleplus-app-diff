@@ -94,7 +94,7 @@
     .line 179
     iget-object v2, p0, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->equipment:Ljava/lang/String;
 
-    const-string/jumbo v3, "treadmill"
+    const-string v3, "treadmill"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -693,7 +693,7 @@
     return v1
 
     :cond_0
-    const-string/jumbo v2, "treadmill"
+    const-string v2, "treadmill"
 
     .line 65
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -773,7 +773,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const-string/jumbo p1, "treadmill"
+    const-string p1, "treadmill"
 
     .line 115
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/IntervalProfileList$IntervalProfile;->equipment:Ljava/lang/String;

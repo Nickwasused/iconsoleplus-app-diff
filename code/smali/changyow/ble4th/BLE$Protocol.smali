@@ -36,7 +36,7 @@
 .method public constructor <init>(Lchangyow/ble4th/BLE;)V
     .locals 0
 
-    .line 16
+    .line 23
     iput-object p1, p0, Lchangyow/ble4th/BLE$Protocol;->this$0:Lchangyow/ble4th/BLE;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

@@ -280,7 +280,7 @@
 
     move-result-object p1
 
-    const-string/jumbo v6, "video/mpeg2"
+    const-string v6, "video/mpeg2"
 
     .line 251
     invoke-virtual {p1, v6}, Lcom/google/android/exoplayer2/Format$Builder;->setSampleMimeType(Ljava/lang/String;)Lcom/google/android/exoplayer2/Format$Builder;

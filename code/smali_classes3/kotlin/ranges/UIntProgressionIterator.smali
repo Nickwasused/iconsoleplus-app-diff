@@ -64,17 +64,17 @@
 .method private constructor <init>(III)V
     .locals 3
 
-    .line 115
+    .line 124
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 117
+    .line 126
     iput p2, p0, Lkotlin/ranges/UIntProgressionIterator;->finalElement:I
 
     const/4 v0, 0x1
 
     const/4 v1, 0x0
 
-    .line 118
+    .line 127
     invoke-static {p1, p2}, Lkotlin/UnsignedKt;->uintCompare(II)I
 
     move-result v2
@@ -96,14 +96,14 @@
     :goto_0
     iput-boolean v0, p0, Lkotlin/ranges/UIntProgressionIterator;->hasNext:Z
 
-    .line 119
+    .line 128
     invoke-static {p3}, Lkotlin/UInt;->constructor-impl(I)I
 
     move-result p3
 
     iput p3, p0, Lkotlin/ranges/UIntProgressionIterator;->step:I
 
-    .line 120
+    .line 129
     iget-boolean p3, p0, Lkotlin/ranges/UIntProgressionIterator;->hasNext:Z
 
     if-eqz p3, :cond_2
@@ -132,7 +132,7 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 122
+    .line 131
     iget-boolean v0, p0, Lkotlin/ranges/UIntProgressionIterator;->hasNext:Z
 
     return v0
@@ -141,7 +141,7 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 115
+    .line 124
     invoke-virtual {p0}, Lkotlin/ranges/UIntProgressionIterator;->next-pVg5ArA()I
 
     move-result v0
@@ -156,27 +156,27 @@
 .method public next-pVg5ArA()I
     .locals 2
 
-    .line 125
+    .line 134
     iget v0, p0, Lkotlin/ranges/UIntProgressionIterator;->next:I
 
-    .line 126
+    .line 135
     iget v1, p0, Lkotlin/ranges/UIntProgressionIterator;->finalElement:I
 
     if-ne v0, v1, :cond_1
 
-    .line 127
+    .line 136
     iget-boolean v1, p0, Lkotlin/ranges/UIntProgressionIterator;->hasNext:Z
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 128
+    .line 137
     iput-boolean v1, p0, Lkotlin/ranges/UIntProgressionIterator;->hasNext:Z
 
     goto :goto_0
 
-    .line 127
+    .line 136
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -184,7 +184,7 @@
 
     throw v0
 
-    .line 130
+    .line 139
     :cond_1
     iget v1, p0, Lkotlin/ranges/UIntProgressionIterator;->step:I
 

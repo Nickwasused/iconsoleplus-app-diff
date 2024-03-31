@@ -687,7 +687,7 @@
     .line 615
     sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
-    const-string v2, "{ "
+    const-string/jumbo v2, "{ "
 
     invoke-virtual {v1, v2}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
 

@@ -269,7 +269,6 @@
 
     goto :goto_1
 
-    .line 2380
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -279,7 +278,6 @@
 
     throw p1
 
-    .line 2369
     :cond_1
     iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$2:Ljava/lang/Object;
 

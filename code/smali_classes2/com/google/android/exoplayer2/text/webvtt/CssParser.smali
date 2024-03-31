@@ -860,7 +860,7 @@
     goto/16 :goto_2
 
     :cond_6
-    const-string/jumbo p0, "under"
+    const-string p0, "under"
 
     .line 199
     invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -877,7 +877,7 @@
     goto :goto_2
 
     :cond_7
-    const-string/jumbo p0, "text-combine-upright"
+    const-string p0, "text-combine-upright"
 
     .line 202
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -915,7 +915,7 @@
     goto :goto_2
 
     :cond_a
-    const-string/jumbo p0, "text-decoration"
+    const-string p0, "text-decoration"
 
     .line 204
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -924,7 +924,7 @@
 
     if-eqz p0, :cond_b
 
-    const-string/jumbo p0, "underline"
+    const-string p0, "underline"
 
     .line 205
     invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

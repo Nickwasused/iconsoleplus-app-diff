@@ -55,10 +55,10 @@
         }
     .end annotation
 
-    .line 1396
+    .line 1397
     invoke-direct {p0}, Lkotlinx/coroutines/JobNode;-><init>()V
 
-    .line 1395
+    .line 1396
     iput-object p1, p0, Lkotlinx/coroutines/ResumeOnCompletion;->continuation:Lkotlin/coroutines/Continuation;
 
     return-void
@@ -69,7 +69,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1394
+    .line 1395
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/ResumeOnCompletion;->invoke(Ljava/lang/Throwable;)V
@@ -82,7 +82,7 @@
 .method public invoke(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1397
+    .line 1398
     iget-object p1, p0, Lkotlinx/coroutines/ResumeOnCompletion;->continuation:Lkotlin/coroutines/Continuation;
 
     sget-object v0, Lkotlin/Result;->Companion:Lkotlin/Result$Companion;

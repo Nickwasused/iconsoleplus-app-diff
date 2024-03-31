@@ -24,13 +24,13 @@
 .method constructor <init>(Landroid/view/Window;Landroid/view/View;)V
     .locals 0
 
-    .line 396
+    .line 403
     invoke-direct {p0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;-><init>()V
 
-    .line 397
+    .line 404
     iput-object p1, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
-    .line 398
+    .line 405
     iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mView:Landroid/view/View;
 
     return-void
@@ -53,7 +53,7 @@
 
     goto :goto_0
 
-    .line 476
+    .line 480
     :cond_0
     iget-object p1, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
@@ -63,7 +63,7 @@
 
     const-string v0, "input_method"
 
-    .line 477
+    .line 481
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -72,7 +72,7 @@
 
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
-    .line 478
+    .line 482
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
@@ -88,7 +88,7 @@
     :goto_0
     return-void
 
-    .line 473
+    .line 477
     :cond_1
     invoke-virtual {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->setSystemUiFlag(I)V
 
@@ -97,8 +97,33 @@
     :cond_2
     const/4 p1, 0x4
 
-    .line 470
+    .line 474
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->setSystemUiFlag(I)V
+
+    return-void
+.end method
+
+.method static synthetic lambda$showForType$0(Landroid/view/View;)V
+    .locals 2
+
+    .line 451
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const-string v1, "input_method"
+
+    .line 452
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/inputmethod/InputMethodManager;
+
+    const/4 v1, 0x0
+
+    .line 453
+    invoke-virtual {v0, p0, v1}, Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View;I)Z
 
     return-void
 .end method
@@ -118,45 +143,46 @@
 
     if-eq p1, v0, :cond_0
 
-    goto :goto_1
+    goto :goto_2
 
-    .line 423
+    .line 430
     :cond_0
     iget-object p1, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mView:Landroid/view/View;
 
-    if-eqz p1, :cond_2
-
-    .line 426
+    .line 433
     invoke-virtual {p1}, Landroid/view/View;->isInEditMode()Z
 
     move-result v0
 
-    if-nez v0, :cond_1
+    if-nez v0, :cond_2
 
     invoke-virtual {p1}, Landroid/view/View;->onCheckIsTextEditor()Z
 
     move-result v0
 
-    if-eqz v0, :cond_2
-
-    .line 430
-    :cond_1
-    invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
+    if-eqz v0, :cond_1
 
     goto :goto_0
 
-    .line 432
-    :cond_2
+    .line 439
+    :cond_1
     iget-object p1, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     invoke-virtual {p1}, Landroid/view/Window;->getCurrentFocus()Landroid/view/View;
 
     move-result-object p1
 
-    :goto_0
-    if-nez p1, :cond_3
+    goto :goto_1
 
     .line 437
+    :cond_2
+    :goto_0
+    invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
+
+    :goto_1
+    if-nez p1, :cond_3
+
+    .line 444
     iget-object p1, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     const v0, 0x1020002
@@ -168,25 +194,25 @@
     :cond_3
     if-eqz p1, :cond_4
 
-    .line 440
+    .line 447
     invoke-virtual {p1}, Landroid/view/View;->hasWindowFocus()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 442
-    new-instance v0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20$1;
+    .line 449
+    new-instance v0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20$$ExternalSyntheticLambda0;
 
-    invoke-direct {v0, p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20$1;-><init>(Landroidx/core/view/WindowInsetsControllerCompat$Impl20;Landroid/view/View;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20$$ExternalSyntheticLambda0;-><init>(Landroid/view/View;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     :cond_4
-    :goto_1
+    :goto_2
     return-void
 
-    .line 419
+    .line 426
     :cond_5
     invoke-virtual {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetSystemUiFlag(I)V
 
@@ -195,12 +221,12 @@
     :cond_6
     const/4 p1, 0x4
 
-    .line 415
+    .line 422
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetSystemUiFlag(I)V
 
     const/16 p1, 0x400
 
-    .line 416
+    .line 423
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetWindowFlag(I)V
 
     return-void
@@ -244,7 +270,7 @@
 
     goto :goto_1
 
-    .line 463
+    .line 467
     :cond_0
     invoke-direct {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->hideForType(I)V
 
@@ -282,20 +308,20 @@
 
     goto :goto_0
 
-    .line 519
+    .line 523
     :cond_0
     invoke-virtual {p0, v1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetSystemUiFlag(I)V
 
-    .line 520
+    .line 524
     invoke-virtual {p0, v2}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->setSystemUiFlag(I)V
 
     goto :goto_0
 
-    .line 515
+    .line 519
     :cond_1
     invoke-virtual {p0, v2}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetSystemUiFlag(I)V
 
-    .line 516
+    .line 520
     invoke-virtual {p0, v1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->setSystemUiFlag(I)V
 
     goto :goto_0
@@ -303,7 +329,7 @@
     :cond_2
     const/16 p1, 0x1800
 
-    .line 523
+    .line 527
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->unsetSystemUiFlag(I)V
 
     :goto_0
@@ -313,21 +339,21 @@
 .method protected setSystemUiFlag(I)V
     .locals 2
 
-    .line 484
+    .line 488
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
 
-    .line 486
+    .line 490
     invoke-virtual {v0}, Landroid/view/View;->getSystemUiVisibility()I
 
     move-result v1
 
     or-int/2addr p1, v1
 
-    .line 485
+    .line 489
     invoke-virtual {v0, p1}, Landroid/view/View;->setSystemUiVisibility(I)V
 
     return-void
@@ -336,7 +362,7 @@
 .method protected setWindowFlag(I)V
     .locals 1
 
-    .line 498
+    .line 502
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     invoke-virtual {v0, p1}, Landroid/view/Window;->addFlags(I)V
@@ -360,7 +386,7 @@
 
     goto :goto_1
 
-    .line 408
+    .line 415
     :cond_0
     invoke-direct {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->showForType(I)V
 
@@ -376,14 +402,14 @@
 .method protected unsetSystemUiFlag(I)V
     .locals 2
 
-    .line 491
+    .line 495
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
 
-    .line 493
+    .line 497
     invoke-virtual {v0}, Landroid/view/View;->getSystemUiVisibility()I
 
     move-result v1
@@ -392,7 +418,7 @@
 
     and-int/2addr p1, v1
 
-    .line 492
+    .line 496
     invoke-virtual {v0, p1}, Landroid/view/View;->setSystemUiVisibility(I)V
 
     return-void
@@ -401,7 +427,7 @@
 .method protected unsetWindowFlag(I)V
     .locals 1
 
-    .line 502
+    .line 506
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;->mWindow:Landroid/view/Window;
 
     invoke-virtual {v0, p1}, Landroid/view/Window;->clearFlags(I)V

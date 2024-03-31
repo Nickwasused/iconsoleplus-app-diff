@@ -27,7 +27,6 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
-    <string name="app_name">iConsole+</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
@@ -74,8 +73,6 @@
     <string name="common_signin_button_text">Anmelden</string>
     <string name="common_signin_button_text_long">Über Google anmelden</string>
     <string name="copy">Kopieren</string>
-    <string name="crop_image_activity_no_permissions">Vorgang wird abgebrochen, benötigte Berechtigungen wurden nicht erteilt.</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">zuschneiden</string>
     <string name="error_icon_content_description">Fehler</string>
     <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
@@ -268,7 +265,9 @@
     <string name="pageTitleMapMyRoute">Meine Route Kartieren</string>
     <string name="pageTitleWorkoutHistory">Trainingsverlauf</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
-    <string name="pick_image_intent_chooser_title">Quelle wählen</string>
+    <string name="pick_image_camera">Kamera</string>
+    <string name="pick_image_chooser_title">Quelle wählen</string>
+    <string name="pick_image_gallery">Galerie</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
     <string name="rating_dialog_cancel">Abbrechen</string>
     <string name="rating_dialog_experience">Wie finden Sie unsere App?</string>

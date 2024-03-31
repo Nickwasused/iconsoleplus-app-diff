@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 301
+    .line 306
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method public static create(Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/widget/EdgeEffect;
     .locals 1
 
-    .line 306
+    .line 311
     :try_start_0
     new-instance v0, Landroid/widget/EdgeEffect;
 
@@ -37,7 +37,7 @@
 
     return-object v0
 
-    .line 308
+    .line 313
     :catchall_0
     new-instance p1, Landroid/widget/EdgeEffect;
 
@@ -49,7 +49,7 @@
 .method public static getDistance(Landroid/widget/EdgeEffect;)F
     .locals 0
 
-    .line 329
+    .line 334
     :try_start_0
     invoke-virtual {p0}, Landroid/widget/EdgeEffect;->getDistance()F
 
@@ -68,7 +68,7 @@
 .method public static onPullDistance(Landroid/widget/EdgeEffect;FF)F
     .locals 0
 
-    .line 319
+    .line 324
     :try_start_0
     invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;->onPullDistance(FF)F
 
@@ -78,7 +78,7 @@
 
     return p0
 
-    .line 321
+    .line 326
     :catchall_0
     invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;->onPull(FF)V
 

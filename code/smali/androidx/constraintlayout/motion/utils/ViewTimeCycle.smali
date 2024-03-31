@@ -112,7 +112,7 @@
     goto/16 :goto_0
 
     :sswitch_1
-    const-string v0, "transitionPathRotate"
+    const-string/jumbo v0, "transitionPathRotate"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -208,7 +208,7 @@
     goto :goto_0
 
     :sswitch_7
-    const-string v0, "translationZ"
+    const-string/jumbo v0, "translationZ"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -224,7 +224,7 @@
     goto :goto_0
 
     :sswitch_8
-    const-string v0, "translationY"
+    const-string/jumbo v0, "translationY"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -240,7 +240,7 @@
     goto :goto_0
 
     :sswitch_9
-    const-string v0, "translationX"
+    const-string/jumbo v0, "translationX"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

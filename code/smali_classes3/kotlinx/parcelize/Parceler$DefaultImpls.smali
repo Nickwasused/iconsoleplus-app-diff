@@ -17,7 +17,7 @@
     k = 0x3
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -36,10 +36,6 @@
             "TT;>;I)[TT;"
         }
     .end annotation
-
-    const-string p1, "this"
-
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 40
     new-instance p0, Lkotlin/NotImplementedError;

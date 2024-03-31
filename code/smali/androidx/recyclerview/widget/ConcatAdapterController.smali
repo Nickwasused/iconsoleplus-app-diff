@@ -179,7 +179,7 @@
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string p2, "unknown stable id mode"
+    const-string/jumbo p2, "unknown stable id mode"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

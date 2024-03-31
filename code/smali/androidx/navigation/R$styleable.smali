@@ -51,7 +51,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f040391
+    const v2, 0x7f04039e
 
     const/4 v3, 0x0
 
@@ -61,7 +61,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f040223
+    const v1, 0x7f040230
 
     aput v1, v0, v3
 
@@ -75,9 +75,9 @@
     .array-data 4
         0x1010003
         0x7f040002
-        0x7f04017c
-        0x7f04017d
-        0x7f04050a
+        0x7f040186
+        0x7f040187
+        0x7f040544
     .end array-data
 .end method
 

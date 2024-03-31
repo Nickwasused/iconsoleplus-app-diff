@@ -227,7 +227,7 @@
     .line 210
     iget-object v0, p0, Landroidx/mediarouter/media/MediaItemStatus;->mBundle:Landroid/os/Bundle;
 
-    const-string v1, "timestamp"
+    const-string/jumbo v1, "timestamp"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getLong(Ljava/lang/String;)J
 
@@ -249,7 +249,7 @@
     .line 258
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v1, "timestamp="
+    const-string/jumbo v1, "timestamp="
 
     .line 259
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

@@ -358,7 +358,7 @@
 
     move-result-object p0
 
-    const-string/jumbo v4, "tokenId"
+    const-string v4, "tokenId"
 
     .line 12
     invoke-virtual {v0, v4}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
@@ -988,7 +988,7 @@
 
     if-eqz v1, :cond_1
 
-    const-string/jumbo v1, "tokenId"
+    const-string v1, "tokenId"
 
     .line 5
     invoke-virtual {p0}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->getIdToken()Ljava/lang/String;

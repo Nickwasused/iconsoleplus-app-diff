@@ -140,7 +140,7 @@
 
     move-result v0
 
-    const-string/jumbo v6, "userID"
+    const-string v6, "userID"
 
     .line 225
     invoke-static {v5, v6}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -203,7 +203,7 @@
 
     move-result v14
 
-    const-string/jumbo v15, "weight"
+    const-string v15, "weight"
 
     .line 234
     invoke-static {v5, v15}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -217,7 +217,7 @@
 
     move-result v2
 
-    const-string/jumbo v4, "unit"
+    const-string v4, "unit"
 
     .line 236
     invoke-static {v5, v4}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
@@ -265,7 +265,7 @@
 
     move/from16 v20, v3
 
-    const-string/jumbo v3, "vo2max_cooper"
+    const-string v3, "vo2max_cooper"
 
     .line 241
     invoke-static {v5, v3}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I

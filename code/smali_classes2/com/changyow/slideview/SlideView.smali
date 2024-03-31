@@ -173,14 +173,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d018d
+    const v1, 0x7f0d018c
 
     invoke-static {v0, v1, p0}, Lcom/changyow/slideview/SlideView;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 62
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const v1, 0x7f0803ba
+    const v1, 0x7f0803b5
 
     const/16 v2, 0x10
 
@@ -212,7 +212,7 @@
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
-    const v0, 0x7f0a0411
+    const v0, 0x7f0a040b
 
     .line 67
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object v0, p0, Lcom/changyow/slideview/SlideView;->slideTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0a0413
+    const v0, 0x7f0a040d
 
     .line 68
     invoke-virtual {p0, v0}, Lcom/changyow/slideview/SlideView;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     iput-object v0, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a00e6
+    const v1, 0x7f0a00e5
 
     .line 72
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/LayerDrawable;->findDrawableByLayerId(I)Landroid/graphics/drawable/Drawable;
@@ -368,7 +368,7 @@
 
     const/4 p2, 0x2
 
-    const v5, 0x7f0801a6
+    const v5, 0x7f0801a5
 
     .line 98
     invoke-virtual {p1, p2, v5}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -610,7 +610,7 @@
     .line 143
     iget-object v0, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0a00e7
+    const v1, 0x7f0a00e6
 
     invoke-virtual {v0, v1, p1}, Landroid/graphics/drawable/LayerDrawable;->setDrawableByLayerId(ILandroid/graphics/drawable/Drawable;)Z
 
@@ -675,7 +675,7 @@
     :cond_0
     iget-object v1, p0, Lcom/changyow/slideview/SlideView;->buttonLayers:Landroid/graphics/drawable/LayerDrawable;
 
-    const v2, 0x7f0a00e7
+    const v2, 0x7f0a00e6
 
     if-eqz p1, :cond_1
 

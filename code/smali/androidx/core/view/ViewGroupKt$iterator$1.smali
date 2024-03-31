@@ -47,7 +47,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
-    .line 67
+    .line 89
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,7 +77,7 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 69
+    .line 91
     iget v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
     iget-object v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
@@ -102,7 +102,7 @@
 .method public next()Landroid/view/View;
     .locals 3
 
-    .line 70
+    .line 92
     iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
     iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
@@ -130,7 +130,7 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 67
+    .line 89
     invoke-virtual {p0}, Landroidx/core/view/ViewGroupKt$iterator$1;->next()Landroid/view/View;
 
     move-result-object v0
@@ -141,7 +141,7 @@
 .method public remove()V
     .locals 2
 
-    .line 71
+    .line 93
     iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
     iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I

@@ -35,7 +35,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -54,7 +54,7 @@
 
     iput-object p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
 
-    .line 104
+    .line 120
     invoke-direct {p0}, Lkotlin/collections/LongIterator;-><init>()V
 
     return-void
@@ -65,7 +65,7 @@
 .method public final getIndex()I
     .locals 1
 
-    .line 105
+    .line 121
     iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     return v0
@@ -74,7 +74,7 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 106
+    .line 122
     iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     iget-object v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
@@ -99,7 +99,7 @@
 .method public nextLong()J
     .locals 3
 
-    .line 107
+    .line 123
     iget-object v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
 
     iget v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
@@ -118,7 +118,7 @@
 .method public final setIndex(I)V
     .locals 0
 
-    .line 105
+    .line 121
     iput p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     return-void

@@ -673,7 +673,7 @@
 
     const-string v1, "\' for "
 
-    const-string v4, "unsupported value \'"
+    const-string/jumbo v4, "unsupported value \'"
 
     const/16 v5, 0x10
 
@@ -925,7 +925,7 @@
 
     move-result-object p2
 
-    const-string p3, "unsupported argument type "
+    const-string/jumbo p3, "unsupported argument type "
 
     invoke-static {p3, p2}, Lkotlin/jvm/internal/Intrinsics;->stringPlus(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 

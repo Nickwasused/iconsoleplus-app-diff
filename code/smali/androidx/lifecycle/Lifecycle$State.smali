@@ -40,7 +40,7 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 287
+    .line 253
     new-instance v0, Landroidx/lifecycle/Lifecycle$State;
 
     const-string v1, "DESTROYED"
@@ -51,7 +51,7 @@
 
     sput-object v0, Landroidx/lifecycle/Lifecycle$State;->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 294
+    .line 260
     new-instance v1, Landroidx/lifecycle/Lifecycle$State;
 
     const-string v3, "INITIALIZED"
@@ -62,7 +62,7 @@
 
     sput-object v1, Landroidx/lifecycle/Lifecycle$State;->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 304
+    .line 270
     new-instance v3, Landroidx/lifecycle/Lifecycle$State;
 
     const-string v5, "CREATED"
@@ -73,7 +73,7 @@
 
     sput-object v3, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 314
+    .line 280
     new-instance v5, Landroidx/lifecycle/Lifecycle$State;
 
     const-string v7, "STARTED"
@@ -84,7 +84,7 @@
 
     sput-object v5, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
-    .line 320
+    .line 286
     new-instance v7, Landroidx/lifecycle/Lifecycle$State;
 
     const-string v9, "RESUMED"
@@ -109,7 +109,7 @@
 
     aput-object v7, v9, v10
 
-    .line 280
+    .line 246
     sput-object v9, Landroidx/lifecycle/Lifecycle$State;->$VALUES:[Landroidx/lifecycle/Lifecycle$State;
 
     return-void
@@ -123,7 +123,7 @@
         }
     .end annotation
 
-    .line 281
+    .line 247
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +132,7 @@
 .method public static valueOf(Ljava/lang/String;)Landroidx/lifecycle/Lifecycle$State;
     .locals 1
 
-    .line 280
+    .line 246
     const-class v0, Landroidx/lifecycle/Lifecycle$State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +147,7 @@
 .method public static values()[Landroidx/lifecycle/Lifecycle$State;
     .locals 1
 
-    .line 280
+    .line 246
     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->$VALUES:[Landroidx/lifecycle/Lifecycle$State;
 
     invoke-virtual {v0}, [Landroidx/lifecycle/Lifecycle$State;->clone()Ljava/lang/Object;
@@ -164,7 +164,7 @@
 .method public isAtLeast(Landroidx/lifecycle/Lifecycle$State;)Z
     .locals 0
 
-    .line 329
+    .line 295
     invoke-virtual {p0, p1}, Landroidx/lifecycle/Lifecycle$State;->compareTo(Ljava/lang/Enum;)I
 
     move-result p1

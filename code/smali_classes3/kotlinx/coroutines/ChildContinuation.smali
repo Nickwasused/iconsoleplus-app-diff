@@ -52,10 +52,10 @@
         }
     .end annotation
 
-    .line 1472
+    .line 1473
     invoke-direct {p0}, Lkotlinx/coroutines/JobCancellingNode;-><init>()V
 
-    .line 1471
+    .line 1472
     iput-object p1, p0, Lkotlinx/coroutines/ChildContinuation;->child:Lkotlinx/coroutines/CancellableContinuationImpl;
 
     return-void
@@ -66,7 +66,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1470
+    .line 1471
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/ChildContinuation;->invoke(Ljava/lang/Throwable;)V
@@ -79,7 +79,7 @@
 .method public invoke(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1474
+    .line 1475
     iget-object p1, p0, Lkotlinx/coroutines/ChildContinuation;->child:Lkotlinx/coroutines/CancellableContinuationImpl;
 
     invoke-virtual {p0}, Lkotlinx/coroutines/ChildContinuation;->getJob()Lkotlinx/coroutines/JobSupport;

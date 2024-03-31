@@ -599,7 +599,7 @@
     goto :goto_1
 
     :cond_1
-    const-string v1, "strings"
+    const-string/jumbo v1, "strings"
 
     .line 1899
     invoke-static {p1, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I

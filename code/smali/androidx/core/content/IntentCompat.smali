@@ -3,6 +3,14 @@
 .source "IntentCompat.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/core/content/IntentCompat$Api15Impl;
+    }
+.end annotation
+
+
 # static fields
 .field public static final ACTION_CREATE_REMINDER:Ljava/lang/String; = "android.intent.action.CREATE_REMINDER"
 
@@ -19,7 +27,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 39
+    .line 41
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +36,7 @@
 .method public static createManageUnusedAppRestrictionsIntent(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
     .locals 4
 
-    .line 170
+    .line 172
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -39,7 +47,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 178
+    .line 180
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
@@ -50,14 +58,14 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 179
+    .line 181
     new-instance p0, Landroid/content/Intent;
 
     const-string v0, "android.settings.APPLICATION_DETAILS_SETTINGS"
 
     invoke-direct {p0, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 180
+    .line 182
     invoke-static {v3, p1, v2}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -68,7 +76,7 @@
 
     return-object p0
 
-    .line 183
+    .line 185
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -76,7 +84,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 185
+    .line 187
     invoke-static {v3, p1, v2}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -85,7 +93,7 @@
 
     move-result-object p1
 
-    .line 190
+    .line 192
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1e
@@ -94,7 +102,7 @@
 
     return-object p1
 
-    .line 195
+    .line 197
     :cond_1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -104,7 +112,7 @@
 
     move-result-object p0
 
-    .line 199
+    .line 201
     invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -117,7 +125,7 @@
 
     return-object p0
 
-    .line 171
+    .line 173
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -131,27 +139,27 @@
 .method public static makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
     .locals 2
 
-    .line 117
+    .line 119
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xf
 
     if-lt v0, v1, :cond_0
 
-    .line 118
-    invoke-static {p0, p1}, Landroid/content/Intent;->makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    .line 120
+    invoke-static {p0, p1}, Landroidx/core/content/IntentCompat$Api15Impl;->makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p0
 
     return-object p0
 
-    .line 123
+    .line 125
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0, p0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 124
+    .line 126
     invoke-virtual {v0, p1}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     return-object v0

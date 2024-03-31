@@ -252,7 +252,7 @@
     .line 129
     sget-boolean v1, Lcom/facebook/FacebookSdk;->hasCustomTabsPrefetching:Z
 
-    const-string/jumbo v2, "share_referral"
+    const-string v2, "share_referral"
 
     if-eqz v1, :cond_1
 

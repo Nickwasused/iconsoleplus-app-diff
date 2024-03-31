@@ -109,7 +109,7 @@
 
     aput-object v6, v5, v0
 
-    const-string/jumbo v6, "setType"
+    const-string v6, "setType"
 
     invoke-static {v3, v6, v5}, Lcom/facebook/appevents/iap/InAppPurchaseUtils;->getMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -122,7 +122,7 @@
 
     aput-object v6, v1, v0
 
-    const-string/jumbo v6, "setSkusList"
+    const-string v6, "setSkusList"
 
     invoke-static {v3, v6, v1}, Lcom/facebook/appevents/iap/InAppPurchaseUtils;->getMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 

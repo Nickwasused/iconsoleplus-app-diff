@@ -23,7 +23,7 @@
     k = 0x1
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -50,7 +50,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 104
+    .line 103
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,22 +69,22 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 108
+    .line 107
     new-instance v0, Landroid/app/PictureInPictureParams$Builder;
 
     invoke-direct {v0}, Landroid/app/PictureInPictureParams$Builder;-><init>()V
 
-    .line 109
+    .line 108
     invoke-virtual {v0, p2}, Landroid/app/PictureInPictureParams$Builder;->setSourceRectHint(Landroid/graphics/Rect;)Landroid/app/PictureInPictureParams$Builder;
 
     move-result-object p2
 
-    .line 110
+    .line 109
     invoke-virtual {p2}, Landroid/app/PictureInPictureParams$Builder;->build()Landroid/app/PictureInPictureParams;
 
     move-result-object p2
 
-    .line 107
+    .line 106
     invoke-virtual {p1, p2}, Landroid/app/Activity;->setPictureInPictureParams(Landroid/app/PictureInPictureParams;)V
 
     return-void

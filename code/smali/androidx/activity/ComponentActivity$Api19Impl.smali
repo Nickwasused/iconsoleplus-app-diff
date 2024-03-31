@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 723
+    .line 1091
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,16 +26,8 @@
 
 .method static cancelPendingInputEvents(Landroid/view/View;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
-    .line 726
+    .line 1094
     invoke-virtual {p0}, Landroid/view/View;->cancelPendingInputEvents()V
 
     return-void

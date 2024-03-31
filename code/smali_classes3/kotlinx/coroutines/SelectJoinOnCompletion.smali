@@ -85,13 +85,13 @@
         }
     .end annotation
 
-    .line 1426
+    .line 1427
     invoke-direct {p0}, Lkotlinx/coroutines/JobNode;-><init>()V
 
-    .line 1424
+    .line 1425
     iput-object p1, p0, Lkotlinx/coroutines/SelectJoinOnCompletion;->select:Lkotlinx/coroutines/selects/SelectInstance;
 
-    .line 1425
+    .line 1426
     iput-object p2, p0, Lkotlinx/coroutines/SelectJoinOnCompletion;->block:Lkotlin/jvm/functions/Function1;
 
     return-void
@@ -102,7 +102,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1423
+    .line 1424
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/SelectJoinOnCompletion;->invoke(Ljava/lang/Throwable;)V
@@ -115,7 +115,7 @@
 .method public invoke(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1428
+    .line 1429
     iget-object p1, p0, Lkotlinx/coroutines/SelectJoinOnCompletion;->select:Lkotlinx/coroutines/selects/SelectInstance;
 
     invoke-interface {p1}, Lkotlinx/coroutines/selects/SelectInstance;->trySelect()Z
@@ -124,7 +124,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1429
+    .line 1430
     iget-object p1, p0, Lkotlinx/coroutines/SelectJoinOnCompletion;->block:Lkotlin/jvm/functions/Function1;
 
     iget-object v0, p0, Lkotlinx/coroutines/SelectJoinOnCompletion;->select:Lkotlinx/coroutines/selects/SelectInstance;

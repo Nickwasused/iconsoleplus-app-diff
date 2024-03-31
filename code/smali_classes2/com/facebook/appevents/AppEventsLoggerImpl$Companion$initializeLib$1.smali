@@ -108,7 +108,7 @@
 
     const-string v5, "login_lib_included"
 
-    const-string/jumbo v6, "share_lib_included"
+    const-string v6, "share_lib_included"
 
     const-string v7, "places_lib_included"
 

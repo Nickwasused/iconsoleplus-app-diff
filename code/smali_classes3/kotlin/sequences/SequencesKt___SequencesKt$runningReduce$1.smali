@@ -252,7 +252,6 @@
 
     goto :goto_0
 
-    .line 2350
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -262,7 +261,6 @@
 
     throw p1
 
-    .line 2340
     :cond_2
     invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
 

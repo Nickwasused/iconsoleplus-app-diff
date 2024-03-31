@@ -220,7 +220,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v3, "smta: captureFrameRate="
+    const-string v3, "smta: captureFrameRate="
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

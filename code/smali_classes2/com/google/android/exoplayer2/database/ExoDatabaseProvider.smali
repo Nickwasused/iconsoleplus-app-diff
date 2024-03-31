@@ -37,7 +37,7 @@
 .method private static wipeDatabase(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 10
 
-    const-string/jumbo v0, "type"
+    const-string v0, "type"
 
     const-string v1, "name"
 
@@ -46,7 +46,7 @@
 
     move-result-object v4
 
-    const-string/jumbo v3, "sqlite_master"
+    const-string v3, "sqlite_master"
 
     const/4 v5, 0x0
 
@@ -89,7 +89,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "sqlite_sequence"
+    const-string v3, "sqlite_sequence"
 
     .line 83
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

@@ -50,8 +50,6 @@
     <string name="common_signin_button_text">ورود به سیستم</string>
     <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
     <string name="copy">کپی</string>
-    <string name="crop_image_activity_no_permissions">لغو، مجوزهای مورد نیاز ارائه نشده</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">بریدن (کراپ)</string>
     <string name="error_icon_content_description">خطا</string>
     <string name="exo_controls_cc_disabled_description">فعال کردن زیرنویس</string>
@@ -190,7 +188,7 @@
     <string name="nav_app_bar_open_drawer_description">باز کردن کشوی پیمایش</string>
     <string name="not_set">تنظیم نشده است</string>
     <string name="password_toggle_content_description">نمایش گذرواژه</string>
-    <string name="pick_image_intent_chooser_title">منبع را انتخاب کنید</string>
+    <string name="pick_image_chooser_title">منبع را انتخاب کنید</string>
     <string name="preference_copied">«%1$s» در بریده‌دان کپی شد.</string>
     <string name="search_menu_title">جستجو</string>
     <string name="status_bar_notification_info_overflow">999+</string>

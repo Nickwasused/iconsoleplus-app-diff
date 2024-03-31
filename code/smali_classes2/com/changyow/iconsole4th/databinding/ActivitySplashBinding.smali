@@ -63,7 +63,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0a022e
+    const v0, 0x7f0a0228
 
     .line 83
     invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0a0244
+    const v1, 0x7f0a023e
 
     .line 86
     invoke-static {p0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;

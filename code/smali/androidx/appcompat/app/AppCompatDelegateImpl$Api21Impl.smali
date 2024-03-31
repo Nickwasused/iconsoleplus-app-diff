@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 3503
+    .line 3620
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +27,7 @@
 .method static isPowerSaveMode(Landroid/os/PowerManager;)Z
     .locals 0
 
-    .line 3506
+    .line 3623
     invoke-virtual {p0}, Landroid/os/PowerManager;->isPowerSaveMode()Z
 
     move-result p0

@@ -287,6 +287,16 @@
     <attr name="carousel_touchUp_velocityThreshold" format="float" />
     <attr name="chainUseRtl" format="boolean" />
     <attr name="checkBoxPreferenceStyle" format="reference" />
+    <attr name="checkMarkCompat" format="reference" />
+    <attr name="checkMarkTint" format="color" />
+    <attr name="checkMarkTintMode">
+        <enum name="src_over" value="3" />
+        <enum name="src_in" value="5" />
+        <enum name="src_atop" value="9" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="add" value="16" />
+    </attr>
     <attr name="checkboxStyle" format="reference" />
     <attr name="checkedButton" format="reference" />
     <attr name="checkedChip" format="reference" />
@@ -514,6 +524,10 @@
     <attr name="cornerRadius" format="dimension" />
     <attr name="cornerRectHeight" format="dimension" />
     <attr name="cornerRectWidth" format="dimension" />
+    <attr name="cornerShape">
+        <enum name="rectangle" value="0" />
+        <enum name="oval" value="1" />
+    </attr>
     <attr name="cornerSize" format="dimension|fraction" />
     <attr name="cornerSizeBottomLeft" format="dimension|fraction" />
     <attr name="cornerSizeBottomRight" format="dimension|fraction" />
@@ -536,6 +550,8 @@
     <attr name="cropBorderLineColor" format="color" />
     <attr name="cropBorderLineThickness" format="dimension" />
     <attr name="cropCenterMoveEnabled" format="boolean" />
+    <attr name="cropCornerCircleFillColor" format="color" />
+    <attr name="cropCornerRadius" format="dimension" />
     <attr name="cropFixAspectRatio" format="boolean" />
     <attr name="cropFlipHorizontally" format="boolean" />
     <attr name="cropFlipVertically" format="boolean" />
@@ -569,9 +585,13 @@
         <enum name="rectangleHorizontalOnly" value="3" />
     </attr>
     <attr name="cropShowCropOverlay" format="boolean" />
+    <attr name="cropShowLabel" format="boolean" />
     <attr name="cropShowProgressBar" format="boolean" />
     <attr name="cropSnapRadius" format="dimension" />
     <attr name="cropTouchRadius" format="dimension" />
+    <attr name="cropperLabelText" format="string" />
+    <attr name="cropperLabelTextColor" format="color" />
+    <attr name="cropperLabelTextSize" format="float" />
     <attr name="crossfade" format="float" />
     <attr name="currentState" format="reference" />
     <attr name="curveFit">
@@ -685,6 +705,7 @@
     <attr name="elevation" format="dimension" />
     <attr name="elevationOverlayColor" format="color" />
     <attr name="elevationOverlayEnabled" format="boolean" />
+    <attr name="emojiCompatEnabled" format="boolean" />
     <attr name="enableCopying" format="boolean" />
     <attr name="enableEdgeToEdge" format="boolean" />
     <attr name="enabled" format="boolean" />
@@ -891,6 +912,8 @@
     <attr name="framePosition" format="integer" />
     <attr name="frameRatio" format="float" />
     <attr name="frameWidth" format="dimension" />
+    <attr name="fullscreenBackgroundColor" format="color" />
+    <attr name="fullscreenTextColor" format="color" />
     <attr name="gapBetweenBars" format="dimension" />
     <attr name="gestureInsetBottomIgnored" format="boolean" />
     <attr name="goIcon" format="reference" />
@@ -1989,6 +2012,55 @@
     <attr name="srlTextSizeTitle" format="dimension" />
     <attr name="srlTextTimeMarginTop" format="dimension" />
     <attr name="srlTextUpdate" format="string" />
+    <attr name="ssb_anim_duration" format="integer" />
+    <attr name="ssb_auto_adjust_section_mark" format="boolean" />
+    <attr name="ssb_is_float_type" format="boolean" />
+    <attr name="ssb_max" format="reference|float" />
+    <attr name="ssb_min" format="reference|float" />
+    <attr name="ssb_progress" format="reference|float" />
+    <attr name="ssb_second_track_color" format="reference|color" />
+    <attr name="ssb_second_track_size" format="reference|dimension" />
+    <attr name="ssb_section_count" format="reference|integer" />
+    <attr name="ssb_section_text_color" format="reference|color" />
+    <attr name="ssb_section_text_interval" format="integer" />
+    <attr name="ssb_section_text_position">
+        <enum name="sides" value="0" />
+        <enum name="bottom_sides" value="1" />
+        <enum name="below_section_mark" value="2" />
+    </attr>
+    <attr name="ssb_section_text_size" format="reference|dimension" />
+    <attr name="ssb_seek_by_section" format="boolean" />
+    <attr name="ssb_show_progress_in_float" format="boolean" />
+    <attr name="ssb_show_section_mark" format="boolean" />
+    <attr name="ssb_show_section_text" format="boolean" />
+    <attr name="ssb_show_sign" format="boolean" />
+    <attr name="ssb_show_thumb_shadow" format="boolean" />
+    <attr name="ssb_show_thumb_text" format="boolean" />
+    <attr name="ssb_sides_labels" format="reference" />
+    <attr name="ssb_sign_arrow_autofloat" format="boolean" />
+    <attr name="ssb_sign_arrow_height" format="reference|dimension" />
+    <attr name="ssb_sign_arrow_width" format="reference|dimension" />
+    <attr name="ssb_sign_border_color" format="reference|color" />
+    <attr name="ssb_sign_border_size" format="reference|dimension" />
+    <attr name="ssb_sign_color" format="reference|color" />
+    <attr name="ssb_sign_height" format="reference|dimension" />
+    <attr name="ssb_sign_round" format="reference|dimension" />
+    <attr name="ssb_sign_show_border" format="boolean" />
+    <attr name="ssb_sign_text_color" format="reference|color" />
+    <attr name="ssb_sign_text_size" format="reference|dimension" />
+    <attr name="ssb_sign_width" format="reference|dimension" />
+    <attr name="ssb_text_space" format="reference|dimension" />
+    <attr name="ssb_thumb_bg_alpha" format="reference|float" />
+    <attr name="ssb_thumb_color" format="reference|color" />
+    <attr name="ssb_thumb_radius" format="reference|dimension" />
+    <attr name="ssb_thumb_radius_on_dragging" format="reference|dimension" />
+    <attr name="ssb_thumb_ratio" format="reference|float" />
+    <attr name="ssb_thumb_text_color" format="reference|color" />
+    <attr name="ssb_thumb_text_size" format="reference|dimension" />
+    <attr name="ssb_touch_to_seek" format="boolean" />
+    <attr name="ssb_track_color" format="reference|color" />
+    <attr name="ssb_track_size" format="reference|dimension" />
+    <attr name="ssb_unusable_color" format="reference|color" />
     <attr name="stackFromEnd" format="boolean" />
     <attr name="staggered" format="float" />
     <attr name="startDestination" format="reference" />

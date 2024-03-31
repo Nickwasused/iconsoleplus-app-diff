@@ -40,7 +40,7 @@
 
     iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLToken;->type:Landroidx/constraintlayout/core/parser/CLToken$Type;
 
-    const-string p1, "true"
+    const-string/jumbo p1, "true"
 
     .line 41
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
@@ -122,7 +122,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "this token is not a boolean: <"
+    const-string/jumbo v2, "this token is not a boolean: <"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -181,7 +181,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "this token is not a null: <"
+    const-string/jumbo v2, "this token is not a null: <"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

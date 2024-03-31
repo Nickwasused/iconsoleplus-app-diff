@@ -104,7 +104,7 @@
 
     const-string v4, "code"
 
-    const-string/jumbo v5, "singleResult"
+    const-string v5, "singleResult"
 
     invoke-static {v9, v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

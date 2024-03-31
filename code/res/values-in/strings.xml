@@ -73,8 +73,6 @@
     <string name="common_signin_button_text">Login</string>
     <string name="common_signin_button_text_long">Login dengan Google</string>
     <string name="copy">Salin</string>
-    <string name="crop_image_activity_no_permissions">Membatalkan, tidak mendapatkan izin yang diperlukan</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Potong</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exo_controls_cc_disabled_description">Aktifkan subtitel</string>
@@ -213,7 +211,7 @@
     <string name="nav_app_bar_open_drawer_description">Buka panel navigasi</string>
     <string name="not_set">Belum disetel</string>
     <string name="password_toggle_content_description">Tampilkan sandi</string>
-    <string name="pick_image_intent_chooser_title">Pilih sumber</string>
+    <string name="pick_image_chooser_title">Pilih sumber</string>
     <string name="preference_copied">\"%1$s\" disalin ke papan klip.</string>
     <string name="search_menu_title">Telusuri</string>
     <string name="status_bar_notification_info_overflow">999+</string>

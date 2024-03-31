@@ -58,7 +58,7 @@
 
 
 # instance fields
-.field public final job:Lkotlinx/coroutines/Job;
+.field public final transient job:Lkotlinx/coroutines/Job;
 
 
 # direct methods

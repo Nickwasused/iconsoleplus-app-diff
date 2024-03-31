@@ -217,7 +217,7 @@
 
     move-result-object p1
 
-    const-string/jumbo v0, "signature"
+    const-string v0, "signature"
 
     .line 97
     invoke-static {p1, v0}, Lcom/facebook/internal/Validate;->notNullOrEmpty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -454,7 +454,7 @@
 
     iput-object v0, p0, Lcom/facebook/AuthenticationToken;->expectedNonce:Ljava/lang/String;
 
-    const-string/jumbo v0, "signature"
+    const-string v0, "signature"
 
     .line 108
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -838,7 +838,7 @@
     .line 124
     iget-object v1, p0, Lcom/facebook/AuthenticationToken;->signature:Ljava/lang/String;
 
-    const-string/jumbo v2, "signature"
+    const-string v2, "signature"
 
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 

@@ -13,7 +13,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-string v0, "surefire.test.class.path"
+    const-string/jumbo v0, "surefire.test.class.path"
 
     .line 30
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;

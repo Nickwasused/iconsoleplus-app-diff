@@ -14,13 +14,13 @@
 
 
 # static fields
-.field public static final androidx_window_activity_scope:I = 0x7f0a005c
+.field public static final androidx_window_activity_scope:I = 0x7f0a005b
 
-.field public static final locale:I = 0x7f0a02c6
+.field public static final locale:I = 0x7f0a02c0
 
-.field public static final ltr:I = 0x7f0a02c9
+.field public static final ltr:I = 0x7f0a02c3
 
-.field public static final rtl:I = 0x7f0a03cf
+.field public static final rtl:I = 0x7f0a03c9
 
 
 # direct methods

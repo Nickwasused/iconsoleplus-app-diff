@@ -60,7 +60,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -124,15 +124,15 @@
 .method public constructor <init>(Lcom/changyow/iconsole4th/models/LaunchScreen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/MainMyTraining;Lcom/changyow/iconsole4th/models/MainGetStarted;)V
     .locals 1
 
-    const-string/jumbo v0, "themeColor"
+    const-string v0, "themeColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "themeTextColor"
+    const-string v0, "themeTextColor"
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "themeSecondaryColor"
+    const-string v0, "themeSecondaryColor"
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -140,35 +140,35 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "statusbarTextColor"
+    const-string v0, "statusbarTextColor"
 
     invoke-static {p6, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 144
+    .line 145
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 145
+    .line 146
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/Style;->launchScreen:Lcom/changyow/iconsole4th/models/LaunchScreen;
 
-    .line 148
+    .line 149
     iput-object p2, p0, Lcom/changyow/iconsole4th/models/Style;->themeColor:Ljava/lang/String;
 
-    .line 151
+    .line 152
     iput-object p3, p0, Lcom/changyow/iconsole4th/models/Style;->themeTextColor:Ljava/lang/String;
 
-    .line 154
+    .line 155
     iput-object p4, p0, Lcom/changyow/iconsole4th/models/Style;->themeSecondaryColor:Ljava/lang/String;
 
-    .line 157
+    .line 158
     iput-object p5, p0, Lcom/changyow/iconsole4th/models/Style;->mainTabbarSelectedBarColor:Ljava/lang/String;
 
-    .line 160
+    .line 161
     iput-object p6, p0, Lcom/changyow/iconsole4th/models/Style;->statusbarTextColor:Ljava/lang/String;
 
-    .line 163
+    .line 164
     iput-object p7, p0, Lcom/changyow/iconsole4th/models/Style;->mainMyTraining:Lcom/changyow/iconsole4th/models/MainMyTraining;
 
-    .line 166
+    .line 167
     iput-object p8, p0, Lcom/changyow/iconsole4th/models/Style;->mainGetStarted:Lcom/changyow/iconsole4th/models/MainGetStarted;
 
     return-void
@@ -197,7 +197,48 @@
 
     if-eqz v3, :cond_1
 
-    const-string v3, "#ff541e"
+    .line 150
+    sget-object v3, Lkotlin/jvm/internal/StringCompanionObject;->INSTANCE:Lkotlin/jvm/internal/StringCompanionObject;
+
+    const/4 v3, 0x1
+
+    new-array v4, v3, [Ljava/lang/Object;
+
+    const/4 v5, 0x0
+
+    const v6, 0xffffff
+
+    invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
+
+    move-result-object v7
+
+    const/high16 v8, 0x7f060000
+
+    invoke-virtual {v7, v8}, Landroid/content/Context;->getColor(I)I
+
+    move-result v7
+
+    and-int/2addr v6, v7
+
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v6
+
+    aput-object v6, v4, v5
+
+    invoke-static {v4, v3}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+
+    move-result-object v3
+
+    const-string v4, "#%06X"
+
+    invoke-static {v4, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "format(format, *args)"
+
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -293,7 +334,7 @@
 
     move-object/from16 p9, v2
 
-    .line 144
+    .line 145
     invoke-direct/range {p1 .. p9}, Lcom/changyow/iconsole4th/models/Style;-><init>(Lcom/changyow/iconsole4th/models/LaunchScreen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/MainMyTraining;Lcom/changyow/iconsole4th/models/MainGetStarted;)V
 
     return-void
@@ -566,19 +607,19 @@
 .method public final copy(Lcom/changyow/iconsole4th/models/LaunchScreen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/MainMyTraining;Lcom/changyow/iconsole4th/models/MainGetStarted;)Lcom/changyow/iconsole4th/models/Style;
     .locals 10
 
-    const-string/jumbo v0, "themeColor"
+    const-string v0, "themeColor"
 
     move-object v3, p2
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "themeTextColor"
+    const-string v0, "themeTextColor"
 
     move-object v4, p3
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "themeSecondaryColor"
+    const-string v0, "themeSecondaryColor"
 
     move-object v5, p4
 
@@ -590,7 +631,7 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "statusbarTextColor"
+    const-string v0, "statusbarTextColor"
 
     move-object/from16 v7, p6
 
@@ -742,7 +783,7 @@
 .method public final getLaunchScreen()Lcom/changyow/iconsole4th/models/LaunchScreen;
     .locals 1
 
-    .line 146
+    .line 147
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->launchScreen:Lcom/changyow/iconsole4th/models/LaunchScreen;
 
     return-object v0
@@ -751,7 +792,7 @@
 .method public final getMainGetStarted()Lcom/changyow/iconsole4th/models/MainGetStarted;
     .locals 1
 
-    .line 167
+    .line 168
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->mainGetStarted:Lcom/changyow/iconsole4th/models/MainGetStarted;
 
     return-object v0
@@ -760,7 +801,7 @@
 .method public final getMainMyTraining()Lcom/changyow/iconsole4th/models/MainMyTraining;
     .locals 1
 
-    .line 164
+    .line 165
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->mainMyTraining:Lcom/changyow/iconsole4th/models/MainMyTraining;
 
     return-object v0
@@ -769,7 +810,7 @@
 .method public final getMainTabbarSelectedBarColor()Ljava/lang/String;
     .locals 1
 
-    .line 158
+    .line 159
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->mainTabbarSelectedBarColor:Ljava/lang/String;
 
     return-object v0
@@ -778,7 +819,7 @@
 .method public final getStatusbarTextColor()Ljava/lang/String;
     .locals 1
 
-    .line 161
+    .line 162
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->statusbarTextColor:Ljava/lang/String;
 
     return-object v0
@@ -787,7 +828,7 @@
 .method public final getThemeColor()Ljava/lang/String;
     .locals 1
 
-    .line 149
+    .line 150
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->themeColor:Ljava/lang/String;
 
     return-object v0
@@ -796,7 +837,7 @@
 .method public final getThemeSecondaryColor()Ljava/lang/String;
     .locals 1
 
-    .line 155
+    .line 156
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->themeSecondaryColor:Ljava/lang/String;
 
     return-object v0
@@ -805,7 +846,7 @@
 .method public final getThemeTextColor()Ljava/lang/String;
     .locals 1
 
-    .line 152
+    .line 153
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/Style;->themeTextColor:Ljava/lang/String;
 
     return-object v0

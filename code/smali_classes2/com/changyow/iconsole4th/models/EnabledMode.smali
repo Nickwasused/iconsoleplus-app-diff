@@ -33,7 +33,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -61,20 +61,20 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "textColor"
+    const-string v0, "textColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 182
+    .line 183
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 183
+    .line 184
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->mode:Ljava/lang/String;
 
-    .line 185
+    .line 186
     iput-object p2, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->textColor:Ljava/lang/String;
 
-    .line 188
+    .line 189
     iput-object p3, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->bgImage:Ljava/lang/String;
 
     return-void
@@ -96,7 +96,7 @@
 
     const/4 p3, 0x0
 
-    .line 182
+    .line 183
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/models/EnabledMode;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -185,7 +185,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "textColor"
+    const-string v0, "textColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -262,7 +262,7 @@
 .method public final getBgImage()Ljava/lang/String;
     .locals 1
 
-    .line 189
+    .line 190
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->bgImage:Ljava/lang/String;
 
     return-object v0
@@ -271,7 +271,7 @@
 .method public final getMode()Ljava/lang/String;
     .locals 1
 
-    .line 183
+    .line 184
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->mode:Ljava/lang/String;
 
     return-object v0
@@ -280,7 +280,7 @@
 .method public final getTextColor()Ljava/lang/String;
     .locals 1
 
-    .line 186
+    .line 187
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/EnabledMode;->textColor:Ljava/lang/String;
 
     return-object v0

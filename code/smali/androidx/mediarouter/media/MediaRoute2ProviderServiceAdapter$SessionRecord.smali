@@ -604,7 +604,7 @@
 
     if-nez v0, :cond_0
 
-    const-string p1, "updateSessionInfo: mSessionInfo is null. This shouldn\'t happen."
+    const-string/jumbo p1, "updateSessionInfo: mSessionInfo is null. This shouldn\'t happen."
 
     .line 707
     invoke-static {v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -739,7 +739,7 @@
 
     if-nez v3, :cond_4
 
-    const-string v3, "updateSessionInfo: controlHints is null. This shouldn\'t happen."
+    const-string/jumbo v3, "updateSessionInfo: controlHints is null. This shouldn\'t happen."
 
     .line 736
     invoke-static {v1, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -905,7 +905,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "updateSessionInfo: groupRoute="
+    const-string/jumbo v2, "updateSessionInfo: groupRoute="
 
     invoke-virtual {p2, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

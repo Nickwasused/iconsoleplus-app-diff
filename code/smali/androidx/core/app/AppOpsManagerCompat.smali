@@ -6,6 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroidx/core/app/AppOpsManagerCompat$Api19Impl;,
+        Landroidx/core/app/AppOpsManagerCompat$Api23Impl;,
         Landroidx/core/app/AppOpsManagerCompat$Api29Impl;
     }
 .end annotation
@@ -102,7 +104,7 @@
     check-cast p0, Landroid/app/AppOpsManager;
 
     .line 110
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;->noteOp(Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/AppOpsManagerCompat$Api19Impl;->noteOp(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
 
     move-result p0
 
@@ -134,7 +136,7 @@
     check-cast p0, Landroid/app/AppOpsManager;
 
     .line 130
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;->noteOpNoThrow(Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/AppOpsManagerCompat$Api19Impl;->noteOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
 
     move-result p0
 
@@ -159,14 +161,14 @@
     .line 160
     const-class v0, Landroid/app/AppOpsManager;
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/AppOpsManager;
 
     .line 161
-    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;->noteProxyOp(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->noteProxyOp(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
 
@@ -191,14 +193,14 @@
     .line 179
     const-class v0, Landroid/app/AppOpsManager;
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/AppOpsManager;
 
     .line 180
-    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;->noteProxyOpNoThrow(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->noteProxyOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
 
@@ -221,7 +223,7 @@
     if-lt v0, v1, :cond_0
 
     .line 79
-    invoke-static {p0}, Landroid/app/AppOpsManager;->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

@@ -15,6 +15,10 @@
 .end annotation
 
 
+# static fields
+.field public static final DESCRIPTOR:Ljava/lang/String; = "androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback"
+
+
 # virtual methods
 .method public abstract onIsPermissionRevocationEnabledForAppResult(ZZ)V
     .annotation system Ldalvik/annotation/Throws;

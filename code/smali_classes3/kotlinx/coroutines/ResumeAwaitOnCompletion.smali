@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nJobSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/ResumeAwaitOnCompletion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1478:1\n1#2:1479\n*E\n"
+    value = "SMAP\nJobSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JobSupport.kt\nkotlinx/coroutines/ResumeAwaitOnCompletion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1479:1\n1#2:1480\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -66,10 +66,10 @@
         }
     .end annotation
 
-    .line 1402
+    .line 1403
     invoke-direct {p0}, Lkotlinx/coroutines/JobNode;-><init>()V
 
-    .line 1401
+    .line 1402
     iput-object p1, p0, Lkotlinx/coroutines/ResumeAwaitOnCompletion;->continuation:Lkotlinx/coroutines/CancellableContinuationImpl;
 
     return-void
@@ -80,7 +80,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1400
+    .line 1401
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/ResumeAwaitOnCompletion;->invoke(Ljava/lang/Throwable;)V
@@ -93,7 +93,7 @@
 .method public invoke(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1404
+    .line 1405
     invoke-virtual {p0}, Lkotlinx/coroutines/ResumeAwaitOnCompletion;->getJob()Lkotlinx/coroutines/JobSupport;
 
     move-result-object p1
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    .line 1405
+    .line 1406
     invoke-static {}, Lkotlinx/coroutines/DebugKt;->getASSERTIONS_ENABLED()Z
 
     move-result v0
@@ -124,14 +124,14 @@
 
     throw p1
 
-    .line 1406
+    .line 1407
     :cond_1
     :goto_0
     instance-of v0, p1, Lkotlinx/coroutines/CompletedExceptionally;
 
     if-eqz v0, :cond_2
 
-    .line 1408
+    .line 1409
     iget-object v0, p0, Lkotlinx/coroutines/ResumeAwaitOnCompletion;->continuation:Lkotlinx/coroutines/CancellableContinuationImpl;
 
     check-cast v0, Lkotlin/coroutines/Continuation;
@@ -154,7 +154,7 @@
 
     goto :goto_1
 
-    .line 1412
+    .line 1413
     :cond_2
     iget-object v0, p0, Lkotlinx/coroutines/ResumeAwaitOnCompletion;->continuation:Lkotlinx/coroutines/CancellableContinuationImpl;
 

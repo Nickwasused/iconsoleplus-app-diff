@@ -1164,7 +1164,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v2, "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+    const-string v2, "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
 
     .line 1109
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1175,7 +1175,7 @@
 
     const/16 v4, 0x2c
 
-    const-string/jumbo v5, "video/mp4"
+    const-string v5, "video/mp4"
 
     if-eqz v2, :cond_0
 
@@ -2767,7 +2767,7 @@
     :goto_15
     if-nez v4, :cond_22
 
-    const-string/jumbo v4, "text/vtt"
+    const-string v4, "text/vtt"
 
     .line 535
     :cond_22
@@ -2869,6 +2869,8 @@
     invoke-direct/range {v0 .. v12}, Lcom/google/android/exoplayer2/source/hls/playlist/HlsMasterPlaylist;-><init>(Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcom/google/android/exoplayer2/Format;Ljava/util/List;ZLjava/util/Map;Ljava/util/List;)V
 
     return-object v13
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

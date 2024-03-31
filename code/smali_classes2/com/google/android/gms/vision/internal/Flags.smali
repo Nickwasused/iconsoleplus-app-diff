@@ -28,7 +28,7 @@
 
     const/4 v1, 0x0
 
-    const-string/jumbo v2, "vision:product_barcode_value_logging_enabled"
+    const-string v2, "vision:product_barcode_value_logging_enabled"
 
     invoke-static {v1, v2, v0}, Lcom/google/android/gms/flags/Flag;->define(ILjava/lang/String;Ljava/lang/Boolean;)Lcom/google/android/gms/flags/Flag$BooleanFlag;
 

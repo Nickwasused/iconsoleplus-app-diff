@@ -35,7 +35,7 @@
 
     sput-object v0, Lcom/airbnb/lottie/parser/KeyframeParser;->LINEAR_INTERPOLATOR:Landroid/view/animation/Interpolator;
 
-    const-string v1, "t"
+    const-string/jumbo v1, "t"
 
     const-string v2, "s"
 
@@ -47,9 +47,9 @@
 
     const-string v6, "h"
 
-    const-string v7, "to"
+    const-string/jumbo v7, "to"
 
-    const-string v8, "ti"
+    const-string/jumbo v8, "ti"
 
     .line 30
     filled-new-array/range {v1 .. v8}, [Ljava/lang/String;
@@ -62,9 +62,9 @@
 
     sput-object v0, Lcom/airbnb/lottie/parser/KeyframeParser;->NAMES:Lcom/airbnb/lottie/parser/moshi/JsonReader$Options;
 
-    const-string v0, "x"
+    const-string/jumbo v0, "x"
 
-    const-string v1, "y"
+    const-string/jumbo v1, "y"
 
     .line 40
     filled-new-array {v0, v1}, [Ljava/lang/String;

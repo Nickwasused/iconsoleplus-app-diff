@@ -29,7 +29,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -63,13 +63,13 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 170
+    .line 171
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 171
+    .line 172
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/LaunchScreen;->icon:Ljava/lang/String;
 
-    .line 173
+    .line 174
     iput-object p2, p0, Lcom/changyow/iconsole4th/models/LaunchScreen;->bgColor:Ljava/lang/String;
 
     return-void
@@ -93,7 +93,7 @@
 
     move-object p2, v0
 
-    .line 170
+    .line 171
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/models/LaunchScreen;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -214,7 +214,7 @@
 .method public final getBgColor()Ljava/lang/String;
     .locals 1
 
-    .line 174
+    .line 175
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/LaunchScreen;->bgColor:Ljava/lang/String;
 
     return-object v0
@@ -223,7 +223,7 @@
 .method public final getIcon()Ljava/lang/String;
     .locals 1
 
-    .line 171
+    .line 172
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/LaunchScreen;->icon:Ljava/lang/String;
 
     return-object v0

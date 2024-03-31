@@ -53,7 +53,7 @@
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v2, "yyyy:MM:dd"
+    const-string/jumbo v2, "yyyy:MM:dd"
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 

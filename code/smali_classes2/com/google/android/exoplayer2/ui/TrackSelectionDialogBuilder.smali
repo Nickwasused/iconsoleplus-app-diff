@@ -252,7 +252,7 @@
 
     move-result-object v7
 
-    const-string/jumbo v8, "setTitle"
+    const-string v8, "setTitle"
 
     new-array v9, v6, [Ljava/lang/Class;
 
@@ -273,7 +273,7 @@
 
     invoke-virtual {v8, v3, v9}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v8, "setView"
+    const-string v8, "setView"
 
     new-array v9, v6, [Ljava/lang/Class;
 
@@ -292,7 +292,7 @@
 
     invoke-virtual {v8, v3, v9}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v4, "setPositiveButton"
+    const-string v4, "setPositiveButton"
 
     new-array v8, v2, [Ljava/lang/Class;
 
@@ -325,7 +325,7 @@
 
     invoke-virtual {v4, v3, v8}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v4, "setNegativeButton"
+    const-string v4, "setNegativeButton"
 
     new-array v7, v2, [Ljava/lang/Class;
 

@@ -1404,7 +1404,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    const-string p1, "triggerAePrecapture"
+    const-string/jumbo p1, "triggerAePrecapture"
 
     return-object p1
 .end method
@@ -1437,7 +1437,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    const-string p1, "triggerAf"
+    const-string/jumbo p1, "triggerAf"
 
     return-object p1
 .end method

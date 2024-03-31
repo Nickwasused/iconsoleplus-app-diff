@@ -32,39 +32,39 @@
 
 .field public static final cameraZoom:I = 0x7f04009e
 
-.field public static final latLngBoundsNorthEastLatitude:I = 0x7f040288
+.field public static final latLngBoundsNorthEastLatitude:I = 0x7f040295
 
-.field public static final latLngBoundsNorthEastLongitude:I = 0x7f040289
+.field public static final latLngBoundsNorthEastLongitude:I = 0x7f040296
 
-.field public static final latLngBoundsSouthWestLatitude:I = 0x7f04028a
+.field public static final latLngBoundsSouthWestLatitude:I = 0x7f040297
 
-.field public static final latLngBoundsSouthWestLongitude:I = 0x7f04028b
+.field public static final latLngBoundsSouthWestLongitude:I = 0x7f040298
 
-.field public static final liteMode:I = 0x7f040302
+.field public static final liteMode:I = 0x7f04030f
 
-.field public static final mapId:I = 0x7f040317
+.field public static final mapId:I = 0x7f040324
 
-.field public static final mapType:I = 0x7f040318
+.field public static final mapType:I = 0x7f040325
 
-.field public static final uiCompass:I = 0x7f04057b
+.field public static final uiCompass:I = 0x7f0405b5
 
-.field public static final uiMapToolbar:I = 0x7f04057c
+.field public static final uiMapToolbar:I = 0x7f0405b6
 
-.field public static final uiRotateGestures:I = 0x7f04057d
+.field public static final uiRotateGestures:I = 0x7f0405b7
 
-.field public static final uiScrollGestures:I = 0x7f04057e
+.field public static final uiScrollGestures:I = 0x7f0405b8
 
-.field public static final uiScrollGesturesDuringRotateOrZoom:I = 0x7f04057f
+.field public static final uiScrollGesturesDuringRotateOrZoom:I = 0x7f0405b9
 
-.field public static final uiTiltGestures:I = 0x7f040580
+.field public static final uiTiltGestures:I = 0x7f0405ba
 
-.field public static final uiZoomControls:I = 0x7f040581
+.field public static final uiZoomControls:I = 0x7f0405bb
 
-.field public static final uiZoomGestures:I = 0x7f040582
+.field public static final uiZoomGestures:I = 0x7f0405bc
 
-.field public static final useViewLifecycle:I = 0x7f04058a
+.field public static final useViewLifecycle:I = 0x7f0405c4
 
-.field public static final zOrderOnTop:I = 0x7f0405ab
+.field public static final zOrderOnTop:I = 0x7f0405e5
 
 
 # direct methods

@@ -645,7 +645,7 @@
 .method private static isTunnelingV21(Landroid/media/MediaCodecInfo$CodecCapabilities;)Z
     .locals 1
 
-    const-string/jumbo v0, "tunneled-playback"
+    const-string v0, "tunneled-playback"
 
     .line 642
     invoke-virtual {p0, v0}, Landroid/media/MediaCodecInfo$CodecCapabilities;->isFeatureSupported(Ljava/lang/String;)Z
@@ -1752,7 +1752,7 @@
 
     iget-object v7, p0, Lcom/google/android/exoplayer2/mediacodec/MediaCodecInfo;->mimeType:Ljava/lang/String;
 
-    const-string/jumbo v8, "video/x-vnd.on2.vp9"
+    const-string v8, "video/x-vnd.on2.vp9"
 
     invoke-virtual {v8, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2022,7 +2022,7 @@
 
     iget-object v0, p0, Lcom/google/android/exoplayer2/mediacodec/MediaCodecInfo;->mimeType:Ljava/lang/String;
 
-    const-string/jumbo v2, "video/x-vnd.on2.vp9"
+    const-string v2, "video/x-vnd.on2.vp9"
 
     invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2181,7 +2181,7 @@
 
     if-nez v0, :cond_0
 
-    const-string/jumbo p1, "sizeAndRate.caps"
+    const-string p1, "sizeAndRate.caps"
 
     .line 484
     invoke-direct {p0, p1}, Lcom/google/android/exoplayer2/mediacodec/MediaCodecInfo;->logNoSupport(Ljava/lang/String;)V
@@ -2196,7 +2196,7 @@
 
     if-nez v0, :cond_1
 
-    const-string/jumbo p1, "sizeAndRate.vCaps"
+    const-string p1, "sizeAndRate.vCaps"
 
     .line 489
     invoke-direct {p0, p1}, Lcom/google/android/exoplayer2/mediacodec/MediaCodecInfo;->logNoSupport(Ljava/lang/String;)V
@@ -2242,7 +2242,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v1, "sizeAndRate.rotated, "
+    const-string v1, "sizeAndRate.rotated, "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2271,7 +2271,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    const-string/jumbo v2, "sizeAndRate.support, "
+    const-string v2, "sizeAndRate.support, "
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -160,7 +160,7 @@
     :try_start_0
     const-class v0, Landroid/graphics/drawable/RippleDrawable;
 
-    const-string/jumbo v1, "setMaxRadius"
+    const-string v1, "setMaxRadius"
 
     const/4 v2, 0x1
 

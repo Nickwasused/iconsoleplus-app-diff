@@ -156,7 +156,7 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
-    const-string/jumbo v1, "width"
+    const-string v1, "width"
 
     .line 132
     invoke-virtual {p1, v1}, Lcom/google/android/material/animation/MotionSpec;->hasPropertyValues(Ljava/lang/String;)Z

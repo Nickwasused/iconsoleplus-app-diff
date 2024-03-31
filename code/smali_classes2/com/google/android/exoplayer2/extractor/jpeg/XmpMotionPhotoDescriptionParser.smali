@@ -318,7 +318,7 @@
 
     const-wide/16 v9, 0x0
 
-    const-string/jumbo v5, "video/mp4"
+    const-string v5, "video/mp4"
 
     const-string v6, "MotionPhoto"
 

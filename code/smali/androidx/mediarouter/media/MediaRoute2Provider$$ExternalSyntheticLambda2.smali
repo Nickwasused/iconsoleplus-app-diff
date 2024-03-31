@@ -3,7 +3,7 @@
 .source "D8$$SyntheticClass"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Ljava/util/function/Predicate;
 
 
 # static fields
@@ -33,14 +33,14 @@
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+.method public final test(Ljava/lang/Object;)Z
     .locals 0
 
     check-cast p1, Landroid/media/MediaRoute2Info;
 
-    invoke-static {p1}, Landroidx/mediarouter/media/MediaRouter2Utils;->toMediaRouteDescriptor(Landroid/media/MediaRoute2Info;)Landroidx/mediarouter/media/MediaRouteDescriptor;
+    invoke-static {p1}, Landroidx/mediarouter/media/MediaRoute2Provider;->lambda$refreshRoutes$0(Landroid/media/MediaRoute2Info;)Z
 
-    move-result-object p1
+    move-result p1
 
-    return-object p1
+    return p1
 .end method

@@ -40,16 +40,6 @@
 
 .method public constructor <init>(ILandroid/content/Intent;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "resultCode",
-            "data"
-        }
-    .end annotation
 
     .line 45
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -65,14 +55,6 @@
 
 .method constructor <init>(Landroid/os/Parcel;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
 
     .line 50
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -112,14 +94,6 @@
 
 .method public static resultCodeToString(I)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "resultCode"
-        }
-    .end annotation
 
     const/4 v0, -0x1
 
@@ -215,16 +189,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dest",
-            "flags"
-        }
-    .end annotation
 
     .line 96
     iget v0, p0, Landroidx/activity/result/ActivityResult;->mResultCode:I

@@ -194,7 +194,7 @@
 .method getMenuListView()Landroid/widget/ListView;
     .locals 1
 
-    .line 306
+    .line 319
     iget-object v0, p0, Landroidx/appcompat/widget/PopupMenu;->mPopup:Landroidx/appcompat/view/menu/MenuPopupHelper;
 
     invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->isShowing()Z
@@ -207,7 +207,7 @@
 
     return-object v0
 
-    .line 309
+    .line 322
     :cond_0
     iget-object v0, p0, Landroidx/appcompat/widget/PopupMenu;->mPopup:Landroidx/appcompat/view/menu/MenuPopupHelper;
 
@@ -229,6 +229,17 @@
     iget-object v1, p0, Landroidx/appcompat/widget/PopupMenu;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     invoke-virtual {v0, p1, v1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
+
+    return-void
+.end method
+
+.method public setForceShowIcon(Z)V
+    .locals 1
+
+    .line 279
+    iget-object v0, p0, Landroidx/appcompat/widget/PopupMenu;->mPopup:Landroidx/appcompat/view/menu/MenuPopupHelper;
+
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setForceShowIcon(Z)V
 
     return-void
 .end method

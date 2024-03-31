@@ -34,7 +34,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nViewGroup.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ViewGroup.kt\nandroidx/core/view/ViewGroupKt$descendants$1\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,147:1\n54#2,4:148\n*S KotlinDebug\n*F\n+ 1 ViewGroup.kt\nandroidx/core/view/ViewGroupKt$descendants$1\n*L\n96#1:148,4\n*E\n"
+    value = "SMAP\nViewGroup.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ViewGroup.kt\nandroidx/core/view/ViewGroupKt$descendants$1\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,175:1\n55#2,4:176\n*S KotlinDebug\n*F\n+ 1 ViewGroup.kt\nandroidx/core/view/ViewGroupKt$descendants$1\n*L\n118#1:176,4\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -50,7 +50,7 @@
     k = 0x3
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -63,27 +63,33 @@
         0x0,
         0x0,
         0x0,
+        0x0,
+        0x1,
         0x1,
         0x1
     }
     l = {
-        0x61,
-        0x63
+        0x77,
+        0x79
     }
     m = "invokeSuspend"
     n = {
         "$this$sequence",
         "$this$forEach$iv",
         "child",
+        "index$iv",
         "$this$sequence",
-        "$this$forEach$iv"
+        "$this$forEach$iv",
+        "index$iv"
     }
     s = {
         "L$0",
         "L$1",
         "L$2",
+        "I$0",
         "L$0",
-        "L$1"
+        "L$1",
+        "I$0"
     }
 .end annotation
 
@@ -203,13 +209,13 @@
 .end method
 
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 10
+    .locals 11
 
     invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 95
+    .line 117
     iget v1, p0, Landroidx/core/view/ViewGroupKt$descendants$1;->label:I
 
     const/4 v2, 0x2
@@ -236,11 +242,11 @@
 
     invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
 
-    move-object v7, p0
+    move-object p1, p0
 
-    goto/16 :goto_1
+    goto/16 :goto_2
 
-    .line 102
+    .line 124
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -250,7 +256,7 @@
 
     throw p1
 
-    .line 95
+    .line 117
     :cond_1
     iget v1, p0, Landroidx/core/view/ViewGroupKt$descendants$1;->I$1:I
 
@@ -270,11 +276,9 @@
 
     invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
 
-    move-object p1, v7
+    move-object p1, p0
 
-    move-object v7, p0
-
-    goto :goto_0
+    goto :goto_1
 
     :cond_2
     invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
@@ -283,131 +287,135 @@
 
     check-cast p1, Lkotlin/sequences/SequenceScope;
 
-    .line 96
+    .line 118
     iget-object v1, p0, Landroidx/core/view/ViewGroupKt$descendants$1;->$this_descendants:Landroid/view/ViewGroup;
 
     const/4 v4, 0x0
 
-    .line 148
+    .line 176
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v5
 
-    if-lez v5, :cond_7
-
     move-object v6, p0
 
-    :cond_3
-    add-int/lit8 v7, v4, 0x1
+    :goto_0
+    if-ge v4, v5, :cond_6
 
-    .line 149
+    .line 177
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
-    move-result-object v4
+    move-result-object v7
 
     const-string v8, "getChildAt(index)"
 
-    invoke-static {v4, v8}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 97
+    .line 119
     iput-object p1, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->L$0:Ljava/lang/Object;
 
     iput-object v1, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->L$1:Ljava/lang/Object;
 
-    iput-object v4, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->L$2:Ljava/lang/Object;
+    iput-object v7, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->L$2:Ljava/lang/Object;
 
-    iput v7, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->I$0:I
+    iput v4, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->I$0:I
 
     iput v5, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->I$1:I
 
     iput v3, v6, Landroidx/core/view/ViewGroupKt$descendants$1;->label:I
 
-    invoke-virtual {p1, v4, v6}, Lkotlin/sequences/SequenceScope;->yield(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    invoke-virtual {p1, v7, v6}, Lkotlin/sequences/SequenceScope;->yield(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
 
     move-result-object v8
 
-    if-ne v8, v0, :cond_4
+    if-ne v8, v0, :cond_3
 
     return-object v0
 
-    :cond_4
-    move-object v9, v6
+    :cond_3
+    move-object v9, v7
+
+    move-object v7, p1
+
+    move-object p1, v6
 
     move-object v6, v1
 
     move v1, v5
 
-    move-object v5, v4
+    move-object v5, v9
 
-    move v4, v7
-
-    move-object v7, v9
-
-    .line 98
-    :goto_0
+    .line 120
+    :goto_1
     instance-of v8, v5, Landroid/view/ViewGroup;
 
-    if-eqz v8, :cond_6
+    if-eqz v8, :cond_5
 
-    .line 99
+    .line 121
     check-cast v5, Landroid/view/ViewGroup;
 
     invoke-static {v5}, Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lkotlin/sequences/Sequence;
 
     move-result-object v5
 
-    iput-object p1, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->L$0:Ljava/lang/Object;
+    iput-object v7, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->L$0:Ljava/lang/Object;
 
-    iput-object v6, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->L$1:Ljava/lang/Object;
+    iput-object v6, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->L$1:Ljava/lang/Object;
 
     const/4 v8, 0x0
 
-    iput-object v8, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->L$2:Ljava/lang/Object;
+    iput-object v8, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->L$2:Ljava/lang/Object;
 
-    iput v4, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->I$0:I
+    iput v4, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->I$0:I
 
-    iput v1, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->I$1:I
+    iput v1, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->I$1:I
 
-    iput v2, v7, Landroidx/core/view/ViewGroupKt$descendants$1;->label:I
+    iput v2, p1, Landroidx/core/view/ViewGroupKt$descendants$1;->label:I
 
-    invoke-virtual {p1, v5, v7}, Lkotlin/sequences/SequenceScope;->yieldAll(Lkotlin/sequences/Sequence;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    invoke-virtual {v7, v5, p1}, Lkotlin/sequences/SequenceScope;->yieldAll(Lkotlin/sequences/Sequence;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
 
     move-result-object v5
 
-    if-ne v5, v0, :cond_5
+    if-ne v5, v0, :cond_4
 
     return-object v0
 
-    :cond_5
+    :cond_4
     move-object v5, v6
-
-    move-object v6, p1
-
-    :goto_1
-    move-object p1, v6
-
-    move-object v6, v7
-
-    move-object v9, v5
-
-    move v5, v1
-
-    move-object v1, v9
-
-    goto :goto_2
-
-    :cond_6
-    move v5, v1
-
-    move-object v1, v6
 
     move-object v6, v7
 
     :goto_2
-    if-lt v4, v5, :cond_3
+    move-object v9, v6
 
-    .line 102
-    :cond_7
+    move-object v6, p1
+
+    move-object p1, v9
+
+    move-object v10, v5
+
+    move v5, v1
+
+    move-object v1, v10
+
+    goto :goto_3
+
+    :cond_5
+    move v5, v1
+
+    move-object v1, v6
+
+    move-object v6, p1
+
+    move-object p1, v7
+
+    :goto_3
+    add-int/2addr v4, v3
+
+    goto :goto_0
+
+    .line 124
+    :cond_6
     sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
     return-object p1

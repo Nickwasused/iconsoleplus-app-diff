@@ -295,7 +295,7 @@
 
     iput-object p4, p0, Landroidx/camera/camera2/internal/SupportedSurfaceCombination;->mCamcorderProfileHelper:Landroidx/camera/camera2/internal/CamcorderProfileHelper;
 
-    const-string p4, "window"
+    const-string/jumbo p4, "window"
 
     .line 108
     invoke-virtual {p1, p4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

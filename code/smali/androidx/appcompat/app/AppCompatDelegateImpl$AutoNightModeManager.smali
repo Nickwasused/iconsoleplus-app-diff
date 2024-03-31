@@ -24,7 +24,7 @@
 .method constructor <init>(Landroidx/appcompat/app/AppCompatDelegateImpl;)V
     .locals 0
 
-    .line 3205
+    .line 3322
     iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,12 +37,12 @@
 .method cleanup()V
     .locals 2
 
-    .line 3237
+    .line 3354
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->mReceiver:Landroid/content/BroadcastReceiver;
 
     if-eqz v0, :cond_0
 
-    .line 3239
+    .line 3356
     :try_start_0
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
@@ -57,7 +57,7 @@
     :catch_0
     const/4 v0, 0x0
 
-    .line 3244
+    .line 3361
     iput-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->mReceiver:Landroid/content/BroadcastReceiver;
 
     :cond_0
@@ -73,7 +73,7 @@
 .method isListening()Z
     .locals 1
 
-    .line 3249
+    .line 3366
     iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->mReceiver:Landroid/content/BroadcastReceiver;
 
     if-eqz v0, :cond_0
@@ -95,17 +95,17 @@
 .method setup()V
     .locals 3
 
-    .line 3214
+    .line 3331
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->cleanup()V
 
-    .line 3216
+    .line 3333
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->createIntentFilterForBroadcastReceiver()Landroid/content/IntentFilter;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 3217
+    .line 3334
     invoke-virtual {v0}, Landroid/content/IntentFilter;->countActions()I
 
     move-result v1
@@ -114,20 +114,20 @@
 
     goto :goto_0
 
-    .line 3222
+    .line 3339
     :cond_0
     iget-object v1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->mReceiver:Landroid/content/BroadcastReceiver;
 
     if-nez v1, :cond_1
 
-    .line 3223
+    .line 3340
     new-instance v1, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;
 
     invoke-direct {v1, p0}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;-><init>(Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;)V
 
     iput-object v1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->mReceiver:Landroid/content/BroadcastReceiver;
 
-    .line 3230
+    .line 3347
     :cond_1
     iget-object v1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 

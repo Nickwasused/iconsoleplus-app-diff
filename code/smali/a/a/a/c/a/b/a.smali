@@ -16,7 +16,7 @@
 .method public static a(Landroid/content/Context;)I
     .locals 1
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -82,7 +82,7 @@
 .method public static b(Landroid/content/Context;)I
     .locals 1
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;

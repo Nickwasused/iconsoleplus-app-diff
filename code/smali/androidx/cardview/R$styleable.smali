@@ -67,11 +67,11 @@
         0x7f0400a4
         0x7f0400a5
         0x7f0400a6
-        0x7f04012e
-        0x7f04012f
         0x7f040131
         0x7f040132
         0x7f040134
+        0x7f040135
+        0x7f040137
     .end array-data
 .end method
 

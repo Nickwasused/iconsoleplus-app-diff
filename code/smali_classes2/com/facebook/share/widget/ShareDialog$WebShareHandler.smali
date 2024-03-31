@@ -189,7 +189,7 @@
 
     if-eqz p1, :cond_1
 
-    const-string/jumbo p1, "share_open_graph"
+    const-string p1, "share_open_graph"
 
     return-object p1
 
@@ -200,7 +200,7 @@
 
     :cond_2
     :goto_0
-    const-string/jumbo p1, "share"
+    const-string p1, "share"
 
     return-object p1
 .end method

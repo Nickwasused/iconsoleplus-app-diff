@@ -64,10 +64,10 @@
 .method private constructor <init>(JJJ)V
     .locals 3
 
-    .line 115
+    .line 124
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 117
+    .line 126
     iput-wide p3, p0, Lkotlin/ranges/ULongProgressionIterator;->finalElement:J
 
     const-wide/16 v0, 0x0
@@ -80,7 +80,7 @@
 
     if-lez v0, :cond_0
 
-    .line 118
+    .line 127
     invoke-static {p1, p2, p3, p4}, Lkotlin/UnsignedKt;->ulongCompare(JJ)I
 
     move-result v0
@@ -104,14 +104,14 @@
     :goto_0
     iput-boolean v1, p0, Lkotlin/ranges/ULongProgressionIterator;->hasNext:Z
 
-    .line 119
+    .line 128
     invoke-static {p5, p6}, Lkotlin/ULong;->constructor-impl(J)J
 
     move-result-wide p5
 
     iput-wide p5, p0, Lkotlin/ranges/ULongProgressionIterator;->step:J
 
-    .line 120
+    .line 129
     iget-boolean p5, p0, Lkotlin/ranges/ULongProgressionIterator;->hasNext:Z
 
     if-eqz p5, :cond_2
@@ -140,7 +140,7 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 122
+    .line 131
     iget-boolean v0, p0, Lkotlin/ranges/ULongProgressionIterator;->hasNext:Z
 
     return v0
@@ -149,7 +149,7 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 2
 
-    .line 115
+    .line 124
     invoke-virtual {p0}, Lkotlin/ranges/ULongProgressionIterator;->next-s-VKNKU()J
 
     move-result-wide v0
@@ -164,29 +164,29 @@
 .method public next-s-VKNKU()J
     .locals 4
 
-    .line 125
+    .line 134
     iget-wide v0, p0, Lkotlin/ranges/ULongProgressionIterator;->next:J
 
-    .line 126
+    .line 135
     iget-wide v2, p0, Lkotlin/ranges/ULongProgressionIterator;->finalElement:J
 
     cmp-long v2, v0, v2
 
     if-nez v2, :cond_1
 
-    .line 127
+    .line 136
     iget-boolean v2, p0, Lkotlin/ranges/ULongProgressionIterator;->hasNext:Z
 
     if-eqz v2, :cond_0
 
     const/4 v2, 0x0
 
-    .line 128
+    .line 137
     iput-boolean v2, p0, Lkotlin/ranges/ULongProgressionIterator;->hasNext:Z
 
     goto :goto_0
 
-    .line 127
+    .line 136
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -194,7 +194,7 @@
 
     throw v0
 
-    .line 130
+    .line 139
     :cond_1
     iget-wide v2, p0, Lkotlin/ranges/ULongProgressionIterator;->step:J
 

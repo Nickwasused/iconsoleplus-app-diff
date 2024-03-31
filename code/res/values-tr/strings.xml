@@ -73,8 +73,6 @@
     <string name="common_signin_button_text">Oturum aç</string>
     <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
     <string name="copy">Kopyala</string>
-    <string name="crop_image_activity_no_permissions">İptal ediliyor, gerekli izinler verilmiyor</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Kırp</string>
     <string name="error_icon_content_description">Hata</string>
     <string name="exo_controls_cc_disabled_description">Altyazıları etkinleştir</string>
@@ -213,7 +211,7 @@
     <string name="nav_app_bar_open_drawer_description">Gezinme çekmecesini aç</string>
     <string name="not_set">Ayarlanmadı</string>
     <string name="password_toggle_content_description">Şifreyi göster</string>
-    <string name="pick_image_intent_chooser_title">Kaynağı seçin</string>
+    <string name="pick_image_chooser_title">Kaynağı seçin</string>
     <string name="preference_copied">\"%1$s\" panoya kopyalandı.</string>
     <string name="search_menu_title">Ara</string>
     <string name="status_bar_notification_info_overflow">999+</string>

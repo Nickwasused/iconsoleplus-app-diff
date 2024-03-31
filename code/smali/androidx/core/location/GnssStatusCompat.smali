@@ -46,7 +46,7 @@
     .line 117
     new-instance v0, Landroidx/core/location/GnssStatusWrapper;
 
-    invoke-direct {v0, p0}, Landroidx/core/location/GnssStatusWrapper;-><init>(Landroid/location/GnssStatus;)V
+    invoke-direct {v0, p0}, Landroidx/core/location/GnssStatusWrapper;-><init>(Ljava/lang/Object;)V
 
     return-object v0
 .end method

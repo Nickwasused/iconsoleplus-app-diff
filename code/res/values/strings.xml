@@ -158,8 +158,6 @@
     <string name="connecting">Connecting</string>
     <string name="copy">Copy</string>
     <string name="creating_an_account_implies_agreeing_to_the_terms">Creating an_account implies agreeing to the terms.</string>
-    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Crop</string>
     <string name="daily_erercise__equipment">Equipment</string>
     <string name="daily_erercise__mets">METs</string>
@@ -226,6 +224,9 @@
     <string name="discovering">Discovering</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_open">Slider Menu Opened</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">"DUMMY
+CONTENT"</string>
     <string name="echo_desc">To transfer data back automatically</string>
     <string name="echo_state">Enabled</string>
     <string name="echo_title">Set Echo</string>
@@ -292,6 +293,9 @@
     <string name="facebook_app_id">1958190627771076</string>
     <string name="fb_login_protocol_scheme">fb1958190627771076</string>
     <string name="fitbit_auth_url">https://www.fitbit.com/oauth2/authorize?response_type=code&amp;client_id=22BKTX&amp;redirect_uri=iconsoleplusfitbitauth://iconsoleplus.com&amp;scope=activity profile</string>
+    <string name="fitbit_callback_url">iconsoleplusfitbitauth://iconsoleplus.com</string>
+    <string name="fitbit_clientid">22BKTX</string>
+    <string name="fitbit_refresh_token">MjJCS1RYOmI5OGE4MDZhNWNkZDY4OTUxM2ZmNTUwYmIwZGJjNTBi</string>
     <string name="fitness_eqipment_details__equipment">Equipment</string>
     <string name="fitness_eqipment_details__equipment_type">Equipment Type</string>
     <string name="fitness_eqipment_details__hign_intensity">Hign-intensity</string>
@@ -347,6 +351,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="huawei_auth_url">https://oauth-login.cloud.huawei.com/oauth2/v3/authorize?response_type=code&amp;state=state_parameter_passthrough_value&amp;client_id=108524569&amp;redirect_uri=com.huawei.apps.108524569:/oauth2redirect&amp;scope=openid+https://www.huawei.com/healthkit/activity.write+https://www.huawei.com/healthkit/activity.read&amp;access_type=offline&amp;display=touch</string>
+    <string name="huawei_callback_url">com.huawei.apps.108524569:/oauth2redirect</string>
+    <string name="huawei_client_secret">700a57cbad6ac1520114f69e8b236b94182b755220abddb2df95f67842c066fe</string>
+    <string name="huawei_clientid">108524569</string>
     <string name="huawei_token_url">https://oauth-login.cloud.huawei.com/oauth2/v3/token?grant_type=authorization_code&amp;code=c_o_d_e&amp;client_id=108524569&amp;client_secret=700a57cbad6ac1520114f69e8b236b94182b755220abddb2df95f67842c066fe&amp;redirect_uri=com.huawei.apps.108524569:/oauth2redirect</string>
     <string name="ic_flip_24">Flip</string>
     <string name="ic_flip_24_horizontally">Flip horizontally</string>
@@ -525,7 +532,9 @@ Please check it out and click verification to activate new password."</string>
     <string name="permission_name_sms">SMS</string>
     <string name="permission_name_storage">Storage</string>
     <string name="permission_requesting">Requesting permissions…</string>
-    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="pick_image_camera">Camera</string>
+    <string name="pick_image_chooser_title">Select source</string>
+    <string name="pick_image_gallery">Gallery</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="previous">Go to previous</string>
     <string name="project_id">app-service-test-1504257663550</string>
@@ -932,8 +941,9 @@ Pedal smooth at your target RPM."</string>
     <string name="str_please_check_your_email_to_confirm_delete">Please check your email to confirm delete.</string>
     <string name="str_privacy_ploicy">Privacy Policy</string>
     <string name="str_privacy_policy__argeement">&lt;html> &lt;head> &lt;/head> &lt;body> Creating an_account implies agreeing to the《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>Privacy policy&lt;/a>》and the《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>Service term&lt;/a>》. &lt;/body> &lt;/html></string>
-    <string name="str_privacy_policy__desc">&lt;html> &lt;head> &lt;style> a:link { color: #4589c6; background-color: transparent; text-decoration: none; } a:visited { color: #4589c6; background-color: transparent; text-decoration: none; } a:hover { color: red; background-color: transparent; text-decoration: underline; } a:active { color: #4589c6; background-color: transparent; text-decoration: underline; } &lt;/style> &lt;/head> &lt;body> 欢迎使用iConsole+。在您注册成为iConsole+用户的过程中,您需要完成我们的注册流程并通过点击同意的形式在线签署以下协议,请您务必审慎阅读《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>隐私政策&lt;/a>》&amp;《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>服务协议&lt;/a>》,并充分理解协议条款内容。 我们将严格按照您同意的各项条款使用您的个人信息,以便为您提供更好的服务。 &lt;/body> &lt;/html></string>
+    <string name="str_privacy_policy__desc">&lt;html> &lt;body> 欢迎使用iConsole+。在您注册成为iConsole+用户的过程中,您需要完成我们的注册流程并通过点击同意的形式在线签署以下协议,请您务必审慎阅读《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>隐私政策&lt;/a>》&amp;《&lt;a href=https://web.iconsole.plus/privacy_policy.html#cn_policy target=_blank>服务协议&lt;/a>》,并充分理解协议条款内容。 我们将严格按照您同意的各项条款使用您的个人信息,以便为您提供更好的服务。 &lt;/body> &lt;/html></string>
     <string name="str_privacy_policy__title">注册协议及隐私政策</string>
+    <string name="str_privacy_policy_url">https://web.iconsole.plus/privacy_policy.html</string>
     <string name="str_proceed_to_delete_account">Proceed to delete account ?</string>
     <string name="str_programs">Programs</string>
     <string name="str_programs__min">Min</string>
@@ -1135,6 +1145,8 @@ Let’s go."</string>
     <string name="str_what_is_your_account_question_mark">What is your account?</string>
     <string name="str_your_account_has_deleted">Your account has deleted.</string>
     <string name="strava_auth_url">https://www.strava.com/oauth/authorize?client_id=35806&amp;response_type=code&amp;redirect_uri=http://localhost/iconsole/strava/callback/exchange_token&amp;approval_prompt=force&amp;scope=read,activity:write,activity:read_all</string>
+    <string name="strava_client_secret">e26bd4b61112261ab6e679f3b2fd4c67c65339f6</string>
+    <string name="strava_clientid">35806</string>
     <string name="string_vo2max__exercise_1_2_times_a_week">Exercise 1-2 times a week</string>
     <string name="string_vo2max__exercise_3_5_times_a_week">Exercise 3-5 times a week</string>
     <string name="string_vo2max__exercise_6_7_times_a_week">Exercise 6-7 times a week</string>

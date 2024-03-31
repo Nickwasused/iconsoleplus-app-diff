@@ -51,7 +51,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f040183
+    const v1, 0x7f04018d
 
     aput v1, v0, v2
 

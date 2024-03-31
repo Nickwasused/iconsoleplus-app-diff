@@ -324,7 +324,7 @@
 
     invoke-direct {v6}, Lcom/google/gson/JsonArray;-><init>()V
 
-    const-string/jumbo v7, "workouts"
+    const-string v7, "workouts"
 
     .line 88
     invoke-virtual {v5, v7, v6}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V

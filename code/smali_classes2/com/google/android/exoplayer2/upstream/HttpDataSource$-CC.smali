@@ -34,7 +34,7 @@
 
     if-nez v1, :cond_2
 
-    const-string/jumbo v1, "text"
+    const-string v1, "text"
 
     .line 189
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -43,7 +43,7 @@
 
     if-eqz v1, :cond_1
 
-    const-string/jumbo v1, "text/vtt"
+    const-string v1, "text/vtt"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 

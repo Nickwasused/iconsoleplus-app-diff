@@ -216,7 +216,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string/jumbo v0, "und"
+    const-string v0, "und"
 
     .line 166
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

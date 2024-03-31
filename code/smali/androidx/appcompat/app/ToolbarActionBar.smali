@@ -8,15 +8,17 @@
     value = {
         Landroidx/appcompat/app/ToolbarActionBar$MenuBuilderCallback;,
         Landroidx/appcompat/app/ToolbarActionBar$ActionMenuPresenterCallback;,
-        Landroidx/appcompat/app/ToolbarActionBar$ToolbarCallbackWrapper;
+        Landroidx/appcompat/app/ToolbarActionBar$ToolbarMenuCallback;
     }
 .end annotation
 
 
 # instance fields
-.field mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
+.field final mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
 .field private mLastMenuVisibility:Z
+
+.field final mMenuCallback:Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarMenuCallback;
 
 .field private mMenuCallbackSet:Z
 
@@ -36,38 +38,41 @@
 
 .field mToolbarMenuPrepared:Z
 
-.field mWindowCallback:Landroid/view/Window$Callback;
+.field final mWindowCallback:Landroid/view/Window$Callback;
 
 
 # direct methods
 .method constructor <init>(Landroidx/appcompat/widget/Toolbar;Ljava/lang/CharSequence;Landroid/view/Window$Callback;)V
     .locals 3
 
-    .line 69
+    .line 71
     invoke-direct {p0}, Landroidx/appcompat/app/ActionBar;-><init>()V
 
-    .line 52
+    .line 53
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuVisibilityListeners:Ljava/util/ArrayList;
 
-    .line 54
+    .line 55
     new-instance v0, Landroidx/appcompat/app/ToolbarActionBar$1;
 
     invoke-direct {v0, p0}, Landroidx/appcompat/app/ToolbarActionBar$1;-><init>(Landroidx/appcompat/app/ToolbarActionBar;)V
 
     iput-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuInvalidator:Ljava/lang/Runnable;
 
-    .line 61
+    .line 62
     new-instance v0, Landroidx/appcompat/app/ToolbarActionBar$2;
 
     invoke-direct {v0, p0}, Landroidx/appcompat/app/ToolbarActionBar$2;-><init>(Landroidx/appcompat/app/ToolbarActionBar;)V
 
     iput-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuClicker:Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;
 
-    .line 70
+    .line 72
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 73
     new-instance v1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;
 
     const/4 v2, 0x0
@@ -76,25 +81,30 @@
 
     iput-object v1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
-    .line 71
-    new-instance v1, Landroidx/appcompat/app/ToolbarActionBar$ToolbarCallbackWrapper;
+    .line 75
+    invoke-static {p3}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-direct {v1, p0, p3}, Landroidx/appcompat/app/ToolbarActionBar$ToolbarCallbackWrapper;-><init>(Landroidx/appcompat/app/ToolbarActionBar;Landroid/view/Window$Callback;)V
+    move-result-object v2
 
-    iput-object v1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mWindowCallback:Landroid/view/Window$Callback;
+    check-cast v2, Landroid/view/Window$Callback;
 
-    .line 72
-    iget-object p3, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
+    iput-object v2, p0, Landroidx/appcompat/app/ToolbarActionBar;->mWindowCallback:Landroid/view/Window$Callback;
 
-    invoke-interface {p3, v1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowCallback(Landroid/view/Window$Callback;)V
+    .line 76
+    invoke-interface {v1, p3}, Landroidx/appcompat/widget/DecorToolbar;->setWindowCallback(Landroid/view/Window$Callback;)V
 
-    .line 73
+    .line 77
     invoke-virtual {p1, v0}, Landroidx/appcompat/widget/Toolbar;->setOnMenuItemClickListener(Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;)V
 
-    .line 74
-    iget-object p1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
+    .line 78
+    invoke-interface {v1, p2}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V
 
-    invoke-interface {p1, p2}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V
+    .line 80
+    new-instance p1, Landroidx/appcompat/app/ToolbarActionBar$ToolbarMenuCallback;
+
+    invoke-direct {p1, p0}, Landroidx/appcompat/app/ToolbarActionBar$ToolbarMenuCallback;-><init>(Landroidx/appcompat/app/ToolbarActionBar;)V
+
+    iput-object p1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuCallback:Landroidx/appcompat/app/AppCompatDelegateImpl$ActionBarMenuCallback;
 
     return-void
 .end method
@@ -102,12 +112,12 @@
 .method private getMenu()Landroid/view/Menu;
     .locals 3
 
-    .line 544
+    .line 545
     iget-boolean v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuCallbackSet:Z
 
     if-nez v0, :cond_0
 
-    .line 545
+    .line 546
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     new-instance v1, Landroidx/appcompat/app/ToolbarActionBar$ActionMenuPresenterCallback;
@@ -122,10 +132,10 @@
 
     const/4 v0, 0x1
 
-    .line 547
+    .line 548
     iput-boolean v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuCallbackSet:Z
 
-    .line 549
+    .line 550
     :cond_0
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
@@ -141,7 +151,7 @@
 .method public addOnMenuVisibilityListener(Landroidx/appcompat/app/ActionBar$OnMenuVisibilityListener;)V
     .locals 1
 
-    .line 495
+    .line 497
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuVisibilityListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -152,7 +162,7 @@
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;)V
     .locals 1
 
-    .line 335
+    .line 337
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Tabs are not supported in toolbar action bars"
@@ -165,7 +175,7 @@
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;I)V
     .locals 0
 
-    .line 347
+    .line 349
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Tabs are not supported in toolbar action bars"
@@ -178,7 +188,7 @@
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;IZ)V
     .locals 0
 
-    .line 353
+    .line 355
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Tabs are not supported in toolbar action bars"
@@ -191,7 +201,7 @@
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;Z)V
     .locals 0
 
-    .line 341
+    .line 343
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Tabs are not supported in toolbar action bars"
@@ -204,7 +214,7 @@
 .method public closeOptionsMenu()Z
     .locals 1
 
-    .line 429
+    .line 431
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->hideOverflowMenu()Z
@@ -217,7 +227,7 @@
 .method public collapseActionView()Z
     .locals 1
 
-    .line 441
+    .line 443
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->hasExpandedActionView()Z
@@ -226,7 +236,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 442
+    .line 444
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->collapseActionView()V
@@ -244,18 +254,18 @@
 .method public dispatchMenuVisibilityChanged(Z)V
     .locals 3
 
-    .line 505
+    .line 507
     iget-boolean v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mLastMenuVisibility:Z
 
     if-ne p1, v0, :cond_0
 
     return-void
 
-    .line 508
+    .line 510
     :cond_0
     iput-boolean p1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mLastMenuVisibility:Z
 
-    .line 510
+    .line 512
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuVisibilityListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -267,7 +277,7 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 512
+    .line 514
     iget-object v2, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuVisibilityListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -289,7 +299,7 @@
 .method public getCustomView()Landroid/view/View;
     .locals 1
 
-    .line 296
+    .line 298
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getCustomView()Landroid/view/View;
@@ -302,7 +312,7 @@
 .method public getDisplayOptions()I
     .locals 1
 
-    .line 324
+    .line 326
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getDisplayOptions()I
@@ -315,7 +325,7 @@
 .method public getElevation()F
     .locals 1
 
-    .line 142
+    .line 144
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -332,7 +342,7 @@
 .method public getHeight()I
     .locals 1
 
-    .line 400
+    .line 402
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getHeight()I
@@ -369,7 +379,7 @@
 .method public getSelectedTab()Landroidx/appcompat/app/ActionBar$Tab;
     .locals 2
 
-    .line 383
+    .line 385
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Tabs are not supported in toolbar action bars"
@@ -382,7 +392,7 @@
 .method public getSubtitle()Ljava/lang/CharSequence;
     .locals 1
 
-    .line 306
+    .line 308
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getSubtitle()Ljava/lang/CharSequence;
@@ -395,7 +405,7 @@
 .method public getTabAt(I)Landroidx/appcompat/app/ActionBar$Tab;
     .locals 1
 
-    .line 389
+    .line 391
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Tabs are not supported in toolbar action bars"
@@ -416,7 +426,7 @@
 .method public getThemedContext()Landroid/content/Context;
     .locals 1
 
-    .line 147
+    .line 149
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getContext()Landroid/content/Context;
@@ -429,7 +439,7 @@
 .method public getTitle()Ljava/lang/CharSequence;
     .locals 1
 
-    .line 301
+    .line 303
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getTitle()Ljava/lang/CharSequence;
@@ -439,19 +449,10 @@
     return-object v0
 .end method
 
-.method public getWrappedWindowCallback()Landroid/view/Window$Callback;
-    .locals 1
-
-    .line 78
-    iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mWindowCallback:Landroid/view/Window$Callback;
-
-    return-object v0
-.end method
-
 .method public hide()V
     .locals 2
 
-    .line 414
+    .line 416
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     const/16 v1, 0x8
@@ -464,7 +465,7 @@
 .method public invalidateOptionsMenu()Z
     .locals 2
 
-    .line 434
+    .line 436
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -475,7 +476,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 435
+    .line 437
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -494,7 +495,7 @@
 .method public isShowing()Z
     .locals 1
 
-    .line 419
+    .line 421
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getVisibility()I
@@ -517,7 +518,7 @@
 .method public isTitleTruncated()Z
     .locals 1
 
-    .line 152
+    .line 154
     invoke-super {p0}, Landroidx/appcompat/app/ActionBar;->isTitleTruncated()Z
 
     move-result v0
@@ -528,7 +529,7 @@
 .method public newTab()Landroidx/appcompat/app/ActionBar$Tab;
     .locals 2
 
-    .line 329
+    .line 331
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Tabs are not supported in toolbar action bars"
@@ -541,7 +542,7 @@
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
 
-    .line 187
+    .line 189
     invoke-super {p0, p1}, Landroidx/appcompat/app/ActionBar;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     return-void
@@ -550,7 +551,7 @@
 .method onDestroy()V
     .locals 2
 
-    .line 490
+    .line 492
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -567,7 +568,7 @@
 .method public onKeyShortcut(ILandroid/view/KeyEvent;)Z
     .locals 4
 
-    .line 477
+    .line 479
     invoke-direct {p0}, Landroidx/appcompat/app/ToolbarActionBar;->getMenu()Landroid/view/Menu;
 
     move-result-object v0
@@ -578,7 +579,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 480
+    .line 482
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getDeviceId()I
 
     move-result v2
@@ -588,13 +589,13 @@
     :cond_0
     const/4 v2, -0x1
 
-    .line 479
+    .line 481
     :goto_0
     invoke-static {v2}, Landroid/view/KeyCharacterMap;->load(I)Landroid/view/KeyCharacterMap;
 
     move-result-object v2
 
-    .line 481
+    .line 483
     invoke-virtual {v2}, Landroid/view/KeyCharacterMap;->getKeyboardType()I
 
     move-result v2
@@ -611,7 +612,7 @@
     :goto_1
     invoke-interface {v0, v3}, Landroid/view/Menu;->setQwertyMode(Z)V
 
-    .line 482
+    .line 484
     invoke-interface {v0, p1, p2, v1}, Landroid/view/Menu;->performShortcut(ILandroid/view/KeyEvent;I)Z
 
     move-result p1
@@ -625,7 +626,7 @@
 .method public onMenuKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 1
 
-    .line 469
+    .line 471
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
     move-result p1
@@ -634,7 +635,7 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 470
+    .line 472
     invoke-virtual {p0}, Landroidx/appcompat/app/ToolbarActionBar;->openOptionsMenu()Z
 
     :cond_0
@@ -644,7 +645,7 @@
 .method public openOptionsMenu()Z
     .locals 1
 
-    .line 424
+    .line 426
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->showOverflowMenu()Z
@@ -657,12 +658,12 @@
 .method populateOptionsMenu()V
     .locals 5
 
-    .line 449
+    .line 451
     invoke-direct {p0}, Landroidx/appcompat/app/ToolbarActionBar;->getMenu()Landroid/view/Menu;
 
     move-result-object v0
 
-    .line 450
+    .line 452
     instance-of v1, v0, Landroidx/appcompat/view/menu/MenuBuilder;
 
     const/4 v2, 0x0
@@ -681,15 +682,15 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 452
+    .line 454
     invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuBuilder;->stopDispatchingItemsChanged()V
 
-    .line 455
+    .line 457
     :cond_1
     :try_start_0
     invoke-interface {v0}, Landroid/view/Menu;->clear()V
 
-    .line 456
+    .line 458
     iget-object v3, p0, Landroidx/appcompat/app/ToolbarActionBar;->mWindowCallback:Landroid/view/Window$Callback;
 
     const/4 v4, 0x0
@@ -702,14 +703,14 @@
 
     iget-object v3, p0, Landroidx/appcompat/app/ToolbarActionBar;->mWindowCallback:Landroid/view/Window$Callback;
 
-    .line 457
+    .line 459
     invoke-interface {v3, v4, v2, v0}, Landroid/view/Window$Callback;->onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 458
+    .line 460
     :cond_2
     invoke-interface {v0}, Landroid/view/Menu;->clear()V
     :try_end_0
@@ -718,7 +719,7 @@
     :cond_3
     if-eqz v1, :cond_4
 
-    .line 462
+    .line 464
     invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
 
     :cond_4
@@ -731,7 +732,7 @@
 
     invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
 
-    .line 464
+    .line 466
     :cond_5
     throw v0
 .end method
@@ -739,7 +740,7 @@
 .method public removeAllTabs()V
     .locals 2
 
-    .line 371
+    .line 373
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Tabs are not supported in toolbar action bars"
@@ -752,7 +753,7 @@
 .method public removeOnMenuVisibilityListener(Landroidx/appcompat/app/ActionBar$OnMenuVisibilityListener;)V
     .locals 1
 
-    .line 500
+    .line 502
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mMenuVisibilityListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
@@ -763,7 +764,7 @@
 .method public removeTab(Landroidx/appcompat/app/ActionBar$Tab;)V
     .locals 1
 
-    .line 359
+    .line 361
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Tabs are not supported in toolbar action bars"
@@ -776,7 +777,7 @@
 .method public removeTabAt(I)V
     .locals 1
 
-    .line 365
+    .line 367
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Tabs are not supported in toolbar action bars"
@@ -789,7 +790,7 @@
 .method public requestFocus()Z
     .locals 2
 
-    .line 234
+    .line 236
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -798,14 +799,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 235
+    .line 237
     invoke-virtual {v0}, Landroid/view/ViewGroup;->hasFocus()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 236
+    .line 238
     invoke-virtual {v0}, Landroid/view/ViewGroup;->requestFocus()Z
 
     const/4 v0, 0x1
@@ -821,7 +822,7 @@
 .method public selectTab(Landroidx/appcompat/app/ActionBar$Tab;)V
     .locals 1
 
-    .line 377
+    .line 379
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Tabs are not supported in toolbar action bars"
@@ -834,7 +835,7 @@
 .method public setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 291
+    .line 293
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -845,7 +846,7 @@
 .method public setCustomView(I)V
     .locals 3
 
-    .line 96
+    .line 98
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getContext()Landroid/content/Context;
@@ -856,7 +857,7 @@
 
     move-result-object v0
 
-    .line 97
+    .line 99
     iget-object v1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v1}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -877,7 +878,7 @@
 .method public setCustomView(Landroid/view/View;)V
     .locals 2
 
-    .line 83
+    .line 85
     new-instance v0, Landroidx/appcompat/app/ActionBar$LayoutParams;
 
     const/4 v1, -0x2
@@ -894,10 +895,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 89
+    .line 91
     invoke-virtual {p1, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 91
+    .line 93
     :cond_0
     iget-object p2, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
@@ -926,7 +927,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 276
+    .line 278
     :goto_0
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
@@ -938,7 +939,7 @@
 
     const/4 v0, -0x1
 
-    .line 255
+    .line 257
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
     return-void
@@ -947,14 +948,14 @@
 .method public setDisplayOptions(II)V
     .locals 2
 
-    .line 260
+    .line 262
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getDisplayOptions()I
 
     move-result v0
 
-    .line 261
+    .line 263
     iget-object v1, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     and-int/2addr p1, p2
@@ -984,7 +985,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 286
+    .line 288
     :goto_0
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
@@ -1005,7 +1006,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 271
+    .line 273
     :goto_0
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
@@ -1026,7 +1027,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 281
+    .line 283
     :goto_0
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
@@ -1038,7 +1039,7 @@
 
     const/4 v0, 0x1
 
-    .line 266
+    .line 268
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
 
     return-void
@@ -1047,7 +1048,7 @@
 .method public setElevation(F)V
     .locals 1
 
-    .line 137
+    .line 139
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getViewGroup()Landroid/view/ViewGroup;
@@ -1062,7 +1063,7 @@
 .method public setHomeActionContentDescription(I)V
     .locals 1
 
-    .line 177
+    .line 179
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationContentDescription(I)V
@@ -1073,7 +1074,7 @@
 .method public setHomeActionContentDescription(Ljava/lang/CharSequence;)V
     .locals 1
 
-    .line 167
+    .line 169
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationContentDescription(Ljava/lang/CharSequence;)V
@@ -1084,7 +1085,7 @@
 .method public setHomeAsUpIndicator(I)V
     .locals 1
 
-    .line 162
+    .line 164
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationIcon(I)V
@@ -1095,7 +1096,7 @@
 .method public setHomeAsUpIndicator(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 157
+    .line 159
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
@@ -1112,7 +1113,7 @@
 .method public setIcon(I)V
     .locals 1
 
-    .line 102
+    .line 104
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setIcon(I)V
@@ -1123,7 +1124,7 @@
 .method public setIcon(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 107
+    .line 109
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setIcon(Landroid/graphics/drawable/Drawable;)V
@@ -1134,7 +1135,7 @@
 .method public setListNavigationCallbacks(Landroid/widget/SpinnerAdapter;Landroidx/appcompat/app/ActionBar$OnNavigationListener;)V
     .locals 2
 
-    .line 192
+    .line 194
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     new-instance v1, Landroidx/appcompat/app/NavItemSelectedListener;
@@ -1149,7 +1150,7 @@
 .method public setLogo(I)V
     .locals 1
 
-    .line 112
+    .line 114
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(I)V
@@ -1160,7 +1161,7 @@
 .method public setLogo(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 117
+    .line 119
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V
@@ -1175,14 +1176,14 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 319
+    .line 321
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationMode(I)V
 
     return-void
 
-    .line 317
+    .line 319
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1196,7 +1197,7 @@
 .method public setSelectedNavigationItem(I)V
     .locals 2
 
-    .line 197
+    .line 199
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->getNavigationMode()I
@@ -1207,14 +1208,14 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 199
+    .line 201
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setDropdownSelectedPosition(I)V
 
     return-void
 
-    .line 202
+    .line 204
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1246,7 +1247,7 @@
 .method public setSubtitle(I)V
     .locals 2
 
-    .line 249
+    .line 251
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     if-eqz p1, :cond_0
@@ -1273,7 +1274,7 @@
 .method public setSubtitle(Ljava/lang/CharSequence;)V
     .locals 1
 
-    .line 244
+    .line 246
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setSubtitle(Ljava/lang/CharSequence;)V
@@ -1284,7 +1285,7 @@
 .method public setTitle(I)V
     .locals 2
 
-    .line 224
+    .line 226
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     if-eqz p1, :cond_0
@@ -1311,7 +1312,7 @@
 .method public setTitle(Ljava/lang/CharSequence;)V
     .locals 1
 
-    .line 219
+    .line 221
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setTitle(Ljava/lang/CharSequence;)V
@@ -1322,7 +1323,7 @@
 .method public setWindowTitle(Ljava/lang/CharSequence;)V
     .locals 1
 
-    .line 229
+    .line 231
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V
@@ -1333,7 +1334,7 @@
 .method public show()V
     .locals 2
 
-    .line 407
+    .line 409
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     const/4 v1, 0x0

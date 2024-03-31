@@ -30,7 +30,7 @@
         "hashCode",
         "",
         "toString",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -64,17 +64,17 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    const-string/jumbo v0, "summaryTextColor"
+    const-string v0, "summaryTextColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 192
+    .line 193
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 193
+    .line 194
     iput-object p1, p0, Lcom/changyow/iconsole4th/models/MainMyTraining;->summaryBgImage:Ljava/lang/String;
 
-    .line 196
+    .line 197
     iput-object p2, p0, Lcom/changyow/iconsole4th/models/MainMyTraining;->summaryTextColor:Ljava/lang/String;
 
     return-void
@@ -96,7 +96,7 @@
 
     const-string p2, "#FFFFFF"
 
-    .line 192
+    .line 193
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/models/MainMyTraining;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -166,7 +166,7 @@
 .method public final copy(Ljava/lang/String;Ljava/lang/String;)Lcom/changyow/iconsole4th/models/MainMyTraining;
     .locals 1
 
-    const-string/jumbo v0, "summaryTextColor"
+    const-string v0, "summaryTextColor"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -230,7 +230,7 @@
 .method public final getSummaryBgImage()Ljava/lang/String;
     .locals 1
 
-    .line 194
+    .line 195
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/MainMyTraining;->summaryBgImage:Ljava/lang/String;
 
     return-object v0
@@ -239,7 +239,7 @@
 .method public final getSummaryTextColor()Ljava/lang/String;
     .locals 1
 
-    .line 197
+    .line 198
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/MainMyTraining;->summaryTextColor:Ljava/lang/String;
 
     return-object v0

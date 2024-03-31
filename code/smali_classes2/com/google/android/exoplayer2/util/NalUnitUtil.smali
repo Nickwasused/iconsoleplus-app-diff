@@ -534,7 +534,7 @@
 .method public static isNalUnitSei(Ljava/lang/String;B)Z
     .locals 3
 
-    const-string/jumbo v0, "video/avc"
+    const-string v0, "video/avc"
 
     .line 227
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -552,7 +552,7 @@
     if-eq v0, v2, :cond_2
 
     :cond_0
-    const-string/jumbo v0, "video/hevc"
+    const-string v0, "video/hevc"
 
     .line 229
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

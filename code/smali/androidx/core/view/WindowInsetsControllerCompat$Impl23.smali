@@ -18,7 +18,7 @@
 .method constructor <init>(Landroid/view/Window;Landroid/view/View;)V
     .locals 0
 
-    .line 550
+    .line 554
     invoke-direct {p0, p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;-><init>(Landroid/view/Window;Landroid/view/View;)V
 
     return-void
@@ -29,7 +29,7 @@
 .method public isAppearanceLightStatusBars()Z
     .locals 1
 
-    .line 555
+    .line 559
     iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;->mWindow:Landroid/view/Window;
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
@@ -64,20 +64,20 @@
 
     const/high16 p1, 0x4000000
 
-    .line 562
+    .line 566
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;->unsetWindowFlag(I)V
 
     const/high16 p1, -0x80000000
 
-    .line 563
+    .line 567
     invoke-virtual {p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;->setWindowFlag(I)V
 
-    .line 564
+    .line 568
     invoke-virtual {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;->setSystemUiFlag(I)V
 
     goto :goto_0
 
-    .line 566
+    .line 570
     :cond_0
     invoke-virtual {p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;->unsetSystemUiFlag(I)V
 

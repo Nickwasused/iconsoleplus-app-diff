@@ -106,7 +106,7 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "string[]"
+    const-string/jumbo v0, "string[]"
 
     return-object v0
 .end method
@@ -125,7 +125,7 @@
 .method public parseValue(Ljava/lang/String;)[Ljava/lang/String;
     .locals 1
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 

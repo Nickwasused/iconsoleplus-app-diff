@@ -18,7 +18,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 875
+    .line 922
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .line 879
+    .line 926
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -59,19 +59,19 @@
 
     check-cast v2, Landroid/content/pm/ShortcutInfo;
 
-    .line 880
+    .line 927
     invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getRank()I
 
     move-result v3
 
     if-le v3, v0, :cond_0
 
-    .line 881
+    .line 928
     invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getId()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 882
+    .line 929
     invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getRank()I
 
     move-result v1

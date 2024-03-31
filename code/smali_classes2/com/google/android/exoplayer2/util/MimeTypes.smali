@@ -1063,12 +1063,12 @@
 
     if-eqz v1, :cond_4
 
-    const-string/jumbo p0, "video/av01"
+    const-string p0, "video/av01"
 
     return-object p0
 
     :cond_4
-    const-string/jumbo v1, "vp9"
+    const-string v1, "vp9"
 
     .line 358
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -1077,7 +1077,7 @@
 
     if-nez v1, :cond_20
 
-    const-string/jumbo v1, "vp09"
+    const-string v1, "vp09"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -1088,7 +1088,7 @@
     goto/16 :goto_7
 
     :cond_5
-    const-string/jumbo v1, "vp8"
+    const-string v1, "vp8"
 
     .line 360
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -1097,7 +1097,7 @@
 
     if-nez v1, :cond_1f
 
-    const-string/jumbo v1, "vp08"
+    const-string v1, "vp08"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -1305,7 +1305,7 @@
     return-object p0
 
     :cond_12
-    const-string/jumbo v0, "vorbis"
+    const-string v0, "vorbis"
 
     .line 389
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -1333,7 +1333,7 @@
     return-object p0
 
     :cond_14
-    const-string/jumbo v0, "stpp"
+    const-string v0, "stpp"
 
     .line 393
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -1356,7 +1356,7 @@
 
     if-eqz v0, :cond_16
 
-    const-string/jumbo p0, "text/vtt"
+    const-string p0, "text/vtt"
 
     return-object p0
 
@@ -1440,31 +1440,31 @@
 
     :cond_1f
     :goto_6
-    const-string/jumbo p0, "video/x-vnd.on2.vp8"
+    const-string p0, "video/x-vnd.on2.vp8"
 
     return-object p0
 
     :cond_20
     :goto_7
-    const-string/jumbo p0, "video/x-vnd.on2.vp9"
+    const-string p0, "video/x-vnd.on2.vp9"
 
     return-object p0
 
     :cond_21
     :goto_8
-    const-string/jumbo p0, "video/dolby-vision"
+    const-string p0, "video/dolby-vision"
 
     return-object p0
 
     :cond_22
     :goto_9
-    const-string/jumbo p0, "video/hevc"
+    const-string p0, "video/hevc"
 
     return-object p0
 
     :cond_23
     :goto_a
-    const-string/jumbo p0, "video/avc"
+    const-string p0, "video/avc"
 
     return-object p0
 .end method
@@ -1533,7 +1533,7 @@
     return-object p0
 
     :pswitch_4
-    const-string/jumbo p0, "video/mpeg"
+    const-string p0, "video/mpeg"
 
     return-object p0
 
@@ -1543,7 +1543,7 @@
     return-object p0
 
     :pswitch_6
-    const-string/jumbo p0, "video/mpeg2"
+    const-string p0, "video/mpeg2"
 
     return-object p0
 
@@ -1558,12 +1558,12 @@
     return-object p0
 
     :cond_2
-    const-string/jumbo p0, "video/x-vnd.on2.vp9"
+    const-string p0, "video/x-vnd.on2.vp9"
 
     return-object p0
 
     :cond_3
-    const-string/jumbo p0, "video/wvc1"
+    const-string p0, "video/wvc1"
 
     return-object p0
 
@@ -1574,19 +1574,21 @@
     return-object p0
 
     :cond_5
-    const-string/jumbo p0, "video/hevc"
+    const-string p0, "video/hevc"
 
     return-object p0
 
     :cond_6
-    const-string/jumbo p0, "video/avc"
+    const-string p0, "video/avc"
 
     return-object p0
 
     :cond_7
-    const-string/jumbo p0, "video/mp4v-es"
+    const-string p0, "video/mp4v-es"
 
     return-object p0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x60
@@ -2022,7 +2024,7 @@
     return v0
 
     :cond_0
-    const-string/jumbo v1, "video/webm"
+    const-string v1, "video/webm"
 
     .line 567
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -2049,7 +2051,7 @@
 
     if-nez v1, :cond_1
 
-    const-string/jumbo v1, "video/x-matroska"
+    const-string v1, "video/x-matroska"
 
     .line 570
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -2091,7 +2093,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "text"
+    const-string v1, "text"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2221,7 +2223,7 @@
 
     move-result-object p0
 
-    const-string/jumbo v0, "video"
+    const-string v0, "video"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

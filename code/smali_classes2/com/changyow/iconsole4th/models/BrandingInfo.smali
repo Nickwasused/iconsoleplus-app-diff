@@ -12,7 +12,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBrandingInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,203:1\n1#2:204\n1851#3,2:205\n*S KotlinDebug\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo\n*L\n71#1:205,2\n*E\n"
+    value = "SMAP\nBrandingInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,204:1\n1#2:205\n1851#3,2:206\n*S KotlinDebug\n*F\n+ 1 BrandingInfo.kt\ncom/changyow/iconsole4th/models/BrandingInfo\n*L\n72#1:206,2\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -75,7 +75,7 @@
         "toJson",
         "toString",
         "Companion",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -129,7 +129,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "supportEmail"
+    const-string v0, "supportEmail"
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -137,28 +137,28 @@
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 29
+    .line 30
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 30
+    .line 31
     iput p1, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->clientid:I
 
-    .line 31
+    .line 32
     iput-object p2, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->logo:Ljava/lang/String;
 
-    .line 33
+    .line 34
     iput p3, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->lastUpdated:I
 
-    .line 36
+    .line 37
     iput-object p4, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->supportEmail:Ljava/lang/String;
 
-    .line 39
+    .line 40
     iput-object p5, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->companyName:Ljava/lang/String;
 
-    .line 42
+    .line 43
     iput-object p6, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->style:Lcom/changyow/iconsole4th/models/Style;
 
-    .line 44
+    .line 45
     new-instance p1, Lokhttp3/OkHttpClient;
 
     invoke-direct {p1}, Lokhttp3/OkHttpClient;-><init>()V
@@ -184,7 +184,20 @@
 
     if-eqz p4, :cond_1
 
-    const-string p5, "iConsole+"
+    .line 41
+    invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
+
+    move-result-object p4
+
+    const p5, 0x7f120024
+
+    invoke-virtual {p4, p5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p5
+
+    const-string p4, "getAppContext().getString(R.string.app_name)"
+
+    invoke-static {p5, p4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_1
     move-object v5, p5
@@ -206,7 +219,7 @@
 
     move v3, p3
 
-    .line 29
+    .line 30
     invoke-direct/range {v0 .. v6}, Lcom/changyow/iconsole4th/models/BrandingInfo;-><init>(ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Lcom/changyow/iconsole4th/models/Style;)V
 
     return-void
@@ -215,7 +228,7 @@
 .method public static final synthetic access$saveBitmap(Lcom/changyow/iconsole4th/models/BrandingInfo;Landroid/graphics/Bitmap;Ljava/lang/String;)V
     .locals 0
 
-    .line 29
+    .line 30
     invoke-direct {p0, p1, p2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-void
@@ -300,7 +313,7 @@
 .method private final fetchImage(Ljava/lang/String;Lcom/changyow/iconsole4th/models/ImageDownloaded;)V
     .locals 4
 
-    .line 82
+    .line 83
     move-object v0, p1
 
     check-cast v0, Ljava/lang/CharSequence;
@@ -323,9 +336,9 @@
 
     if-eqz v0, :cond_1
 
-    const-string/jumbo p1, "url is null"
+    const-string p1, "url is null"
 
-    .line 83
+    .line 84
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -337,12 +350,12 @@
 
     const/4 v3, 0x0
 
-    .line 86
+    .line 87
     invoke-static {p1, v2, v3, v0, v3}, Lkotlin/text/StringsKt;->substringAfterLast$default(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 87
+    .line 88
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v2
@@ -351,19 +364,19 @@
 
     move-result-object v2
 
-    .line 88
+    .line 89
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v2, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 89
+    .line 90
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 90
+    .line 91
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -380,7 +393,7 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 91
+    .line 92
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
@@ -393,7 +406,7 @@
 
     goto :goto_1
 
-    .line 93
+    .line 94
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -415,7 +428,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 94
+    .line 95
     new-instance v1, Lokhttp3/Request$Builder;
 
     invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
@@ -432,7 +445,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 95
+    .line 96
     iget-object v2, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->okHttpClient:Lokhttp3/OkHttpClient;
 
     invoke-virtual {v2, v1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
@@ -481,7 +494,7 @@
 .method private final saveBitmap(Landroid/graphics/Bitmap;Ljava/lang/String;)V
     .locals 3
 
-    .line 116
+    .line 117
     invoke-static {}, Lcom/changyow/iconsole4th/App;->getAppContext()Landroid/content/Context;
 
     move-result-object v0
@@ -490,18 +503,18 @@
 
     move-result-object v0
 
-    .line 117
+    .line 118
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v0, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 120
+    .line 121
     :try_start_0
     new-instance p2, Ljava/io/FileOutputStream;
 
     invoke-direct {p2, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 121
+    .line 122
     sget-object v0, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v1, 0x64
@@ -512,7 +525,7 @@
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 122
+    .line 123
     invoke-virtual {p2}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -522,7 +535,7 @@
     :catch_0
     move-exception p1
 
-    .line 124
+    .line 125
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -586,7 +599,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string/jumbo v0, "supportEmail"
+    const-string v0, "supportEmail"
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -712,7 +725,7 @@
 .method public final getClientid()I
     .locals 1
 
-    .line 30
+    .line 31
     iget v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->clientid:I
 
     return v0
@@ -721,7 +734,7 @@
 .method public final getCompanyName()Ljava/lang/String;
     .locals 1
 
-    .line 40
+    .line 41
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->companyName:Ljava/lang/String;
 
     return-object v0
@@ -734,7 +747,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 138
+    .line 139
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/EnabledMode;->getBgImage()Ljava/lang/String;
 
     move-result-object v0
@@ -745,7 +758,7 @@
 
     return-object p1
 
-    .line 140
+    .line 141
     :cond_0
     sget-object v0, Lcom/changyow/iconsole4th/models/BrandingInfo;->Companion:Lcom/changyow/iconsole4th/models/BrandingInfo$Companion;
 
@@ -767,7 +780,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 129
+    .line 130
     sget-object v0, Lcom/changyow/iconsole4th/models/BrandingInfo$WhenMappings;->$EnumSwitchMapping$0:[I
 
     invoke-virtual {p1}, Lcom/changyow/iconsole4th/models/ImageDownloaded;->ordinal()I
@@ -796,7 +809,7 @@
 
     goto :goto_0
 
-    .line 133
+    .line 134
     :cond_0
     new-instance p1, Lkotlin/NoWhenBranchMatchedException;
 
@@ -804,7 +817,7 @@
 
     throw p1
 
-    .line 132
+    .line 133
     :cond_1
     sget-object p1, Lcom/changyow/iconsole4th/models/BrandingInfo;->Companion:Lcom/changyow/iconsole4th/models/BrandingInfo$Companion;
 
@@ -829,7 +842,7 @@
 
     goto :goto_0
 
-    .line 131
+    .line 132
     :cond_3
     sget-object p1, Lcom/changyow/iconsole4th/models/BrandingInfo;->Companion:Lcom/changyow/iconsole4th/models/BrandingInfo$Companion;
 
@@ -854,7 +867,7 @@
 
     goto :goto_0
 
-    .line 130
+    .line 131
     :cond_5
     sget-object p1, Lcom/changyow/iconsole4th/models/BrandingInfo;->Companion:Lcom/changyow/iconsole4th/models/BrandingInfo$Companion;
 
@@ -871,7 +884,7 @@
 .method public final getLastUpdated()I
     .locals 1
 
-    .line 34
+    .line 35
     iget v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->lastUpdated:I
 
     return v0
@@ -880,7 +893,7 @@
 .method public final getLogo()Ljava/lang/String;
     .locals 1
 
-    .line 31
+    .line 32
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->logo:Ljava/lang/String;
 
     return-object v0
@@ -889,7 +902,7 @@
 .method public final getStyle()Lcom/changyow/iconsole4th/models/Style;
     .locals 1
 
-    .line 42
+    .line 43
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->style:Lcom/changyow/iconsole4th/models/Style;
 
     return-object v0
@@ -898,7 +911,7 @@
 .method public final getSupportEmail()Ljava/lang/String;
     .locals 1
 
-    .line 37
+    .line 38
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->supportEmail:Ljava/lang/String;
 
     return-object v0
@@ -969,19 +982,19 @@
 .method public final prepareImages()V
     .locals 4
 
-    .line 66
+    .line 67
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->logo:Ljava/lang/String;
 
     sget-object v1, Lcom/changyow/iconsole4th/models/ImageDownloaded;->LOGO:Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
     invoke-direct {p0, v0, v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->fetchImage(Ljava/lang/String;Lcom/changyow/iconsole4th/models/ImageDownloaded;)V
 
-    .line 67
+    .line 68
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo;->style:Lcom/changyow/iconsole4th/models/Style;
 
     if-eqz v0, :cond_3
 
-    .line 68
+    .line 69
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getLaunchScreen()Lcom/changyow/iconsole4th/models/LaunchScreen;
 
     move-result-object v1
@@ -998,7 +1011,7 @@
 
     invoke-direct {p0, v1, v2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->fetchImage(Ljava/lang/String;Lcom/changyow/iconsole4th/models/ImageDownloaded;)V
 
-    .line 69
+    .line 70
     :cond_0
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getMainMyTraining()Lcom/changyow/iconsole4th/models/MainMyTraining;
 
@@ -1016,7 +1029,7 @@
 
     invoke-direct {p0, v1, v2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->fetchImage(Ljava/lang/String;Lcom/changyow/iconsole4th/models/ImageDownloaded;)V
 
-    .line 70
+    .line 71
     :cond_1
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/Style;->getMainGetStarted()Lcom/changyow/iconsole4th/models/MainGetStarted;
 
@@ -1024,7 +1037,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 71
+    .line 72
     invoke-virtual {v0}, Lcom/changyow/iconsole4th/models/MainGetStarted;->getEnabledModes()Ljava/util/List;
 
     move-result-object v0
@@ -1033,7 +1046,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 205
+    .line 206
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1052,7 +1065,7 @@
 
     check-cast v1, Lcom/changyow/iconsole4th/models/EnabledMode;
 
-    .line 72
+    .line 73
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1085,14 +1098,14 @@
 
     invoke-static {v3, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 73
+    .line 74
     invoke-virtual {v1}, Lcom/changyow/iconsole4th/models/EnabledMode;->getBgImage()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 74
+    .line 75
     sget-object v2, Lcom/changyow/iconsole4th/models/ImageDownloaded;->MainGetStarted:Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
     invoke-direct {p0, v1, v2}, Lcom/changyow/iconsole4th/models/BrandingInfo;->fetchImage(Ljava/lang/String;Lcom/changyow/iconsole4th/models/ImageDownloaded;)V
@@ -1106,7 +1119,7 @@
 .method public final toJson()Ljava/lang/String;
     .locals 3
 
-    .line 46
+    .line 47
     invoke-static {}, Lcom/changyow/iconsole4th/activity/retrainer/EGravityProfliePackKt;->getSharedKlaxonInstance()Lcom/beust/klaxon/Klaxon;
 
     move-result-object v0

@@ -405,6 +405,10 @@
     .line 144
     invoke-static {v0}, Lkotlin/jvm/internal/InlineMarker;->mark(I)V
 
+    move-object v0, p1
+
+    check-cast v0, Lkotlin/coroutines/Continuation;
+
     .line 145
     new-instance v0, Lkotlin/coroutines/SafeContinuation;
 

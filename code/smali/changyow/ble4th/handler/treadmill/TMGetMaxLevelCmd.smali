@@ -191,14 +191,18 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, p2}, Lchangyow/ble4th/WorkoutStatus;->setMinSpeed(I)V
+    int-to-double v2, p2
+
+    invoke-virtual {v1, v2, v3}, Lchangyow/ble4th/WorkoutStatus;->setMinSpeed(D)V
 
     .line 43
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p2
 
-    invoke-virtual {p2, v0}, Lchangyow/ble4th/WorkoutStatus;->setMaxSpeed(I)V
+    int-to-double v0, v0
+
+    invoke-virtual {p2, v0, v1}, Lchangyow/ble4th/WorkoutStatus;->setMaxSpeed(D)V
 
     if-eqz p3, :cond_0
 

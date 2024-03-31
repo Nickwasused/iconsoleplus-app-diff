@@ -126,23 +126,23 @@
 
     const-string v2, "mime_type"
 
-    const-string/jumbo v3, "uri"
+    const-string v3, "uri"
 
-    const-string/jumbo v4, "stream_keys"
+    const-string v4, "stream_keys"
 
     const-string v5, "custom_cache_key"
 
     const-string v6, "data"
 
-    const-string/jumbo v7, "state"
+    const-string v7, "state"
 
-    const-string/jumbo v8, "start_time_ms"
+    const-string v8, "start_time_ms"
 
-    const-string/jumbo v9, "update_time_ms"
+    const-string v9, "update_time_ms"
 
     const-string v10, "content_length"
 
-    const-string/jumbo v11, "stop_reason"
+    const-string v11, "stop_reason"
 
     const-string v12, "failure_reason"
 
@@ -687,7 +687,7 @@
     .end annotation
 
     :try_start_0
-    const-string/jumbo v7, "start_time_ms ASC"
+    const-string v7, "start_time_ms ASC"
 
     .line 390
     iget-object v0, p0, Lcom/google/android/exoplayer2/offline/DefaultDownloadIndex;->databaseProvider:Lcom/google/android/exoplayer2/database/DatabaseProvider;
@@ -1090,7 +1090,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v1, "state"
+    const-string v1, "state"
 
     .line 429
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1169,7 +1169,7 @@
     return-object p0
 
     :cond_1
-    const-string/jumbo v0, "ss"
+    const-string v0, "ss"
 
     .line 379
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1183,7 +1183,7 @@
     return-object p0
 
     :cond_2
-    const-string/jumbo p0, "video/x-unknown"
+    const-string p0, "video/x-unknown"
 
     return-object p0
 .end method
@@ -1224,25 +1224,25 @@
     :cond_0
     const-string v4, "id"
 
-    const-string/jumbo v5, "title"
+    const-string v5, "title"
 
-    const-string/jumbo v6, "uri"
+    const-string v6, "uri"
 
-    const-string/jumbo v7, "stream_keys"
+    const-string v7, "stream_keys"
 
     const-string v8, "custom_cache_key"
 
     const-string v9, "data"
 
-    const-string/jumbo v10, "state"
+    const-string v10, "state"
 
-    const-string/jumbo v11, "start_time_ms"
+    const-string v11, "start_time_ms"
 
-    const-string/jumbo v12, "update_time_ms"
+    const-string v12, "update_time_ms"
 
     const-string v13, "content_length"
 
-    const-string/jumbo v14, "stop_reason"
+    const-string v14, "stop_reason"
 
     const-string v15, "failure_reason"
 
@@ -1383,7 +1383,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "uri"
+    const-string v3, "uri"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1396,7 +1396,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "stream_keys"
+    const-string v3, "stream_keys"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1425,7 +1425,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "state"
+    const-string v3, "state"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
@@ -1436,7 +1436,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "start_time_ms"
+    const-string v3, "start_time_ms"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
@@ -1447,7 +1447,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "update_time_ms"
+    const-string v3, "update_time_ms"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
@@ -1469,7 +1469,7 @@
 
     move-result-object v2
 
-    const-string/jumbo v3, "stop_reason"
+    const-string v3, "stop_reason"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
@@ -1770,7 +1770,7 @@
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    const-string/jumbo v1, "state"
+    const-string v1, "state"
 
     const/4 v2, 0x0
 
@@ -1791,7 +1791,7 @@
     .line 227
     iget-object v2, p0, Lcom/google/android/exoplayer2/offline/DefaultDownloadIndex;->tableName:Ljava/lang/String;
 
-    const-string/jumbo v3, "state = 2"
+    const-string v3, "state = 2"
 
     const/4 v4, 0x0
 
@@ -1829,7 +1829,7 @@
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    const-string/jumbo v1, "state"
+    const-string v1, "state"
 
     const/4 v2, 0x5
 
@@ -1897,7 +1897,7 @@
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    const-string/jumbo v1, "stop_reason"
+    const-string v1, "stop_reason"
 
     .line 254
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1954,7 +1954,7 @@
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    const-string/jumbo v1, "stop_reason"
+    const-string v1, "stop_reason"
 
     .line 267
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

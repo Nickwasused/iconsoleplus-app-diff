@@ -27,18 +27,20 @@
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000\t\n\u0000\n\u0002\u0008\u0003*\u0001\u0001\u0010\u0000\u001a\u000e\u0012\u0004\u0012\u0002H\u0002\u0012\u0004\u0012\u0002H\u00030\u0001\"\u0004\u0008\u0000\u0010\u0002\"\u0004\u0008\u0001\u0010\u0003H\n"
+        "\u0000\t\n\u0000\n\u0002\u0008\u0005*\u0001\u0001\u0010\u0000\u001a\u000e\u0012\u0004\u0012\u0002H\u0002\u0012\u0004\u0012\u0002H\u00030\u0001\"\u0004\u0008\u0000\u0010\u0002\"\u0004\u0008\u0001\u0010\u0003H\n\u00a2\u0006\u0004\u0008\u0004\u0010\u0005"
     }
     d2 = {
         "<anonymous>",
         "androidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1",
         "I",
-        "O"
+        "O",
+        "invoke",
+        "()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;"
     }
     k = 0x3
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30

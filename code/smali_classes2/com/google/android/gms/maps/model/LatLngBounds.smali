@@ -51,7 +51,7 @@
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    const-string/jumbo v0, "southwest must not be null."
+    const-string v0, "southwest must not be null."
 
     .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -102,7 +102,7 @@
 
     aput-object v2, v5, v1
 
-    const-string/jumbo v1, "southern latitude exceeds northern latitude (%s > %s)"
+    const-string v1, "southern latitude exceeds northern latitude (%s > %s)"
 
     .line 4
     invoke-static {v0, v1, v5}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
@@ -474,7 +474,7 @@
 
     iget-object v1, p0, Lcom/google/android/gms/maps/model/LatLngBounds;->southwest:Lcom/google/android/gms/maps/model/LatLng;
 
-    const-string/jumbo v2, "southwest"
+    const-string v2, "southwest"
 
     .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/Objects$ToStringHelper;->add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/Objects$ToStringHelper;

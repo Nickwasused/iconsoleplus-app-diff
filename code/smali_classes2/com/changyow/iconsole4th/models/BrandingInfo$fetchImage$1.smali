@@ -32,7 +32,7 @@
         "onResponse",
         "response",
         "Lokhttp3/Response;",
-        "icp4th-1.8.69_icpCnRelease"
+        "app_icpGlobalRelease"
     }
     k = 0x1
     mv = {
@@ -66,7 +66,7 @@
 
     iput-object p4, p0, Lcom/changyow/iconsole4th/models/BrandingInfo$fetchImage$1;->$tag:Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
-    .line 95
+    .line 96
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -87,7 +87,7 @@
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 100
+    .line 101
     invoke-virtual {p2}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result p1
@@ -100,7 +100,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 101
+    .line 102
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -117,7 +117,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 102
+    .line 103
     iget-object p2, p0, Lcom/changyow/iconsole4th/models/BrandingInfo$fetchImage$1;->$url:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/changyow/iconsole4th/models/BrandingInfo$fetchImage$1;->this$0:Lcom/changyow/iconsole4th/models/BrandingInfo;
@@ -126,7 +126,7 @@
 
     iget-object v2, p0, Lcom/changyow/iconsole4th/models/BrandingInfo$fetchImage$1;->$tag:Lcom/changyow/iconsole4th/models/ImageDownloaded;
 
-    .line 103
+    .line 104
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -145,10 +145,10 @@
 
     invoke-static {v3, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 104
+    .line 105
     invoke-static {v0, p1, v1}, Lcom/changyow/iconsole4th/models/BrandingInfo;->access$saveBitmap(Lcom/changyow/iconsole4th/models/BrandingInfo;Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
-    .line 105
+    .line 106
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1

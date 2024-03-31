@@ -34,7 +34,7 @@
 
     const/4 v1, -0x1
 
-    .line 2367
+    .line 2478
     invoke-direct {p0, v0, v1, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(III)V
 
     return-void
@@ -43,17 +43,17 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 2357
+    .line 2468
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(II)V
 
     const/4 p1, 0x0
 
-    .line 2350
+    .line 2461
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
     const p1, 0x800013
 
-    .line 2358
+    .line 2469
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->gravity:I
 
     return-void
@@ -62,15 +62,15 @@
 .method public constructor <init>(III)V
     .locals 0
 
-    .line 2362
+    .line 2473
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(II)V
 
     const/4 p1, 0x0
 
-    .line 2350
+    .line 2461
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
-    .line 2363
+    .line 2474
     iput p3, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->gravity:I
 
     return-void
@@ -79,12 +79,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 2353
+    .line 2464
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x0
 
-    .line 2350
+    .line 2461
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
     return-void
@@ -93,12 +93,12 @@
 .method public constructor <init>(Landroid/view/ViewGroup$LayoutParams;)V
     .locals 0
 
-    .line 2388
+    .line 2499
     invoke-direct {p0, p1}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 p1, 0x0
 
-    .line 2350
+    .line 2461
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
     return-void
@@ -107,15 +107,15 @@
 .method public constructor <init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
     .locals 1
 
-    .line 2381
+    .line 2492
     invoke-direct {p0, p1}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 v0, 0x0
 
-    .line 2350
+    .line 2461
     iput v0, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
-    .line 2384
+    .line 2495
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;->copyMarginsFromCompat(Landroid/view/ViewGroup$MarginLayoutParams;)V
 
     return-void
@@ -124,12 +124,12 @@
 .method public constructor <init>(Landroidx/appcompat/app/ActionBar$LayoutParams;)V
     .locals 0
 
-    .line 2377
+    .line 2488
     invoke-direct {p0, p1}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(Landroidx/appcompat/app/ActionBar$LayoutParams;)V
 
     const/4 p1, 0x0
 
-    .line 2350
+    .line 2461
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
     return-void
@@ -138,15 +138,15 @@
 .method public constructor <init>(Landroidx/appcompat/widget/Toolbar$LayoutParams;)V
     .locals 1
 
-    .line 2371
+    .line 2482
     invoke-direct {p0, p1}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(Landroidx/appcompat/app/ActionBar$LayoutParams;)V
 
     const/4 v0, 0x0
 
-    .line 2350
+    .line 2461
     iput v0, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
-    .line 2373
+    .line 2484
     iget p1, p1, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
 
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->mViewType:I
@@ -159,22 +159,22 @@
 .method copyMarginsFromCompat(Landroid/view/ViewGroup$MarginLayoutParams;)V
     .locals 1
 
-    .line 2392
+    .line 2503
     iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
     iput v0, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->leftMargin:I
 
-    .line 2393
+    .line 2504
     iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     iput v0, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->topMargin:I
 
-    .line 2394
+    .line 2505
     iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
     iput v0, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->rightMargin:I
 
-    .line 2395
+    .line 2506
     iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     iput p1, p0, Landroidx/appcompat/widget/Toolbar$LayoutParams;->bottomMargin:I

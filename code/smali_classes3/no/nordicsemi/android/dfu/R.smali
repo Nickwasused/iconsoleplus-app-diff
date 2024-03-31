@@ -12,7 +12,6 @@
         Lno/nordicsemi/android/dfu/R$id;,
         Lno/nordicsemi/android/dfu/R$integer;,
         Lno/nordicsemi/android/dfu/R$layout;,
-        Lno/nordicsemi/android/dfu/R$menu;,
         Lno/nordicsemi/android/dfu/R$string;,
         Lno/nordicsemi/android/dfu/R$style;,
         Lno/nordicsemi/android/dfu/R$styleable;

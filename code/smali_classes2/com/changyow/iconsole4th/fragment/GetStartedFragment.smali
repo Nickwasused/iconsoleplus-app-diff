@@ -307,6 +307,45 @@
     return-void
 .end method
 
+.method private showNerverAskAgainForBtPermissionsDialog()V
+    .locals 3
+
+    .line 479
+    new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
+
+    iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
+
+    invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+
+    const-string v1, "Needs Blutooth permission to scan Bluetooth devices."
+
+    .line 480
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;
+
+    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
+
+    const v2, 0x7f120283
+
+    .line 481
+    invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    .line 491
+    invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
+
+    move-result-object v0
+
+    .line 492
+    invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
+
+    return-void
+.end method
+
 
 # virtual methods
 .method protected initCustomTheme()V
@@ -616,7 +655,7 @@
     goto/16 :goto_3
 
     :sswitch_0
-    const-string/jumbo v6, "smart_exercise"
+    const-string v6, "smart_exercise"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -744,7 +783,7 @@
     goto :goto_3
 
     :sswitch_8
-    const-string/jumbo v6, "video_on_demand"
+    const-string v6, "video_on_demand"
 
     invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -997,7 +1036,7 @@
     invoke-virtual {p2, v0}, Landroid/widget/RelativeLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
-    const-string/jumbo p1, "title"
+    const-string p1, "title"
 
     .line 230
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
@@ -1065,10 +1104,10 @@
     return-void
 .end method
 
-.method synthetic lambda$showNeverAskAgainForBluetooth$14$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
+.method synthetic lambda$showNerverAskAgainForBtPermissionsDialog$14$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 471
+    .line 482
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.settings.APPLICATION_DETAILS_SETTINGS"
@@ -1077,20 +1116,20 @@
 
     const/high16 p2, 0x10000000
 
-    .line 472
+    .line 483
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x40000000    # 2.0f
 
-    .line 473
+    .line 484
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x800000
 
-    .line 474
+    .line 485
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 475
+    .line 486
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p2
@@ -1107,10 +1146,10 @@
 
     move-result-object p2
 
-    .line 476
+    .line 487
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 477
+    .line 488
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1119,7 +1158,7 @@
 .method synthetic lambda$showNeverAskAgainForLocation$15$com-changyow-iconsole4th-fragment-GetStartedFragment(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 490
+    .line 507
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.settings.APPLICATION_DETAILS_SETTINGS"
@@ -1128,20 +1167,20 @@
 
     const/high16 p2, 0x10000000
 
-    .line 491
+    .line 508
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x40000000    # 2.0f
 
-    .line 492
+    .line 509
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 p2, 0x800000
 
-    .line 493
+    .line 510
     invoke-virtual {p1, p2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 494
+    .line 511
     invoke-virtual {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p2
@@ -1158,10 +1197,10 @@
 
     move-result-object p2
 
-    .line 495
+    .line 512
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 496
+    .line 513
     invoke-virtual {p0, p1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -1220,7 +1259,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a03ba
+    const p2, 0x7f0a03b4
 
     .line 108
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1231,7 +1270,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlEGravity:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c3
+    const p2, 0x7f0a03bd
 
     .line 109
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1242,7 +1281,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlSmartExercise:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c4
+    const p2, 0x7f0a03be
 
     .line 110
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1253,7 +1292,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlStreaming:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b7
+    const p2, 0x7f0a03b1
 
     .line 111
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1264,7 +1303,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlAiTraining:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bf
+    const p2, 0x7f0a03b9
 
     .line 112
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1275,7 +1314,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlPrograms:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03b8
+    const p2, 0x7f0a03b2
 
     .line 113
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1286,7 +1325,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlConstantPower:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c1
+    const p2, 0x7f0a03bb
 
     .line 114
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1297,7 +1336,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlRoute:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03bb
+    const p2, 0x7f0a03b5
 
     .line 115
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1308,7 +1347,7 @@
 
     iput-object p2, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->rlInterval:Landroid/widget/RelativeLayout;
 
-    const p2, 0x7f0a03c0
+    const p2, 0x7f0a03ba
 
     .line 116
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1473,10 +1512,10 @@
         }
     .end annotation
 
-    .line 506
+    .line 523
     invoke-super {p0, p1, p2, p3}, Lcom/changyow/iconsole4th/fragment/BaseFragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
-    .line 508
+    .line 525
     invoke-static {p0, p1, p3}, Lcom/changyow/iconsole4th/fragment/GetStartedFragmentPermissionsDispatcher;->onRequestPermissionsResult(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;I[I)V
 
     return-void
@@ -1506,14 +1545,16 @@
 
     if-eqz v0, :cond_1
 
-    const-string v0, "cn"
+    const-string v0, "global"
 
     .line 271
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "cn"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -1536,14 +1577,16 @@
 .method public permissionForRouteAndroid12()V
     .locals 2
 
-    const-string v0, "cn"
+    const-string v0, "global"
 
     .line 281
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "cn"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2098,7 +2141,7 @@
 
     invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12036a
+    const v1, 0x7f120372
 
     .line 341
     invoke-virtual {p0, v1}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->getString(I)Ljava/lang/String;
@@ -2109,7 +2152,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12027b
+    const v1, 0x7f120283
 
     sget-object v2, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda8;
 
@@ -2282,7 +2325,7 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda9;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda9;
 
-    const v2, 0x7f12027b
+    const v2, 0x7f120283
 
     .line 459
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -2319,7 +2362,7 @@
 
     sget-object v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda10;->INSTANCE:Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda10;
 
-    const v2, 0x7f12027b
+    const v2, 0x7f120283
 
     .line 448
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -2338,40 +2381,28 @@
 .end method
 
 .method showNeverAskAgainForBluetooth()V
-    .locals 3
+    .locals 0
+
+    .line 474
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->showNerverAskAgainForBtPermissionsDialog()V
+
+    return-void
+.end method
+
+.method showNeverAskAgainForBluetoothConnect()V
+    .locals 0
+
+    .line 498
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->showNerverAskAgainForBtPermissionsDialog()V
+
+    return-void
+.end method
+
+.method showNeverAskAgainForBluetoothScan()V
+    .locals 0
 
     .line 468
-    new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
-
-    iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
-
-    invoke-direct {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
-
-    const-string v1, "Needs Blutooth permission to scan Bluetooth devices."
-
-    .line 469
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;
-
-    invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda0;-><init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
-
-    const v2, 0x7f12027b
-
-    .line 470
-    invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
-
-    move-result-object v0
-
-    .line 480
-    invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
-
-    move-result-object v0
-
-    .line 481
-    invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
+    invoke-direct {p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->showNerverAskAgainForBtPermissionsDialog()V
 
     return-void
 .end method
@@ -2379,7 +2410,7 @@
 .method showNeverAskAgainForLocation()V
     .locals 3
 
-    .line 487
+    .line 504
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/changyow/iconsole4th/fragment/GetStartedFragment;->mContext:Landroid/app/Activity;
@@ -2388,7 +2419,7 @@
 
     const-string v1, "Needs LOCATION permission to scan Bluetooth devices."
 
-    .line 488
+    .line 505
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2397,19 +2428,19 @@
 
     invoke-direct {v1, p0}, Lcom/changyow/iconsole4th/fragment/GetStartedFragment$$ExternalSyntheticLambda7;-><init>(Lcom/changyow/iconsole4th/fragment/GetStartedFragment;)V
 
-    const v2, 0x7f12027b
+    const v2, 0x7f120283
 
-    .line 489
+    .line 506
     invoke-virtual {v0, v2, v1}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 499
+    .line 516
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v0
 
-    .line 500
+    .line 517
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog;->show()V
 
     return-void

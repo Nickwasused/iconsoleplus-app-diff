@@ -61,7 +61,7 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v1, "status"
+    const-string v1, "status"
 
     const/4 v2, 0x3
 
@@ -72,7 +72,7 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string/jumbo v1, "transferBytes"
+    const-string v1, "transferBytes"
 
     const/4 v2, 0x4
 

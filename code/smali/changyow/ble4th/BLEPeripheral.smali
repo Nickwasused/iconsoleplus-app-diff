@@ -2,6 +2,10 @@
 .super Lchangyow/ble4th/BasePeripheral;
 .source "BLEPeripheral.java"
 
+# interfaces
+.implements Lchangyow/ble4th/operator/BaseOperator;
+.implements Lchangyow/ble4th/operator/TreadmillD5Operator;
+
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
@@ -89,7 +93,7 @@
 
     const-string v0, "49535343-FE7D-4AE5-8FA9-9FAFD205E455"
 
-    .line 63
+    .line 65
     invoke-static {v0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
 
     move-result-object v0
@@ -98,7 +102,7 @@
 
     const-string v0, "49535343-8841-43F4-A8D4-ECBE34729BB3"
 
-    .line 64
+    .line 66
     invoke-static {v0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
 
     move-result-object v0
@@ -107,7 +111,7 @@
 
     const-string v0, "0bf669f3-45f2-11e7-9598-0800200c9a66"
 
-    .line 65
+    .line 67
     invoke-static {v0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
 
     move-result-object v0
@@ -116,7 +120,7 @@
 
     const-string v0, "49535343-1E4D-4BD9-BA61-23C647249616"
 
-    .line 66
+    .line 68
     invoke-static {v0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
 
     move-result-object v0
@@ -129,67 +133,67 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 100
+    .line 102
     invoke-direct {p0, p1}, Lchangyow/ble4th/BasePeripheral;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x0
 
-    .line 68
+    .line 70
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mDeviceInformationService:Landroid/bluetooth/BluetoothGattService;
 
-    .line 69
+    .line 71
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 70
+    .line 72
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 71
+    .line 73
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionString:Ljava/lang/String;
 
-    .line 72
+    .line 74
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionString:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 83
+    .line 85
     iput v0, p0, Lchangyow/ble4th/BLEPeripheral;->iFoundService:I
 
-    .line 88
+    .line 90
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 89
+    .line 91
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 90
+    .line 92
     new-instance v1, Lchangyow/ble4th/provider/IConsoleCmdProvider;
 
     invoke-direct {v1}, Lchangyow/ble4th/provider/IConsoleCmdProvider;-><init>()V
 
     iput-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
-    .line 91
+    .line 93
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
-    .line 92
+    .line 94
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
-    .line 93
+    .line 95
     iput-boolean v0, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 94
+    .line 96
     iput-boolean v0, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 96
+    .line 98
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mBluetoothGatt:Landroid/bluetooth/BluetoothGatt;
 
-    .line 416
+    .line 418
     new-instance p1, Lchangyow/ble4th/BLEPeripheral$1;
 
     invoke-direct {p1, p0}, Lchangyow/ble4th/BLEPeripheral$1;-><init>(Lchangyow/ble4th/BLEPeripheral;)V
 
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mSendCmdRunnable:Ljava/lang/Runnable;
 
-    .line 101
+    .line 103
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->reset()V
 
     return-void
@@ -198,67 +202,67 @@
 .method public constructor <init>(Landroid/content/Context;Lno/nordicsemi/android/support/v18/scanner/ScanResult;)V
     .locals 1
 
-    .line 106
+    .line 108
     invoke-direct {p0, p1, p2}, Lchangyow/ble4th/BasePeripheral;-><init>(Landroid/content/Context;Lno/nordicsemi/android/support/v18/scanner/ScanResult;)V
 
     const/4 p1, 0x0
 
-    .line 68
+    .line 70
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mDeviceInformationService:Landroid/bluetooth/BluetoothGattService;
 
-    .line 69
+    .line 71
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 70
+    .line 72
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 71
+    .line 73
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionString:Ljava/lang/String;
 
-    .line 72
+    .line 74
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionString:Ljava/lang/String;
 
     const/4 p2, 0x0
 
-    .line 83
+    .line 85
     iput p2, p0, Lchangyow/ble4th/BLEPeripheral;->iFoundService:I
 
-    .line 88
+    .line 90
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 89
+    .line 91
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 90
+    .line 92
     new-instance v0, Lchangyow/ble4th/provider/IConsoleCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/IConsoleCmdProvider;-><init>()V
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
-    .line 91
+    .line 93
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
-    .line 92
+    .line 94
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
-    .line 93
+    .line 95
     iput-boolean p2, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 94
+    .line 96
     iput-boolean p2, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 96
+    .line 98
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mBluetoothGatt:Landroid/bluetooth/BluetoothGatt;
 
-    .line 416
+    .line 418
     new-instance p1, Lchangyow/ble4th/BLEPeripheral$1;
 
     invoke-direct {p1, p0}, Lchangyow/ble4th/BLEPeripheral$1;-><init>(Lchangyow/ble4th/BLEPeripheral;)V
 
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mSendCmdRunnable:Ljava/lang/Runnable;
 
-    .line 107
+    .line 109
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->reset()V
 
     return-void
@@ -267,7 +271,7 @@
 .method static synthetic access$1000(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->enableNotifications(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object p0
@@ -278,7 +282,7 @@
 .method static synthetic access$102(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGatt;)Landroid/bluetooth/BluetoothGatt;
     .locals 0
 
-    .line 61
+    .line 63
     iput-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mBluetoothGatt:Landroid/bluetooth/BluetoothGatt;
 
     return-object p1
@@ -287,7 +291,7 @@
 .method static synthetic access$1100(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->setNotificationCallback(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object p0
@@ -298,7 +302,7 @@
 .method static synthetic access$1200(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->enableNotifications(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object p0
@@ -309,7 +313,7 @@
 .method static synthetic access$1300(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->readCharacteristic(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
 
     move-result-object p0
@@ -320,7 +324,7 @@
 .method static synthetic access$1400(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->readCharacteristic(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
 
     move-result-object p0
@@ -331,7 +335,7 @@
 .method static synthetic access$200(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGatt;)Z
     .locals 0
 
-    .line 61
+    .line 63
     invoke-direct {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->checkServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
 
     move-result p0
@@ -342,7 +346,7 @@
 .method static synthetic access$300(Lchangyow/ble4th/BLEPeripheral;I)Lno/nordicsemi/android/ble/ConnectionPriorityRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->requestConnectionPriority(I)Lno/nordicsemi/android/ble/ConnectionPriorityRequest;
 
     move-result-object p0
@@ -353,7 +357,7 @@
 .method static synthetic access$400(Lchangyow/ble4th/BLEPeripheral;I)Lno/nordicsemi/android/ble/MtuRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->requestMtu(I)Lno/nordicsemi/android/ble/MtuRequest;
 
     move-result-object p0
@@ -364,7 +368,7 @@
 .method static synthetic access$500(Lchangyow/ble4th/BLEPeripheral;)Lno/nordicsemi/android/ble/RequestQueue;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->beginAtomicRequestQueue()Lno/nordicsemi/android/ble/RequestQueue;
 
     move-result-object p0
@@ -375,7 +379,7 @@
 .method static synthetic access$600(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->setNotificationCallback(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object p0
@@ -386,7 +390,7 @@
 .method static synthetic access$700(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->enableNotifications(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/WriteRequest;
 
     move-result-object p0
@@ -397,7 +401,7 @@
 .method static synthetic access$800(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->readCharacteristic(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ReadRequest;
 
     move-result-object p0
@@ -408,7 +412,7 @@
 .method static synthetic access$900(Lchangyow/ble4th/BLEPeripheral;Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
     .locals 0
 
-    .line 61
+    .line 63
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->setNotificationCallback(Landroid/bluetooth/BluetoothGattCharacteristic;)Lno/nordicsemi/android/ble/ValueChangedCallback;
 
     move-result-object p0
@@ -419,12 +423,12 @@
 .method private checkServiceSupported(Landroid/bluetooth/BluetoothGatt;)Z
     .locals 14
 
-    .line 246
+    .line 248
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGatt;->getServices()Ljava/util/List;
 
     move-result-object p1
 
-    .line 247
+    .line 249
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -448,12 +452,12 @@
 
     check-cast v2, Landroid/bluetooth/BluetoothGattService;
 
-    .line 249
+    .line 251
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getUuid()Ljava/util/UUID;
 
     move-result-object v4
 
-    .line 250
+    .line 252
     invoke-virtual {v4}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -462,7 +466,7 @@
 
     move-result-object v5
 
-    .line 252
+    .line 254
     sget-object v6, Lchangyow/ble4th/BLEPeripheral;->mServiceUuid:Ljava/util/UUID;
 
     invoke-virtual {v4, v6}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
@@ -477,12 +481,12 @@
 
     if-eqz v4, :cond_3
 
-    .line 254
+    .line 256
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 256
+    .line 258
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -501,17 +505,17 @@
 
     check-cast v4, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 258
+    .line 260
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v5
 
-    .line 260
+    .line 262
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties()I
 
     move-result v9
 
-    .line 262
+    .line 264
     sget-object v10, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristicUuid:Ljava/util/UUID;
 
     invoke-virtual {v5, v10}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
@@ -526,7 +530,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 264
+    .line 266
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v9
@@ -535,7 +539,7 @@
 
     invoke-static {v8, v7, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 265
+    .line 267
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     :goto_1
@@ -543,7 +547,7 @@
 
     goto :goto_0
 
-    .line 269
+    .line 271
     :cond_2
     sget-object v10, Lchangyow/ble4th/BLEPeripheral;->mWriteCharacteristicUuid:Ljava/util/UUID;
 
@@ -559,7 +563,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 271
+    .line 273
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v9
@@ -568,12 +572,12 @@
 
     invoke-static {v8, v6, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 272
+    .line 274
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mWriteCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_1
 
-    .line 283
+    .line 285
     :cond_3
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -616,13 +620,13 @@
 
     if-eqz v4, :cond_8
 
-    .line 285
+    .line 287
     :cond_5
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 287
+    .line 289
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -641,12 +645,12 @@
 
     check-cast v4, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 289
+    .line 291
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v5
 
-    .line 290
+    .line 292
     invoke-virtual {v5}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -655,12 +659,12 @@
 
     move-result-object v5
 
-    .line 292
+    .line 294
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties()I
 
     move-result v11
 
-    .line 294
+    .line 296
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v12
@@ -685,7 +689,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 296
+    .line 298
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v11
@@ -694,12 +698,12 @@
 
     invoke-static {v8, v7, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 297
+    .line 299
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_3
 
-    .line 300
+    .line 302
     :cond_7
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -721,7 +725,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 302
+    .line 304
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v11
@@ -730,7 +734,7 @@
 
     invoke-static {v8, v6, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 303
+    .line 305
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mWriteCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     :goto_3
@@ -738,7 +742,7 @@
 
     goto :goto_2
 
-    .line 308
+    .line 310
     :cond_8
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -760,15 +764,15 @@
 
     const v4, 0xe560
 
-    .line 310
+    .line 312
     iput v4, p0, Lchangyow/ble4th/BLEPeripheral;->iFoundService:I
 
-    .line 311
+    .line 313
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 313
+    .line 315
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -787,12 +791,12 @@
 
     check-cast v4, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 315
+    .line 317
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v5
 
-    .line 316
+    .line 318
     invoke-virtual {v5}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -801,10 +805,10 @@
 
     move-result-object v5
 
-    .line 318
+    .line 320
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties()I
 
-    .line 320
+    .line 322
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v11
@@ -825,7 +829,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 322
+    .line 324
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v11
@@ -834,7 +838,7 @@
 
     invoke-static {v8, v7, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 323
+    .line 325
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     :goto_5
@@ -842,7 +846,7 @@
 
     goto :goto_4
 
-    .line 326
+    .line 328
     :cond_a
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -864,7 +868,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 328
+    .line 330
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v11
@@ -873,12 +877,12 @@
 
     invoke-static {v8, v6, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 329
+    .line 331
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mWriteCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_5
 
-    .line 334
+    .line 336
     :cond_b
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -892,12 +896,12 @@
 
     if-eqz v4, :cond_d
 
-    .line 336
+    .line 338
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 338
+    .line 340
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -916,22 +920,22 @@
 
     check-cast v4, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 340
+    .line 342
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v5
 
-    .line 341
+    .line 343
     invoke-virtual {v5}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 343
+    .line 345
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties()I
 
     move-result v6
 
-    .line 345
+    .line 347
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v5
@@ -950,7 +954,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 347
+    .line 349
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v6
@@ -961,12 +965,12 @@
 
     invoke-static {v8, v6, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 348
+    .line 350
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_6
 
-    .line 352
+    .line 354
     :cond_d
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -980,12 +984,12 @@
 
     if-eqz v4, :cond_f
 
-    .line 354
+    .line 356
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 356
+    .line 358
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1004,22 +1008,22 @@
 
     check-cast v4, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 358
+    .line 360
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v5
 
-    .line 359
+    .line 361
     invoke-virtual {v5}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 361
+    .line 363
     invoke-virtual {v4}, Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties()I
 
     move-result v6
 
-    .line 363
+    .line 365
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v5
@@ -1038,7 +1042,7 @@
 
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 365
+    .line 367
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getName()Ljava/lang/String;
 
     move-result-object v6
@@ -1049,17 +1053,17 @@
 
     invoke-static {v8, v6, v5}, Lappdevice/adble/utility/ADLog;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 366
+    .line 368
     iget-object v5, p0, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     if-nez v5, :cond_e
 
-    .line 367
+    .line 369
     iput-object v4, p0, Lchangyow/ble4th/BLEPeripheral;->mBatteryLevelCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_7
 
-    .line 371
+    .line 373
     :cond_f
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -1073,15 +1077,15 @@
 
     if-eqz v3, :cond_0
 
-    .line 373
+    .line 375
     iput-object v2, p0, Lchangyow/ble4th/BLEPeripheral;->mDeviceInformationService:Landroid/bluetooth/BluetoothGattService;
 
-    .line 374
+    .line 376
     invoke-virtual {v2}, Landroid/bluetooth/BluetoothGattService;->getCharacteristics()Ljava/util/List;
 
     move-result-object v2
 
-    .line 376
+    .line 378
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1100,17 +1104,17 @@
 
     check-cast v3, Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 378
+    .line 380
     invoke-virtual {v3}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v4
 
-    .line 379
+    .line 381
     invoke-virtual {v4}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 381
+    .line 383
     invoke-virtual {v4}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v5
@@ -1123,10 +1127,10 @@
 
     if-eqz v5, :cond_11
 
-    .line 382
+    .line 384
     iput-object v3, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
-    .line 384
+    .line 386
     :cond_11
     invoke-virtual {v4}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -1140,7 +1144,7 @@
 
     if-eqz v4, :cond_10
 
-    .line 385
+    .line 387
     iput-object v3, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionChar:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     goto :goto_8
@@ -1150,22 +1154,22 @@
 
     if-ne v1, p1, :cond_14
 
-    .line 392
+    .line 394
     iput-boolean v3, p0, Lchangyow/ble4th/BLEPeripheral;->bInitialized:Z
 
-    .line 393
+    .line 395
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lchangyow/ble4th/WorkoutStatus;->resetWorkout()V
 
-    .line 395
+    .line 397
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     if-eqz p1, :cond_13
 
-    .line 396
+    .line 398
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     invoke-interface {p1}, Lchangyow/ble4th/BLEPeripheralListener;->peripheralInitialized()V
@@ -1173,18 +1177,18 @@
     :cond_13
     return v3
 
-    .line 400
+    .line 402
     :cond_14
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mHrmCharacteristic:Landroid/bluetooth/BluetoothGattCharacteristic;
 
     if-eqz p1, :cond_16
 
-    .line 402
+    .line 404
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     if-eqz p1, :cond_15
 
-    .line 403
+    .line 405
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     invoke-interface {p1}, Lchangyow/ble4th/BLEPeripheralListener;->peripheralInitialized()V
@@ -1201,7 +1205,7 @@
 .method public ack()V
     .locals 2
 
-    .line 473
+    .line 475
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1228,7 +1232,7 @@
 
     return-void
 
-    .line 475
+    .line 477
     :cond_0
     iget v0, p0, Lchangyow/ble4th/BLEPeripheral;->iFoundService:I
 
@@ -1236,20 +1240,20 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 476
+    .line 478
     new-instance v0, Lchangyow/ble4th/handler/step_counter/SCAckCmd;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/step_counter/SCAckCmd;-><init>()V
 
     goto :goto_0
 
-    .line 480
+    .line 482
     :cond_1
     new-instance v0, Lchangyow/ble4th/handler/AckCmd;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/AckCmd;-><init>()V
 
-    .line 481
+    .line 483
     :goto_0
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
@@ -1273,7 +1277,7 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 782
+    .line 815
     invoke-static {p2}, Lappdevice/adble/utility/ADConverter;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v1
@@ -1290,12 +1294,12 @@
 
     if-eqz p2, :cond_2
 
-    .line 784
+    .line 817
     array-length v0, p2
 
     if-lez v0, :cond_2
 
-    .line 786
+    .line 819
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v0
@@ -1304,26 +1308,26 @@
 
     move-result-object v0
 
-    .line 787
+    .line 820
     invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
-    .line 789
+    .line 822
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v0
 
-    .line 790
+    .line 823
     invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
-    .line 792
+    .line 825
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v0
@@ -1348,7 +1352,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 793
+    .line 826
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object p1
@@ -1369,7 +1373,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 795
+    .line 828
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1401,7 +1405,7 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 730
+    .line 763
     invoke-static {p2}, Lappdevice/adble/utility/ADConverter;->byteArrayToHexString([B)Ljava/lang/String;
 
     move-result-object v2
@@ -1416,7 +1420,7 @@
 
     invoke-static {v2, v4, v1}, Lappdevice/adble/utility/ADLog;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 732
+    .line 765
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
     move-result-object v1
@@ -1425,7 +1429,7 @@
 
     move-result-object v1
 
-    .line 733
+    .line 766
     invoke-virtual {v1}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1434,12 +1438,12 @@
 
     move-result-object v2
 
-    .line 734
+    .line 767
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v4
 
-    .line 735
+    .line 768
     invoke-virtual {v4}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -1448,7 +1452,7 @@
 
     move-result-object v5
 
-    .line 737
+    .line 770
     sget-object v6, Lchangyow/ble4th/BLEPeripheral;->mServiceUuid:Ljava/util/UUID;
 
     invoke-virtual {v1, v6}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
@@ -1465,17 +1469,17 @@
 
     if-eqz v7, :cond_2
 
-    .line 739
+    .line 772
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 740
+    .line 773
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 742
+    .line 775
     :cond_2
     invoke-virtual {v1, v6}, Ljava/util/UUID;->equals(Ljava/lang/Object;)Z
 
@@ -1491,17 +1495,17 @@
 
     if-eqz v1, :cond_3
 
-    .line 744
+    .line 777
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 745
+    .line 778
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processReadData()V
 
     goto/16 :goto_0
 
-    .line 747
+    .line 780
     :cond_3
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1521,7 +1525,7 @@
 
     if-nez v1, :cond_5
 
-    .line 748
+    .line 781
     :cond_4
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1537,7 +1541,7 @@
 
     if-eqz v1, :cond_6
 
-    .line 750
+    .line 783
     :cond_5
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -1553,17 +1557,17 @@
 
     if-eqz p1, :cond_9
 
-    .line 752
+    .line 785
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 753
+    .line 786
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 756
+    .line 789
     :cond_6
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -1583,17 +1587,17 @@
 
     if-eqz v1, :cond_7
 
-    .line 758
+    .line 791
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p1, p2}, Lokio/Buffer;->write([B)Lokio/Buffer;
 
-    .line 759
+    .line 792
     invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->processNotifyData()V
 
     goto/16 :goto_0
 
-    .line 761
+    .line 794
     :cond_7
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
@@ -1619,7 +1623,7 @@
 
     if-eqz v1, :cond_8
 
-    .line 762
+    .line 795
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object v1
@@ -1640,19 +1644,19 @@
 
     if-eqz v1, :cond_8
 
-    .line 764
+    .line 797
     aget-byte p1, p2, v0
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 765
+    .line 798
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p2
 
     invoke-virtual {p2, p1}, Lchangyow/ble4th/WorkoutStatus;->setBleHrBeltValue(I)V
 
-    .line 766
+    .line 799
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p2
@@ -1665,7 +1669,7 @@
 
     goto :goto_0
 
-    .line 768
+    .line 801
     :cond_8
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getService()Landroid/bluetooth/BluetoothGattService;
 
@@ -1691,7 +1695,7 @@
 
     if-eqz v0, :cond_9
 
-    .line 769
+    .line 802
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
 
     move-result-object p1
@@ -1712,7 +1716,7 @@
 
     if-eqz p1, :cond_9
 
-    .line 771
+    .line 804
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object p1
@@ -1731,7 +1735,7 @@
 .method public bridge synthetic connect(Lno/nordicsemi/android/ble/observer/ConnectionObserver;)V
     .locals 0
 
-    .line 61
+    .line 63
     invoke-super {p0, p1}, Lchangyow/ble4th/BasePeripheral;->connect(Lno/nordicsemi/android/ble/observer/ConnectionObserver;)V
 
     return-void
@@ -1740,7 +1744,7 @@
 .method protected consumeCommand(Lchangyow/ble4th/handler/CommandHandler;)V
     .locals 2
 
-    .line 934
+    .line 967
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->size()I
@@ -1751,7 +1755,7 @@
 
     return-void
 
-    .line 937
+    .line 970
     :cond_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -1769,20 +1773,20 @@
 
     goto :goto_0
 
-    .line 942
+    .line 975
     :cond_1
     instance-of v1, v0, Lchangyow/ble4th/handler/ibiking/IBAskWheelCmd;
 
     if-eqz v1, :cond_2
 
-    .line 943
+    .line 976
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 944
+    .line 977
     :cond_2
     invoke-virtual {p1}, Lchangyow/ble4th/handler/CommandHandler;->getResponseCode()B
 
@@ -1794,7 +1798,7 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 945
+    .line 978
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
@@ -1804,10 +1808,19 @@
     return-void
 .end method
 
+.method public decreaseIncline()V
+    .locals 0
+
+    .line 554
+    invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->decreaseLevel()V
+
+    return-void
+.end method
+
 .method public decreaseLevel()V
     .locals 2
 
-    .line 528
+    .line 535
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1820,7 +1833,7 @@
 
     if-le v0, v1, :cond_0
 
-    .line 529
+    .line 536
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1840,7 +1853,7 @@
 .method public bridge synthetic getAddress()Ljava/lang/String;
     .locals 1
 
-    .line 61
+    .line 63
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->getAddress()Ljava/lang/String;
 
     move-result-object v0
@@ -1851,7 +1864,7 @@
 .method public getFirmwareRevisionString()Ljava/lang/String;
     .locals 1
 
-    .line 1006
+    .line 1047
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mFirmwareRevisionString:Ljava/lang/String;
 
     return-object v0
@@ -1860,7 +1873,7 @@
 .method protected getGattCallback()Lno/nordicsemi/android/ble/BleManager$BleManagerGattCallback;
     .locals 2
 
-    .line 114
+    .line 116
     new-instance v0, Lchangyow/ble4th/BLEPeripheral$BLEPeripheralBleManagerGattCallback;
 
     const/4 v1, 0x0
@@ -1873,16 +1886,25 @@
 .method public getHardwareRevisionString()Ljava/lang/String;
     .locals 1
 
-    .line 1001
+    .line 1042
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mHardwareRevisionString:Ljava/lang/String;
 
     return-object v0
 .end method
 
+.method public getLimits()V
+    .locals 0
+
+    .line 512
+    invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->getMaxResistanceLevel()V
+
+    return-void
+.end method
+
 .method public getMaxResistanceLevel()V
     .locals 1
 
-    .line 490
+    .line 492
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -1893,15 +1915,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 492
+    .line 494
     new-instance v0, Lchangyow/ble4th/handler/ibiking/IBGetPulseStateCmd;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/ibiking/IBGetPulseStateCmd;-><init>()V
 
-    .line 494
+    .line 496
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 496
+    .line 498
     :cond_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
@@ -1911,10 +1933,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 498
+    .line 500
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 500
+    .line 502
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1926,12 +1948,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 502
+    .line 504
     new-instance v0, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/lateral/LMGetLimitCmd;-><init>()V
 
-    .line 504
+    .line 506
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_2
@@ -1941,7 +1963,7 @@
 .method public bridge synthetic getName()Ljava/lang/String;
     .locals 1
 
-    .line 61
+    .line 63
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -1949,10 +1971,16 @@
     return-object v0
 .end method
 
+.method public getOperator()Lchangyow/ble4th/operator/BaseOperator;
+    .locals 0
+
+    return-object p0
+.end method
+
 .method public bridge synthetic getPeripheralState()I
     .locals 1
 
-    .line 61
+    .line 63
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->getPeripheralState()I
 
     move-result v0
@@ -1963,7 +1991,7 @@
 .method public bridge synthetic getScanResult()Lno/nordicsemi/android/support/v18/scanner/ScanResult;
     .locals 1
 
-    .line 61
+    .line 63
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->getScanResult()Lno/nordicsemi/android/support/v18/scanner/ScanResult;
 
     move-result-object v0
@@ -1974,7 +2002,7 @@
 .method public getWokroutStatus()V
     .locals 1
 
-    .line 583
+    .line 616
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->getWokroutStatus()Lchangyow/ble4th/handler/CommandHandler;
@@ -1983,10 +2011,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 585
+    .line 618
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 587
+    .line 620
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -1998,12 +2026,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 589
+    .line 622
     new-instance v0, Lchangyow/ble4th/handler/ski/SKGetWorkoutStatus2;
 
     invoke-direct {v0}, Lchangyow/ble4th/handler/ski/SKGetWorkoutStatus2;-><init>()V
 
-    .line 591
+    .line 624
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_1
@@ -2013,17 +2041,17 @@
 .method protected handleResponse(Lokio/Buffer;)I
     .locals 11
 
-    .line 906
+    .line 939
     new-instance v6, Lokio/Buffer;
 
     invoke-direct {v6}, Lokio/Buffer;-><init>()V
 
-    .line 909
+    .line 942
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v7
 
-    .line 911
+    .line 944
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -2046,10 +2074,10 @@
 
     check-cast v9, Lchangyow/ble4th/handler/CommandHandler;
 
-    .line 913
+    .line 946
     invoke-virtual {v6}, Lokio/Buffer;->clear()V
 
-    .line 914
+    .line 947
     invoke-virtual {v9}, Lchangyow/ble4th/handler/CommandHandler;->getResponseLength()I
 
     move-result v10
@@ -2062,7 +2090,7 @@
 
     goto :goto_0
 
-    .line 918
+    .line 951
     :cond_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
@@ -2072,24 +2100,24 @@
 
     invoke-virtual/range {v0 .. v5}, Lokio/Buffer;->copyTo(Lokio/Buffer;JJ)Lokio/Buffer;
 
-    .line 919
+    .line 952
     invoke-virtual {v6}, Lokio/Buffer;->readByteArray()[B
 
     move-result-object v0
 
-    .line 921
+    .line 954
     invoke-virtual {v9, v0}, Lchangyow/ble4th/handler/CommandHandler;->isExpectedData([B)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 923
+    .line 956
     iget-object p1, p0, Lchangyow/ble4th/BLEPeripheral;->mListener:Lchangyow/ble4th/BLEPeripheralListener;
 
     invoke-virtual {v9, v0, p0, p1}, Lchangyow/ble4th/handler/CommandHandler;->handleReceivedData([BLchangyow/ble4th/BLEPeripheral;Lchangyow/ble4th/BLEPeripheralListener;)V
 
-    .line 924
+    .line 957
     invoke-virtual {p0, v9}, Lchangyow/ble4th/BLEPeripheral;->consumeCommand(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return v10
@@ -2103,12 +2131,12 @@
 .method public hasService(Ljava/lang/String;)Z
     .locals 5
 
-    .line 214
+    .line 216
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 216
+    .line 218
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mBluetoothGatt:Landroid/bluetooth/BluetoothGatt;
 
     const/4 v1, 0x1
@@ -2117,14 +2145,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 218
+    .line 220
     invoke-virtual {v0}, Landroid/bluetooth/BluetoothGatt;->getServices()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 221
+    .line 223
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2142,7 +2170,7 @@
 
     check-cast v3, Landroid/bluetooth/BluetoothGattService;
 
-    .line 223
+    .line 225
     invoke-virtual {v3}, Landroid/bluetooth/BluetoothGattService;->getUuid()Ljava/util/UUID;
 
     move-result-object v3
@@ -2161,7 +2189,7 @@
 
     move-result-object v3
 
-    .line 224
+    .line 226
     invoke-virtual {v3, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -2170,7 +2198,7 @@
 
     return v1
 
-    .line 229
+    .line 231
     :cond_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mScanResult:Lno/nordicsemi/android/support/v18/scanner/ScanResult;
 
@@ -2180,7 +2208,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 231
+    .line 233
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mScanResult:Lno/nordicsemi/android/support/v18/scanner/ScanResult;
 
     invoke-virtual {v0}, Lno/nordicsemi/android/support/v18/scanner/ScanResult;->getScanRecord()Lno/nordicsemi/android/support/v18/scanner/ScanRecord;
@@ -2193,7 +2221,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 233
+    .line 235
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2211,7 +2239,7 @@
 
     check-cast v3, Landroid/os/ParcelUuid;
 
-    .line 234
+    .line 236
     invoke-virtual {v3}, Landroid/os/ParcelUuid;->getUuid()Ljava/util/UUID;
 
     move-result-object v3
@@ -2232,10 +2260,19 @@
     return v2
 .end method
 
+.method public increaseIncline()V
+    .locals 0
+
+    .line 548
+    invoke-virtual {p0}, Lchangyow/ble4th/BLEPeripheral;->increaseLevel()V
+
+    return-void
+.end method
+
 .method public increaseLevel()V
     .locals 2
 
-    .line 522
+    .line 529
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2254,7 +2291,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 523
+    .line 530
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2274,7 +2311,7 @@
 .method public bridge synthetic isInitialized()Z
     .locals 1
 
-    .line 61
+    .line 63
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->isInitialized()Z
 
     move-result v0
@@ -2285,7 +2322,7 @@
 .method protected parseCommand(Lokio/Buffer;)V
     .locals 5
 
-    .line 802
+    .line 835
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2297,7 +2334,7 @@
 
     if-ltz v2, :cond_3
 
-    .line 806
+    .line 839
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->handleResponse(Lokio/Buffer;)I
 
     move-result v2
@@ -2306,7 +2343,7 @@
 
     int-to-long v0, v2
 
-    .line 811
+    .line 844
     :try_start_0
     invoke-virtual {p1, v0, v1}, Lokio/Buffer;->skip(J)V
 
@@ -2315,7 +2352,7 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 815
+    .line 848
     iget-object v3, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v3}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -2336,7 +2373,7 @@
 
     check-cast v4, Lchangyow/ble4th/handler/CommandHandler;
 
-    .line 817
+    .line 850
     invoke-virtual {v4}, Lchangyow/ble4th/handler/CommandHandler;->getResponseLength()I
 
     move-result v4
@@ -2356,7 +2393,7 @@
 
     const-wide/16 v0, 0x1
 
-    .line 823
+    .line 856
     invoke-virtual {p1, v0, v1}, Lokio/Buffer;->skip(J)V
     :try_end_0
     .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_0
@@ -2366,14 +2403,14 @@
     :catch_0
     move-exception v0
 
-    .line 830
+    .line 863
     invoke-virtual {v0}, Ljava/io/EOFException;->printStackTrace()V
 
-    .line 833
+    .line 866
     :goto_2
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->seekStarter(Lokio/Buffer;)V
 
-    .line 834
+    .line 867
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2389,7 +2426,7 @@
 
     const/4 v0, 0x2
 
-    .line 565
+    .line 598
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void
@@ -2398,12 +2435,12 @@
 .method public prepareCommandHandler()V
     .locals 2
 
-    .line 950
+    .line 983
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
-    .line 951
+    .line 984
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/AckCmd;
@@ -2412,7 +2449,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 954
+    .line 987
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2421,7 +2458,7 @@
 
     move-result v0
 
-    if-nez v0, :cond_9
+    if-nez v0, :cond_a
 
     iget v0, p0, Lchangyow/ble4th/BLEPeripheral;->iFoundService:I
 
@@ -2431,7 +2468,7 @@
 
     goto/16 :goto_0
 
-    .line 958
+    .line 991
     :cond_0
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2443,7 +2480,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 960
+    .line 993
     new-instance v0, Lchangyow/ble4th/provider/IConsoleCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/IConsoleCmdProvider;-><init>()V
@@ -2452,7 +2489,7 @@
 
     goto/16 :goto_1
 
-    .line 962
+    .line 995
     :cond_1
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
@@ -2464,7 +2501,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 964
+    .line 997
     new-instance v0, Lchangyow/ble4th/provider/TreadmillCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/TreadmillCmdProvider;-><init>()V
@@ -2473,8 +2510,29 @@
 
     goto/16 :goto_1
 
-    .line 966
+    .line 999
     :cond_2
+    invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lchangyow/ble4th/WorkoutStatus;->isTreadmillD5()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    .line 1001
+    new-instance v0, Lchangyow/ble4th/provider/TreadmillD5CmdProvider;
+
+    invoke-direct {v0}, Lchangyow/ble4th/provider/TreadmillD5CmdProvider;-><init>()V
+
+    iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
+
+    goto/16 :goto_1
+
+    .line 1003
+    :cond_3
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2483,9 +2541,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
-    .line 968
+    .line 1005
     new-instance v0, Lchangyow/ble4th/provider/RowerCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/RowerCmdProvider;-><init>()V
@@ -2494,8 +2552,8 @@
 
     goto/16 :goto_1
 
-    .line 970
-    :cond_3
+    .line 1007
+    :cond_4
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2504,9 +2562,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_5
 
-    .line 972
+    .line 1009
     new-instance v0, Lchangyow/ble4th/provider/IBikingCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/IBikingCmdProvider;-><init>()V
@@ -2515,8 +2573,8 @@
 
     goto :goto_1
 
-    .line 974
-    :cond_4
+    .line 1011
+    :cond_5
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2525,9 +2583,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_6
 
-    .line 976
+    .line 1013
     new-instance v0, Lchangyow/ble4th/provider/RollerWheelCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/RollerWheelCmdProvider;-><init>()V
@@ -2536,8 +2594,8 @@
 
     goto :goto_1
 
-    .line 978
-    :cond_5
+    .line 1015
+    :cond_6
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2546,9 +2604,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_6
+    if-eqz v0, :cond_7
 
-    .line 980
+    .line 1017
     new-instance v0, Lchangyow/ble4th/provider/LateralCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/LateralCmdProvider;-><init>()V
@@ -2557,8 +2615,8 @@
 
     goto :goto_1
 
-    .line 982
-    :cond_6
+    .line 1019
+    :cond_7
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2567,9 +2625,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_7
+    if-eqz v0, :cond_8
 
-    .line 984
+    .line 1021
     new-instance v0, Lchangyow/ble4th/provider/CurveTreadmillCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/CurveTreadmillCmdProvider;-><init>()V
@@ -2578,8 +2636,8 @@
 
     goto :goto_1
 
-    .line 986
-    :cond_7
+    .line 1023
+    :cond_8
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2588,9 +2646,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_9
 
-    .line 988
+    .line 1025
     new-instance v0, Lchangyow/ble4th/provider/SkiCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/SkiCmdProvider;-><init>()V
@@ -2599,8 +2657,8 @@
 
     goto :goto_1
 
-    .line 990
-    :cond_8
+    .line 1027
+    :cond_9
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -2609,9 +2667,9 @@
 
     move-result v0
 
-    if-eqz v0, :cond_a
+    if-eqz v0, :cond_b
 
-    .line 992
+    .line 1029
     new-instance v0, Lchangyow/ble4th/provider/ManualBikeWithWattCmdProvider;
 
     invoke-direct {v0}, Lchangyow/ble4th/provider/ManualBikeWithWattCmdProvider;-><init>()V
@@ -2620,8 +2678,8 @@
 
     goto :goto_1
 
-    .line 956
-    :cond_9
+    .line 989
+    :cond_a
     :goto_0
     new-instance v0, Lchangyow/ble4th/provider/StepCounterCmdProvider;
 
@@ -2629,14 +2687,14 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
-    .line 995
-    :cond_a
+    .line 1032
+    :cond_b
     :goto_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_c
 
-    .line 996
+    .line 1033
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Lchangyow/ble4th/provider/CmdProvider;->handlers()Ljava/util/List;
@@ -2645,19 +2703,19 @@
 
     invoke-virtual {v1, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->addAll(Ljava/util/Collection;)Z
 
-    :cond_b
+    :cond_c
     return-void
 .end method
 
 .method protected processNotifyData()V
     .locals 3
 
-    .line 840
+    .line 873
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     monitor-enter v0
 
-    .line 842
+    .line 875
     :try_start_0
     iget-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
@@ -2674,30 +2732,30 @@
     :cond_0
     move v1, v2
 
-    .line 843
+    .line 876
     :goto_0
     iput-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 846
+    .line 879
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 848
+    .line 881
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->parseCommand(Lokio/Buffer;)V
 
-    .line 850
+    .line 883
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     monitor-enter v1
 
-    .line 852
+    .line 885
     :try_start_1
     iput-boolean v2, p0, Lchangyow/ble4th/BLEPeripheral;->bNotifyLock:Z
 
-    .line 853
+    .line 886
     monitor-exit v1
 
     return-void
@@ -2711,7 +2769,7 @@
 
     throw v0
 
-    .line 845
+    .line 878
     :cond_1
     :try_start_2
     monitor-exit v0
@@ -2721,7 +2779,7 @@
     :catchall_1
     move-exception v1
 
-    .line 846
+    .line 879
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -2732,12 +2790,12 @@
 .method protected processReadData()V
     .locals 3
 
-    .line 858
+    .line 891
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     monitor-enter v0
 
-    .line 860
+    .line 893
     :try_start_0
     iget-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
@@ -2754,30 +2812,30 @@
     :cond_0
     move v1, v2
 
-    .line 861
+    .line 894
     :goto_0
     iput-boolean v1, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 864
+    .line 897
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 866
+    .line 899
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->parseCommand(Lokio/Buffer;)V
 
-    .line 868
+    .line 901
     iget-object v1, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     monitor-enter v1
 
-    .line 870
+    .line 903
     :try_start_1
     iput-boolean v2, p0, Lchangyow/ble4th/BLEPeripheral;->bReadLock:Z
 
-    .line 871
+    .line 904
     monitor-exit v1
 
     return-void
@@ -2791,7 +2849,7 @@
 
     throw v0
 
-    .line 863
+    .line 896
     :cond_1
     :try_start_2
     monitor-exit v0
@@ -2801,7 +2859,7 @@
     :catchall_1
     move-exception v1
 
-    .line 864
+    .line 897
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -2812,24 +2870,24 @@
 .method protected reset()V
     .locals 2
 
-    .line 697
+    .line 730
     invoke-super {p0}, Lchangyow/ble4th/BasePeripheral;->reset()V
 
-    .line 698
+    .line 731
     monitor-enter p0
 
-    .line 700
+    .line 733
     :try_start_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
     if-eqz v0, :cond_0
 
-    .line 701
+    .line 734
     invoke-virtual {v0}, Lokio/Buffer;->clear()V
 
     goto :goto_0
 
-    .line 703
+    .line 736
     :cond_0
     new-instance v0, Lokio/Buffer;
 
@@ -2837,18 +2895,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mReadBuffer:Lokio/Buffer;
 
-    .line 704
+    .line 737
     :goto_0
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
     if-eqz v0, :cond_1
 
-    .line 705
+    .line 738
     invoke-virtual {v0}, Lokio/Buffer;->clear()V
 
     goto :goto_1
 
-    .line 706
+    .line 739
     :cond_1
     new-instance v0, Lokio/Buffer;
 
@@ -2856,18 +2914,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mNotifyBuffer:Lokio/Buffer;
 
-    .line 707
+    .line 740
     :goto_1
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-eqz v0, :cond_2
 
-    .line 708
+    .line 741
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
     goto :goto_2
 
-    .line 709
+    .line 742
     :cond_2
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2875,18 +2933,18 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 711
+    .line 744
     :goto_2
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-eqz v0, :cond_3
 
-    .line 712
+    .line 745
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
     goto :goto_3
 
-    .line 714
+    .line 747
     :cond_3
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2894,7 +2952,7 @@
 
     iput-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 716
+    .line 749
     :goto_3
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -2904,7 +2962,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 717
+    .line 750
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/step_counter/SCAckCmd;
@@ -2913,7 +2971,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 718
+    .line 751
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/iconsole/ICClientIDNotify;
@@ -2922,7 +2980,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 719
+    .line 752
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandHandlers:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     new-instance v1, Lchangyow/ble4th/handler/roller_wheel/RWClientIDNotify;
@@ -2931,7 +2989,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 720
+    .line 753
     monitor-exit p0
 
     return-void
@@ -2949,7 +3007,7 @@
 .method protected seekStarter(Lokio/Buffer;)V
     .locals 10
 
-    .line 877
+    .line 910
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -2967,7 +3025,7 @@
 
     const/16 v6, -0x10
 
-    .line 880
+    .line 913
     invoke-virtual {p1, v4, v5}, Lokio/Buffer;->getByte(J)B
 
     move-result v9
@@ -2991,7 +3049,7 @@
 
     if-nez v0, :cond_2
 
-    .line 889
+    .line 922
     invoke-virtual {p1}, Lokio/Buffer;->clear()V
 
     goto :goto_2
@@ -3001,7 +3059,7 @@
 
     if-lez v0, :cond_3
 
-    .line 895
+    .line 928
     :try_start_0
     invoke-virtual {p1, v4, v5}, Lokio/Buffer;->skip(J)V
     :try_end_0
@@ -3013,10 +3071,19 @@
     return-void
 .end method
 
+.method public setIncline(I)V
+    .locals 0
+
+    .line 542
+    invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->setResistanceLevel(I)V
+
+    return-void
+.end method
+
 .method public bridge synthetic setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
     .locals 0
 
-    .line 61
+    .line 63
     invoke-super {p0, p1}, Lchangyow/ble4th/BasePeripheral;->setListener(Lchangyow/ble4th/BLEPeripheralListener;)V
 
     return-void
@@ -3036,37 +3103,37 @@
         }
     .end annotation
 
-    .line 654
+    .line 687
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 655
+    .line 688
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 656
+    .line 689
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 657
+    .line 690
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 658
+    .line 691
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 660
+    .line 693
     div-int/lit8 v5, p1, 0x14
 
     const/16 v6, 0x14
 
-    .line 661
+    .line 694
     rem-int/2addr p1, v6
 
     const/4 v7, 0x0
@@ -3076,7 +3143,7 @@
 
     if-ge v7, v8, :cond_0
 
-    .line 665
+    .line 698
     invoke-interface {p2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -3085,14 +3152,14 @@
 
     invoke-virtual {v2, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 667
+    .line 700
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
 
     invoke-virtual {v0, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 668
+    .line 701
     invoke-interface {p3, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -3109,7 +3176,7 @@
     :goto_1
     if-ge v8, v6, :cond_2
 
-    .line 673
+    .line 706
     invoke-interface {p2, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -3124,7 +3191,7 @@
 
     add-int v7, v5, p1
 
-    .line 676
+    .line 709
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -3133,7 +3200,7 @@
 
     goto :goto_2
 
-    .line 678
+    .line 711
     :cond_1
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3141,7 +3208,7 @@
 
     invoke-virtual {v1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 679
+    .line 712
     :goto_2
     invoke-interface {p3, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -3155,45 +3222,45 @@
 
     goto :goto_1
 
-    .line 682
+    .line 715
     :cond_2
     new-instance p1, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;
 
     invoke-direct {p1, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;-><init>(Ljava/util/List;)V
 
-    .line 683
+    .line 716
     new-instance p2, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;
 
     invoke-direct {p2, v1}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;-><init>(Ljava/util/List;)V
 
-    .line 684
+    .line 717
     new-instance p3, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;
 
     invoke-direct {p3, v3}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;-><init>(Ljava/util/List;)V
 
-    .line 685
+    .line 718
     new-instance v0, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;
 
     invoke-direct {v0, v4}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;-><init>(Ljava/util/List;)V
 
-    .line 686
+    .line 719
     new-instance v1, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;
 
     invoke-direct {v1, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;-><init>(Ljava/util/List;)V
 
-    .line 688
+    .line 721
     invoke-virtual {p0, p3}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 689
+    .line 722
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 690
+    .line 723
     invoke-virtual {p0, v1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 691
+    .line 724
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 692
+    .line 725
     invoke-virtual {p0, p2}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3202,7 +3269,7 @@
 .method public setResistanceLevel(I)V
     .locals 1
 
-    .line 515
+    .line 522
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setResistanceLevel(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3211,8 +3278,36 @@
 
     if-eqz p1, :cond_0
 
-    .line 517
+    .line 524
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public setSpeed(D)V
+    .locals 2
+
+    .line 560
+    invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lchangyow/ble4th/WorkoutStatus;->availableSpeed(D)D
+
+    move-result-wide p1
+
+    .line 561
+    iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
+
+    instance-of v1, v0, Lchangyow/ble4th/provider/TreadmillD5CmdProvider;
+
+    if-eqz v1, :cond_0
+
+    .line 562
+    check-cast v0, Lchangyow/ble4th/provider/TreadmillD5CmdProvider;
+
+    invoke-virtual {v0, p1, p2}, Lchangyow/ble4th/provider/TreadmillD5CmdProvider;->setSpeed(D)Lchangyow/ble4th/handler/CommandHandler;
 
     :cond_0
     return-void
@@ -3221,7 +3316,7 @@
 .method public setTMIntervalProgram(IIIIDD)V
     .locals 5
 
-    .line 620
+    .line 653
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3234,18 +3329,18 @@
 
     return-void
 
-    .line 623
+    .line 656
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 624
+    .line 657
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 625
+    .line 658
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -3257,42 +3352,42 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 629
+    .line 662
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p3}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 630
+    .line 663
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p4}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 632
+    .line 665
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p1}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 633
+    .line 666
     new-instance v4, Ljava/lang/Integer;
 
     invoke-direct {v4, p2}, Ljava/lang/Integer;-><init>(I)V
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 635
+    .line 668
     new-instance v4, Ljava/lang/Double;
 
     invoke-direct {v4, p5, p6}, Ljava/lang/Double;-><init>(D)V
 
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 636
+    .line 669
     new-instance v4, Ljava/lang/Double;
 
     invoke-direct {v4, p7, p8}, Ljava/lang/Double;-><init>(D)V
@@ -3303,45 +3398,45 @@
 
     goto :goto_0
 
-    .line 639
+    .line 672
     :cond_1
     new-instance p1, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;
 
     invoke-direct {p1, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration1;-><init>(Ljava/util/List;)V
 
-    .line 640
+    .line 673
     new-instance p2, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;
 
     invoke-direct {p2, v0}, Lchangyow/ble4th/handler/treadmill/TMSetProgramDuration2;-><init>(Ljava/util/List;)V
 
-    .line 641
+    .line 674
     new-instance p3, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;
 
     invoke-direct {p3, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed1;-><init>(Ljava/util/List;)V
 
-    .line 642
+    .line 675
     new-instance p4, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;
 
     invoke-direct {p4, v2}, Lchangyow/ble4th/handler/treadmill/TMSetProgramSpeed2;-><init>(Ljava/util/List;)V
 
-    .line 643
+    .line 676
     new-instance p5, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;
 
     invoke-direct {p5, v1}, Lchangyow/ble4th/handler/treadmill/TMSetProgramIncline;-><init>(Ljava/util/List;)V
 
-    .line 645
+    .line 678
     invoke-virtual {p0, p3}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 646
+    .line 679
     invoke-virtual {p0, p4}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 647
+    .line 680
     invoke-virtual {p0, p5}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 648
+    .line 681
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
-    .line 649
+    .line 682
     invoke-virtual {p0, p2}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3350,7 +3445,7 @@
 .method public setTMKeyLock(I)V
     .locals 1
 
-    .line 611
+    .line 644
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3363,13 +3458,13 @@
 
     return-void
 
-    .line 614
+    .line 647
     :cond_0
     new-instance v0, Lchangyow/ble4th/handler/treadmill/TMSetKeyLock;
 
     invoke-direct {v0, p1}, Lchangyow/ble4th/handler/treadmill/TMSetKeyLock;-><init>(I)V
 
-    .line 615
+    .line 648
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     return-void
@@ -3378,7 +3473,7 @@
 .method public setWorkoutControlState(I)V
     .locals 1
 
-    .line 540
+    .line 573
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setWorkoutControlState(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3387,7 +3482,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 542
+    .line 575
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3397,7 +3492,7 @@
 .method public setWorkoutMode(I)V
     .locals 1
 
-    .line 597
+    .line 630
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     invoke-virtual {v0, p1}, Lchangyow/ble4th/provider/CmdProvider;->setWorkoutMode(I)Lchangyow/ble4th/handler/CommandHandler;
@@ -3406,7 +3501,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 599
+    .line 632
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3416,7 +3511,7 @@
 .method public setWorkoutParam(IDIID)V
     .locals 8
 
-    .line 604
+    .line 637
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCmdProvider:Lchangyow/ble4th/provider/CmdProvider;
 
     move v1, p1
@@ -3435,7 +3530,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 606
+    .line 639
     invoke-virtual {p0, p1}, Lchangyow/ble4th/BLEPeripheral;->writeValue(Lchangyow/ble4th/handler/CommandHandler;)V
 
     :cond_0
@@ -3447,7 +3542,7 @@
 
     const/4 v0, 0x1
 
-    .line 573
+    .line 606
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void
@@ -3458,10 +3553,10 @@
 
     const/4 v0, 0x0
 
-    .line 550
+    .line 583
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
-    .line 551
+    .line 584
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3472,7 +3567,7 @@
 
     if-nez v0, :cond_0
 
-    .line 552
+    .line 585
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3483,7 +3578,7 @@
 
     if-nez v0, :cond_0
 
-    .line 553
+    .line 586
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3494,7 +3589,7 @@
 
     if-nez v0, :cond_0
 
-    .line 554
+    .line 587
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3505,7 +3600,7 @@
 
     if-nez v0, :cond_0
 
-    .line 555
+    .line 588
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3516,7 +3611,7 @@
 
     if-nez v0, :cond_0
 
-    .line 556
+    .line 589
     invoke-static {}, Lchangyow/ble4th/WorkoutStatus;->getInstance()Lchangyow/ble4th/WorkoutStatus;
 
     move-result-object v0
@@ -3530,7 +3625,7 @@
     :cond_0
     const/4 v0, 0x3
 
-    .line 557
+    .line 590
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     :cond_1
@@ -3542,7 +3637,7 @@
 
     const/4 v0, 0x3
 
-    .line 578
+    .line 611
     invoke-virtual {p0, v0}, Lchangyow/ble4th/BLEPeripheral;->setWorkoutControlState(I)V
 
     return-void
@@ -3553,7 +3648,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 413
+    .line 415
     iget-object v0, p0, Lchangyow/ble4th/BLEPeripheral;->mCommandPool:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z

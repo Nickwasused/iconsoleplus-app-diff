@@ -3,18 +3,29 @@
 .source "GnssStatusWrapper.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/core/location/GnssStatusWrapper$Api30Impl;,
+        Landroidx/core/location/GnssStatusWrapper$Api26Impl;
+    }
+.end annotation
+
+
 # instance fields
 .field private final mWrapped:Landroid/location/GnssStatus;
 
 
 # direct methods
-.method constructor <init>(Landroid/location/GnssStatus;)V
+.method constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
     .line 37
     invoke-direct {p0}, Landroidx/core/location/GnssStatusCompat;-><init>()V
 
     .line 38
+    check-cast p1, Landroid/location/GnssStatus;
+
     invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -89,7 +100,7 @@
     .line 116
     iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
-    invoke-virtual {v0, p1}, Landroid/location/GnssStatus;->getBasebandCn0DbHz(I)F
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;->getBasebandCn0DbHz(Landroid/location/GnssStatus;I)F
 
     move-result p1
 
@@ -117,7 +128,7 @@
     .line 98
     iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
-    invoke-virtual {v0, p1}, Landroid/location/GnssStatus;->getCarrierFrequencyHz(I)F
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;->getCarrierFrequencyHz(Landroid/location/GnssStatus;I)F
 
     move-result p1
 
@@ -223,7 +234,7 @@
     .line 107
     iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
-    invoke-virtual {v0, p1}, Landroid/location/GnssStatus;->hasBasebandCn0DbHz(I)Z
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;->hasBasebandCn0DbHz(Landroid/location/GnssStatus;I)Z
 
     move-result p1
 
@@ -248,7 +259,7 @@
     .line 89
     iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
-    invoke-virtual {v0, p1}, Landroid/location/GnssStatus;->hasCarrierFrequencyHz(I)Z
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;->hasCarrierFrequencyHz(Landroid/location/GnssStatus;I)Z
 
     move-result p1
 

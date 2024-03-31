@@ -51,7 +51,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -62,7 +62,7 @@
 .method public static final component1(J)F
     .locals 0
 
-    .line 229
+    .line 239
     invoke-static {p0, p1}, Landroid/graphics/Color;->red(J)F
 
     move-result p0
@@ -79,7 +79,7 @@
 
     const/4 v0, 0x0
 
-    .line 39
+    .line 41
     invoke-virtual {p0, v0}, Landroid/graphics/Color;->getComponent(I)F
 
     move-result p0
@@ -100,7 +100,7 @@
 .method public static final component2(J)F
     .locals 0
 
-    .line 243
+    .line 254
     invoke-static {p0, p1}, Landroid/graphics/Color;->green(J)F
 
     move-result p0
@@ -117,7 +117,7 @@
 
     const/4 v0, 0x1
 
-    .line 53
+    .line 56
     invoke-virtual {p0, v0}, Landroid/graphics/Color;->getComponent(I)F
 
     move-result p0
@@ -138,7 +138,7 @@
 .method public static final component3(J)F
     .locals 0
 
-    .line 257
+    .line 269
     invoke-static {p0, p1}, Landroid/graphics/Color;->blue(J)F
 
     move-result p0
@@ -155,7 +155,7 @@
 
     const/4 v0, 0x2
 
-    .line 67
+    .line 71
     invoke-virtual {p0, v0}, Landroid/graphics/Color;->getComponent(I)F
 
     move-result p0
@@ -176,7 +176,7 @@
 .method public static final component4(J)F
     .locals 0
 
-    .line 271
+    .line 284
     invoke-static {p0, p1}, Landroid/graphics/Color;->alpha(J)F
 
     move-result p0
@@ -193,7 +193,7 @@
 
     const/4 v0, 0x3
 
-    .line 81
+    .line 86
     invoke-virtual {p0, v0}, Landroid/graphics/Color;->getComponent(I)F
 
     move-result p0
@@ -216,7 +216,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 365
+    .line 389
     invoke-static {p1}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
@@ -235,7 +235,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 377
+    .line 402
     invoke-static {p0, p1}, Landroid/graphics/Color;->convert(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
@@ -250,7 +250,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 389
+    .line 415
     invoke-static {p2}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p2
@@ -269,7 +269,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 401
+    .line 428
     invoke-static {p0, p1, p2}, Landroid/graphics/Color;->convert(JLandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
@@ -288,7 +288,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 412
+    .line 440
     invoke-static {p1}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
@@ -315,7 +315,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 422
+    .line 451
     invoke-virtual {p0, p1}, Landroid/graphics/Color;->convert(Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     move-result-object p0
@@ -330,7 +330,7 @@
 .method public static final getAlpha(J)F
     .locals 0
 
-    .line 281
+    .line 295
     invoke-static {p0, p1}, Landroid/graphics/Color;->alpha(J)F
 
     move-result p0
@@ -351,7 +351,7 @@
 .method public static final getBlue(J)F
     .locals 0
 
-    .line 311
+    .line 328
     invoke-static {p0, p1}, Landroid/graphics/Color;->blue(J)F
 
     move-result p0
@@ -370,7 +370,7 @@
 .method public static final getColorSpace(J)Landroid/graphics/ColorSpace;
     .locals 0
 
-    .line 353
+    .line 376
     invoke-static {p0, p1}, Landroid/graphics/Color;->colorSpace(J)Landroid/graphics/ColorSpace;
 
     move-result-object p0
@@ -385,7 +385,7 @@
 .method public static final getGreen(J)F
     .locals 0
 
-    .line 301
+    .line 317
     invoke-static {p0, p1}, Landroid/graphics/Color;->green(J)F
 
     move-result p0
@@ -406,7 +406,7 @@
 .method public static final getLuminance(I)F
     .locals 0
 
-    .line 200
+    .line 207
     invoke-static {p0}, Landroid/graphics/Color;->luminance(I)F
 
     move-result p0
@@ -417,7 +417,7 @@
 .method public static final getLuminance(J)F
     .locals 0
 
-    .line 319
+    .line 337
     invoke-static {p0, p1}, Landroid/graphics/Color;->luminance(J)F
 
     move-result p0
@@ -428,7 +428,7 @@
 .method public static final getRed(J)F
     .locals 0
 
-    .line 291
+    .line 306
     invoke-static {p0, p1}, Landroid/graphics/Color;->red(J)F
 
     move-result p0
@@ -449,7 +449,7 @@
 .method public static final isSrgb(J)Z
     .locals 0
 
-    .line 340
+    .line 361
     invoke-static {p0, p1}, Landroid/graphics/Color;->isSrgb(J)Z
 
     move-result p0
@@ -460,7 +460,7 @@
 .method public static final isWideGamut(J)Z
     .locals 0
 
-    .line 347
+    .line 369
     invoke-static {p0, p1}, Landroid/graphics/Color;->isWideGamut(J)Z
 
     move-result p0
@@ -479,7 +479,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 103
+    .line 109
     invoke-static {p1, p0}, Landroidx/core/graphics/ColorUtils;->compositeColors(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
 
     move-result-object p0
@@ -494,12 +494,12 @@
 .method public static final toColor(I)Landroid/graphics/Color;
     .locals 1
 
-    .line 207
+    .line 215
     invoke-static {p0}, Landroid/graphics/Color;->valueOf(I)Landroid/graphics/Color;
 
     move-result-object p0
 
-    const-string v0, "valueOf(this)"
+    const-string/jumbo v0, "valueOf(this)"
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -509,12 +509,12 @@
 .method public static final toColor(J)Landroid/graphics/Color;
     .locals 0
 
-    .line 325
+    .line 344
     invoke-static {p0, p1}, Landroid/graphics/Color;->valueOf(J)Landroid/graphics/Color;
 
     move-result-object p0
 
-    const-string p1, "valueOf(this)"
+    const-string/jumbo p1, "valueOf(this)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -524,7 +524,7 @@
 .method public static final toColorInt(J)I
     .locals 0
 
-    .line 332
+    .line 352
     invoke-static {p0, p1}, Landroid/graphics/Color;->toArgb(J)I
 
     move-result p0
@@ -539,7 +539,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 441
+    .line 470
     invoke-static {p0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p0
@@ -550,7 +550,7 @@
 .method public static final toColorLong(I)J
     .locals 2
 
-    .line 215
+    .line 224
     invoke-static {p0}, Landroid/graphics/Color;->pack(I)J
 
     move-result-wide v0

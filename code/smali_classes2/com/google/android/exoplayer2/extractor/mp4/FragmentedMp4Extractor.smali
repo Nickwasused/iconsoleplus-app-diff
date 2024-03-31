@@ -609,7 +609,7 @@
     :cond_1
     new-instance v6, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;
 
-    const-string/jumbo v7, "video/mp4"
+    const-string v7, "video/mp4"
 
     invoke-direct {v6, v5, v7, v4}, Lcom/google/android/exoplayer2/drm/DrmInitData$SchemeData;-><init>(Ljava/util/UUID;Ljava/lang/String;[B)V
 
@@ -5194,7 +5194,7 @@
 
     iget-object v8, v8, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
 
-    const-string/jumbo v5, "video/hevc"
+    const-string v5, "video/hevc"
 
     invoke-virtual {v5, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

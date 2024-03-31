@@ -508,7 +508,7 @@
 .method public static create(Ljava/util/UUID;Lcom/facebook/share/model/ShareContent;Z)Landroid/os/Bundle;
     .locals 1
 
-    const-string/jumbo v0, "shareContent"
+    const-string v0, "shareContent"
 
     .line 58
     invoke-static {p1, v0}, Lcom/facebook/internal/Validate;->notNull(Ljava/lang/Object;Ljava/lang/String;)V

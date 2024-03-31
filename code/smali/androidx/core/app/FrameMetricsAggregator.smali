@@ -56,7 +56,7 @@
 
 
 # instance fields
-.field private mInstance:Landroidx/core/app/FrameMetricsAggregator$FrameMetricsBaseImpl;
+.field private final mInstance:Landroidx/core/app/FrameMetricsAggregator$FrameMetricsBaseImpl;
 
 
 # direct methods

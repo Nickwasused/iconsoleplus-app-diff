@@ -923,7 +923,7 @@
     .line 358
     iget-object v4, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v5, "translationX"
+    const-string/jumbo v5, "translationX"
 
     if-nez v4, :cond_0
 
@@ -940,7 +940,7 @@
     :goto_0
     iget-object v4, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v6, "translationY"
+    const-string/jumbo v6, "translationY"
 
     if-nez v4, :cond_1
 
@@ -1448,7 +1448,7 @@
     .line 271
     iget-object v1, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v2, "translationX"
+    const-string/jumbo v2, "translationX"
 
     const/4 v3, 0x0
 
@@ -1471,7 +1471,7 @@
     :goto_0
     iget-object v1, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v4, "translationY"
+    const-string/jumbo v4, "translationY"
 
     if-nez v1, :cond_1
 
@@ -2987,7 +2987,7 @@
     .line 1427
     iget-object v2, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v3, "translationX"
+    const-string/jumbo v3, "translationX"
 
     const/4 v4, 0x0
 
@@ -3008,7 +3008,7 @@
     :goto_0
     iget-object v5, v0, Landroidx/constraintlayout/core/motion/Motion;->mAttributesMap:Ljava/util/HashMap;
 
-    const-string v6, "translationY"
+    const-string/jumbo v6, "translationY"
 
     if-nez v5, :cond_1
 

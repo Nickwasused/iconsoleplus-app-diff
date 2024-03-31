@@ -56,7 +56,7 @@
     k = 0x2
     mv = {
         0x1,
-        0x5,
+        0x7,
         0x1
     }
     xi = 0x30
@@ -197,39 +197,31 @@
 
     move-result v0
 
-    if-lez v0, :cond_1
-
     const/4 v1, 0x0
 
     :goto_0
-    add-int/lit8 v2, v1, 0x1
+    if-ge v1, v0, :cond_0
 
     .line 77
     invoke-virtual {p0, v1}, Landroid/util/SparseArray;->keyAt(I)I
 
-    move-result v3
+    move-result v2
 
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    move-result-object v3
+    move-result-object v2
 
     invoke-virtual {p0, v1}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
-    move-result-object v1
+    move-result-object v3
 
-    invoke-interface {p1, v3, v1}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-lt v2, v0, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    move v1, v2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    :cond_1
-    :goto_1
+    :cond_0
     return-void
 .end method
 
@@ -496,36 +488,28 @@
 
     move-result v0
 
-    if-lez v0, :cond_1
-
     const/4 v1, 0x0
 
     :goto_0
-    add-int/lit8 v2, v1, 0x1
+    if-ge v1, v0, :cond_0
 
     .line 96
     invoke-virtual {p1, v1}, Landroid/util/SparseArray;->keyAt(I)I
 
-    move-result v3
+    move-result v2
 
     invoke-virtual {p1, v1}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
-    move-result-object v1
+    move-result-object v3
 
     .line 72
-    invoke-virtual {p0, v3, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v2, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    if-lt v2, v0, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    move v1, v2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    :cond_1
-    :goto_1
+    :cond_0
     return-void
 .end method
 

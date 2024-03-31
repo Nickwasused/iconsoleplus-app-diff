@@ -96,7 +96,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo p2, "width and height must not be negative"
+    const-string p2, "width and height must not be negative"
 
     .line 5
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
@@ -107,7 +107,7 @@
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo p2, "url cannot be null"
+    const-string p2, "url cannot be null"
 
     .line 4
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
@@ -126,7 +126,7 @@
     .line 6
     sget-object v0, Landroid/net/Uri;->EMPTY:Landroid/net/Uri;
 
-    const-string/jumbo v1, "url"
+    const-string v1, "url"
 
     invoke-virtual {p1, v1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
@@ -148,7 +148,7 @@
 
     :catch_0
     :cond_0
-    const-string/jumbo v1, "width"
+    const-string v1, "width"
 
     const/4 v2, 0x0
 
@@ -299,7 +299,7 @@
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     :try_start_0
-    const-string/jumbo v1, "url"
+    const-string v1, "url"
 
     iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
@@ -310,7 +310,7 @@
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    const-string/jumbo v1, "width"
+    const-string v1, "width"
 
     iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 

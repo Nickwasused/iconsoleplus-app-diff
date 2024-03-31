@@ -50,7 +50,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1919
+    .line 1918
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -129,7 +129,7 @@
 
     return v1
 
-    .line 2047
+    .line 2046
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -137,7 +137,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "type needs to be >= FIRST and <= LAST, type="
+    const-string/jumbo v2, "type needs to be >= FIRST and <= LAST, type="
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -18,10 +18,21 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1084
+    .line 1089
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static escapeHtml(Ljava/lang/CharSequence;)Ljava/lang/String;
+    .locals 0
+
+    .line 1120
+    invoke-static {p0}, Landroid/text/Html;->escapeHtml(Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
 .end method
 
 .method static migrateExtraStreamToClipData(Landroid/content/Intent;Ljava/util/ArrayList;)V
@@ -38,26 +49,26 @@
 
     const-string v0, "android.intent.extra.TEXT"
 
-    .line 1088
+    .line 1096
     invoke-virtual {p0, v0}, Landroid/content/Intent;->getCharSequenceExtra(Ljava/lang/String;)Ljava/lang/CharSequence;
 
     move-result-object v0
 
     const-string v1, "android.intent.extra.HTML_TEXT"
 
-    .line 1089
+    .line 1097
     invoke-virtual {p0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 1091
+    .line 1099
     new-instance v2, Landroid/content/ClipData;
 
     const/4 v3, 0x1
 
     new-array v4, v3, [Ljava/lang/String;
 
-    .line 1092
+    .line 1100
     invoke-virtual {p0}, Landroid/content/Intent;->getType()Ljava/lang/String;
 
     move-result-object v5
@@ -68,7 +79,7 @@
 
     new-instance v5, Landroid/content/ClipData$Item;
 
-    .line 1093
+    .line 1101
     invoke-virtual {p1, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -81,7 +92,7 @@
 
     invoke-direct {v2, v7, v4, v5}, Landroid/content/ClipData;-><init>(Ljava/lang/CharSequence;[Ljava/lang/String;Landroid/content/ClipData$Item;)V
 
-    .line 1095
+    .line 1103
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v0
@@ -91,14 +102,14 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 1096
+    .line 1104
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Landroid/net/Uri;
 
-    .line 1097
+    .line 1105
     new-instance v5, Landroid/content/ClipData$Item;
 
     invoke-direct {v5, v4}, Landroid/content/ClipData$Item;-><init>(Landroid/net/Uri;)V
@@ -109,11 +120,11 @@
 
     goto :goto_0
 
-    .line 1100
+    .line 1108
     :cond_0
     invoke-virtual {p0, v2}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
 
-    .line 1101
+    .line 1109
     invoke-virtual {p0, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     return-void
@@ -124,10 +135,10 @@
 
     const/4 v0, 0x0
 
-    .line 1105
+    .line 1114
     invoke-virtual {p0, v0}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
 
-    .line 1106
+    .line 1115
     invoke-virtual {p0}, Landroid/content/Intent;->getFlags()I
 
     move-result v0

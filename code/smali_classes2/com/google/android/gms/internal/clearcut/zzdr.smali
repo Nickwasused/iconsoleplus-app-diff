@@ -985,7 +985,7 @@
 
     move-result-object p3
 
-    const-string/jumbo v4, "value"
+    const-string v4, "value"
 
     invoke-static {p0, p2, v4, p3}, Lcom/google/android/gms/internal/clearcut/zzdr;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 

@@ -1361,7 +1361,7 @@
 
     move-result-object p0
 
-    const-string/jumbo p1, "tenc atom is mandatory"
+    const-string p1, "tenc atom is mandatory"
 
     .line 1567
     invoke-static {p0, p1}, Lcom/google/android/exoplayer2/util/Assertions;->checkStateNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -5682,11 +5682,11 @@
     :cond_2
     const v9, 0x6d317620
 
-    const-string/jumbo v11, "video/3gpp"
+    const-string v11, "video/3gpp"
 
     if-ne v10, v9, :cond_3
 
-    const-string/jumbo v9, "video/mpeg"
+    const-string v9, "video/mpeg"
 
     goto :goto_1
 
@@ -5826,7 +5826,7 @@
     :cond_9
     iget-object v1, v1, Lcom/google/android/exoplayer2/video/AvcConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v8, "video/avc"
+    const-string v8, "video/avc"
 
     goto :goto_6
 
@@ -5869,7 +5869,7 @@
     .line 1097
     iget-object v1, v1, Lcom/google/android/exoplayer2/video/HevcConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v8, "video/hevc"
+    const-string v8, "video/hevc"
 
     :goto_6
     move-object v12, v2
@@ -5913,12 +5913,12 @@
 
     if-ne v10, v1, :cond_f
 
-    const-string/jumbo v1, "video/x-vnd.on2.vp8"
+    const-string v1, "video/x-vnd.on2.vp8"
 
     goto :goto_9
 
     :cond_f
-    const-string/jumbo v1, "video/x-vnd.on2.vp9"
+    const-string v1, "video/x-vnd.on2.vp9"
 
     goto :goto_9
 
@@ -5940,7 +5940,7 @@
     :goto_8
     invoke-static {v12}, Lcom/google/android/exoplayer2/util/Assertions;->checkState(Z)V
 
-    const-string/jumbo v1, "video/av01"
+    const-string v1, "video/av01"
 
     :goto_9
     move-object v14, v1
@@ -6119,7 +6119,7 @@
     .line 1101
     iget-object v8, v1, Lcom/google/android/exoplayer2/video/DolbyVisionConfig;->codecs:Ljava/lang/String;
 
-    const-string/jumbo v14, "video/dolby-vision"
+    const-string v14, "video/dolby-vision"
 
     :cond_1f
     :goto_e

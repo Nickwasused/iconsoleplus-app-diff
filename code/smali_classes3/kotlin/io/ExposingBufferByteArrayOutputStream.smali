@@ -46,7 +46,7 @@
     .locals 2
 
     .line 99
-    iget-object v0, p0, Lkotlin/io/ExposingBufferByteArrayOutputStream;->buf:[B
+    iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     const-string v1, "buf"
 

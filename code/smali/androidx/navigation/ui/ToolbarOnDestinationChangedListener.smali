@@ -62,7 +62,7 @@
 .method public constructor <init>(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/ui/AppBarConfiguration;)V
     .locals 2
 
-    const-string v0, "toolbar"
+    const-string/jumbo v0, "toolbar"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const-string v1, "toolbar.context"
+    const-string/jumbo v1, "toolbar.context"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 

@@ -18,19 +18,19 @@
 
 .field public static final adjust_width:I = 0x7f0a0055
 
-.field public static final auto:I = 0x7f0a0065
+.field public static final auto:I = 0x7f0a0064
 
-.field public static final dark:I = 0x7f0a012e
+.field public static final dark:I = 0x7f0a012d
 
-.field public static final icon_only:I = 0x7f0a01f8
+.field public static final icon_only:I = 0x7f0a01f6
 
-.field public static final light:I = 0x7f0a02af
+.field public static final light:I = 0x7f0a02a9
 
-.field public static final none:I = 0x7f0a035a
+.field public static final none:I = 0x7f0a0354
 
-.field public static final standard:I = 0x7f0a0437
+.field public static final standard:I = 0x7f0a0431
 
-.field public static final wide:I = 0x7f0a05d4
+.field public static final wide:I = 0x7f0a05cc
 
 
 # direct methods

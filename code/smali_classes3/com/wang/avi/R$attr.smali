@@ -14,17 +14,17 @@
 
 
 # static fields
-.field public static final indicatorColor:I = 0x7f040252
+.field public static final indicatorColor:I = 0x7f04025f
 
-.field public static final indicatorName:I = 0x7f040256
+.field public static final indicatorName:I = 0x7f040263
 
-.field public static final maxHeight:I = 0x7f04033a
+.field public static final maxHeight:I = 0x7f040347
 
-.field public static final maxWidth:I = 0x7f04033f
+.field public static final maxWidth:I = 0x7f04034c
 
-.field public static final minHeight:I = 0x7f040368
+.field public static final minHeight:I = 0x7f040375
 
-.field public static final minWidth:I = 0x7f04036c
+.field public static final minWidth:I = 0x7f040379
 
 
 # direct methods

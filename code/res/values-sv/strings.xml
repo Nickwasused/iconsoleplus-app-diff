@@ -73,8 +73,6 @@
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
     <string name="copy">Kopiera</string>
-    <string name="crop_image_activity_no_permissions">Avbryter, nödvändiga behörigheter beviljas inte</string>
-    <string name="crop_image_activity_title" />
     <string name="crop_image_menu_crop">Beskär</string>
     <string name="error_icon_content_description">Fel</string>
     <string name="exo_controls_cc_disabled_description">Aktivera undertexter</string>
@@ -213,7 +211,7 @@
     <string name="nav_app_bar_open_drawer_description">Öppna navigeringspanelen</string>
     <string name="not_set">Inte angett</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
-    <string name="pick_image_intent_chooser_title">Välj bild</string>
+    <string name="pick_image_chooser_title">Välj bild</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="search_menu_title">Sök</string>
     <string name="status_bar_notification_info_overflow">999+</string>

@@ -116,7 +116,7 @@
 
 .field public static final exo_track_unknown:I = 0x7f12011b
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f12022f
+.field public static final status_bar_notification_info_overflow:I = 0x7f120237
 
 
 # direct methods

@@ -242,7 +242,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "v=%.2f,%.2f cp1=%.2f,%.2f cp2=%.2f,%.2f"
+    const-string/jumbo v1, "v=%.2f,%.2f cp1=%.2f,%.2f cp2=%.2f,%.2f"
 
     .line 88
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
